@@ -82,7 +82,7 @@ def evaluate_model(trained_model: RecommenderModel, urm_test: sp.csr_matrix, at:
 	return cum_ap / eval_count
 
 
-def train_and_test_model(model: RecommenderModel, at: int = 10, test_size: float = .2) -> RecommenderModel:
+def train_model(model: RecommenderModel, at: int = 10, test_size: float = .2, print_eval: bool = True) -> RecommenderModel:
 	"""Given a recommender model, trains it and evaluates it on test data, then returns the trained model.
 
 	:param model: The model to train, an instance of a recommender model
@@ -91,6 +91,8 @@ def train_and_test_model(model: RecommenderModel, at: int = 10, test_size: float
 	:type at: int
 	:param test_size: The test size (in [0,1]) for the train/test split
 	:type test_size: float
+	:param print_eval: Indicates if the function should print the model evaluation after training
+	:type print_eval: bool
 	:return: The fitted (trained) recommender model
 	:rtype: RecommenderModel
 	"""
@@ -99,7 +101,8 @@ def train_and_test_model(model: RecommenderModel, at: int = 10, test_size: float
 
 	model.fit(urm_train, icm)
 
-	print(f"Final evaluation of the {model.__class__.__name__} model: {evaluate_model(model, urm_test, at=at):.5f}")
+	if print_eval:
+		print(f"MAP@{at} evaluation of the {model.__class__.__name__} model: {evaluate_model(model, urm_test, at=at):.5f}")
 
 	return model
 
