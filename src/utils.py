@@ -97,7 +97,7 @@ def train_and_test_model(model: RecommenderModel, at: int = 10, test_size: float
 	urm, icm = open_dataset()
 	urm_train, urm_test = train_test_split(urm, test_size=test_size)
 
-	model.fit(urm_train)
+	model.fit(urm_train, icm)
 
 	print(f"Final evaluation of the {model.__class__.__name__} model: {evaluate_model(model, urm_test, at=at):.5f}")
 
