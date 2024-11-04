@@ -19,9 +19,8 @@ class RecommenderModel:
 def open_data() -> tuple[sp.csr_matrix, sp.csr_matrix]:
 	train = pd.read_csv("../data/data_train.csv")
 	ICM_metadata = pd.read_csv("../data/data_ICM_metadata.csv")
-	urm = sp.coo_matrix((train['data'], (train['user_id'], train['item_id']))).tocsr()
-	icm = sp.coo_matrix((ICM_metadata['data'], (ICM_metadata['item_id'], ICM_metadata['feature_id']))).tocsr()
-
+	urm = sp.csr_matrix((train['data'], (train['user_id'], train['item_id'])))
+	icm = sp.csr_matrix((ICM_metadata['data'], (ICM_metadata['item_id'], ICM_metadata['feature_id'])))
 	return urm, icm
 
 
@@ -34,7 +33,6 @@ def make_submission(trained_model: RecommenderModel, filename: str = "submission
 	recommendations = np.array([
 			trained_model.recommend(user_id) for user_id in target_users_test
 	])
-	# check if submissions folder exists
 	if not os.path.exists("../submissions"):
 		os.makedirs("../submissions")
 	with open(f"../submissions/{filename}", "w") as f:
