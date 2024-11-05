@@ -35,7 +35,7 @@ class RecommenderModel:
 		return self._exclude_seen_items(user_id, recommended_items)[:at]
 
 	def _get_recommendations_predictions(self, user_id: int) -> np.ndarray:
-		"""Gives the recommendations predictions for a given user, which are the probabilities or chances (the higher,
+		"""Gives the recommendations predictions for a given user, which are the probabilities or top-n (the higher,
 		the better) that the items should be recommended to the user. It should be overridden in some subclasses
 
 		:param user_id: ID of the user to recommend to

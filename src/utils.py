@@ -129,3 +129,19 @@ def write_submission(trained_model: RecommenderModel, filename: str = "submissio
 		f.write("user_id,item_list\n")
 		for user_id, recs in zip(target_users_test, recommendations):
 			f.write(f"{user_id},{' '.join(map(str, recs))}\n")
+
+
+def tf_idf(mat: sp.csr_matrix) -> sp.csr_matrix:
+	"""Rescales the matrix values by weighting the features of the matrix (typically the ICM) using TF-IDF
+
+	:param mat: The sparse matrix
+	:type mat: sp.csr_matrix
+	:return: The matrix rescaled by TF-IDF
+	:rtype: sp.csr_matrix
+	"""
+	mat = mat.copy()
+	df = np.asarray(mat.sum(axis=0)).ravel()
+	idf = np.log(mat.shape[0] / (df + 1))
+	mat.data = mat.data * idf[mat.tocoo().col]
+	mat.eliminate_zeros()
+	return mat
