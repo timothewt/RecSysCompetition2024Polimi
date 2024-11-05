@@ -15,8 +15,8 @@ def open_dataset() -> tuple[sp.csr_matrix, sp.csr_matrix]:
 	"""
 	train = pd.read_csv("../data/data_train.csv")
 	icm_metadata = pd.read_csv("../data/data_ICM_metadata.csv")
-	urm = sp.csr_matrix((train['data'], (train['user_id'], train['item_id'])))
-	icm = sp.csr_matrix((icm_metadata['data'], (icm_metadata['item_id'], icm_metadata['feature_id'])))
+	urm = sp.csr_matrix((train['data'], (train['user_id'], train['item_id']))).astype(np.float32)
+	icm = sp.csr_matrix((icm_metadata['data'], (icm_metadata['item_id'], icm_metadata['feature_id']))).astype(np.float32)
 	return urm, icm
 
 
@@ -35,7 +35,10 @@ def train_test_split(urm: sp.csr_matrix, test_size: float = .20) -> tuple[sp.csr
 
 	urm_coo = urm.tocoo()
 	urm_train = sp.csr_matrix((urm_coo.data[train_mask], (urm_coo.row[train_mask], urm_coo.col[train_mask])))
-	urm_test = sp.csr_matrix((urm_coo.data[test_mask], (urm_coo.row[test_mask], urm_coo.col[test_mask])))
+	if test_size > 0:
+		urm_test = sp.csr_matrix((urm_coo.data[test_mask], (urm_coo.row[test_mask], urm_coo.col[test_mask])))
+	else:
+		urm_test = sp.csr_matrix([])
 
 	return urm_train, urm_test
 
@@ -89,7 +92,8 @@ def train_model(model: RecommenderModel, at: int = 10, test_size: float = .2, pr
 	:type model: RecommenderModel
 	:param at: The number of recommendations given to each user
 	:type at: int
-	:param test_size: The test size (in [0,1]) for the train/test split
+	:param test_size: The test size (in [0,1[) for the train/test split. If set to zero, the model uses the whole
+	dataset to train and is not evaluated
 	:type test_size: float
 	:param print_eval: Indicates if the function should print the model evaluation after training
 	:type print_eval: bool
@@ -101,7 +105,7 @@ def train_model(model: RecommenderModel, at: int = 10, test_size: float = .2, pr
 
 	model.fit(urm_train, icm)
 
-	if print_eval:
+	if print_eval and test_size > 0:
 		print(f"MAP@{at} evaluation of the {model.__class__.__name__} model: {evaluate_model(model, urm_test, at=at):.5f}")
 
 	return model
