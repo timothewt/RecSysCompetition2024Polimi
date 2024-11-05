@@ -92,7 +92,7 @@ def train_model(model: RecommenderModel, at: int = 10, test_size: float = .2, pr
 	:type model: RecommenderModel
 	:param at: The number of recommendations given to each user
 	:type at: int
-	:param test_size: The test size (in [0,1[) for the train/test split. If set to zero, the model uses the whole
+	:param test_size: The test size (in [0,1]) for the train/test split. If set to zero, the model uses the whole
 	dataset to train and is not evaluated
 	:type test_size: float
 	:param print_eval: Indicates if the function should print the model evaluation after training
@@ -120,9 +120,11 @@ def write_submission(trained_model: RecommenderModel, filename: str = "submissio
 	:type filename: str
 	"""
 	target_users_test = pd.read_csv("../data/data_target_users_test.csv",).to_numpy().ravel()
+
 	recommendations = np.array([
 		trained_model.recommend(user_id) for user_id in target_users_test
 	])
+
 	if not os.path.exists("../submissions"):
 		os.makedirs("../submissions")
 	with open(f"../submissions/{filename}", "w") as f:
