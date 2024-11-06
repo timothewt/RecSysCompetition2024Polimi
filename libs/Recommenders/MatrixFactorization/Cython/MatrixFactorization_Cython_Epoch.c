@@ -1216,8 +1216,8 @@ static CYTHON_INLINE float __PYX_NAN() {
   #endif
 #endif
 
-#define __PYX_HAVE__MatrixFactorization_Cython_Epoch
-#define __PYX_HAVE_API__MatrixFactorization_Cython_Epoch
+#define __PYX_HAVE__RecSysCompetition2024Polimi__libs__Recommenders__MatrixFactorization__Cython__MatrixFactorization_Cython_Epoch
+#define __PYX_HAVE_API__RecSysCompetition2024Polimi__libs__Recommenders__MatrixFactorization__Cython__MatrixFactorization_Cython_Epoch
 /* Early includes */
 #include <string.h>
 #include <stdio.h>
@@ -1651,7 +1651,7 @@ typedef struct {
 
 /* #### Code section: numeric_typedefs ### */
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":732
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":730
  * # in Cython to enable them only on the right systems.
  * 
  * ctypedef npy_int8       int8_t             # <<<<<<<<<<<<<<
@@ -1660,7 +1660,7 @@ typedef struct {
  */
 typedef npy_int8 __pyx_t_5numpy_int8_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":733
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":731
  * 
  * ctypedef npy_int8       int8_t
  * ctypedef npy_int16      int16_t             # <<<<<<<<<<<<<<
@@ -1669,7 +1669,7 @@ typedef npy_int8 __pyx_t_5numpy_int8_t;
  */
 typedef npy_int16 __pyx_t_5numpy_int16_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":734
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":732
  * ctypedef npy_int8       int8_t
  * ctypedef npy_int16      int16_t
  * ctypedef npy_int32      int32_t             # <<<<<<<<<<<<<<
@@ -1678,7 +1678,7 @@ typedef npy_int16 __pyx_t_5numpy_int16_t;
  */
 typedef npy_int32 __pyx_t_5numpy_int32_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":735
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":733
  * ctypedef npy_int16      int16_t
  * ctypedef npy_int32      int32_t
  * ctypedef npy_int64      int64_t             # <<<<<<<<<<<<<<
@@ -1687,7 +1687,7 @@ typedef npy_int32 __pyx_t_5numpy_int32_t;
  */
 typedef npy_int64 __pyx_t_5numpy_int64_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":739
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":737
  * #ctypedef npy_int128     int128_t
  * 
  * ctypedef npy_uint8      uint8_t             # <<<<<<<<<<<<<<
@@ -1696,7 +1696,7 @@ typedef npy_int64 __pyx_t_5numpy_int64_t;
  */
 typedef npy_uint8 __pyx_t_5numpy_uint8_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":740
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":738
  * 
  * ctypedef npy_uint8      uint8_t
  * ctypedef npy_uint16     uint16_t             # <<<<<<<<<<<<<<
@@ -1705,7 +1705,7 @@ typedef npy_uint8 __pyx_t_5numpy_uint8_t;
  */
 typedef npy_uint16 __pyx_t_5numpy_uint16_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":741
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":739
  * ctypedef npy_uint8      uint8_t
  * ctypedef npy_uint16     uint16_t
  * ctypedef npy_uint32     uint32_t             # <<<<<<<<<<<<<<
@@ -1714,7 +1714,7 @@ typedef npy_uint16 __pyx_t_5numpy_uint16_t;
  */
 typedef npy_uint32 __pyx_t_5numpy_uint32_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":742
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":740
  * ctypedef npy_uint16     uint16_t
  * ctypedef npy_uint32     uint32_t
  * ctypedef npy_uint64     uint64_t             # <<<<<<<<<<<<<<
@@ -1723,7 +1723,7 @@ typedef npy_uint32 __pyx_t_5numpy_uint32_t;
  */
 typedef npy_uint64 __pyx_t_5numpy_uint64_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":746
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":744
  * #ctypedef npy_uint128    uint128_t
  * 
  * ctypedef npy_float32    float32_t             # <<<<<<<<<<<<<<
@@ -1732,7 +1732,7 @@ typedef npy_uint64 __pyx_t_5numpy_uint64_t;
  */
 typedef npy_float32 __pyx_t_5numpy_float32_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":747
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":745
  * 
  * ctypedef npy_float32    float32_t
  * ctypedef npy_float64    float64_t             # <<<<<<<<<<<<<<
@@ -1741,61 +1741,43 @@ typedef npy_float32 __pyx_t_5numpy_float32_t;
  */
 typedef npy_float64 __pyx_t_5numpy_float64_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":756
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":754
  * # The int types are mapped a bit surprising --
  * # numpy.int corresponds to 'l' and numpy.long to 'q'
  * ctypedef npy_long       int_t             # <<<<<<<<<<<<<<
- * ctypedef npy_longlong   long_t
- * ctypedef npy_longlong   longlong_t
- */
-typedef npy_long __pyx_t_5numpy_int_t;
-
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":757
- * # numpy.int corresponds to 'l' and numpy.long to 'q'
- * ctypedef npy_long       int_t
- * ctypedef npy_longlong   long_t             # <<<<<<<<<<<<<<
  * ctypedef npy_longlong   longlong_t
  * 
  */
-typedef npy_longlong __pyx_t_5numpy_long_t;
+typedef npy_long __pyx_t_5numpy_int_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":758
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":755
+ * # numpy.int corresponds to 'l' and numpy.long to 'q'
  * ctypedef npy_long       int_t
- * ctypedef npy_longlong   long_t
  * ctypedef npy_longlong   longlong_t             # <<<<<<<<<<<<<<
  * 
  * ctypedef npy_ulong      uint_t
  */
 typedef npy_longlong __pyx_t_5numpy_longlong_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":760
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":757
  * ctypedef npy_longlong   longlong_t
  * 
  * ctypedef npy_ulong      uint_t             # <<<<<<<<<<<<<<
- * ctypedef npy_ulonglong  ulong_t
  * ctypedef npy_ulonglong  ulonglong_t
+ * 
  */
 typedef npy_ulong __pyx_t_5numpy_uint_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":761
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":758
  * 
  * ctypedef npy_ulong      uint_t
- * ctypedef npy_ulonglong  ulong_t             # <<<<<<<<<<<<<<
- * ctypedef npy_ulonglong  ulonglong_t
- * 
- */
-typedef npy_ulonglong __pyx_t_5numpy_ulong_t;
-
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":762
- * ctypedef npy_ulong      uint_t
- * ctypedef npy_ulonglong  ulong_t
  * ctypedef npy_ulonglong  ulonglong_t             # <<<<<<<<<<<<<<
  * 
  * ctypedef npy_intp       intp_t
  */
 typedef npy_ulonglong __pyx_t_5numpy_ulonglong_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":764
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":760
  * ctypedef npy_ulonglong  ulonglong_t
  * 
  * ctypedef npy_intp       intp_t             # <<<<<<<<<<<<<<
@@ -1804,7 +1786,7 @@ typedef npy_ulonglong __pyx_t_5numpy_ulonglong_t;
  */
 typedef npy_intp __pyx_t_5numpy_intp_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":765
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":761
  * 
  * ctypedef npy_intp       intp_t
  * ctypedef npy_uintp      uintp_t             # <<<<<<<<<<<<<<
@@ -1813,7 +1795,7 @@ typedef npy_intp __pyx_t_5numpy_intp_t;
  */
 typedef npy_uintp __pyx_t_5numpy_uintp_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":767
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":763
  * ctypedef npy_uintp      uintp_t
  * 
  * ctypedef npy_double     float_t             # <<<<<<<<<<<<<<
@@ -1822,7 +1804,7 @@ typedef npy_uintp __pyx_t_5numpy_uintp_t;
  */
 typedef npy_double __pyx_t_5numpy_float_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":768
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":764
  * 
  * ctypedef npy_double     float_t
  * ctypedef npy_double     double_t             # <<<<<<<<<<<<<<
@@ -1831,7 +1813,7 @@ typedef npy_double __pyx_t_5numpy_float_t;
  */
 typedef npy_double __pyx_t_5numpy_double_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":769
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":765
  * ctypedef npy_double     float_t
  * ctypedef npy_double     double_t
  * ctypedef npy_longdouble longdouble_t             # <<<<<<<<<<<<<<
@@ -1867,13 +1849,13 @@ static CYTHON_INLINE __pyx_t_double_complex __pyx_t_double_complex_from_parts(do
 /* #### Code section: type_declarations ### */
 
 /*--- Type declarations ---*/
-struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch;
+struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch;
 struct __pyx_array_obj;
 struct __pyx_MemviewEnum_obj;
 struct __pyx_memoryview_obj;
 struct __pyx_memoryviewslice_obj;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":771
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":767
  * ctypedef npy_longdouble longdouble_t
  * 
  * ctypedef npy_cfloat      cfloat_t             # <<<<<<<<<<<<<<
@@ -1882,7 +1864,7 @@ struct __pyx_memoryviewslice_obj;
  */
 typedef npy_cfloat __pyx_t_5numpy_cfloat_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":772
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":768
  * 
  * ctypedef npy_cfloat      cfloat_t
  * ctypedef npy_cdouble     cdouble_t             # <<<<<<<<<<<<<<
@@ -1891,7 +1873,7 @@ typedef npy_cfloat __pyx_t_5numpy_cfloat_t;
  */
 typedef npy_cdouble __pyx_t_5numpy_cdouble_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":773
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":769
  * ctypedef npy_cfloat      cfloat_t
  * ctypedef npy_cdouble     cdouble_t
  * ctypedef npy_clongdouble clongdouble_t             # <<<<<<<<<<<<<<
@@ -1900,7 +1882,7 @@ typedef npy_cdouble __pyx_t_5numpy_cdouble_t;
  */
 typedef npy_clongdouble __pyx_t_5numpy_clongdouble_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":775
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":771
  * ctypedef npy_clongdouble clongdouble_t
  * 
  * ctypedef npy_cdouble     complex_t             # <<<<<<<<<<<<<<
@@ -1908,45 +1890,45 @@ typedef npy_clongdouble __pyx_t_5numpy_clongdouble_t;
  * cdef inline object PyArray_MultiIterNew1(a):
  */
 typedef npy_cdouble __pyx_t_5numpy_complex_t;
-struct __pyx_t_32MatrixFactorization_Cython_Epoch_BPR_sample;
-struct __pyx_t_32MatrixFactorization_Cython_Epoch_MSE_sample;
+struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_BPR_sample;
+struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MSE_sample;
 
-/* "MatrixFactorization_Cython_Epoch.pyx":32
+/* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":32
  * 
  * 
  * cdef struct BPR_sample:             # <<<<<<<<<<<<<<
  *     long user
  *     long pos_item
  */
-struct __pyx_t_32MatrixFactorization_Cython_Epoch_BPR_sample {
+struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_BPR_sample {
   long user;
   long pos_item;
   long neg_item;
 };
 
-/* "MatrixFactorization_Cython_Epoch.pyx":37
+/* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":37
  *     long neg_item
  * 
  * cdef struct MSE_sample:             # <<<<<<<<<<<<<<
  *     long user
  *     long item
  */
-struct __pyx_t_32MatrixFactorization_Cython_Epoch_MSE_sample {
+struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MSE_sample {
   long user;
   long item;
   double rating;
 };
 
-/* "MatrixFactorization_Cython_Epoch.pyx":50
+/* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":50
  * @cython.cdivision(True)
  * @cython.overflowcheck(False)
  * cdef class MatrixFactorization_Cython_Epoch:             # <<<<<<<<<<<<<<
  * 
  *     cdef int n_users, n_items, n_factors, print_step_seconds
  */
-struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch {
+struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch {
   PyObject_HEAD
-  struct __pyx_vtabstruct_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_vtab;
+  struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_vtab;
   int n_users;
   int n_items;
   int n_factors;
@@ -2099,7 +2081,7 @@ struct __pyx_memoryviewslice_obj {
 
 
 
-/* "MatrixFactorization_Cython_Epoch.pyx":50
+/* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":50
  * @cython.cdivision(True)
  * @cython.overflowcheck(False)
  * cdef class MatrixFactorization_Cython_Epoch:             # <<<<<<<<<<<<<<
@@ -2107,17 +2089,17 @@ struct __pyx_memoryviewslice_obj {
  *     cdef int n_users, n_items, n_factors, print_step_seconds
  */
 
-struct __pyx_vtabstruct_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch {
-  void (*_clear_minibatch_data_structures)(struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *);
-  void (*_add_MSE_sample_in_minibatch)(struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *, struct __pyx_t_32MatrixFactorization_Cython_Epoch_MSE_sample);
-  void (*_add_BPR_sample_in_minibatch)(struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *, struct __pyx_t_32MatrixFactorization_Cython_Epoch_BPR_sample);
-  void (*_apply_minibatch_updates_to_latent_factors)(struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *);
-  double (*adaptive_gradient)(struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *, double, long, long, __Pyx_memviewslice, __Pyx_memviewslice, __Pyx_memviewslice);
-  struct __pyx_t_32MatrixFactorization_Cython_Epoch_MSE_sample (*sampleMSE_Cython)(struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *);
-  struct __pyx_t_32MatrixFactorization_Cython_Epoch_BPR_sample (*sampleBPR_Cython)(struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *);
-  struct __pyx_t_32MatrixFactorization_Cython_Epoch_BPR_sample (*sampleWARP_Cython)(struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *);
+struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch {
+  void (*_clear_minibatch_data_structures)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *);
+  void (*_add_MSE_sample_in_minibatch)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *, struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MSE_sample);
+  void (*_add_BPR_sample_in_minibatch)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *, struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_BPR_sample);
+  void (*_apply_minibatch_updates_to_latent_factors)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *);
+  double (*adaptive_gradient)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *, double, long, long, __Pyx_memviewslice, __Pyx_memviewslice, __Pyx_memviewslice);
+  struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MSE_sample (*sampleMSE_Cython)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *);
+  struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_BPR_sample (*sampleBPR_Cython)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *);
+  struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_BPR_sample (*sampleWARP_Cython)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *);
 };
-static struct __pyx_vtabstruct_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_vtabptr_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch;
+static struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_vtabptr_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch;
 
 
 /* "View.MemoryView":114
@@ -3275,14 +3257,14 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_5shape_shape(PyArrayObjec
 static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_7strides_strides(PyArrayObject *__pyx_v_self); /* proto*/
 static CYTHON_INLINE npy_intp __pyx_f_5numpy_7ndarray_4size_size(PyArrayObject *__pyx_v_self); /* proto*/
 static CYTHON_INLINE char *__pyx_f_5numpy_7ndarray_4data_data(PyArrayObject *__pyx_v_self); /* proto*/
-static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch__clear_minibatch_data_structures(struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self); /* proto*/
-static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch__add_MSE_sample_in_minibatch(struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self, struct __pyx_t_32MatrixFactorization_Cython_Epoch_MSE_sample __pyx_v_sample); /* proto*/
-static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch__add_BPR_sample_in_minibatch(struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self, struct __pyx_t_32MatrixFactorization_Cython_Epoch_BPR_sample __pyx_v_sample); /* proto*/
-static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch__apply_minibatch_updates_to_latent_factors(struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self); /* proto*/
-static double __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_adaptive_gradient(struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self, double __pyx_v_gradient, long __pyx_v_user_or_item_id, long __pyx_v_factor_id, __Pyx_memviewslice __pyx_v_sgd_cache, __Pyx_memviewslice __pyx_v_sgd_cache_momentum_1, __Pyx_memviewslice __pyx_v_sgd_cache_momentum_2); /* proto*/
-static struct __pyx_t_32MatrixFactorization_Cython_Epoch_MSE_sample __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_sampleMSE_Cython(struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self); /* proto*/
-static struct __pyx_t_32MatrixFactorization_Cython_Epoch_BPR_sample __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_sampleBPR_Cython(struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self); /* proto*/
-static struct __pyx_t_32MatrixFactorization_Cython_Epoch_BPR_sample __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_sampleWARP_Cython(struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self); /* proto*/
+static void __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch__clear_minibatch_data_structures(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self); /* proto*/
+static void __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch__add_MSE_sample_in_minibatch(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self, struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MSE_sample __pyx_v_sample); /* proto*/
+static void __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch__add_BPR_sample_in_minibatch(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self, struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_BPR_sample __pyx_v_sample); /* proto*/
+static void __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch__apply_minibatch_updates_to_latent_factors(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self); /* proto*/
+static double __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_adaptive_gradient(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self, double __pyx_v_gradient, long __pyx_v_user_or_item_id, long __pyx_v_factor_id, __Pyx_memviewslice __pyx_v_sgd_cache, __Pyx_memviewslice __pyx_v_sgd_cache_momentum_1, __Pyx_memviewslice __pyx_v_sgd_cache_momentum_2); /* proto*/
+static struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MSE_sample __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_sampleMSE_Cython(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self); /* proto*/
+static struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_BPR_sample __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_sampleBPR_Cython(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self); /* proto*/
+static struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_BPR_sample __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_sampleWARP_Cython(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self); /* proto*/
 
 /* Module declarations from "cython.view" */
 
@@ -3312,7 +3294,7 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_BPR_sample __pyx_f_32Ma
 
 /* Module declarations from "libc.stdlib" */
 
-/* Module declarations from "MatrixFactorization_Cython_Epoch" */
+/* Module declarations from "RecSysCompetition2024Polimi.libs.Recommenders.MatrixFactorization.Cython.MatrixFactorization_Cython_Epoch" */
 static PyObject *__pyx_collections_abc_Sequence = 0;
 static PyObject *generic = 0;
 static PyObject *strided = 0;
@@ -3321,7 +3303,7 @@ static PyObject *contiguous = 0;
 static PyObject *indirect_contiguous = 0;
 static int __pyx_memoryview_thread_locks_used;
 static PyThread_type_lock __pyx_memoryview_thread_locks[8];
-static PyObject *__pyx_f_32MatrixFactorization_Cython_Epoch___pyx_unpickle_MatrixFactorization_Cython_Epoch__set_state(struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *, PyObject *); /*proto*/
+static PyObject *__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch___pyx_unpickle_MatrixFactorization_Cython_Epoch__set_state(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *, PyObject *); /*proto*/
 static int __pyx_array_allocate_buffer(struct __pyx_array_obj *); /*proto*/
 static struct __pyx_array_obj *__pyx_array_new(PyObject *, Py_ssize_t, char *, char *, char *); /*proto*/
 static PyObject *__pyx_memoryview_new(PyObject *, int, int, __Pyx_TypeInfo *); /*proto*/
@@ -3361,11 +3343,11 @@ static __Pyx_TypeInfo __Pyx_TypeInfo_double = { "double", NULL, sizeof(double), 
 static __Pyx_TypeInfo __Pyx_TypeInfo_int = { "int", NULL, sizeof(int), { 0 }, 0, __PYX_IS_UNSIGNED(int) ? 'U' : 'I', __PYX_IS_UNSIGNED(int), 0 };
 static __Pyx_TypeInfo __Pyx_TypeInfo_long = { "long", NULL, sizeof(long), { 0 }, 0, __PYX_IS_UNSIGNED(long) ? 'U' : 'I', __PYX_IS_UNSIGNED(long), 0 };
 /* #### Code section: before_global_var ### */
-#define __Pyx_MODULE_NAME "MatrixFactorization_Cython_Epoch"
-extern int __pyx_module_is_main_MatrixFactorization_Cython_Epoch;
-int __pyx_module_is_main_MatrixFactorization_Cython_Epoch = 0;
+#define __Pyx_MODULE_NAME "RecSysCompetition2024Polimi.libs.Recommenders.MatrixFactorization.Cython.MatrixFactorization_Cython_Epoch"
+extern int __pyx_module_is_main_RecSysCompetition2024Polimi__libs__Recommenders__MatrixFactorization__Cython__MatrixFactorization_Cython_Epoch;
+int __pyx_module_is_main_RecSysCompetition2024Polimi__libs__Recommenders__MatrixFactorization__Cython__MatrixFactorization_Cython_Epoch = 0;
 
-/* Implementation of "MatrixFactorization_Cython_Epoch" */
+/* Implementation of "RecSysCompetition2024Polimi.libs.Recommenders.MatrixFactorization.Cython.MatrixFactorization_Cython_Epoch" */
 /* #### Code section: global_var ### */
 static PyObject *__pyx_builtin_super;
 static PyObject *__pyx_builtin_ValueError;
@@ -3603,7 +3585,6 @@ static const char __pyx_k_negative_interactions_quota[] = "negative_interactions
 static const char __pyx_k_init_adaptive_gradient_cache[] = "_init_adaptive_gradient_cache";
 static const char __pyx_k_processed_samples_last_print[] = "processed_samples_last_print";
 static const char __pyx_k_Algorithm_name_not_recognized[] = "Algorithm_name not recognized";
-static const char __pyx_k_Utils_seconds_to_biggest_unit[] = "Utils.seconds_to_biggest_unit";
 static const char __pyx_k_epochIteration_Cython_BPR_SGD[] = "epochIteration_Cython_BPR_SGD";
 static const char __pyx_k_unable_to_allocate_array_data[] = "unable to allocate array data.";
 static const char __pyx_k_Recommenders_Recommender_utils[] = "Recommenders.Recommender_utils";
@@ -3629,6 +3610,7 @@ static const char __pyx_k_Indirect_dimensions_not_supporte[] = "Indirect dimensi
 static const char __pyx_k_Invalid_mode_expected_c_or_fortr[] = "Invalid mode, expected 'c' or 'fortran', got ";
 static const char __pyx_k_MatrixFactorization_Cython_Epoch[] = "MatrixFactorization_Cython_Epoch";
 static const char __pyx_k_Out_of_bounds_on_buffer_access_a[] = "Out of bounds on buffer access (axis ";
+static const char __pyx_k_RecSysCompetition2024Polimi_libs[] = "RecSysCompetition2024Polimi.libs.Recommenders.MatrixFactorization.Cython.MatrixFactorization_Cython_Epoch";
 static const char __pyx_k_Unable_to_convert_item_to_object[] = "Unable to convert item to object";
 static const char __pyx_k_Value_for_algorithm_name_not_rec[] = "Value for 'algorithm_name' not recognized. Acceptable values are {}, provided was '{}'";
 static const char __pyx_k_Value_for_dropout_quota_not_vali[] = "Value for 'dropout_quota' not valid. Acceptable values are None or a float value >0.0 and <1.0, provided value was '{}'";
@@ -3636,6 +3618,7 @@ static const char __pyx_k_Value_for_sgd_mode_not_recognize[] = "Value for 'sgd_m
 static const char __pyx_k_epochIteration_Cython_ASY_SVD_SG[] = "epochIteration_Cython_ASY_SVD_SGD";
 static const char __pyx_k_epochIteration_Cython_SVD_pp_SGD[] = "epochIteration_Cython_SVD_pp_SGD";
 static const char __pyx_k_got_differing_extents_in_dimensi[] = "got differing extents in dimension ";
+static const char __pyx_k_libs_Utils_seconds_to_biggest_un[] = "libs.Utils.seconds_to_biggest_unit";
 static const char __pyx_k_no_default___reduce___due_to_non[] = "no default __reduce__ due to non-trivial __cinit__";
 static const char __pyx_k_numpy_core_umath_failed_to_impor[] = "numpy.core.umath failed to import";
 static const char __pyx_k_unable_to_allocate_shape_and_str[] = "unable to allocate shape and strides.";
@@ -3697,23 +3680,23 @@ static void __pyx_memoryviewslice___pyx_pf_15View_dot_MemoryView_16_memoryviewsl
 static PyObject *__pyx_pf___pyx_memoryviewslice___reduce_cython__(CYTHON_UNUSED struct __pyx_memoryviewslice_obj *__pyx_v_self); /* proto */
 static PyObject *__pyx_pf___pyx_memoryviewslice_2__setstate_cython__(CYTHON_UNUSED struct __pyx_memoryviewslice_obj *__pyx_v_self, CYTHON_UNUSED PyObject *__pyx_v___pyx_state); /* proto */
 static PyObject *__pyx_pf_15View_dot_MemoryView___pyx_unpickle_Enum(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v___pyx_type, long __pyx_v___pyx_checksum, PyObject *__pyx_v___pyx_state); /* proto */
-static int __pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch___init__(struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self, PyObject *__pyx_v_URM_train, PyObject *__pyx_v_n_factors, PyObject *__pyx_v_algorithm_name, PyObject *__pyx_v_batch_size, PyObject *__pyx_v_negative_interactions_quota, PyObject *__pyx_v_dropout_quota, PyObject *__pyx_v_WARP_neg_item_attempts, PyObject *__pyx_v_learning_rate, PyObject *__pyx_v_use_bias, PyObject *__pyx_v_use_embeddings, PyObject *__pyx_v_user_reg, PyObject *__pyx_v_item_reg, PyObject *__pyx_v_bias_reg, PyObject *__pyx_v_positive_reg, PyObject *__pyx_v_negative_reg, PyObject *__pyx_v_verbose, PyObject *__pyx_v_print_step_seconds, PyObject *__pyx_v_random_seed, PyObject *__pyx_v_init_mean, PyObject *__pyx_v_init_std_dev, PyObject *__pyx_v_sgd_mode, PyObject *__pyx_v_gamma, PyObject *__pyx_v_beta_1, PyObject *__pyx_v_beta_2); /* proto */
-static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_2_init_latent_factors(struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_4_init_adaptive_gradient_cache(struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self, PyObject *__pyx_v_sgd_mode, PyObject *__pyx_v_gamma, PyObject *__pyx_v_beta_1, PyObject *__pyx_v_beta_2); /* proto */
-static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_6epochIteration_Cython(struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_8epochIteration_Cython_SVD_pp_SGD(struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_10epochIteration_Cython_ASY_SVD_SGD(struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_12epochIteration_Cython_BPR_SGD(struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_14get_USER_factors(struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_16get_ITEM_factors(struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_18get_USER_bias(struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_20get_ITEM_bias(struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_22get_GLOBAL_bias(struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_24_init_minibatch_data_structures(struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_26__reduce_cython__(struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_28__setstate_cython__(struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self, PyObject *__pyx_v___pyx_state); /* proto */
-static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch___pyx_unpickle_MatrixFactorization_Cython_Epoch(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v___pyx_type, long __pyx_v___pyx_checksum, PyObject *__pyx_v___pyx_state); /* proto */
-static PyObject *__pyx_tp_new_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
+static int __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch___init__(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self, PyObject *__pyx_v_URM_train, PyObject *__pyx_v_n_factors, PyObject *__pyx_v_algorithm_name, PyObject *__pyx_v_batch_size, PyObject *__pyx_v_negative_interactions_quota, PyObject *__pyx_v_dropout_quota, PyObject *__pyx_v_WARP_neg_item_attempts, PyObject *__pyx_v_learning_rate, PyObject *__pyx_v_use_bias, PyObject *__pyx_v_use_embeddings, PyObject *__pyx_v_user_reg, PyObject *__pyx_v_item_reg, PyObject *__pyx_v_bias_reg, PyObject *__pyx_v_positive_reg, PyObject *__pyx_v_negative_reg, PyObject *__pyx_v_verbose, PyObject *__pyx_v_print_step_seconds, PyObject *__pyx_v_random_seed, PyObject *__pyx_v_init_mean, PyObject *__pyx_v_init_std_dev, PyObject *__pyx_v_sgd_mode, PyObject *__pyx_v_gamma, PyObject *__pyx_v_beta_1, PyObject *__pyx_v_beta_2); /* proto */
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_2_init_latent_factors(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_4_init_adaptive_gradient_cache(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self, PyObject *__pyx_v_sgd_mode, PyObject *__pyx_v_gamma, PyObject *__pyx_v_beta_1, PyObject *__pyx_v_beta_2); /* proto */
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_6epochIteration_Cython(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_8epochIteration_Cython_SVD_pp_SGD(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_10epochIteration_Cython_ASY_SVD_SGD(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_12epochIteration_Cython_BPR_SGD(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_14get_USER_factors(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_16get_ITEM_factors(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_18get_USER_bias(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_20get_ITEM_bias(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_22get_GLOBAL_bias(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_24_init_minibatch_data_structures(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_26__reduce_cython__(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_28__setstate_cython__(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self, PyObject *__pyx_v___pyx_state); /* proto */
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch___pyx_unpickle_MatrixFactorization_Cython_Epoch(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v___pyx_type, long __pyx_v___pyx_checksum, PyObject *__pyx_v___pyx_state); /* proto */
+static PyObject *__pyx_tp_new_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
 static PyObject *__pyx_tp_new_array(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
 static PyObject *__pyx_tp_new_Enum(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
 static PyObject *__pyx_tp_new_memoryview(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
@@ -3790,13 +3773,13 @@ typedef struct {
   #if CYTHON_USE_MODULE_STATE
   #endif
   #if CYTHON_USE_MODULE_STATE
-  PyObject *__pyx_type_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch;
+  PyObject *__pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch;
   PyObject *__pyx_type___pyx_array;
   PyObject *__pyx_type___pyx_MemviewEnum;
   PyObject *__pyx_type___pyx_memoryview;
   PyObject *__pyx_type___pyx_memoryviewslice;
   #endif
-  PyTypeObject *__pyx_ptype_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch;
+  PyTypeObject *__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch;
   PyTypeObject *__pyx_array_type;
   PyTypeObject *__pyx_MemviewEnum_type;
   PyTypeObject *__pyx_memoryview_type;
@@ -3856,6 +3839,7 @@ typedef struct {
   PyObject *__pyx_kp_u_Out_of_bounds_on_buffer_access_a;
   PyObject *__pyx_n_s_PickleError;
   PyObject *__pyx_kp_s_Processed_4_1f_in_2f_MSE_loss_2;
+  PyObject *__pyx_n_s_RecSysCompetition2024Polimi_libs;
   PyObject *__pyx_n_s_Recommenders_Recommender_utils;
   PyObject *__pyx_n_s_SGD_MODE_VALUES;
   PyObject *__pyx_kp_s_SVD;
@@ -3864,7 +3848,6 @@ typedef struct {
   PyObject *__pyx_n_s_TypeError;
   PyObject *__pyx_n_s_URM_train;
   PyObject *__pyx_kp_s_Unable_to_convert_item_to_object;
-  PyObject *__pyx_n_s_Utils_seconds_to_biggest_unit;
   PyObject *__pyx_n_s_ValueError;
   PyObject *__pyx_kp_s_Value_for_algorithm_name_not_rec;
   PyObject *__pyx_kp_s_Value_for_dropout_quota_not_vali;
@@ -3966,6 +3949,7 @@ typedef struct {
   PyObject *__pyx_n_s_j;
   PyObject *__pyx_n_s_last_print_time;
   PyObject *__pyx_n_s_learning_rate;
+  PyObject *__pyx_n_s_libs_Utils_seconds_to_biggest_un;
   PyObject *__pyx_n_s_local_gradient_bias_global;
   PyObject *__pyx_n_s_local_gradient_bias_item;
   PyObject *__pyx_n_s_local_gradient_bias_user;
@@ -4198,8 +4182,8 @@ static int __pyx_m_clear(PyObject *m) {
   Py_CLEAR(clear_module_state->__pyx_ptype_5numpy_flexible);
   Py_CLEAR(clear_module_state->__pyx_ptype_5numpy_character);
   Py_CLEAR(clear_module_state->__pyx_ptype_5numpy_ufunc);
-  Py_CLEAR(clear_module_state->__pyx_ptype_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch);
-  Py_CLEAR(clear_module_state->__pyx_type_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch);
+  Py_CLEAR(clear_module_state->__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch);
+  Py_CLEAR(clear_module_state->__pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch);
   Py_CLEAR(clear_module_state->__pyx_array_type);
   Py_CLEAR(clear_module_state->__pyx_type___pyx_array);
   Py_CLEAR(clear_module_state->__pyx_MemviewEnum_type);
@@ -4263,6 +4247,7 @@ static int __pyx_m_clear(PyObject *m) {
   Py_CLEAR(clear_module_state->__pyx_kp_u_Out_of_bounds_on_buffer_access_a);
   Py_CLEAR(clear_module_state->__pyx_n_s_PickleError);
   Py_CLEAR(clear_module_state->__pyx_kp_s_Processed_4_1f_in_2f_MSE_loss_2);
+  Py_CLEAR(clear_module_state->__pyx_n_s_RecSysCompetition2024Polimi_libs);
   Py_CLEAR(clear_module_state->__pyx_n_s_Recommenders_Recommender_utils);
   Py_CLEAR(clear_module_state->__pyx_n_s_SGD_MODE_VALUES);
   Py_CLEAR(clear_module_state->__pyx_kp_s_SVD);
@@ -4271,7 +4256,6 @@ static int __pyx_m_clear(PyObject *m) {
   Py_CLEAR(clear_module_state->__pyx_n_s_TypeError);
   Py_CLEAR(clear_module_state->__pyx_n_s_URM_train);
   Py_CLEAR(clear_module_state->__pyx_kp_s_Unable_to_convert_item_to_object);
-  Py_CLEAR(clear_module_state->__pyx_n_s_Utils_seconds_to_biggest_unit);
   Py_CLEAR(clear_module_state->__pyx_n_s_ValueError);
   Py_CLEAR(clear_module_state->__pyx_kp_s_Value_for_algorithm_name_not_rec);
   Py_CLEAR(clear_module_state->__pyx_kp_s_Value_for_dropout_quota_not_vali);
@@ -4373,6 +4357,7 @@ static int __pyx_m_clear(PyObject *m) {
   Py_CLEAR(clear_module_state->__pyx_n_s_j);
   Py_CLEAR(clear_module_state->__pyx_n_s_last_print_time);
   Py_CLEAR(clear_module_state->__pyx_n_s_learning_rate);
+  Py_CLEAR(clear_module_state->__pyx_n_s_libs_Utils_seconds_to_biggest_un);
   Py_CLEAR(clear_module_state->__pyx_n_s_local_gradient_bias_global);
   Py_CLEAR(clear_module_state->__pyx_n_s_local_gradient_bias_item);
   Py_CLEAR(clear_module_state->__pyx_n_s_local_gradient_bias_user);
@@ -4583,8 +4568,8 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
   Py_VISIT(traverse_module_state->__pyx_ptype_5numpy_flexible);
   Py_VISIT(traverse_module_state->__pyx_ptype_5numpy_character);
   Py_VISIT(traverse_module_state->__pyx_ptype_5numpy_ufunc);
-  Py_VISIT(traverse_module_state->__pyx_ptype_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch);
-  Py_VISIT(traverse_module_state->__pyx_type_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch);
+  Py_VISIT(traverse_module_state->__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch);
+  Py_VISIT(traverse_module_state->__pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch);
   Py_VISIT(traverse_module_state->__pyx_array_type);
   Py_VISIT(traverse_module_state->__pyx_type___pyx_array);
   Py_VISIT(traverse_module_state->__pyx_MemviewEnum_type);
@@ -4648,6 +4633,7 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
   Py_VISIT(traverse_module_state->__pyx_kp_u_Out_of_bounds_on_buffer_access_a);
   Py_VISIT(traverse_module_state->__pyx_n_s_PickleError);
   Py_VISIT(traverse_module_state->__pyx_kp_s_Processed_4_1f_in_2f_MSE_loss_2);
+  Py_VISIT(traverse_module_state->__pyx_n_s_RecSysCompetition2024Polimi_libs);
   Py_VISIT(traverse_module_state->__pyx_n_s_Recommenders_Recommender_utils);
   Py_VISIT(traverse_module_state->__pyx_n_s_SGD_MODE_VALUES);
   Py_VISIT(traverse_module_state->__pyx_kp_s_SVD);
@@ -4656,7 +4642,6 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
   Py_VISIT(traverse_module_state->__pyx_n_s_TypeError);
   Py_VISIT(traverse_module_state->__pyx_n_s_URM_train);
   Py_VISIT(traverse_module_state->__pyx_kp_s_Unable_to_convert_item_to_object);
-  Py_VISIT(traverse_module_state->__pyx_n_s_Utils_seconds_to_biggest_unit);
   Py_VISIT(traverse_module_state->__pyx_n_s_ValueError);
   Py_VISIT(traverse_module_state->__pyx_kp_s_Value_for_algorithm_name_not_rec);
   Py_VISIT(traverse_module_state->__pyx_kp_s_Value_for_dropout_quota_not_vali);
@@ -4758,6 +4743,7 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
   Py_VISIT(traverse_module_state->__pyx_n_s_j);
   Py_VISIT(traverse_module_state->__pyx_n_s_last_print_time);
   Py_VISIT(traverse_module_state->__pyx_n_s_learning_rate);
+  Py_VISIT(traverse_module_state->__pyx_n_s_libs_Utils_seconds_to_biggest_un);
   Py_VISIT(traverse_module_state->__pyx_n_s_local_gradient_bias_global);
   Py_VISIT(traverse_module_state->__pyx_n_s_local_gradient_bias_item);
   Py_VISIT(traverse_module_state->__pyx_n_s_local_gradient_bias_user);
@@ -5005,13 +4991,13 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #if CYTHON_USE_MODULE_STATE
 #endif
 #if CYTHON_USE_MODULE_STATE
-#define __pyx_type_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch __pyx_mstate_global->__pyx_type_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch
+#define __pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch __pyx_mstate_global->__pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch
 #define __pyx_type___pyx_array __pyx_mstate_global->__pyx_type___pyx_array
 #define __pyx_type___pyx_MemviewEnum __pyx_mstate_global->__pyx_type___pyx_MemviewEnum
 #define __pyx_type___pyx_memoryview __pyx_mstate_global->__pyx_type___pyx_memoryview
 #define __pyx_type___pyx_memoryviewslice __pyx_mstate_global->__pyx_type___pyx_memoryviewslice
 #endif
-#define __pyx_ptype_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch __pyx_mstate_global->__pyx_ptype_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch
+#define __pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch __pyx_mstate_global->__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch
 #define __pyx_array_type __pyx_mstate_global->__pyx_array_type
 #define __pyx_MemviewEnum_type __pyx_mstate_global->__pyx_MemviewEnum_type
 #define __pyx_memoryview_type __pyx_mstate_global->__pyx_memoryview_type
@@ -5071,6 +5057,7 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #define __pyx_kp_u_Out_of_bounds_on_buffer_access_a __pyx_mstate_global->__pyx_kp_u_Out_of_bounds_on_buffer_access_a
 #define __pyx_n_s_PickleError __pyx_mstate_global->__pyx_n_s_PickleError
 #define __pyx_kp_s_Processed_4_1f_in_2f_MSE_loss_2 __pyx_mstate_global->__pyx_kp_s_Processed_4_1f_in_2f_MSE_loss_2
+#define __pyx_n_s_RecSysCompetition2024Polimi_libs __pyx_mstate_global->__pyx_n_s_RecSysCompetition2024Polimi_libs
 #define __pyx_n_s_Recommenders_Recommender_utils __pyx_mstate_global->__pyx_n_s_Recommenders_Recommender_utils
 #define __pyx_n_s_SGD_MODE_VALUES __pyx_mstate_global->__pyx_n_s_SGD_MODE_VALUES
 #define __pyx_kp_s_SVD __pyx_mstate_global->__pyx_kp_s_SVD
@@ -5079,7 +5066,6 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #define __pyx_n_s_TypeError __pyx_mstate_global->__pyx_n_s_TypeError
 #define __pyx_n_s_URM_train __pyx_mstate_global->__pyx_n_s_URM_train
 #define __pyx_kp_s_Unable_to_convert_item_to_object __pyx_mstate_global->__pyx_kp_s_Unable_to_convert_item_to_object
-#define __pyx_n_s_Utils_seconds_to_biggest_unit __pyx_mstate_global->__pyx_n_s_Utils_seconds_to_biggest_unit
 #define __pyx_n_s_ValueError __pyx_mstate_global->__pyx_n_s_ValueError
 #define __pyx_kp_s_Value_for_algorithm_name_not_rec __pyx_mstate_global->__pyx_kp_s_Value_for_algorithm_name_not_rec
 #define __pyx_kp_s_Value_for_dropout_quota_not_vali __pyx_mstate_global->__pyx_kp_s_Value_for_dropout_quota_not_vali
@@ -5181,6 +5167,7 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #define __pyx_n_s_j __pyx_mstate_global->__pyx_n_s_j
 #define __pyx_n_s_last_print_time __pyx_mstate_global->__pyx_n_s_last_print_time
 #define __pyx_n_s_learning_rate __pyx_mstate_global->__pyx_n_s_learning_rate
+#define __pyx_n_s_libs_Utils_seconds_to_biggest_un __pyx_mstate_global->__pyx_n_s_libs_Utils_seconds_to_biggest_un
 #define __pyx_n_s_local_gradient_bias_global __pyx_mstate_global->__pyx_n_s_local_gradient_bias_global
 #define __pyx_n_s_local_gradient_bias_item __pyx_mstate_global->__pyx_n_s_local_gradient_bias_item
 #define __pyx_n_s_local_gradient_bias_user __pyx_mstate_global->__pyx_n_s_local_gradient_bias_user
@@ -18985,7 +18972,7 @@ static PyObject *__pyx_unpickle_Enum__set_state(struct __pyx_MemviewEnum_obj *__
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":246
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":245
  * 
  *         @property
  *         cdef inline PyObject* base(self) nogil:             # <<<<<<<<<<<<<<
@@ -18996,7 +18983,7 @@ static PyObject *__pyx_unpickle_Enum__set_state(struct __pyx_MemviewEnum_obj *__
 static CYTHON_INLINE PyObject *__pyx_f_5numpy_7ndarray_4base_base(PyArrayObject *__pyx_v_self) {
   PyObject *__pyx_r;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":249
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":248
  *             """Returns a borrowed reference to the object owning the data/memory.
  *             """
  *             return PyArray_BASE(self)             # <<<<<<<<<<<<<<
@@ -19006,7 +18993,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_7ndarray_4base_base(PyArrayObject 
   __pyx_r = PyArray_BASE(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":246
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":245
  * 
  *         @property
  *         cdef inline PyObject* base(self) nogil:             # <<<<<<<<<<<<<<
@@ -19019,7 +19006,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_7ndarray_4base_base(PyArrayObject 
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":252
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":251
  * 
  *         @property
  *         cdef inline dtype descr(self):             # <<<<<<<<<<<<<<
@@ -19033,7 +19020,7 @@ static CYTHON_INLINE PyArray_Descr *__pyx_f_5numpy_7ndarray_5descr_descr(PyArray
   PyArray_Descr *__pyx_t_1;
   __Pyx_RefNannySetupContext("descr", 1);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":255
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":254
  *             """Returns an owned reference to the dtype of the array.
  *             """
  *             return <dtype>PyArray_DESCR(self)             # <<<<<<<<<<<<<<
@@ -19046,7 +19033,7 @@ static CYTHON_INLINE PyArray_Descr *__pyx_f_5numpy_7ndarray_5descr_descr(PyArray
   __pyx_r = ((PyArray_Descr *)__pyx_t_1);
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":252
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":251
  * 
  *         @property
  *         cdef inline dtype descr(self):             # <<<<<<<<<<<<<<
@@ -19061,7 +19048,7 @@ static CYTHON_INLINE PyArray_Descr *__pyx_f_5numpy_7ndarray_5descr_descr(PyArray
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":258
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":257
  * 
  *         @property
  *         cdef inline int ndim(self) nogil:             # <<<<<<<<<<<<<<
@@ -19072,7 +19059,7 @@ static CYTHON_INLINE PyArray_Descr *__pyx_f_5numpy_7ndarray_5descr_descr(PyArray
 static CYTHON_INLINE int __pyx_f_5numpy_7ndarray_4ndim_ndim(PyArrayObject *__pyx_v_self) {
   int __pyx_r;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":261
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":260
  *             """Returns the number of dimensions in the array.
  *             """
  *             return PyArray_NDIM(self)             # <<<<<<<<<<<<<<
@@ -19082,7 +19069,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_7ndarray_4ndim_ndim(PyArrayObject *__pyx
   __pyx_r = PyArray_NDIM(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":258
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":257
  * 
  *         @property
  *         cdef inline int ndim(self) nogil:             # <<<<<<<<<<<<<<
@@ -19095,7 +19082,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_7ndarray_4ndim_ndim(PyArrayObject *__pyx
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":264
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":263
  * 
  *         @property
  *         cdef inline npy_intp *shape(self) nogil:             # <<<<<<<<<<<<<<
@@ -19106,7 +19093,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_7ndarray_4ndim_ndim(PyArrayObject *__pyx
 static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_5shape_shape(PyArrayObject *__pyx_v_self) {
   npy_intp *__pyx_r;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":269
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":268
  *             Can return NULL for 0-dimensional arrays.
  *             """
  *             return PyArray_DIMS(self)             # <<<<<<<<<<<<<<
@@ -19116,7 +19103,7 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_5shape_shape(PyArrayObjec
   __pyx_r = PyArray_DIMS(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":264
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":263
  * 
  *         @property
  *         cdef inline npy_intp *shape(self) nogil:             # <<<<<<<<<<<<<<
@@ -19129,7 +19116,7 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_5shape_shape(PyArrayObjec
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":272
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":271
  * 
  *         @property
  *         cdef inline npy_intp *strides(self) nogil:             # <<<<<<<<<<<<<<
@@ -19140,7 +19127,7 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_5shape_shape(PyArrayObjec
 static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_7strides_strides(PyArrayObject *__pyx_v_self) {
   npy_intp *__pyx_r;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":276
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":275
  *             The number of elements matches the number of dimensions of the array (ndim).
  *             """
  *             return PyArray_STRIDES(self)             # <<<<<<<<<<<<<<
@@ -19150,7 +19137,7 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_7strides_strides(PyArrayO
   __pyx_r = PyArray_STRIDES(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":272
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":271
  * 
  *         @property
  *         cdef inline npy_intp *strides(self) nogil:             # <<<<<<<<<<<<<<
@@ -19163,7 +19150,7 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_7strides_strides(PyArrayO
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":279
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":278
  * 
  *         @property
  *         cdef inline npy_intp size(self) nogil:             # <<<<<<<<<<<<<<
@@ -19174,7 +19161,7 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_7strides_strides(PyArrayO
 static CYTHON_INLINE npy_intp __pyx_f_5numpy_7ndarray_4size_size(PyArrayObject *__pyx_v_self) {
   npy_intp __pyx_r;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":282
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":281
  *             """Returns the total size (in number of elements) of the array.
  *             """
  *             return PyArray_SIZE(self)             # <<<<<<<<<<<<<<
@@ -19184,7 +19171,7 @@ static CYTHON_INLINE npy_intp __pyx_f_5numpy_7ndarray_4size_size(PyArrayObject *
   __pyx_r = PyArray_SIZE(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":279
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":278
  * 
  *         @property
  *         cdef inline npy_intp size(self) nogil:             # <<<<<<<<<<<<<<
@@ -19197,7 +19184,7 @@ static CYTHON_INLINE npy_intp __pyx_f_5numpy_7ndarray_4size_size(PyArrayObject *
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":285
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":284
  * 
  *         @property
  *         cdef inline char* data(self) nogil:             # <<<<<<<<<<<<<<
@@ -19208,7 +19195,7 @@ static CYTHON_INLINE npy_intp __pyx_f_5numpy_7ndarray_4size_size(PyArrayObject *
 static CYTHON_INLINE char *__pyx_f_5numpy_7ndarray_4data_data(PyArrayObject *__pyx_v_self) {
   char *__pyx_r;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":291
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":290
  *             of `PyArray_DATA()` instead, which returns a 'void*'.
  *             """
  *             return PyArray_BYTES(self)             # <<<<<<<<<<<<<<
@@ -19218,7 +19205,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy_7ndarray_4data_data(PyArrayObject *__p
   __pyx_r = PyArray_BYTES(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":285
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":284
  * 
  *         @property
  *         cdef inline char* data(self) nogil:             # <<<<<<<<<<<<<<
@@ -19231,7 +19218,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy_7ndarray_4data_data(PyArrayObject *__p
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":777
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":773
  * ctypedef npy_cdouble     complex_t
  * 
  * cdef inline object PyArray_MultiIterNew1(a):             # <<<<<<<<<<<<<<
@@ -19248,7 +19235,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew1", 1);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":778
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":774
  * 
  * cdef inline object PyArray_MultiIterNew1(a):
  *     return PyArray_MultiIterNew(1, <void*>a)             # <<<<<<<<<<<<<<
@@ -19256,13 +19243,13 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
  * cdef inline object PyArray_MultiIterNew2(a, b):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = PyArray_MultiIterNew(1, ((void *)__pyx_v_a)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 778, __pyx_L1_error)
+  __pyx_t_1 = PyArray_MultiIterNew(1, ((void *)__pyx_v_a)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 774, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":777
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":773
  * ctypedef npy_cdouble     complex_t
  * 
  * cdef inline object PyArray_MultiIterNew1(a):             # <<<<<<<<<<<<<<
@@ -19281,7 +19268,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":780
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":776
  *     return PyArray_MultiIterNew(1, <void*>a)
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):             # <<<<<<<<<<<<<<
@@ -19298,7 +19285,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew2", 1);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":781
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":777
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)             # <<<<<<<<<<<<<<
@@ -19306,13 +19293,13 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
  * cdef inline object PyArray_MultiIterNew3(a, b, c):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = PyArray_MultiIterNew(2, ((void *)__pyx_v_a), ((void *)__pyx_v_b)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 781, __pyx_L1_error)
+  __pyx_t_1 = PyArray_MultiIterNew(2, ((void *)__pyx_v_a), ((void *)__pyx_v_b)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 777, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":780
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":776
  *     return PyArray_MultiIterNew(1, <void*>a)
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):             # <<<<<<<<<<<<<<
@@ -19331,7 +19318,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":783
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":779
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):             # <<<<<<<<<<<<<<
@@ -19348,7 +19335,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew3", 1);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":784
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":780
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)             # <<<<<<<<<<<<<<
@@ -19356,13 +19343,13 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = PyArray_MultiIterNew(3, ((void *)__pyx_v_a), ((void *)__pyx_v_b), ((void *)__pyx_v_c)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 784, __pyx_L1_error)
+  __pyx_t_1 = PyArray_MultiIterNew(3, ((void *)__pyx_v_a), ((void *)__pyx_v_b), ((void *)__pyx_v_c)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 780, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":783
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":779
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):             # <<<<<<<<<<<<<<
@@ -19381,7 +19368,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":786
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":782
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):             # <<<<<<<<<<<<<<
@@ -19398,7 +19385,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew4", 1);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":787
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":783
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)             # <<<<<<<<<<<<<<
@@ -19406,13 +19393,13 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = PyArray_MultiIterNew(4, ((void *)__pyx_v_a), ((void *)__pyx_v_b), ((void *)__pyx_v_c), ((void *)__pyx_v_d)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 787, __pyx_L1_error)
+  __pyx_t_1 = PyArray_MultiIterNew(4, ((void *)__pyx_v_a), ((void *)__pyx_v_b), ((void *)__pyx_v_c), ((void *)__pyx_v_d)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 783, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":786
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":782
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):             # <<<<<<<<<<<<<<
@@ -19431,7 +19418,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":789
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":785
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):             # <<<<<<<<<<<<<<
@@ -19448,7 +19435,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew5", 1);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":790
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":786
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)             # <<<<<<<<<<<<<<
@@ -19456,13 +19443,13 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = PyArray_MultiIterNew(5, ((void *)__pyx_v_a), ((void *)__pyx_v_b), ((void *)__pyx_v_c), ((void *)__pyx_v_d), ((void *)__pyx_v_e)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 790, __pyx_L1_error)
+  __pyx_t_1 = PyArray_MultiIterNew(5, ((void *)__pyx_v_a), ((void *)__pyx_v_b), ((void *)__pyx_v_c), ((void *)__pyx_v_d), ((void *)__pyx_v_e)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 786, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":789
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":785
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):             # <<<<<<<<<<<<<<
@@ -19481,7 +19468,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":792
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":788
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):             # <<<<<<<<<<<<<<
@@ -19495,7 +19482,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
   int __pyx_t_1;
   __Pyx_RefNannySetupContext("PyDataType_SHAPE", 1);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":793
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":789
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):             # <<<<<<<<<<<<<<
@@ -19505,7 +19492,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
   __pyx_t_1 = PyDataType_HASSUBARRAY(__pyx_v_d);
   if (__pyx_t_1) {
 
-    /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":794
+    /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":790
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):
  *         return <tuple>d.subarray.shape             # <<<<<<<<<<<<<<
@@ -19517,7 +19504,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
     __pyx_r = ((PyObject*)__pyx_v_d->subarray->shape);
     goto __pyx_L0;
 
-    /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":793
+    /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":789
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):             # <<<<<<<<<<<<<<
@@ -19526,7 +19513,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
  */
   }
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":796
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":792
  *         return <tuple>d.subarray.shape
  *     else:
  *         return ()             # <<<<<<<<<<<<<<
@@ -19540,7 +19527,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
     goto __pyx_L0;
   }
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":792
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":788
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):             # <<<<<<<<<<<<<<
@@ -19555,7 +19542,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":971
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":968
  *     int _import_umath() except -1
  * 
  * cdef inline void set_array_base(ndarray arr, object base):             # <<<<<<<<<<<<<<
@@ -19564,8 +19551,12 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
  */
 
 static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_arr, PyObject *__pyx_v_base) {
+  int __pyx_t_1;
+  int __pyx_lineno = 0;
+  const char *__pyx_filename = NULL;
+  int __pyx_clineno = 0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":972
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":969
  * 
  * cdef inline void set_array_base(ndarray arr, object base):
  *     Py_INCREF(base) # important to do this before stealing the reference below!             # <<<<<<<<<<<<<<
@@ -19574,16 +19565,16 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
  */
   Py_INCREF(__pyx_v_base);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":973
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":970
  * cdef inline void set_array_base(ndarray arr, object base):
  *     Py_INCREF(base) # important to do this before stealing the reference below!
  *     PyArray_SetBaseObject(arr, base)             # <<<<<<<<<<<<<<
  * 
  * cdef inline object get_array_base(ndarray arr):
  */
-  (void)(PyArray_SetBaseObject(__pyx_v_arr, __pyx_v_base));
+  __pyx_t_1 = PyArray_SetBaseObject(__pyx_v_arr, __pyx_v_base); if (unlikely(__pyx_t_1 == ((int)-1))) __PYX_ERR(2, 970, __pyx_L1_error)
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":971
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":968
  *     int _import_umath() except -1
  * 
  * cdef inline void set_array_base(ndarray arr, object base):             # <<<<<<<<<<<<<<
@@ -19592,9 +19583,13 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
  */
 
   /* function exit code */
+  goto __pyx_L0;
+  __pyx_L1_error:;
+  __Pyx_AddTraceback("numpy.set_array_base", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __pyx_L0:;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":975
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":972
  *     PyArray_SetBaseObject(arr, base)
  * 
  * cdef inline object get_array_base(ndarray arr):             # <<<<<<<<<<<<<<
@@ -19609,7 +19604,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   int __pyx_t_1;
   __Pyx_RefNannySetupContext("get_array_base", 1);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":976
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":973
  * 
  * cdef inline object get_array_base(ndarray arr):
  *     base = PyArray_BASE(arr)             # <<<<<<<<<<<<<<
@@ -19618,7 +19613,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
  */
   __pyx_v_base = PyArray_BASE(__pyx_v_arr);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":977
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":974
  * cdef inline object get_array_base(ndarray arr):
  *     base = PyArray_BASE(arr)
  *     if base is NULL:             # <<<<<<<<<<<<<<
@@ -19628,7 +19623,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   __pyx_t_1 = (__pyx_v_base == NULL);
   if (__pyx_t_1) {
 
-    /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":978
+    /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":975
  *     base = PyArray_BASE(arr)
  *     if base is NULL:
  *         return None             # <<<<<<<<<<<<<<
@@ -19639,7 +19634,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
     __pyx_r = Py_None; __Pyx_INCREF(Py_None);
     goto __pyx_L0;
 
-    /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":977
+    /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":974
  * cdef inline object get_array_base(ndarray arr):
  *     base = PyArray_BASE(arr)
  *     if base is NULL:             # <<<<<<<<<<<<<<
@@ -19648,7 +19643,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
  */
   }
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":979
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":976
  *     if base is NULL:
  *         return None
  *     return <object>base             # <<<<<<<<<<<<<<
@@ -19660,7 +19655,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   __pyx_r = ((PyObject *)__pyx_v_base);
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":975
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":972
  *     PyArray_SetBaseObject(arr, base)
  * 
  * cdef inline object get_array_base(ndarray arr):             # <<<<<<<<<<<<<<
@@ -19675,7 +19670,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":983
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":980
  * # Versions of the import_* functions which are more suitable for
  * # Cython code.
  * cdef inline int import_array() except -1:             # <<<<<<<<<<<<<<
@@ -19699,7 +19694,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("import_array", 1);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":984
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":981
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -19715,16 +19710,16 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":985
+      /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":982
  * cdef inline int import_array() except -1:
  *     try:
  *         __pyx_import_array()             # <<<<<<<<<<<<<<
  *     except Exception:
  *         raise ImportError("numpy.core.multiarray failed to import")
  */
-      __pyx_t_4 = _import_array(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(2, 985, __pyx_L3_error)
+      __pyx_t_4 = _import_array(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(2, 982, __pyx_L3_error)
 
-      /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":984
+      /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":981
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -19738,7 +19733,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     goto __pyx_L8_try_end;
     __pyx_L3_error:;
 
-    /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":986
+    /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":983
  *     try:
  *         __pyx_import_array()
  *     except Exception:             # <<<<<<<<<<<<<<
@@ -19748,27 +19743,27 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     __pyx_t_4 = __Pyx_PyErr_ExceptionMatches(((PyObject *)(&((PyTypeObject*)PyExc_Exception)[0])));
     if (__pyx_t_4) {
       __Pyx_AddTraceback("numpy.import_array", __pyx_clineno, __pyx_lineno, __pyx_filename);
-      if (__Pyx_GetException(&__pyx_t_5, &__pyx_t_6, &__pyx_t_7) < 0) __PYX_ERR(2, 986, __pyx_L5_except_error)
+      if (__Pyx_GetException(&__pyx_t_5, &__pyx_t_6, &__pyx_t_7) < 0) __PYX_ERR(2, 983, __pyx_L5_except_error)
       __Pyx_XGOTREF(__pyx_t_5);
       __Pyx_XGOTREF(__pyx_t_6);
       __Pyx_XGOTREF(__pyx_t_7);
 
-      /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":987
+      /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":984
  *         __pyx_import_array()
  *     except Exception:
  *         raise ImportError("numpy.core.multiarray failed to import")             # <<<<<<<<<<<<<<
  * 
  * cdef inline int import_umath() except -1:
  */
-      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__9, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(2, 987, __pyx_L5_except_error)
+      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__9, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(2, 984, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_8);
       __Pyx_Raise(__pyx_t_8, 0, 0, 0);
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-      __PYX_ERR(2, 987, __pyx_L5_except_error)
+      __PYX_ERR(2, 984, __pyx_L5_except_error)
     }
     goto __pyx_L5_except_error;
 
-    /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":984
+    /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":981
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -19784,7 +19779,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     __pyx_L8_try_end:;
   }
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":983
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":980
  * # Versions of the import_* functions which are more suitable for
  * # Cython code.
  * cdef inline int import_array() except -1:             # <<<<<<<<<<<<<<
@@ -19807,7 +19802,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":989
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":986
  *         raise ImportError("numpy.core.multiarray failed to import")
  * 
  * cdef inline int import_umath() except -1:             # <<<<<<<<<<<<<<
@@ -19831,7 +19826,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("import_umath", 1);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":990
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":987
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -19847,16 +19842,16 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":991
+      /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":988
  * cdef inline int import_umath() except -1:
  *     try:
  *         _import_umath()             # <<<<<<<<<<<<<<
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")
  */
-      __pyx_t_4 = _import_umath(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(2, 991, __pyx_L3_error)
+      __pyx_t_4 = _import_umath(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(2, 988, __pyx_L3_error)
 
-      /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":990
+      /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":987
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -19870,7 +19865,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     goto __pyx_L8_try_end;
     __pyx_L3_error:;
 
-    /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":992
+    /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":989
  *     try:
  *         _import_umath()
  *     except Exception:             # <<<<<<<<<<<<<<
@@ -19880,27 +19875,27 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     __pyx_t_4 = __Pyx_PyErr_ExceptionMatches(((PyObject *)(&((PyTypeObject*)PyExc_Exception)[0])));
     if (__pyx_t_4) {
       __Pyx_AddTraceback("numpy.import_umath", __pyx_clineno, __pyx_lineno, __pyx_filename);
-      if (__Pyx_GetException(&__pyx_t_5, &__pyx_t_6, &__pyx_t_7) < 0) __PYX_ERR(2, 992, __pyx_L5_except_error)
+      if (__Pyx_GetException(&__pyx_t_5, &__pyx_t_6, &__pyx_t_7) < 0) __PYX_ERR(2, 989, __pyx_L5_except_error)
       __Pyx_XGOTREF(__pyx_t_5);
       __Pyx_XGOTREF(__pyx_t_6);
       __Pyx_XGOTREF(__pyx_t_7);
 
-      /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":993
+      /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":990
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")             # <<<<<<<<<<<<<<
  * 
  * cdef inline int import_ufunc() except -1:
  */
-      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__10, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(2, 993, __pyx_L5_except_error)
+      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__10, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(2, 990, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_8);
       __Pyx_Raise(__pyx_t_8, 0, 0, 0);
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-      __PYX_ERR(2, 993, __pyx_L5_except_error)
+      __PYX_ERR(2, 990, __pyx_L5_except_error)
     }
     goto __pyx_L5_except_error;
 
-    /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":990
+    /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":987
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -19916,7 +19911,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     __pyx_L8_try_end:;
   }
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":989
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":986
  *         raise ImportError("numpy.core.multiarray failed to import")
  * 
  * cdef inline int import_umath() except -1:             # <<<<<<<<<<<<<<
@@ -19939,7 +19934,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":995
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":992
  *         raise ImportError("numpy.core.umath failed to import")
  * 
  * cdef inline int import_ufunc() except -1:             # <<<<<<<<<<<<<<
@@ -19963,7 +19958,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("import_ufunc", 1);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":996
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":993
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -19979,16 +19974,16 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":997
+      /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":994
  * cdef inline int import_ufunc() except -1:
  *     try:
  *         _import_umath()             # <<<<<<<<<<<<<<
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")
  */
-      __pyx_t_4 = _import_umath(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(2, 997, __pyx_L3_error)
+      __pyx_t_4 = _import_umath(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(2, 994, __pyx_L3_error)
 
-      /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":996
+      /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":993
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -20002,7 +19997,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     goto __pyx_L8_try_end;
     __pyx_L3_error:;
 
-    /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":998
+    /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":995
  *     try:
  *         _import_umath()
  *     except Exception:             # <<<<<<<<<<<<<<
@@ -20012,27 +20007,27 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     __pyx_t_4 = __Pyx_PyErr_ExceptionMatches(((PyObject *)(&((PyTypeObject*)PyExc_Exception)[0])));
     if (__pyx_t_4) {
       __Pyx_AddTraceback("numpy.import_ufunc", __pyx_clineno, __pyx_lineno, __pyx_filename);
-      if (__Pyx_GetException(&__pyx_t_5, &__pyx_t_6, &__pyx_t_7) < 0) __PYX_ERR(2, 998, __pyx_L5_except_error)
+      if (__Pyx_GetException(&__pyx_t_5, &__pyx_t_6, &__pyx_t_7) < 0) __PYX_ERR(2, 995, __pyx_L5_except_error)
       __Pyx_XGOTREF(__pyx_t_5);
       __Pyx_XGOTREF(__pyx_t_6);
       __Pyx_XGOTREF(__pyx_t_7);
 
-      /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":999
+      /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":996
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")             # <<<<<<<<<<<<<<
  * 
  * 
  */
-      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__10, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(2, 999, __pyx_L5_except_error)
+      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__10, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(2, 996, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_8);
       __Pyx_Raise(__pyx_t_8, 0, 0, 0);
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-      __PYX_ERR(2, 999, __pyx_L5_except_error)
+      __PYX_ERR(2, 996, __pyx_L5_except_error)
     }
     goto __pyx_L5_except_error;
 
-    /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":996
+    /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":993
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -20048,7 +20043,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     __pyx_L8_try_end:;
   }
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":995
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":992
  *         raise ImportError("numpy.core.umath failed to import")
  * 
  * cdef inline int import_ufunc() except -1:             # <<<<<<<<<<<<<<
@@ -20071,7 +20066,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1002
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":999
  * 
  * 
  * cdef inline bint is_timedelta64_object(object obj):             # <<<<<<<<<<<<<<
@@ -20082,7 +20077,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
 static CYTHON_INLINE int __pyx_f_5numpy_is_timedelta64_object(PyObject *__pyx_v_obj) {
   int __pyx_r;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1014
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1011
  *     bool
  *     """
  *     return PyObject_TypeCheck(obj, &PyTimedeltaArrType_Type)             # <<<<<<<<<<<<<<
@@ -20092,7 +20087,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_timedelta64_object(PyObject *__pyx_v_
   __pyx_r = PyObject_TypeCheck(__pyx_v_obj, (&PyTimedeltaArrType_Type));
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1002
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":999
  * 
  * 
  * cdef inline bint is_timedelta64_object(object obj):             # <<<<<<<<<<<<<<
@@ -20105,7 +20100,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_timedelta64_object(PyObject *__pyx_v_
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1017
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1014
  * 
  * 
  * cdef inline bint is_datetime64_object(object obj):             # <<<<<<<<<<<<<<
@@ -20116,7 +20111,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_timedelta64_object(PyObject *__pyx_v_
 static CYTHON_INLINE int __pyx_f_5numpy_is_datetime64_object(PyObject *__pyx_v_obj) {
   int __pyx_r;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1029
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1026
  *     bool
  *     """
  *     return PyObject_TypeCheck(obj, &PyDatetimeArrType_Type)             # <<<<<<<<<<<<<<
@@ -20126,7 +20121,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_datetime64_object(PyObject *__pyx_v_o
   __pyx_r = PyObject_TypeCheck(__pyx_v_obj, (&PyDatetimeArrType_Type));
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1017
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1014
  * 
  * 
  * cdef inline bint is_datetime64_object(object obj):             # <<<<<<<<<<<<<<
@@ -20139,7 +20134,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_datetime64_object(PyObject *__pyx_v_o
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1032
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1029
  * 
  * 
  * cdef inline npy_datetime get_datetime64_value(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -20150,7 +20145,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_datetime64_object(PyObject *__pyx_v_o
 static CYTHON_INLINE npy_datetime __pyx_f_5numpy_get_datetime64_value(PyObject *__pyx_v_obj) {
   npy_datetime __pyx_r;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1039
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1036
  *     also needed.  That can be found using `get_datetime64_unit`.
  *     """
  *     return (<PyDatetimeScalarObject*>obj).obval             # <<<<<<<<<<<<<<
@@ -20160,7 +20155,7 @@ static CYTHON_INLINE npy_datetime __pyx_f_5numpy_get_datetime64_value(PyObject *
   __pyx_r = ((PyDatetimeScalarObject *)__pyx_v_obj)->obval;
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1032
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1029
  * 
  * 
  * cdef inline npy_datetime get_datetime64_value(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -20173,7 +20168,7 @@ static CYTHON_INLINE npy_datetime __pyx_f_5numpy_get_datetime64_value(PyObject *
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1042
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1039
  * 
  * 
  * cdef inline npy_timedelta get_timedelta64_value(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -20184,7 +20179,7 @@ static CYTHON_INLINE npy_datetime __pyx_f_5numpy_get_datetime64_value(PyObject *
 static CYTHON_INLINE npy_timedelta __pyx_f_5numpy_get_timedelta64_value(PyObject *__pyx_v_obj) {
   npy_timedelta __pyx_r;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1046
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1043
  *     returns the int64 value underlying scalar numpy timedelta64 object
  *     """
  *     return (<PyTimedeltaScalarObject*>obj).obval             # <<<<<<<<<<<<<<
@@ -20194,7 +20189,7 @@ static CYTHON_INLINE npy_timedelta __pyx_f_5numpy_get_timedelta64_value(PyObject
   __pyx_r = ((PyTimedeltaScalarObject *)__pyx_v_obj)->obval;
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1042
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1039
  * 
  * 
  * cdef inline npy_timedelta get_timedelta64_value(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -20207,7 +20202,7 @@ static CYTHON_INLINE npy_timedelta __pyx_f_5numpy_get_timedelta64_value(PyObject
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1049
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1046
  * 
  * 
  * cdef inline NPY_DATETIMEUNIT get_datetime64_unit(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -20218,7 +20213,7 @@ static CYTHON_INLINE npy_timedelta __pyx_f_5numpy_get_timedelta64_value(PyObject
 static CYTHON_INLINE NPY_DATETIMEUNIT __pyx_f_5numpy_get_datetime64_unit(PyObject *__pyx_v_obj) {
   NPY_DATETIMEUNIT __pyx_r;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1053
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1050
  *     returns the unit part of the dtype for a numpy datetime64 object.
  *     """
  *     return <NPY_DATETIMEUNIT>(<PyDatetimeScalarObject*>obj).obmeta.base             # <<<<<<<<<<<<<<
@@ -20226,7 +20221,7 @@ static CYTHON_INLINE NPY_DATETIMEUNIT __pyx_f_5numpy_get_datetime64_unit(PyObjec
   __pyx_r = ((NPY_DATETIMEUNIT)((PyDatetimeScalarObject *)__pyx_v_obj)->obmeta.base);
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1049
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1046
  * 
  * 
  * cdef inline NPY_DATETIMEUNIT get_datetime64_unit(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -20239,7 +20234,7 @@ static CYTHON_INLINE NPY_DATETIMEUNIT __pyx_f_5numpy_get_datetime64_unit(PyObjec
   return __pyx_r;
 }
 
-/* "MatrixFactorization_Cython_Epoch.pyx":99
+/* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":99
  * 
  * 
  *     def __init__(self, URM_train, n_factors = 1, algorithm_name = None,             # <<<<<<<<<<<<<<
@@ -20248,8 +20243,8 @@ static CYTHON_INLINE NPY_DATETIMEUNIT __pyx_f_5numpy_get_datetime64_unit(PyObjec
  */
 
 /* Python wrapper */
-static int __pyx_pw_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static int __pyx_pw_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static int __pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static int __pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_URM_train = 0;
   PyObject *__pyx_v_n_factors = 0;
   PyObject *__pyx_v_algorithm_name = 0;
@@ -20296,7 +20291,7 @@ static int __pyx_pw_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
     values[3] = __Pyx_Arg_NewRef_VARARGS(((PyObject *)__pyx_int_1));
     values[4] = __Pyx_Arg_NewRef_VARARGS(((PyObject *)__pyx_float_0_5));
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":102
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":102
  *                  batch_size = 1,
  *                  negative_interactions_quota = 0.5,
  *                  dropout_quota = None, WARP_neg_item_attempts = 10,             # <<<<<<<<<<<<<<
@@ -20307,7 +20302,7 @@ static int __pyx_pw_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
     values[6] = __Pyx_Arg_NewRef_VARARGS(((PyObject *)__pyx_int_10));
     values[7] = __Pyx_Arg_NewRef_VARARGS(((PyObject *)__pyx_float_1eneg_3));
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":103
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":103
  *                  negative_interactions_quota = 0.5,
  *                  dropout_quota = None, WARP_neg_item_attempts = 10,
  *                  learning_rate = 1e-3, use_bias = False, use_embeddings = True,             # <<<<<<<<<<<<<<
@@ -20322,7 +20317,7 @@ static int __pyx_pw_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
     values[13] = __Pyx_Arg_NewRef_VARARGS(((PyObject *)__pyx_float_0_0));
     values[14] = __Pyx_Arg_NewRef_VARARGS(((PyObject *)__pyx_float_0_0));
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":105
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":105
  *                  learning_rate = 1e-3, use_bias = False, use_embeddings = True,
  *                  user_reg = 0.0, item_reg = 0.0, bias_reg = 0.0, positive_reg = 0.0, negative_reg = 0.0,
  *                  verbose = False, print_step_seconds = 300, random_seed = None,             # <<<<<<<<<<<<<<
@@ -20657,13 +20652,13 @@ static int __pyx_pw_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
       __Pyx_Arg_XDECREF_VARARGS(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("MatrixFactorization_Cython_Epoch.MatrixFactorization_Cython_Epoch.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.MatrixFactorization.Cython.MatrixFactorization_Cython_Epoch.MatrixFactorization_Cython_Epoch.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return -1;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch___init__(((struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *)__pyx_v_self), __pyx_v_URM_train, __pyx_v_n_factors, __pyx_v_algorithm_name, __pyx_v_batch_size, __pyx_v_negative_interactions_quota, __pyx_v_dropout_quota, __pyx_v_WARP_neg_item_attempts, __pyx_v_learning_rate, __pyx_v_use_bias, __pyx_v_use_embeddings, __pyx_v_user_reg, __pyx_v_item_reg, __pyx_v_bias_reg, __pyx_v_positive_reg, __pyx_v_negative_reg, __pyx_v_verbose, __pyx_v_print_step_seconds, __pyx_v_random_seed, __pyx_v_init_mean, __pyx_v_init_std_dev, __pyx_v_sgd_mode, __pyx_v_gamma, __pyx_v_beta_1, __pyx_v_beta_2);
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch___init__(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *)__pyx_v_self), __pyx_v_URM_train, __pyx_v_n_factors, __pyx_v_algorithm_name, __pyx_v_batch_size, __pyx_v_negative_interactions_quota, __pyx_v_dropout_quota, __pyx_v_WARP_neg_item_attempts, __pyx_v_learning_rate, __pyx_v_use_bias, __pyx_v_use_embeddings, __pyx_v_user_reg, __pyx_v_item_reg, __pyx_v_bias_reg, __pyx_v_positive_reg, __pyx_v_negative_reg, __pyx_v_verbose, __pyx_v_print_step_seconds, __pyx_v_random_seed, __pyx_v_init_mean, __pyx_v_init_std_dev, __pyx_v_sgd_mode, __pyx_v_gamma, __pyx_v_beta_1, __pyx_v_beta_2);
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":99
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":99
  * 
  * 
  *     def __init__(self, URM_train, n_factors = 1, algorithm_name = None,             # <<<<<<<<<<<<<<
@@ -20682,7 +20677,7 @@ static int __pyx_pw_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
   return __pyx_r;
 }
 
-static int __pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch___init__(struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self, PyObject *__pyx_v_URM_train, PyObject *__pyx_v_n_factors, PyObject *__pyx_v_algorithm_name, PyObject *__pyx_v_batch_size, PyObject *__pyx_v_negative_interactions_quota, PyObject *__pyx_v_dropout_quota, PyObject *__pyx_v_WARP_neg_item_attempts, PyObject *__pyx_v_learning_rate, PyObject *__pyx_v_use_bias, PyObject *__pyx_v_use_embeddings, PyObject *__pyx_v_user_reg, PyObject *__pyx_v_item_reg, PyObject *__pyx_v_bias_reg, PyObject *__pyx_v_positive_reg, PyObject *__pyx_v_negative_reg, PyObject *__pyx_v_verbose, PyObject *__pyx_v_print_step_seconds, PyObject *__pyx_v_random_seed, PyObject *__pyx_v_init_mean, PyObject *__pyx_v_init_std_dev, PyObject *__pyx_v_sgd_mode, PyObject *__pyx_v_gamma, PyObject *__pyx_v_beta_1, PyObject *__pyx_v_beta_2) {
+static int __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch___init__(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self, PyObject *__pyx_v_URM_train, PyObject *__pyx_v_n_factors, PyObject *__pyx_v_algorithm_name, PyObject *__pyx_v_batch_size, PyObject *__pyx_v_negative_interactions_quota, PyObject *__pyx_v_dropout_quota, PyObject *__pyx_v_WARP_neg_item_attempts, PyObject *__pyx_v_learning_rate, PyObject *__pyx_v_use_bias, PyObject *__pyx_v_use_embeddings, PyObject *__pyx_v_user_reg, PyObject *__pyx_v_item_reg, PyObject *__pyx_v_bias_reg, PyObject *__pyx_v_positive_reg, PyObject *__pyx_v_negative_reg, PyObject *__pyx_v_verbose, PyObject *__pyx_v_print_step_seconds, PyObject *__pyx_v_random_seed, PyObject *__pyx_v_init_mean, PyObject *__pyx_v_init_std_dev, PyObject *__pyx_v_sgd_mode, PyObject *__pyx_v_gamma, PyObject *__pyx_v_beta_1, PyObject *__pyx_v_beta_2) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -20705,7 +20700,7 @@ static int __pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
   __Pyx_RefNannySetupContext("__init__", 0);
   __Pyx_INCREF(__pyx_v_URM_train);
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":109
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":109
  *                  sgd_mode='sgd', gamma=0.995, beta_1=0.9, beta_2=0.999):
  * 
  *         super(MatrixFactorization_Cython_Epoch, self).__init__()             # <<<<<<<<<<<<<<
@@ -20714,9 +20709,9 @@ static int __pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
  */
   __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 109, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __Pyx_INCREF((PyObject *)__pyx_ptype_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch);
-  __Pyx_GIVEREF((PyObject *)__pyx_ptype_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch);
-  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_2, 0, ((PyObject *)__pyx_ptype_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch))) __PYX_ERR(0, 109, __pyx_L1_error);
+  __Pyx_INCREF((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch);
+  __Pyx_GIVEREF((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch);
+  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_2, 0, ((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch))) __PYX_ERR(0, 109, __pyx_L1_error);
   __Pyx_INCREF((PyObject *)__pyx_v_self);
   __Pyx_GIVEREF((PyObject *)__pyx_v_self);
   if (__Pyx_PyTuple_SET_ITEM(__pyx_t_2, 1, ((PyObject *)__pyx_v_self))) __PYX_ERR(0, 109, __pyx_L1_error);
@@ -20750,7 +20745,7 @@ static int __pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
   }
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":112
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":112
  * 
  * 
  *         if sgd_mode not in self.SGD_MODE_VALUES:             # <<<<<<<<<<<<<<
@@ -20763,7 +20758,7 @@ static int __pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   if (unlikely(__pyx_t_5)) {
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":113
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":113
  * 
  *         if sgd_mode not in self.SGD_MODE_VALUES:
  *            raise ValueError("Value for 'sgd_mode' not recognized. Acceptable values are {}, provided was '{}'".format(self.SGD_MODE_VALUES, sgd_mode))             # <<<<<<<<<<<<<<
@@ -20804,7 +20799,7 @@ static int __pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __PYX_ERR(0, 113, __pyx_L1_error)
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":112
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":112
  * 
  * 
  *         if sgd_mode not in self.SGD_MODE_VALUES:             # <<<<<<<<<<<<<<
@@ -20813,7 +20808,7 @@ static int __pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
  */
   }
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":115
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":115
  *            raise ValueError("Value for 'sgd_mode' not recognized. Acceptable values are {}, provided was '{}'".format(self.SGD_MODE_VALUES, sgd_mode))
  * 
  *         if algorithm_name not in self.ALGORITHM_NAME_VALUES:             # <<<<<<<<<<<<<<
@@ -20826,7 +20821,7 @@ static int __pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   if (unlikely(__pyx_t_5)) {
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":116
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":116
  * 
  *         if algorithm_name not in self.ALGORITHM_NAME_VALUES:
  *            raise ValueError("Value for 'algorithm_name' not recognized. Acceptable values are {}, provided was '{}'".format(self.ALGORITHM_NAME_VALUES, algorithm_name))             # <<<<<<<<<<<<<<
@@ -20867,7 +20862,7 @@ static int __pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     __PYX_ERR(0, 116, __pyx_L1_error)
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":115
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":115
  *            raise ValueError("Value for 'sgd_mode' not recognized. Acceptable values are {}, provided was '{}'".format(self.SGD_MODE_VALUES, sgd_mode))
  * 
  *         if algorithm_name not in self.ALGORITHM_NAME_VALUES:             # <<<<<<<<<<<<<<
@@ -20876,7 +20871,7 @@ static int __pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
  */
   }
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":121
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":121
  *         # Create copy of URM_train in csr format
  *         # make sure indices are sorted
  *         URM_train = check_matrix(URM_train, 'csr')             # <<<<<<<<<<<<<<
@@ -20910,7 +20905,7 @@ static int __pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
   __Pyx_DECREF_SET(__pyx_v_URM_train, __pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":122
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":122
  *         # make sure indices are sorted
  *         URM_train = check_matrix(URM_train, 'csr')
  *         URM_train = URM_train.sorted_indices()             # <<<<<<<<<<<<<<
@@ -20944,7 +20939,7 @@ static int __pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
   __Pyx_DECREF_SET(__pyx_v_URM_train, __pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":124
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":124
  *         URM_train = URM_train.sorted_indices()
  * 
  *         self.profile_length = np.ediff1d(URM_train.indptr)             # <<<<<<<<<<<<<<
@@ -20988,7 +20983,7 @@ static int __pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
   __pyx_t_7.memview = NULL;
   __pyx_t_7.data = NULL;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":125
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":125
  * 
  *         self.profile_length = np.ediff1d(URM_train.indptr)
  *         self.n_users, self.n_items = URM_train.shape             # <<<<<<<<<<<<<<
@@ -21050,7 +21045,7 @@ static int __pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
   __pyx_v_self->n_users = __pyx_t_9;
   __pyx_v_self->n_items = __pyx_t_10;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":128
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":128
  * 
  * 
  *         self.n_factors = n_factors             # <<<<<<<<<<<<<<
@@ -21060,7 +21055,7 @@ static int __pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
   __pyx_t_10 = __Pyx_PyInt_As_int(__pyx_v_n_factors); if (unlikely((__pyx_t_10 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 128, __pyx_L1_error)
   __pyx_v_self->n_factors = __pyx_t_10;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":129
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":129
  * 
  *         self.n_factors = n_factors
  *         self.verbose = verbose             # <<<<<<<<<<<<<<
@@ -21070,7 +21065,7 @@ static int __pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
   __pyx_t_10 = __Pyx_PyInt_As_int(__pyx_v_verbose); if (unlikely((__pyx_t_10 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 129, __pyx_L1_error)
   __pyx_v_self->verbose = __pyx_t_10;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":130
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":130
  *         self.n_factors = n_factors
  *         self.verbose = verbose
  *         self.algorithm_name = algorithm_name             # <<<<<<<<<<<<<<
@@ -21083,7 +21078,7 @@ static int __pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
   __Pyx_DECREF(__pyx_v_self->algorithm_name);
   __pyx_v_self->algorithm_name = __pyx_v_algorithm_name;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":131
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":131
  *         self.verbose = verbose
  *         self.algorithm_name = algorithm_name
  *         self.learning_rate = learning_rate             # <<<<<<<<<<<<<<
@@ -21093,7 +21088,7 @@ static int __pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
   __pyx_t_11 = __pyx_PyFloat_AsDouble(__pyx_v_learning_rate); if (unlikely((__pyx_t_11 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 131, __pyx_L1_error)
   __pyx_v_self->learning_rate = __pyx_t_11;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":132
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":132
  *         self.algorithm_name = algorithm_name
  *         self.learning_rate = learning_rate
  *         self.user_reg = user_reg             # <<<<<<<<<<<<<<
@@ -21103,7 +21098,7 @@ static int __pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
   __pyx_t_11 = __pyx_PyFloat_AsDouble(__pyx_v_user_reg); if (unlikely((__pyx_t_11 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 132, __pyx_L1_error)
   __pyx_v_self->user_reg = __pyx_t_11;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":133
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":133
  *         self.learning_rate = learning_rate
  *         self.user_reg = user_reg
  *         self.item_reg = item_reg             # <<<<<<<<<<<<<<
@@ -21113,7 +21108,7 @@ static int __pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
   __pyx_t_11 = __pyx_PyFloat_AsDouble(__pyx_v_item_reg); if (unlikely((__pyx_t_11 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 133, __pyx_L1_error)
   __pyx_v_self->item_reg = __pyx_t_11;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":134
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":134
  *         self.user_reg = user_reg
  *         self.item_reg = item_reg
  *         self.positive_reg = positive_reg             # <<<<<<<<<<<<<<
@@ -21123,7 +21118,7 @@ static int __pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
   __pyx_t_11 = __pyx_PyFloat_AsDouble(__pyx_v_positive_reg); if (unlikely((__pyx_t_11 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 134, __pyx_L1_error)
   __pyx_v_self->positive_reg = __pyx_t_11;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":135
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":135
  *         self.item_reg = item_reg
  *         self.positive_reg = positive_reg
  *         self.negative_reg = negative_reg             # <<<<<<<<<<<<<<
@@ -21133,7 +21128,7 @@ static int __pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
   __pyx_t_11 = __pyx_PyFloat_AsDouble(__pyx_v_negative_reg); if (unlikely((__pyx_t_11 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 135, __pyx_L1_error)
   __pyx_v_self->negative_reg = __pyx_t_11;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":136
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":136
  *         self.positive_reg = positive_reg
  *         self.negative_reg = negative_reg
  *         self.bias_reg = bias_reg             # <<<<<<<<<<<<<<
@@ -21143,7 +21138,7 @@ static int __pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
   __pyx_t_11 = __pyx_PyFloat_AsDouble(__pyx_v_bias_reg); if (unlikely((__pyx_t_11 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 136, __pyx_L1_error)
   __pyx_v_self->bias_reg = __pyx_t_11;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":137
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":137
  *         self.negative_reg = negative_reg
  *         self.bias_reg = bias_reg
  *         self.print_step_seconds = print_step_seconds             # <<<<<<<<<<<<<<
@@ -21153,7 +21148,7 @@ static int __pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
   __pyx_t_10 = __Pyx_PyInt_As_int(__pyx_v_print_step_seconds); if (unlikely((__pyx_t_10 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 137, __pyx_L1_error)
   __pyx_v_self->print_step_seconds = __pyx_t_10;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":139
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":139
  *         self.print_step_seconds = print_step_seconds
  * 
  *         assert (use_bias or use_embeddings), "At least one between use_bias and use_embeddings must be True"             # <<<<<<<<<<<<<<
@@ -21180,7 +21175,7 @@ static int __pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
   if ((1)); else __PYX_ERR(0, 139, __pyx_L1_error)
   #endif
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":140
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":140
  * 
  *         assert (use_bias or use_embeddings), "At least one between use_bias and use_embeddings must be True"
  *         self.use_bias = use_bias             # <<<<<<<<<<<<<<
@@ -21190,7 +21185,7 @@ static int __pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
   __pyx_t_10 = __Pyx_PyInt_As_int(__pyx_v_use_bias); if (unlikely((__pyx_t_10 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 140, __pyx_L1_error)
   __pyx_v_self->use_bias = __pyx_t_10;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":141
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":141
  *         assert (use_bias or use_embeddings), "At least one between use_bias and use_embeddings must be True"
  *         self.use_bias = use_bias
  *         self.use_embeddings = use_embeddings             # <<<<<<<<<<<<<<
@@ -21200,7 +21195,7 @@ static int __pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
   __pyx_t_10 = __Pyx_PyInt_As_int(__pyx_v_use_embeddings); if (unlikely((__pyx_t_10 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 141, __pyx_L1_error)
   __pyx_v_self->use_embeddings = __pyx_t_10;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":143
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":143
  *         self.use_embeddings = use_embeddings
  * 
  *         self.batch_size = batch_size             # <<<<<<<<<<<<<<
@@ -21210,7 +21205,7 @@ static int __pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
   __pyx_t_10 = __Pyx_PyInt_As_int(__pyx_v_batch_size); if (unlikely((__pyx_t_10 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 143, __pyx_L1_error)
   __pyx_v_self->batch_size = __pyx_t_10;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":144
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":144
  * 
  *         self.batch_size = batch_size
  *         self.init_mean = init_mean             # <<<<<<<<<<<<<<
@@ -21220,7 +21215,7 @@ static int __pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
   __pyx_t_11 = __pyx_PyFloat_AsDouble(__pyx_v_init_mean); if (unlikely((__pyx_t_11 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 144, __pyx_L1_error)
   __pyx_v_self->init_mean = __pyx_t_11;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":145
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":145
  *         self.batch_size = batch_size
  *         self.init_mean = init_mean
  *         self.init_std_dev = init_std_dev             # <<<<<<<<<<<<<<
@@ -21230,7 +21225,7 @@ static int __pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
   __pyx_t_11 = __pyx_PyFloat_AsDouble(__pyx_v_init_std_dev); if (unlikely((__pyx_t_11 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 145, __pyx_L1_error)
   __pyx_v_self->init_std_dev = __pyx_t_11;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":146
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":146
  *         self.init_mean = init_mean
  *         self.init_std_dev = init_std_dev
  *         self.MSE_negative_interactions_quota = negative_interactions_quota             # <<<<<<<<<<<<<<
@@ -21240,7 +21235,7 @@ static int __pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
   __pyx_t_11 = __pyx_PyFloat_AsDouble(__pyx_v_negative_interactions_quota); if (unlikely((__pyx_t_11 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 146, __pyx_L1_error)
   __pyx_v_self->MSE_negative_interactions_quota = __pyx_t_11;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":147
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":147
  *         self.init_std_dev = init_std_dev
  *         self.MSE_negative_interactions_quota = negative_interactions_quota
  *         self.MSE_sample_negative_interactions_flag = self.MSE_negative_interactions_quota != 0.0             # <<<<<<<<<<<<<<
@@ -21249,7 +21244,7 @@ static int __pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
  */
   __pyx_v_self->MSE_sample_negative_interactions_flag = (__pyx_v_self->MSE_negative_interactions_quota != 0.0);
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":148
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":148
  *         self.MSE_negative_interactions_quota = negative_interactions_quota
  *         self.MSE_sample_negative_interactions_flag = self.MSE_negative_interactions_quota != 0.0
  *         self.WARP_neg_item_attempts = WARP_neg_item_attempts             # <<<<<<<<<<<<<<
@@ -21259,7 +21254,7 @@ static int __pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
   __pyx_t_10 = __Pyx_PyInt_As_int(__pyx_v_WARP_neg_item_attempts); if (unlikely((__pyx_t_10 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 148, __pyx_L1_error)
   __pyx_v_self->WARP_neg_item_attempts = __pyx_t_10;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":150
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":150
  *         self.WARP_neg_item_attempts = WARP_neg_item_attempts
  * 
  *         self.URM_train_indices = URM_train.indices             # <<<<<<<<<<<<<<
@@ -21275,7 +21270,7 @@ static int __pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
   __pyx_t_7.memview = NULL;
   __pyx_t_7.data = NULL;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":151
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":151
  * 
  *         self.URM_train_indices = URM_train.indices
  *         self.URM_train_data = np.array(URM_train.data, dtype=np.float64)             # <<<<<<<<<<<<<<
@@ -21315,7 +21310,7 @@ static int __pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
   __pyx_t_14.memview = NULL;
   __pyx_t_14.data = NULL;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":152
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":152
  *         self.URM_train_indices = URM_train.indices
  *         self.URM_train_data = np.array(URM_train.data, dtype=np.float64)
  *         self.URM_train_indptr = URM_train.indptr             # <<<<<<<<<<<<<<
@@ -21331,7 +21326,7 @@ static int __pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
   __pyx_t_7.memview = NULL;
   __pyx_t_7.data = NULL;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":154
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":154
  *         self.URM_train_indptr = URM_train.indptr
  * 
  *         if random_seed is not None:             # <<<<<<<<<<<<<<
@@ -21341,7 +21336,7 @@ static int __pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
   __pyx_t_5 = (__pyx_v_random_seed != Py_None);
   if (__pyx_t_5) {
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":155
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":155
  * 
  *         if random_seed is not None:
  *             np.random.seed(seed=random_seed)             # <<<<<<<<<<<<<<
@@ -21365,7 +21360,7 @@ static int __pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":156
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":156
  *         if random_seed is not None:
  *             np.random.seed(seed=random_seed)
  *             srand(<unsigned int> int(random_seed))             # <<<<<<<<<<<<<<
@@ -21378,7 +21373,7 @@ static int __pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     srand(((unsigned int)__pyx_t_4));
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":154
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":154
  *         self.URM_train_indptr = URM_train.indptr
  * 
  *         if random_seed is not None:             # <<<<<<<<<<<<<<
@@ -21387,7 +21382,7 @@ static int __pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
  */
   }
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":159
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":159
  * 
  * 
  *         self.factors_dropout_mask = np.ones(self.n_factors, dtype=np.int32)             # <<<<<<<<<<<<<<
@@ -21427,7 +21422,7 @@ static int __pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
   __pyx_t_7.memview = NULL;
   __pyx_t_7.data = NULL;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":161
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":161
  *         self.factors_dropout_mask = np.ones(self.n_factors, dtype=np.int32)
  * 
  *         if dropout_quota is None:             # <<<<<<<<<<<<<<
@@ -21437,7 +21432,7 @@ static int __pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
   __pyx_t_5 = (__pyx_v_dropout_quota == Py_None);
   if (__pyx_t_5) {
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":162
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":162
  * 
  *         if dropout_quota is None:
  *             self.dropout_flag = False             # <<<<<<<<<<<<<<
@@ -21446,7 +21441,7 @@ static int __pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
  */
     __pyx_v_self->dropout_flag = 0;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":163
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":163
  *         if dropout_quota is None:
  *             self.dropout_flag = False
  *             self.dropout_quota = 0.0             # <<<<<<<<<<<<<<
@@ -21455,7 +21450,7 @@ static int __pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
  */
     __pyx_v_self->dropout_quota = 0.0;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":161
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":161
  *         self.factors_dropout_mask = np.ones(self.n_factors, dtype=np.int32)
  * 
  *         if dropout_quota is None:             # <<<<<<<<<<<<<<
@@ -21465,7 +21460,7 @@ static int __pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
     goto __pyx_L10;
   }
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":165
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":165
  *             self.dropout_quota = 0.0
  *         else:
  *             assert dropout_quota>0.0 and dropout_quota<1.0, "Value for 'dropout_quota' not valid. Acceptable values are None or a float value >0.0 and <1.0, provided value was '{}'".format(dropout_quota)             # <<<<<<<<<<<<<<
@@ -21525,7 +21520,7 @@ static int __pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
     if ((1)); else __PYX_ERR(0, 165, __pyx_L1_error)
     #endif
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":166
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":166
  *         else:
  *             assert dropout_quota>0.0 and dropout_quota<1.0, "Value for 'dropout_quota' not valid. Acceptable values are None or a float value >0.0 and <1.0, provided value was '{}'".format(dropout_quota)
  *             self.dropout_flag = True             # <<<<<<<<<<<<<<
@@ -21534,7 +21529,7 @@ static int __pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
  */
     __pyx_v_self->dropout_flag = 1;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":167
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":167
  *             assert dropout_quota>0.0 and dropout_quota<1.0, "Value for 'dropout_quota' not valid. Acceptable values are None or a float value >0.0 and <1.0, provided value was '{}'".format(dropout_quota)
  *             self.dropout_flag = True
  *             self.dropout_quota = dropout_quota             # <<<<<<<<<<<<<<
@@ -21546,7 +21541,7 @@ static int __pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
   }
   __pyx_L10:;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":170
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":170
  * 
  * 
  *         self._init_latent_factors()             # <<<<<<<<<<<<<<
@@ -21579,7 +21574,7 @@ static int __pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
   }
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":171
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":171
  * 
  *         self._init_latent_factors()
  *         self._init_minibatch_data_structures()             # <<<<<<<<<<<<<<
@@ -21612,7 +21607,7 @@ static int __pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
   }
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":172
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":172
  *         self._init_latent_factors()
  *         self._init_minibatch_data_structures()
  *         self._init_adaptive_gradient_cache(sgd_mode, gamma, beta_1, beta_2)             # <<<<<<<<<<<<<<
@@ -21645,7 +21640,7 @@ static int __pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
   }
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":99
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":99
  * 
  * 
  *     def __init__(self, URM_train, n_factors = 1, algorithm_name = None,             # <<<<<<<<<<<<<<
@@ -21664,7 +21659,7 @@ static int __pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
   __PYX_XCLEAR_MEMVIEW(&__pyx_t_7, 1);
   __Pyx_XDECREF(__pyx_t_13);
   __PYX_XCLEAR_MEMVIEW(&__pyx_t_14, 1);
-  __Pyx_AddTraceback("MatrixFactorization_Cython_Epoch.MatrixFactorization_Cython_Epoch.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.MatrixFactorization.Cython.MatrixFactorization_Cython_Epoch.MatrixFactorization_Cython_Epoch.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = -1;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_URM_train);
@@ -21672,7 +21667,7 @@ static int __pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
   return __pyx_r;
 }
 
-/* "MatrixFactorization_Cython_Epoch.pyx":176
+/* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":176
  * 
  * 
  *     def _init_latent_factors(self):             # <<<<<<<<<<<<<<
@@ -21681,15 +21676,15 @@ static int __pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_3_init_latent_factors(PyObject *__pyx_v_self, 
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_3_init_latent_factors(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static PyMethodDef __pyx_mdef_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_3_init_latent_factors = {"_init_latent_factors", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_3_init_latent_factors, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_3_init_latent_factors(PyObject *__pyx_v_self, 
+static PyMethodDef __pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_3_init_latent_factors = {"_init_latent_factors", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_3_init_latent_factors, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_3_init_latent_factors(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -21714,14 +21709,14 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   if (unlikely(__pyx_nargs > 0)) {
     __Pyx_RaiseArgtupleInvalid("_init_latent_factors", 1, 0, 0, __pyx_nargs); return NULL;}
   if (unlikely(__pyx_kwds) && __Pyx_NumKwargs_FASTCALL(__pyx_kwds) && unlikely(!__Pyx_CheckKeywordStrings(__pyx_kwds, "_init_latent_factors", 0))) return NULL;
-  __pyx_r = __pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_2_init_latent_factors(((struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *)__pyx_v_self));
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_2_init_latent_factors(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_2_init_latent_factors(struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self) {
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_2_init_latent_factors(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self) {
   int __pyx_v_n_user_factors;
   int __pyx_v_n_item_factors;
   PyObject *__pyx_r = NULL;
@@ -21744,7 +21739,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("_init_latent_factors", 1);
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":178
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":178
  *     def _init_latent_factors(self):
  * 
  *         self.algorithm_is_svdpp = False             # <<<<<<<<<<<<<<
@@ -21753,7 +21748,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
  */
   __pyx_v_self->algorithm_is_svdpp = 0;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":179
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":179
  * 
  *         self.algorithm_is_svdpp = False
  *         self.algorithm_is_asy_svd = False             # <<<<<<<<<<<<<<
@@ -21762,7 +21757,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
  */
   __pyx_v_self->algorithm_is_asy_svd = 0;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":180
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":180
  *         self.algorithm_is_svdpp = False
  *         self.algorithm_is_asy_svd = False
  *         self.algorithm_is_BPR = False             # <<<<<<<<<<<<<<
@@ -21771,7 +21766,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
  */
   __pyx_v_self->algorithm_is_BPR = 0;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":181
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":181
  *         self.algorithm_is_asy_svd = False
  *         self.algorithm_is_BPR = False
  *         self.algorithm_is_WARP = False             # <<<<<<<<<<<<<<
@@ -21780,7 +21775,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
  */
   __pyx_v_self->algorithm_is_WARP = 0;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":183
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":183
  *         self.algorithm_is_WARP = False
  * 
  *         n_user_factors = self.n_users             # <<<<<<<<<<<<<<
@@ -21790,7 +21785,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   __pyx_t_1 = __pyx_v_self->n_users;
   __pyx_v_n_user_factors = __pyx_t_1;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":184
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":184
  * 
  *         n_user_factors = self.n_users
  *         n_item_factors = self.n_items             # <<<<<<<<<<<<<<
@@ -21800,7 +21795,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   __pyx_t_1 = __pyx_v_self->n_items;
   __pyx_v_n_item_factors = __pyx_t_1;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":186
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":186
  *         n_item_factors = self.n_items
  * 
  *         if self.algorithm_name == "SVD++":             # <<<<<<<<<<<<<<
@@ -21810,7 +21805,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   __pyx_t_2 = (__Pyx_PyString_Equals(__pyx_v_self->algorithm_name, __pyx_kp_s_SVD, Py_EQ)); if (unlikely((__pyx_t_2 < 0))) __PYX_ERR(0, 186, __pyx_L1_error)
   if (__pyx_t_2) {
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":187
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":187
  * 
  *         if self.algorithm_name == "SVD++":
  *             self.algorithm_is_svdpp = True             # <<<<<<<<<<<<<<
@@ -21819,7 +21814,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
  */
     __pyx_v_self->algorithm_is_svdpp = 1;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":186
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":186
  *         n_item_factors = self.n_items
  * 
  *         if self.algorithm_name == "SVD++":             # <<<<<<<<<<<<<<
@@ -21829,7 +21824,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
     goto __pyx_L3;
   }
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":189
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":189
  *             self.algorithm_is_svdpp = True
  * 
  *         elif self.algorithm_name == "ASY_SVD":             # <<<<<<<<<<<<<<
@@ -21839,7 +21834,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   __pyx_t_2 = (__Pyx_PyString_Equals(__pyx_v_self->algorithm_name, __pyx_n_s_ASY_SVD, Py_EQ)); if (unlikely((__pyx_t_2 < 0))) __PYX_ERR(0, 189, __pyx_L1_error)
   if (__pyx_t_2) {
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":190
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":190
  * 
  *         elif self.algorithm_name == "ASY_SVD":
  *             self.algorithm_is_asy_svd = True             # <<<<<<<<<<<<<<
@@ -21848,7 +21843,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
  */
     __pyx_v_self->algorithm_is_asy_svd = 1;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":191
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":191
  *         elif self.algorithm_name == "ASY_SVD":
  *             self.algorithm_is_asy_svd = True
  *             n_user_factors = self.n_items             # <<<<<<<<<<<<<<
@@ -21858,7 +21853,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
     __pyx_t_1 = __pyx_v_self->n_items;
     __pyx_v_n_user_factors = __pyx_t_1;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":192
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":192
  *             self.algorithm_is_asy_svd = True
  *             n_user_factors = self.n_items
  *             n_item_factors = self.n_items             # <<<<<<<<<<<<<<
@@ -21868,7 +21863,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
     __pyx_t_1 = __pyx_v_self->n_items;
     __pyx_v_n_item_factors = __pyx_t_1;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":189
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":189
  *             self.algorithm_is_svdpp = True
  * 
  *         elif self.algorithm_name == "ASY_SVD":             # <<<<<<<<<<<<<<
@@ -21878,7 +21873,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
     goto __pyx_L3;
   }
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":194
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":194
  *             n_item_factors = self.n_items
  * 
  *         elif self.algorithm_name == "MF_BPR":             # <<<<<<<<<<<<<<
@@ -21888,7 +21883,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   __pyx_t_2 = (__Pyx_PyString_Equals(__pyx_v_self->algorithm_name, __pyx_n_s_MF_BPR, Py_EQ)); if (unlikely((__pyx_t_2 < 0))) __PYX_ERR(0, 194, __pyx_L1_error)
   if (__pyx_t_2) {
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":195
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":195
  * 
  *         elif self.algorithm_name == "MF_BPR":
  *             assert self.use_embeddings, "For MF_BPR use_embeddings must be True"             # <<<<<<<<<<<<<<
@@ -21907,7 +21902,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
     if ((1)); else __PYX_ERR(0, 195, __pyx_L1_error)
     #endif
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":196
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":196
  *         elif self.algorithm_name == "MF_BPR":
  *             assert self.use_embeddings, "For MF_BPR use_embeddings must be True"
  *             self.algorithm_is_BPR = True             # <<<<<<<<<<<<<<
@@ -21916,7 +21911,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
  */
     __pyx_v_self->algorithm_is_BPR = 1;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":194
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":194
  *             n_item_factors = self.n_items
  * 
  *         elif self.algorithm_name == "MF_BPR":             # <<<<<<<<<<<<<<
@@ -21926,7 +21921,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
     goto __pyx_L3;
   }
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":198
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":198
  *             self.algorithm_is_BPR = True
  * 
  *         elif self.algorithm_name == "MF_WARP":             # <<<<<<<<<<<<<<
@@ -21936,7 +21931,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   __pyx_t_2 = (__Pyx_PyString_Equals(__pyx_v_self->algorithm_name, __pyx_n_s_MF_WARP, Py_EQ)); if (unlikely((__pyx_t_2 < 0))) __PYX_ERR(0, 198, __pyx_L1_error)
   if (likely(__pyx_t_2)) {
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":199
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":199
  * 
  *         elif self.algorithm_name == "MF_WARP":
  *             assert self.use_embeddings, "For MF_WARP use_embeddings must be True"             # <<<<<<<<<<<<<<
@@ -21955,7 +21950,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
     if ((1)); else __PYX_ERR(0, 199, __pyx_L1_error)
     #endif
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":200
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":200
  *         elif self.algorithm_name == "MF_WARP":
  *             assert self.use_embeddings, "For MF_WARP use_embeddings must be True"
  *             self.algorithm_is_WARP = True             # <<<<<<<<<<<<<<
@@ -21964,7 +21959,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
  */
     __pyx_v_self->algorithm_is_WARP = 1;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":198
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":198
  *             self.algorithm_is_BPR = True
  * 
  *         elif self.algorithm_name == "MF_WARP":             # <<<<<<<<<<<<<<
@@ -21974,7 +21969,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
     goto __pyx_L3;
   }
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":202
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":202
  *             self.algorithm_is_WARP = True
  *         else:
  *             raise ValueError("Algorithm_name not recognized")             # <<<<<<<<<<<<<<
@@ -21990,7 +21985,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   }
   __pyx_L3:;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":204
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":204
  *             raise ValueError("Algorithm_name not recognized")
  * 
  *         if self.use_embeddings:             # <<<<<<<<<<<<<<
@@ -22000,7 +21995,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   __pyx_t_2 = (__pyx_v_self->use_embeddings != 0);
   if (__pyx_t_2) {
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":206
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":206
  *         if self.use_embeddings:
  *             # W and H cannot be initialized as zero, otherwise the gradient will always be zero
  *             self.USER_factors = np.random.normal(self.init_mean, self.init_std_dev, (n_user_factors, self.n_factors)).astype(np.float64)             # <<<<<<<<<<<<<<
@@ -22094,7 +22089,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
     __pyx_t_12.memview = NULL;
     __pyx_t_12.data = NULL;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":207
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":207
  *             # W and H cannot be initialized as zero, otherwise the gradient will always be zero
  *             self.USER_factors = np.random.normal(self.init_mean, self.init_std_dev, (n_user_factors, self.n_factors)).astype(np.float64)
  *             self.ITEM_factors = np.random.normal(self.init_mean, self.init_std_dev, (n_item_factors, self.n_factors)).astype(np.float64)             # <<<<<<<<<<<<<<
@@ -22188,7 +22183,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
     __pyx_t_12.memview = NULL;
     __pyx_t_12.data = NULL;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":209
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":209
  *             self.ITEM_factors = np.random.normal(self.init_mean, self.init_std_dev, (n_item_factors, self.n_factors)).astype(np.float64)
  * 
  *             self.USER_factors_minibatch_accumulator = np.zeros((n_user_factors, self.n_factors), dtype=np.float64)             # <<<<<<<<<<<<<<
@@ -22238,7 +22233,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
     __pyx_t_12.memview = NULL;
     __pyx_t_12.data = NULL;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":210
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":210
  * 
  *             self.USER_factors_minibatch_accumulator = np.zeros((n_user_factors, self.n_factors), dtype=np.float64)
  *             self.ITEM_factors_minibatch_accumulator = np.zeros((n_item_factors, self.n_factors), dtype=np.float64)             # <<<<<<<<<<<<<<
@@ -22288,7 +22283,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
     __pyx_t_12.memview = NULL;
     __pyx_t_12.data = NULL;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":204
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":204
  *             raise ValueError("Algorithm_name not recognized")
  * 
  *         if self.use_embeddings:             # <<<<<<<<<<<<<<
@@ -22298,7 +22293,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
     goto __pyx_L4;
   }
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":212
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":212
  *             self.ITEM_factors_minibatch_accumulator = np.zeros((n_item_factors, self.n_factors), dtype=np.float64)
  *         else:
  *             self.USER_factors = np.zeros((n_user_factors, self.n_factors)).astype(np.float64)             # <<<<<<<<<<<<<<
@@ -22384,7 +22379,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
     __pyx_t_12.memview = NULL;
     __pyx_t_12.data = NULL;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":213
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":213
  *         else:
  *             self.USER_factors = np.zeros((n_user_factors, self.n_factors)).astype(np.float64)
  *             self.ITEM_factors = np.zeros((n_item_factors, self.n_factors)).astype(np.float64)             # <<<<<<<<<<<<<<
@@ -22471,7 +22466,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   }
   __pyx_L4:;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":217
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":217
  * 
  * 
  *         if self.use_bias:             # <<<<<<<<<<<<<<
@@ -22481,7 +22476,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   __pyx_t_2 = (__pyx_v_self->use_bias != 0);
   if (__pyx_t_2) {
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":218
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":218
  * 
  *         if self.use_bias:
  *             self.USER_bias = np.zeros(self.n_users, dtype=np.float64)             # <<<<<<<<<<<<<<
@@ -22521,7 +22516,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
     __pyx_t_13.memview = NULL;
     __pyx_t_13.data = NULL;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":219
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":219
  *         if self.use_bias:
  *             self.USER_bias = np.zeros(self.n_users, dtype=np.float64)
  *             self.ITEM_bias = np.zeros(self.n_items, dtype=np.float64)             # <<<<<<<<<<<<<<
@@ -22561,7 +22556,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
     __pyx_t_13.memview = NULL;
     __pyx_t_13.data = NULL;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":220
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":220
  *             self.USER_bias = np.zeros(self.n_users, dtype=np.float64)
  *             self.ITEM_bias = np.zeros(self.n_items, dtype=np.float64)
  *             self.GLOBAL_bias = np.zeros(1, dtype=np.float64)             # <<<<<<<<<<<<<<
@@ -22593,7 +22588,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
     __pyx_t_13.memview = NULL;
     __pyx_t_13.data = NULL;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":222
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":222
  *             self.GLOBAL_bias = np.zeros(1, dtype=np.float64)
  * 
  *             self.USER_bias_minibatch_accumulator = np.zeros(self.n_users, dtype=np.float64)             # <<<<<<<<<<<<<<
@@ -22633,7 +22628,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
     __pyx_t_13.memview = NULL;
     __pyx_t_13.data = NULL;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":223
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":223
  * 
  *             self.USER_bias_minibatch_accumulator = np.zeros(self.n_users, dtype=np.float64)
  *             self.ITEM_bias_minibatch_accumulator = np.zeros(self.n_items, dtype=np.float64)             # <<<<<<<<<<<<<<
@@ -22673,7 +22668,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
     __pyx_t_13.memview = NULL;
     __pyx_t_13.data = NULL;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":224
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":224
  *             self.USER_bias_minibatch_accumulator = np.zeros(self.n_users, dtype=np.float64)
  *             self.ITEM_bias_minibatch_accumulator = np.zeros(self.n_items, dtype=np.float64)
  *             self.GLOBAL_bias_minibatch_accumulator = np.zeros(1, dtype=np.float64)             # <<<<<<<<<<<<<<
@@ -22705,7 +22700,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
     __pyx_t_13.memview = NULL;
     __pyx_t_13.data = NULL;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":217
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":217
  * 
  * 
  *         if self.use_bias:             # <<<<<<<<<<<<<<
@@ -22714,7 +22709,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
  */
   }
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":176
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":176
  * 
  * 
  *     def _init_latent_factors(self):             # <<<<<<<<<<<<<<
@@ -22736,7 +22731,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   __Pyx_XDECREF(__pyx_t_10);
   __PYX_XCLEAR_MEMVIEW(&__pyx_t_12, 1);
   __PYX_XCLEAR_MEMVIEW(&__pyx_t_13, 1);
-  __Pyx_AddTraceback("MatrixFactorization_Cython_Epoch.MatrixFactorization_Cython_Epoch._init_latent_factors", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.MatrixFactorization.Cython.MatrixFactorization_Cython_Epoch.MatrixFactorization_Cython_Epoch._init_latent_factors", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -22744,7 +22739,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   return __pyx_r;
 }
 
-/* "MatrixFactorization_Cython_Epoch.pyx":230
+/* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":230
  * 
  * 
  *     def _init_adaptive_gradient_cache(self, sgd_mode, gamma, beta_1, beta_2):             # <<<<<<<<<<<<<<
@@ -22753,15 +22748,15 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_5_init_adaptive_gradient_cache(PyObject *__pyx_v_self, 
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_5_init_adaptive_gradient_cache(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static PyMethodDef __pyx_mdef_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_5_init_adaptive_gradient_cache = {"_init_adaptive_gradient_cache", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_5_init_adaptive_gradient_cache, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_5_init_adaptive_gradient_cache(PyObject *__pyx_v_self, 
+static PyMethodDef __pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_5_init_adaptive_gradient_cache = {"_init_adaptive_gradient_cache", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_5_init_adaptive_gradient_cache, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_5_init_adaptive_gradient_cache(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -22876,11 +22871,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("MatrixFactorization_Cython_Epoch.MatrixFactorization_Cython_Epoch._init_adaptive_gradient_cache", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.MatrixFactorization.Cython.MatrixFactorization_Cython_Epoch.MatrixFactorization_Cython_Epoch._init_adaptive_gradient_cache", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_4_init_adaptive_gradient_cache(((struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *)__pyx_v_self), __pyx_v_sgd_mode, __pyx_v_gamma, __pyx_v_beta_1, __pyx_v_beta_2);
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_4_init_adaptive_gradient_cache(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *)__pyx_v_self), __pyx_v_sgd_mode, __pyx_v_gamma, __pyx_v_beta_1, __pyx_v_beta_2);
 
   /* function exit code */
   {
@@ -22893,7 +22888,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_4_init_adaptive_gradient_cache(struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self, PyObject *__pyx_v_sgd_mode, PyObject *__pyx_v_gamma, PyObject *__pyx_v_beta_1, PyObject *__pyx_v_beta_2) {
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_4_init_adaptive_gradient_cache(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self, PyObject *__pyx_v_sgd_mode, PyObject *__pyx_v_gamma, PyObject *__pyx_v_beta_1, PyObject *__pyx_v_beta_2) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   int __pyx_t_1;
@@ -22909,7 +22904,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("_init_adaptive_gradient_cache", 1);
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":232
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":232
  *     def _init_adaptive_gradient_cache(self, sgd_mode, gamma, beta_1, beta_2):
  * 
  *         self.useAdaGrad = False             # <<<<<<<<<<<<<<
@@ -22918,7 +22913,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
  */
   __pyx_v_self->useAdaGrad = 0;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":233
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":233
  * 
  *         self.useAdaGrad = False
  *         self.useRmsprop = False             # <<<<<<<<<<<<<<
@@ -22927,7 +22922,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
  */
   __pyx_v_self->useRmsprop = 0;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":234
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":234
  *         self.useAdaGrad = False
  *         self.useRmsprop = False
  *         self.useAdam = False             # <<<<<<<<<<<<<<
@@ -22936,7 +22931,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
  */
   __pyx_v_self->useAdam = 0;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":236
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":236
  *         self.useAdam = False
  * 
  *         if sgd_mode=='adagrad':             # <<<<<<<<<<<<<<
@@ -22946,7 +22941,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   __pyx_t_1 = (__Pyx_PyString_Equals(__pyx_v_sgd_mode, __pyx_n_s_adagrad, Py_EQ)); if (unlikely((__pyx_t_1 < 0))) __PYX_ERR(0, 236, __pyx_L1_error)
   if (__pyx_t_1) {
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":237
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":237
  * 
  *         if sgd_mode=='adagrad':
  *             self.useAdaGrad = True             # <<<<<<<<<<<<<<
@@ -22955,7 +22950,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
  */
     __pyx_v_self->useAdaGrad = 1;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":236
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":236
  *         self.useAdam = False
  * 
  *         if sgd_mode=='adagrad':             # <<<<<<<<<<<<<<
@@ -22965,7 +22960,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
     goto __pyx_L3;
   }
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":239
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":239
  *             self.useAdaGrad = True
  * 
  *         elif sgd_mode=='rmsprop':             # <<<<<<<<<<<<<<
@@ -22975,7 +22970,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   __pyx_t_1 = (__Pyx_PyString_Equals(__pyx_v_sgd_mode, __pyx_n_s_rmsprop, Py_EQ)); if (unlikely((__pyx_t_1 < 0))) __PYX_ERR(0, 239, __pyx_L1_error)
   if (__pyx_t_1) {
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":240
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":240
  * 
  *         elif sgd_mode=='rmsprop':
  *             self.useRmsprop = True             # <<<<<<<<<<<<<<
@@ -22984,7 +22979,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
  */
     __pyx_v_self->useRmsprop = 1;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":244
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":244
  *             # Gamma default value suggested by Hinton
  *             # self.gamma = 0.9
  *             self.gamma = gamma             # <<<<<<<<<<<<<<
@@ -22994,7 +22989,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
     __pyx_t_2 = __pyx_PyFloat_AsDouble(__pyx_v_gamma); if (unlikely((__pyx_t_2 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 244, __pyx_L1_error)
     __pyx_v_self->gamma = __pyx_t_2;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":239
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":239
  *             self.useAdaGrad = True
  * 
  *         elif sgd_mode=='rmsprop':             # <<<<<<<<<<<<<<
@@ -23004,7 +22999,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
     goto __pyx_L3;
   }
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":246
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":246
  *             self.gamma = gamma
  * 
  *         elif sgd_mode=='adam':             # <<<<<<<<<<<<<<
@@ -23014,7 +23009,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   __pyx_t_1 = (__Pyx_PyString_Equals(__pyx_v_sgd_mode, __pyx_n_s_adam, Py_EQ)); if (unlikely((__pyx_t_1 < 0))) __PYX_ERR(0, 246, __pyx_L1_error)
   if (__pyx_t_1) {
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":247
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":247
  * 
  *         elif sgd_mode=='adam':
  *             self.useAdam = True             # <<<<<<<<<<<<<<
@@ -23023,7 +23018,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
  */
     __pyx_v_self->useAdam = 1;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":251
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":251
  *             # Default value suggested by the original paper
  *             # beta_1=0.9, beta_2=0.999
  *             self.beta_1 = beta_1             # <<<<<<<<<<<<<<
@@ -23033,7 +23028,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
     __pyx_t_2 = __pyx_PyFloat_AsDouble(__pyx_v_beta_1); if (unlikely((__pyx_t_2 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 251, __pyx_L1_error)
     __pyx_v_self->beta_1 = __pyx_t_2;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":252
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":252
  *             # beta_1=0.9, beta_2=0.999
  *             self.beta_1 = beta_1
  *             self.beta_2 = beta_2             # <<<<<<<<<<<<<<
@@ -23043,7 +23038,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
     __pyx_t_2 = __pyx_PyFloat_AsDouble(__pyx_v_beta_2); if (unlikely((__pyx_t_2 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 252, __pyx_L1_error)
     __pyx_v_self->beta_2 = __pyx_t_2;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":253
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":253
  *             self.beta_1 = beta_1
  *             self.beta_2 = beta_2
  *             self.beta_1_power_t = beta_1             # <<<<<<<<<<<<<<
@@ -23053,7 +23048,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
     __pyx_t_2 = __pyx_PyFloat_AsDouble(__pyx_v_beta_1); if (unlikely((__pyx_t_2 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 253, __pyx_L1_error)
     __pyx_v_self->beta_1_power_t = __pyx_t_2;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":254
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":254
  *             self.beta_2 = beta_2
  *             self.beta_1_power_t = beta_1
  *             self.beta_2_power_t = beta_2             # <<<<<<<<<<<<<<
@@ -23063,7 +23058,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
     __pyx_t_2 = __pyx_PyFloat_AsDouble(__pyx_v_beta_2); if (unlikely((__pyx_t_2 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 254, __pyx_L1_error)
     __pyx_v_self->beta_2_power_t = __pyx_t_2;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":246
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":246
  *             self.gamma = gamma
  * 
  *         elif sgd_mode=='adam':             # <<<<<<<<<<<<<<
@@ -23073,7 +23068,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   }
   __pyx_L3:;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":258
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":258
  * 
  * 
  *         if sgd_mode=='sgd':             # <<<<<<<<<<<<<<
@@ -23083,7 +23078,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   __pyx_t_1 = (__Pyx_PyString_Equals(__pyx_v_sgd_mode, __pyx_n_s_sgd, Py_EQ)); if (unlikely((__pyx_t_1 < 0))) __PYX_ERR(0, 258, __pyx_L1_error)
   if (__pyx_t_1) {
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":259
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":259
  * 
  *         if sgd_mode=='sgd':
  *             self.sgd_cache_I = None             # <<<<<<<<<<<<<<
@@ -23096,7 +23091,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
     __pyx_t_3.memview = NULL;
     __pyx_t_3.data = NULL;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":260
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":260
  *         if sgd_mode=='sgd':
  *             self.sgd_cache_I = None
  *             self.sgd_cache_U = None             # <<<<<<<<<<<<<<
@@ -23109,7 +23104,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
     __pyx_t_3.memview = NULL;
     __pyx_t_3.data = NULL;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":262
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":262
  *             self.sgd_cache_U = None
  * 
  *             self.sgd_cache_bias_I = None             # <<<<<<<<<<<<<<
@@ -23122,7 +23117,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
     __pyx_t_3.memview = NULL;
     __pyx_t_3.data = NULL;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":263
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":263
  * 
  *             self.sgd_cache_bias_I = None
  *             self.sgd_cache_bias_U = None             # <<<<<<<<<<<<<<
@@ -23135,7 +23130,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
     __pyx_t_3.memview = NULL;
     __pyx_t_3.data = NULL;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":264
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":264
  *             self.sgd_cache_bias_I = None
  *             self.sgd_cache_bias_U = None
  *             self.sgd_cache_bias_GLOBAL = None             # <<<<<<<<<<<<<<
@@ -23148,7 +23143,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
     __pyx_t_3.memview = NULL;
     __pyx_t_3.data = NULL;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":266
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":266
  *             self.sgd_cache_bias_GLOBAL = None
  * 
  *             self.sgd_cache_I_momentum_1 = None             # <<<<<<<<<<<<<<
@@ -23161,7 +23156,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
     __pyx_t_3.memview = NULL;
     __pyx_t_3.data = NULL;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":267
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":267
  * 
  *             self.sgd_cache_I_momentum_1 = None
  *             self.sgd_cache_I_momentum_2 = None             # <<<<<<<<<<<<<<
@@ -23174,7 +23169,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
     __pyx_t_3.memview = NULL;
     __pyx_t_3.data = NULL;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":269
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":269
  *             self.sgd_cache_I_momentum_2 = None
  * 
  *             self.sgd_cache_U_momentum_1 = None             # <<<<<<<<<<<<<<
@@ -23187,7 +23182,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
     __pyx_t_3.memview = NULL;
     __pyx_t_3.data = NULL;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":270
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":270
  * 
  *             self.sgd_cache_U_momentum_1 = None
  *             self.sgd_cache_U_momentum_2 = None             # <<<<<<<<<<<<<<
@@ -23200,7 +23195,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
     __pyx_t_3.memview = NULL;
     __pyx_t_3.data = NULL;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":272
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":272
  *             self.sgd_cache_U_momentum_2 = None
  * 
  *             self.sgd_cache_bias_I_momentum_1 = None             # <<<<<<<<<<<<<<
@@ -23213,7 +23208,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
     __pyx_t_3.memview = NULL;
     __pyx_t_3.data = NULL;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":273
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":273
  * 
  *             self.sgd_cache_bias_I_momentum_1 = None
  *             self.sgd_cache_bias_I_momentum_2 = None             # <<<<<<<<<<<<<<
@@ -23226,7 +23221,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
     __pyx_t_3.memview = NULL;
     __pyx_t_3.data = NULL;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":275
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":275
  *             self.sgd_cache_bias_I_momentum_2 = None
  * 
  *             self.sgd_cache_bias_U_momentum_1 = None             # <<<<<<<<<<<<<<
@@ -23239,7 +23234,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
     __pyx_t_3.memview = NULL;
     __pyx_t_3.data = NULL;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":276
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":276
  * 
  *             self.sgd_cache_bias_U_momentum_1 = None
  *             self.sgd_cache_bias_U_momentum_2 = None             # <<<<<<<<<<<<<<
@@ -23252,7 +23247,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
     __pyx_t_3.memview = NULL;
     __pyx_t_3.data = NULL;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":278
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":278
  *             self.sgd_cache_bias_U_momentum_2 = None
  * 
  *             self.sgd_cache_bias_GLOBAL_momentum_1 = None             # <<<<<<<<<<<<<<
@@ -23265,7 +23260,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
     __pyx_t_3.memview = NULL;
     __pyx_t_3.data = NULL;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":279
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":279
  * 
  *             self.sgd_cache_bias_GLOBAL_momentum_1 = None
  *             self.sgd_cache_bias_GLOBAL_momentum_2 = None             # <<<<<<<<<<<<<<
@@ -23278,7 +23273,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
     __pyx_t_3.memview = NULL;
     __pyx_t_3.data = NULL;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":258
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":258
  * 
  * 
  *         if sgd_mode=='sgd':             # <<<<<<<<<<<<<<
@@ -23288,7 +23283,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
     goto __pyx_L4;
   }
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":284
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":284
  * 
  *             # Adagrad and RMSProp
  *             self.sgd_cache_I = np.zeros((self.ITEM_factors.shape[0], self.n_factors), dtype=np.float64)             # <<<<<<<<<<<<<<
@@ -23339,7 +23334,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
     __pyx_t_3.memview = NULL;
     __pyx_t_3.data = NULL;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":285
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":285
  *             # Adagrad and RMSProp
  *             self.sgd_cache_I = np.zeros((self.ITEM_factors.shape[0], self.n_factors), dtype=np.float64)
  *             self.sgd_cache_U = np.zeros((self.USER_factors.shape[0], self.n_factors), dtype=np.float64)             # <<<<<<<<<<<<<<
@@ -23389,7 +23384,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
     __pyx_t_3.memview = NULL;
     __pyx_t_3.data = NULL;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":287
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":287
  *             self.sgd_cache_U = np.zeros((self.USER_factors.shape[0], self.n_factors), dtype=np.float64)
  * 
  *             self.sgd_cache_bias_I = np.zeros((self.n_items, 1), dtype=np.float64)             # <<<<<<<<<<<<<<
@@ -23437,7 +23432,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
     __pyx_t_3.memview = NULL;
     __pyx_t_3.data = NULL;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":288
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":288
  * 
  *             self.sgd_cache_bias_I = np.zeros((self.n_items, 1), dtype=np.float64)
  *             self.sgd_cache_bias_U = np.zeros((self.n_users, 1), dtype=np.float64)             # <<<<<<<<<<<<<<
@@ -23485,7 +23480,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
     __pyx_t_3.memview = NULL;
     __pyx_t_3.data = NULL;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":289
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":289
  *             self.sgd_cache_bias_I = np.zeros((self.n_items, 1), dtype=np.float64)
  *             self.sgd_cache_bias_U = np.zeros((self.n_users, 1), dtype=np.float64)
  *             self.sgd_cache_bias_GLOBAL = np.zeros((1, 1), dtype=np.float64)             # <<<<<<<<<<<<<<
@@ -23517,7 +23512,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
     __pyx_t_3.memview = NULL;
     __pyx_t_3.data = NULL;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":292
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":292
  * 
  *             # Adam
  *             self.sgd_cache_I_momentum_1 = np.zeros((self.ITEM_factors.shape[0], self.n_factors), dtype=np.float64)             # <<<<<<<<<<<<<<
@@ -23567,7 +23562,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
     __pyx_t_3.memview = NULL;
     __pyx_t_3.data = NULL;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":293
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":293
  *             # Adam
  *             self.sgd_cache_I_momentum_1 = np.zeros((self.ITEM_factors.shape[0], self.n_factors), dtype=np.float64)
  *             self.sgd_cache_I_momentum_2 = np.zeros((self.ITEM_factors.shape[0], self.n_factors), dtype=np.float64)             # <<<<<<<<<<<<<<
@@ -23617,7 +23612,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
     __pyx_t_3.memview = NULL;
     __pyx_t_3.data = NULL;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":295
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":295
  *             self.sgd_cache_I_momentum_2 = np.zeros((self.ITEM_factors.shape[0], self.n_factors), dtype=np.float64)
  * 
  *             self.sgd_cache_U_momentum_1 = np.zeros((self.USER_factors.shape[0], self.n_factors), dtype=np.float64)             # <<<<<<<<<<<<<<
@@ -23667,7 +23662,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
     __pyx_t_3.memview = NULL;
     __pyx_t_3.data = NULL;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":296
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":296
  * 
  *             self.sgd_cache_U_momentum_1 = np.zeros((self.USER_factors.shape[0], self.n_factors), dtype=np.float64)
  *             self.sgd_cache_U_momentum_2 = np.zeros((self.USER_factors.shape[0], self.n_factors), dtype=np.float64)             # <<<<<<<<<<<<<<
@@ -23717,7 +23712,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
     __pyx_t_3.memview = NULL;
     __pyx_t_3.data = NULL;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":298
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":298
  *             self.sgd_cache_U_momentum_2 = np.zeros((self.USER_factors.shape[0], self.n_factors), dtype=np.float64)
  * 
  *             self.sgd_cache_bias_I_momentum_1 = np.zeros((self.n_items, 1), dtype=np.float64)             # <<<<<<<<<<<<<<
@@ -23765,7 +23760,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
     __pyx_t_3.memview = NULL;
     __pyx_t_3.data = NULL;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":299
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":299
  * 
  *             self.sgd_cache_bias_I_momentum_1 = np.zeros((self.n_items, 1), dtype=np.float64)
  *             self.sgd_cache_bias_I_momentum_2 = np.zeros((self.n_items, 1), dtype=np.float64)             # <<<<<<<<<<<<<<
@@ -23813,7 +23808,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
     __pyx_t_3.memview = NULL;
     __pyx_t_3.data = NULL;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":301
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":301
  *             self.sgd_cache_bias_I_momentum_2 = np.zeros((self.n_items, 1), dtype=np.float64)
  * 
  *             self.sgd_cache_bias_U_momentum_1 = np.zeros((self.n_users, 1), dtype=np.float64)             # <<<<<<<<<<<<<<
@@ -23861,7 +23856,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
     __pyx_t_3.memview = NULL;
     __pyx_t_3.data = NULL;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":302
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":302
  * 
  *             self.sgd_cache_bias_U_momentum_1 = np.zeros((self.n_users, 1), dtype=np.float64)
  *             self.sgd_cache_bias_U_momentum_2 = np.zeros((self.n_users, 1), dtype=np.float64)             # <<<<<<<<<<<<<<
@@ -23909,7 +23904,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
     __pyx_t_3.memview = NULL;
     __pyx_t_3.data = NULL;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":304
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":304
  *             self.sgd_cache_bias_U_momentum_2 = np.zeros((self.n_users, 1), dtype=np.float64)
  * 
  *             self.sgd_cache_bias_GLOBAL_momentum_1 = np.zeros((1, 1), dtype=np.float64)             # <<<<<<<<<<<<<<
@@ -23941,7 +23936,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
     __pyx_t_3.memview = NULL;
     __pyx_t_3.data = NULL;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":305
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":305
  * 
  *             self.sgd_cache_bias_GLOBAL_momentum_1 = np.zeros((1, 1), dtype=np.float64)
  *             self.sgd_cache_bias_GLOBAL_momentum_2 = np.zeros((1, 1), dtype=np.float64)             # <<<<<<<<<<<<<<
@@ -23975,7 +23970,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   }
   __pyx_L4:;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":230
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":230
  * 
  * 
  *     def _init_adaptive_gradient_cache(self, sgd_mode, gamma, beta_1, beta_2):             # <<<<<<<<<<<<<<
@@ -23993,7 +23988,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   __Pyx_XDECREF(__pyx_t_6);
   __Pyx_XDECREF(__pyx_t_7);
   __Pyx_XDECREF(__pyx_t_8);
-  __Pyx_AddTraceback("MatrixFactorization_Cython_Epoch.MatrixFactorization_Cython_Epoch._init_adaptive_gradient_cache", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.MatrixFactorization.Cython.MatrixFactorization_Cython_Epoch.MatrixFactorization_Cython_Epoch._init_adaptive_gradient_cache", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -24001,7 +23996,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   return __pyx_r;
 }
 
-/* "MatrixFactorization_Cython_Epoch.pyx":309
+/* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":309
  * 
  * 
  *     def epochIteration_Cython(self):             # <<<<<<<<<<<<<<
@@ -24010,15 +24005,15 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_7epochIteration_Cython(PyObject *__pyx_v_self, 
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_7epochIteration_Cython(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static PyMethodDef __pyx_mdef_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_7epochIteration_Cython = {"epochIteration_Cython", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_7epochIteration_Cython, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_7epochIteration_Cython(PyObject *__pyx_v_self, 
+static PyMethodDef __pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_7epochIteration_Cython = {"epochIteration_Cython", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_7epochIteration_Cython, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_7epochIteration_Cython(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -24043,14 +24038,14 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   if (unlikely(__pyx_nargs > 0)) {
     __Pyx_RaiseArgtupleInvalid("epochIteration_Cython", 1, 0, 0, __pyx_nargs); return NULL;}
   if (unlikely(__pyx_kwds) && __Pyx_NumKwargs_FASTCALL(__pyx_kwds) && unlikely(!__Pyx_CheckKeywordStrings(__pyx_kwds, "epochIteration_Cython", 0))) return NULL;
-  __pyx_r = __pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_6epochIteration_Cython(((struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *)__pyx_v_self));
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_6epochIteration_Cython(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_6epochIteration_Cython(struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self) {
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_6epochIteration_Cython(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   int __pyx_t_1;
@@ -24064,7 +24059,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("epochIteration_Cython", 1);
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":311
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":311
  *     def epochIteration_Cython(self):
  * 
  *         if self.algorithm_is_svdpp:             # <<<<<<<<<<<<<<
@@ -24074,7 +24069,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   __pyx_t_1 = (__pyx_v_self->algorithm_is_svdpp != 0);
   if (__pyx_t_1) {
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":312
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":312
  * 
  *         if self.algorithm_is_svdpp:
  *             self.epochIteration_Cython_SVD_pp_SGD()             # <<<<<<<<<<<<<<
@@ -24107,7 +24102,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
     }
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":311
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":311
  *     def epochIteration_Cython(self):
  * 
  *         if self.algorithm_is_svdpp:             # <<<<<<<<<<<<<<
@@ -24117,7 +24112,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
     goto __pyx_L3;
   }
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":314
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":314
  *             self.epochIteration_Cython_SVD_pp_SGD()
  * 
  *         elif self.algorithm_is_asy_svd:             # <<<<<<<<<<<<<<
@@ -24127,7 +24122,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   __pyx_t_1 = (__pyx_v_self->algorithm_is_asy_svd != 0);
   if (__pyx_t_1) {
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":315
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":315
  * 
  *         elif self.algorithm_is_asy_svd:
  *             self.epochIteration_Cython_ASY_SVD_SGD()             # <<<<<<<<<<<<<<
@@ -24160,7 +24155,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
     }
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":314
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":314
  *             self.epochIteration_Cython_SVD_pp_SGD()
  * 
  *         elif self.algorithm_is_asy_svd:             # <<<<<<<<<<<<<<
@@ -24170,7 +24165,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
     goto __pyx_L3;
   }
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":317
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":317
  *             self.epochIteration_Cython_ASY_SVD_SGD()
  * 
  *         elif self.algorithm_is_BPR or self.algorithm_is_WARP:             # <<<<<<<<<<<<<<
@@ -24188,7 +24183,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   __pyx_L4_bool_binop_done:;
   if (__pyx_t_1) {
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":318
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":318
  * 
  *         elif self.algorithm_is_BPR or self.algorithm_is_WARP:
  *             self.epochIteration_Cython_BPR_SGD()             # <<<<<<<<<<<<<<
@@ -24221,7 +24216,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
     }
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":317
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":317
  *             self.epochIteration_Cython_ASY_SVD_SGD()
  * 
  *         elif self.algorithm_is_BPR or self.algorithm_is_WARP:             # <<<<<<<<<<<<<<
@@ -24231,7 +24226,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   }
   __pyx_L3:;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":309
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":309
  * 
  * 
  *     def epochIteration_Cython(self):             # <<<<<<<<<<<<<<
@@ -24246,7 +24241,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
-  __Pyx_AddTraceback("MatrixFactorization_Cython_Epoch.MatrixFactorization_Cython_Epoch.epochIteration_Cython", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.MatrixFactorization.Cython.MatrixFactorization_Cython_Epoch.MatrixFactorization_Cython_Epoch.epochIteration_Cython", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -24254,7 +24249,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   return __pyx_r;
 }
 
-/* "MatrixFactorization_Cython_Epoch.pyx":322
+/* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":322
  * 
  * 
  *     def epochIteration_Cython_SVD_pp_SGD(self):             # <<<<<<<<<<<<<<
@@ -24263,15 +24258,15 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_9epochIteration_Cython_SVD_pp_SGD(PyObject *__pyx_v_self, 
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_9epochIteration_Cython_SVD_pp_SGD(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static PyMethodDef __pyx_mdef_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_9epochIteration_Cython_SVD_pp_SGD = {"epochIteration_Cython_SVD_pp_SGD", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_9epochIteration_Cython_SVD_pp_SGD, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_9epochIteration_Cython_SVD_pp_SGD(PyObject *__pyx_v_self, 
+static PyMethodDef __pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_9epochIteration_Cython_SVD_pp_SGD = {"epochIteration_Cython_SVD_pp_SGD", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_9epochIteration_Cython_SVD_pp_SGD, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_9epochIteration_Cython_SVD_pp_SGD(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -24296,16 +24291,16 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   if (unlikely(__pyx_nargs > 0)) {
     __Pyx_RaiseArgtupleInvalid("epochIteration_Cython_SVD_pp_SGD", 1, 0, 0, __pyx_nargs); return NULL;}
   if (unlikely(__pyx_kwds) && __Pyx_NumKwargs_FASTCALL(__pyx_kwds) && unlikely(!__Pyx_CheckKeywordStrings(__pyx_kwds, "epochIteration_Cython_SVD_pp_SGD", 0))) return NULL;
-  __pyx_r = __pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_8epochIteration_Cython_SVD_pp_SGD(((struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *)__pyx_v_self));
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_8epochIteration_Cython_SVD_pp_SGD(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_8epochIteration_Cython_SVD_pp_SGD(struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self) {
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_8epochIteration_Cython_SVD_pp_SGD(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self) {
   long __pyx_v_n_total_batch;
-  struct __pyx_t_32MatrixFactorization_Cython_Epoch_MSE_sample __pyx_v_sample;
+  struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MSE_sample __pyx_v_sample;
   long __pyx_v_factor_index;
   long __pyx_v_n_current_batch;
   CYTHON_UNUSED long __pyx_v_n_sample_in_batch;
@@ -24342,7 +24337,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   long __pyx_t_11;
   long __pyx_t_12;
   long __pyx_t_13;
-  struct __pyx_t_32MatrixFactorization_Cython_Epoch_MSE_sample __pyx_t_14;
+  struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MSE_sample __pyx_t_14;
   Py_ssize_t __pyx_t_15;
   Py_ssize_t __pyx_t_16;
   int __pyx_t_17;
@@ -24362,7 +24357,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("epochIteration_Cython_SVD_pp_SGD", 1);
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":325
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":325
  * 
  *         # Get number of available interactions
  *         cdef long n_total_batch = int(len(self.URM_train_data) / self.batch_size) + 1             # <<<<<<<<<<<<<<
@@ -24382,7 +24377,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __pyx_v_n_total_batch = __pyx_t_4;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":328
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":328
  * 
  *         cdef MSE_sample sample
  *         cdef long factor_index, n_current_batch, n_sample_in_batch, processed_samples_last_print=0, print_block_size = 500             # <<<<<<<<<<<<<<
@@ -24392,7 +24387,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   __pyx_v_processed_samples_last_print = 0;
   __pyx_v_print_block_size = 0x1F4;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":332
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":332
  *         cdef double local_gradient_item, local_gradient_user, local_gradient_bias_item, local_gradient_bias_user, local_gradient_bias_global
  * 
  *         cdef double H_i, W_u, cumulative_loss = 0.0             # <<<<<<<<<<<<<<
@@ -24401,7 +24396,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
  */
   __pyx_v_cumulative_loss = 0.0;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":335
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":335
  * 
  * 
  *         cdef long start_time_epoch = time.time()             # <<<<<<<<<<<<<<
@@ -24439,7 +24434,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __pyx_v_start_time_epoch = __pyx_t_4;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":336
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":336
  * 
  *         cdef long start_time_epoch = time.time()
  *         cdef long last_print_time = start_time_epoch             # <<<<<<<<<<<<<<
@@ -24448,7 +24443,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
  */
   __pyx_v_last_print_time = __pyx_v_start_time_epoch;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":339
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":339
  * 
  *         # Renew dropout mask
  *         if self.dropout_flag:             # <<<<<<<<<<<<<<
@@ -24458,7 +24453,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   __pyx_t_7 = (__pyx_v_self->dropout_flag != 0);
   if (__pyx_t_7) {
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":340
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":340
  *         # Renew dropout mask
  *         if self.dropout_flag:
  *             for factor_index in range(self.n_factors):             # <<<<<<<<<<<<<<
@@ -24470,7 +24465,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
     for (__pyx_t_4 = 0; __pyx_t_4 < __pyx_t_9; __pyx_t_4+=1) {
       __pyx_v_factor_index = __pyx_t_4;
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":341
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":341
  *         if self.dropout_flag:
  *             for factor_index in range(self.n_factors):
  *                 self.factors_dropout_mask[factor_index] = rand() > self.dropout_quota             # <<<<<<<<<<<<<<
@@ -24481,7 +24476,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
       *((int *) ( /* dim=0 */ (__pyx_v_self->factors_dropout_mask.data + __pyx_t_10 * __pyx_v_self->factors_dropout_mask.strides[0]) )) = (rand() > __pyx_v_self->dropout_quota);
     }
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":343
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":343
  *                 self.factors_dropout_mask[factor_index] = rand() > self.dropout_quota
  * 
  *             if self.n_factors == 1:             # <<<<<<<<<<<<<<
@@ -24491,7 +24486,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
     __pyx_t_7 = (__pyx_v_self->n_factors == 1);
     if (__pyx_t_7) {
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":344
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":344
  * 
  *             if self.n_factors == 1:
  *                 self.factors_dropout_mask[0] = True             # <<<<<<<<<<<<<<
@@ -24501,7 +24496,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
       __pyx_t_10 = 0;
       *((int *) ( /* dim=0 */ (__pyx_v_self->factors_dropout_mask.data + __pyx_t_10 * __pyx_v_self->factors_dropout_mask.strides[0]) )) = 1;
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":343
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":343
  *                 self.factors_dropout_mask[factor_index] = rand() > self.dropout_quota
  * 
  *             if self.n_factors == 1:             # <<<<<<<<<<<<<<
@@ -24510,7 +24505,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
  */
     }
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":339
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":339
  * 
  *         # Renew dropout mask
  *         if self.dropout_flag:             # <<<<<<<<<<<<<<
@@ -24519,7 +24514,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
  */
   }
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":348
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":348
  * 
  * 
  *         for n_current_batch in range(n_total_batch):             # <<<<<<<<<<<<<<
@@ -24531,16 +24526,16 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   for (__pyx_t_12 = 0; __pyx_t_12 < __pyx_t_11; __pyx_t_12+=1) {
     __pyx_v_n_current_batch = __pyx_t_12;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":350
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":350
  *         for n_current_batch in range(n_total_batch):
  * 
  *             self._clear_minibatch_data_structures()             # <<<<<<<<<<<<<<
  * 
  *             # Iterate over samples in batch
  */
-    ((struct __pyx_vtabstruct_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *)__pyx_v_self->__pyx_vtab)->_clear_minibatch_data_structures(__pyx_v_self); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 350, __pyx_L1_error)
+    ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *)__pyx_v_self->__pyx_vtab)->_clear_minibatch_data_structures(__pyx_v_self); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 350, __pyx_L1_error)
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":353
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":353
  * 
  *             # Iterate over samples in batch
  *             for n_sample_in_batch in range(self.batch_size):             # <<<<<<<<<<<<<<
@@ -24552,26 +24547,26 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
     for (__pyx_t_13 = 0; __pyx_t_13 < __pyx_t_9; __pyx_t_13+=1) {
       __pyx_v_n_sample_in_batch = __pyx_t_13;
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":356
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":356
  * 
  *                 # Uniform user sampling with replacement
  *                 sample = self.sampleMSE_Cython()             # <<<<<<<<<<<<<<
  * 
  *                 self._add_MSE_sample_in_minibatch(sample)
  */
-      __pyx_t_14 = ((struct __pyx_vtabstruct_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *)__pyx_v_self->__pyx_vtab)->sampleMSE_Cython(__pyx_v_self); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 356, __pyx_L1_error)
+      __pyx_t_14 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *)__pyx_v_self->__pyx_vtab)->sampleMSE_Cython(__pyx_v_self); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 356, __pyx_L1_error)
       __pyx_v_sample = __pyx_t_14;
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":358
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":358
  *                 sample = self.sampleMSE_Cython()
  * 
  *                 self._add_MSE_sample_in_minibatch(sample)             # <<<<<<<<<<<<<<
  * 
  *                 # Compute prediction
  */
-      ((struct __pyx_vtabstruct_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *)__pyx_v_self->__pyx_vtab)->_add_MSE_sample_in_minibatch(__pyx_v_self, __pyx_v_sample); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 358, __pyx_L1_error)
+      ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *)__pyx_v_self->__pyx_vtab)->_add_MSE_sample_in_minibatch(__pyx_v_self, __pyx_v_sample); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 358, __pyx_L1_error)
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":361
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":361
  * 
  *                 # Compute prediction
  *                 if self.use_bias:             # <<<<<<<<<<<<<<
@@ -24581,7 +24576,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
       __pyx_t_7 = (__pyx_v_self->use_bias != 0);
       if (__pyx_t_7) {
 
-        /* "MatrixFactorization_Cython_Epoch.pyx":362
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":362
  *                 # Compute prediction
  *                 if self.use_bias:
  *                     prediction = self.GLOBAL_bias[0] + self.USER_bias[sample.user] + self.ITEM_bias[sample.item]             # <<<<<<<<<<<<<<
@@ -24593,7 +24588,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
         __pyx_t_16 = __pyx_v_sample.item;
         __pyx_v_prediction = (((*((double *) ( /* dim=0 */ (__pyx_v_self->GLOBAL_bias.data + __pyx_t_10 * __pyx_v_self->GLOBAL_bias.strides[0]) ))) + (*((double *) ( /* dim=0 */ (__pyx_v_self->USER_bias.data + __pyx_t_15 * __pyx_v_self->USER_bias.strides[0]) )))) + (*((double *) ( /* dim=0 */ (__pyx_v_self->ITEM_bias.data + __pyx_t_16 * __pyx_v_self->ITEM_bias.strides[0]) ))));
 
-        /* "MatrixFactorization_Cython_Epoch.pyx":361
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":361
  * 
  *                 # Compute prediction
  *                 if self.use_bias:             # <<<<<<<<<<<<<<
@@ -24603,7 +24598,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
         goto __pyx_L11;
       }
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":364
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":364
  *                     prediction = self.GLOBAL_bias[0] + self.USER_bias[sample.user] + self.ITEM_bias[sample.item]
  *                 else:
  *                     prediction = 0.0             # <<<<<<<<<<<<<<
@@ -24615,7 +24610,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
       }
       __pyx_L11:;
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":366
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":366
  *                     prediction = 0.0
  * 
  *                 if self.use_embeddings:             # <<<<<<<<<<<<<<
@@ -24625,7 +24620,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
       __pyx_t_7 = (__pyx_v_self->use_embeddings != 0);
       if (__pyx_t_7) {
 
-        /* "MatrixFactorization_Cython_Epoch.pyx":367
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":367
  * 
  *                 if self.use_embeddings:
  *                     for factor_index in range(self.n_factors):             # <<<<<<<<<<<<<<
@@ -24637,7 +24632,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
         for (__pyx_t_19 = 0; __pyx_t_19 < __pyx_t_18; __pyx_t_19+=1) {
           __pyx_v_factor_index = __pyx_t_19;
 
-          /* "MatrixFactorization_Cython_Epoch.pyx":368
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":368
  *                 if self.use_embeddings:
  *                     for factor_index in range(self.n_factors):
  *                         if self.factors_dropout_mask[factor_index]:             # <<<<<<<<<<<<<<
@@ -24648,7 +24643,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
           __pyx_t_7 = ((*((int *) ( /* dim=0 */ (__pyx_v_self->factors_dropout_mask.data + __pyx_t_16 * __pyx_v_self->factors_dropout_mask.strides[0]) ))) != 0);
           if (__pyx_t_7) {
 
-            /* "MatrixFactorization_Cython_Epoch.pyx":369
+            /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":369
  *                     for factor_index in range(self.n_factors):
  *                         if self.factors_dropout_mask[factor_index]:
  *                             prediction += self.USER_factors[sample.user, factor_index] * self.ITEM_factors[sample.item, factor_index]             # <<<<<<<<<<<<<<
@@ -24661,7 +24656,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
             __pyx_t_20 = __pyx_v_factor_index;
             __pyx_v_prediction = (__pyx_v_prediction + ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_self->USER_factors.data + __pyx_t_16 * __pyx_v_self->USER_factors.strides[0]) ) + __pyx_t_15 * __pyx_v_self->USER_factors.strides[1]) ))) * (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_self->ITEM_factors.data + __pyx_t_10 * __pyx_v_self->ITEM_factors.strides[0]) ) + __pyx_t_20 * __pyx_v_self->ITEM_factors.strides[1]) )))));
 
-            /* "MatrixFactorization_Cython_Epoch.pyx":368
+            /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":368
  *                 if self.use_embeddings:
  *                     for factor_index in range(self.n_factors):
  *                         if self.factors_dropout_mask[factor_index]:             # <<<<<<<<<<<<<<
@@ -24671,7 +24666,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
           }
         }
 
-        /* "MatrixFactorization_Cython_Epoch.pyx":366
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":366
  *                     prediction = 0.0
  * 
  *                 if self.use_embeddings:             # <<<<<<<<<<<<<<
@@ -24680,7 +24675,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
  */
       }
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":373
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":373
  * 
  *                 # Compute gradients
  *                 prediction_error = sample.rating - prediction             # <<<<<<<<<<<<<<
@@ -24689,7 +24684,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
  */
       __pyx_v_prediction_error = (__pyx_v_sample.rating - __pyx_v_prediction);
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":374
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":374
  *                 # Compute gradients
  *                 prediction_error = sample.rating - prediction
  *                 cumulative_loss += prediction_error**2             # <<<<<<<<<<<<<<
@@ -24698,7 +24693,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
  */
       __pyx_v_cumulative_loss = (__pyx_v_cumulative_loss + pow(__pyx_v_prediction_error, 2.0));
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":377
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":377
  * 
  * 
  *                 if self.use_bias:             # <<<<<<<<<<<<<<
@@ -24708,7 +24703,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
       __pyx_t_7 = (__pyx_v_self->use_bias != 0);
       if (__pyx_t_7) {
 
-        /* "MatrixFactorization_Cython_Epoch.pyx":378
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":378
  * 
  *                 if self.use_bias:
  *                     local_gradient_bias_global = prediction_error - self.bias_reg * self.GLOBAL_bias[0]             # <<<<<<<<<<<<<<
@@ -24718,7 +24713,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
         __pyx_t_20 = 0;
         __pyx_v_local_gradient_bias_global = (__pyx_v_prediction_error - (__pyx_v_self->bias_reg * (*((double *) ( /* dim=0 */ (__pyx_v_self->GLOBAL_bias.data + __pyx_t_20 * __pyx_v_self->GLOBAL_bias.strides[0]) )))));
 
-        /* "MatrixFactorization_Cython_Epoch.pyx":379
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":379
  *                 if self.use_bias:
  *                     local_gradient_bias_global = prediction_error - self.bias_reg * self.GLOBAL_bias[0]
  *                     local_gradient_bias_item = prediction_error - self.bias_reg * self.ITEM_bias[sample.item]             # <<<<<<<<<<<<<<
@@ -24728,7 +24723,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
         __pyx_t_20 = __pyx_v_sample.item;
         __pyx_v_local_gradient_bias_item = (__pyx_v_prediction_error - (__pyx_v_self->bias_reg * (*((double *) ( /* dim=0 */ (__pyx_v_self->ITEM_bias.data + __pyx_t_20 * __pyx_v_self->ITEM_bias.strides[0]) )))));
 
-        /* "MatrixFactorization_Cython_Epoch.pyx":380
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":380
  *                     local_gradient_bias_global = prediction_error - self.bias_reg * self.GLOBAL_bias[0]
  *                     local_gradient_bias_item = prediction_error - self.bias_reg * self.ITEM_bias[sample.item]
  *                     local_gradient_bias_user = prediction_error - self.bias_reg * self.USER_bias[sample.user]             # <<<<<<<<<<<<<<
@@ -24738,7 +24733,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
         __pyx_t_20 = __pyx_v_sample.user;
         __pyx_v_local_gradient_bias_user = (__pyx_v_prediction_error - (__pyx_v_self->bias_reg * (*((double *) ( /* dim=0 */ (__pyx_v_self->USER_bias.data + __pyx_t_20 * __pyx_v_self->USER_bias.strides[0]) )))));
 
-        /* "MatrixFactorization_Cython_Epoch.pyx":382
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":382
  *                     local_gradient_bias_user = prediction_error - self.bias_reg * self.USER_bias[sample.user]
  * 
  *                     self.GLOBAL_bias_minibatch_accumulator[0] += local_gradient_bias_global             # <<<<<<<<<<<<<<
@@ -24748,7 +24743,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
         __pyx_t_20 = 0;
         *((double *) ( /* dim=0 */ (__pyx_v_self->GLOBAL_bias_minibatch_accumulator.data + __pyx_t_20 * __pyx_v_self->GLOBAL_bias_minibatch_accumulator.strides[0]) )) += __pyx_v_local_gradient_bias_global;
 
-        /* "MatrixFactorization_Cython_Epoch.pyx":383
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":383
  * 
  *                     self.GLOBAL_bias_minibatch_accumulator[0] += local_gradient_bias_global
  *                     self.ITEM_bias_minibatch_accumulator[sample.item] += local_gradient_bias_item             # <<<<<<<<<<<<<<
@@ -24758,7 +24753,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
         __pyx_t_20 = __pyx_v_sample.item;
         *((double *) ( /* dim=0 */ (__pyx_v_self->ITEM_bias_minibatch_accumulator.data + __pyx_t_20 * __pyx_v_self->ITEM_bias_minibatch_accumulator.strides[0]) )) += __pyx_v_local_gradient_bias_item;
 
-        /* "MatrixFactorization_Cython_Epoch.pyx":384
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":384
  *                     self.GLOBAL_bias_minibatch_accumulator[0] += local_gradient_bias_global
  *                     self.ITEM_bias_minibatch_accumulator[sample.item] += local_gradient_bias_item
  *                     self.USER_bias_minibatch_accumulator[sample.user] += local_gradient_bias_user             # <<<<<<<<<<<<<<
@@ -24768,7 +24763,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
         __pyx_t_20 = __pyx_v_sample.user;
         *((double *) ( /* dim=0 */ (__pyx_v_self->USER_bias_minibatch_accumulator.data + __pyx_t_20 * __pyx_v_self->USER_bias_minibatch_accumulator.strides[0]) )) += __pyx_v_local_gradient_bias_user;
 
-        /* "MatrixFactorization_Cython_Epoch.pyx":377
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":377
  * 
  * 
  *                 if self.use_bias:             # <<<<<<<<<<<<<<
@@ -24777,7 +24772,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
  */
       }
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":386
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":386
  *                     self.USER_bias_minibatch_accumulator[sample.user] += local_gradient_bias_user
  * 
  *                 if self.use_embeddings:             # <<<<<<<<<<<<<<
@@ -24787,7 +24782,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
       __pyx_t_7 = (__pyx_v_self->use_embeddings != 0);
       if (__pyx_t_7) {
 
-        /* "MatrixFactorization_Cython_Epoch.pyx":387
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":387
  * 
  *                 if self.use_embeddings:
  *                     for factor_index in range(self.n_factors):             # <<<<<<<<<<<<<<
@@ -24799,7 +24794,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
         for (__pyx_t_19 = 0; __pyx_t_19 < __pyx_t_18; __pyx_t_19+=1) {
           __pyx_v_factor_index = __pyx_t_19;
 
-          /* "MatrixFactorization_Cython_Epoch.pyx":388
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":388
  *                 if self.use_embeddings:
  *                     for factor_index in range(self.n_factors):
  *                         if self.factors_dropout_mask[factor_index]:             # <<<<<<<<<<<<<<
@@ -24810,7 +24805,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
           __pyx_t_7 = ((*((int *) ( /* dim=0 */ (__pyx_v_self->factors_dropout_mask.data + __pyx_t_20 * __pyx_v_self->factors_dropout_mask.strides[0]) ))) != 0);
           if (__pyx_t_7) {
 
-            /* "MatrixFactorization_Cython_Epoch.pyx":391
+            /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":391
  * 
  *                             # Copy original value to avoid messing up the updates
  *                             H_i = self.ITEM_factors[sample.item, factor_index]             # <<<<<<<<<<<<<<
@@ -24821,7 +24816,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
             __pyx_t_10 = __pyx_v_factor_index;
             __pyx_v_H_i = (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_self->ITEM_factors.data + __pyx_t_20 * __pyx_v_self->ITEM_factors.strides[0]) ) + __pyx_t_10 * __pyx_v_self->ITEM_factors.strides[1]) )));
 
-            /* "MatrixFactorization_Cython_Epoch.pyx":392
+            /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":392
  *                             # Copy original value to avoid messing up the updates
  *                             H_i = self.ITEM_factors[sample.item, factor_index]
  *                             W_u = self.USER_factors[sample.user, factor_index]             # <<<<<<<<<<<<<<
@@ -24832,7 +24827,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
             __pyx_t_20 = __pyx_v_factor_index;
             __pyx_v_W_u = (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_self->USER_factors.data + __pyx_t_10 * __pyx_v_self->USER_factors.strides[0]) ) + __pyx_t_20 * __pyx_v_self->USER_factors.strides[1]) )));
 
-            /* "MatrixFactorization_Cython_Epoch.pyx":395
+            /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":395
  * 
  *                             # Compute gradients
  *                             local_gradient_item = prediction_error * W_u - self.item_reg * H_i             # <<<<<<<<<<<<<<
@@ -24841,7 +24836,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
  */
             __pyx_v_local_gradient_item = ((__pyx_v_prediction_error * __pyx_v_W_u) - (__pyx_v_self->item_reg * __pyx_v_H_i));
 
-            /* "MatrixFactorization_Cython_Epoch.pyx":396
+            /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":396
  *                             # Compute gradients
  *                             local_gradient_item = prediction_error * W_u - self.item_reg * H_i
  *                             local_gradient_user = prediction_error * H_i - self.user_reg * W_u             # <<<<<<<<<<<<<<
@@ -24850,7 +24845,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
  */
             __pyx_v_local_gradient_user = ((__pyx_v_prediction_error * __pyx_v_H_i) - (__pyx_v_self->user_reg * __pyx_v_W_u));
 
-            /* "MatrixFactorization_Cython_Epoch.pyx":399
+            /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":399
  * 
  *                             # Store the gradient in the temporary accumulator
  *                             self.ITEM_factors_minibatch_accumulator[sample.item, factor_index] += local_gradient_item             # <<<<<<<<<<<<<<
@@ -24861,7 +24856,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
             __pyx_t_10 = __pyx_v_factor_index;
             *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_self->ITEM_factors_minibatch_accumulator.data + __pyx_t_20 * __pyx_v_self->ITEM_factors_minibatch_accumulator.strides[0]) ) + __pyx_t_10 * __pyx_v_self->ITEM_factors_minibatch_accumulator.strides[1]) )) += __pyx_v_local_gradient_item;
 
-            /* "MatrixFactorization_Cython_Epoch.pyx":400
+            /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":400
  *                             # Store the gradient in the temporary accumulator
  *                             self.ITEM_factors_minibatch_accumulator[sample.item, factor_index] += local_gradient_item
  *                             self.USER_factors_minibatch_accumulator[sample.user, factor_index] += local_gradient_user             # <<<<<<<<<<<<<<
@@ -24872,7 +24867,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
             __pyx_t_20 = __pyx_v_factor_index;
             *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_self->USER_factors_minibatch_accumulator.data + __pyx_t_10 * __pyx_v_self->USER_factors_minibatch_accumulator.strides[0]) ) + __pyx_t_20 * __pyx_v_self->USER_factors_minibatch_accumulator.strides[1]) )) += __pyx_v_local_gradient_user;
 
-            /* "MatrixFactorization_Cython_Epoch.pyx":388
+            /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":388
  *                 if self.use_embeddings:
  *                     for factor_index in range(self.n_factors):
  *                         if self.factors_dropout_mask[factor_index]:             # <<<<<<<<<<<<<<
@@ -24882,7 +24877,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
           }
         }
 
-        /* "MatrixFactorization_Cython_Epoch.pyx":386
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":386
  *                     self.USER_bias_minibatch_accumulator[sample.user] += local_gradient_bias_user
  * 
  *                 if self.use_embeddings:             # <<<<<<<<<<<<<<
@@ -24892,16 +24887,16 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
       }
     }
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":403
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":403
  * 
  * 
  *             self._apply_minibatch_updates_to_latent_factors()             # <<<<<<<<<<<<<<
  * 
  * 
  */
-    ((struct __pyx_vtabstruct_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *)__pyx_v_self->__pyx_vtab)->_apply_minibatch_updates_to_latent_factors(__pyx_v_self); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 403, __pyx_L1_error)
+    ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *)__pyx_v_self->__pyx_vtab)->_apply_minibatch_updates_to_latent_factors(__pyx_v_self); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 403, __pyx_L1_error)
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":407
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":407
  * 
  *             # Exponentiation of beta at the end of each mini batch
  *             if self.useAdam:             # <<<<<<<<<<<<<<
@@ -24911,7 +24906,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
     __pyx_t_7 = (__pyx_v_self->useAdam != 0);
     if (__pyx_t_7) {
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":409
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":409
  *             if self.useAdam:
  * 
  *                 self.beta_1_power_t *= self.beta_1             # <<<<<<<<<<<<<<
@@ -24920,7 +24915,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
  */
       __pyx_v_self->beta_1_power_t = (__pyx_v_self->beta_1_power_t * __pyx_v_self->beta_1);
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":410
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":410
  * 
  *                 self.beta_1_power_t *= self.beta_1
  *                 self.beta_2_power_t *= self.beta_2             # <<<<<<<<<<<<<<
@@ -24929,7 +24924,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
  */
       __pyx_v_self->beta_2_power_t = (__pyx_v_self->beta_2_power_t * __pyx_v_self->beta_2);
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":407
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":407
  * 
  *             # Exponentiation of beta at the end of each mini batch
  *             if self.useAdam:             # <<<<<<<<<<<<<<
@@ -24938,7 +24933,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
  */
     }
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":412
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":412
  *                 self.beta_2_power_t *= self.beta_2
  * 
  *             processed_samples_last_print += 1             # <<<<<<<<<<<<<<
@@ -24947,7 +24942,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
  */
     __pyx_v_processed_samples_last_print = (__pyx_v_processed_samples_last_print + 1);
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":414
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":414
  *             processed_samples_last_print += 1
  * 
  *             if self.verbose and (processed_samples_last_print >= print_block_size or n_current_batch == n_total_batch-1):             # <<<<<<<<<<<<<<
@@ -24971,7 +24966,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
     __pyx_L23_bool_binop_done:;
     if (__pyx_t_7) {
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":417
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":417
  * 
  *                 # Set block size to the number of items necessary in order to print every 300 seconds
  *                 current_time = time.time()             # <<<<<<<<<<<<<<
@@ -25008,7 +25003,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
       __Pyx_XDECREF_SET(__pyx_v_current_time, __pyx_t_2);
       __pyx_t_2 = 0;
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":418
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":418
  *                 # Set block size to the number of items necessary in order to print every 300 seconds
  *                 current_time = time.time()
  *                 samples_per_sec = n_current_batch/(current_time - start_time_epoch)             # <<<<<<<<<<<<<<
@@ -25029,7 +25024,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
       __Pyx_XDECREF_SET(__pyx_v_samples_per_sec, __pyx_t_3);
       __pyx_t_3 = 0;
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":419
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":419
  *                 current_time = time.time()
  *                 samples_per_sec = n_current_batch/(current_time - start_time_epoch)
  *                 print_block_size = math.ceil(samples_per_sec * self.print_step_seconds)             # <<<<<<<<<<<<<<
@@ -25073,7 +25068,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       __pyx_v_print_block_size = __pyx_t_13;
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":421
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":421
  *                 print_block_size = math.ceil(samples_per_sec * self.print_step_seconds)
  * 
  *                 if current_time - last_print_time > self.print_step_seconds or n_current_batch == n_total_batch-1:             # <<<<<<<<<<<<<<
@@ -25102,7 +25097,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
       __pyx_L27_bool_binop_done:;
       if (__pyx_t_7) {
 
-        /* "MatrixFactorization_Cython_Epoch.pyx":422
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":422
  * 
  *                 if current_time - last_print_time > self.print_step_seconds or n_current_batch == n_total_batch-1:
  *                     new_time_value, new_time_unit = seconds_to_biggest_unit(time.time() - start_time_epoch)             # <<<<<<<<<<<<<<
@@ -25218,7 +25213,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
         __Pyx_XDECREF_SET(__pyx_v_new_time_unit, __pyx_t_5);
         __pyx_t_5 = 0;
 
-        /* "MatrixFactorization_Cython_Epoch.pyx":424
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":424
  *                     new_time_value, new_time_unit = seconds_to_biggest_unit(time.time() - start_time_epoch)
  * 
  *                     print("{}: Processed {} ({:4.1f}%) in {:.2f} {}. MSE loss {:.2E}. Sample per second: {:.0f}".format(             # <<<<<<<<<<<<<<
@@ -25228,7 +25223,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
         __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_Processed_4_1f_in_2f_MSE_loss_2, __pyx_n_s_format); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 424, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_5);
 
-        /* "MatrixFactorization_Cython_Epoch.pyx":426
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":426
  *                     print("{}: Processed {} ({:4.1f}%) in {:.2f} {}. MSE loss {:.2E}. Sample per second: {:.0f}".format(
  *                         self.algorithm_name,
  *                         (n_current_batch+1)*self.batch_size,             # <<<<<<<<<<<<<<
@@ -25238,7 +25233,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
         __pyx_t_3 = __Pyx_PyInt_From_long(((__pyx_v_n_current_batch + 1) * __pyx_v_self->batch_size)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 426, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_3);
 
-        /* "MatrixFactorization_Cython_Epoch.pyx":427
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":427
  *                         self.algorithm_name,
  *                         (n_current_batch+1)*self.batch_size,
  *                         100.0* (n_current_batch+1)/n_total_batch,             # <<<<<<<<<<<<<<
@@ -25248,7 +25243,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
         __pyx_t_23 = PyFloat_FromDouble(((100.0 * (__pyx_v_n_current_batch + 1)) / ((double)__pyx_v_n_total_batch))); if (unlikely(!__pyx_t_23)) __PYX_ERR(0, 427, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_23);
 
-        /* "MatrixFactorization_Cython_Epoch.pyx":429
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":429
  *                         100.0* (n_current_batch+1)/n_total_batch,
  *                         new_time_value, new_time_unit,
  *                         cumulative_loss/((n_current_batch+1)*self.batch_size),             # <<<<<<<<<<<<<<
@@ -25258,7 +25253,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
         __pyx_t_2 = PyFloat_FromDouble((__pyx_v_cumulative_loss / ((double)((__pyx_v_n_current_batch + 1) * __pyx_v_self->batch_size)))); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 429, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_2);
 
-        /* "MatrixFactorization_Cython_Epoch.pyx":430
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":430
  *                         new_time_value, new_time_unit,
  *                         cumulative_loss/((n_current_batch+1)*self.batch_size),
  *                         float((n_current_batch+1)*self.batch_size) / (time.time() - start_time_epoch)))             # <<<<<<<<<<<<<<
@@ -25331,7 +25326,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
           __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
         }
 
-        /* "MatrixFactorization_Cython_Epoch.pyx":424
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":424
  *                     new_time_value, new_time_unit = seconds_to_biggest_unit(time.time() - start_time_epoch)
  * 
  *                     print("{}: Processed {} ({:4.1f}%) in {:.2f} {}. MSE loss {:.2E}. Sample per second: {:.0f}".format(             # <<<<<<<<<<<<<<
@@ -25343,7 +25338,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
         __Pyx_DECREF(__pyx_t_22); __pyx_t_22 = 0;
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-        /* "MatrixFactorization_Cython_Epoch.pyx":432
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":432
  *                         float((n_current_batch+1)*self.batch_size) / (time.time() - start_time_epoch)))
  * 
  *                     last_print_time = current_time             # <<<<<<<<<<<<<<
@@ -25353,7 +25348,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
         __pyx_t_13 = __Pyx_PyInt_As_long(__pyx_v_current_time); if (unlikely((__pyx_t_13 == (long)-1) && PyErr_Occurred())) __PYX_ERR(0, 432, __pyx_L1_error)
         __pyx_v_last_print_time = __pyx_t_13;
 
-        /* "MatrixFactorization_Cython_Epoch.pyx":433
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":433
  * 
  *                     last_print_time = current_time
  *                     processed_samples_last_print = 0             # <<<<<<<<<<<<<<
@@ -25362,7 +25357,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
  */
         __pyx_v_processed_samples_last_print = 0;
 
-        /* "MatrixFactorization_Cython_Epoch.pyx":435
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":435
  *                     processed_samples_last_print = 0
  * 
  *                     sys.stdout.flush()             # <<<<<<<<<<<<<<
@@ -25401,7 +25396,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
         }
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-        /* "MatrixFactorization_Cython_Epoch.pyx":436
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":436
  * 
  *                     sys.stdout.flush()
  *                     sys.stderr.flush()             # <<<<<<<<<<<<<<
@@ -25440,7 +25435,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
         }
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-        /* "MatrixFactorization_Cython_Epoch.pyx":421
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":421
  *                 print_block_size = math.ceil(samples_per_sec * self.print_step_seconds)
  * 
  *                 if current_time - last_print_time > self.print_step_seconds or n_current_batch == n_total_batch-1:             # <<<<<<<<<<<<<<
@@ -25449,7 +25444,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
  */
       }
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":414
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":414
  *             processed_samples_last_print += 1
  * 
  *             if self.verbose and (processed_samples_last_print >= print_block_size or n_current_batch == n_total_batch-1):             # <<<<<<<<<<<<<<
@@ -25459,7 +25454,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
     }
   }
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":322
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":322
  * 
  * 
  *     def epochIteration_Cython_SVD_pp_SGD(self):             # <<<<<<<<<<<<<<
@@ -25480,7 +25475,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   __Pyx_XDECREF(__pyx_t_26);
   __Pyx_XDECREF(__pyx_t_27);
   __Pyx_XDECREF(__pyx_t_28);
-  __Pyx_AddTraceback("MatrixFactorization_Cython_Epoch.MatrixFactorization_Cython_Epoch.epochIteration_Cython_SVD_pp_SGD", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.MatrixFactorization.Cython.MatrixFactorization_Cython_Epoch.MatrixFactorization_Cython_Epoch.epochIteration_Cython_SVD_pp_SGD", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_current_time);
@@ -25492,7 +25487,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   return __pyx_r;
 }
 
-/* "MatrixFactorization_Cython_Epoch.pyx":442
+/* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":442
  * 
  * 
  *     def epochIteration_Cython_ASY_SVD_SGD(self):             # <<<<<<<<<<<<<<
@@ -25501,15 +25496,15 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_11epochIteration_Cython_ASY_SVD_SGD(PyObject *__pyx_v_self, 
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_11epochIteration_Cython_ASY_SVD_SGD(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static PyMethodDef __pyx_mdef_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_11epochIteration_Cython_ASY_SVD_SGD = {"epochIteration_Cython_ASY_SVD_SGD", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_11epochIteration_Cython_ASY_SVD_SGD, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_11epochIteration_Cython_ASY_SVD_SGD(PyObject *__pyx_v_self, 
+static PyMethodDef __pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_11epochIteration_Cython_ASY_SVD_SGD = {"epochIteration_Cython_ASY_SVD_SGD", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_11epochIteration_Cython_ASY_SVD_SGD, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_11epochIteration_Cython_ASY_SVD_SGD(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -25534,16 +25529,16 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   if (unlikely(__pyx_nargs > 0)) {
     __Pyx_RaiseArgtupleInvalid("epochIteration_Cython_ASY_SVD_SGD", 1, 0, 0, __pyx_nargs); return NULL;}
   if (unlikely(__pyx_kwds) && __Pyx_NumKwargs_FASTCALL(__pyx_kwds) && unlikely(!__Pyx_CheckKeywordStrings(__pyx_kwds, "epochIteration_Cython_ASY_SVD_SGD", 0))) return NULL;
-  __pyx_r = __pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_10epochIteration_Cython_ASY_SVD_SGD(((struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *)__pyx_v_self));
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_10epochIteration_Cython_ASY_SVD_SGD(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_10epochIteration_Cython_ASY_SVD_SGD(struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self) {
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_10epochIteration_Cython_ASY_SVD_SGD(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self) {
   long __pyx_v_n_total_batch;
-  struct __pyx_t_32MatrixFactorization_Cython_Epoch_MSE_sample __pyx_v_sample;
+  struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MSE_sample __pyx_v_sample;
   long __pyx_v_n_current_batch;
   long __pyx_v_n_sample_in_batch;
   long __pyx_v_processed_samples_last_print;
@@ -25588,7 +25583,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   int __pyx_t_13;
   int __pyx_t_14;
   long __pyx_t_15;
-  struct __pyx_t_32MatrixFactorization_Cython_Epoch_MSE_sample __pyx_t_16;
+  struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MSE_sample __pyx_t_16;
   long __pyx_t_17;
   Py_ssize_t __pyx_t_18;
   int __pyx_t_19;
@@ -25610,7 +25605,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("epochIteration_Cython_ASY_SVD_SGD", 1);
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":445
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":445
  * 
  * 
  *         assert self.batch_size == 1, "Batch size other than 1 not supported for ASY_SVD"             # <<<<<<<<<<<<<<
@@ -25629,7 +25624,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   if ((1)); else __PYX_ERR(0, 445, __pyx_L1_error)
   #endif
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":448
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":448
  * 
  *         # Get number of available interactions
  *         cdef long n_total_batch = int(len(self.URM_train_data) / self.batch_size) + 1             # <<<<<<<<<<<<<<
@@ -25649,7 +25644,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_v_n_total_batch = __pyx_t_5;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":451
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":451
  * 
  *         cdef MSE_sample sample
  *         cdef long n_current_batch, n_sample_in_batch, processed_samples_last_print = 0, print_block_size = 500             # <<<<<<<<<<<<<<
@@ -25659,7 +25654,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   __pyx_v_processed_samples_last_print = 0;
   __pyx_v_print_block_size = 0x1F4;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":455
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":455
  *         cdef double local_gradient_item, local_gradient_user, local_gradient_bias_item, local_gradient_bias_user, local_gradient_bias_global
  * 
  *         cdef double[:] user_factors_accumulated = np.zeros(self.n_factors, dtype=np.float64)             # <<<<<<<<<<<<<<
@@ -25698,7 +25693,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   __pyx_t_9.memview = NULL;
   __pyx_t_9.data = NULL;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":458
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":458
  *         cdef long start_pos_seen_items, end_pos_seen_items, item_id, factor_index, item_index, user_index
  * 
  *         cdef double H_i, W_u, cumulative_loss = 0.0, denominator             # <<<<<<<<<<<<<<
@@ -25707,7 +25702,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
  */
   __pyx_v_cumulative_loss = 0.0;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":461
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":461
  * 
  * 
  *         cdef long start_time_epoch = time.time()             # <<<<<<<<<<<<<<
@@ -25745,7 +25740,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
   __pyx_v_start_time_epoch = __pyx_t_5;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":462
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":462
  * 
  *         cdef long start_time_epoch = time.time()
  *         cdef long last_print_time = start_time_epoch             # <<<<<<<<<<<<<<
@@ -25754,7 +25749,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
  */
   __pyx_v_last_print_time = __pyx_v_start_time_epoch;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":465
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":465
  * 
  * 
  *         for n_current_batch in range(n_total_batch):             # <<<<<<<<<<<<<<
@@ -25766,7 +25761,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   for (__pyx_t_12 = 0; __pyx_t_12 < __pyx_t_11; __pyx_t_12+=1) {
     __pyx_v_n_current_batch = __pyx_t_12;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":468
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":468
  * 
  * 
  *             prediction_error = 0.0             # <<<<<<<<<<<<<<
@@ -25775,7 +25770,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
  */
     __pyx_v_prediction_error = 0.0;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":471
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":471
  * 
  *             # Iterate over samples in batch
  *             for n_sample_in_batch in range(self.batch_size):             # <<<<<<<<<<<<<<
@@ -25787,17 +25782,17 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
     for (__pyx_t_15 = 0; __pyx_t_15 < __pyx_t_14; __pyx_t_15+=1) {
       __pyx_v_n_sample_in_batch = __pyx_t_15;
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":474
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":474
  * 
  *                 # Uniform user sampling with replacement
  *                 sample = self.sampleMSE_Cython()             # <<<<<<<<<<<<<<
  * 
  *                 self.mini_batch_sampled_items[n_sample_in_batch] = sample.item
  */
-      __pyx_t_16 = ((struct __pyx_vtabstruct_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *)__pyx_v_self->__pyx_vtab)->sampleMSE_Cython(__pyx_v_self); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 474, __pyx_L1_error)
+      __pyx_t_16 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *)__pyx_v_self->__pyx_vtab)->sampleMSE_Cython(__pyx_v_self); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 474, __pyx_L1_error)
       __pyx_v_sample = __pyx_t_16;
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":476
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":476
  *                 sample = self.sampleMSE_Cython()
  * 
  *                 self.mini_batch_sampled_items[n_sample_in_batch] = sample.item             # <<<<<<<<<<<<<<
@@ -25808,7 +25803,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
       __pyx_t_18 = __pyx_v_n_sample_in_batch;
       *((long *) ( /* dim=0 */ (__pyx_v_self->mini_batch_sampled_items.data + __pyx_t_18 * __pyx_v_self->mini_batch_sampled_items.strides[0]) )) = __pyx_t_17;
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":477
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":477
  * 
  *                 self.mini_batch_sampled_items[n_sample_in_batch] = sample.item
  *                 self.mini_batch_sampled_users[n_sample_in_batch] = sample.user             # <<<<<<<<<<<<<<
@@ -25819,7 +25814,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
       __pyx_t_18 = __pyx_v_n_sample_in_batch;
       *((long *) ( /* dim=0 */ (__pyx_v_self->mini_batch_sampled_users.data + __pyx_t_18 * __pyx_v_self->mini_batch_sampled_users.strides[0]) )) = __pyx_t_17;
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":480
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":480
  * 
  * 
  *                 for factor_index in range(self.n_factors):             # <<<<<<<<<<<<<<
@@ -25831,7 +25826,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
       for (__pyx_t_17 = 0; __pyx_t_17 < __pyx_t_20; __pyx_t_17+=1) {
         __pyx_v_factor_index = __pyx_t_17;
 
-        /* "MatrixFactorization_Cython_Epoch.pyx":481
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":481
  * 
  *                 for factor_index in range(self.n_factors):
  *                     user_factors_accumulated[factor_index] = 0.0             # <<<<<<<<<<<<<<
@@ -25842,7 +25837,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
         *((double *) ( /* dim=0 */ (__pyx_v_user_factors_accumulated.data + __pyx_t_18 * __pyx_v_user_factors_accumulated.strides[0]) )) = 0.0;
       }
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":485
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":485
  * 
  *                 # Accumulate latent factors of rated items
  *                 start_pos_seen_items = self.URM_train_indptr[sample.user]             # <<<<<<<<<<<<<<
@@ -25852,7 +25847,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
       __pyx_t_18 = __pyx_v_sample.user;
       __pyx_v_start_pos_seen_items = (*((int *) ( /* dim=0 */ (__pyx_v_self->URM_train_indptr.data + __pyx_t_18 * __pyx_v_self->URM_train_indptr.strides[0]) )));
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":486
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":486
  *                 # Accumulate latent factors of rated items
  *                 start_pos_seen_items = self.URM_train_indptr[sample.user]
  *                 end_pos_seen_items = self.URM_train_indptr[sample.user+1]             # <<<<<<<<<<<<<<
@@ -25862,7 +25857,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
       __pyx_t_18 = (__pyx_v_sample.user + 1);
       __pyx_v_end_pos_seen_items = (*((int *) ( /* dim=0 */ (__pyx_v_self->URM_train_indptr.data + __pyx_t_18 * __pyx_v_self->URM_train_indptr.strides[0]) )));
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":488
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":488
  *                 end_pos_seen_items = self.URM_train_indptr[sample.user+1]
  * 
  *                 for item_index in range(start_pos_seen_items, end_pos_seen_items):             # <<<<<<<<<<<<<<
@@ -25874,7 +25869,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
       for (__pyx_t_22 = __pyx_v_start_pos_seen_items; __pyx_t_22 < __pyx_t_21; __pyx_t_22+=1) {
         __pyx_v_item_index = __pyx_t_22;
 
-        /* "MatrixFactorization_Cython_Epoch.pyx":489
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":489
  * 
  *                 for item_index in range(start_pos_seen_items, end_pos_seen_items):
  *                     item_id = self.URM_train_indices[item_index]             # <<<<<<<<<<<<<<
@@ -25884,7 +25879,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
         __pyx_t_18 = __pyx_v_item_index;
         __pyx_v_item_id = (*((int *) ( /* dim=0 */ (__pyx_v_self->URM_train_indices.data + __pyx_t_18 * __pyx_v_self->URM_train_indices.strides[0]) )));
 
-        /* "MatrixFactorization_Cython_Epoch.pyx":491
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":491
  *                     item_id = self.URM_train_indices[item_index]
  * 
  *                     for factor_index in range(self.n_factors):             # <<<<<<<<<<<<<<
@@ -25896,7 +25891,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
         for (__pyx_t_23 = 0; __pyx_t_23 < __pyx_t_20; __pyx_t_23+=1) {
           __pyx_v_factor_index = __pyx_t_23;
 
-          /* "MatrixFactorization_Cython_Epoch.pyx":492
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":492
  * 
  *                     for factor_index in range(self.n_factors):
  *                         user_factors_accumulated[factor_index] += self.USER_factors[item_id, factor_index]             # <<<<<<<<<<<<<<
@@ -25910,7 +25905,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
         }
       }
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":495
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":495
  * 
  * 
  *                 denominator = sqrt(self.profile_length[sample.user])             # <<<<<<<<<<<<<<
@@ -25920,7 +25915,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
       __pyx_t_24 = __pyx_v_sample.user;
       __pyx_v_denominator = sqrt((*((int *) ( /* dim=0 */ (__pyx_v_self->profile_length.data + __pyx_t_24 * __pyx_v_self->profile_length.strides[0]) ))));
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":498
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":498
  * 
  * 
  *                 for factor_index in range(self.n_factors):             # <<<<<<<<<<<<<<
@@ -25932,7 +25927,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
       for (__pyx_t_17 = 0; __pyx_t_17 < __pyx_t_20; __pyx_t_17+=1) {
         __pyx_v_factor_index = __pyx_t_17;
 
-        /* "MatrixFactorization_Cython_Epoch.pyx":499
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":499
  * 
  *                 for factor_index in range(self.n_factors):
  *                     user_factors_accumulated[factor_index] /= denominator             # <<<<<<<<<<<<<<
@@ -25943,7 +25938,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
         *((double *) ( /* dim=0 */ (__pyx_v_user_factors_accumulated.data + __pyx_t_24 * __pyx_v_user_factors_accumulated.strides[0]) )) /= __pyx_v_denominator;
       }
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":502
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":502
  * 
  *                 # Compute prediction
  *                 if self.use_bias:             # <<<<<<<<<<<<<<
@@ -25953,7 +25948,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
       __pyx_t_1 = (__pyx_v_self->use_bias != 0);
       if (__pyx_t_1) {
 
-        /* "MatrixFactorization_Cython_Epoch.pyx":503
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":503
  *                 # Compute prediction
  *                 if self.use_bias:
  *                     prediction = self.GLOBAL_bias[0] + self.USER_bias[sample.user] + self.ITEM_bias[sample.item]             # <<<<<<<<<<<<<<
@@ -25965,7 +25960,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
         __pyx_t_25 = __pyx_v_sample.item;
         __pyx_v_prediction = (((*((double *) ( /* dim=0 */ (__pyx_v_self->GLOBAL_bias.data + __pyx_t_24 * __pyx_v_self->GLOBAL_bias.strides[0]) ))) + (*((double *) ( /* dim=0 */ (__pyx_v_self->USER_bias.data + __pyx_t_18 * __pyx_v_self->USER_bias.strides[0]) )))) + (*((double *) ( /* dim=0 */ (__pyx_v_self->ITEM_bias.data + __pyx_t_25 * __pyx_v_self->ITEM_bias.strides[0]) ))));
 
-        /* "MatrixFactorization_Cython_Epoch.pyx":502
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":502
  * 
  *                 # Compute prediction
  *                 if self.use_bias:             # <<<<<<<<<<<<<<
@@ -25975,7 +25970,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
         goto __pyx_L15;
       }
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":505
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":505
  *                     prediction = self.GLOBAL_bias[0] + self.USER_bias[sample.user] + self.ITEM_bias[sample.item]
  *                 else:
  *                     prediction = 0.0             # <<<<<<<<<<<<<<
@@ -25987,7 +25982,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
       }
       __pyx_L15:;
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":507
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":507
  *                     prediction = 0.0
  * 
  *                 if self.use_embeddings:             # <<<<<<<<<<<<<<
@@ -25997,7 +25992,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
       __pyx_t_1 = (__pyx_v_self->use_embeddings != 0);
       if (__pyx_t_1) {
 
-        /* "MatrixFactorization_Cython_Epoch.pyx":508
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":508
  * 
  *                 if self.use_embeddings:
  *                     for factor_index in range(self.n_factors):             # <<<<<<<<<<<<<<
@@ -26009,7 +26004,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
         for (__pyx_t_17 = 0; __pyx_t_17 < __pyx_t_20; __pyx_t_17+=1) {
           __pyx_v_factor_index = __pyx_t_17;
 
-          /* "MatrixFactorization_Cython_Epoch.pyx":509
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":509
  *                 if self.use_embeddings:
  *                     for factor_index in range(self.n_factors):
  *                         prediction += user_factors_accumulated[factor_index] * self.ITEM_factors[sample.item, factor_index]             # <<<<<<<<<<<<<<
@@ -26022,7 +26017,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
           __pyx_v_prediction = (__pyx_v_prediction + ((*((double *) ( /* dim=0 */ (__pyx_v_user_factors_accumulated.data + __pyx_t_25 * __pyx_v_user_factors_accumulated.strides[0]) ))) * (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_self->ITEM_factors.data + __pyx_t_18 * __pyx_v_self->ITEM_factors.strides[0]) ) + __pyx_t_24 * __pyx_v_self->ITEM_factors.strides[1]) )))));
         }
 
-        /* "MatrixFactorization_Cython_Epoch.pyx":507
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":507
  *                     prediction = 0.0
  * 
  *                 if self.use_embeddings:             # <<<<<<<<<<<<<<
@@ -26031,7 +26026,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
  */
       }
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":513
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":513
  * 
  * 
  *                 prediction_error += sample.rating - prediction             # <<<<<<<<<<<<<<
@@ -26041,7 +26036,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
       __pyx_v_prediction_error = (__pyx_v_prediction_error + (__pyx_v_sample.rating - __pyx_v_prediction));
     }
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":516
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":516
  * 
  * 
  *             prediction_error /= self.batch_size             # <<<<<<<<<<<<<<
@@ -26050,7 +26045,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
  */
     __pyx_v_prediction_error = (__pyx_v_prediction_error / __pyx_v_self->batch_size);
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":517
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":517
  * 
  *             prediction_error /= self.batch_size
  *             cumulative_loss += prediction_error**2             # <<<<<<<<<<<<<<
@@ -26059,7 +26054,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
  */
     __pyx_v_cumulative_loss = (__pyx_v_cumulative_loss + pow(__pyx_v_prediction_error, 2.0));
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":521
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":521
  * 
  * 
  *             if self.use_bias:             # <<<<<<<<<<<<<<
@@ -26069,7 +26064,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
     __pyx_t_1 = (__pyx_v_self->use_bias != 0);
     if (__pyx_t_1) {
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":524
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":524
  * 
  *                 # Compute gradients
  *                 local_gradient_bias_global = prediction_error - self.bias_reg * self.GLOBAL_bias[0]             # <<<<<<<<<<<<<<
@@ -26079,17 +26074,17 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
       __pyx_t_24 = 0;
       __pyx_v_local_gradient_bias_global = (__pyx_v_prediction_error - (__pyx_v_self->bias_reg * (*((double *) ( /* dim=0 */ (__pyx_v_self->GLOBAL_bias.data + __pyx_t_24 * __pyx_v_self->GLOBAL_bias.strides[0]) )))));
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":527
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":527
  * 
  *                 # Compute adaptive gradients
  *                 local_gradient_bias_global = self.adaptive_gradient(local_gradient_bias_global, 0, 0, self.sgd_cache_bias_GLOBAL, self.sgd_cache_bias_GLOBAL_momentum_1, self.sgd_cache_bias_GLOBAL_momentum_2)             # <<<<<<<<<<<<<<
  * 
  *                 # Apply updates to bias and latent factors
  */
-      __pyx_t_26 = ((struct __pyx_vtabstruct_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *)__pyx_v_self->__pyx_vtab)->adaptive_gradient(__pyx_v_self, __pyx_v_local_gradient_bias_global, 0, 0, __pyx_v_self->sgd_cache_bias_GLOBAL, __pyx_v_self->sgd_cache_bias_GLOBAL_momentum_1, __pyx_v_self->sgd_cache_bias_GLOBAL_momentum_2); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 527, __pyx_L1_error)
+      __pyx_t_26 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *)__pyx_v_self->__pyx_vtab)->adaptive_gradient(__pyx_v_self, __pyx_v_local_gradient_bias_global, 0, 0, __pyx_v_self->sgd_cache_bias_GLOBAL, __pyx_v_self->sgd_cache_bias_GLOBAL_momentum_1, __pyx_v_self->sgd_cache_bias_GLOBAL_momentum_2); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 527, __pyx_L1_error)
       __pyx_v_local_gradient_bias_global = __pyx_t_26;
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":530
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":530
  * 
  *                 # Apply updates to bias and latent factors
  *                 self.GLOBAL_bias[0] += self.learning_rate * local_gradient_bias_global             # <<<<<<<<<<<<<<
@@ -26099,7 +26094,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
       __pyx_t_24 = 0;
       *((double *) ( /* dim=0 */ (__pyx_v_self->GLOBAL_bias.data + __pyx_t_24 * __pyx_v_self->GLOBAL_bias.strides[0]) )) += (__pyx_v_self->learning_rate * __pyx_v_local_gradient_bias_global);
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":521
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":521
  * 
  * 
  *             if self.use_bias:             # <<<<<<<<<<<<<<
@@ -26108,7 +26103,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
  */
     }
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":535
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":535
  * 
  *             # Iterate over samples in batch
  *             for n_sample_in_batch in range(self.batch_size):             # <<<<<<<<<<<<<<
@@ -26120,7 +26115,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
     for (__pyx_t_15 = 0; __pyx_t_15 < __pyx_t_14; __pyx_t_15+=1) {
       __pyx_v_n_sample_in_batch = __pyx_t_15;
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":537
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":537
  *             for n_sample_in_batch in range(self.batch_size):
  * 
  *                 sample.item = self.mini_batch_sampled_items[n_sample_in_batch]             # <<<<<<<<<<<<<<
@@ -26130,7 +26125,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
       __pyx_t_24 = __pyx_v_n_sample_in_batch;
       __pyx_v_sample.item = (*((long *) ( /* dim=0 */ (__pyx_v_self->mini_batch_sampled_items.data + __pyx_t_24 * __pyx_v_self->mini_batch_sampled_items.strides[0]) )));
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":538
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":538
  * 
  *                 sample.item = self.mini_batch_sampled_items[n_sample_in_batch]
  *                 sample.user = self.mini_batch_sampled_users[n_sample_in_batch]             # <<<<<<<<<<<<<<
@@ -26140,7 +26135,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
       __pyx_t_24 = __pyx_v_n_sample_in_batch;
       __pyx_v_sample.user = (*((long *) ( /* dim=0 */ (__pyx_v_self->mini_batch_sampled_users.data + __pyx_t_24 * __pyx_v_self->mini_batch_sampled_users.strides[0]) )));
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":540
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":540
  *                 sample.user = self.mini_batch_sampled_users[n_sample_in_batch]
  * 
  *                 if self.use_bias:             # <<<<<<<<<<<<<<
@@ -26150,7 +26145,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
       __pyx_t_1 = (__pyx_v_self->use_bias != 0);
       if (__pyx_t_1) {
 
-        /* "MatrixFactorization_Cython_Epoch.pyx":543
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":543
  * 
  *                     # Compute gradients
  *                     local_gradient_bias_item = prediction_error - self.bias_reg * self.ITEM_bias[sample.item]             # <<<<<<<<<<<<<<
@@ -26160,7 +26155,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
         __pyx_t_24 = __pyx_v_sample.item;
         __pyx_v_local_gradient_bias_item = (__pyx_v_prediction_error - (__pyx_v_self->bias_reg * (*((double *) ( /* dim=0 */ (__pyx_v_self->ITEM_bias.data + __pyx_t_24 * __pyx_v_self->ITEM_bias.strides[0]) )))));
 
-        /* "MatrixFactorization_Cython_Epoch.pyx":544
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":544
  *                     # Compute gradients
  *                     local_gradient_bias_item = prediction_error - self.bias_reg * self.ITEM_bias[sample.item]
  *                     local_gradient_bias_user = prediction_error - self.bias_reg * self.USER_bias[sample.user]             # <<<<<<<<<<<<<<
@@ -26170,27 +26165,27 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
         __pyx_t_24 = __pyx_v_sample.user;
         __pyx_v_local_gradient_bias_user = (__pyx_v_prediction_error - (__pyx_v_self->bias_reg * (*((double *) ( /* dim=0 */ (__pyx_v_self->USER_bias.data + __pyx_t_24 * __pyx_v_self->USER_bias.strides[0]) )))));
 
-        /* "MatrixFactorization_Cython_Epoch.pyx":547
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":547
  * 
  *                     # Compute adaptive gradients
  *                     local_gradient_bias_item = self.adaptive_gradient(local_gradient_bias_item, sample.item, 0, self.sgd_cache_bias_I, self.sgd_cache_bias_I_momentum_1, self.sgd_cache_bias_I_momentum_2)             # <<<<<<<<<<<<<<
  *                     local_gradient_bias_user = self.adaptive_gradient(local_gradient_bias_user, sample.user, 0, self.sgd_cache_bias_U, self.sgd_cache_bias_U_momentum_1, self.sgd_cache_bias_U_momentum_2)
  * 
  */
-        __pyx_t_26 = ((struct __pyx_vtabstruct_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *)__pyx_v_self->__pyx_vtab)->adaptive_gradient(__pyx_v_self, __pyx_v_local_gradient_bias_item, __pyx_v_sample.item, 0, __pyx_v_self->sgd_cache_bias_I, __pyx_v_self->sgd_cache_bias_I_momentum_1, __pyx_v_self->sgd_cache_bias_I_momentum_2); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 547, __pyx_L1_error)
+        __pyx_t_26 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *)__pyx_v_self->__pyx_vtab)->adaptive_gradient(__pyx_v_self, __pyx_v_local_gradient_bias_item, __pyx_v_sample.item, 0, __pyx_v_self->sgd_cache_bias_I, __pyx_v_self->sgd_cache_bias_I_momentum_1, __pyx_v_self->sgd_cache_bias_I_momentum_2); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 547, __pyx_L1_error)
         __pyx_v_local_gradient_bias_item = __pyx_t_26;
 
-        /* "MatrixFactorization_Cython_Epoch.pyx":548
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":548
  *                     # Compute adaptive gradients
  *                     local_gradient_bias_item = self.adaptive_gradient(local_gradient_bias_item, sample.item, 0, self.sgd_cache_bias_I, self.sgd_cache_bias_I_momentum_1, self.sgd_cache_bias_I_momentum_2)
  *                     local_gradient_bias_user = self.adaptive_gradient(local_gradient_bias_user, sample.user, 0, self.sgd_cache_bias_U, self.sgd_cache_bias_U_momentum_1, self.sgd_cache_bias_U_momentum_2)             # <<<<<<<<<<<<<<
  * 
  *                     # Apply updates to bias
  */
-        __pyx_t_26 = ((struct __pyx_vtabstruct_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *)__pyx_v_self->__pyx_vtab)->adaptive_gradient(__pyx_v_self, __pyx_v_local_gradient_bias_user, __pyx_v_sample.user, 0, __pyx_v_self->sgd_cache_bias_U, __pyx_v_self->sgd_cache_bias_U_momentum_1, __pyx_v_self->sgd_cache_bias_U_momentum_2); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 548, __pyx_L1_error)
+        __pyx_t_26 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *)__pyx_v_self->__pyx_vtab)->adaptive_gradient(__pyx_v_self, __pyx_v_local_gradient_bias_user, __pyx_v_sample.user, 0, __pyx_v_self->sgd_cache_bias_U, __pyx_v_self->sgd_cache_bias_U_momentum_1, __pyx_v_self->sgd_cache_bias_U_momentum_2); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 548, __pyx_L1_error)
         __pyx_v_local_gradient_bias_user = __pyx_t_26;
 
-        /* "MatrixFactorization_Cython_Epoch.pyx":551
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":551
  * 
  *                     # Apply updates to bias
  *                     self.ITEM_bias[sample.item] += self.learning_rate * local_gradient_bias_item             # <<<<<<<<<<<<<<
@@ -26200,7 +26195,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
         __pyx_t_24 = __pyx_v_sample.item;
         *((double *) ( /* dim=0 */ (__pyx_v_self->ITEM_bias.data + __pyx_t_24 * __pyx_v_self->ITEM_bias.strides[0]) )) += (__pyx_v_self->learning_rate * __pyx_v_local_gradient_bias_item);
 
-        /* "MatrixFactorization_Cython_Epoch.pyx":552
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":552
  *                     # Apply updates to bias
  *                     self.ITEM_bias[sample.item] += self.learning_rate * local_gradient_bias_item
  *                     self.USER_bias[sample.user] += self.learning_rate * local_gradient_bias_user             # <<<<<<<<<<<<<<
@@ -26210,7 +26205,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
         __pyx_t_24 = __pyx_v_sample.user;
         *((double *) ( /* dim=0 */ (__pyx_v_self->USER_bias.data + __pyx_t_24 * __pyx_v_self->USER_bias.strides[0]) )) += (__pyx_v_self->learning_rate * __pyx_v_local_gradient_bias_user);
 
-        /* "MatrixFactorization_Cython_Epoch.pyx":540
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":540
  *                 sample.user = self.mini_batch_sampled_users[n_sample_in_batch]
  * 
  *                 if self.use_bias:             # <<<<<<<<<<<<<<
@@ -26219,7 +26214,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
  */
       }
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":554
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":554
  *                     self.USER_bias[sample.user] += self.learning_rate * local_gradient_bias_user
  * 
  *                 if self.use_embeddings:             # <<<<<<<<<<<<<<
@@ -26229,7 +26224,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
       __pyx_t_1 = (__pyx_v_self->use_embeddings != 0);
       if (__pyx_t_1) {
 
-        /* "MatrixFactorization_Cython_Epoch.pyx":556
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":556
  *                 if self.use_embeddings:
  *                     # Update USER factors, therefore all item factors for seen items
  *                     for item_index in range(start_pos_seen_items, end_pos_seen_items):             # <<<<<<<<<<<<<<
@@ -26241,7 +26236,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
         for (__pyx_t_22 = __pyx_v_start_pos_seen_items; __pyx_t_22 < __pyx_t_21; __pyx_t_22+=1) {
           __pyx_v_item_index = __pyx_t_22;
 
-          /* "MatrixFactorization_Cython_Epoch.pyx":557
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":557
  *                     # Update USER factors, therefore all item factors for seen items
  *                     for item_index in range(start_pos_seen_items, end_pos_seen_items):
  *                         item_id = self.URM_train_indices[item_index]             # <<<<<<<<<<<<<<
@@ -26251,7 +26246,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
           __pyx_t_24 = __pyx_v_item_index;
           __pyx_v_item_id = (*((int *) ( /* dim=0 */ (__pyx_v_self->URM_train_indices.data + __pyx_t_24 * __pyx_v_self->URM_train_indices.strides[0]) )));
 
-          /* "MatrixFactorization_Cython_Epoch.pyx":559
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":559
  *                         item_id = self.URM_train_indices[item_index]
  * 
  *                         for factor_index in range(self.n_factors):             # <<<<<<<<<<<<<<
@@ -26263,7 +26258,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
           for (__pyx_t_23 = 0; __pyx_t_23 < __pyx_t_20; __pyx_t_23+=1) {
             __pyx_v_factor_index = __pyx_t_23;
 
-            /* "MatrixFactorization_Cython_Epoch.pyx":561
+            /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":561
  *                         for factor_index in range(self.n_factors):
  * 
  *                             H_i = self.ITEM_factors[sample.item, factor_index]             # <<<<<<<<<<<<<<
@@ -26274,7 +26269,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
             __pyx_t_18 = __pyx_v_factor_index;
             __pyx_v_H_i = (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_self->ITEM_factors.data + __pyx_t_24 * __pyx_v_self->ITEM_factors.strides[0]) ) + __pyx_t_18 * __pyx_v_self->ITEM_factors.strides[1]) )));
 
-            /* "MatrixFactorization_Cython_Epoch.pyx":562
+            /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":562
  * 
  *                             H_i = self.ITEM_factors[sample.item, factor_index]
  *                             W_u = self.USER_factors[item_id, factor_index]             # <<<<<<<<<<<<<<
@@ -26285,7 +26280,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
             __pyx_t_24 = __pyx_v_factor_index;
             __pyx_v_W_u = (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_self->USER_factors.data + __pyx_t_18 * __pyx_v_self->USER_factors.strides[0]) ) + __pyx_t_24 * __pyx_v_self->USER_factors.strides[1]) )));
 
-            /* "MatrixFactorization_Cython_Epoch.pyx":566
+            /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":566
  *                             # Compute gradients USER
  *                             # Both matrices will have the size |I|x|F|
  *                             local_gradient_user = prediction_error * H_i - self.user_reg * W_u             # <<<<<<<<<<<<<<
@@ -26294,17 +26289,17 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
  */
             __pyx_v_local_gradient_user = ((__pyx_v_prediction_error * __pyx_v_H_i) - (__pyx_v_self->user_reg * __pyx_v_W_u));
 
-            /* "MatrixFactorization_Cython_Epoch.pyx":570
+            /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":570
  *                             # Compute adaptive gradients USER
  *                             # I need to update NOT sample.item but item_id
  *                             local_gradient_user = self.adaptive_gradient(local_gradient_user, item_id, factor_index, self.sgd_cache_U, self.sgd_cache_U_momentum_1, self.sgd_cache_U_momentum_2)             # <<<<<<<<<<<<<<
  * 
  *                             # Apply update to latent factors
  */
-            __pyx_t_26 = ((struct __pyx_vtabstruct_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *)__pyx_v_self->__pyx_vtab)->adaptive_gradient(__pyx_v_self, __pyx_v_local_gradient_user, __pyx_v_item_id, __pyx_v_factor_index, __pyx_v_self->sgd_cache_U, __pyx_v_self->sgd_cache_U_momentum_1, __pyx_v_self->sgd_cache_U_momentum_2); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 570, __pyx_L1_error)
+            __pyx_t_26 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *)__pyx_v_self->__pyx_vtab)->adaptive_gradient(__pyx_v_self, __pyx_v_local_gradient_user, __pyx_v_item_id, __pyx_v_factor_index, __pyx_v_self->sgd_cache_U, __pyx_v_self->sgd_cache_U_momentum_1, __pyx_v_self->sgd_cache_U_momentum_2); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 570, __pyx_L1_error)
             __pyx_v_local_gradient_user = __pyx_t_26;
 
-            /* "MatrixFactorization_Cython_Epoch.pyx":573
+            /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":573
  * 
  *                             # Apply update to latent factors
  *                             self.USER_factors[item_id, factor_index] += self.learning_rate * local_gradient_user             # <<<<<<<<<<<<<<
@@ -26317,7 +26312,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
           }
         }
 
-        /* "MatrixFactorization_Cython_Epoch.pyx":577
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":577
  * 
  *                     # Update ITEM factors
  *                     for factor_index in range(self.n_factors):             # <<<<<<<<<<<<<<
@@ -26329,7 +26324,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
         for (__pyx_t_17 = 0; __pyx_t_17 < __pyx_t_20; __pyx_t_17+=1) {
           __pyx_v_factor_index = __pyx_t_17;
 
-          /* "MatrixFactorization_Cython_Epoch.pyx":580
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":580
  * 
  *                         # Copy original value to avoid messing up the updates
  *                         H_i = self.ITEM_factors[sample.item, factor_index]             # <<<<<<<<<<<<<<
@@ -26340,7 +26335,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
           __pyx_t_24 = __pyx_v_factor_index;
           __pyx_v_H_i = (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_self->ITEM_factors.data + __pyx_t_18 * __pyx_v_self->ITEM_factors.strides[0]) ) + __pyx_t_24 * __pyx_v_self->ITEM_factors.strides[1]) )));
 
-          /* "MatrixFactorization_Cython_Epoch.pyx":581
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":581
  *                         # Copy original value to avoid messing up the updates
  *                         H_i = self.ITEM_factors[sample.item, factor_index]
  *                         W_u = user_factors_accumulated[factor_index]             # <<<<<<<<<<<<<<
@@ -26350,7 +26345,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
           __pyx_t_24 = __pyx_v_factor_index;
           __pyx_v_W_u = (*((double *) ( /* dim=0 */ (__pyx_v_user_factors_accumulated.data + __pyx_t_24 * __pyx_v_user_factors_accumulated.strides[0]) )));
 
-          /* "MatrixFactorization_Cython_Epoch.pyx":585
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":585
  *                         # Compute gradients ITEM
  *                         # Both matrices will have the size |I|x|F|
  *                         local_gradient_item = prediction_error * W_u - self.item_reg * H_i             # <<<<<<<<<<<<<<
@@ -26359,17 +26354,17 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
  */
           __pyx_v_local_gradient_item = ((__pyx_v_prediction_error * __pyx_v_W_u) - (__pyx_v_self->item_reg * __pyx_v_H_i));
 
-          /* "MatrixFactorization_Cython_Epoch.pyx":588
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":588
  * 
  *                         # Compute adaptive gradients ITEM
  *                         local_gradient_item = self.adaptive_gradient(local_gradient_item, sample.item, factor_index, self.sgd_cache_I, self.sgd_cache_I_momentum_1, self.sgd_cache_I_momentum_2)             # <<<<<<<<<<<<<<
  * 
  *                         # Apply update to latent factors
  */
-          __pyx_t_26 = ((struct __pyx_vtabstruct_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *)__pyx_v_self->__pyx_vtab)->adaptive_gradient(__pyx_v_self, __pyx_v_local_gradient_item, __pyx_v_sample.item, __pyx_v_factor_index, __pyx_v_self->sgd_cache_I, __pyx_v_self->sgd_cache_I_momentum_1, __pyx_v_self->sgd_cache_I_momentum_2); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 588, __pyx_L1_error)
+          __pyx_t_26 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *)__pyx_v_self->__pyx_vtab)->adaptive_gradient(__pyx_v_self, __pyx_v_local_gradient_item, __pyx_v_sample.item, __pyx_v_factor_index, __pyx_v_self->sgd_cache_I, __pyx_v_self->sgd_cache_I_momentum_1, __pyx_v_self->sgd_cache_I_momentum_2); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 588, __pyx_L1_error)
           __pyx_v_local_gradient_item = __pyx_t_26;
 
-          /* "MatrixFactorization_Cython_Epoch.pyx":591
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":591
  * 
  *                         # Apply update to latent factors
  *                         self.ITEM_factors[sample.item, factor_index] += self.learning_rate * local_gradient_item             # <<<<<<<<<<<<<<
@@ -26381,7 +26376,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
           *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_self->ITEM_factors.data + __pyx_t_24 * __pyx_v_self->ITEM_factors.strides[0]) ) + __pyx_t_18 * __pyx_v_self->ITEM_factors.strides[1]) )) += (__pyx_v_self->learning_rate * __pyx_v_local_gradient_item);
         }
 
-        /* "MatrixFactorization_Cython_Epoch.pyx":554
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":554
  *                     self.USER_bias[sample.user] += self.learning_rate * local_gradient_bias_user
  * 
  *                 if self.use_embeddings:             # <<<<<<<<<<<<<<
@@ -26391,7 +26386,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
       }
     }
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":596
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":596
  * 
  *             # Exponentiation of beta at the end of each sample
  *             if self.useAdam:             # <<<<<<<<<<<<<<
@@ -26401,7 +26396,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
     __pyx_t_1 = (__pyx_v_self->useAdam != 0);
     if (__pyx_t_1) {
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":598
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":598
  *             if self.useAdam:
  * 
  *                 self.beta_1_power_t *= self.beta_1             # <<<<<<<<<<<<<<
@@ -26410,7 +26405,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
  */
       __pyx_v_self->beta_1_power_t = (__pyx_v_self->beta_1_power_t * __pyx_v_self->beta_1);
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":599
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":599
  * 
  *                 self.beta_1_power_t *= self.beta_1
  *                 self.beta_2_power_t *= self.beta_2             # <<<<<<<<<<<<<<
@@ -26419,7 +26414,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
  */
       __pyx_v_self->beta_2_power_t = (__pyx_v_self->beta_2_power_t * __pyx_v_self->beta_2);
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":596
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":596
  * 
  *             # Exponentiation of beta at the end of each sample
  *             if self.useAdam:             # <<<<<<<<<<<<<<
@@ -26428,7 +26423,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
  */
     }
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":601
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":601
  *                 self.beta_2_power_t *= self.beta_2
  * 
  *             processed_samples_last_print += 1             # <<<<<<<<<<<<<<
@@ -26437,7 +26432,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
  */
     __pyx_v_processed_samples_last_print = (__pyx_v_processed_samples_last_print + 1);
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":603
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":603
  *             processed_samples_last_print += 1
  * 
  *             if self.verbose and (processed_samples_last_print >= print_block_size or n_current_batch == n_total_batch-1):             # <<<<<<<<<<<<<<
@@ -26461,7 +26456,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
     __pyx_L32_bool_binop_done:;
     if (__pyx_t_1) {
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":606
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":606
  * 
  *                 # Set block size to the number of items necessary in order to print every 300 seconds
  *                 current_time = time.time()             # <<<<<<<<<<<<<<
@@ -26498,7 +26493,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
       __Pyx_XDECREF_SET(__pyx_v_current_time, __pyx_t_8);
       __pyx_t_8 = 0;
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":607
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":607
  *                 # Set block size to the number of items necessary in order to print every 300 seconds
  *                 current_time = time.time()
  *                 samples_per_sec = n_current_batch/(current_time - start_time_epoch)             # <<<<<<<<<<<<<<
@@ -26519,7 +26514,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
       __Pyx_XDECREF_SET(__pyx_v_samples_per_sec, __pyx_t_3);
       __pyx_t_3 = 0;
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":608
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":608
  *                 current_time = time.time()
  *                 samples_per_sec = n_current_batch/(current_time - start_time_epoch)
  *                 print_block_size = math.ceil(samples_per_sec * self.print_step_seconds)             # <<<<<<<<<<<<<<
@@ -26563,7 +26558,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       __pyx_v_print_block_size = __pyx_t_15;
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":610
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":610
  *                 print_block_size = math.ceil(samples_per_sec * self.print_step_seconds)
  * 
  *                 if current_time - last_print_time > self.print_step_seconds or n_current_batch == n_total_batch-1:             # <<<<<<<<<<<<<<
@@ -26592,7 +26587,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
       __pyx_L36_bool_binop_done:;
       if (__pyx_t_1) {
 
-        /* "MatrixFactorization_Cython_Epoch.pyx":611
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":611
  * 
  *                 if current_time - last_print_time > self.print_step_seconds or n_current_batch == n_total_batch-1:
  *                     new_time_value, new_time_unit = seconds_to_biggest_unit(time.time() - start_time_epoch)             # <<<<<<<<<<<<<<
@@ -26708,7 +26703,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
         __Pyx_XDECREF_SET(__pyx_v_new_time_unit, __pyx_t_6);
         __pyx_t_6 = 0;
 
-        /* "MatrixFactorization_Cython_Epoch.pyx":613
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":613
  *                     new_time_value, new_time_unit = seconds_to_biggest_unit(time.time() - start_time_epoch)
  * 
  *                     print("{}: Processed {} ({:4.1f}%) in {:.2f} {}. MSE loss {:.2E}. Sample per second: {:.0f}".format(             # <<<<<<<<<<<<<<
@@ -26718,7 +26713,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
         __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_Processed_4_1f_in_2f_MSE_loss_2, __pyx_n_s_format); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 613, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_6);
 
-        /* "MatrixFactorization_Cython_Epoch.pyx":615
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":615
  *                     print("{}: Processed {} ({:4.1f}%) in {:.2f} {}. MSE loss {:.2E}. Sample per second: {:.0f}".format(
  *                         self.algorithm_name,
  *                         (n_current_batch+1)*self.batch_size,             # <<<<<<<<<<<<<<
@@ -26728,7 +26723,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
         __pyx_t_3 = __Pyx_PyInt_From_long(((__pyx_v_n_current_batch + 1) * __pyx_v_self->batch_size)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 615, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_3);
 
-        /* "MatrixFactorization_Cython_Epoch.pyx":616
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":616
  *                         self.algorithm_name,
  *                         (n_current_batch+1)*self.batch_size,
  *                         100.0* (n_current_batch+1)/n_total_batch,             # <<<<<<<<<<<<<<
@@ -26738,7 +26733,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
         __pyx_t_7 = PyFloat_FromDouble(((100.0 * (__pyx_v_n_current_batch + 1)) / ((double)__pyx_v_n_total_batch))); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 616, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_7);
 
-        /* "MatrixFactorization_Cython_Epoch.pyx":618
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":618
  *                         100.0* (n_current_batch+1)/n_total_batch,
  *                         new_time_value, new_time_unit,
  *                         cumulative_loss/((n_current_batch+1)*self.batch_size),             # <<<<<<<<<<<<<<
@@ -26748,7 +26743,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
         __pyx_t_8 = PyFloat_FromDouble((__pyx_v_cumulative_loss / ((double)((__pyx_v_n_current_batch + 1) * __pyx_v_self->batch_size)))); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 618, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_8);
 
-        /* "MatrixFactorization_Cython_Epoch.pyx":619
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":619
  *                         new_time_value, new_time_unit,
  *                         cumulative_loss/((n_current_batch+1)*self.batch_size),
  *                         float((n_current_batch+1)*self.batch_size) / (time.time() - start_time_epoch)))             # <<<<<<<<<<<<<<
@@ -26821,7 +26816,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
           __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
         }
 
-        /* "MatrixFactorization_Cython_Epoch.pyx":613
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":613
  *                     new_time_value, new_time_unit = seconds_to_biggest_unit(time.time() - start_time_epoch)
  * 
  *                     print("{}: Processed {} ({:4.1f}%) in {:.2f} {}. MSE loss {:.2E}. Sample per second: {:.0f}".format(             # <<<<<<<<<<<<<<
@@ -26833,7 +26828,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
         __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-        /* "MatrixFactorization_Cython_Epoch.pyx":621
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":621
  *                         float((n_current_batch+1)*self.batch_size) / (time.time() - start_time_epoch)))
  * 
  *                     last_print_time = current_time             # <<<<<<<<<<<<<<
@@ -26843,7 +26838,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
         __pyx_t_15 = __Pyx_PyInt_As_long(__pyx_v_current_time); if (unlikely((__pyx_t_15 == (long)-1) && PyErr_Occurred())) __PYX_ERR(0, 621, __pyx_L1_error)
         __pyx_v_last_print_time = __pyx_t_15;
 
-        /* "MatrixFactorization_Cython_Epoch.pyx":622
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":622
  * 
  *                     last_print_time = current_time
  *                     processed_samples_last_print = 0             # <<<<<<<<<<<<<<
@@ -26852,7 +26847,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
  */
         __pyx_v_processed_samples_last_print = 0;
 
-        /* "MatrixFactorization_Cython_Epoch.pyx":624
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":624
  *                     processed_samples_last_print = 0
  * 
  *                     sys.stdout.flush()             # <<<<<<<<<<<<<<
@@ -26891,7 +26886,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
         }
         __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-        /* "MatrixFactorization_Cython_Epoch.pyx":625
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":625
  * 
  *                     sys.stdout.flush()
  *                     sys.stderr.flush()             # <<<<<<<<<<<<<<
@@ -26930,7 +26925,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
         }
         __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-        /* "MatrixFactorization_Cython_Epoch.pyx":610
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":610
  *                 print_block_size = math.ceil(samples_per_sec * self.print_step_seconds)
  * 
  *                 if current_time - last_print_time > self.print_step_seconds or n_current_batch == n_total_batch-1:             # <<<<<<<<<<<<<<
@@ -26939,7 +26934,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
  */
       }
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":603
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":603
  *             processed_samples_last_print += 1
  * 
  *             if self.verbose and (processed_samples_last_print >= print_block_size or n_current_batch == n_total_batch-1):             # <<<<<<<<<<<<<<
@@ -26949,7 +26944,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
     }
   }
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":442
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":442
  * 
  * 
  *     def epochIteration_Cython_ASY_SVD_SGD(self):             # <<<<<<<<<<<<<<
@@ -26971,7 +26966,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   __Pyx_XDECREF(__pyx_t_30);
   __Pyx_XDECREF(__pyx_t_31);
   __Pyx_XDECREF(__pyx_t_32);
-  __Pyx_AddTraceback("MatrixFactorization_Cython_Epoch.MatrixFactorization_Cython_Epoch.epochIteration_Cython_ASY_SVD_SGD", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.MatrixFactorization.Cython.MatrixFactorization_Cython_Epoch.MatrixFactorization_Cython_Epoch.epochIteration_Cython_ASY_SVD_SGD", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __PYX_XCLEAR_MEMVIEW(&__pyx_v_user_factors_accumulated, 1);
@@ -26984,7 +26979,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   return __pyx_r;
 }
 
-/* "MatrixFactorization_Cython_Epoch.pyx":630
+/* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":630
  * 
  * 
  *     def epochIteration_Cython_BPR_SGD(self):             # <<<<<<<<<<<<<<
@@ -26993,15 +26988,15 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_13epochIteration_Cython_BPR_SGD(PyObject *__pyx_v_self, 
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_13epochIteration_Cython_BPR_SGD(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static PyMethodDef __pyx_mdef_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_13epochIteration_Cython_BPR_SGD = {"epochIteration_Cython_BPR_SGD", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_13epochIteration_Cython_BPR_SGD, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_13epochIteration_Cython_BPR_SGD(PyObject *__pyx_v_self, 
+static PyMethodDef __pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_13epochIteration_Cython_BPR_SGD = {"epochIteration_Cython_BPR_SGD", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_13epochIteration_Cython_BPR_SGD, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_13epochIteration_Cython_BPR_SGD(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -27026,16 +27021,16 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   if (unlikely(__pyx_nargs > 0)) {
     __Pyx_RaiseArgtupleInvalid("epochIteration_Cython_BPR_SGD", 1, 0, 0, __pyx_nargs); return NULL;}
   if (unlikely(__pyx_kwds) && __Pyx_NumKwargs_FASTCALL(__pyx_kwds) && unlikely(!__Pyx_CheckKeywordStrings(__pyx_kwds, "epochIteration_Cython_BPR_SGD", 0))) return NULL;
-  __pyx_r = __pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_12epochIteration_Cython_BPR_SGD(((struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *)__pyx_v_self));
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_12epochIteration_Cython_BPR_SGD(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_12epochIteration_Cython_BPR_SGD(struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self) {
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_12epochIteration_Cython_BPR_SGD(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self) {
   long __pyx_v_n_total_batch;
-  struct __pyx_t_32MatrixFactorization_Cython_Epoch_BPR_sample __pyx_v_sample;
+  struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_BPR_sample __pyx_v_sample;
   long __pyx_v_u;
   long __pyx_v_i;
   long __pyx_v_j;
@@ -27074,7 +27069,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   long __pyx_t_10;
   long __pyx_t_11;
   long __pyx_t_12;
-  struct __pyx_t_32MatrixFactorization_Cython_Epoch_BPR_sample __pyx_t_13;
+  struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_BPR_sample __pyx_t_13;
   long __pyx_t_14;
   int __pyx_t_15;
   int __pyx_t_16;
@@ -27096,7 +27091,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("epochIteration_Cython_BPR_SGD", 1);
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":633
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":633
  * 
  *         # Get number of available interactions
  *         cdef long n_total_batch = int(self.n_users / self.batch_size) + 1             # <<<<<<<<<<<<<<
@@ -27115,7 +27110,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_n_total_batch = __pyx_t_3;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":638
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":638
  *         cdef BPR_sample sample
  *         cdef long u, i, j
  *         cdef long factor_index, n_current_batch, n_sample_in_batch, processed_samples_last_print = 0, print_block_size = 500             # <<<<<<<<<<<<<<
@@ -27125,7 +27120,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   __pyx_v_processed_samples_last_print = 0;
   __pyx_v_print_block_size = 0x1F4;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":641
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":641
  *         cdef double x_uij, sigmoid_user, sigmoid_item, local_gradient_i, local_gradient_j, local_gradient_u
  * 
  *         cdef double H_i, H_j, W_u, cumulative_loss = 0.0             # <<<<<<<<<<<<<<
@@ -27134,7 +27129,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
  */
   __pyx_v_cumulative_loss = 0.0;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":644
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":644
  * 
  * 
  *         cdef long start_time_epoch = time.time()             # <<<<<<<<<<<<<<
@@ -27172,7 +27167,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_start_time_epoch = __pyx_t_3;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":645
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":645
  * 
  *         cdef long start_time_epoch = time.time()
  *         cdef long last_print_time = start_time_epoch             # <<<<<<<<<<<<<<
@@ -27181,7 +27176,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
  */
   __pyx_v_last_print_time = __pyx_v_start_time_epoch;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":648
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":648
  * 
  *         # Renew dropout mask
  *         if self.dropout_flag:             # <<<<<<<<<<<<<<
@@ -27191,7 +27186,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   __pyx_t_6 = (__pyx_v_self->dropout_flag != 0);
   if (__pyx_t_6) {
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":649
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":649
  *         # Renew dropout mask
  *         if self.dropout_flag:
  *             for factor_index in range(self.n_factors):             # <<<<<<<<<<<<<<
@@ -27203,7 +27198,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
     for (__pyx_t_3 = 0; __pyx_t_3 < __pyx_t_8; __pyx_t_3+=1) {
       __pyx_v_factor_index = __pyx_t_3;
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":650
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":650
  *         if self.dropout_flag:
  *             for factor_index in range(self.n_factors):
  *                 self.factors_dropout_mask[factor_index] = rand() > self.dropout_quota             # <<<<<<<<<<<<<<
@@ -27214,7 +27209,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
       *((int *) ( /* dim=0 */ (__pyx_v_self->factors_dropout_mask.data + __pyx_t_9 * __pyx_v_self->factors_dropout_mask.strides[0]) )) = (rand() > __pyx_v_self->dropout_quota);
     }
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":652
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":652
  *                 self.factors_dropout_mask[factor_index] = rand() > self.dropout_quota
  * 
  *             if self.n_factors == 1:             # <<<<<<<<<<<<<<
@@ -27224,7 +27219,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
     __pyx_t_6 = (__pyx_v_self->n_factors == 1);
     if (__pyx_t_6) {
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":653
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":653
  * 
  *             if self.n_factors == 1:
  *                 self.factors_dropout_mask[0] = True             # <<<<<<<<<<<<<<
@@ -27234,7 +27229,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
       __pyx_t_9 = 0;
       *((int *) ( /* dim=0 */ (__pyx_v_self->factors_dropout_mask.data + __pyx_t_9 * __pyx_v_self->factors_dropout_mask.strides[0]) )) = 1;
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":652
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":652
  *                 self.factors_dropout_mask[factor_index] = rand() > self.dropout_quota
  * 
  *             if self.n_factors == 1:             # <<<<<<<<<<<<<<
@@ -27243,7 +27238,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
  */
     }
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":648
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":648
  * 
  *         # Renew dropout mask
  *         if self.dropout_flag:             # <<<<<<<<<<<<<<
@@ -27252,7 +27247,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
  */
   }
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":656
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":656
  * 
  * 
  *         for n_current_batch in range(n_total_batch):             # <<<<<<<<<<<<<<
@@ -27264,16 +27259,16 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   for (__pyx_t_11 = 0; __pyx_t_11 < __pyx_t_10; __pyx_t_11+=1) {
     __pyx_v_n_current_batch = __pyx_t_11;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":658
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":658
  *         for n_current_batch in range(n_total_batch):
  * 
  *             self._clear_minibatch_data_structures()             # <<<<<<<<<<<<<<
  * 
  *             # Iterate over samples in batch
  */
-    ((struct __pyx_vtabstruct_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *)__pyx_v_self->__pyx_vtab)->_clear_minibatch_data_structures(__pyx_v_self); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 658, __pyx_L1_error)
+    ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *)__pyx_v_self->__pyx_vtab)->_clear_minibatch_data_structures(__pyx_v_self); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 658, __pyx_L1_error)
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":661
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":661
  * 
  *             # Iterate over samples in batch
  *             for n_sample_in_batch in range(self.batch_size):             # <<<<<<<<<<<<<<
@@ -27285,26 +27280,26 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
     for (__pyx_t_12 = 0; __pyx_t_12 < __pyx_t_8; __pyx_t_12+=1) {
       __pyx_v_n_sample_in_batch = __pyx_t_12;
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":664
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":664
  * 
  *                 # Uniform user sampling with replacement
  *                 sample = self.sampleBPR_Cython()             # <<<<<<<<<<<<<<
  * 
  *                 self._add_BPR_sample_in_minibatch(sample)
  */
-      __pyx_t_13 = ((struct __pyx_vtabstruct_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *)__pyx_v_self->__pyx_vtab)->sampleBPR_Cython(__pyx_v_self); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 664, __pyx_L1_error)
+      __pyx_t_13 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *)__pyx_v_self->__pyx_vtab)->sampleBPR_Cython(__pyx_v_self); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 664, __pyx_L1_error)
       __pyx_v_sample = __pyx_t_13;
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":666
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":666
  *                 sample = self.sampleBPR_Cython()
  * 
  *                 self._add_BPR_sample_in_minibatch(sample)             # <<<<<<<<<<<<<<
  * 
  *                 u = sample.user
  */
-      ((struct __pyx_vtabstruct_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *)__pyx_v_self->__pyx_vtab)->_add_BPR_sample_in_minibatch(__pyx_v_self, __pyx_v_sample); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 666, __pyx_L1_error)
+      ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *)__pyx_v_self->__pyx_vtab)->_add_BPR_sample_in_minibatch(__pyx_v_self, __pyx_v_sample); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 666, __pyx_L1_error)
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":668
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":668
  *                 self._add_BPR_sample_in_minibatch(sample)
  * 
  *                 u = sample.user             # <<<<<<<<<<<<<<
@@ -27314,7 +27309,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
       __pyx_t_14 = __pyx_v_sample.user;
       __pyx_v_u = __pyx_t_14;
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":669
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":669
  * 
  *                 u = sample.user
  *                 i = sample.pos_item             # <<<<<<<<<<<<<<
@@ -27324,7 +27319,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
       __pyx_t_14 = __pyx_v_sample.pos_item;
       __pyx_v_i = __pyx_t_14;
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":670
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":670
  *                 u = sample.user
  *                 i = sample.pos_item
  *                 j = sample.neg_item             # <<<<<<<<<<<<<<
@@ -27334,7 +27329,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
       __pyx_t_14 = __pyx_v_sample.neg_item;
       __pyx_v_j = __pyx_t_14;
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":672
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":672
  *                 j = sample.neg_item
  * 
  *                 x_uij = 0.0             # <<<<<<<<<<<<<<
@@ -27343,7 +27338,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
  */
       __pyx_v_x_uij = 0.0;
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":674
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":674
  *                 x_uij = 0.0
  * 
  *                 for factor_index in range(self.n_factors):             # <<<<<<<<<<<<<<
@@ -27355,7 +27350,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
       for (__pyx_t_14 = 0; __pyx_t_14 < __pyx_t_16; __pyx_t_14+=1) {
         __pyx_v_factor_index = __pyx_t_14;
 
-        /* "MatrixFactorization_Cython_Epoch.pyx":675
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":675
  * 
  *                 for factor_index in range(self.n_factors):
  *                     if self.factors_dropout_mask[factor_index]:             # <<<<<<<<<<<<<<
@@ -27366,7 +27361,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
         __pyx_t_6 = ((*((int *) ( /* dim=0 */ (__pyx_v_self->factors_dropout_mask.data + __pyx_t_9 * __pyx_v_self->factors_dropout_mask.strides[0]) ))) != 0);
         if (__pyx_t_6) {
 
-          /* "MatrixFactorization_Cython_Epoch.pyx":676
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":676
  *                 for factor_index in range(self.n_factors):
  *                     if self.factors_dropout_mask[factor_index]:
  *                         x_uij += self.USER_factors[u,factor_index] * (self.ITEM_factors[i,factor_index] - self.ITEM_factors[j,factor_index])             # <<<<<<<<<<<<<<
@@ -27381,7 +27376,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
           __pyx_t_21 = __pyx_v_factor_index;
           __pyx_v_x_uij = (__pyx_v_x_uij + ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_self->USER_factors.data + __pyx_t_9 * __pyx_v_self->USER_factors.strides[0]) ) + __pyx_t_17 * __pyx_v_self->USER_factors.strides[1]) ))) * ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_self->ITEM_factors.data + __pyx_t_18 * __pyx_v_self->ITEM_factors.strides[0]) ) + __pyx_t_19 * __pyx_v_self->ITEM_factors.strides[1]) ))) - (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_self->ITEM_factors.data + __pyx_t_20 * __pyx_v_self->ITEM_factors.strides[0]) ) + __pyx_t_21 * __pyx_v_self->ITEM_factors.strides[1]) ))))));
 
-          /* "MatrixFactorization_Cython_Epoch.pyx":675
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":675
  * 
  *                 for factor_index in range(self.n_factors):
  *                     if self.factors_dropout_mask[factor_index]:             # <<<<<<<<<<<<<<
@@ -27391,7 +27386,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
         }
       }
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":679
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":679
  * 
  *                 # Use gradient of log(sigm(-x_uij))
  *                 sigmoid_item = 1 / (1 + exp(x_uij))             # <<<<<<<<<<<<<<
@@ -27400,7 +27395,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
  */
       __pyx_v_sigmoid_item = (1.0 / (1.0 + exp(__pyx_v_x_uij)));
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":680
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":680
  *                 # Use gradient of log(sigm(-x_uij))
  *                 sigmoid_item = 1 / (1 + exp(x_uij))
  *                 sigmoid_user = sigmoid_item             # <<<<<<<<<<<<<<
@@ -27409,7 +27404,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
  */
       __pyx_v_sigmoid_user = __pyx_v_sigmoid_item;
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":682
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":682
  *                 sigmoid_user = sigmoid_item
  * 
  *                 cumulative_loss += x_uij**2             # <<<<<<<<<<<<<<
@@ -27418,7 +27413,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
  */
       __pyx_v_cumulative_loss = (__pyx_v_cumulative_loss + pow(__pyx_v_x_uij, 2.0));
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":685
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":685
  * 
  * 
  *                 for factor_index in range(self.n_factors):             # <<<<<<<<<<<<<<
@@ -27430,7 +27425,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
       for (__pyx_t_14 = 0; __pyx_t_14 < __pyx_t_16; __pyx_t_14+=1) {
         __pyx_v_factor_index = __pyx_t_14;
 
-        /* "MatrixFactorization_Cython_Epoch.pyx":686
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":686
  * 
  *                 for factor_index in range(self.n_factors):
  *                     if self.factors_dropout_mask[factor_index]:             # <<<<<<<<<<<<<<
@@ -27441,7 +27436,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
         __pyx_t_6 = ((*((int *) ( /* dim=0 */ (__pyx_v_self->factors_dropout_mask.data + __pyx_t_21 * __pyx_v_self->factors_dropout_mask.strides[0]) ))) != 0);
         if (__pyx_t_6) {
 
-          /* "MatrixFactorization_Cython_Epoch.pyx":689
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":689
  * 
  *                         # Copy original value to avoid messing up the updates
  *                         H_i = self.ITEM_factors[i, factor_index]             # <<<<<<<<<<<<<<
@@ -27452,7 +27447,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
           __pyx_t_20 = __pyx_v_factor_index;
           __pyx_v_H_i = (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_self->ITEM_factors.data + __pyx_t_21 * __pyx_v_self->ITEM_factors.strides[0]) ) + __pyx_t_20 * __pyx_v_self->ITEM_factors.strides[1]) )));
 
-          /* "MatrixFactorization_Cython_Epoch.pyx":690
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":690
  *                         # Copy original value to avoid messing up the updates
  *                         H_i = self.ITEM_factors[i, factor_index]
  *                         H_j = self.ITEM_factors[j, factor_index]             # <<<<<<<<<<<<<<
@@ -27463,7 +27458,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
           __pyx_t_21 = __pyx_v_factor_index;
           __pyx_v_H_j = (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_self->ITEM_factors.data + __pyx_t_20 * __pyx_v_self->ITEM_factors.strides[0]) ) + __pyx_t_21 * __pyx_v_self->ITEM_factors.strides[1]) )));
 
-          /* "MatrixFactorization_Cython_Epoch.pyx":691
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":691
  *                         H_i = self.ITEM_factors[i, factor_index]
  *                         H_j = self.ITEM_factors[j, factor_index]
  *                         W_u = self.USER_factors[u, factor_index]             # <<<<<<<<<<<<<<
@@ -27474,7 +27469,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
           __pyx_t_20 = __pyx_v_factor_index;
           __pyx_v_W_u = (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_self->USER_factors.data + __pyx_t_21 * __pyx_v_self->USER_factors.strides[0]) ) + __pyx_t_20 * __pyx_v_self->USER_factors.strides[1]) )));
 
-          /* "MatrixFactorization_Cython_Epoch.pyx":694
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":694
  * 
  *                         # Compute gradients
  *                         local_gradient_i = sigmoid_item * ( W_u ) - self.positive_reg * H_i             # <<<<<<<<<<<<<<
@@ -27483,7 +27478,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
  */
           __pyx_v_local_gradient_i = ((__pyx_v_sigmoid_item * __pyx_v_W_u) - (__pyx_v_self->positive_reg * __pyx_v_H_i));
 
-          /* "MatrixFactorization_Cython_Epoch.pyx":695
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":695
  *                         # Compute gradients
  *                         local_gradient_i = sigmoid_item * ( W_u ) - self.positive_reg * H_i
  *                         local_gradient_j = sigmoid_item * (-W_u ) - self.negative_reg * H_j             # <<<<<<<<<<<<<<
@@ -27492,7 +27487,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
  */
           __pyx_v_local_gradient_j = ((__pyx_v_sigmoid_item * (-__pyx_v_W_u)) - (__pyx_v_self->negative_reg * __pyx_v_H_j));
 
-          /* "MatrixFactorization_Cython_Epoch.pyx":696
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":696
  *                         local_gradient_i = sigmoid_item * ( W_u ) - self.positive_reg * H_i
  *                         local_gradient_j = sigmoid_item * (-W_u ) - self.negative_reg * H_j
  *                         local_gradient_u = sigmoid_user * ( H_i - H_j ) - self.user_reg * W_u             # <<<<<<<<<<<<<<
@@ -27501,7 +27496,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
  */
           __pyx_v_local_gradient_u = ((__pyx_v_sigmoid_user * (__pyx_v_H_i - __pyx_v_H_j)) - (__pyx_v_self->user_reg * __pyx_v_W_u));
 
-          /* "MatrixFactorization_Cython_Epoch.pyx":698
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":698
  *                         local_gradient_u = sigmoid_user * ( H_i - H_j ) - self.user_reg * W_u
  * 
  *                         self.USER_factors_minibatch_accumulator[u, factor_index] += local_gradient_u             # <<<<<<<<<<<<<<
@@ -27512,7 +27507,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
           __pyx_t_21 = __pyx_v_factor_index;
           *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_self->USER_factors_minibatch_accumulator.data + __pyx_t_20 * __pyx_v_self->USER_factors_minibatch_accumulator.strides[0]) ) + __pyx_t_21 * __pyx_v_self->USER_factors_minibatch_accumulator.strides[1]) )) += __pyx_v_local_gradient_u;
 
-          /* "MatrixFactorization_Cython_Epoch.pyx":699
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":699
  * 
  *                         self.USER_factors_minibatch_accumulator[u, factor_index] += local_gradient_u
  *                         self.ITEM_factors_minibatch_accumulator[i, factor_index] += local_gradient_i             # <<<<<<<<<<<<<<
@@ -27523,7 +27518,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
           __pyx_t_20 = __pyx_v_factor_index;
           *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_self->ITEM_factors_minibatch_accumulator.data + __pyx_t_21 * __pyx_v_self->ITEM_factors_minibatch_accumulator.strides[0]) ) + __pyx_t_20 * __pyx_v_self->ITEM_factors_minibatch_accumulator.strides[1]) )) += __pyx_v_local_gradient_i;
 
-          /* "MatrixFactorization_Cython_Epoch.pyx":700
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":700
  *                         self.USER_factors_minibatch_accumulator[u, factor_index] += local_gradient_u
  *                         self.ITEM_factors_minibatch_accumulator[i, factor_index] += local_gradient_i
  *                         self.ITEM_factors_minibatch_accumulator[j, factor_index] += local_gradient_j             # <<<<<<<<<<<<<<
@@ -27534,7 +27529,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
           __pyx_t_21 = __pyx_v_factor_index;
           *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_self->ITEM_factors_minibatch_accumulator.data + __pyx_t_20 * __pyx_v_self->ITEM_factors_minibatch_accumulator.strides[0]) ) + __pyx_t_21 * __pyx_v_self->ITEM_factors_minibatch_accumulator.strides[1]) )) += __pyx_v_local_gradient_j;
 
-          /* "MatrixFactorization_Cython_Epoch.pyx":686
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":686
  * 
  *                 for factor_index in range(self.n_factors):
  *                     if self.factors_dropout_mask[factor_index]:             # <<<<<<<<<<<<<<
@@ -27545,16 +27540,16 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
       }
     }
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":703
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":703
  * 
  * 
  *             self._apply_minibatch_updates_to_latent_factors()             # <<<<<<<<<<<<<<
  * 
  * 
  */
-    ((struct __pyx_vtabstruct_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *)__pyx_v_self->__pyx_vtab)->_apply_minibatch_updates_to_latent_factors(__pyx_v_self); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 703, __pyx_L1_error)
+    ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *)__pyx_v_self->__pyx_vtab)->_apply_minibatch_updates_to_latent_factors(__pyx_v_self); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 703, __pyx_L1_error)
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":707
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":707
  * 
  *             # Exponentiation of beta at the end of each sample
  *             if self.useAdam:             # <<<<<<<<<<<<<<
@@ -27564,7 +27559,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
     __pyx_t_6 = (__pyx_v_self->useAdam != 0);
     if (__pyx_t_6) {
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":709
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":709
  *             if self.useAdam:
  * 
  *                 self.beta_1_power_t *= self.beta_1             # <<<<<<<<<<<<<<
@@ -27573,7 +27568,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
  */
       __pyx_v_self->beta_1_power_t = (__pyx_v_self->beta_1_power_t * __pyx_v_self->beta_1);
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":710
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":710
  * 
  *                 self.beta_1_power_t *= self.beta_1
  *                 self.beta_2_power_t *= self.beta_2             # <<<<<<<<<<<<<<
@@ -27582,7 +27577,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
  */
       __pyx_v_self->beta_2_power_t = (__pyx_v_self->beta_2_power_t * __pyx_v_self->beta_2);
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":707
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":707
  * 
  *             # Exponentiation of beta at the end of each sample
  *             if self.useAdam:             # <<<<<<<<<<<<<<
@@ -27591,7 +27586,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
  */
     }
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":712
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":712
  *                 self.beta_2_power_t *= self.beta_2
  * 
  *             processed_samples_last_print += 1             # <<<<<<<<<<<<<<
@@ -27600,7 +27595,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
  */
     __pyx_v_processed_samples_last_print = (__pyx_v_processed_samples_last_print + 1);
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":714
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":714
  *             processed_samples_last_print += 1
  * 
  *             if self.verbose and (processed_samples_last_print >= print_block_size or n_current_batch == n_total_batch-1):             # <<<<<<<<<<<<<<
@@ -27624,7 +27619,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
     __pyx_L19_bool_binop_done:;
     if (__pyx_t_6) {
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":717
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":717
  * 
  *                 # Set block size to the number of items necessary in order to print every 300 seconds
  *                 current_time = time.time()             # <<<<<<<<<<<<<<
@@ -27661,7 +27656,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
       __Pyx_XDECREF_SET(__pyx_v_current_time, __pyx_t_1);
       __pyx_t_1 = 0;
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":718
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":718
  *                 # Set block size to the number of items necessary in order to print every 300 seconds
  *                 current_time = time.time()
  *                 samples_per_sec = n_current_batch/(current_time - start_time_epoch)             # <<<<<<<<<<<<<<
@@ -27682,7 +27677,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
       __Pyx_XDECREF_SET(__pyx_v_samples_per_sec, __pyx_t_2);
       __pyx_t_2 = 0;
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":719
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":719
  *                 current_time = time.time()
  *                 samples_per_sec = n_current_batch/(current_time - start_time_epoch)
  *                 print_block_size = math.ceil(samples_per_sec * self.print_step_seconds)             # <<<<<<<<<<<<<<
@@ -27726,7 +27721,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
       __pyx_v_print_block_size = __pyx_t_12;
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":721
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":721
  *                 print_block_size = math.ceil(samples_per_sec * self.print_step_seconds)
  * 
  *                 if current_time - last_print_time > self.print_step_seconds or n_current_batch == n_total_batch-1:             # <<<<<<<<<<<<<<
@@ -27755,7 +27750,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
       __pyx_L23_bool_binop_done:;
       if (__pyx_t_6) {
 
-        /* "MatrixFactorization_Cython_Epoch.pyx":722
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":722
  * 
  *                 if current_time - last_print_time > self.print_step_seconds or n_current_batch == n_total_batch-1:
  *                     new_time_value, new_time_unit = seconds_to_biggest_unit(time.time() - start_time_epoch)             # <<<<<<<<<<<<<<
@@ -27871,7 +27866,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
         __Pyx_XDECREF_SET(__pyx_v_new_time_unit, __pyx_t_4);
         __pyx_t_4 = 0;
 
-        /* "MatrixFactorization_Cython_Epoch.pyx":724
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":724
  *                     new_time_value, new_time_unit = seconds_to_biggest_unit(time.time() - start_time_epoch)
  * 
  *                     print("{}: Processed {} ({:4.1f}%) in {:.2f} {}. MSE loss {:.2E}. Sample per second: {:.0f}".format(             # <<<<<<<<<<<<<<
@@ -27881,7 +27876,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
         __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_Processed_4_1f_in_2f_MSE_loss_2, __pyx_n_s_format); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 724, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_4);
 
-        /* "MatrixFactorization_Cython_Epoch.pyx":726
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":726
  *                     print("{}: Processed {} ({:4.1f}%) in {:.2f} {}. MSE loss {:.2E}. Sample per second: {:.0f}".format(
  *                         self.algorithm_name,
  *                         (n_current_batch+1)*self.batch_size,             # <<<<<<<<<<<<<<
@@ -27891,7 +27886,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
         __pyx_t_2 = __Pyx_PyInt_From_long(((__pyx_v_n_current_batch + 1) * __pyx_v_self->batch_size)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 726, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_2);
 
-        /* "MatrixFactorization_Cython_Epoch.pyx":727
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":727
  *                         self.algorithm_name,
  *                         (n_current_batch+1)*self.batch_size,
  *                         100.0* (n_current_batch+1)/n_total_batch,             # <<<<<<<<<<<<<<
@@ -27901,7 +27896,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
         __pyx_t_24 = PyFloat_FromDouble(((100.0 * (__pyx_v_n_current_batch + 1)) / ((double)__pyx_v_n_total_batch))); if (unlikely(!__pyx_t_24)) __PYX_ERR(0, 727, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_24);
 
-        /* "MatrixFactorization_Cython_Epoch.pyx":729
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":729
  *                         100.0* (n_current_batch+1)/n_total_batch,
  *                         new_time_value, new_time_unit,
  *                         cumulative_loss/((n_current_batch+1)*self.batch_size),             # <<<<<<<<<<<<<<
@@ -27911,7 +27906,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
         __pyx_t_1 = PyFloat_FromDouble((__pyx_v_cumulative_loss / ((double)((__pyx_v_n_current_batch + 1) * __pyx_v_self->batch_size)))); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 729, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_1);
 
-        /* "MatrixFactorization_Cython_Epoch.pyx":730
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":730
  *                         new_time_value, new_time_unit,
  *                         cumulative_loss/((n_current_batch+1)*self.batch_size),
  *                         float((n_current_batch+1)*self.batch_size) / (time.time() - start_time_epoch)))             # <<<<<<<<<<<<<<
@@ -27984,7 +27979,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
           __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
         }
 
-        /* "MatrixFactorization_Cython_Epoch.pyx":724
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":724
  *                     new_time_value, new_time_unit = seconds_to_biggest_unit(time.time() - start_time_epoch)
  * 
  *                     print("{}: Processed {} ({:4.1f}%) in {:.2f} {}. MSE loss {:.2E}. Sample per second: {:.0f}".format(             # <<<<<<<<<<<<<<
@@ -27996,7 +27991,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
         __Pyx_DECREF(__pyx_t_23); __pyx_t_23 = 0;
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-        /* "MatrixFactorization_Cython_Epoch.pyx":732
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":732
  *                         float((n_current_batch+1)*self.batch_size) / (time.time() - start_time_epoch)))
  * 
  *                     last_print_time = current_time             # <<<<<<<<<<<<<<
@@ -28006,7 +28001,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
         __pyx_t_12 = __Pyx_PyInt_As_long(__pyx_v_current_time); if (unlikely((__pyx_t_12 == (long)-1) && PyErr_Occurred())) __PYX_ERR(0, 732, __pyx_L1_error)
         __pyx_v_last_print_time = __pyx_t_12;
 
-        /* "MatrixFactorization_Cython_Epoch.pyx":733
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":733
  * 
  *                     last_print_time = current_time
  *                     processed_samples_last_print = 0             # <<<<<<<<<<<<<<
@@ -28015,7 +28010,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
  */
         __pyx_v_processed_samples_last_print = 0;
 
-        /* "MatrixFactorization_Cython_Epoch.pyx":735
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":735
  *                     processed_samples_last_print = 0
  * 
  *                     sys.stdout.flush()             # <<<<<<<<<<<<<<
@@ -28054,7 +28049,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
         }
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-        /* "MatrixFactorization_Cython_Epoch.pyx":736
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":736
  * 
  *                     sys.stdout.flush()
  *                     sys.stderr.flush()             # <<<<<<<<<<<<<<
@@ -28093,7 +28088,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
         }
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-        /* "MatrixFactorization_Cython_Epoch.pyx":721
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":721
  *                 print_block_size = math.ceil(samples_per_sec * self.print_step_seconds)
  * 
  *                 if current_time - last_print_time > self.print_step_seconds or n_current_batch == n_total_batch-1:             # <<<<<<<<<<<<<<
@@ -28102,7 +28097,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
  */
       }
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":714
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":714
  *             processed_samples_last_print += 1
  * 
  *             if self.verbose and (processed_samples_last_print >= print_block_size or n_current_batch == n_total_batch-1):             # <<<<<<<<<<<<<<
@@ -28112,7 +28107,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
     }
   }
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":630
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":630
  * 
  * 
  *     def epochIteration_Cython_BPR_SGD(self):             # <<<<<<<<<<<<<<
@@ -28133,7 +28128,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   __Pyx_XDECREF(__pyx_t_27);
   __Pyx_XDECREF(__pyx_t_28);
   __Pyx_XDECREF(__pyx_t_29);
-  __Pyx_AddTraceback("MatrixFactorization_Cython_Epoch.MatrixFactorization_Cython_Epoch.epochIteration_Cython_BPR_SGD", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.MatrixFactorization.Cython.MatrixFactorization_Cython_Epoch.MatrixFactorization_Cython_Epoch.epochIteration_Cython_BPR_SGD", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_current_time);
@@ -28145,7 +28140,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   return __pyx_r;
 }
 
-/* "MatrixFactorization_Cython_Epoch.pyx":746
+/* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":746
  * 
  * 
  *     def get_USER_factors(self):             # <<<<<<<<<<<<<<
@@ -28154,15 +28149,15 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_15get_USER_factors(PyObject *__pyx_v_self, 
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_15get_USER_factors(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static PyMethodDef __pyx_mdef_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_15get_USER_factors = {"get_USER_factors", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_15get_USER_factors, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_15get_USER_factors(PyObject *__pyx_v_self, 
+static PyMethodDef __pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_15get_USER_factors = {"get_USER_factors", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_15get_USER_factors, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_15get_USER_factors(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -28187,14 +28182,14 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   if (unlikely(__pyx_nargs > 0)) {
     __Pyx_RaiseArgtupleInvalid("get_USER_factors", 1, 0, 0, __pyx_nargs); return NULL;}
   if (unlikely(__pyx_kwds) && __Pyx_NumKwargs_FASTCALL(__pyx_kwds) && unlikely(!__Pyx_CheckKeywordStrings(__pyx_kwds, "get_USER_factors", 0))) return NULL;
-  __pyx_r = __pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_14get_USER_factors(((struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *)__pyx_v_self));
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_14get_USER_factors(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_14get_USER_factors(struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self) {
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_14get_USER_factors(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -28207,7 +28202,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("get_USER_factors", 1);
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":747
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":747
  * 
  *     def get_USER_factors(self):
  *         return np.array(self.USER_factors)             # <<<<<<<<<<<<<<
@@ -28249,7 +28244,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":746
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":746
  * 
  * 
  *     def get_USER_factors(self):             # <<<<<<<<<<<<<<
@@ -28263,7 +28258,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
-  __Pyx_AddTraceback("MatrixFactorization_Cython_Epoch.MatrixFactorization_Cython_Epoch.get_USER_factors", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.MatrixFactorization.Cython.MatrixFactorization_Cython_Epoch.MatrixFactorization_Cython_Epoch.get_USER_factors", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -28271,7 +28266,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   return __pyx_r;
 }
 
-/* "MatrixFactorization_Cython_Epoch.pyx":750
+/* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":750
  * 
  * 
  *     def get_ITEM_factors(self):             # <<<<<<<<<<<<<<
@@ -28280,15 +28275,15 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_17get_ITEM_factors(PyObject *__pyx_v_self, 
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_17get_ITEM_factors(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static PyMethodDef __pyx_mdef_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_17get_ITEM_factors = {"get_ITEM_factors", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_17get_ITEM_factors, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_17get_ITEM_factors(PyObject *__pyx_v_self, 
+static PyMethodDef __pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_17get_ITEM_factors = {"get_ITEM_factors", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_17get_ITEM_factors, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_17get_ITEM_factors(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -28313,14 +28308,14 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   if (unlikely(__pyx_nargs > 0)) {
     __Pyx_RaiseArgtupleInvalid("get_ITEM_factors", 1, 0, 0, __pyx_nargs); return NULL;}
   if (unlikely(__pyx_kwds) && __Pyx_NumKwargs_FASTCALL(__pyx_kwds) && unlikely(!__Pyx_CheckKeywordStrings(__pyx_kwds, "get_ITEM_factors", 0))) return NULL;
-  __pyx_r = __pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_16get_ITEM_factors(((struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *)__pyx_v_self));
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_16get_ITEM_factors(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_16get_ITEM_factors(struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self) {
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_16get_ITEM_factors(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -28333,7 +28328,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("get_ITEM_factors", 1);
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":751
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":751
  * 
  *     def get_ITEM_factors(self):
  *         return np.array(self.ITEM_factors)             # <<<<<<<<<<<<<<
@@ -28375,7 +28370,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":750
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":750
  * 
  * 
  *     def get_ITEM_factors(self):             # <<<<<<<<<<<<<<
@@ -28389,7 +28384,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
-  __Pyx_AddTraceback("MatrixFactorization_Cython_Epoch.MatrixFactorization_Cython_Epoch.get_ITEM_factors", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.MatrixFactorization.Cython.MatrixFactorization_Cython_Epoch.MatrixFactorization_Cython_Epoch.get_ITEM_factors", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -28397,7 +28392,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   return __pyx_r;
 }
 
-/* "MatrixFactorization_Cython_Epoch.pyx":754
+/* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":754
  * 
  * 
  *     def get_USER_bias(self):             # <<<<<<<<<<<<<<
@@ -28406,15 +28401,15 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_19get_USER_bias(PyObject *__pyx_v_self, 
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_19get_USER_bias(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static PyMethodDef __pyx_mdef_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_19get_USER_bias = {"get_USER_bias", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_19get_USER_bias, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_19get_USER_bias(PyObject *__pyx_v_self, 
+static PyMethodDef __pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_19get_USER_bias = {"get_USER_bias", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_19get_USER_bias, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_19get_USER_bias(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -28439,14 +28434,14 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   if (unlikely(__pyx_nargs > 0)) {
     __Pyx_RaiseArgtupleInvalid("get_USER_bias", 1, 0, 0, __pyx_nargs); return NULL;}
   if (unlikely(__pyx_kwds) && __Pyx_NumKwargs_FASTCALL(__pyx_kwds) && unlikely(!__Pyx_CheckKeywordStrings(__pyx_kwds, "get_USER_bias", 0))) return NULL;
-  __pyx_r = __pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_18get_USER_bias(((struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *)__pyx_v_self));
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_18get_USER_bias(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_18get_USER_bias(struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self) {
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_18get_USER_bias(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -28459,7 +28454,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("get_USER_bias", 1);
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":755
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":755
  * 
  *     def get_USER_bias(self):
  *         return np.array(self.USER_bias)             # <<<<<<<<<<<<<<
@@ -28501,7 +28496,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":754
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":754
  * 
  * 
  *     def get_USER_bias(self):             # <<<<<<<<<<<<<<
@@ -28515,7 +28510,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
-  __Pyx_AddTraceback("MatrixFactorization_Cython_Epoch.MatrixFactorization_Cython_Epoch.get_USER_bias", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.MatrixFactorization.Cython.MatrixFactorization_Cython_Epoch.MatrixFactorization_Cython_Epoch.get_USER_bias", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -28523,7 +28518,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   return __pyx_r;
 }
 
-/* "MatrixFactorization_Cython_Epoch.pyx":758
+/* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":758
  * 
  * 
  *     def get_ITEM_bias(self):             # <<<<<<<<<<<<<<
@@ -28532,15 +28527,15 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_21get_ITEM_bias(PyObject *__pyx_v_self, 
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_21get_ITEM_bias(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static PyMethodDef __pyx_mdef_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_21get_ITEM_bias = {"get_ITEM_bias", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_21get_ITEM_bias, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_21get_ITEM_bias(PyObject *__pyx_v_self, 
+static PyMethodDef __pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_21get_ITEM_bias = {"get_ITEM_bias", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_21get_ITEM_bias, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_21get_ITEM_bias(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -28565,14 +28560,14 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   if (unlikely(__pyx_nargs > 0)) {
     __Pyx_RaiseArgtupleInvalid("get_ITEM_bias", 1, 0, 0, __pyx_nargs); return NULL;}
   if (unlikely(__pyx_kwds) && __Pyx_NumKwargs_FASTCALL(__pyx_kwds) && unlikely(!__Pyx_CheckKeywordStrings(__pyx_kwds, "get_ITEM_bias", 0))) return NULL;
-  __pyx_r = __pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_20get_ITEM_bias(((struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *)__pyx_v_self));
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_20get_ITEM_bias(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_20get_ITEM_bias(struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self) {
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_20get_ITEM_bias(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -28585,7 +28580,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("get_ITEM_bias", 1);
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":759
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":759
  * 
  *     def get_ITEM_bias(self):
  *         return np.array(self.ITEM_bias)             # <<<<<<<<<<<<<<
@@ -28627,7 +28622,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":758
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":758
  * 
  * 
  *     def get_ITEM_bias(self):             # <<<<<<<<<<<<<<
@@ -28641,7 +28636,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
-  __Pyx_AddTraceback("MatrixFactorization_Cython_Epoch.MatrixFactorization_Cython_Epoch.get_ITEM_bias", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.MatrixFactorization.Cython.MatrixFactorization_Cython_Epoch.MatrixFactorization_Cython_Epoch.get_ITEM_bias", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -28649,7 +28644,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   return __pyx_r;
 }
 
-/* "MatrixFactorization_Cython_Epoch.pyx":762
+/* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":762
  * 
  * 
  *     def get_GLOBAL_bias(self):             # <<<<<<<<<<<<<<
@@ -28658,15 +28653,15 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_23get_GLOBAL_bias(PyObject *__pyx_v_self, 
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_23get_GLOBAL_bias(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static PyMethodDef __pyx_mdef_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_23get_GLOBAL_bias = {"get_GLOBAL_bias", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_23get_GLOBAL_bias, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_23get_GLOBAL_bias(PyObject *__pyx_v_self, 
+static PyMethodDef __pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_23get_GLOBAL_bias = {"get_GLOBAL_bias", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_23get_GLOBAL_bias, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_23get_GLOBAL_bias(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -28691,14 +28686,14 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   if (unlikely(__pyx_nargs > 0)) {
     __Pyx_RaiseArgtupleInvalid("get_GLOBAL_bias", 1, 0, 0, __pyx_nargs); return NULL;}
   if (unlikely(__pyx_kwds) && __Pyx_NumKwargs_FASTCALL(__pyx_kwds) && unlikely(!__Pyx_CheckKeywordStrings(__pyx_kwds, "get_GLOBAL_bias", 0))) return NULL;
-  __pyx_r = __pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_22get_GLOBAL_bias(((struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *)__pyx_v_self));
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_22get_GLOBAL_bias(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_22get_GLOBAL_bias(struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self) {
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_22get_GLOBAL_bias(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -28712,7 +28707,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("get_GLOBAL_bias", 1);
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":763
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":763
  * 
  *     def get_GLOBAL_bias(self):
  *         return np.array(self.GLOBAL_bias[0])             # <<<<<<<<<<<<<<
@@ -28755,7 +28750,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":762
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":762
  * 
  * 
  *     def get_GLOBAL_bias(self):             # <<<<<<<<<<<<<<
@@ -28769,7 +28764,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_5);
-  __Pyx_AddTraceback("MatrixFactorization_Cython_Epoch.MatrixFactorization_Cython_Epoch.get_GLOBAL_bias", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.MatrixFactorization.Cython.MatrixFactorization_Cython_Epoch.MatrixFactorization_Cython_Epoch.get_GLOBAL_bias", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -28777,7 +28772,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   return __pyx_r;
 }
 
-/* "MatrixFactorization_Cython_Epoch.pyx":767
+/* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":767
  * 
  * 
  *     def _init_minibatch_data_structures(self):             # <<<<<<<<<<<<<<
@@ -28786,15 +28781,15 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_25_init_minibatch_data_structures(PyObject *__pyx_v_self, 
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_25_init_minibatch_data_structures(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static PyMethodDef __pyx_mdef_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_25_init_minibatch_data_structures = {"_init_minibatch_data_structures", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_25_init_minibatch_data_structures, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_25_init_minibatch_data_structures(PyObject *__pyx_v_self, 
+static PyMethodDef __pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_25_init_minibatch_data_structures = {"_init_minibatch_data_structures", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_25_init_minibatch_data_structures, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_25_init_minibatch_data_structures(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -28819,14 +28814,14 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   if (unlikely(__pyx_nargs > 0)) {
     __Pyx_RaiseArgtupleInvalid("_init_minibatch_data_structures", 1, 0, 0, __pyx_nargs); return NULL;}
   if (unlikely(__pyx_kwds) && __Pyx_NumKwargs_FASTCALL(__pyx_kwds) && unlikely(!__Pyx_CheckKeywordStrings(__pyx_kwds, "_init_minibatch_data_structures", 0))) return NULL;
-  __pyx_r = __pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_24_init_minibatch_data_structures(((struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *)__pyx_v_self));
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_24_init_minibatch_data_structures(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_24_init_minibatch_data_structures(struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self) {
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_24_init_minibatch_data_structures(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -28839,7 +28834,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("_init_minibatch_data_structures", 1);
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":770
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":770
  * 
  *         # The shape depends on the batch size. 1 for FunkSVD 2 for BPR as it samples two items
  *         self.mini_batch_sampled_items = np.zeros(self.batch_size*2, dtype=int)             # <<<<<<<<<<<<<<
@@ -28873,7 +28868,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   __pyx_t_5.memview = NULL;
   __pyx_t_5.data = NULL;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":771
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":771
  *         # The shape depends on the batch size. 1 for FunkSVD 2 for BPR as it samples two items
  *         self.mini_batch_sampled_items = np.zeros(self.batch_size*2, dtype=int)
  *         self.mini_batch_sampled_users = np.zeros(self.batch_size, dtype=int)             # <<<<<<<<<<<<<<
@@ -28907,7 +28902,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   __pyx_t_5.memview = NULL;
   __pyx_t_5.data = NULL;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":773
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":773
  *         self.mini_batch_sampled_users = np.zeros(self.batch_size, dtype=int)
  * 
  *         self.mini_batch_sampled_items_flag = np.zeros(self.n_items, dtype=int)             # <<<<<<<<<<<<<<
@@ -28941,7 +28936,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   __pyx_t_5.memview = NULL;
   __pyx_t_5.data = NULL;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":774
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":774
  * 
  *         self.mini_batch_sampled_items_flag = np.zeros(self.n_items, dtype=int)
  *         self.mini_batch_sampled_users_flag = np.zeros(self.n_users, dtype=int)             # <<<<<<<<<<<<<<
@@ -28975,7 +28970,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   __pyx_t_5.memview = NULL;
   __pyx_t_5.data = NULL;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":776
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":776
  *         self.mini_batch_sampled_users_flag = np.zeros(self.n_users, dtype=int)
  * 
  *         self.mini_batch_sampled_items_counter = 0             # <<<<<<<<<<<<<<
@@ -28984,7 +28979,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
  */
   __pyx_v_self->mini_batch_sampled_items_counter = 0;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":777
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":777
  * 
  *         self.mini_batch_sampled_items_counter = 0
  *         self.mini_batch_sampled_users_counter = 0             # <<<<<<<<<<<<<<
@@ -28993,7 +28988,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
  */
   __pyx_v_self->mini_batch_sampled_users_counter = 0;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":767
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":767
  * 
  * 
  *     def _init_minibatch_data_structures(self):             # <<<<<<<<<<<<<<
@@ -29010,7 +29005,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
   __PYX_XCLEAR_MEMVIEW(&__pyx_t_5, 1);
-  __Pyx_AddTraceback("MatrixFactorization_Cython_Epoch.MatrixFactorization_Cython_Epoch._init_minibatch_data_structures", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.MatrixFactorization.Cython.MatrixFactorization_Cython_Epoch.MatrixFactorization_Cython_Epoch._init_minibatch_data_structures", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -29018,7 +29013,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   return __pyx_r;
 }
 
-/* "MatrixFactorization_Cython_Epoch.pyx":781
+/* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":781
  * 
  * 
  *     cdef void _clear_minibatch_data_structures(self):             # <<<<<<<<<<<<<<
@@ -29026,7 +29021,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
  *         cdef long array_index, item_index
  */
 
-static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch__clear_minibatch_data_structures(struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self) {
+static void __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch__clear_minibatch_data_structures(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self) {
   long __pyx_v_array_index;
   long __pyx_v_item_index;
   long __pyx_t_1;
@@ -29034,7 +29029,7 @@ static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
   long __pyx_t_3;
   Py_ssize_t __pyx_t_4;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":785
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":785
  *         cdef long array_index, item_index
  * 
  *         for array_index in range(self.mini_batch_sampled_items_counter):             # <<<<<<<<<<<<<<
@@ -29046,7 +29041,7 @@ static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
   for (__pyx_t_3 = 0; __pyx_t_3 < __pyx_t_2; __pyx_t_3+=1) {
     __pyx_v_array_index = __pyx_t_3;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":786
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":786
  * 
  *         for array_index in range(self.mini_batch_sampled_items_counter):
  *             item_index = self.mini_batch_sampled_items[array_index]             # <<<<<<<<<<<<<<
@@ -29056,7 +29051,7 @@ static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
     __pyx_t_4 = __pyx_v_array_index;
     __pyx_v_item_index = (*((long *) ( /* dim=0 */ (__pyx_v_self->mini_batch_sampled_items.data + __pyx_t_4 * __pyx_v_self->mini_batch_sampled_items.strides[0]) )));
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":787
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":787
  *         for array_index in range(self.mini_batch_sampled_items_counter):
  *             item_index = self.mini_batch_sampled_items[array_index]
  *             self.mini_batch_sampled_items_flag[item_index] = False             # <<<<<<<<<<<<<<
@@ -29067,7 +29062,7 @@ static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
     *((long *) ( /* dim=0 */ (__pyx_v_self->mini_batch_sampled_items_flag.data + __pyx_t_4 * __pyx_v_self->mini_batch_sampled_items_flag.strides[0]) )) = 0;
   }
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":789
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":789
  *             self.mini_batch_sampled_items_flag[item_index] = False
  * 
  *         for array_index in range(self.mini_batch_sampled_users_counter):             # <<<<<<<<<<<<<<
@@ -29079,7 +29074,7 @@ static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
   for (__pyx_t_3 = 0; __pyx_t_3 < __pyx_t_2; __pyx_t_3+=1) {
     __pyx_v_array_index = __pyx_t_3;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":790
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":790
  * 
  *         for array_index in range(self.mini_batch_sampled_users_counter):
  *             item_index = self.mini_batch_sampled_users[array_index]             # <<<<<<<<<<<<<<
@@ -29089,7 +29084,7 @@ static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
     __pyx_t_4 = __pyx_v_array_index;
     __pyx_v_item_index = (*((long *) ( /* dim=0 */ (__pyx_v_self->mini_batch_sampled_users.data + __pyx_t_4 * __pyx_v_self->mini_batch_sampled_users.strides[0]) )));
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":791
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":791
  *         for array_index in range(self.mini_batch_sampled_users_counter):
  *             item_index = self.mini_batch_sampled_users[array_index]
  *             self.mini_batch_sampled_users_flag[item_index] = False             # <<<<<<<<<<<<<<
@@ -29100,7 +29095,7 @@ static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
     *((long *) ( /* dim=0 */ (__pyx_v_self->mini_batch_sampled_users_flag.data + __pyx_t_4 * __pyx_v_self->mini_batch_sampled_users_flag.strides[0]) )) = 0;
   }
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":793
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":793
  *             self.mini_batch_sampled_users_flag[item_index] = False
  * 
  *         self.mini_batch_sampled_items_counter = 0             # <<<<<<<<<<<<<<
@@ -29109,7 +29104,7 @@ static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
  */
   __pyx_v_self->mini_batch_sampled_items_counter = 0;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":794
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":794
  * 
  *         self.mini_batch_sampled_items_counter = 0
  *         self.mini_batch_sampled_users_counter = 0             # <<<<<<<<<<<<<<
@@ -29118,7 +29113,7 @@ static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
  */
   __pyx_v_self->mini_batch_sampled_users_counter = 0;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":781
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":781
  * 
  * 
  *     cdef void _clear_minibatch_data_structures(self):             # <<<<<<<<<<<<<<
@@ -29129,7 +29124,7 @@ static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
   /* function exit code */
 }
 
-/* "MatrixFactorization_Cython_Epoch.pyx":798
+/* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":798
  * 
  * 
  *     cdef void _add_MSE_sample_in_minibatch(self, MSE_sample sample):             # <<<<<<<<<<<<<<
@@ -29137,12 +29132,12 @@ static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
  *         if not self.mini_batch_sampled_items_flag[sample.item]:
  */
 
-static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch__add_MSE_sample_in_minibatch(struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self, struct __pyx_t_32MatrixFactorization_Cython_Epoch_MSE_sample __pyx_v_sample) {
+static void __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch__add_MSE_sample_in_minibatch(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self, struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MSE_sample __pyx_v_sample) {
   Py_ssize_t __pyx_t_1;
   int __pyx_t_2;
   long __pyx_t_3;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":800
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":800
  *     cdef void _add_MSE_sample_in_minibatch(self, MSE_sample sample):
  * 
  *         if not self.mini_batch_sampled_items_flag[sample.item]:             # <<<<<<<<<<<<<<
@@ -29153,7 +29148,7 @@ static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
   __pyx_t_2 = (!((*((long *) ( /* dim=0 */ (__pyx_v_self->mini_batch_sampled_items_flag.data + __pyx_t_1 * __pyx_v_self->mini_batch_sampled_items_flag.strides[0]) ))) != 0));
   if (__pyx_t_2) {
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":801
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":801
  * 
  *         if not self.mini_batch_sampled_items_flag[sample.item]:
  *             self.mini_batch_sampled_items_flag[sample.item] = True             # <<<<<<<<<<<<<<
@@ -29163,7 +29158,7 @@ static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
     __pyx_t_1 = __pyx_v_sample.item;
     *((long *) ( /* dim=0 */ (__pyx_v_self->mini_batch_sampled_items_flag.data + __pyx_t_1 * __pyx_v_self->mini_batch_sampled_items_flag.strides[0]) )) = 1;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":802
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":802
  *         if not self.mini_batch_sampled_items_flag[sample.item]:
  *             self.mini_batch_sampled_items_flag[sample.item] = True
  *             self.mini_batch_sampled_items[self.mini_batch_sampled_items_counter] = sample.item             # <<<<<<<<<<<<<<
@@ -29174,7 +29169,7 @@ static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
     __pyx_t_1 = __pyx_v_self->mini_batch_sampled_items_counter;
     *((long *) ( /* dim=0 */ (__pyx_v_self->mini_batch_sampled_items.data + __pyx_t_1 * __pyx_v_self->mini_batch_sampled_items.strides[0]) )) = __pyx_t_3;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":803
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":803
  *             self.mini_batch_sampled_items_flag[sample.item] = True
  *             self.mini_batch_sampled_items[self.mini_batch_sampled_items_counter] = sample.item
  *             self.mini_batch_sampled_items_counter += 1             # <<<<<<<<<<<<<<
@@ -29183,7 +29178,7 @@ static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
  */
     __pyx_v_self->mini_batch_sampled_items_counter = (__pyx_v_self->mini_batch_sampled_items_counter + 1);
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":800
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":800
  *     cdef void _add_MSE_sample_in_minibatch(self, MSE_sample sample):
  * 
  *         if not self.mini_batch_sampled_items_flag[sample.item]:             # <<<<<<<<<<<<<<
@@ -29192,7 +29187,7 @@ static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
  */
   }
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":805
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":805
  *             self.mini_batch_sampled_items_counter += 1
  * 
  *         if not self.mini_batch_sampled_users_flag[sample.user]:             # <<<<<<<<<<<<<<
@@ -29203,7 +29198,7 @@ static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
   __pyx_t_2 = (!((*((long *) ( /* dim=0 */ (__pyx_v_self->mini_batch_sampled_users_flag.data + __pyx_t_1 * __pyx_v_self->mini_batch_sampled_users_flag.strides[0]) ))) != 0));
   if (__pyx_t_2) {
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":806
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":806
  * 
  *         if not self.mini_batch_sampled_users_flag[sample.user]:
  *             self.mini_batch_sampled_users_flag[sample.user] = True             # <<<<<<<<<<<<<<
@@ -29213,7 +29208,7 @@ static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
     __pyx_t_1 = __pyx_v_sample.user;
     *((long *) ( /* dim=0 */ (__pyx_v_self->mini_batch_sampled_users_flag.data + __pyx_t_1 * __pyx_v_self->mini_batch_sampled_users_flag.strides[0]) )) = 1;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":807
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":807
  *         if not self.mini_batch_sampled_users_flag[sample.user]:
  *             self.mini_batch_sampled_users_flag[sample.user] = True
  *             self.mini_batch_sampled_users[self.mini_batch_sampled_users_counter] = sample.user             # <<<<<<<<<<<<<<
@@ -29224,7 +29219,7 @@ static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
     __pyx_t_1 = __pyx_v_self->mini_batch_sampled_users_counter;
     *((long *) ( /* dim=0 */ (__pyx_v_self->mini_batch_sampled_users.data + __pyx_t_1 * __pyx_v_self->mini_batch_sampled_users.strides[0]) )) = __pyx_t_3;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":808
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":808
  *             self.mini_batch_sampled_users_flag[sample.user] = True
  *             self.mini_batch_sampled_users[self.mini_batch_sampled_users_counter] = sample.user
  *             self.mini_batch_sampled_users_counter += 1             # <<<<<<<<<<<<<<
@@ -29233,7 +29228,7 @@ static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
  */
     __pyx_v_self->mini_batch_sampled_users_counter = (__pyx_v_self->mini_batch_sampled_users_counter + 1);
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":805
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":805
  *             self.mini_batch_sampled_items_counter += 1
  * 
  *         if not self.mini_batch_sampled_users_flag[sample.user]:             # <<<<<<<<<<<<<<
@@ -29242,7 +29237,7 @@ static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
  */
   }
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":798
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":798
  * 
  * 
  *     cdef void _add_MSE_sample_in_minibatch(self, MSE_sample sample):             # <<<<<<<<<<<<<<
@@ -29253,7 +29248,7 @@ static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
   /* function exit code */
 }
 
-/* "MatrixFactorization_Cython_Epoch.pyx":812
+/* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":812
  * 
  * 
  *     cdef void _add_BPR_sample_in_minibatch(self, BPR_sample sample):             # <<<<<<<<<<<<<<
@@ -29261,12 +29256,12 @@ static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
  *         if not self.mini_batch_sampled_items_flag[sample.pos_item]:
  */
 
-static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch__add_BPR_sample_in_minibatch(struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self, struct __pyx_t_32MatrixFactorization_Cython_Epoch_BPR_sample __pyx_v_sample) {
+static void __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch__add_BPR_sample_in_minibatch(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self, struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_BPR_sample __pyx_v_sample) {
   Py_ssize_t __pyx_t_1;
   int __pyx_t_2;
   long __pyx_t_3;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":814
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":814
  *     cdef void _add_BPR_sample_in_minibatch(self, BPR_sample sample):
  * 
  *         if not self.mini_batch_sampled_items_flag[sample.pos_item]:             # <<<<<<<<<<<<<<
@@ -29277,7 +29272,7 @@ static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
   __pyx_t_2 = (!((*((long *) ( /* dim=0 */ (__pyx_v_self->mini_batch_sampled_items_flag.data + __pyx_t_1 * __pyx_v_self->mini_batch_sampled_items_flag.strides[0]) ))) != 0));
   if (__pyx_t_2) {
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":815
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":815
  * 
  *         if not self.mini_batch_sampled_items_flag[sample.pos_item]:
  *             self.mini_batch_sampled_items_flag[sample.pos_item] = True             # <<<<<<<<<<<<<<
@@ -29287,7 +29282,7 @@ static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
     __pyx_t_1 = __pyx_v_sample.pos_item;
     *((long *) ( /* dim=0 */ (__pyx_v_self->mini_batch_sampled_items_flag.data + __pyx_t_1 * __pyx_v_self->mini_batch_sampled_items_flag.strides[0]) )) = 1;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":816
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":816
  *         if not self.mini_batch_sampled_items_flag[sample.pos_item]:
  *             self.mini_batch_sampled_items_flag[sample.pos_item] = True
  *             self.mini_batch_sampled_items[self.mini_batch_sampled_items_counter] = sample.pos_item             # <<<<<<<<<<<<<<
@@ -29298,7 +29293,7 @@ static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
     __pyx_t_1 = __pyx_v_self->mini_batch_sampled_items_counter;
     *((long *) ( /* dim=0 */ (__pyx_v_self->mini_batch_sampled_items.data + __pyx_t_1 * __pyx_v_self->mini_batch_sampled_items.strides[0]) )) = __pyx_t_3;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":817
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":817
  *             self.mini_batch_sampled_items_flag[sample.pos_item] = True
  *             self.mini_batch_sampled_items[self.mini_batch_sampled_items_counter] = sample.pos_item
  *             self.mini_batch_sampled_items_counter += 1             # <<<<<<<<<<<<<<
@@ -29307,7 +29302,7 @@ static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
  */
     __pyx_v_self->mini_batch_sampled_items_counter = (__pyx_v_self->mini_batch_sampled_items_counter + 1);
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":814
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":814
  *     cdef void _add_BPR_sample_in_minibatch(self, BPR_sample sample):
  * 
  *         if not self.mini_batch_sampled_items_flag[sample.pos_item]:             # <<<<<<<<<<<<<<
@@ -29316,7 +29311,7 @@ static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
  */
   }
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":819
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":819
  *             self.mini_batch_sampled_items_counter += 1
  * 
  *         if not self.mini_batch_sampled_items_flag[sample.neg_item]:             # <<<<<<<<<<<<<<
@@ -29327,7 +29322,7 @@ static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
   __pyx_t_2 = (!((*((long *) ( /* dim=0 */ (__pyx_v_self->mini_batch_sampled_items_flag.data + __pyx_t_1 * __pyx_v_self->mini_batch_sampled_items_flag.strides[0]) ))) != 0));
   if (__pyx_t_2) {
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":820
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":820
  * 
  *         if not self.mini_batch_sampled_items_flag[sample.neg_item]:
  *             self.mini_batch_sampled_items_flag[sample.neg_item] = True             # <<<<<<<<<<<<<<
@@ -29337,7 +29332,7 @@ static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
     __pyx_t_1 = __pyx_v_sample.neg_item;
     *((long *) ( /* dim=0 */ (__pyx_v_self->mini_batch_sampled_items_flag.data + __pyx_t_1 * __pyx_v_self->mini_batch_sampled_items_flag.strides[0]) )) = 1;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":821
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":821
  *         if not self.mini_batch_sampled_items_flag[sample.neg_item]:
  *             self.mini_batch_sampled_items_flag[sample.neg_item] = True
  *             self.mini_batch_sampled_items[self.mini_batch_sampled_items_counter] = sample.neg_item             # <<<<<<<<<<<<<<
@@ -29348,7 +29343,7 @@ static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
     __pyx_t_1 = __pyx_v_self->mini_batch_sampled_items_counter;
     *((long *) ( /* dim=0 */ (__pyx_v_self->mini_batch_sampled_items.data + __pyx_t_1 * __pyx_v_self->mini_batch_sampled_items.strides[0]) )) = __pyx_t_3;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":822
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":822
  *             self.mini_batch_sampled_items_flag[sample.neg_item] = True
  *             self.mini_batch_sampled_items[self.mini_batch_sampled_items_counter] = sample.neg_item
  *             self.mini_batch_sampled_items_counter += 1             # <<<<<<<<<<<<<<
@@ -29357,7 +29352,7 @@ static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
  */
     __pyx_v_self->mini_batch_sampled_items_counter = (__pyx_v_self->mini_batch_sampled_items_counter + 1);
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":819
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":819
  *             self.mini_batch_sampled_items_counter += 1
  * 
  *         if not self.mini_batch_sampled_items_flag[sample.neg_item]:             # <<<<<<<<<<<<<<
@@ -29366,7 +29361,7 @@ static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
  */
   }
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":824
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":824
  *             self.mini_batch_sampled_items_counter += 1
  * 
  *         if not self.mini_batch_sampled_users_flag[sample.user]:             # <<<<<<<<<<<<<<
@@ -29377,7 +29372,7 @@ static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
   __pyx_t_2 = (!((*((long *) ( /* dim=0 */ (__pyx_v_self->mini_batch_sampled_users_flag.data + __pyx_t_1 * __pyx_v_self->mini_batch_sampled_users_flag.strides[0]) ))) != 0));
   if (__pyx_t_2) {
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":825
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":825
  * 
  *         if not self.mini_batch_sampled_users_flag[sample.user]:
  *             self.mini_batch_sampled_users_flag[sample.user] = True             # <<<<<<<<<<<<<<
@@ -29387,7 +29382,7 @@ static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
     __pyx_t_1 = __pyx_v_sample.user;
     *((long *) ( /* dim=0 */ (__pyx_v_self->mini_batch_sampled_users_flag.data + __pyx_t_1 * __pyx_v_self->mini_batch_sampled_users_flag.strides[0]) )) = 1;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":826
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":826
  *         if not self.mini_batch_sampled_users_flag[sample.user]:
  *             self.mini_batch_sampled_users_flag[sample.user] = True
  *             self.mini_batch_sampled_users[self.mini_batch_sampled_users_counter] = sample.user             # <<<<<<<<<<<<<<
@@ -29398,7 +29393,7 @@ static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
     __pyx_t_1 = __pyx_v_self->mini_batch_sampled_users_counter;
     *((long *) ( /* dim=0 */ (__pyx_v_self->mini_batch_sampled_users.data + __pyx_t_1 * __pyx_v_self->mini_batch_sampled_users.strides[0]) )) = __pyx_t_3;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":827
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":827
  *             self.mini_batch_sampled_users_flag[sample.user] = True
  *             self.mini_batch_sampled_users[self.mini_batch_sampled_users_counter] = sample.user
  *             self.mini_batch_sampled_users_counter += 1             # <<<<<<<<<<<<<<
@@ -29407,7 +29402,7 @@ static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
  */
     __pyx_v_self->mini_batch_sampled_users_counter = (__pyx_v_self->mini_batch_sampled_users_counter + 1);
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":824
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":824
  *             self.mini_batch_sampled_items_counter += 1
  * 
  *         if not self.mini_batch_sampled_users_flag[sample.user]:             # <<<<<<<<<<<<<<
@@ -29416,7 +29411,7 @@ static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
  */
   }
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":812
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":812
  * 
  * 
  *     cdef void _add_BPR_sample_in_minibatch(self, BPR_sample sample):             # <<<<<<<<<<<<<<
@@ -29427,7 +29422,7 @@ static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
   /* function exit code */
 }
 
-/* "MatrixFactorization_Cython_Epoch.pyx":831
+/* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":831
  * 
  * 
  *     cdef void _apply_minibatch_updates_to_latent_factors(self):             # <<<<<<<<<<<<<<
@@ -29435,7 +29430,7 @@ static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
  *         cdef double local_gradient_item, local_gradient_user, local_gradient_bias_item, local_gradient_bias_user, local_gradient_bias_global
  */
 
-static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch__apply_minibatch_updates_to_latent_factors(struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self) {
+static void __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch__apply_minibatch_updates_to_latent_factors(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self) {
   double __pyx_v_local_gradient_item;
   double __pyx_v_local_gradient_user;
   double __pyx_v_local_gradient_bias_item;
@@ -29459,7 +29454,7 @@ static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":837
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":837
  * 
  * 
  *         if self.use_bias:             # <<<<<<<<<<<<<<
@@ -29469,7 +29464,7 @@ static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
   __pyx_t_1 = (__pyx_v_self->use_bias != 0);
   if (__pyx_t_1) {
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":840
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":840
  * 
  *             # Compute adaptive gradients
  *             local_gradient_bias_global = self.GLOBAL_bias_minibatch_accumulator[0] / self.batch_size             # <<<<<<<<<<<<<<
@@ -29479,17 +29474,17 @@ static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
     __pyx_t_2 = 0;
     __pyx_v_local_gradient_bias_global = ((*((double *) ( /* dim=0 */ (__pyx_v_self->GLOBAL_bias_minibatch_accumulator.data + __pyx_t_2 * __pyx_v_self->GLOBAL_bias_minibatch_accumulator.strides[0]) ))) / ((double)__pyx_v_self->batch_size));
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":841
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":841
  *             # Compute adaptive gradients
  *             local_gradient_bias_global = self.GLOBAL_bias_minibatch_accumulator[0] / self.batch_size
  *             local_gradient_bias_global = self.adaptive_gradient(local_gradient_bias_global, 0, 0, self.sgd_cache_bias_GLOBAL, self.sgd_cache_bias_GLOBAL_momentum_1, self.sgd_cache_bias_GLOBAL_momentum_2)             # <<<<<<<<<<<<<<
  * 
  *             # Apply updates to bias
  */
-    __pyx_t_3 = ((struct __pyx_vtabstruct_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *)__pyx_v_self->__pyx_vtab)->adaptive_gradient(__pyx_v_self, __pyx_v_local_gradient_bias_global, 0, 0, __pyx_v_self->sgd_cache_bias_GLOBAL, __pyx_v_self->sgd_cache_bias_GLOBAL_momentum_1, __pyx_v_self->sgd_cache_bias_GLOBAL_momentum_2); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 841, __pyx_L1_error)
+    __pyx_t_3 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *)__pyx_v_self->__pyx_vtab)->adaptive_gradient(__pyx_v_self, __pyx_v_local_gradient_bias_global, 0, 0, __pyx_v_self->sgd_cache_bias_GLOBAL, __pyx_v_self->sgd_cache_bias_GLOBAL_momentum_1, __pyx_v_self->sgd_cache_bias_GLOBAL_momentum_2); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 841, __pyx_L1_error)
     __pyx_v_local_gradient_bias_global = __pyx_t_3;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":844
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":844
  * 
  *             # Apply updates to bias
  *             self.GLOBAL_bias[0] += self.learning_rate * local_gradient_bias_global             # <<<<<<<<<<<<<<
@@ -29499,7 +29494,7 @@ static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
     __pyx_t_2 = 0;
     *((double *) ( /* dim=0 */ (__pyx_v_self->GLOBAL_bias.data + __pyx_t_2 * __pyx_v_self->GLOBAL_bias.strides[0]) )) += (__pyx_v_self->learning_rate * __pyx_v_local_gradient_bias_global);
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":845
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":845
  *             # Apply updates to bias
  *             self.GLOBAL_bias[0] += self.learning_rate * local_gradient_bias_global
  *             self.GLOBAL_bias_minibatch_accumulator[0] = 0.0             # <<<<<<<<<<<<<<
@@ -29509,7 +29504,7 @@ static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
     __pyx_t_2 = 0;
     *((double *) ( /* dim=0 */ (__pyx_v_self->GLOBAL_bias_minibatch_accumulator.data + __pyx_t_2 * __pyx_v_self->GLOBAL_bias_minibatch_accumulator.strides[0]) )) = 0.0;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":837
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":837
  * 
  * 
  *         if self.use_bias:             # <<<<<<<<<<<<<<
@@ -29518,7 +29513,7 @@ static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
  */
   }
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":850
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":850
  * 
  * 
  *         for n_sample_in_batch in range(self.mini_batch_sampled_items_counter):             # <<<<<<<<<<<<<<
@@ -29530,7 +29525,7 @@ static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
   for (__pyx_t_6 = 0; __pyx_t_6 < __pyx_t_5; __pyx_t_6+=1) {
     __pyx_v_n_sample_in_batch = __pyx_t_6;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":852
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":852
  *         for n_sample_in_batch in range(self.mini_batch_sampled_items_counter):
  * 
  *             sampled_item = self.mini_batch_sampled_items[n_sample_in_batch]             # <<<<<<<<<<<<<<
@@ -29540,7 +29535,7 @@ static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
     __pyx_t_2 = __pyx_v_n_sample_in_batch;
     __pyx_v_sampled_item = (*((long *) ( /* dim=0 */ (__pyx_v_self->mini_batch_sampled_items.data + __pyx_t_2 * __pyx_v_self->mini_batch_sampled_items.strides[0]) )));
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":854
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":854
  *             sampled_item = self.mini_batch_sampled_items[n_sample_in_batch]
  * 
  *             if self.use_bias:             # <<<<<<<<<<<<<<
@@ -29550,7 +29545,7 @@ static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
     __pyx_t_1 = (__pyx_v_self->use_bias != 0);
     if (__pyx_t_1) {
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":855
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":855
  * 
  *             if self.use_bias:
  *                 local_gradient_bias_item = self.ITEM_bias_minibatch_accumulator[sampled_item] / self.batch_size             # <<<<<<<<<<<<<<
@@ -29560,17 +29555,17 @@ static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
       __pyx_t_2 = __pyx_v_sampled_item;
       __pyx_v_local_gradient_bias_item = ((*((double *) ( /* dim=0 */ (__pyx_v_self->ITEM_bias_minibatch_accumulator.data + __pyx_t_2 * __pyx_v_self->ITEM_bias_minibatch_accumulator.strides[0]) ))) / ((double)__pyx_v_self->batch_size));
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":856
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":856
  *             if self.use_bias:
  *                 local_gradient_bias_item = self.ITEM_bias_minibatch_accumulator[sampled_item] / self.batch_size
  *                 local_gradient_bias_item = self.adaptive_gradient(local_gradient_bias_item, sampled_item, 0, self.sgd_cache_bias_I, self.sgd_cache_bias_I_momentum_1, self.sgd_cache_bias_I_momentum_2)             # <<<<<<<<<<<<<<
  * 
  *                 self.ITEM_bias[sampled_item] += self.learning_rate * local_gradient_bias_item
  */
-      __pyx_t_3 = ((struct __pyx_vtabstruct_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *)__pyx_v_self->__pyx_vtab)->adaptive_gradient(__pyx_v_self, __pyx_v_local_gradient_bias_item, __pyx_v_sampled_item, 0, __pyx_v_self->sgd_cache_bias_I, __pyx_v_self->sgd_cache_bias_I_momentum_1, __pyx_v_self->sgd_cache_bias_I_momentum_2); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 856, __pyx_L1_error)
+      __pyx_t_3 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *)__pyx_v_self->__pyx_vtab)->adaptive_gradient(__pyx_v_self, __pyx_v_local_gradient_bias_item, __pyx_v_sampled_item, 0, __pyx_v_self->sgd_cache_bias_I, __pyx_v_self->sgd_cache_bias_I_momentum_1, __pyx_v_self->sgd_cache_bias_I_momentum_2); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 856, __pyx_L1_error)
       __pyx_v_local_gradient_bias_item = __pyx_t_3;
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":858
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":858
  *                 local_gradient_bias_item = self.adaptive_gradient(local_gradient_bias_item, sampled_item, 0, self.sgd_cache_bias_I, self.sgd_cache_bias_I_momentum_1, self.sgd_cache_bias_I_momentum_2)
  * 
  *                 self.ITEM_bias[sampled_item] += self.learning_rate * local_gradient_bias_item             # <<<<<<<<<<<<<<
@@ -29580,7 +29575,7 @@ static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
       __pyx_t_2 = __pyx_v_sampled_item;
       *((double *) ( /* dim=0 */ (__pyx_v_self->ITEM_bias.data + __pyx_t_2 * __pyx_v_self->ITEM_bias.strides[0]) )) += (__pyx_v_self->learning_rate * __pyx_v_local_gradient_bias_item);
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":859
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":859
  * 
  *                 self.ITEM_bias[sampled_item] += self.learning_rate * local_gradient_bias_item
  *                 self.ITEM_bias_minibatch_accumulator[sampled_item] = 0.0             # <<<<<<<<<<<<<<
@@ -29590,7 +29585,7 @@ static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
       __pyx_t_2 = __pyx_v_sampled_item;
       *((double *) ( /* dim=0 */ (__pyx_v_self->ITEM_bias_minibatch_accumulator.data + __pyx_t_2 * __pyx_v_self->ITEM_bias_minibatch_accumulator.strides[0]) )) = 0.0;
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":854
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":854
  *             sampled_item = self.mini_batch_sampled_items[n_sample_in_batch]
  * 
  *             if self.use_bias:             # <<<<<<<<<<<<<<
@@ -29599,7 +29594,7 @@ static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
  */
     }
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":861
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":861
  *                 self.ITEM_bias_minibatch_accumulator[sampled_item] = 0.0
  * 
  *             if self.use_embeddings:             # <<<<<<<<<<<<<<
@@ -29609,7 +29604,7 @@ static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
     __pyx_t_1 = (__pyx_v_self->use_embeddings != 0);
     if (__pyx_t_1) {
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":862
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":862
  * 
  *             if self.use_embeddings:
  *                 for factor_index in range(self.n_factors):             # <<<<<<<<<<<<<<
@@ -29621,7 +29616,7 @@ static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
       for (__pyx_t_9 = 0; __pyx_t_9 < __pyx_t_8; __pyx_t_9+=1) {
         __pyx_v_factor_index = __pyx_t_9;
 
-        /* "MatrixFactorization_Cython_Epoch.pyx":863
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":863
  *             if self.use_embeddings:
  *                 for factor_index in range(self.n_factors):
  *                     if self.factors_dropout_mask[factor_index]:             # <<<<<<<<<<<<<<
@@ -29632,7 +29627,7 @@ static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
         __pyx_t_1 = ((*((int *) ( /* dim=0 */ (__pyx_v_self->factors_dropout_mask.data + __pyx_t_2 * __pyx_v_self->factors_dropout_mask.strides[0]) ))) != 0);
         if (__pyx_t_1) {
 
-          /* "MatrixFactorization_Cython_Epoch.pyx":864
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":864
  *                 for factor_index in range(self.n_factors):
  *                     if self.factors_dropout_mask[factor_index]:
  *                         local_gradient_item = self.ITEM_factors_minibatch_accumulator[sampled_item, factor_index] / self.batch_size             # <<<<<<<<<<<<<<
@@ -29643,17 +29638,17 @@ static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
           __pyx_t_10 = __pyx_v_factor_index;
           __pyx_v_local_gradient_item = ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_self->ITEM_factors_minibatch_accumulator.data + __pyx_t_2 * __pyx_v_self->ITEM_factors_minibatch_accumulator.strides[0]) ) + __pyx_t_10 * __pyx_v_self->ITEM_factors_minibatch_accumulator.strides[1]) ))) / ((double)__pyx_v_self->batch_size));
 
-          /* "MatrixFactorization_Cython_Epoch.pyx":865
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":865
  *                     if self.factors_dropout_mask[factor_index]:
  *                         local_gradient_item = self.ITEM_factors_minibatch_accumulator[sampled_item, factor_index] / self.batch_size
  *                         local_gradient_item = self.adaptive_gradient(local_gradient_item, sampled_item, factor_index, self.sgd_cache_I, self.sgd_cache_I_momentum_1, self.sgd_cache_I_momentum_2)             # <<<<<<<<<<<<<<
  * 
  *                         self.ITEM_factors[sampled_item, factor_index] += self.learning_rate * local_gradient_item
  */
-          __pyx_t_3 = ((struct __pyx_vtabstruct_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *)__pyx_v_self->__pyx_vtab)->adaptive_gradient(__pyx_v_self, __pyx_v_local_gradient_item, __pyx_v_sampled_item, __pyx_v_factor_index, __pyx_v_self->sgd_cache_I, __pyx_v_self->sgd_cache_I_momentum_1, __pyx_v_self->sgd_cache_I_momentum_2); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 865, __pyx_L1_error)
+          __pyx_t_3 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *)__pyx_v_self->__pyx_vtab)->adaptive_gradient(__pyx_v_self, __pyx_v_local_gradient_item, __pyx_v_sampled_item, __pyx_v_factor_index, __pyx_v_self->sgd_cache_I, __pyx_v_self->sgd_cache_I_momentum_1, __pyx_v_self->sgd_cache_I_momentum_2); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 865, __pyx_L1_error)
           __pyx_v_local_gradient_item = __pyx_t_3;
 
-          /* "MatrixFactorization_Cython_Epoch.pyx":867
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":867
  *                         local_gradient_item = self.adaptive_gradient(local_gradient_item, sampled_item, factor_index, self.sgd_cache_I, self.sgd_cache_I_momentum_1, self.sgd_cache_I_momentum_2)
  * 
  *                         self.ITEM_factors[sampled_item, factor_index] += self.learning_rate * local_gradient_item             # <<<<<<<<<<<<<<
@@ -29664,7 +29659,7 @@ static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
           __pyx_t_2 = __pyx_v_factor_index;
           *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_self->ITEM_factors.data + __pyx_t_10 * __pyx_v_self->ITEM_factors.strides[0]) ) + __pyx_t_2 * __pyx_v_self->ITEM_factors.strides[1]) )) += (__pyx_v_self->learning_rate * __pyx_v_local_gradient_item);
 
-          /* "MatrixFactorization_Cython_Epoch.pyx":868
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":868
  * 
  *                         self.ITEM_factors[sampled_item, factor_index] += self.learning_rate * local_gradient_item
  *                         self.ITEM_factors_minibatch_accumulator[sampled_item, factor_index] = 0.0             # <<<<<<<<<<<<<<
@@ -29675,7 +29670,7 @@ static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
           __pyx_t_10 = __pyx_v_factor_index;
           *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_self->ITEM_factors_minibatch_accumulator.data + __pyx_t_2 * __pyx_v_self->ITEM_factors_minibatch_accumulator.strides[0]) ) + __pyx_t_10 * __pyx_v_self->ITEM_factors_minibatch_accumulator.strides[1]) )) = 0.0;
 
-          /* "MatrixFactorization_Cython_Epoch.pyx":863
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":863
  *             if self.use_embeddings:
  *                 for factor_index in range(self.n_factors):
  *                     if self.factors_dropout_mask[factor_index]:             # <<<<<<<<<<<<<<
@@ -29685,7 +29680,7 @@ static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
         }
       }
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":861
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":861
  *                 self.ITEM_bias_minibatch_accumulator[sampled_item] = 0.0
  * 
  *             if self.use_embeddings:             # <<<<<<<<<<<<<<
@@ -29695,7 +29690,7 @@ static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
     }
   }
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":874
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":874
  * 
  * 
  *         for n_sample_in_batch in range(self.mini_batch_sampled_users_counter):             # <<<<<<<<<<<<<<
@@ -29707,7 +29702,7 @@ static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
   for (__pyx_t_6 = 0; __pyx_t_6 < __pyx_t_5; __pyx_t_6+=1) {
     __pyx_v_n_sample_in_batch = __pyx_t_6;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":876
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":876
  *         for n_sample_in_batch in range(self.mini_batch_sampled_users_counter):
  * 
  *             sampled_user = self.mini_batch_sampled_users[n_sample_in_batch]             # <<<<<<<<<<<<<<
@@ -29717,7 +29712,7 @@ static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
     __pyx_t_10 = __pyx_v_n_sample_in_batch;
     __pyx_v_sampled_user = (*((long *) ( /* dim=0 */ (__pyx_v_self->mini_batch_sampled_users.data + __pyx_t_10 * __pyx_v_self->mini_batch_sampled_users.strides[0]) )));
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":878
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":878
  *             sampled_user = self.mini_batch_sampled_users[n_sample_in_batch]
  * 
  *             if self.use_bias:             # <<<<<<<<<<<<<<
@@ -29727,7 +29722,7 @@ static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
     __pyx_t_1 = (__pyx_v_self->use_bias != 0);
     if (__pyx_t_1) {
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":879
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":879
  * 
  *             if self.use_bias:
  *                 local_gradient_bias_user = self.USER_bias_minibatch_accumulator[sampled_user] / self.batch_size             # <<<<<<<<<<<<<<
@@ -29737,17 +29732,17 @@ static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
       __pyx_t_10 = __pyx_v_sampled_user;
       __pyx_v_local_gradient_bias_user = ((*((double *) ( /* dim=0 */ (__pyx_v_self->USER_bias_minibatch_accumulator.data + __pyx_t_10 * __pyx_v_self->USER_bias_minibatch_accumulator.strides[0]) ))) / ((double)__pyx_v_self->batch_size));
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":880
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":880
  *             if self.use_bias:
  *                 local_gradient_bias_user = self.USER_bias_minibatch_accumulator[sampled_user] / self.batch_size
  *                 local_gradient_bias_user = self.adaptive_gradient(local_gradient_bias_user, sampled_user, 0, self.sgd_cache_bias_U, self.sgd_cache_bias_U_momentum_1, self.sgd_cache_bias_U_momentum_2)             # <<<<<<<<<<<<<<
  * 
  *                 self.USER_bias[sampled_user] += self.learning_rate * local_gradient_bias_user
  */
-      __pyx_t_3 = ((struct __pyx_vtabstruct_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *)__pyx_v_self->__pyx_vtab)->adaptive_gradient(__pyx_v_self, __pyx_v_local_gradient_bias_user, __pyx_v_sampled_user, 0, __pyx_v_self->sgd_cache_bias_U, __pyx_v_self->sgd_cache_bias_U_momentum_1, __pyx_v_self->sgd_cache_bias_U_momentum_2); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 880, __pyx_L1_error)
+      __pyx_t_3 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *)__pyx_v_self->__pyx_vtab)->adaptive_gradient(__pyx_v_self, __pyx_v_local_gradient_bias_user, __pyx_v_sampled_user, 0, __pyx_v_self->sgd_cache_bias_U, __pyx_v_self->sgd_cache_bias_U_momentum_1, __pyx_v_self->sgd_cache_bias_U_momentum_2); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 880, __pyx_L1_error)
       __pyx_v_local_gradient_bias_user = __pyx_t_3;
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":882
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":882
  *                 local_gradient_bias_user = self.adaptive_gradient(local_gradient_bias_user, sampled_user, 0, self.sgd_cache_bias_U, self.sgd_cache_bias_U_momentum_1, self.sgd_cache_bias_U_momentum_2)
  * 
  *                 self.USER_bias[sampled_user] += self.learning_rate * local_gradient_bias_user             # <<<<<<<<<<<<<<
@@ -29757,7 +29752,7 @@ static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
       __pyx_t_10 = __pyx_v_sampled_user;
       *((double *) ( /* dim=0 */ (__pyx_v_self->USER_bias.data + __pyx_t_10 * __pyx_v_self->USER_bias.strides[0]) )) += (__pyx_v_self->learning_rate * __pyx_v_local_gradient_bias_user);
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":883
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":883
  * 
  *                 self.USER_bias[sampled_user] += self.learning_rate * local_gradient_bias_user
  *                 self.USER_bias_minibatch_accumulator[sampled_user] = 0.0             # <<<<<<<<<<<<<<
@@ -29767,7 +29762,7 @@ static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
       __pyx_t_10 = __pyx_v_sampled_user;
       *((double *) ( /* dim=0 */ (__pyx_v_self->USER_bias_minibatch_accumulator.data + __pyx_t_10 * __pyx_v_self->USER_bias_minibatch_accumulator.strides[0]) )) = 0.0;
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":878
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":878
  *             sampled_user = self.mini_batch_sampled_users[n_sample_in_batch]
  * 
  *             if self.use_bias:             # <<<<<<<<<<<<<<
@@ -29776,7 +29771,7 @@ static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
  */
     }
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":885
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":885
  *                 self.USER_bias_minibatch_accumulator[sampled_user] = 0.0
  * 
  *             if self.use_embeddings:             # <<<<<<<<<<<<<<
@@ -29786,7 +29781,7 @@ static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
     __pyx_t_1 = (__pyx_v_self->use_embeddings != 0);
     if (__pyx_t_1) {
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":886
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":886
  * 
  *             if self.use_embeddings:
  *                 for factor_index in range(self.n_factors):             # <<<<<<<<<<<<<<
@@ -29798,7 +29793,7 @@ static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
       for (__pyx_t_9 = 0; __pyx_t_9 < __pyx_t_8; __pyx_t_9+=1) {
         __pyx_v_factor_index = __pyx_t_9;
 
-        /* "MatrixFactorization_Cython_Epoch.pyx":888
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":888
  *                 for factor_index in range(self.n_factors):
  * 
  *                     if self.factors_dropout_mask[factor_index]:             # <<<<<<<<<<<<<<
@@ -29809,7 +29804,7 @@ static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
         __pyx_t_1 = ((*((int *) ( /* dim=0 */ (__pyx_v_self->factors_dropout_mask.data + __pyx_t_10 * __pyx_v_self->factors_dropout_mask.strides[0]) ))) != 0);
         if (__pyx_t_1) {
 
-          /* "MatrixFactorization_Cython_Epoch.pyx":889
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":889
  * 
  *                     if self.factors_dropout_mask[factor_index]:
  *                         local_gradient_user = self.USER_factors_minibatch_accumulator[sampled_user, factor_index] / self.batch_size             # <<<<<<<<<<<<<<
@@ -29820,17 +29815,17 @@ static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
           __pyx_t_2 = __pyx_v_factor_index;
           __pyx_v_local_gradient_user = ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_self->USER_factors_minibatch_accumulator.data + __pyx_t_10 * __pyx_v_self->USER_factors_minibatch_accumulator.strides[0]) ) + __pyx_t_2 * __pyx_v_self->USER_factors_minibatch_accumulator.strides[1]) ))) / ((double)__pyx_v_self->batch_size));
 
-          /* "MatrixFactorization_Cython_Epoch.pyx":890
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":890
  *                     if self.factors_dropout_mask[factor_index]:
  *                         local_gradient_user = self.USER_factors_minibatch_accumulator[sampled_user, factor_index] / self.batch_size
  *                         local_gradient_user = self.adaptive_gradient(local_gradient_user, sampled_user, factor_index, self.sgd_cache_U, self.sgd_cache_U_momentum_1, self.sgd_cache_U_momentum_2)             # <<<<<<<<<<<<<<
  * 
  *                         self.USER_factors[sampled_user, factor_index] += self.learning_rate * local_gradient_user
  */
-          __pyx_t_3 = ((struct __pyx_vtabstruct_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *)__pyx_v_self->__pyx_vtab)->adaptive_gradient(__pyx_v_self, __pyx_v_local_gradient_user, __pyx_v_sampled_user, __pyx_v_factor_index, __pyx_v_self->sgd_cache_U, __pyx_v_self->sgd_cache_U_momentum_1, __pyx_v_self->sgd_cache_U_momentum_2); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 890, __pyx_L1_error)
+          __pyx_t_3 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *)__pyx_v_self->__pyx_vtab)->adaptive_gradient(__pyx_v_self, __pyx_v_local_gradient_user, __pyx_v_sampled_user, __pyx_v_factor_index, __pyx_v_self->sgd_cache_U, __pyx_v_self->sgd_cache_U_momentum_1, __pyx_v_self->sgd_cache_U_momentum_2); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 890, __pyx_L1_error)
           __pyx_v_local_gradient_user = __pyx_t_3;
 
-          /* "MatrixFactorization_Cython_Epoch.pyx":892
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":892
  *                         local_gradient_user = self.adaptive_gradient(local_gradient_user, sampled_user, factor_index, self.sgd_cache_U, self.sgd_cache_U_momentum_1, self.sgd_cache_U_momentum_2)
  * 
  *                         self.USER_factors[sampled_user, factor_index] += self.learning_rate * local_gradient_user             # <<<<<<<<<<<<<<
@@ -29841,7 +29836,7 @@ static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
           __pyx_t_10 = __pyx_v_factor_index;
           *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_self->USER_factors.data + __pyx_t_2 * __pyx_v_self->USER_factors.strides[0]) ) + __pyx_t_10 * __pyx_v_self->USER_factors.strides[1]) )) += (__pyx_v_self->learning_rate * __pyx_v_local_gradient_user);
 
-          /* "MatrixFactorization_Cython_Epoch.pyx":893
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":893
  * 
  *                         self.USER_factors[sampled_user, factor_index] += self.learning_rate * local_gradient_user
  *                         self.USER_factors_minibatch_accumulator[sampled_user, factor_index] = 0.0             # <<<<<<<<<<<<<<
@@ -29852,7 +29847,7 @@ static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
           __pyx_t_2 = __pyx_v_factor_index;
           *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_self->USER_factors_minibatch_accumulator.data + __pyx_t_10 * __pyx_v_self->USER_factors_minibatch_accumulator.strides[0]) ) + __pyx_t_2 * __pyx_v_self->USER_factors_minibatch_accumulator.strides[1]) )) = 0.0;
 
-          /* "MatrixFactorization_Cython_Epoch.pyx":888
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":888
  *                 for factor_index in range(self.n_factors):
  * 
  *                     if self.factors_dropout_mask[factor_index]:             # <<<<<<<<<<<<<<
@@ -29862,7 +29857,7 @@ static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
         }
       }
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":885
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":885
  *                 self.USER_bias_minibatch_accumulator[sampled_user] = 0.0
  * 
  *             if self.use_embeddings:             # <<<<<<<<<<<<<<
@@ -29872,7 +29867,7 @@ static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
     }
   }
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":831
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":831
  * 
  * 
  *     cdef void _apply_minibatch_updates_to_latent_factors(self):             # <<<<<<<<<<<<<<
@@ -29883,11 +29878,11 @@ static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
   /* function exit code */
   goto __pyx_L0;
   __pyx_L1_error:;
-  __Pyx_AddTraceback("MatrixFactorization_Cython_Epoch.MatrixFactorization_Cython_Epoch._apply_minibatch_updates_to_latent_factors", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.MatrixFactorization.Cython.MatrixFactorization_Cython_Epoch.MatrixFactorization_Cython_Epoch._apply_minibatch_updates_to_latent_factors", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_L0:;
 }
 
-/* "MatrixFactorization_Cython_Epoch.pyx":899
+/* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":899
  * 
  * 
  *     cdef double adaptive_gradient(self, double gradient, long user_or_item_id, long factor_id, double[:,:] sgd_cache, double[:,:] sgd_cache_momentum_1, double[:,:] sgd_cache_momentum_2):             # <<<<<<<<<<<<<<
@@ -29895,7 +29890,7 @@ static void __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cyt
  * 
  */
 
-static double __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_adaptive_gradient(struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self, double __pyx_v_gradient, long __pyx_v_user_or_item_id, long __pyx_v_factor_id, __Pyx_memviewslice __pyx_v_sgd_cache, __Pyx_memviewslice __pyx_v_sgd_cache_momentum_1, __Pyx_memviewslice __pyx_v_sgd_cache_momentum_2) {
+static double __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_adaptive_gradient(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self, double __pyx_v_gradient, long __pyx_v_user_or_item_id, long __pyx_v_factor_id, __Pyx_memviewslice __pyx_v_sgd_cache, __Pyx_memviewslice __pyx_v_sgd_cache_momentum_1, __Pyx_memviewslice __pyx_v_sgd_cache_momentum_2) {
   double __pyx_v_gradient_update;
   double __pyx_r;
   int __pyx_t_1;
@@ -29904,7 +29899,7 @@ static double __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_C
   Py_ssize_t __pyx_t_4;
   Py_ssize_t __pyx_t_5;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":904
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":904
  *         cdef double gradient_update
  * 
  *         if self.useAdaGrad:             # <<<<<<<<<<<<<<
@@ -29914,7 +29909,7 @@ static double __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_C
   __pyx_t_1 = (__pyx_v_self->useAdaGrad != 0);
   if (__pyx_t_1) {
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":905
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":905
  * 
  *         if self.useAdaGrad:
  *             sgd_cache[user_or_item_id, factor_id] += gradient ** 2             # <<<<<<<<<<<<<<
@@ -29925,7 +29920,7 @@ static double __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_C
     __pyx_t_3 = __pyx_v_factor_id;
     *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_sgd_cache.data + __pyx_t_2 * __pyx_v_sgd_cache.strides[0]) ) + __pyx_t_3 * __pyx_v_sgd_cache.strides[1]) )) += pow(__pyx_v_gradient, 2.0);
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":907
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":907
  *             sgd_cache[user_or_item_id, factor_id] += gradient ** 2
  * 
  *             gradient_update = gradient / (sqrt(sgd_cache[user_or_item_id, factor_id]) + 1e-8)             # <<<<<<<<<<<<<<
@@ -29936,7 +29931,7 @@ static double __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_C
     __pyx_t_2 = __pyx_v_factor_id;
     __pyx_v_gradient_update = (__pyx_v_gradient / (sqrt((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_sgd_cache.data + __pyx_t_3 * __pyx_v_sgd_cache.strides[0]) ) + __pyx_t_2 * __pyx_v_sgd_cache.strides[1]) )))) + 1e-8));
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":904
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":904
  *         cdef double gradient_update
  * 
  *         if self.useAdaGrad:             # <<<<<<<<<<<<<<
@@ -29946,7 +29941,7 @@ static double __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_C
     goto __pyx_L3;
   }
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":910
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":910
  * 
  * 
  *         elif self.useRmsprop:             # <<<<<<<<<<<<<<
@@ -29956,7 +29951,7 @@ static double __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_C
   __pyx_t_1 = (__pyx_v_self->useRmsprop != 0);
   if (__pyx_t_1) {
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":911
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":911
  * 
  *         elif self.useRmsprop:
  *             sgd_cache[user_or_item_id, factor_id] = sgd_cache[user_or_item_id, factor_id] * self.gamma + (1 - self.gamma) * gradient ** 2             # <<<<<<<<<<<<<<
@@ -29969,7 +29964,7 @@ static double __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_C
     __pyx_t_5 = __pyx_v_factor_id;
     *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_sgd_cache.data + __pyx_t_4 * __pyx_v_sgd_cache.strides[0]) ) + __pyx_t_5 * __pyx_v_sgd_cache.strides[1]) )) = (((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_sgd_cache.data + __pyx_t_2 * __pyx_v_sgd_cache.strides[0]) ) + __pyx_t_3 * __pyx_v_sgd_cache.strides[1]) ))) * __pyx_v_self->gamma) + ((1.0 - __pyx_v_self->gamma) * pow(__pyx_v_gradient, 2.0)));
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":913
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":913
  *             sgd_cache[user_or_item_id, factor_id] = sgd_cache[user_or_item_id, factor_id] * self.gamma + (1 - self.gamma) * gradient ** 2
  * 
  *             gradient_update = gradient / (sqrt(sgd_cache[user_or_item_id, factor_id]) + 1e-8)             # <<<<<<<<<<<<<<
@@ -29980,7 +29975,7 @@ static double __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_C
     __pyx_t_2 = __pyx_v_factor_id;
     __pyx_v_gradient_update = (__pyx_v_gradient / (sqrt((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_sgd_cache.data + __pyx_t_3 * __pyx_v_sgd_cache.strides[0]) ) + __pyx_t_2 * __pyx_v_sgd_cache.strides[1]) )))) + 1e-8));
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":910
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":910
  * 
  * 
  *         elif self.useRmsprop:             # <<<<<<<<<<<<<<
@@ -29990,7 +29985,7 @@ static double __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_C
     goto __pyx_L3;
   }
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":916
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":916
  * 
  * 
  *         elif self.useAdam:             # <<<<<<<<<<<<<<
@@ -30000,7 +29995,7 @@ static double __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_C
   __pyx_t_1 = (__pyx_v_self->useAdam != 0);
   if (__pyx_t_1) {
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":919
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":919
  * 
  *             sgd_cache_momentum_1[user_or_item_id, factor_id] = \
  *                 sgd_cache_momentum_1[user_or_item_id, factor_id] * self.beta_1 + (1 - self.beta_1) * gradient             # <<<<<<<<<<<<<<
@@ -30010,7 +30005,7 @@ static double __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_C
     __pyx_t_2 = __pyx_v_user_or_item_id;
     __pyx_t_3 = __pyx_v_factor_id;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":918
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":918
  *         elif self.useAdam:
  * 
  *             sgd_cache_momentum_1[user_or_item_id, factor_id] = \             # <<<<<<<<<<<<<<
@@ -30021,7 +30016,7 @@ static double __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_C
     __pyx_t_4 = __pyx_v_factor_id;
     *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_sgd_cache_momentum_1.data + __pyx_t_5 * __pyx_v_sgd_cache_momentum_1.strides[0]) ) + __pyx_t_4 * __pyx_v_sgd_cache_momentum_1.strides[1]) )) = (((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_sgd_cache_momentum_1.data + __pyx_t_2 * __pyx_v_sgd_cache_momentum_1.strides[0]) ) + __pyx_t_3 * __pyx_v_sgd_cache_momentum_1.strides[1]) ))) * __pyx_v_self->beta_1) + ((1.0 - __pyx_v_self->beta_1) * __pyx_v_gradient));
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":922
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":922
  * 
  *             sgd_cache_momentum_2[user_or_item_id, factor_id] = \
  *                 sgd_cache_momentum_2[user_or_item_id, factor_id] * self.beta_2 + (1 - self.beta_2) * gradient**2             # <<<<<<<<<<<<<<
@@ -30031,7 +30026,7 @@ static double __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_C
     __pyx_t_3 = __pyx_v_user_or_item_id;
     __pyx_t_2 = __pyx_v_factor_id;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":921
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":921
  *                 sgd_cache_momentum_1[user_or_item_id, factor_id] * self.beta_1 + (1 - self.beta_1) * gradient
  * 
  *             sgd_cache_momentum_2[user_or_item_id, factor_id] = \             # <<<<<<<<<<<<<<
@@ -30042,7 +30037,7 @@ static double __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_C
     __pyx_t_5 = __pyx_v_factor_id;
     *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_sgd_cache_momentum_2.data + __pyx_t_4 * __pyx_v_sgd_cache_momentum_2.strides[0]) ) + __pyx_t_5 * __pyx_v_sgd_cache_momentum_2.strides[1]) )) = (((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_sgd_cache_momentum_2.data + __pyx_t_3 * __pyx_v_sgd_cache_momentum_2.strides[0]) ) + __pyx_t_2 * __pyx_v_sgd_cache_momentum_2.strides[1]) ))) * __pyx_v_self->beta_2) + ((1.0 - __pyx_v_self->beta_2) * pow(__pyx_v_gradient, 2.0)));
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":925
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":925
  * 
  * 
  *             self.momentum_1 = sgd_cache_momentum_1[user_or_item_id, factor_id]/ (1 - self.beta_1_power_t)             # <<<<<<<<<<<<<<
@@ -30053,7 +30048,7 @@ static double __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_C
     __pyx_t_3 = __pyx_v_factor_id;
     __pyx_v_self->momentum_1 = ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_sgd_cache_momentum_1.data + __pyx_t_2 * __pyx_v_sgd_cache_momentum_1.strides[0]) ) + __pyx_t_3 * __pyx_v_sgd_cache_momentum_1.strides[1]) ))) / (1.0 - __pyx_v_self->beta_1_power_t));
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":926
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":926
  * 
  *             self.momentum_1 = sgd_cache_momentum_1[user_or_item_id, factor_id]/ (1 - self.beta_1_power_t)
  *             self.momentum_2 = sgd_cache_momentum_2[user_or_item_id, factor_id]/ (1 - self.beta_2_power_t)             # <<<<<<<<<<<<<<
@@ -30064,7 +30059,7 @@ static double __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_C
     __pyx_t_2 = __pyx_v_factor_id;
     __pyx_v_self->momentum_2 = ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_sgd_cache_momentum_2.data + __pyx_t_3 * __pyx_v_sgd_cache_momentum_2.strides[0]) ) + __pyx_t_2 * __pyx_v_sgd_cache_momentum_2.strides[1]) ))) / (1.0 - __pyx_v_self->beta_2_power_t));
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":928
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":928
  *             self.momentum_2 = sgd_cache_momentum_2[user_or_item_id, factor_id]/ (1 - self.beta_2_power_t)
  * 
  *             gradient_update = self.momentum_1/ (sqrt(self.momentum_2) + 1e-8)             # <<<<<<<<<<<<<<
@@ -30073,7 +30068,7 @@ static double __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_C
  */
     __pyx_v_gradient_update = (__pyx_v_self->momentum_1 / (sqrt(__pyx_v_self->momentum_2) + 1e-8));
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":916
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":916
  * 
  * 
  *         elif self.useAdam:             # <<<<<<<<<<<<<<
@@ -30083,7 +30078,7 @@ static double __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_C
     goto __pyx_L3;
   }
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":933
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":933
  *         else:
  * 
  *             gradient_update = gradient             # <<<<<<<<<<<<<<
@@ -30095,7 +30090,7 @@ static double __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_C
   }
   __pyx_L3:;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":937
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":937
  * 
  * 
  *         return gradient_update             # <<<<<<<<<<<<<<
@@ -30105,7 +30100,7 @@ static double __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_C
   __pyx_r = __pyx_v_gradient_update;
   goto __pyx_L0;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":899
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":899
  * 
  * 
  *     cdef double adaptive_gradient(self, double gradient, long user_or_item_id, long factor_id, double[:,:] sgd_cache, double[:,:] sgd_cache_momentum_1, double[:,:] sgd_cache_momentum_2):             # <<<<<<<<<<<<<<
@@ -30118,7 +30113,7 @@ static double __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_C
   return __pyx_r;
 }
 
-/* "MatrixFactorization_Cython_Epoch.pyx":942
+/* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":942
  * 
  * 
  *     cdef MSE_sample sampleMSE_Cython(self):             # <<<<<<<<<<<<<<
@@ -30126,21 +30121,21 @@ static double __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_C
  *         cdef MSE_sample sample = MSE_sample(-1,-1,-1.0)
  */
 
-static struct __pyx_t_32MatrixFactorization_Cython_Epoch_MSE_sample __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_sampleMSE_Cython(struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self) {
-  struct __pyx_t_32MatrixFactorization_Cython_Epoch_MSE_sample __pyx_v_sample;
+static struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MSE_sample __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_sampleMSE_Cython(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self) {
+  struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MSE_sample __pyx_v_sample;
   long __pyx_v_index;
   long __pyx_v_start_pos_seen_items;
   long __pyx_v_end_pos_seen_items;
   int __pyx_v_neg_item_selected;
   int __pyx_v_sample_positive;
   int __pyx_v_n_seen_items;
-  struct __pyx_t_32MatrixFactorization_Cython_Epoch_MSE_sample __pyx_r;
-  struct __pyx_t_32MatrixFactorization_Cython_Epoch_MSE_sample __pyx_t_1;
+  struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MSE_sample __pyx_r;
+  struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MSE_sample __pyx_t_1;
   int __pyx_t_2;
   int __pyx_t_3;
   Py_ssize_t __pyx_t_4;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":944
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":944
  *     cdef MSE_sample sampleMSE_Cython(self):
  * 
  *         cdef MSE_sample sample = MSE_sample(-1,-1,-1.0)             # <<<<<<<<<<<<<<
@@ -30152,7 +30147,7 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_MSE_sample __pyx_f_32Ma
   __pyx_t_1.rating = -1.0;
   __pyx_v_sample = __pyx_t_1;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":947
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":947
  *         cdef long index, start_pos_seen_items, end_pos_seen_items
  * 
  *         cdef int neg_item_selected, sample_positive, n_seen_items = 0             # <<<<<<<<<<<<<<
@@ -30161,7 +30156,7 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_MSE_sample __pyx_f_32Ma
  */
   __pyx_v_n_seen_items = 0;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":950
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":950
  * 
  *         # Skip users with no interactions or with no negative items
  *         while n_seen_items == 0 or n_seen_items == self.n_items:             # <<<<<<<<<<<<<<
@@ -30180,7 +30175,7 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_MSE_sample __pyx_f_32Ma
     __pyx_L5_bool_binop_done:;
     if (!__pyx_t_2) break;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":952
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":952
  *         while n_seen_items == 0 or n_seen_items == self.n_items:
  * 
  *             sample.user = rand() % self.n_users             # <<<<<<<<<<<<<<
@@ -30189,7 +30184,7 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_MSE_sample __pyx_f_32Ma
  */
     __pyx_v_sample.user = (rand() % __pyx_v_self->n_users);
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":954
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":954
  *             sample.user = rand() % self.n_users
  * 
  *             start_pos_seen_items = self.URM_train_indptr[sample.user]             # <<<<<<<<<<<<<<
@@ -30199,7 +30194,7 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_MSE_sample __pyx_f_32Ma
     __pyx_t_4 = __pyx_v_sample.user;
     __pyx_v_start_pos_seen_items = (*((int *) ( /* dim=0 */ (__pyx_v_self->URM_train_indptr.data + __pyx_t_4 * __pyx_v_self->URM_train_indptr.strides[0]) )));
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":955
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":955
  * 
  *             start_pos_seen_items = self.URM_train_indptr[sample.user]
  *             end_pos_seen_items = self.URM_train_indptr[sample.user+1]             # <<<<<<<<<<<<<<
@@ -30209,7 +30204,7 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_MSE_sample __pyx_f_32Ma
     __pyx_t_4 = (__pyx_v_sample.user + 1);
     __pyx_v_end_pos_seen_items = (*((int *) ( /* dim=0 */ (__pyx_v_self->URM_train_indptr.data + __pyx_t_4 * __pyx_v_self->URM_train_indptr.strides[0]) )));
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":957
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":957
  *             end_pos_seen_items = self.URM_train_indptr[sample.user+1]
  * 
  *             n_seen_items = end_pos_seen_items - start_pos_seen_items             # <<<<<<<<<<<<<<
@@ -30219,7 +30214,7 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_MSE_sample __pyx_f_32Ma
     __pyx_v_n_seen_items = (__pyx_v_end_pos_seen_items - __pyx_v_start_pos_seen_items);
   }
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":961
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":961
  * 
  *         # Decide to sample positive or negative
  *         if self.MSE_sample_negative_interactions_flag:             # <<<<<<<<<<<<<<
@@ -30229,7 +30224,7 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_MSE_sample __pyx_f_32Ma
   __pyx_t_2 = (__pyx_v_self->MSE_sample_negative_interactions_flag != 0);
   if (__pyx_t_2) {
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":962
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":962
  *         # Decide to sample positive or negative
  *         if self.MSE_sample_negative_interactions_flag:
  *             sample_positive = rand() <= self.MSE_negative_interactions_quota * RAND_MAX             # <<<<<<<<<<<<<<
@@ -30238,7 +30233,7 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_MSE_sample __pyx_f_32Ma
  */
     __pyx_v_sample_positive = (rand() <= (__pyx_v_self->MSE_negative_interactions_quota * RAND_MAX));
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":961
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":961
  * 
  *         # Decide to sample positive or negative
  *         if self.MSE_sample_negative_interactions_flag:             # <<<<<<<<<<<<<<
@@ -30248,7 +30243,7 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_MSE_sample __pyx_f_32Ma
     goto __pyx_L7;
   }
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":964
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":964
  *             sample_positive = rand() <= self.MSE_negative_interactions_quota * RAND_MAX
  *         else:
  *             sample_positive = True             # <<<<<<<<<<<<<<
@@ -30260,7 +30255,7 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_MSE_sample __pyx_f_32Ma
   }
   __pyx_L7:;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":967
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":967
  * 
  * 
  *         if sample_positive:             # <<<<<<<<<<<<<<
@@ -30270,7 +30265,7 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_MSE_sample __pyx_f_32Ma
   __pyx_t_2 = (__pyx_v_sample_positive != 0);
   if (__pyx_t_2) {
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":970
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":970
  * 
  *             # Sample positive
  *             index = rand() % n_seen_items             # <<<<<<<<<<<<<<
@@ -30279,7 +30274,7 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_MSE_sample __pyx_f_32Ma
  */
     __pyx_v_index = (rand() % __pyx_v_n_seen_items);
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":972
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":972
  *             index = rand() % n_seen_items
  * 
  *             sample.item = self.URM_train_indices[start_pos_seen_items + index]             # <<<<<<<<<<<<<<
@@ -30289,7 +30284,7 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_MSE_sample __pyx_f_32Ma
     __pyx_t_4 = (__pyx_v_start_pos_seen_items + __pyx_v_index);
     __pyx_v_sample.item = (*((int *) ( /* dim=0 */ (__pyx_v_self->URM_train_indices.data + __pyx_t_4 * __pyx_v_self->URM_train_indices.strides[0]) )));
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":973
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":973
  * 
  *             sample.item = self.URM_train_indices[start_pos_seen_items + index]
  *             sample.rating = self.URM_train_data[start_pos_seen_items + index]             # <<<<<<<<<<<<<<
@@ -30299,7 +30294,7 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_MSE_sample __pyx_f_32Ma
     __pyx_t_4 = (__pyx_v_start_pos_seen_items + __pyx_v_index);
     __pyx_v_sample.rating = (*((double *) ( /* dim=0 */ (__pyx_v_self->URM_train_data.data + __pyx_t_4 * __pyx_v_self->URM_train_data.strides[0]) )));
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":967
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":967
  * 
  * 
  *         if sample_positive:             # <<<<<<<<<<<<<<
@@ -30309,7 +30304,7 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_MSE_sample __pyx_f_32Ma
     goto __pyx_L8;
   }
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":978
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":978
  * 
  *             # Sample negative
  *             neg_item_selected = False             # <<<<<<<<<<<<<<
@@ -30319,7 +30314,7 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_MSE_sample __pyx_f_32Ma
   /*else*/ {
     __pyx_v_neg_item_selected = 0;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":982
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":982
  *             # It's faster to just try again then to build a mapping of the non-seen items
  *             # for every user
  *             while not neg_item_selected:             # <<<<<<<<<<<<<<
@@ -30330,7 +30325,7 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_MSE_sample __pyx_f_32Ma
       __pyx_t_2 = (!(__pyx_v_neg_item_selected != 0));
       if (!__pyx_t_2) break;
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":984
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":984
  *             while not neg_item_selected:
  * 
  *                 sample.item = rand() % self.n_items             # <<<<<<<<<<<<<<
@@ -30339,7 +30334,7 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_MSE_sample __pyx_f_32Ma
  */
       __pyx_v_sample.item = (rand() % __pyx_v_self->n_items);
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":985
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":985
  * 
  *                 sample.item = rand() % self.n_items
  *                 sample.rating = 0.0             # <<<<<<<<<<<<<<
@@ -30348,7 +30343,7 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_MSE_sample __pyx_f_32Ma
  */
       __pyx_v_sample.rating = 0.0;
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":987
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":987
  *                 sample.rating = 0.0
  * 
  *                 index = 0             # <<<<<<<<<<<<<<
@@ -30357,7 +30352,7 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_MSE_sample __pyx_f_32Ma
  */
       __pyx_v_index = 0;
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":989
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":989
  *                 index = 0
  *                 # Indices data is sorted, so I don't need to go to the end of the current row
  *                 while index < n_seen_items and self.URM_train_indices[start_pos_seen_items + index] < sample.item:             # <<<<<<<<<<<<<<
@@ -30377,7 +30372,7 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_MSE_sample __pyx_f_32Ma
         __pyx_L13_bool_binop_done:;
         if (!__pyx_t_2) break;
 
-        /* "MatrixFactorization_Cython_Epoch.pyx":990
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":990
  *                 # Indices data is sorted, so I don't need to go to the end of the current row
  *                 while index < n_seen_items and self.URM_train_indices[start_pos_seen_items + index] < sample.item:
  *                     index+=1             # <<<<<<<<<<<<<<
@@ -30387,7 +30382,7 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_MSE_sample __pyx_f_32Ma
         __pyx_v_index = (__pyx_v_index + 1);
       }
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":994
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":994
  *                 # If the positive item in position 'index' is == sample.item, negative not selected
  *                 # If the positive item in position 'index' is > sample.item or index == n_seen_items, negative selected
  *                 if index == n_seen_items or self.URM_train_indices[start_pos_seen_items + index] > sample.item:             # <<<<<<<<<<<<<<
@@ -30406,7 +30401,7 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_MSE_sample __pyx_f_32Ma
       __pyx_L16_bool_binop_done:;
       if (__pyx_t_2) {
 
-        /* "MatrixFactorization_Cython_Epoch.pyx":995
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":995
  *                 # If the positive item in position 'index' is > sample.item or index == n_seen_items, negative selected
  *                 if index == n_seen_items or self.URM_train_indices[start_pos_seen_items + index] > sample.item:
  *                     neg_item_selected = True             # <<<<<<<<<<<<<<
@@ -30415,7 +30410,7 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_MSE_sample __pyx_f_32Ma
  */
         __pyx_v_neg_item_selected = 1;
 
-        /* "MatrixFactorization_Cython_Epoch.pyx":994
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":994
  *                 # If the positive item in position 'index' is == sample.item, negative not selected
  *                 # If the positive item in position 'index' is > sample.item or index == n_seen_items, negative selected
  *                 if index == n_seen_items or self.URM_train_indices[start_pos_seen_items + index] > sample.item:             # <<<<<<<<<<<<<<
@@ -30427,7 +30422,7 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_MSE_sample __pyx_f_32Ma
   }
   __pyx_L8:;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":999
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":999
  * 
  * 
  *         return sample             # <<<<<<<<<<<<<<
@@ -30437,7 +30432,7 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_MSE_sample __pyx_f_32Ma
   __pyx_r = __pyx_v_sample;
   goto __pyx_L0;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":942
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":942
  * 
  * 
  *     cdef MSE_sample sampleMSE_Cython(self):             # <<<<<<<<<<<<<<
@@ -30450,7 +30445,7 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_MSE_sample __pyx_f_32Ma
   return __pyx_r;
 }
 
-/* "MatrixFactorization_Cython_Epoch.pyx":1004
+/* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":1004
  * 
  * 
  *     cdef BPR_sample sampleBPR_Cython(self):             # <<<<<<<<<<<<<<
@@ -30458,20 +30453,20 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_MSE_sample __pyx_f_32Ma
  *         cdef BPR_sample sample = BPR_sample(-1,-1,-1)
  */
 
-static struct __pyx_t_32MatrixFactorization_Cython_Epoch_BPR_sample __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_sampleBPR_Cython(struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self) {
-  struct __pyx_t_32MatrixFactorization_Cython_Epoch_BPR_sample __pyx_v_sample;
+static struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_BPR_sample __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_sampleBPR_Cython(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self) {
+  struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_BPR_sample __pyx_v_sample;
   long __pyx_v_index;
   long __pyx_v_start_pos_seen_items;
   long __pyx_v_end_pos_seen_items;
   int __pyx_v_neg_item_selected;
   int __pyx_v_n_seen_items;
-  struct __pyx_t_32MatrixFactorization_Cython_Epoch_BPR_sample __pyx_r;
-  struct __pyx_t_32MatrixFactorization_Cython_Epoch_BPR_sample __pyx_t_1;
+  struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_BPR_sample __pyx_r;
+  struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_BPR_sample __pyx_t_1;
   int __pyx_t_2;
   int __pyx_t_3;
   Py_ssize_t __pyx_t_4;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":1006
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":1006
  *     cdef BPR_sample sampleBPR_Cython(self):
  * 
  *         cdef BPR_sample sample = BPR_sample(-1,-1,-1)             # <<<<<<<<<<<<<<
@@ -30483,7 +30478,7 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_BPR_sample __pyx_f_32Ma
   __pyx_t_1.neg_item = -1L;
   __pyx_v_sample = __pyx_t_1;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":1009
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":1009
  *         cdef long index, start_pos_seen_items, end_pos_seen_items
  * 
  *         cdef int neg_item_selected, n_seen_items = 0             # <<<<<<<<<<<<<<
@@ -30492,7 +30487,7 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_BPR_sample __pyx_f_32Ma
  */
   __pyx_v_n_seen_items = 0;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":1013
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":1013
  * 
  *         # Skip users with no interactions or with no negative items
  *         while n_seen_items == 0 or n_seen_items == self.n_items:             # <<<<<<<<<<<<<<
@@ -30511,7 +30506,7 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_BPR_sample __pyx_f_32Ma
     __pyx_L5_bool_binop_done:;
     if (!__pyx_t_2) break;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":1015
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":1015
  *         while n_seen_items == 0 or n_seen_items == self.n_items:
  * 
  *             sample.user = rand() % self.n_users             # <<<<<<<<<<<<<<
@@ -30520,7 +30515,7 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_BPR_sample __pyx_f_32Ma
  */
     __pyx_v_sample.user = (rand() % __pyx_v_self->n_users);
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":1017
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":1017
  *             sample.user = rand() % self.n_users
  * 
  *             start_pos_seen_items = self.URM_train_indptr[sample.user]             # <<<<<<<<<<<<<<
@@ -30530,7 +30525,7 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_BPR_sample __pyx_f_32Ma
     __pyx_t_4 = __pyx_v_sample.user;
     __pyx_v_start_pos_seen_items = (*((int *) ( /* dim=0 */ (__pyx_v_self->URM_train_indptr.data + __pyx_t_4 * __pyx_v_self->URM_train_indptr.strides[0]) )));
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":1018
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":1018
  * 
  *             start_pos_seen_items = self.URM_train_indptr[sample.user]
  *             end_pos_seen_items = self.URM_train_indptr[sample.user+1]             # <<<<<<<<<<<<<<
@@ -30540,7 +30535,7 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_BPR_sample __pyx_f_32Ma
     __pyx_t_4 = (__pyx_v_sample.user + 1);
     __pyx_v_end_pos_seen_items = (*((int *) ( /* dim=0 */ (__pyx_v_self->URM_train_indptr.data + __pyx_t_4 * __pyx_v_self->URM_train_indptr.strides[0]) )));
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":1020
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":1020
  *             end_pos_seen_items = self.URM_train_indptr[sample.user+1]
  * 
  *             n_seen_items = end_pos_seen_items - start_pos_seen_items             # <<<<<<<<<<<<<<
@@ -30550,7 +30545,7 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_BPR_sample __pyx_f_32Ma
     __pyx_v_n_seen_items = (__pyx_v_end_pos_seen_items - __pyx_v_start_pos_seen_items);
   }
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":1023
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":1023
  * 
  * 
  *         index = rand() % n_seen_items             # <<<<<<<<<<<<<<
@@ -30559,7 +30554,7 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_BPR_sample __pyx_f_32Ma
  */
   __pyx_v_index = (rand() % __pyx_v_n_seen_items);
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":1025
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":1025
  *         index = rand() % n_seen_items
  * 
  *         sample.pos_item = self.URM_train_indices[start_pos_seen_items + index]             # <<<<<<<<<<<<<<
@@ -30569,7 +30564,7 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_BPR_sample __pyx_f_32Ma
   __pyx_t_4 = (__pyx_v_start_pos_seen_items + __pyx_v_index);
   __pyx_v_sample.pos_item = (*((int *) ( /* dim=0 */ (__pyx_v_self->URM_train_indices.data + __pyx_t_4 * __pyx_v_self->URM_train_indices.strides[0]) )));
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":1029
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":1029
  * 
  * 
  *         neg_item_selected = False             # <<<<<<<<<<<<<<
@@ -30578,7 +30573,7 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_BPR_sample __pyx_f_32Ma
  */
   __pyx_v_neg_item_selected = 0;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":1033
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":1033
  *         # It's faster to just try again then to build a mapping of the non-seen items
  *         # for every user
  *         while not neg_item_selected:             # <<<<<<<<<<<<<<
@@ -30589,7 +30584,7 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_BPR_sample __pyx_f_32Ma
     __pyx_t_2 = (!(__pyx_v_neg_item_selected != 0));
     if (!__pyx_t_2) break;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":1035
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":1035
  *         while not neg_item_selected:
  * 
  *             sample.neg_item = rand() % self.n_items             # <<<<<<<<<<<<<<
@@ -30598,7 +30593,7 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_BPR_sample __pyx_f_32Ma
  */
     __pyx_v_sample.neg_item = (rand() % __pyx_v_self->n_items);
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":1037
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":1037
  *             sample.neg_item = rand() % self.n_items
  * 
  *             index = 0             # <<<<<<<<<<<<<<
@@ -30607,7 +30602,7 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_BPR_sample __pyx_f_32Ma
  */
     __pyx_v_index = 0;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":1039
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":1039
  *             index = 0
  *             # Indices data is sorted, so I don't need to go to the end of the current row
  *             while index < n_seen_items and self.URM_train_indices[start_pos_seen_items + index] < sample.neg_item:             # <<<<<<<<<<<<<<
@@ -30627,7 +30622,7 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_BPR_sample __pyx_f_32Ma
       __pyx_L11_bool_binop_done:;
       if (!__pyx_t_2) break;
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":1040
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":1040
  *             # Indices data is sorted, so I don't need to go to the end of the current row
  *             while index < n_seen_items and self.URM_train_indices[start_pos_seen_items + index] < sample.neg_item:
  *                 index+=1             # <<<<<<<<<<<<<<
@@ -30637,7 +30632,7 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_BPR_sample __pyx_f_32Ma
       __pyx_v_index = (__pyx_v_index + 1);
     }
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":1044
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":1044
  *             # If the positive item in position 'index' is == sample.neg_item, negative not selected
  *             # If the positive item in position 'index' is > sample.neg_item or index == n_seen_items, negative selected
  *             if index == n_seen_items or self.URM_train_indices[start_pos_seen_items + index] > sample.neg_item:             # <<<<<<<<<<<<<<
@@ -30656,7 +30651,7 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_BPR_sample __pyx_f_32Ma
     __pyx_L14_bool_binop_done:;
     if (__pyx_t_2) {
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":1045
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":1045
  *             # If the positive item in position 'index' is > sample.neg_item or index == n_seen_items, negative selected
  *             if index == n_seen_items or self.URM_train_indices[start_pos_seen_items + index] > sample.neg_item:
  *                 neg_item_selected = True             # <<<<<<<<<<<<<<
@@ -30665,7 +30660,7 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_BPR_sample __pyx_f_32Ma
  */
       __pyx_v_neg_item_selected = 1;
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":1044
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":1044
  *             # If the positive item in position 'index' is == sample.neg_item, negative not selected
  *             # If the positive item in position 'index' is > sample.neg_item or index == n_seen_items, negative selected
  *             if index == n_seen_items or self.URM_train_indices[start_pos_seen_items + index] > sample.neg_item:             # <<<<<<<<<<<<<<
@@ -30675,7 +30670,7 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_BPR_sample __pyx_f_32Ma
     }
   }
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":1048
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":1048
  * 
  * 
  *         return sample             # <<<<<<<<<<<<<<
@@ -30685,7 +30680,7 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_BPR_sample __pyx_f_32Ma
   __pyx_r = __pyx_v_sample;
   goto __pyx_L0;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":1004
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":1004
  * 
  * 
  *     cdef BPR_sample sampleBPR_Cython(self):             # <<<<<<<<<<<<<<
@@ -30698,7 +30693,7 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_BPR_sample __pyx_f_32Ma
   return __pyx_r;
 }
 
-/* "MatrixFactorization_Cython_Epoch.pyx":1053
+/* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":1053
  * 
  * 
  *     cdef BPR_sample sampleWARP_Cython(self):             # <<<<<<<<<<<<<<
@@ -30706,8 +30701,8 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_BPR_sample __pyx_f_32Ma
  *         cdef BPR_sample sample = BPR_sample(-1,-1,-1)
  */
 
-static struct __pyx_t_32MatrixFactorization_Cython_Epoch_BPR_sample __pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_sampleWARP_Cython(struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self) {
-  struct __pyx_t_32MatrixFactorization_Cython_Epoch_BPR_sample __pyx_v_sample;
+static struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_BPR_sample __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_sampleWARP_Cython(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self) {
+  struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_BPR_sample __pyx_v_sample;
   long __pyx_v_index;
   long __pyx_v_factor_index;
   long __pyx_v_start_pos_seen_items;
@@ -30717,8 +30712,8 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_BPR_sample __pyx_f_32Ma
   int __pyx_v_neg_item_attempts;
   double __pyx_v_pos_item_prediction;
   double __pyx_v_neg_item_prediction;
-  struct __pyx_t_32MatrixFactorization_Cython_Epoch_BPR_sample __pyx_r;
-  struct __pyx_t_32MatrixFactorization_Cython_Epoch_BPR_sample __pyx_t_1;
+  struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_BPR_sample __pyx_r;
+  struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_BPR_sample __pyx_t_1;
   int __pyx_t_2;
   int __pyx_t_3;
   Py_ssize_t __pyx_t_4;
@@ -30729,7 +30724,7 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_BPR_sample __pyx_f_32Ma
   Py_ssize_t __pyx_t_9;
   Py_ssize_t __pyx_t_10;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":1055
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":1055
  *     cdef BPR_sample sampleWARP_Cython(self):
  * 
  *         cdef BPR_sample sample = BPR_sample(-1,-1,-1)             # <<<<<<<<<<<<<<
@@ -30741,7 +30736,7 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_BPR_sample __pyx_f_32Ma
   __pyx_t_1.neg_item = -1L;
   __pyx_v_sample = __pyx_t_1;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":1058
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":1058
  *         cdef long index, factor_index, start_pos_seen_items, end_pos_seen_items
  * 
  *         cdef int neg_item_selected, n_seen_items = 0, neg_item_attempts             # <<<<<<<<<<<<<<
@@ -30750,7 +30745,7 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_BPR_sample __pyx_f_32Ma
  */
   __pyx_v_n_seen_items = 0;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":1063
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":1063
  * 
  *         # Skip users with no interactions or with no negative items
  *         while n_seen_items == 0 or n_seen_items == self.n_items:             # <<<<<<<<<<<<<<
@@ -30769,7 +30764,7 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_BPR_sample __pyx_f_32Ma
     __pyx_L5_bool_binop_done:;
     if (!__pyx_t_2) break;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":1065
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":1065
  *         while n_seen_items == 0 or n_seen_items == self.n_items:
  * 
  *             sample.user = rand() % self.n_users             # <<<<<<<<<<<<<<
@@ -30778,7 +30773,7 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_BPR_sample __pyx_f_32Ma
  */
     __pyx_v_sample.user = (rand() % __pyx_v_self->n_users);
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":1067
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":1067
  *             sample.user = rand() % self.n_users
  * 
  *             start_pos_seen_items = self.URM_train_indptr[sample.user]             # <<<<<<<<<<<<<<
@@ -30788,7 +30783,7 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_BPR_sample __pyx_f_32Ma
     __pyx_t_4 = __pyx_v_sample.user;
     __pyx_v_start_pos_seen_items = (*((int *) ( /* dim=0 */ (__pyx_v_self->URM_train_indptr.data + __pyx_t_4 * __pyx_v_self->URM_train_indptr.strides[0]) )));
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":1068
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":1068
  * 
  *             start_pos_seen_items = self.URM_train_indptr[sample.user]
  *             end_pos_seen_items = self.URM_train_indptr[sample.user+1]             # <<<<<<<<<<<<<<
@@ -30798,7 +30793,7 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_BPR_sample __pyx_f_32Ma
     __pyx_t_4 = (__pyx_v_sample.user + 1);
     __pyx_v_end_pos_seen_items = (*((int *) ( /* dim=0 */ (__pyx_v_self->URM_train_indptr.data + __pyx_t_4 * __pyx_v_self->URM_train_indptr.strides[0]) )));
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":1070
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":1070
  *             end_pos_seen_items = self.URM_train_indptr[sample.user+1]
  * 
  *             n_seen_items = end_pos_seen_items - start_pos_seen_items             # <<<<<<<<<<<<<<
@@ -30808,7 +30803,7 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_BPR_sample __pyx_f_32Ma
     __pyx_v_n_seen_items = (__pyx_v_end_pos_seen_items - __pyx_v_start_pos_seen_items);
   }
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":1073
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":1073
  * 
  * 
  *         index = rand() % n_seen_items             # <<<<<<<<<<<<<<
@@ -30817,7 +30812,7 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_BPR_sample __pyx_f_32Ma
  */
   __pyx_v_index = (rand() % __pyx_v_n_seen_items);
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":1075
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":1075
  *         index = rand() % n_seen_items
  * 
  *         sample.pos_item = self.URM_train_indices[start_pos_seen_items + index]             # <<<<<<<<<<<<<<
@@ -30827,7 +30822,7 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_BPR_sample __pyx_f_32Ma
   __pyx_t_4 = (__pyx_v_start_pos_seen_items + __pyx_v_index);
   __pyx_v_sample.pos_item = (*((int *) ( /* dim=0 */ (__pyx_v_self->URM_train_indices.data + __pyx_t_4 * __pyx_v_self->URM_train_indices.strides[0]) )));
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":1076
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":1076
  * 
  *         sample.pos_item = self.URM_train_indices[start_pos_seen_items + index]
  *         pos_item_prediction = 0.0             # <<<<<<<<<<<<<<
@@ -30836,7 +30831,7 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_BPR_sample __pyx_f_32Ma
  */
   __pyx_v_pos_item_prediction = 0.0;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":1078
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":1078
  *         pos_item_prediction = 0.0
  * 
  *         for factor_index in range(self.n_factors):             # <<<<<<<<<<<<<<
@@ -30848,7 +30843,7 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_BPR_sample __pyx_f_32Ma
   for (__pyx_t_7 = 0; __pyx_t_7 < __pyx_t_6; __pyx_t_7+=1) {
     __pyx_v_factor_index = __pyx_t_7;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":1079
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":1079
  * 
  *         for factor_index in range(self.n_factors):
  *             pos_item_prediction += self.USER_factors[sample.user,factor_index] * self.ITEM_factors[sample.pos_item,factor_index]             # <<<<<<<<<<<<<<
@@ -30862,7 +30857,7 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_BPR_sample __pyx_f_32Ma
     __pyx_v_pos_item_prediction = (__pyx_v_pos_item_prediction + ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_self->USER_factors.data + __pyx_t_4 * __pyx_v_self->USER_factors.strides[0]) ) + __pyx_t_8 * __pyx_v_self->USER_factors.strides[1]) ))) * (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_self->ITEM_factors.data + __pyx_t_9 * __pyx_v_self->ITEM_factors.strides[0]) ) + __pyx_t_10 * __pyx_v_self->ITEM_factors.strides[1]) )))));
   }
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":1083
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":1083
  * 
  * 
  *         neg_item_selected = False             # <<<<<<<<<<<<<<
@@ -30871,7 +30866,7 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_BPR_sample __pyx_f_32Ma
  */
   __pyx_v_neg_item_selected = 0;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":1084
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":1084
  * 
  *         neg_item_selected = False
  *         neg_item_attempts = 0             # <<<<<<<<<<<<<<
@@ -30880,7 +30875,7 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_BPR_sample __pyx_f_32Ma
  */
   __pyx_v_neg_item_attempts = 0;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":1088
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":1088
  *         # It's faster to just try again then to build a mapping of the non-seen items
  *         # for every user
  *         while not neg_item_selected and neg_item_attempts < self.WARP_neg_item_attempts:             # <<<<<<<<<<<<<<
@@ -30899,7 +30894,7 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_BPR_sample __pyx_f_32Ma
     __pyx_L11_bool_binop_done:;
     if (!__pyx_t_2) break;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":1090
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":1090
  *         while not neg_item_selected and neg_item_attempts < self.WARP_neg_item_attempts:
  * 
  *             sample.neg_item = rand() % self.n_items             # <<<<<<<<<<<<<<
@@ -30908,7 +30903,7 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_BPR_sample __pyx_f_32Ma
  */
     __pyx_v_sample.neg_item = (rand() % __pyx_v_self->n_items);
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":1092
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":1092
  *             sample.neg_item = rand() % self.n_items
  * 
  *             index = 0             # <<<<<<<<<<<<<<
@@ -30917,7 +30912,7 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_BPR_sample __pyx_f_32Ma
  */
     __pyx_v_index = 0;
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":1094
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":1094
  *             index = 0
  *             # Indices data is sorted, so I don't need to go to the end of the current row
  *             while index < n_seen_items and self.URM_train_indices[start_pos_seen_items + index] < sample.neg_item:             # <<<<<<<<<<<<<<
@@ -30937,7 +30932,7 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_BPR_sample __pyx_f_32Ma
       __pyx_L15_bool_binop_done:;
       if (!__pyx_t_2) break;
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":1095
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":1095
  *             # Indices data is sorted, so I don't need to go to the end of the current row
  *             while index < n_seen_items and self.URM_train_indices[start_pos_seen_items + index] < sample.neg_item:
  *                 index+=1             # <<<<<<<<<<<<<<
@@ -30947,7 +30942,7 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_BPR_sample __pyx_f_32Ma
       __pyx_v_index = (__pyx_v_index + 1);
     }
 
-    /* "MatrixFactorization_Cython_Epoch.pyx":1099
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":1099
  *             # If the positive item in position 'index' is == sample.neg_item, negative not selected
  *             # If the positive item in position 'index' is > sample.neg_item or index == n_seen_items, negative selected
  *             if index == n_seen_items or self.URM_train_indices[start_pos_seen_items + index] > sample.neg_item:             # <<<<<<<<<<<<<<
@@ -30966,7 +30961,7 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_BPR_sample __pyx_f_32Ma
     __pyx_L18_bool_binop_done:;
     if (__pyx_t_2) {
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":1102
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":1102
  * 
  *                 # Check if it is a "violating sample", i.e., the prediction for the negative item is higher than the prediction for the positive
  *                 neg_item_prediction = 0.0             # <<<<<<<<<<<<<<
@@ -30975,7 +30970,7 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_BPR_sample __pyx_f_32Ma
  */
       __pyx_v_neg_item_prediction = 0.0;
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":1104
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":1104
  *                 neg_item_prediction = 0.0
  * 
  *                 for factor_index in range(self.n_factors):             # <<<<<<<<<<<<<<
@@ -30987,7 +30982,7 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_BPR_sample __pyx_f_32Ma
       for (__pyx_t_7 = 0; __pyx_t_7 < __pyx_t_6; __pyx_t_7+=1) {
         __pyx_v_factor_index = __pyx_t_7;
 
-        /* "MatrixFactorization_Cython_Epoch.pyx":1105
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":1105
  * 
  *                 for factor_index in range(self.n_factors):
  *                     neg_item_prediction += self.USER_factors[sample.user,factor_index] * self.ITEM_factors[sample.neg_item,factor_index]             # <<<<<<<<<<<<<<
@@ -31001,7 +30996,7 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_BPR_sample __pyx_f_32Ma
         __pyx_v_neg_item_prediction = (__pyx_v_neg_item_prediction + ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_self->USER_factors.data + __pyx_t_10 * __pyx_v_self->USER_factors.strides[0]) ) + __pyx_t_9 * __pyx_v_self->USER_factors.strides[1]) ))) * (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_self->ITEM_factors.data + __pyx_t_8 * __pyx_v_self->ITEM_factors.strides[0]) ) + __pyx_t_4 * __pyx_v_self->ITEM_factors.strides[1]) )))));
       }
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":1107
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":1107
  *                     neg_item_prediction += self.USER_factors[sample.user,factor_index] * self.ITEM_factors[sample.neg_item,factor_index]
  * 
  *                 if pos_item_prediction > neg_item_prediction:             # <<<<<<<<<<<<<<
@@ -31011,7 +31006,7 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_BPR_sample __pyx_f_32Ma
       __pyx_t_2 = (__pyx_v_pos_item_prediction > __pyx_v_neg_item_prediction);
       if (__pyx_t_2) {
 
-        /* "MatrixFactorization_Cython_Epoch.pyx":1108
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":1108
  * 
  *                 if pos_item_prediction > neg_item_prediction:
  *                     neg_item_selected = True             # <<<<<<<<<<<<<<
@@ -31020,7 +31015,7 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_BPR_sample __pyx_f_32Ma
  */
         __pyx_v_neg_item_selected = 1;
 
-        /* "MatrixFactorization_Cython_Epoch.pyx":1107
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":1107
  *                     neg_item_prediction += self.USER_factors[sample.user,factor_index] * self.ITEM_factors[sample.neg_item,factor_index]
  * 
  *                 if pos_item_prediction > neg_item_prediction:             # <<<<<<<<<<<<<<
@@ -31030,7 +31025,7 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_BPR_sample __pyx_f_32Ma
         goto __pyx_L22;
       }
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":1110
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":1110
  *                     neg_item_selected = True
  *                 else:
  *                     neg_item_attempts += 1             # <<<<<<<<<<<<<<
@@ -31042,7 +31037,7 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_BPR_sample __pyx_f_32Ma
       }
       __pyx_L22:;
 
-      /* "MatrixFactorization_Cython_Epoch.pyx":1099
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":1099
  *             # If the positive item in position 'index' is == sample.neg_item, negative not selected
  *             # If the positive item in position 'index' is > sample.neg_item or index == n_seen_items, negative selected
  *             if index == n_seen_items or self.URM_train_indices[start_pos_seen_items + index] > sample.neg_item:             # <<<<<<<<<<<<<<
@@ -31052,7 +31047,7 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_BPR_sample __pyx_f_32Ma
     }
   }
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":1113
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":1113
  * 
  * 
  *         return sample             # <<<<<<<<<<<<<<
@@ -31060,7 +31055,7 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_BPR_sample __pyx_f_32Ma
   __pyx_r = __pyx_v_sample;
   goto __pyx_L0;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":1053
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":1053
  * 
  * 
  *     cdef BPR_sample sampleWARP_Cython(self):             # <<<<<<<<<<<<<<
@@ -31080,15 +31075,15 @@ static struct __pyx_t_32MatrixFactorization_Cython_Epoch_BPR_sample __pyx_f_32Ma
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_27__reduce_cython__(PyObject *__pyx_v_self, 
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_27__reduce_cython__(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static PyMethodDef __pyx_mdef_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_27__reduce_cython__ = {"__reduce_cython__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_27__reduce_cython__, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_27__reduce_cython__(PyObject *__pyx_v_self, 
+static PyMethodDef __pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_27__reduce_cython__ = {"__reduce_cython__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_27__reduce_cython__, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_27__reduce_cython__(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -31113,14 +31108,14 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   if (unlikely(__pyx_nargs > 0)) {
     __Pyx_RaiseArgtupleInvalid("__reduce_cython__", 1, 0, 0, __pyx_nargs); return NULL;}
   if (unlikely(__pyx_kwds) && __Pyx_NumKwargs_FASTCALL(__pyx_kwds) && unlikely(!__Pyx_CheckKeywordStrings(__pyx_kwds, "__reduce_cython__", 0))) return NULL;
-  __pyx_r = __pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_26__reduce_cython__(((struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *)__pyx_v_self));
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_26__reduce_cython__(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_26__reduce_cython__(struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self) {
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_26__reduce_cython__(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self) {
   PyObject *__pyx_v_state = 0;
   PyObject *__pyx_v__dict = 0;
   int __pyx_v_use_setstate;
@@ -31815,7 +31810,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   __Pyx_XDECREF(__pyx_t_70);
   __Pyx_XDECREF(__pyx_t_71);
   __Pyx_XDECREF(__pyx_t_72);
-  __Pyx_AddTraceback("MatrixFactorization_Cython_Epoch.MatrixFactorization_Cython_Epoch.__reduce_cython__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.MatrixFactorization.Cython.MatrixFactorization_Cython_Epoch.MatrixFactorization_Cython_Epoch.__reduce_cython__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_state);
@@ -31833,15 +31828,15 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_29__setstate_cython__(PyObject *__pyx_v_self, 
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_29__setstate_cython__(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static PyMethodDef __pyx_mdef_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_29__setstate_cython__ = {"__setstate_cython__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_29__setstate_cython__, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_29__setstate_cython__(PyObject *__pyx_v_self, 
+static PyMethodDef __pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_29__setstate_cython__ = {"__setstate_cython__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_29__setstate_cython__, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_29__setstate_cython__(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -31911,11 +31906,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("MatrixFactorization_Cython_Epoch.MatrixFactorization_Cython_Epoch.__setstate_cython__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.MatrixFactorization.Cython.MatrixFactorization_Cython_Epoch.MatrixFactorization_Cython_Epoch.__setstate_cython__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_28__setstate_cython__(((struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *)__pyx_v_self), __pyx_v___pyx_state);
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_28__setstate_cython__(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *)__pyx_v_self), __pyx_v___pyx_state);
 
   /* function exit code */
   {
@@ -31928,7 +31923,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_28__setstate_cython__(struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self, PyObject *__pyx_v___pyx_state) {
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_28__setstate_cython__(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v_self, PyObject *__pyx_v___pyx_state) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -31943,7 +31938,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
  *     __pyx_unpickle_MatrixFactorization_Cython_Epoch__set_state(self, __pyx_state)             # <<<<<<<<<<<<<<
  */
   if (!(likely(PyTuple_CheckExact(__pyx_v___pyx_state))||((__pyx_v___pyx_state) == Py_None) || __Pyx_RaiseUnexpectedTypeError("tuple", __pyx_v___pyx_state))) __PYX_ERR(1, 17, __pyx_L1_error)
-  __pyx_t_1 = __pyx_f_32MatrixFactorization_Cython_Epoch___pyx_unpickle_MatrixFactorization_Cython_Epoch__set_state(__pyx_v_self, ((PyObject*)__pyx_v___pyx_state)); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 17, __pyx_L1_error)
+  __pyx_t_1 = __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch___pyx_unpickle_MatrixFactorization_Cython_Epoch__set_state(__pyx_v_self, ((PyObject*)__pyx_v___pyx_state)); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 17, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
@@ -31959,7 +31954,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
   goto __pyx_L0;
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_AddTraceback("MatrixFactorization_Cython_Epoch.MatrixFactorization_Cython_Epoch.__setstate_cython__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.MatrixFactorization.Cython.MatrixFactorization_Cython_Epoch.MatrixFactorization_Cython_Epoch.__setstate_cython__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -31974,15 +31969,15 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch_32MatrixFactorizati
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_32MatrixFactorization_Cython_Epoch_1__pyx_unpickle_MatrixFactorization_Cython_Epoch(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_1__pyx_unpickle_MatrixFactorization_Cython_Epoch(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static PyMethodDef __pyx_mdef_32MatrixFactorization_Cython_Epoch_1__pyx_unpickle_MatrixFactorization_Cython_Epoch = {"__pyx_unpickle_MatrixFactorization_Cython_Epoch", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_32MatrixFactorization_Cython_Epoch_1__pyx_unpickle_MatrixFactorization_Cython_Epoch, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_32MatrixFactorization_Cython_Epoch_1__pyx_unpickle_MatrixFactorization_Cython_Epoch(PyObject *__pyx_self, 
+static PyMethodDef __pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_1__pyx_unpickle_MatrixFactorization_Cython_Epoch = {"__pyx_unpickle_MatrixFactorization_Cython_Epoch", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_1__pyx_unpickle_MatrixFactorization_Cython_Epoch, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_1__pyx_unpickle_MatrixFactorization_Cython_Epoch(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -32082,11 +32077,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("MatrixFactorization_Cython_Epoch.__pyx_unpickle_MatrixFactorization_Cython_Epoch", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.MatrixFactorization.Cython.MatrixFactorization_Cython_Epoch.__pyx_unpickle_MatrixFactorization_Cython_Epoch", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_32MatrixFactorization_Cython_Epoch___pyx_unpickle_MatrixFactorization_Cython_Epoch(__pyx_self, __pyx_v___pyx_type, __pyx_v___pyx_checksum, __pyx_v___pyx_state);
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch___pyx_unpickle_MatrixFactorization_Cython_Epoch(__pyx_self, __pyx_v___pyx_type, __pyx_v___pyx_checksum, __pyx_v___pyx_state);
 
   /* function exit code */
   {
@@ -32099,7 +32094,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch___pyx_unpickle_MatrixFactorization_Cython_Epoch(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v___pyx_type, long __pyx_v___pyx_checksum, PyObject *__pyx_v___pyx_state) {
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch___pyx_unpickle_MatrixFactorization_Cython_Epoch(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v___pyx_type, long __pyx_v___pyx_checksum, PyObject *__pyx_v___pyx_state) {
   PyObject *__pyx_v___pyx_PickleError = 0;
   PyObject *__pyx_v___pyx_result = 0;
   PyObject *__pyx_r = NULL;
@@ -32181,7 +32176,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch___pyx_unpickle_Matr
  *     if __pyx_state is not None:
  *         __pyx_unpickle_MatrixFactorization_Cython_Epoch__set_state(<MatrixFactorization_Cython_Epoch> __pyx_result, __pyx_state)
  */
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_ptype_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch), __pyx_n_s_new); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 7, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch), __pyx_n_s_new); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 7, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __pyx_t_4 = NULL;
   __pyx_t_5 = 0;
@@ -32226,7 +32221,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch___pyx_unpickle_Matr
  * cdef __pyx_unpickle_MatrixFactorization_Cython_Epoch__set_state(MatrixFactorization_Cython_Epoch __pyx_result, tuple __pyx_state):
  */
     if (!(likely(PyTuple_CheckExact(__pyx_v___pyx_state))||((__pyx_v___pyx_state) == Py_None) || __Pyx_RaiseUnexpectedTypeError("tuple", __pyx_v___pyx_state))) __PYX_ERR(1, 9, __pyx_L1_error)
-    __pyx_t_1 = __pyx_f_32MatrixFactorization_Cython_Epoch___pyx_unpickle_MatrixFactorization_Cython_Epoch__set_state(((struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *)__pyx_v___pyx_result), ((PyObject*)__pyx_v___pyx_state)); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 9, __pyx_L1_error)
+    __pyx_t_1 = __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch___pyx_unpickle_MatrixFactorization_Cython_Epoch__set_state(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *)__pyx_v___pyx_result), ((PyObject*)__pyx_v___pyx_state)); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 9, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
@@ -32262,7 +32257,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch___pyx_unpickle_Matr
   __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
-  __Pyx_AddTraceback("MatrixFactorization_Cython_Epoch.__pyx_unpickle_MatrixFactorization_Cython_Epoch", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.MatrixFactorization.Cython.MatrixFactorization_Cython_Epoch.__pyx_unpickle_MatrixFactorization_Cython_Epoch", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v___pyx_PickleError);
@@ -32280,7 +32275,7 @@ static PyObject *__pyx_pf_32MatrixFactorization_Cython_Epoch___pyx_unpickle_Matr
  *     if len(__pyx_state) > 72 and hasattr(__pyx_result, '__dict__'):
  */
 
-static PyObject *__pyx_f_32MatrixFactorization_Cython_Epoch___pyx_unpickle_MatrixFactorization_Cython_Epoch__set_state(struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v___pyx_result, PyObject *__pyx_v___pyx_state) {
+static PyObject *__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch___pyx_unpickle_MatrixFactorization_Cython_Epoch__set_state(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *__pyx_v___pyx_result, PyObject *__pyx_v___pyx_state) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -33154,17 +33149,17 @@ static PyObject *__pyx_f_32MatrixFactorization_Cython_Epoch___pyx_unpickle_Matri
   __Pyx_XDECREF(__pyx_t_12);
   __Pyx_XDECREF(__pyx_t_13);
   __Pyx_XDECREF(__pyx_t_14);
-  __Pyx_AddTraceback("MatrixFactorization_Cython_Epoch.__pyx_unpickle_MatrixFactorization_Cython_Epoch__set_state", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.MatrixFactorization.Cython.MatrixFactorization_Cython_Epoch.__pyx_unpickle_MatrixFactorization_Cython_Epoch__set_state", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = 0;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
-static struct __pyx_vtabstruct_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch __pyx_vtable_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch;
+static struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch __pyx_vtable_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch;
 
-static PyObject *__pyx_tp_new_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch(PyTypeObject *t, CYTHON_UNUSED PyObject *a, CYTHON_UNUSED PyObject *k) {
-  struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *p;
+static PyObject *__pyx_tp_new_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch(PyTypeObject *t, CYTHON_UNUSED PyObject *a, CYTHON_UNUSED PyObject *k) {
+  struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *p;
   PyObject *o;
   #if CYTHON_COMPILING_IN_LIMITED_API
   allocfunc alloc_func = (allocfunc)PyType_GetSlot(t, Py_tp_alloc);
@@ -33177,8 +33172,8 @@ static PyObject *__pyx_tp_new_32MatrixFactorization_Cython_Epoch_MatrixFactoriza
   }
   if (unlikely(!o)) return 0;
   #endif
-  p = ((struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *)o);
-  p->__pyx_vtab = __pyx_vtabptr_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch;
+  p = ((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *)o);
+  p->__pyx_vtab = __pyx_vtabptr_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch;
   p->algorithm_name = Py_None; Py_INCREF(Py_None);
   p->URM_train_indices.data = NULL;
   p->URM_train_indices.memview = NULL;
@@ -33251,11 +33246,11 @@ static PyObject *__pyx_tp_new_32MatrixFactorization_Cython_Epoch_MatrixFactoriza
   return o;
 }
 
-static void __pyx_tp_dealloc_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch(PyObject *o) {
-  struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *p = (struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *)o;
+static void __pyx_tp_dealloc_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch(PyObject *o) {
+  struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *p = (struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *)o;
   #if CYTHON_USE_TP_FINALIZE
   if (unlikely((PY_VERSION_HEX >= 0x03080000 || __Pyx_PyType_HasFeature(Py_TYPE(o), Py_TPFLAGS_HAVE_FINALIZE)) && __Pyx_PyObject_GetSlot(o, tp_finalize, destructor)) && !__Pyx_PyObject_GC_IsFinalized(o)) {
-    if (__Pyx_PyObject_GetSlot(o, tp_dealloc, destructor) == __pyx_tp_dealloc_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch) {
+    if (__Pyx_PyObject_GetSlot(o, tp_dealloc, destructor) == __pyx_tp_dealloc_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch) {
       if (PyObject_CallFinalizerFromDealloc(o)) return;
     }
   }
@@ -33340,66 +33335,66 @@ static void __pyx_tp_dealloc_32MatrixFactorization_Cython_Epoch_MatrixFactorizat
   #endif
 }
 
-static int __pyx_tp_traverse_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch(PyObject *o, visitproc v, void *a) {
+static int __pyx_tp_traverse_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch(PyObject *o, visitproc v, void *a) {
   int e;
-  struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *p = (struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *)o;
+  struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *p = (struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *)o;
   if (p->algorithm_name) {
     e = (*v)(p->algorithm_name, a); if (e) return e;
   }
   return 0;
 }
 
-static int __pyx_tp_clear_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch(PyObject *o) {
+static int __pyx_tp_clear_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch(PyObject *o) {
   PyObject* tmp;
-  struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *p = (struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *)o;
+  struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *p = (struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *)o;
   tmp = ((PyObject*)p->algorithm_name);
   p->algorithm_name = Py_None; Py_INCREF(Py_None);
   Py_XDECREF(tmp);
   return 0;
 }
 
-static PyMethodDef __pyx_methods_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch[] = {
-  {"_init_latent_factors", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_3_init_latent_factors, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
-  {"_init_adaptive_gradient_cache", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_5_init_adaptive_gradient_cache, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
-  {"epochIteration_Cython", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_7epochIteration_Cython, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
-  {"epochIteration_Cython_SVD_pp_SGD", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_9epochIteration_Cython_SVD_pp_SGD, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
-  {"epochIteration_Cython_ASY_SVD_SGD", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_11epochIteration_Cython_ASY_SVD_SGD, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
-  {"epochIteration_Cython_BPR_SGD", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_13epochIteration_Cython_BPR_SGD, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
-  {"get_USER_factors", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_15get_USER_factors, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
-  {"get_ITEM_factors", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_17get_ITEM_factors, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
-  {"get_USER_bias", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_19get_USER_bias, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
-  {"get_ITEM_bias", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_21get_ITEM_bias, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
-  {"get_GLOBAL_bias", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_23get_GLOBAL_bias, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
-  {"_init_minibatch_data_structures", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_25_init_minibatch_data_structures, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
-  {"__reduce_cython__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_27__reduce_cython__, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
-  {"__setstate_cython__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_29__setstate_cython__, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
+static PyMethodDef __pyx_methods_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch[] = {
+  {"_init_latent_factors", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_3_init_latent_factors, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
+  {"_init_adaptive_gradient_cache", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_5_init_adaptive_gradient_cache, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
+  {"epochIteration_Cython", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_7epochIteration_Cython, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
+  {"epochIteration_Cython_SVD_pp_SGD", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_9epochIteration_Cython_SVD_pp_SGD, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
+  {"epochIteration_Cython_ASY_SVD_SGD", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_11epochIteration_Cython_ASY_SVD_SGD, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
+  {"epochIteration_Cython_BPR_SGD", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_13epochIteration_Cython_BPR_SGD, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
+  {"get_USER_factors", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_15get_USER_factors, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
+  {"get_ITEM_factors", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_17get_ITEM_factors, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
+  {"get_USER_bias", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_19get_USER_bias, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
+  {"get_ITEM_bias", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_21get_ITEM_bias, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
+  {"get_GLOBAL_bias", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_23get_GLOBAL_bias, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
+  {"_init_minibatch_data_structures", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_25_init_minibatch_data_structures, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
+  {"__reduce_cython__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_27__reduce_cython__, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
+  {"__setstate_cython__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_29__setstate_cython__, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
   {0, 0, 0, 0}
 };
 #if CYTHON_USE_TYPE_SPECS
-static PyType_Slot __pyx_type_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch_slots[] = {
-  {Py_tp_dealloc, (void *)__pyx_tp_dealloc_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch},
-  {Py_tp_traverse, (void *)__pyx_tp_traverse_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch},
-  {Py_tp_clear, (void *)__pyx_tp_clear_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch},
-  {Py_tp_methods, (void *)__pyx_methods_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch},
-  {Py_tp_init, (void *)__pyx_pw_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_1__init__},
-  {Py_tp_new, (void *)__pyx_tp_new_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch},
+static PyType_Slot __pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch_slots[] = {
+  {Py_tp_dealloc, (void *)__pyx_tp_dealloc_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch},
+  {Py_tp_traverse, (void *)__pyx_tp_traverse_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch},
+  {Py_tp_clear, (void *)__pyx_tp_clear_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch},
+  {Py_tp_methods, (void *)__pyx_methods_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch},
+  {Py_tp_init, (void *)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_1__init__},
+  {Py_tp_new, (void *)__pyx_tp_new_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch},
   {0, 0},
 };
-static PyType_Spec __pyx_type_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch_spec = {
-  "MatrixFactorization_Cython_Epoch.MatrixFactorization_Cython_Epoch",
-  sizeof(struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch),
+static PyType_Spec __pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch_spec = {
+  "RecSysCompetition2024Polimi.libs.Recommenders.MatrixFactorization.Cython.MatrixFactorization_Cython_Epoch.MatrixFactorization_Cython_Epoch",
+  sizeof(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch),
   0,
   Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_VERSION_TAG|Py_TPFLAGS_CHECKTYPES|Py_TPFLAGS_HAVE_NEWBUFFER|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_HAVE_GC,
-  __pyx_type_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch_slots,
+  __pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch_slots,
 };
 #else
 
-static PyTypeObject __pyx_type_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch = {
+static PyTypeObject __pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch = {
   PyVarObject_HEAD_INIT(0, 0)
-  "MatrixFactorization_Cython_Epoch.""MatrixFactorization_Cython_Epoch", /*tp_name*/
-  sizeof(struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch), /*tp_basicsize*/
+  "RecSysCompetition2024Polimi.libs.Recommenders.MatrixFactorization.Cython.MatrixFactorization_Cython_Epoch.""MatrixFactorization_Cython_Epoch", /*tp_name*/
+  sizeof(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch), /*tp_basicsize*/
   0, /*tp_itemsize*/
-  __pyx_tp_dealloc_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch, /*tp_dealloc*/
+  __pyx_tp_dealloc_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch, /*tp_dealloc*/
   #if PY_VERSION_HEX < 0x030800b4
   0, /*tp_print*/
   #endif
@@ -33426,13 +33421,13 @@ static PyTypeObject __pyx_type_32MatrixFactorization_Cython_Epoch_MatrixFactoriz
   0, /*tp_as_buffer*/
   Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_VERSION_TAG|Py_TPFLAGS_CHECKTYPES|Py_TPFLAGS_HAVE_NEWBUFFER|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_HAVE_GC, /*tp_flags*/
   0, /*tp_doc*/
-  __pyx_tp_traverse_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch, /*tp_traverse*/
-  __pyx_tp_clear_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch, /*tp_clear*/
+  __pyx_tp_traverse_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch, /*tp_traverse*/
+  __pyx_tp_clear_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch, /*tp_clear*/
   0, /*tp_richcompare*/
   0, /*tp_weaklistoffset*/
   0, /*tp_iter*/
   0, /*tp_iternext*/
-  __pyx_methods_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch, /*tp_methods*/
+  __pyx_methods_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch, /*tp_methods*/
   0, /*tp_members*/
   0, /*tp_getset*/
   0, /*tp_base*/
@@ -33442,9 +33437,9 @@ static PyTypeObject __pyx_type_32MatrixFactorization_Cython_Epoch_MatrixFactoriz
   #if !CYTHON_USE_TYPE_SPECS
   0, /*tp_dictoffset*/
   #endif
-  __pyx_pw_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_1__init__, /*tp_init*/
+  __pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_1__init__, /*tp_init*/
   0, /*tp_alloc*/
-  __pyx_tp_new_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch, /*tp_new*/
+  __pyx_tp_new_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch, /*tp_new*/
   0, /*tp_free*/
   0, /*tp_is_gc*/
   0, /*tp_bases*/
@@ -33616,7 +33611,7 @@ static PyType_Slot __pyx_type___pyx_array_slots[] = {
   {0, 0},
 };
 static PyType_Spec __pyx_type___pyx_array_spec = {
-  "MatrixFactorization_Cython_Epoch.array",
+  "RecSysCompetition2024Polimi.libs.Recommenders.MatrixFactorization.Cython.MatrixFactorization_Cython_Epoch.array",
   sizeof(struct __pyx_array_obj),
   0,
   Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_VERSION_TAG|Py_TPFLAGS_CHECKTYPES|Py_TPFLAGS_HAVE_NEWBUFFER|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_SEQUENCE,
@@ -33662,7 +33657,7 @@ static PyBufferProcs __pyx_tp_as_buffer_array = {
 
 static PyTypeObject __pyx_type___pyx_array = {
   PyVarObject_HEAD_INIT(0, 0)
-  "MatrixFactorization_Cython_Epoch.""array", /*tp_name*/
+  "RecSysCompetition2024Polimi.libs.Recommenders.MatrixFactorization.Cython.MatrixFactorization_Cython_Epoch.""array", /*tp_name*/
   sizeof(struct __pyx_array_obj), /*tp_basicsize*/
   0, /*tp_itemsize*/
   __pyx_tp_dealloc_array, /*tp_dealloc*/
@@ -33825,7 +33820,7 @@ static PyType_Slot __pyx_type___pyx_MemviewEnum_slots[] = {
   {0, 0},
 };
 static PyType_Spec __pyx_type___pyx_MemviewEnum_spec = {
-  "MatrixFactorization_Cython_Epoch.Enum",
+  "RecSysCompetition2024Polimi.libs.Recommenders.MatrixFactorization.Cython.MatrixFactorization_Cython_Epoch.Enum",
   sizeof(struct __pyx_MemviewEnum_obj),
   0,
   Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_VERSION_TAG|Py_TPFLAGS_CHECKTYPES|Py_TPFLAGS_HAVE_NEWBUFFER|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_HAVE_GC,
@@ -33835,7 +33830,7 @@ static PyType_Spec __pyx_type___pyx_MemviewEnum_spec = {
 
 static PyTypeObject __pyx_type___pyx_MemviewEnum = {
   PyVarObject_HEAD_INIT(0, 0)
-  "MatrixFactorization_Cython_Epoch.""Enum", /*tp_name*/
+  "RecSysCompetition2024Polimi.libs.Recommenders.MatrixFactorization.Cython.MatrixFactorization_Cython_Epoch.""Enum", /*tp_name*/
   sizeof(struct __pyx_MemviewEnum_obj), /*tp_basicsize*/
   0, /*tp_itemsize*/
   __pyx_tp_dealloc_Enum, /*tp_dealloc*/
@@ -34135,7 +34130,7 @@ static PyType_Slot __pyx_type___pyx_memoryview_slots[] = {
   {0, 0},
 };
 static PyType_Spec __pyx_type___pyx_memoryview_spec = {
-  "MatrixFactorization_Cython_Epoch.memoryview",
+  "RecSysCompetition2024Polimi.libs.Recommenders.MatrixFactorization.Cython.MatrixFactorization_Cython_Epoch.memoryview",
   sizeof(struct __pyx_memoryview_obj),
   0,
   Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_VERSION_TAG|Py_TPFLAGS_CHECKTYPES|Py_TPFLAGS_HAVE_NEWBUFFER|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_HAVE_GC,
@@ -34181,7 +34176,7 @@ static PyBufferProcs __pyx_tp_as_buffer_memoryview = {
 
 static PyTypeObject __pyx_type___pyx_memoryview = {
   PyVarObject_HEAD_INIT(0, 0)
-  "MatrixFactorization_Cython_Epoch.""memoryview", /*tp_name*/
+  "RecSysCompetition2024Polimi.libs.Recommenders.MatrixFactorization.Cython.MatrixFactorization_Cython_Epoch.""memoryview", /*tp_name*/
   sizeof(struct __pyx_memoryview_obj), /*tp_basicsize*/
   0, /*tp_itemsize*/
   __pyx_tp_dealloc_memoryview, /*tp_dealloc*/
@@ -34336,7 +34331,7 @@ static PyType_Slot __pyx_type___pyx_memoryviewslice_slots[] = {
   {0, 0},
 };
 static PyType_Spec __pyx_type___pyx_memoryviewslice_spec = {
-  "MatrixFactorization_Cython_Epoch._memoryviewslice",
+  "RecSysCompetition2024Polimi.libs.Recommenders.MatrixFactorization.Cython.MatrixFactorization_Cython_Epoch._memoryviewslice",
   sizeof(struct __pyx_memoryviewslice_obj),
   0,
   Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_VERSION_TAG|Py_TPFLAGS_CHECKTYPES|Py_TPFLAGS_HAVE_NEWBUFFER|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_SEQUENCE,
@@ -34346,7 +34341,7 @@ static PyType_Spec __pyx_type___pyx_memoryviewslice_spec = {
 
 static PyTypeObject __pyx_type___pyx_memoryviewslice = {
   PyVarObject_HEAD_INIT(0, 0)
-  "MatrixFactorization_Cython_Epoch.""_memoryviewslice", /*tp_name*/
+  "RecSysCompetition2024Polimi.libs.Recommenders.MatrixFactorization.Cython.MatrixFactorization_Cython_Epoch.""_memoryviewslice", /*tp_name*/
   sizeof(struct __pyx_memoryviewslice_obj), /*tp_basicsize*/
   0, /*tp_itemsize*/
   __pyx_tp_dealloc__memoryviewslice, /*tp_dealloc*/
@@ -34508,6 +34503,7 @@ static int __Pyx_CreateStringTabAndInitStrings(void) {
     {&__pyx_kp_u_Out_of_bounds_on_buffer_access_a, __pyx_k_Out_of_bounds_on_buffer_access_a, sizeof(__pyx_k_Out_of_bounds_on_buffer_access_a), 0, 1, 0, 0},
     {&__pyx_n_s_PickleError, __pyx_k_PickleError, sizeof(__pyx_k_PickleError), 0, 0, 1, 1},
     {&__pyx_kp_s_Processed_4_1f_in_2f_MSE_loss_2, __pyx_k_Processed_4_1f_in_2f_MSE_loss_2, sizeof(__pyx_k_Processed_4_1f_in_2f_MSE_loss_2), 0, 0, 1, 0},
+    {&__pyx_n_s_RecSysCompetition2024Polimi_libs, __pyx_k_RecSysCompetition2024Polimi_libs, sizeof(__pyx_k_RecSysCompetition2024Polimi_libs), 0, 0, 1, 1},
     {&__pyx_n_s_Recommenders_Recommender_utils, __pyx_k_Recommenders_Recommender_utils, sizeof(__pyx_k_Recommenders_Recommender_utils), 0, 0, 1, 1},
     {&__pyx_n_s_SGD_MODE_VALUES, __pyx_k_SGD_MODE_VALUES, sizeof(__pyx_k_SGD_MODE_VALUES), 0, 0, 1, 1},
     {&__pyx_kp_s_SVD, __pyx_k_SVD, sizeof(__pyx_k_SVD), 0, 0, 1, 0},
@@ -34516,7 +34512,6 @@ static int __Pyx_CreateStringTabAndInitStrings(void) {
     {&__pyx_n_s_TypeError, __pyx_k_TypeError, sizeof(__pyx_k_TypeError), 0, 0, 1, 1},
     {&__pyx_n_s_URM_train, __pyx_k_URM_train, sizeof(__pyx_k_URM_train), 0, 0, 1, 1},
     {&__pyx_kp_s_Unable_to_convert_item_to_object, __pyx_k_Unable_to_convert_item_to_object, sizeof(__pyx_k_Unable_to_convert_item_to_object), 0, 0, 1, 0},
-    {&__pyx_n_s_Utils_seconds_to_biggest_unit, __pyx_k_Utils_seconds_to_biggest_unit, sizeof(__pyx_k_Utils_seconds_to_biggest_unit), 0, 0, 1, 1},
     {&__pyx_n_s_ValueError, __pyx_k_ValueError, sizeof(__pyx_k_ValueError), 0, 0, 1, 1},
     {&__pyx_kp_s_Value_for_algorithm_name_not_rec, __pyx_k_Value_for_algorithm_name_not_rec, sizeof(__pyx_k_Value_for_algorithm_name_not_rec), 0, 0, 1, 0},
     {&__pyx_kp_s_Value_for_dropout_quota_not_vali, __pyx_k_Value_for_dropout_quota_not_vali, sizeof(__pyx_k_Value_for_dropout_quota_not_vali), 0, 0, 1, 0},
@@ -34618,6 +34613,7 @@ static int __Pyx_CreateStringTabAndInitStrings(void) {
     {&__pyx_n_s_j, __pyx_k_j, sizeof(__pyx_k_j), 0, 0, 1, 1},
     {&__pyx_n_s_last_print_time, __pyx_k_last_print_time, sizeof(__pyx_k_last_print_time), 0, 0, 1, 1},
     {&__pyx_n_s_learning_rate, __pyx_k_learning_rate, sizeof(__pyx_k_learning_rate), 0, 0, 1, 1},
+    {&__pyx_n_s_libs_Utils_seconds_to_biggest_un, __pyx_k_libs_Utils_seconds_to_biggest_un, sizeof(__pyx_k_libs_Utils_seconds_to_biggest_un), 0, 0, 1, 1},
     {&__pyx_n_s_local_gradient_bias_global, __pyx_k_local_gradient_bias_global, sizeof(__pyx_k_local_gradient_bias_global), 0, 0, 1, 1},
     {&__pyx_n_s_local_gradient_bias_item, __pyx_k_local_gradient_bias_item, sizeof(__pyx_k_local_gradient_bias_item), 0, 0, 1, 1},
     {&__pyx_n_s_local_gradient_bias_user, __pyx_k_local_gradient_bias_user, sizeof(__pyx_k_local_gradient_bias_user), 0, 0, 1, 1},
@@ -34746,7 +34742,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedBuiltins(void) {
   __pyx_builtin_Ellipsis = __Pyx_GetBuiltinName(__pyx_n_s_Ellipsis); if (!__pyx_builtin_Ellipsis) __PYX_ERR(1, 408, __pyx_L1_error)
   __pyx_builtin_id = __Pyx_GetBuiltinName(__pyx_n_s_id); if (!__pyx_builtin_id) __PYX_ERR(1, 618, __pyx_L1_error)
   __pyx_builtin_IndexError = __Pyx_GetBuiltinName(__pyx_n_s_IndexError); if (!__pyx_builtin_IndexError) __PYX_ERR(1, 914, __pyx_L1_error)
-  __pyx_builtin_ImportError = __Pyx_GetBuiltinName(__pyx_n_s_ImportError); if (!__pyx_builtin_ImportError) __PYX_ERR(2, 987, __pyx_L1_error)
+  __pyx_builtin_ImportError = __Pyx_GetBuiltinName(__pyx_n_s_ImportError); if (!__pyx_builtin_ImportError) __PYX_ERR(2, 984, __pyx_L1_error)
   return 0;
   __pyx_L1_error:;
   return -1;
@@ -34793,29 +34789,29 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__8);
   __Pyx_GIVEREF(__pyx_tuple__8);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":987
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":984
  *         __pyx_import_array()
  *     except Exception:
  *         raise ImportError("numpy.core.multiarray failed to import")             # <<<<<<<<<<<<<<
  * 
  * cdef inline int import_umath() except -1:
  */
-  __pyx_tuple__9 = PyTuple_Pack(1, __pyx_kp_s_numpy_core_multiarray_failed_to); if (unlikely(!__pyx_tuple__9)) __PYX_ERR(2, 987, __pyx_L1_error)
+  __pyx_tuple__9 = PyTuple_Pack(1, __pyx_kp_s_numpy_core_multiarray_failed_to); if (unlikely(!__pyx_tuple__9)) __PYX_ERR(2, 984, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__9);
   __Pyx_GIVEREF(__pyx_tuple__9);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":993
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":990
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")             # <<<<<<<<<<<<<<
  * 
  * cdef inline int import_ufunc() except -1:
  */
-  __pyx_tuple__10 = PyTuple_Pack(1, __pyx_kp_s_numpy_core_umath_failed_to_impor); if (unlikely(!__pyx_tuple__10)) __PYX_ERR(2, 993, __pyx_L1_error)
+  __pyx_tuple__10 = PyTuple_Pack(1, __pyx_kp_s_numpy_core_umath_failed_to_impor); if (unlikely(!__pyx_tuple__10)) __PYX_ERR(2, 990, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__10);
   __Pyx_GIVEREF(__pyx_tuple__10);
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":202
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":202
  *             self.algorithm_is_WARP = True
  *         else:
  *             raise ValueError("Algorithm_name not recognized")             # <<<<<<<<<<<<<<
@@ -34826,7 +34822,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__11);
   __Pyx_GIVEREF(__pyx_tuple__11);
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":220
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":220
  *             self.USER_bias = np.zeros(self.n_users, dtype=np.float64)
  *             self.ITEM_bias = np.zeros(self.n_items, dtype=np.float64)
  *             self.GLOBAL_bias = np.zeros(1, dtype=np.float64)             # <<<<<<<<<<<<<<
@@ -34837,7 +34833,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__12);
   __Pyx_GIVEREF(__pyx_tuple__12);
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":289
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":289
  *             self.sgd_cache_bias_I = np.zeros((self.n_items, 1), dtype=np.float64)
  *             self.sgd_cache_bias_U = np.zeros((self.n_users, 1), dtype=np.float64)
  *             self.sgd_cache_bias_GLOBAL = np.zeros((1, 1), dtype=np.float64)             # <<<<<<<<<<<<<<
@@ -34963,7 +34959,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__25);
   __pyx_codeobj__26 = (PyObject*)__Pyx_PyCode_New(3, 0, 0, 5, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__25, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_stringsource, __pyx_n_s_pyx_unpickle_Enum, 1, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__26)) __PYX_ERR(1, 1, __pyx_L1_error)
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":176
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":176
  * 
  * 
  *     def _init_latent_factors(self):             # <<<<<<<<<<<<<<
@@ -34975,7 +34971,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__27);
   __pyx_codeobj__28 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__27, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_MatrixFactorization_Cython_Epoch_2, __pyx_n_s_init_latent_factors, 176, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__28)) __PYX_ERR(0, 176, __pyx_L1_error)
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":230
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":230
  * 
  * 
  *     def _init_adaptive_gradient_cache(self, sgd_mode, gamma, beta_1, beta_2):             # <<<<<<<<<<<<<<
@@ -34987,7 +34983,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__29);
   __pyx_codeobj__30 = (PyObject*)__Pyx_PyCode_New(5, 0, 0, 5, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__29, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_MatrixFactorization_Cython_Epoch_2, __pyx_n_s_init_adaptive_gradient_cache, 230, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__30)) __PYX_ERR(0, 230, __pyx_L1_error)
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":309
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":309
  * 
  * 
  *     def epochIteration_Cython(self):             # <<<<<<<<<<<<<<
@@ -34999,7 +34995,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__31);
   __pyx_codeobj__32 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 1, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__31, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_MatrixFactorization_Cython_Epoch_2, __pyx_n_s_epochIteration_Cython, 309, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__32)) __PYX_ERR(0, 309, __pyx_L1_error)
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":322
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":322
  * 
  * 
  *     def epochIteration_Cython_SVD_pp_SGD(self):             # <<<<<<<<<<<<<<
@@ -35011,7 +35007,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__33);
   __pyx_codeobj__34 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 24, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__33, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_MatrixFactorization_Cython_Epoch_2, __pyx_n_s_epochIteration_Cython_SVD_pp_SGD, 322, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__34)) __PYX_ERR(0, 322, __pyx_L1_error)
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":442
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":442
  * 
  * 
  *     def epochIteration_Cython_ASY_SVD_SGD(self):             # <<<<<<<<<<<<<<
@@ -35023,7 +35019,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__35);
   __pyx_codeobj__36 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 31, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__35, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_MatrixFactorization_Cython_Epoch_2, __pyx_n_s_epochIteration_Cython_ASY_SVD_SG, 442, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__36)) __PYX_ERR(0, 442, __pyx_L1_error)
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":630
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":630
  * 
  * 
  *     def epochIteration_Cython_BPR_SGD(self):             # <<<<<<<<<<<<<<
@@ -35035,7 +35031,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__37);
   __pyx_codeobj__38 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 27, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__37, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_MatrixFactorization_Cython_Epoch_2, __pyx_n_s_epochIteration_Cython_BPR_SGD, 630, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__38)) __PYX_ERR(0, 630, __pyx_L1_error)
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":746
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":746
  * 
  * 
  *     def get_USER_factors(self):             # <<<<<<<<<<<<<<
@@ -35044,7 +35040,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  */
   __pyx_codeobj__39 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 1, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__31, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_MatrixFactorization_Cython_Epoch_2, __pyx_n_s_get_USER_factors, 746, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__39)) __PYX_ERR(0, 746, __pyx_L1_error)
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":750
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":750
  * 
  * 
  *     def get_ITEM_factors(self):             # <<<<<<<<<<<<<<
@@ -35053,7 +35049,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  */
   __pyx_codeobj__40 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 1, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__31, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_MatrixFactorization_Cython_Epoch_2, __pyx_n_s_get_ITEM_factors, 750, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__40)) __PYX_ERR(0, 750, __pyx_L1_error)
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":754
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":754
  * 
  * 
  *     def get_USER_bias(self):             # <<<<<<<<<<<<<<
@@ -35062,7 +35058,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  */
   __pyx_codeobj__41 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 1, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__31, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_MatrixFactorization_Cython_Epoch_2, __pyx_n_s_get_USER_bias, 754, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__41)) __PYX_ERR(0, 754, __pyx_L1_error)
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":758
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":758
  * 
  * 
  *     def get_ITEM_bias(self):             # <<<<<<<<<<<<<<
@@ -35071,7 +35067,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  */
   __pyx_codeobj__42 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 1, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__31, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_MatrixFactorization_Cython_Epoch_2, __pyx_n_s_get_ITEM_bias, 758, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__42)) __PYX_ERR(0, 758, __pyx_L1_error)
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":762
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":762
  * 
  * 
  *     def get_GLOBAL_bias(self):             # <<<<<<<<<<<<<<
@@ -35080,7 +35076,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  */
   __pyx_codeobj__43 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 1, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__31, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_MatrixFactorization_Cython_Epoch_2, __pyx_n_s_get_GLOBAL_bias, 762, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__43)) __PYX_ERR(0, 762, __pyx_L1_error)
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":767
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":767
  * 
  * 
  *     def _init_minibatch_data_structures(self):             # <<<<<<<<<<<<<<
@@ -35229,41 +35225,41 @@ static int __Pyx_modinit_type_init_code(void) {
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__Pyx_modinit_type_init_code", 0);
   /*--- Type init code ---*/
-  __pyx_vtabptr_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch = &__pyx_vtable_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch;
-  __pyx_vtable_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch._clear_minibatch_data_structures = (void (*)(struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *))__pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch__clear_minibatch_data_structures;
-  __pyx_vtable_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch._add_MSE_sample_in_minibatch = (void (*)(struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *, struct __pyx_t_32MatrixFactorization_Cython_Epoch_MSE_sample))__pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch__add_MSE_sample_in_minibatch;
-  __pyx_vtable_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch._add_BPR_sample_in_minibatch = (void (*)(struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *, struct __pyx_t_32MatrixFactorization_Cython_Epoch_BPR_sample))__pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch__add_BPR_sample_in_minibatch;
-  __pyx_vtable_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch._apply_minibatch_updates_to_latent_factors = (void (*)(struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *))__pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch__apply_minibatch_updates_to_latent_factors;
-  __pyx_vtable_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch.adaptive_gradient = (double (*)(struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *, double, long, long, __Pyx_memviewslice, __Pyx_memviewslice, __Pyx_memviewslice))__pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_adaptive_gradient;
-  __pyx_vtable_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch.sampleMSE_Cython = (struct __pyx_t_32MatrixFactorization_Cython_Epoch_MSE_sample (*)(struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *))__pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_sampleMSE_Cython;
-  __pyx_vtable_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch.sampleBPR_Cython = (struct __pyx_t_32MatrixFactorization_Cython_Epoch_BPR_sample (*)(struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *))__pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_sampleBPR_Cython;
-  __pyx_vtable_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch.sampleWARP_Cython = (struct __pyx_t_32MatrixFactorization_Cython_Epoch_BPR_sample (*)(struct __pyx_obj_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *))__pyx_f_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_sampleWARP_Cython;
+  __pyx_vtabptr_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch = &__pyx_vtable_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch;
+  __pyx_vtable_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch._clear_minibatch_data_structures = (void (*)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *))__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch__clear_minibatch_data_structures;
+  __pyx_vtable_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch._add_MSE_sample_in_minibatch = (void (*)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *, struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MSE_sample))__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch__add_MSE_sample_in_minibatch;
+  __pyx_vtable_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch._add_BPR_sample_in_minibatch = (void (*)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *, struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_BPR_sample))__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch__add_BPR_sample_in_minibatch;
+  __pyx_vtable_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch._apply_minibatch_updates_to_latent_factors = (void (*)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *))__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch__apply_minibatch_updates_to_latent_factors;
+  __pyx_vtable_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch.adaptive_gradient = (double (*)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *, double, long, long, __Pyx_memviewslice, __Pyx_memviewslice, __Pyx_memviewslice))__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_adaptive_gradient;
+  __pyx_vtable_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch.sampleMSE_Cython = (struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MSE_sample (*)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *))__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_sampleMSE_Cython;
+  __pyx_vtable_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch.sampleBPR_Cython = (struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_BPR_sample (*)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *))__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_sampleBPR_Cython;
+  __pyx_vtable_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch.sampleWARP_Cython = (struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_BPR_sample (*)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch *))__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_sampleWARP_Cython;
   #if CYTHON_USE_TYPE_SPECS
-  __pyx_ptype_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch = (PyTypeObject *) __Pyx_PyType_FromModuleAndSpec(__pyx_m, &__pyx_type_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch_spec, NULL); if (unlikely(!__pyx_ptype_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch)) __PYX_ERR(0, 50, __pyx_L1_error)
-  if (__Pyx_fix_up_extension_type_from_spec(&__pyx_type_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch_spec, __pyx_ptype_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch) < 0) __PYX_ERR(0, 50, __pyx_L1_error)
+  __pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch = (PyTypeObject *) __Pyx_PyType_FromModuleAndSpec(__pyx_m, &__pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch_spec, NULL); if (unlikely(!__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch)) __PYX_ERR(0, 50, __pyx_L1_error)
+  if (__Pyx_fix_up_extension_type_from_spec(&__pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch_spec, __pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch) < 0) __PYX_ERR(0, 50, __pyx_L1_error)
   #else
-  __pyx_ptype_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch = &__pyx_type_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch;
+  __pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch = &__pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch;
   #endif
   #if !CYTHON_COMPILING_IN_LIMITED_API
   #endif
   #if !CYTHON_USE_TYPE_SPECS
-  if (__Pyx_PyType_Ready(__pyx_ptype_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch) < 0) __PYX_ERR(0, 50, __pyx_L1_error)
+  if (__Pyx_PyType_Ready(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch) < 0) __PYX_ERR(0, 50, __pyx_L1_error)
   #endif
   #if PY_MAJOR_VERSION < 3
-  __pyx_ptype_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch->tp_print = 0;
+  __pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch->tp_print = 0;
   #endif
   #if !CYTHON_COMPILING_IN_LIMITED_API
-  if ((CYTHON_USE_TYPE_SLOTS && CYTHON_USE_PYTYPE_LOOKUP) && likely(!__pyx_ptype_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch->tp_dictoffset && __pyx_ptype_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch->tp_getattro == PyObject_GenericGetAttr)) {
-    __pyx_ptype_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch->tp_getattro = __Pyx_PyObject_GenericGetAttr;
+  if ((CYTHON_USE_TYPE_SLOTS && CYTHON_USE_PYTYPE_LOOKUP) && likely(!__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch->tp_dictoffset && __pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch->tp_getattro == PyObject_GenericGetAttr)) {
+    __pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch->tp_getattro = __Pyx_PyObject_GenericGetAttr;
   }
   #endif
-  if (__Pyx_SetVtable(__pyx_ptype_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch, __pyx_vtabptr_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch) < 0) __PYX_ERR(0, 50, __pyx_L1_error)
+  if (__Pyx_SetVtable(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch, __pyx_vtabptr_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch) < 0) __PYX_ERR(0, 50, __pyx_L1_error)
   #if !CYTHON_COMPILING_IN_LIMITED_API
-  if (__Pyx_MergeVtables(__pyx_ptype_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch) < 0) __PYX_ERR(0, 50, __pyx_L1_error)
+  if (__Pyx_MergeVtables(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch) < 0) __PYX_ERR(0, 50, __pyx_L1_error)
   #endif
-  if (PyObject_SetAttr(__pyx_m, __pyx_n_s_MatrixFactorization_Cython_Epoch, (PyObject *) __pyx_ptype_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch) < 0) __PYX_ERR(0, 50, __pyx_L1_error)
+  if (PyObject_SetAttr(__pyx_m, __pyx_n_s_MatrixFactorization_Cython_Epoch, (PyObject *) __pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch) < 0) __PYX_ERR(0, 50, __pyx_L1_error)
   #if !CYTHON_COMPILING_IN_LIMITED_API
-  if (__Pyx_setup_reduce((PyObject *) __pyx_ptype_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch) < 0) __PYX_ERR(0, 50, __pyx_L1_error)
+  if (__Pyx_setup_reduce((PyObject *) __pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch) < 0) __PYX_ERR(0, 50, __pyx_L1_error)
   #endif
   __pyx_vtabptr_array = &__pyx_vtable_array;
   __pyx_vtable_array.get_memview = (PyObject *(*)(struct __pyx_array_obj *))__pyx_array_get_memview;
@@ -35433,23 +35429,23 @@ static int __Pyx_modinit_type_import_code(void) {
   #endif
   __Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_7cpython_4type_type) __PYX_ERR(3, 9, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_1 = PyImport_ImportModule("numpy"); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 203, __pyx_L1_error)
+  __pyx_t_1 = PyImport_ImportModule("numpy"); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 202, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_ptype_5numpy_dtype = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "dtype", sizeof(PyArray_Descr), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyArray_Descr),__Pyx_ImportType_CheckSize_Ignore_3_0_11); if (!__pyx_ptype_5numpy_dtype) __PYX_ERR(2, 203, __pyx_L1_error)
-  __pyx_ptype_5numpy_flatiter = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "flatiter", sizeof(PyArrayIterObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyArrayIterObject),__Pyx_ImportType_CheckSize_Ignore_3_0_11); if (!__pyx_ptype_5numpy_flatiter) __PYX_ERR(2, 226, __pyx_L1_error)
-  __pyx_ptype_5numpy_broadcast = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "broadcast", sizeof(PyArrayMultiIterObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyArrayMultiIterObject),__Pyx_ImportType_CheckSize_Ignore_3_0_11); if (!__pyx_ptype_5numpy_broadcast) __PYX_ERR(2, 230, __pyx_L1_error)
-  __pyx_ptype_5numpy_ndarray = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "ndarray", sizeof(PyArrayObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyArrayObject),__Pyx_ImportType_CheckSize_Ignore_3_0_11); if (!__pyx_ptype_5numpy_ndarray) __PYX_ERR(2, 239, __pyx_L1_error)
-  __pyx_ptype_5numpy_generic = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "generic", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_generic) __PYX_ERR(2, 813, __pyx_L1_error)
-  __pyx_ptype_5numpy_number = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "number", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_number) __PYX_ERR(2, 815, __pyx_L1_error)
-  __pyx_ptype_5numpy_integer = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "integer", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_integer) __PYX_ERR(2, 817, __pyx_L1_error)
-  __pyx_ptype_5numpy_signedinteger = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "signedinteger", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_signedinteger) __PYX_ERR(2, 819, __pyx_L1_error)
-  __pyx_ptype_5numpy_unsignedinteger = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "unsignedinteger", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_unsignedinteger) __PYX_ERR(2, 821, __pyx_L1_error)
-  __pyx_ptype_5numpy_inexact = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "inexact", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_inexact) __PYX_ERR(2, 823, __pyx_L1_error)
-  __pyx_ptype_5numpy_floating = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "floating", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_floating) __PYX_ERR(2, 825, __pyx_L1_error)
-  __pyx_ptype_5numpy_complexfloating = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "complexfloating", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_complexfloating) __PYX_ERR(2, 827, __pyx_L1_error)
-  __pyx_ptype_5numpy_flexible = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "flexible", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_flexible) __PYX_ERR(2, 829, __pyx_L1_error)
-  __pyx_ptype_5numpy_character = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "character", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_character) __PYX_ERR(2, 831, __pyx_L1_error)
-  __pyx_ptype_5numpy_ufunc = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "ufunc", sizeof(PyUFuncObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyUFuncObject),__Pyx_ImportType_CheckSize_Ignore_3_0_11); if (!__pyx_ptype_5numpy_ufunc) __PYX_ERR(2, 869, __pyx_L1_error)
+  __pyx_ptype_5numpy_dtype = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "dtype", sizeof(PyArray_Descr), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyArray_Descr),__Pyx_ImportType_CheckSize_Ignore_3_0_11); if (!__pyx_ptype_5numpy_dtype) __PYX_ERR(2, 202, __pyx_L1_error)
+  __pyx_ptype_5numpy_flatiter = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "flatiter", sizeof(PyArrayIterObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyArrayIterObject),__Pyx_ImportType_CheckSize_Ignore_3_0_11); if (!__pyx_ptype_5numpy_flatiter) __PYX_ERR(2, 225, __pyx_L1_error)
+  __pyx_ptype_5numpy_broadcast = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "broadcast", sizeof(PyArrayMultiIterObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyArrayMultiIterObject),__Pyx_ImportType_CheckSize_Ignore_3_0_11); if (!__pyx_ptype_5numpy_broadcast) __PYX_ERR(2, 229, __pyx_L1_error)
+  __pyx_ptype_5numpy_ndarray = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "ndarray", sizeof(PyArrayObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyArrayObject),__Pyx_ImportType_CheckSize_Ignore_3_0_11); if (!__pyx_ptype_5numpy_ndarray) __PYX_ERR(2, 238, __pyx_L1_error)
+  __pyx_ptype_5numpy_generic = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "generic", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_generic) __PYX_ERR(2, 809, __pyx_L1_error)
+  __pyx_ptype_5numpy_number = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "number", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_number) __PYX_ERR(2, 811, __pyx_L1_error)
+  __pyx_ptype_5numpy_integer = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "integer", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_integer) __PYX_ERR(2, 813, __pyx_L1_error)
+  __pyx_ptype_5numpy_signedinteger = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "signedinteger", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_signedinteger) __PYX_ERR(2, 815, __pyx_L1_error)
+  __pyx_ptype_5numpy_unsignedinteger = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "unsignedinteger", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_unsignedinteger) __PYX_ERR(2, 817, __pyx_L1_error)
+  __pyx_ptype_5numpy_inexact = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "inexact", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_inexact) __PYX_ERR(2, 819, __pyx_L1_error)
+  __pyx_ptype_5numpy_floating = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "floating", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_floating) __PYX_ERR(2, 821, __pyx_L1_error)
+  __pyx_ptype_5numpy_complexfloating = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "complexfloating", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_complexfloating) __PYX_ERR(2, 823, __pyx_L1_error)
+  __pyx_ptype_5numpy_flexible = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "flexible", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_flexible) __PYX_ERR(2, 825, __pyx_L1_error)
+  __pyx_ptype_5numpy_character = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "character", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_character) __PYX_ERR(2, 827, __pyx_L1_error)
+  __pyx_ptype_5numpy_ufunc = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "ufunc", sizeof(PyUFuncObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyUFuncObject),__Pyx_ImportType_CheckSize_Ignore_3_0_11); if (!__pyx_ptype_5numpy_ufunc) __PYX_ERR(2, 866, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_RefNannyFinishContext();
   return 0;
@@ -35731,14 +35727,14 @@ if (!__Pyx_RefNanny) {
   #if PY_MAJOR_VERSION < 3 && (__PYX_DEFAULT_STRING_ENCODING_IS_ASCII || __PYX_DEFAULT_STRING_ENCODING_IS_DEFAULT)
   if (__Pyx_init_sys_getdefaultencoding_params() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   #endif
-  if (__pyx_module_is_main_MatrixFactorization_Cython_Epoch) {
+  if (__pyx_module_is_main_RecSysCompetition2024Polimi__libs__Recommenders__MatrixFactorization__Cython__MatrixFactorization_Cython_Epoch) {
     if (PyObject_SetAttr(__pyx_m, __pyx_n_s_name_2, __pyx_n_s_main) < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   }
   #if PY_MAJOR_VERSION >= 3
   {
     PyObject *modules = PyImport_GetModuleDict(); if (unlikely(!modules)) __PYX_ERR(0, 1, __pyx_L1_error)
-    if (!PyDict_GetItemString(modules, "MatrixFactorization_Cython_Epoch")) {
-      if (unlikely((PyDict_SetItemString(modules, "MatrixFactorization_Cython_Epoch", __pyx_m) < 0))) __PYX_ERR(0, 1, __pyx_L1_error)
+    if (!PyDict_GetItemString(modules, "RecSysCompetition2024Polimi.libs.Recommenders.MatrixFactorization.Cython.MatrixFactorization_Cython_Epoch")) {
+      if (unlikely((PyDict_SetItemString(modules, "RecSysCompetition2024Polimi.libs.Recommenders.MatrixFactorization.Cython.MatrixFactorization_Cython_Epoch", __pyx_m) < 0))) __PYX_ERR(0, 1, __pyx_L1_error)
     }
   }
   #endif
@@ -36272,11 +36268,11 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_pyx_unpickle_Enum, __pyx_t_7) < 0) __PYX_ERR(1, 1, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":18
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":18
  * #defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION
  * 
  * from Recommenders.Recommender_utils import check_matrix             # <<<<<<<<<<<<<<
- * from Utils.seconds_to_biggest_unit import seconds_to_biggest_unit
+ * from libs.Utils.seconds_to_biggest_unit import seconds_to_biggest_unit
  * 
  */
   __pyx_t_7 = PyList_New(1); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 18, __pyx_L1_error)
@@ -36293,10 +36289,10 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":19
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":19
  * 
  * from Recommenders.Recommender_utils import check_matrix
- * from Utils.seconds_to_biggest_unit import seconds_to_biggest_unit             # <<<<<<<<<<<<<<
+ * from libs.Utils.seconds_to_biggest_unit import seconds_to_biggest_unit             # <<<<<<<<<<<<<<
  * 
  * import cython
  */
@@ -36305,7 +36301,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_INCREF(__pyx_n_s_seconds_to_biggest_unit);
   __Pyx_GIVEREF(__pyx_n_s_seconds_to_biggest_unit);
   if (__Pyx_PyList_SET_ITEM(__pyx_t_4, 0, __pyx_n_s_seconds_to_biggest_unit)) __PYX_ERR(0, 19, __pyx_L1_error);
-  __pyx_t_7 = __Pyx_Import(__pyx_n_s_Utils_seconds_to_biggest_unit, __pyx_t_4, 0); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 19, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_Import(__pyx_n_s_libs_Utils_seconds_to_biggest_un, __pyx_t_4, 0); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 19, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   __pyx_t_4 = __Pyx_ImportFrom(__pyx_t_7, __pyx_n_s_seconds_to_biggest_unit); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 19, __pyx_L1_error)
@@ -36314,7 +36310,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":23
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":23
  * import cython
  * 
  * import numpy as np             # <<<<<<<<<<<<<<
@@ -36326,7 +36322,7 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_np, __pyx_t_7) < 0) __PYX_ERR(0, 23, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":25
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":25
  * import numpy as np
  * cimport numpy as np
  * import time, math             # <<<<<<<<<<<<<<
@@ -36342,7 +36338,7 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_math, __pyx_t_7) < 0) __PYX_ERR(0, 25, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":26
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":26
  * cimport numpy as np
  * import time, math
  * import sys             # <<<<<<<<<<<<<<
@@ -36354,7 +36350,7 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_sys, __pyx_t_7) < 0) __PYX_ERR(0, 26, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":95
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":95
  *     cdef double momentum_1, momentum_2
  * 
  *     SGD_MODE_VALUES = ["sgd", "adam", "adagrad", "rmsprop"]             # <<<<<<<<<<<<<<
@@ -36375,11 +36371,11 @@ if (!__Pyx_RefNanny) {
   __Pyx_INCREF(__pyx_n_s_rmsprop);
   __Pyx_GIVEREF(__pyx_n_s_rmsprop);
   if (__Pyx_PyList_SET_ITEM(__pyx_t_7, 3, __pyx_n_s_rmsprop)) __PYX_ERR(0, 95, __pyx_L1_error);
-  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch, __pyx_n_s_SGD_MODE_VALUES, __pyx_t_7) < 0) __PYX_ERR(0, 95, __pyx_L1_error)
+  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch, __pyx_n_s_SGD_MODE_VALUES, __pyx_t_7) < 0) __PYX_ERR(0, 95, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-  PyType_Modified(__pyx_ptype_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch);
+  PyType_Modified(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch);
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":96
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":96
  * 
  *     SGD_MODE_VALUES = ["sgd", "adam", "adagrad", "rmsprop"]
  *     ALGORITHM_NAME_VALUES = ["SVD++", "ASY_SVD", "MF_BPR", "MF_WARP"]             # <<<<<<<<<<<<<<
@@ -36400,176 +36396,176 @@ if (!__Pyx_RefNanny) {
   __Pyx_INCREF(__pyx_n_s_MF_WARP);
   __Pyx_GIVEREF(__pyx_n_s_MF_WARP);
   if (__Pyx_PyList_SET_ITEM(__pyx_t_7, 3, __pyx_n_s_MF_WARP)) __PYX_ERR(0, 96, __pyx_L1_error);
-  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch, __pyx_n_s_ALGORITHM_NAME_VALUES, __pyx_t_7) < 0) __PYX_ERR(0, 96, __pyx_L1_error)
+  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch, __pyx_n_s_ALGORITHM_NAME_VALUES, __pyx_t_7) < 0) __PYX_ERR(0, 96, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-  PyType_Modified(__pyx_ptype_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch);
+  PyType_Modified(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch);
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":176
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":176
  * 
  * 
  *     def _init_latent_factors(self):             # <<<<<<<<<<<<<<
  * 
  *         self.algorithm_is_svdpp = False
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_3_init_latent_factors, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_MatrixFactorization_Cython_Epoch_3, NULL, __pyx_n_s_MatrixFactorization_Cython_Epoch, __pyx_d, ((PyObject *)__pyx_codeobj__28)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 176, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_3_init_latent_factors, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_MatrixFactorization_Cython_Epoch_3, NULL, __pyx_n_s_RecSysCompetition2024Polimi_libs, __pyx_d, ((PyObject *)__pyx_codeobj__28)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 176, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
-  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch, __pyx_n_s_init_latent_factors, __pyx_t_7) < 0) __PYX_ERR(0, 176, __pyx_L1_error)
+  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch, __pyx_n_s_init_latent_factors, __pyx_t_7) < 0) __PYX_ERR(0, 176, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-  PyType_Modified(__pyx_ptype_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch);
+  PyType_Modified(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch);
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":230
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":230
  * 
  * 
  *     def _init_adaptive_gradient_cache(self, sgd_mode, gamma, beta_1, beta_2):             # <<<<<<<<<<<<<<
  * 
  *         self.useAdaGrad = False
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_5_init_adaptive_gradient_cache, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_MatrixFactorization_Cython_Epoch_4, NULL, __pyx_n_s_MatrixFactorization_Cython_Epoch, __pyx_d, ((PyObject *)__pyx_codeobj__30)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 230, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_5_init_adaptive_gradient_cache, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_MatrixFactorization_Cython_Epoch_4, NULL, __pyx_n_s_RecSysCompetition2024Polimi_libs, __pyx_d, ((PyObject *)__pyx_codeobj__30)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 230, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
-  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch, __pyx_n_s_init_adaptive_gradient_cache, __pyx_t_7) < 0) __PYX_ERR(0, 230, __pyx_L1_error)
+  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch, __pyx_n_s_init_adaptive_gradient_cache, __pyx_t_7) < 0) __PYX_ERR(0, 230, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-  PyType_Modified(__pyx_ptype_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch);
+  PyType_Modified(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch);
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":309
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":309
  * 
  * 
  *     def epochIteration_Cython(self):             # <<<<<<<<<<<<<<
  * 
  *         if self.algorithm_is_svdpp:
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_7epochIteration_Cython, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_MatrixFactorization_Cython_Epoch_5, NULL, __pyx_n_s_MatrixFactorization_Cython_Epoch, __pyx_d, ((PyObject *)__pyx_codeobj__32)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 309, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_7epochIteration_Cython, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_MatrixFactorization_Cython_Epoch_5, NULL, __pyx_n_s_RecSysCompetition2024Polimi_libs, __pyx_d, ((PyObject *)__pyx_codeobj__32)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 309, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
-  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch, __pyx_n_s_epochIteration_Cython, __pyx_t_7) < 0) __PYX_ERR(0, 309, __pyx_L1_error)
+  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch, __pyx_n_s_epochIteration_Cython, __pyx_t_7) < 0) __PYX_ERR(0, 309, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-  PyType_Modified(__pyx_ptype_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch);
+  PyType_Modified(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch);
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":322
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":322
  * 
  * 
  *     def epochIteration_Cython_SVD_pp_SGD(self):             # <<<<<<<<<<<<<<
  * 
  *         # Get number of available interactions
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_9epochIteration_Cython_SVD_pp_SGD, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_MatrixFactorization_Cython_Epoch_6, NULL, __pyx_n_s_MatrixFactorization_Cython_Epoch, __pyx_d, ((PyObject *)__pyx_codeobj__34)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 322, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_9epochIteration_Cython_SVD_pp_SGD, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_MatrixFactorization_Cython_Epoch_6, NULL, __pyx_n_s_RecSysCompetition2024Polimi_libs, __pyx_d, ((PyObject *)__pyx_codeobj__34)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 322, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
-  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch, __pyx_n_s_epochIteration_Cython_SVD_pp_SGD, __pyx_t_7) < 0) __PYX_ERR(0, 322, __pyx_L1_error)
+  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch, __pyx_n_s_epochIteration_Cython_SVD_pp_SGD, __pyx_t_7) < 0) __PYX_ERR(0, 322, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-  PyType_Modified(__pyx_ptype_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch);
+  PyType_Modified(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch);
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":442
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":442
  * 
  * 
  *     def epochIteration_Cython_ASY_SVD_SGD(self):             # <<<<<<<<<<<<<<
  * 
  * 
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_11epochIteration_Cython_ASY_SVD_SGD, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_MatrixFactorization_Cython_Epoch_7, NULL, __pyx_n_s_MatrixFactorization_Cython_Epoch, __pyx_d, ((PyObject *)__pyx_codeobj__36)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 442, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_11epochIteration_Cython_ASY_SVD_SGD, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_MatrixFactorization_Cython_Epoch_7, NULL, __pyx_n_s_RecSysCompetition2024Polimi_libs, __pyx_d, ((PyObject *)__pyx_codeobj__36)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 442, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
-  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch, __pyx_n_s_epochIteration_Cython_ASY_SVD_SG, __pyx_t_7) < 0) __PYX_ERR(0, 442, __pyx_L1_error)
+  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch, __pyx_n_s_epochIteration_Cython_ASY_SVD_SG, __pyx_t_7) < 0) __PYX_ERR(0, 442, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-  PyType_Modified(__pyx_ptype_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch);
+  PyType_Modified(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch);
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":630
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":630
  * 
  * 
  *     def epochIteration_Cython_BPR_SGD(self):             # <<<<<<<<<<<<<<
  * 
  *         # Get number of available interactions
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_13epochIteration_Cython_BPR_SGD, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_MatrixFactorization_Cython_Epoch_8, NULL, __pyx_n_s_MatrixFactorization_Cython_Epoch, __pyx_d, ((PyObject *)__pyx_codeobj__38)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 630, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_13epochIteration_Cython_BPR_SGD, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_MatrixFactorization_Cython_Epoch_8, NULL, __pyx_n_s_RecSysCompetition2024Polimi_libs, __pyx_d, ((PyObject *)__pyx_codeobj__38)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 630, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
-  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch, __pyx_n_s_epochIteration_Cython_BPR_SGD, __pyx_t_7) < 0) __PYX_ERR(0, 630, __pyx_L1_error)
+  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch, __pyx_n_s_epochIteration_Cython_BPR_SGD, __pyx_t_7) < 0) __PYX_ERR(0, 630, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-  PyType_Modified(__pyx_ptype_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch);
+  PyType_Modified(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch);
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":746
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":746
  * 
  * 
  *     def get_USER_factors(self):             # <<<<<<<<<<<<<<
  *         return np.array(self.USER_factors)
  * 
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_15get_USER_factors, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_MatrixFactorization_Cython_Epoch_9, NULL, __pyx_n_s_MatrixFactorization_Cython_Epoch, __pyx_d, ((PyObject *)__pyx_codeobj__39)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 746, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_15get_USER_factors, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_MatrixFactorization_Cython_Epoch_9, NULL, __pyx_n_s_RecSysCompetition2024Polimi_libs, __pyx_d, ((PyObject *)__pyx_codeobj__39)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 746, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
-  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch, __pyx_n_s_get_USER_factors, __pyx_t_7) < 0) __PYX_ERR(0, 746, __pyx_L1_error)
+  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch, __pyx_n_s_get_USER_factors, __pyx_t_7) < 0) __PYX_ERR(0, 746, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-  PyType_Modified(__pyx_ptype_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch);
+  PyType_Modified(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch);
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":750
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":750
  * 
  * 
  *     def get_ITEM_factors(self):             # <<<<<<<<<<<<<<
  *         return np.array(self.ITEM_factors)
  * 
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_17get_ITEM_factors, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_MatrixFactorization_Cython_Epoch_10, NULL, __pyx_n_s_MatrixFactorization_Cython_Epoch, __pyx_d, ((PyObject *)__pyx_codeobj__40)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 750, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_17get_ITEM_factors, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_MatrixFactorization_Cython_Epoch_10, NULL, __pyx_n_s_RecSysCompetition2024Polimi_libs, __pyx_d, ((PyObject *)__pyx_codeobj__40)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 750, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
-  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch, __pyx_n_s_get_ITEM_factors, __pyx_t_7) < 0) __PYX_ERR(0, 750, __pyx_L1_error)
+  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch, __pyx_n_s_get_ITEM_factors, __pyx_t_7) < 0) __PYX_ERR(0, 750, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-  PyType_Modified(__pyx_ptype_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch);
+  PyType_Modified(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch);
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":754
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":754
  * 
  * 
  *     def get_USER_bias(self):             # <<<<<<<<<<<<<<
  *         return np.array(self.USER_bias)
  * 
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_19get_USER_bias, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_MatrixFactorization_Cython_Epoch_11, NULL, __pyx_n_s_MatrixFactorization_Cython_Epoch, __pyx_d, ((PyObject *)__pyx_codeobj__41)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 754, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_19get_USER_bias, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_MatrixFactorization_Cython_Epoch_11, NULL, __pyx_n_s_RecSysCompetition2024Polimi_libs, __pyx_d, ((PyObject *)__pyx_codeobj__41)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 754, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
-  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch, __pyx_n_s_get_USER_bias, __pyx_t_7) < 0) __PYX_ERR(0, 754, __pyx_L1_error)
+  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch, __pyx_n_s_get_USER_bias, __pyx_t_7) < 0) __PYX_ERR(0, 754, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-  PyType_Modified(__pyx_ptype_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch);
+  PyType_Modified(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch);
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":758
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":758
  * 
  * 
  *     def get_ITEM_bias(self):             # <<<<<<<<<<<<<<
  *         return np.array(self.ITEM_bias)
  * 
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_21get_ITEM_bias, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_MatrixFactorization_Cython_Epoch_12, NULL, __pyx_n_s_MatrixFactorization_Cython_Epoch, __pyx_d, ((PyObject *)__pyx_codeobj__42)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 758, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_21get_ITEM_bias, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_MatrixFactorization_Cython_Epoch_12, NULL, __pyx_n_s_RecSysCompetition2024Polimi_libs, __pyx_d, ((PyObject *)__pyx_codeobj__42)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 758, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
-  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch, __pyx_n_s_get_ITEM_bias, __pyx_t_7) < 0) __PYX_ERR(0, 758, __pyx_L1_error)
+  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch, __pyx_n_s_get_ITEM_bias, __pyx_t_7) < 0) __PYX_ERR(0, 758, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-  PyType_Modified(__pyx_ptype_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch);
+  PyType_Modified(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch);
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":762
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":762
  * 
  * 
  *     def get_GLOBAL_bias(self):             # <<<<<<<<<<<<<<
  *         return np.array(self.GLOBAL_bias[0])
  * 
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_23get_GLOBAL_bias, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_MatrixFactorization_Cython_Epoch_13, NULL, __pyx_n_s_MatrixFactorization_Cython_Epoch, __pyx_d, ((PyObject *)__pyx_codeobj__43)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 762, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_23get_GLOBAL_bias, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_MatrixFactorization_Cython_Epoch_13, NULL, __pyx_n_s_RecSysCompetition2024Polimi_libs, __pyx_d, ((PyObject *)__pyx_codeobj__43)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 762, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
-  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch, __pyx_n_s_get_GLOBAL_bias, __pyx_t_7) < 0) __PYX_ERR(0, 762, __pyx_L1_error)
+  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch, __pyx_n_s_get_GLOBAL_bias, __pyx_t_7) < 0) __PYX_ERR(0, 762, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-  PyType_Modified(__pyx_ptype_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch);
+  PyType_Modified(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch);
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":767
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":767
  * 
  * 
  *     def _init_minibatch_data_structures(self):             # <<<<<<<<<<<<<<
  * 
  *         # The shape depends on the batch size. 1 for FunkSVD 2 for BPR as it samples two items
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_25_init_minibatch_data_structures, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_MatrixFactorization_Cython_Epoch_14, NULL, __pyx_n_s_MatrixFactorization_Cython_Epoch, __pyx_d, ((PyObject *)__pyx_codeobj__44)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 767, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_25_init_minibatch_data_structures, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_MatrixFactorization_Cython_Epoch_14, NULL, __pyx_n_s_RecSysCompetition2024Polimi_libs, __pyx_d, ((PyObject *)__pyx_codeobj__44)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 767, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
-  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch, __pyx_n_s_init_minibatch_data_structures, __pyx_t_7) < 0) __PYX_ERR(0, 767, __pyx_L1_error)
+  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch, __pyx_n_s_init_minibatch_data_structures, __pyx_t_7) < 0) __PYX_ERR(0, 767, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-  PyType_Modified(__pyx_ptype_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch);
+  PyType_Modified(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch);
 
   /* "(tree fragment)":1
  * def __reduce_cython__(self):             # <<<<<<<<<<<<<<
  *     cdef tuple state
  *     cdef object _dict
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_27__reduce_cython__, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_MatrixFactorization_Cython_Epoch_15, NULL, __pyx_n_s_MatrixFactorization_Cython_Epoch, __pyx_d, ((PyObject *)__pyx_codeobj__46)); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 1, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_27__reduce_cython__, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_MatrixFactorization_Cython_Epoch_15, NULL, __pyx_n_s_RecSysCompetition2024Polimi_libs, __pyx_d, ((PyObject *)__pyx_codeobj__46)); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 1, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
-  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch, __pyx_n_s_reduce_cython, __pyx_t_7) < 0) __PYX_ERR(1, 1, __pyx_L1_error)
+  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch, __pyx_n_s_reduce_cython, __pyx_t_7) < 0) __PYX_ERR(1, 1, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-  PyType_Modified(__pyx_ptype_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch);
+  PyType_Modified(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch);
 
   /* "(tree fragment)":16
  *     else:
@@ -36577,23 +36573,23 @@ if (!__Pyx_RefNanny) {
  * def __setstate_cython__(self, __pyx_state):             # <<<<<<<<<<<<<<
  *     __pyx_unpickle_MatrixFactorization_Cython_Epoch__set_state(self, __pyx_state)
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_29__setstate_cython__, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_MatrixFactorization_Cython_Epoch_16, NULL, __pyx_n_s_MatrixFactorization_Cython_Epoch, __pyx_d, ((PyObject *)__pyx_codeobj__48)); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 16, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_32MatrixFactorization_Cython_Epoch_29__setstate_cython__, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_MatrixFactorization_Cython_Epoch_16, NULL, __pyx_n_s_RecSysCompetition2024Polimi_libs, __pyx_d, ((PyObject *)__pyx_codeobj__48)); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 16, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
-  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch, __pyx_n_s_setstate_cython, __pyx_t_7) < 0) __PYX_ERR(1, 16, __pyx_L1_error)
+  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch, __pyx_n_s_setstate_cython, __pyx_t_7) < 0) __PYX_ERR(1, 16, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-  PyType_Modified(__pyx_ptype_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch);
+  PyType_Modified(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_MatrixFactorization_Cython_Epoch);
 
   /* "(tree fragment)":1
  * def __pyx_unpickle_MatrixFactorization_Cython_Epoch(__pyx_type, long __pyx_checksum, __pyx_state):             # <<<<<<<<<<<<<<
  *     cdef object __pyx_PickleError
  *     cdef object __pyx_result
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_32MatrixFactorization_Cython_Epoch_1__pyx_unpickle_MatrixFactorization_Cython_Epoch, 0, __pyx_n_s_pyx_unpickle_MatrixFactorizati, NULL, __pyx_n_s_MatrixFactorization_Cython_Epoch, __pyx_d, ((PyObject *)__pyx_codeobj__49)); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 1, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_19MatrixFactorization_6Cython_32MatrixFactorization_Cython_Epoch_1__pyx_unpickle_MatrixFactorization_Cython_Epoch, 0, __pyx_n_s_pyx_unpickle_MatrixFactorizati, NULL, __pyx_n_s_RecSysCompetition2024Polimi_libs, __pyx_d, ((PyObject *)__pyx_codeobj__49)); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 1, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_pyx_unpickle_MatrixFactorizati, __pyx_t_7) < 0) __PYX_ERR(1, 1, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-  /* "MatrixFactorization_Cython_Epoch.pyx":1
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/MatrixFactorization/Cython/MatrixFactorization_Cython_Epoch.pyx":1
  * """             # <<<<<<<<<<<<<<
  * Created on 07/09/17
  * 
@@ -36612,7 +36608,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_XDECREF(__pyx_t_7);
   if (__pyx_m) {
     if (__pyx_d && stringtab_initialized) {
-      __Pyx_AddTraceback("init MatrixFactorization_Cython_Epoch", __pyx_clineno, __pyx_lineno, __pyx_filename);
+      __Pyx_AddTraceback("init RecSysCompetition2024Polimi.libs.Recommenders.MatrixFactorization.Cython.MatrixFactorization_Cython_Epoch", __pyx_clineno, __pyx_lineno, __pyx_filename);
     }
     #if !CYTHON_USE_MODULE_STATE
     Py_CLEAR(__pyx_m);
@@ -36626,7 +36622,7 @@ if (!__Pyx_RefNanny) {
     }
     #endif
   } else if (!PyErr_Occurred()) {
-    PyErr_SetString(PyExc_ImportError, "init MatrixFactorization_Cython_Epoch");
+    PyErr_SetString(PyExc_ImportError, "init RecSysCompetition2024Polimi.libs.Recommenders.MatrixFactorization.Cython.MatrixFactorization_Cython_Epoch");
   }
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();

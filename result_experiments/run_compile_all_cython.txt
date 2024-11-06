@@ -1,0 +1,13 @@
+Compiling [1/11]: MatrixFactorizationImpressions_Cython_Epoch.pyx... PASS
+Compiling [2/11]: MatrixFactorization_Cython_Epoch.pyx... PASS
+Compiling [3/11]: Compute_Similarity_Cython.pyx... PASS
+Compiling [4/11]: Sparse_Matrix_Tree_CSR.pyx... PASS
+Compiling [5/11]: Triangular_Matrix.pyx... PASS
+Compiling [6/11]: SLIM_BPR_Cython_Epoch.pyx... PASS
+Compiling [7/11]: HP3_Similarity_Cython_SGD.pyx... PASS
+Compiling [8/11]: CFW_D_Similarity_Cython_SGD.pyx... PASS
+Compiling [9/11]: FBSM_Rating_Cython_SGD.pyx... PASS
+Compiling [10/11]: CFW_DVV_Similarity_Cython_SGD.pyx... PASS
+Compiling [11/11]: DataIterator.pyx... PASS
+run_compile_all_cython: Compilation finished. SUCCESS.
+Compilation log can be found here: './result_experiments/run_compile_all_cython.txt'

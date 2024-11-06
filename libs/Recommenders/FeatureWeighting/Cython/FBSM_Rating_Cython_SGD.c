@@ -1216,8 +1216,8 @@ static CYTHON_INLINE float __PYX_NAN() {
   #endif
 #endif
 
-#define __PYX_HAVE__FBSM_Rating_Cython_SGD
-#define __PYX_HAVE_API__FBSM_Rating_Cython_SGD
+#define __PYX_HAVE__RecSysCompetition2024Polimi__libs__Recommenders__FeatureWeighting__Cython__FBSM_Rating_Cython_SGD
+#define __PYX_HAVE_API__RecSysCompetition2024Polimi__libs__Recommenders__FeatureWeighting__Cython__FBSM_Rating_Cython_SGD
 /* Early includes */
 #include <string.h>
 #include <stdio.h>
@@ -1661,7 +1661,7 @@ typedef struct {
 
 /* #### Code section: numeric_typedefs ### */
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":732
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":730
  * # in Cython to enable them only on the right systems.
  * 
  * ctypedef npy_int8       int8_t             # <<<<<<<<<<<<<<
@@ -1670,7 +1670,7 @@ typedef struct {
  */
 typedef npy_int8 __pyx_t_5numpy_int8_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":733
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":731
  * 
  * ctypedef npy_int8       int8_t
  * ctypedef npy_int16      int16_t             # <<<<<<<<<<<<<<
@@ -1679,7 +1679,7 @@ typedef npy_int8 __pyx_t_5numpy_int8_t;
  */
 typedef npy_int16 __pyx_t_5numpy_int16_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":734
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":732
  * ctypedef npy_int8       int8_t
  * ctypedef npy_int16      int16_t
  * ctypedef npy_int32      int32_t             # <<<<<<<<<<<<<<
@@ -1688,7 +1688,7 @@ typedef npy_int16 __pyx_t_5numpy_int16_t;
  */
 typedef npy_int32 __pyx_t_5numpy_int32_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":735
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":733
  * ctypedef npy_int16      int16_t
  * ctypedef npy_int32      int32_t
  * ctypedef npy_int64      int64_t             # <<<<<<<<<<<<<<
@@ -1697,7 +1697,7 @@ typedef npy_int32 __pyx_t_5numpy_int32_t;
  */
 typedef npy_int64 __pyx_t_5numpy_int64_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":739
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":737
  * #ctypedef npy_int128     int128_t
  * 
  * ctypedef npy_uint8      uint8_t             # <<<<<<<<<<<<<<
@@ -1706,7 +1706,7 @@ typedef npy_int64 __pyx_t_5numpy_int64_t;
  */
 typedef npy_uint8 __pyx_t_5numpy_uint8_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":740
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":738
  * 
  * ctypedef npy_uint8      uint8_t
  * ctypedef npy_uint16     uint16_t             # <<<<<<<<<<<<<<
@@ -1715,7 +1715,7 @@ typedef npy_uint8 __pyx_t_5numpy_uint8_t;
  */
 typedef npy_uint16 __pyx_t_5numpy_uint16_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":741
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":739
  * ctypedef npy_uint8      uint8_t
  * ctypedef npy_uint16     uint16_t
  * ctypedef npy_uint32     uint32_t             # <<<<<<<<<<<<<<
@@ -1724,7 +1724,7 @@ typedef npy_uint16 __pyx_t_5numpy_uint16_t;
  */
 typedef npy_uint32 __pyx_t_5numpy_uint32_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":742
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":740
  * ctypedef npy_uint16     uint16_t
  * ctypedef npy_uint32     uint32_t
  * ctypedef npy_uint64     uint64_t             # <<<<<<<<<<<<<<
@@ -1733,7 +1733,7 @@ typedef npy_uint32 __pyx_t_5numpy_uint32_t;
  */
 typedef npy_uint64 __pyx_t_5numpy_uint64_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":746
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":744
  * #ctypedef npy_uint128    uint128_t
  * 
  * ctypedef npy_float32    float32_t             # <<<<<<<<<<<<<<
@@ -1742,7 +1742,7 @@ typedef npy_uint64 __pyx_t_5numpy_uint64_t;
  */
 typedef npy_float32 __pyx_t_5numpy_float32_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":747
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":745
  * 
  * ctypedef npy_float32    float32_t
  * ctypedef npy_float64    float64_t             # <<<<<<<<<<<<<<
@@ -1751,61 +1751,43 @@ typedef npy_float32 __pyx_t_5numpy_float32_t;
  */
 typedef npy_float64 __pyx_t_5numpy_float64_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":756
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":754
  * # The int types are mapped a bit surprising --
  * # numpy.int corresponds to 'l' and numpy.long to 'q'
  * ctypedef npy_long       int_t             # <<<<<<<<<<<<<<
- * ctypedef npy_longlong   long_t
- * ctypedef npy_longlong   longlong_t
- */
-typedef npy_long __pyx_t_5numpy_int_t;
-
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":757
- * # numpy.int corresponds to 'l' and numpy.long to 'q'
- * ctypedef npy_long       int_t
- * ctypedef npy_longlong   long_t             # <<<<<<<<<<<<<<
  * ctypedef npy_longlong   longlong_t
  * 
  */
-typedef npy_longlong __pyx_t_5numpy_long_t;
+typedef npy_long __pyx_t_5numpy_int_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":758
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":755
+ * # numpy.int corresponds to 'l' and numpy.long to 'q'
  * ctypedef npy_long       int_t
- * ctypedef npy_longlong   long_t
  * ctypedef npy_longlong   longlong_t             # <<<<<<<<<<<<<<
  * 
  * ctypedef npy_ulong      uint_t
  */
 typedef npy_longlong __pyx_t_5numpy_longlong_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":760
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":757
  * ctypedef npy_longlong   longlong_t
  * 
  * ctypedef npy_ulong      uint_t             # <<<<<<<<<<<<<<
- * ctypedef npy_ulonglong  ulong_t
  * ctypedef npy_ulonglong  ulonglong_t
+ * 
  */
 typedef npy_ulong __pyx_t_5numpy_uint_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":761
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":758
  * 
  * ctypedef npy_ulong      uint_t
- * ctypedef npy_ulonglong  ulong_t             # <<<<<<<<<<<<<<
- * ctypedef npy_ulonglong  ulonglong_t
- * 
- */
-typedef npy_ulonglong __pyx_t_5numpy_ulong_t;
-
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":762
- * ctypedef npy_ulong      uint_t
- * ctypedef npy_ulonglong  ulong_t
  * ctypedef npy_ulonglong  ulonglong_t             # <<<<<<<<<<<<<<
  * 
  * ctypedef npy_intp       intp_t
  */
 typedef npy_ulonglong __pyx_t_5numpy_ulonglong_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":764
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":760
  * ctypedef npy_ulonglong  ulonglong_t
  * 
  * ctypedef npy_intp       intp_t             # <<<<<<<<<<<<<<
@@ -1814,7 +1796,7 @@ typedef npy_ulonglong __pyx_t_5numpy_ulonglong_t;
  */
 typedef npy_intp __pyx_t_5numpy_intp_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":765
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":761
  * 
  * ctypedef npy_intp       intp_t
  * ctypedef npy_uintp      uintp_t             # <<<<<<<<<<<<<<
@@ -1823,7 +1805,7 @@ typedef npy_intp __pyx_t_5numpy_intp_t;
  */
 typedef npy_uintp __pyx_t_5numpy_uintp_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":767
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":763
  * ctypedef npy_uintp      uintp_t
  * 
  * ctypedef npy_double     float_t             # <<<<<<<<<<<<<<
@@ -1832,7 +1814,7 @@ typedef npy_uintp __pyx_t_5numpy_uintp_t;
  */
 typedef npy_double __pyx_t_5numpy_float_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":768
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":764
  * 
  * ctypedef npy_double     float_t
  * ctypedef npy_double     double_t             # <<<<<<<<<<<<<<
@@ -1841,7 +1823,7 @@ typedef npy_double __pyx_t_5numpy_float_t;
  */
 typedef npy_double __pyx_t_5numpy_double_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":769
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":765
  * ctypedef npy_double     float_t
  * ctypedef npy_double     double_t
  * ctypedef npy_longdouble longdouble_t             # <<<<<<<<<<<<<<
@@ -1881,13 +1863,13 @@ static CYTHON_INLINE __pyx_t_double_complex __pyx_t_double_complex_from_parts(do
 struct arrayobject;
 typedef struct arrayobject arrayobject;
 #endif
-struct __pyx_obj_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD;
+struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD;
 struct __pyx_array_obj;
 struct __pyx_MemviewEnum_obj;
 struct __pyx_memoryview_obj;
 struct __pyx_memoryviewslice_obj;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":771
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":767
  * ctypedef npy_longdouble longdouble_t
  * 
  * ctypedef npy_cfloat      cfloat_t             # <<<<<<<<<<<<<<
@@ -1896,7 +1878,7 @@ struct __pyx_memoryviewslice_obj;
  */
 typedef npy_cfloat __pyx_t_5numpy_cfloat_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":772
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":768
  * 
  * ctypedef npy_cfloat      cfloat_t
  * ctypedef npy_cdouble     cdouble_t             # <<<<<<<<<<<<<<
@@ -1905,7 +1887,7 @@ typedef npy_cfloat __pyx_t_5numpy_cfloat_t;
  */
 typedef npy_cdouble __pyx_t_5numpy_cdouble_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":773
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":769
  * ctypedef npy_cfloat      cfloat_t
  * ctypedef npy_cdouble     cdouble_t
  * ctypedef npy_clongdouble clongdouble_t             # <<<<<<<<<<<<<<
@@ -1914,7 +1896,7 @@ typedef npy_cdouble __pyx_t_5numpy_cdouble_t;
  */
 typedef npy_clongdouble __pyx_t_5numpy_clongdouble_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":775
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":771
  * ctypedef npy_clongdouble clongdouble_t
  * 
  * ctypedef npy_cdouble     complex_t             # <<<<<<<<<<<<<<
@@ -1922,16 +1904,16 @@ typedef npy_clongdouble __pyx_t_5numpy_clongdouble_t;
  * cdef inline object PyArray_MultiIterNew1(a):
  */
 typedef npy_cdouble __pyx_t_5numpy_complex_t;
-struct __pyx_t_22FBSM_Rating_Cython_SGD_BPR_sample;
+struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_BPR_sample;
 
-/* "FBSM_Rating_Cython_SGD.pyx":31
+/* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":31
  * 
  * 
  * cdef struct BPR_sample:             # <<<<<<<<<<<<<<
  *     long user
  *     long pos_item
  */
-struct __pyx_t_22FBSM_Rating_Cython_SGD_BPR_sample {
+struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_BPR_sample {
   long user;
   long pos_item;
   long neg_item;
@@ -1939,16 +1921,16 @@ struct __pyx_t_22FBSM_Rating_Cython_SGD_BPR_sample {
   long seen_items_end_pos;
 };
 
-/* "FBSM_Rating_Cython_SGD.pyx":40
+/* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":40
  * 
  * 
  * cdef class FBSM_Rating_Cython_SGD:             # <<<<<<<<<<<<<<
  * 
  *     cdef double[:] data_list
  */
-struct __pyx_obj_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD {
+struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD {
   PyObject_HEAD
-  struct __pyx_vtabstruct_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *__pyx_vtab;
+  struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *__pyx_vtab;
   __Pyx_memviewslice data_list;
   __Pyx_memviewslice row_list;
   __Pyx_memviewslice col_list;
@@ -2074,7 +2056,7 @@ struct __pyx_memoryviewslice_obj {
 
 
 
-/* "FBSM_Rating_Cython_SGD.pyx":40
+/* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":40
  * 
  * 
  * cdef class FBSM_Rating_Cython_SGD:             # <<<<<<<<<<<<<<
@@ -2082,15 +2064,15 @@ struct __pyx_memoryviewslice_obj {
  *     cdef double[:] data_list
  */
 
-struct __pyx_vtabstruct_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD {
-  __Pyx_memviewslice (*get_features_vector)(struct __pyx_obj_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *, long);
-  PyObject *(*get_user_feature_count)(struct __pyx_obj_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *, long);
-  PyObject *(*get_user_feature_count_compute)(struct __pyx_obj_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *, struct __pyx_t_22FBSM_Rating_Cython_SGD_BPR_sample);
-  struct __pyx_t_22FBSM_Rating_Cython_SGD_BPR_sample (*sampleBPR_Cython)(struct __pyx_obj_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *);
-  double (*compute_adaptive_gradient_D)(struct __pyx_obj_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *, int, double);
-  double (*compute_adaptive_gradient_V)(struct __pyx_obj_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *, int, int, double);
+struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD {
+  __Pyx_memviewslice (*get_features_vector)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *, long);
+  PyObject *(*get_user_feature_count)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *, long);
+  PyObject *(*get_user_feature_count_compute)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *, struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_BPR_sample);
+  struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_BPR_sample (*sampleBPR_Cython)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *);
+  double (*compute_adaptive_gradient_D)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *, int, double);
+  double (*compute_adaptive_gradient_V)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *, int, int, double);
 };
-static struct __pyx_vtabstruct_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *__pyx_vtabptr_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD;
+static struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *__pyx_vtabptr_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD;
 
 
 /* "View.MemoryView":114
@@ -3363,12 +3345,12 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_5shape_shape(PyArrayObjec
 static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_7strides_strides(PyArrayObject *__pyx_v_self); /* proto*/
 static CYTHON_INLINE npy_intp __pyx_f_5numpy_7ndarray_4size_size(PyArrayObject *__pyx_v_self); /* proto*/
 static CYTHON_INLINE char *__pyx_f_5numpy_7ndarray_4data_data(PyArrayObject *__pyx_v_self); /* proto*/
-static __Pyx_memviewslice __pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_get_features_vector(struct __pyx_obj_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *__pyx_v_self, long __pyx_v_item_id); /* proto*/
-static PyObject *__pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_get_user_feature_count(struct __pyx_obj_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *__pyx_v_self, long __pyx_v_user_id); /* proto*/
-static PyObject *__pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_get_user_feature_count_compute(struct __pyx_obj_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *__pyx_v_self, struct __pyx_t_22FBSM_Rating_Cython_SGD_BPR_sample __pyx_v_sample); /* proto*/
-static struct __pyx_t_22FBSM_Rating_Cython_SGD_BPR_sample __pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_sampleBPR_Cython(struct __pyx_obj_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *__pyx_v_self); /* proto*/
-static double __pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_compute_adaptive_gradient_D(struct __pyx_obj_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *__pyx_v_self, int __pyx_v_feature_id, double __pyx_v_gradient); /* proto*/
-static double __pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_compute_adaptive_gradient_V(struct __pyx_obj_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *__pyx_v_self, int __pyx_v_factor_index, int __pyx_v_feature_id, double __pyx_v_gradient); /* proto*/
+static __Pyx_memviewslice __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_get_features_vector(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *__pyx_v_self, long __pyx_v_item_id); /* proto*/
+static PyObject *__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_get_user_feature_count(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *__pyx_v_self, long __pyx_v_user_id); /* proto*/
+static PyObject *__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_get_user_feature_count_compute(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *__pyx_v_self, struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_BPR_sample __pyx_v_sample); /* proto*/
+static struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_BPR_sample __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_sampleBPR_Cython(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *__pyx_v_self); /* proto*/
+static double __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_compute_adaptive_gradient_D(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *__pyx_v_self, int __pyx_v_feature_id, double __pyx_v_gradient); /* proto*/
+static double __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_compute_adaptive_gradient_V(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *__pyx_v_self, int __pyx_v_factor_index, int __pyx_v_feature_id, double __pyx_v_gradient); /* proto*/
 
 /* Module declarations from "libc.string" */
 
@@ -3402,7 +3384,7 @@ static double __pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_compute_
 static CYTHON_INLINE arrayobject *__pyx_f_7cpython_5array_clone(arrayobject *, Py_ssize_t, int); /*proto*/
 static CYTHON_INLINE int __pyx_f_7cpython_5array_extend_buffer(arrayobject *, char *, Py_ssize_t); /*proto*/
 
-/* Module declarations from "FBSM_Rating_Cython_SGD" */
+/* Module declarations from "RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.FBSM_Rating_Cython_SGD" */
 static PyObject *__pyx_collections_abc_Sequence = 0;
 static PyObject *generic = 0;
 static PyObject *strided = 0;
@@ -3411,7 +3393,7 @@ static PyObject *contiguous = 0;
 static PyObject *indirect_contiguous = 0;
 static int __pyx_memoryview_thread_locks_used;
 static PyThread_type_lock __pyx_memoryview_thread_locks[8];
-static PyObject *__pyx_f_22FBSM_Rating_Cython_SGD___pyx_unpickle_FBSM_Rating_Cython_SGD__set_state(struct __pyx_obj_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *, PyObject *); /*proto*/
+static PyObject *__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD___pyx_unpickle_FBSM_Rating_Cython_SGD__set_state(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *, PyObject *); /*proto*/
 static int __pyx_array_allocate_buffer(struct __pyx_array_obj *); /*proto*/
 static struct __pyx_array_obj *__pyx_array_new(PyObject *, Py_ssize_t, char *, char *, char *); /*proto*/
 static PyObject *__pyx_memoryview_new(PyObject *, int, int, __Pyx_TypeInfo *); /*proto*/
@@ -3450,11 +3432,11 @@ static PyObject *__pyx_unpickle_Enum__set_state(struct __pyx_MemviewEnum_obj *, 
 static __Pyx_TypeInfo __Pyx_TypeInfo_double = { "double", NULL, sizeof(double), { 0 }, 0, 'R', 0, 0 };
 static __Pyx_TypeInfo __Pyx_TypeInfo_int = { "int", NULL, sizeof(int), { 0 }, 0, __PYX_IS_UNSIGNED(int) ? 'U' : 'I', __PYX_IS_UNSIGNED(int), 0 };
 /* #### Code section: before_global_var ### */
-#define __Pyx_MODULE_NAME "FBSM_Rating_Cython_SGD"
-extern int __pyx_module_is_main_FBSM_Rating_Cython_SGD;
-int __pyx_module_is_main_FBSM_Rating_Cython_SGD = 0;
+#define __Pyx_MODULE_NAME "RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.FBSM_Rating_Cython_SGD"
+extern int __pyx_module_is_main_RecSysCompetition2024Polimi__libs__Recommenders__FeatureWeighting__Cython__FBSM_Rating_Cython_SGD;
+int __pyx_module_is_main_RecSysCompetition2024Polimi__libs__Recommenders__FeatureWeighting__Cython__FBSM_Rating_Cython_SGD = 0;
 
-/* Implementation of "FBSM_Rating_Cython_SGD" */
+/* Implementation of "RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.FBSM_Rating_Cython_SGD" */
 /* #### Code section: global_var ### */
 static PyObject *__pyx_builtin_AssertionError;
 static PyObject *__pyx_builtin_print;
@@ -3676,6 +3658,7 @@ static const char __pyx_k_Incompatible_checksums_0x_x_vs_0[] = "Incompatible che
 static const char __pyx_k_Indirect_dimensions_not_supporte[] = "Indirect dimensions not supported";
 static const char __pyx_k_Invalid_mode_expected_c_or_fortr[] = "Invalid mode, expected 'c' or 'fortran', got ";
 static const char __pyx_k_Out_of_bounds_on_buffer_access_a[] = "Out of bounds on buffer access (axis ";
+static const char __pyx_k_RecSysCompetition2024Polimi_libs[] = "RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.FBSM_Rating_Cython_SGD";
 static const char __pyx_k_SGD_mode_not_valid_Acceptable_va[] = "SGD_mode not valid. Acceptable values are: 'sgd', 'adagrad', 'rmsprop'. Provided value was '{}'";
 static const char __pyx_k_Unable_to_convert_item_to_object[] = "Unable to convert item to object";
 static const char __pyx_k_got_differing_extents_in_dimensi[] = "got differing extents in dimension ";
@@ -3730,14 +3713,14 @@ static PyObject *__pyx_pf___pyx_memoryviewslice_2__setstate_cython__(CYTHON_UNUS
 static PyObject *__pyx_pf_15View_dot_MemoryView___pyx_unpickle_Enum(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v___pyx_type, long __pyx_v___pyx_checksum, PyObject *__pyx_v___pyx_state); /* proto */
 static int __pyx_pf_7cpython_5array_5array___getbuffer__(arrayobject *__pyx_v_self, Py_buffer *__pyx_v_info, CYTHON_UNUSED int __pyx_v_flags); /* proto */
 static void __pyx_pf_7cpython_5array_5array_2__releasebuffer__(CYTHON_UNUSED arrayobject *__pyx_v_self, Py_buffer *__pyx_v_info); /* proto */
-static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(struct __pyx_obj_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *__pyx_v_self, PyObject *__pyx_v_URM, PyObject *__pyx_v_ICM, PyObject *__pyx_v_n_factors, PyObject *__pyx_v_precompute_user_feature_count, PyObject *__pyx_v_learning_rate, PyObject *__pyx_v_l2_reg_D, PyObject *__pyx_v_l2_reg_V, PyObject *__pyx_v_weights_initialization_D, PyObject *__pyx_v_weights_initialization_V, PyObject *__pyx_v_positive_only_D, PyObject *__pyx_v_positive_only_V, PyObject *__pyx_v_verbose, PyObject *__pyx_v_sgd_mode, PyObject *__pyx_v_gamma, PyObject *__pyx_v_beta_1, PyObject *__pyx_v_beta_2, PyObject *__pyx_v_mean_init, PyObject *__pyx_v_std_init); /* proto */
-static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit(struct __pyx_obj_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_4get_D(struct __pyx_obj_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_6get_V(struct __pyx_obj_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_8__reduce_cython__(struct __pyx_obj_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_10__setstate_cython__(struct __pyx_obj_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *__pyx_v_self, PyObject *__pyx_v___pyx_state); /* proto */
-static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD___pyx_unpickle_FBSM_Rating_Cython_SGD(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v___pyx_type, long __pyx_v___pyx_checksum, PyObject *__pyx_v___pyx_state); /* proto */
-static PyObject *__pyx_tp_new_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
+static int __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *__pyx_v_self, PyObject *__pyx_v_URM, PyObject *__pyx_v_ICM, PyObject *__pyx_v_n_factors, PyObject *__pyx_v_precompute_user_feature_count, PyObject *__pyx_v_learning_rate, PyObject *__pyx_v_l2_reg_D, PyObject *__pyx_v_l2_reg_V, PyObject *__pyx_v_weights_initialization_D, PyObject *__pyx_v_weights_initialization_V, PyObject *__pyx_v_positive_only_D, PyObject *__pyx_v_positive_only_V, PyObject *__pyx_v_verbose, PyObject *__pyx_v_sgd_mode, PyObject *__pyx_v_gamma, PyObject *__pyx_v_beta_1, PyObject *__pyx_v_beta_2, PyObject *__pyx_v_mean_init, PyObject *__pyx_v_std_init); /* proto */
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_4get_D(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_6get_V(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_8__reduce_cython__(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_10__setstate_cython__(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *__pyx_v_self, PyObject *__pyx_v___pyx_state); /* proto */
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD___pyx_unpickle_FBSM_Rating_Cython_SGD(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v___pyx_type, long __pyx_v___pyx_checksum, PyObject *__pyx_v___pyx_state); /* proto */
+static PyObject *__pyx_tp_new_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
 static PyObject *__pyx_tp_new_array(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
 static PyObject *__pyx_tp_new_Enum(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
 static PyObject *__pyx_tp_new_memoryview(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
@@ -3817,13 +3800,13 @@ typedef struct {
   #endif
   PyTypeObject *__pyx_ptype_7cpython_5array_array;
   #if CYTHON_USE_MODULE_STATE
-  PyObject *__pyx_type_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD;
+  PyObject *__pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD;
   PyObject *__pyx_type___pyx_array;
   PyObject *__pyx_type___pyx_MemviewEnum;
   PyObject *__pyx_type___pyx_memoryview;
   PyObject *__pyx_type___pyx_memoryviewslice;
   #endif
-  PyTypeObject *__pyx_ptype_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD;
+  PyTypeObject *__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD;
   PyTypeObject *__pyx_array_type;
   PyTypeObject *__pyx_MemviewEnum_type;
   PyTypeObject *__pyx_memoryview_type;
@@ -3870,6 +3853,7 @@ typedef struct {
   PyObject *__pyx_n_b_O;
   PyObject *__pyx_kp_u_Out_of_bounds_on_buffer_access_a;
   PyObject *__pyx_n_s_PickleError;
+  PyObject *__pyx_n_s_RecSysCompetition2024Polimi_libs;
   PyObject *__pyx_n_s_Recommenders_Recommender_utils;
   PyObject *__pyx_kp_s_SGD_mode_not_valid_Acceptable_va;
   PyObject *__pyx_n_s_Sequence;
@@ -4149,8 +4133,8 @@ static int __pyx_m_clear(PyObject *m) {
   Py_CLEAR(clear_module_state->__pyx_ptype_5numpy_character);
   Py_CLEAR(clear_module_state->__pyx_ptype_5numpy_ufunc);
   Py_CLEAR(clear_module_state->__pyx_ptype_7cpython_5array_array);
-  Py_CLEAR(clear_module_state->__pyx_ptype_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD);
-  Py_CLEAR(clear_module_state->__pyx_type_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD);
+  Py_CLEAR(clear_module_state->__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD);
+  Py_CLEAR(clear_module_state->__pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD);
   Py_CLEAR(clear_module_state->__pyx_array_type);
   Py_CLEAR(clear_module_state->__pyx_type___pyx_array);
   Py_CLEAR(clear_module_state->__pyx_MemviewEnum_type);
@@ -4201,6 +4185,7 @@ static int __pyx_m_clear(PyObject *m) {
   Py_CLEAR(clear_module_state->__pyx_n_b_O);
   Py_CLEAR(clear_module_state->__pyx_kp_u_Out_of_bounds_on_buffer_access_a);
   Py_CLEAR(clear_module_state->__pyx_n_s_PickleError);
+  Py_CLEAR(clear_module_state->__pyx_n_s_RecSysCompetition2024Polimi_libs);
   Py_CLEAR(clear_module_state->__pyx_n_s_Recommenders_Recommender_utils);
   Py_CLEAR(clear_module_state->__pyx_kp_s_SGD_mode_not_valid_Acceptable_va);
   Py_CLEAR(clear_module_state->__pyx_n_s_Sequence);
@@ -4458,8 +4443,8 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
   Py_VISIT(traverse_module_state->__pyx_ptype_5numpy_character);
   Py_VISIT(traverse_module_state->__pyx_ptype_5numpy_ufunc);
   Py_VISIT(traverse_module_state->__pyx_ptype_7cpython_5array_array);
-  Py_VISIT(traverse_module_state->__pyx_ptype_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD);
-  Py_VISIT(traverse_module_state->__pyx_type_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD);
+  Py_VISIT(traverse_module_state->__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD);
+  Py_VISIT(traverse_module_state->__pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD);
   Py_VISIT(traverse_module_state->__pyx_array_type);
   Py_VISIT(traverse_module_state->__pyx_type___pyx_array);
   Py_VISIT(traverse_module_state->__pyx_MemviewEnum_type);
@@ -4510,6 +4495,7 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
   Py_VISIT(traverse_module_state->__pyx_n_b_O);
   Py_VISIT(traverse_module_state->__pyx_kp_u_Out_of_bounds_on_buffer_access_a);
   Py_VISIT(traverse_module_state->__pyx_n_s_PickleError);
+  Py_VISIT(traverse_module_state->__pyx_n_s_RecSysCompetition2024Polimi_libs);
   Py_VISIT(traverse_module_state->__pyx_n_s_Recommenders_Recommender_utils);
   Py_VISIT(traverse_module_state->__pyx_kp_s_SGD_mode_not_valid_Acceptable_va);
   Py_VISIT(traverse_module_state->__pyx_n_s_Sequence);
@@ -4806,13 +4792,13 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #endif
 #define __pyx_ptype_7cpython_5array_array __pyx_mstate_global->__pyx_ptype_7cpython_5array_array
 #if CYTHON_USE_MODULE_STATE
-#define __pyx_type_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD __pyx_mstate_global->__pyx_type_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD
+#define __pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD __pyx_mstate_global->__pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD
 #define __pyx_type___pyx_array __pyx_mstate_global->__pyx_type___pyx_array
 #define __pyx_type___pyx_MemviewEnum __pyx_mstate_global->__pyx_type___pyx_MemviewEnum
 #define __pyx_type___pyx_memoryview __pyx_mstate_global->__pyx_type___pyx_memoryview
 #define __pyx_type___pyx_memoryviewslice __pyx_mstate_global->__pyx_type___pyx_memoryviewslice
 #endif
-#define __pyx_ptype_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD __pyx_mstate_global->__pyx_ptype_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD
+#define __pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD __pyx_mstate_global->__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD
 #define __pyx_array_type __pyx_mstate_global->__pyx_array_type
 #define __pyx_MemviewEnum_type __pyx_mstate_global->__pyx_MemviewEnum_type
 #define __pyx_memoryview_type __pyx_mstate_global->__pyx_memoryview_type
@@ -4859,6 +4845,7 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #define __pyx_n_b_O __pyx_mstate_global->__pyx_n_b_O
 #define __pyx_kp_u_Out_of_bounds_on_buffer_access_a __pyx_mstate_global->__pyx_kp_u_Out_of_bounds_on_buffer_access_a
 #define __pyx_n_s_PickleError __pyx_mstate_global->__pyx_n_s_PickleError
+#define __pyx_n_s_RecSysCompetition2024Polimi_libs __pyx_mstate_global->__pyx_n_s_RecSysCompetition2024Polimi_libs
 #define __pyx_n_s_Recommenders_Recommender_utils __pyx_mstate_global->__pyx_n_s_Recommenders_Recommender_utils
 #define __pyx_kp_s_SGD_mode_not_valid_Acceptable_va __pyx_mstate_global->__pyx_kp_s_SGD_mode_not_valid_Acceptable_va
 #define __pyx_n_s_Sequence __pyx_mstate_global->__pyx_n_s_Sequence
@@ -18709,7 +18696,7 @@ static PyObject *__pyx_unpickle_Enum__set_state(struct __pyx_MemviewEnum_obj *__
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":246
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":245
  * 
  *         @property
  *         cdef inline PyObject* base(self) nogil:             # <<<<<<<<<<<<<<
@@ -18720,7 +18707,7 @@ static PyObject *__pyx_unpickle_Enum__set_state(struct __pyx_MemviewEnum_obj *__
 static CYTHON_INLINE PyObject *__pyx_f_5numpy_7ndarray_4base_base(PyArrayObject *__pyx_v_self) {
   PyObject *__pyx_r;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":249
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":248
  *             """Returns a borrowed reference to the object owning the data/memory.
  *             """
  *             return PyArray_BASE(self)             # <<<<<<<<<<<<<<
@@ -18730,7 +18717,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_7ndarray_4base_base(PyArrayObject 
   __pyx_r = PyArray_BASE(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":246
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":245
  * 
  *         @property
  *         cdef inline PyObject* base(self) nogil:             # <<<<<<<<<<<<<<
@@ -18743,7 +18730,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_7ndarray_4base_base(PyArrayObject 
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":252
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":251
  * 
  *         @property
  *         cdef inline dtype descr(self):             # <<<<<<<<<<<<<<
@@ -18757,7 +18744,7 @@ static CYTHON_INLINE PyArray_Descr *__pyx_f_5numpy_7ndarray_5descr_descr(PyArray
   PyArray_Descr *__pyx_t_1;
   __Pyx_RefNannySetupContext("descr", 1);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":255
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":254
  *             """Returns an owned reference to the dtype of the array.
  *             """
  *             return <dtype>PyArray_DESCR(self)             # <<<<<<<<<<<<<<
@@ -18770,7 +18757,7 @@ static CYTHON_INLINE PyArray_Descr *__pyx_f_5numpy_7ndarray_5descr_descr(PyArray
   __pyx_r = ((PyArray_Descr *)__pyx_t_1);
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":252
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":251
  * 
  *         @property
  *         cdef inline dtype descr(self):             # <<<<<<<<<<<<<<
@@ -18785,7 +18772,7 @@ static CYTHON_INLINE PyArray_Descr *__pyx_f_5numpy_7ndarray_5descr_descr(PyArray
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":258
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":257
  * 
  *         @property
  *         cdef inline int ndim(self) nogil:             # <<<<<<<<<<<<<<
@@ -18796,7 +18783,7 @@ static CYTHON_INLINE PyArray_Descr *__pyx_f_5numpy_7ndarray_5descr_descr(PyArray
 static CYTHON_INLINE int __pyx_f_5numpy_7ndarray_4ndim_ndim(PyArrayObject *__pyx_v_self) {
   int __pyx_r;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":261
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":260
  *             """Returns the number of dimensions in the array.
  *             """
  *             return PyArray_NDIM(self)             # <<<<<<<<<<<<<<
@@ -18806,7 +18793,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_7ndarray_4ndim_ndim(PyArrayObject *__pyx
   __pyx_r = PyArray_NDIM(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":258
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":257
  * 
  *         @property
  *         cdef inline int ndim(self) nogil:             # <<<<<<<<<<<<<<
@@ -18819,7 +18806,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_7ndarray_4ndim_ndim(PyArrayObject *__pyx
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":264
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":263
  * 
  *         @property
  *         cdef inline npy_intp *shape(self) nogil:             # <<<<<<<<<<<<<<
@@ -18830,7 +18817,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_7ndarray_4ndim_ndim(PyArrayObject *__pyx
 static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_5shape_shape(PyArrayObject *__pyx_v_self) {
   npy_intp *__pyx_r;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":269
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":268
  *             Can return NULL for 0-dimensional arrays.
  *             """
  *             return PyArray_DIMS(self)             # <<<<<<<<<<<<<<
@@ -18840,7 +18827,7 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_5shape_shape(PyArrayObjec
   __pyx_r = PyArray_DIMS(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":264
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":263
  * 
  *         @property
  *         cdef inline npy_intp *shape(self) nogil:             # <<<<<<<<<<<<<<
@@ -18853,7 +18840,7 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_5shape_shape(PyArrayObjec
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":272
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":271
  * 
  *         @property
  *         cdef inline npy_intp *strides(self) nogil:             # <<<<<<<<<<<<<<
@@ -18864,7 +18851,7 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_5shape_shape(PyArrayObjec
 static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_7strides_strides(PyArrayObject *__pyx_v_self) {
   npy_intp *__pyx_r;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":276
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":275
  *             The number of elements matches the number of dimensions of the array (ndim).
  *             """
  *             return PyArray_STRIDES(self)             # <<<<<<<<<<<<<<
@@ -18874,7 +18861,7 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_7strides_strides(PyArrayO
   __pyx_r = PyArray_STRIDES(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":272
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":271
  * 
  *         @property
  *         cdef inline npy_intp *strides(self) nogil:             # <<<<<<<<<<<<<<
@@ -18887,7 +18874,7 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_7strides_strides(PyArrayO
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":279
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":278
  * 
  *         @property
  *         cdef inline npy_intp size(self) nogil:             # <<<<<<<<<<<<<<
@@ -18898,7 +18885,7 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_7strides_strides(PyArrayO
 static CYTHON_INLINE npy_intp __pyx_f_5numpy_7ndarray_4size_size(PyArrayObject *__pyx_v_self) {
   npy_intp __pyx_r;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":282
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":281
  *             """Returns the total size (in number of elements) of the array.
  *             """
  *             return PyArray_SIZE(self)             # <<<<<<<<<<<<<<
@@ -18908,7 +18895,7 @@ static CYTHON_INLINE npy_intp __pyx_f_5numpy_7ndarray_4size_size(PyArrayObject *
   __pyx_r = PyArray_SIZE(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":279
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":278
  * 
  *         @property
  *         cdef inline npy_intp size(self) nogil:             # <<<<<<<<<<<<<<
@@ -18921,7 +18908,7 @@ static CYTHON_INLINE npy_intp __pyx_f_5numpy_7ndarray_4size_size(PyArrayObject *
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":285
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":284
  * 
  *         @property
  *         cdef inline char* data(self) nogil:             # <<<<<<<<<<<<<<
@@ -18932,7 +18919,7 @@ static CYTHON_INLINE npy_intp __pyx_f_5numpy_7ndarray_4size_size(PyArrayObject *
 static CYTHON_INLINE char *__pyx_f_5numpy_7ndarray_4data_data(PyArrayObject *__pyx_v_self) {
   char *__pyx_r;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":291
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":290
  *             of `PyArray_DATA()` instead, which returns a 'void*'.
  *             """
  *             return PyArray_BYTES(self)             # <<<<<<<<<<<<<<
@@ -18942,7 +18929,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy_7ndarray_4data_data(PyArrayObject *__p
   __pyx_r = PyArray_BYTES(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":285
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":284
  * 
  *         @property
  *         cdef inline char* data(self) nogil:             # <<<<<<<<<<<<<<
@@ -18955,7 +18942,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy_7ndarray_4data_data(PyArrayObject *__p
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":777
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":773
  * ctypedef npy_cdouble     complex_t
  * 
  * cdef inline object PyArray_MultiIterNew1(a):             # <<<<<<<<<<<<<<
@@ -18972,7 +18959,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew1", 1);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":778
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":774
  * 
  * cdef inline object PyArray_MultiIterNew1(a):
  *     return PyArray_MultiIterNew(1, <void*>a)             # <<<<<<<<<<<<<<
@@ -18980,13 +18967,13 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
  * cdef inline object PyArray_MultiIterNew2(a, b):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = PyArray_MultiIterNew(1, ((void *)__pyx_v_a)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 778, __pyx_L1_error)
+  __pyx_t_1 = PyArray_MultiIterNew(1, ((void *)__pyx_v_a)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 774, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":777
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":773
  * ctypedef npy_cdouble     complex_t
  * 
  * cdef inline object PyArray_MultiIterNew1(a):             # <<<<<<<<<<<<<<
@@ -19005,7 +18992,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":780
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":776
  *     return PyArray_MultiIterNew(1, <void*>a)
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):             # <<<<<<<<<<<<<<
@@ -19022,7 +19009,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew2", 1);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":781
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":777
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)             # <<<<<<<<<<<<<<
@@ -19030,13 +19017,13 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
  * cdef inline object PyArray_MultiIterNew3(a, b, c):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = PyArray_MultiIterNew(2, ((void *)__pyx_v_a), ((void *)__pyx_v_b)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 781, __pyx_L1_error)
+  __pyx_t_1 = PyArray_MultiIterNew(2, ((void *)__pyx_v_a), ((void *)__pyx_v_b)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 777, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":780
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":776
  *     return PyArray_MultiIterNew(1, <void*>a)
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):             # <<<<<<<<<<<<<<
@@ -19055,7 +19042,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":783
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":779
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):             # <<<<<<<<<<<<<<
@@ -19072,7 +19059,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew3", 1);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":784
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":780
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)             # <<<<<<<<<<<<<<
@@ -19080,13 +19067,13 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = PyArray_MultiIterNew(3, ((void *)__pyx_v_a), ((void *)__pyx_v_b), ((void *)__pyx_v_c)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 784, __pyx_L1_error)
+  __pyx_t_1 = PyArray_MultiIterNew(3, ((void *)__pyx_v_a), ((void *)__pyx_v_b), ((void *)__pyx_v_c)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 780, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":783
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":779
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):             # <<<<<<<<<<<<<<
@@ -19105,7 +19092,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":786
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":782
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):             # <<<<<<<<<<<<<<
@@ -19122,7 +19109,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew4", 1);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":787
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":783
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)             # <<<<<<<<<<<<<<
@@ -19130,13 +19117,13 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = PyArray_MultiIterNew(4, ((void *)__pyx_v_a), ((void *)__pyx_v_b), ((void *)__pyx_v_c), ((void *)__pyx_v_d)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 787, __pyx_L1_error)
+  __pyx_t_1 = PyArray_MultiIterNew(4, ((void *)__pyx_v_a), ((void *)__pyx_v_b), ((void *)__pyx_v_c), ((void *)__pyx_v_d)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 783, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":786
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":782
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):             # <<<<<<<<<<<<<<
@@ -19155,7 +19142,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":789
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":785
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):             # <<<<<<<<<<<<<<
@@ -19172,7 +19159,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew5", 1);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":790
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":786
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)             # <<<<<<<<<<<<<<
@@ -19180,13 +19167,13 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = PyArray_MultiIterNew(5, ((void *)__pyx_v_a), ((void *)__pyx_v_b), ((void *)__pyx_v_c), ((void *)__pyx_v_d), ((void *)__pyx_v_e)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 790, __pyx_L1_error)
+  __pyx_t_1 = PyArray_MultiIterNew(5, ((void *)__pyx_v_a), ((void *)__pyx_v_b), ((void *)__pyx_v_c), ((void *)__pyx_v_d), ((void *)__pyx_v_e)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 786, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":789
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":785
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):             # <<<<<<<<<<<<<<
@@ -19205,7 +19192,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":792
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":788
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):             # <<<<<<<<<<<<<<
@@ -19219,7 +19206,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
   int __pyx_t_1;
   __Pyx_RefNannySetupContext("PyDataType_SHAPE", 1);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":793
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":789
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):             # <<<<<<<<<<<<<<
@@ -19229,7 +19216,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
   __pyx_t_1 = PyDataType_HASSUBARRAY(__pyx_v_d);
   if (__pyx_t_1) {
 
-    /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":794
+    /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":790
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):
  *         return <tuple>d.subarray.shape             # <<<<<<<<<<<<<<
@@ -19241,7 +19228,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
     __pyx_r = ((PyObject*)__pyx_v_d->subarray->shape);
     goto __pyx_L0;
 
-    /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":793
+    /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":789
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):             # <<<<<<<<<<<<<<
@@ -19250,7 +19237,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
  */
   }
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":796
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":792
  *         return <tuple>d.subarray.shape
  *     else:
  *         return ()             # <<<<<<<<<<<<<<
@@ -19264,7 +19251,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
     goto __pyx_L0;
   }
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":792
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":788
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):             # <<<<<<<<<<<<<<
@@ -19279,7 +19266,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":971
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":968
  *     int _import_umath() except -1
  * 
  * cdef inline void set_array_base(ndarray arr, object base):             # <<<<<<<<<<<<<<
@@ -19288,8 +19275,12 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
  */
 
 static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_arr, PyObject *__pyx_v_base) {
+  int __pyx_t_1;
+  int __pyx_lineno = 0;
+  const char *__pyx_filename = NULL;
+  int __pyx_clineno = 0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":972
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":969
  * 
  * cdef inline void set_array_base(ndarray arr, object base):
  *     Py_INCREF(base) # important to do this before stealing the reference below!             # <<<<<<<<<<<<<<
@@ -19298,16 +19289,16 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
  */
   Py_INCREF(__pyx_v_base);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":973
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":970
  * cdef inline void set_array_base(ndarray arr, object base):
  *     Py_INCREF(base) # important to do this before stealing the reference below!
  *     PyArray_SetBaseObject(arr, base)             # <<<<<<<<<<<<<<
  * 
  * cdef inline object get_array_base(ndarray arr):
  */
-  (void)(PyArray_SetBaseObject(__pyx_v_arr, __pyx_v_base));
+  __pyx_t_1 = PyArray_SetBaseObject(__pyx_v_arr, __pyx_v_base); if (unlikely(__pyx_t_1 == ((int)-1))) __PYX_ERR(2, 970, __pyx_L1_error)
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":971
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":968
  *     int _import_umath() except -1
  * 
  * cdef inline void set_array_base(ndarray arr, object base):             # <<<<<<<<<<<<<<
@@ -19316,9 +19307,13 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
  */
 
   /* function exit code */
+  goto __pyx_L0;
+  __pyx_L1_error:;
+  __Pyx_AddTraceback("numpy.set_array_base", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __pyx_L0:;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":975
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":972
  *     PyArray_SetBaseObject(arr, base)
  * 
  * cdef inline object get_array_base(ndarray arr):             # <<<<<<<<<<<<<<
@@ -19333,7 +19328,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   int __pyx_t_1;
   __Pyx_RefNannySetupContext("get_array_base", 1);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":976
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":973
  * 
  * cdef inline object get_array_base(ndarray arr):
  *     base = PyArray_BASE(arr)             # <<<<<<<<<<<<<<
@@ -19342,7 +19337,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
  */
   __pyx_v_base = PyArray_BASE(__pyx_v_arr);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":977
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":974
  * cdef inline object get_array_base(ndarray arr):
  *     base = PyArray_BASE(arr)
  *     if base is NULL:             # <<<<<<<<<<<<<<
@@ -19352,7 +19347,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   __pyx_t_1 = (__pyx_v_base == NULL);
   if (__pyx_t_1) {
 
-    /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":978
+    /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":975
  *     base = PyArray_BASE(arr)
  *     if base is NULL:
  *         return None             # <<<<<<<<<<<<<<
@@ -19363,7 +19358,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
     __pyx_r = Py_None; __Pyx_INCREF(Py_None);
     goto __pyx_L0;
 
-    /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":977
+    /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":974
  * cdef inline object get_array_base(ndarray arr):
  *     base = PyArray_BASE(arr)
  *     if base is NULL:             # <<<<<<<<<<<<<<
@@ -19372,7 +19367,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
  */
   }
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":979
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":976
  *     if base is NULL:
  *         return None
  *     return <object>base             # <<<<<<<<<<<<<<
@@ -19384,7 +19379,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   __pyx_r = ((PyObject *)__pyx_v_base);
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":975
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":972
  *     PyArray_SetBaseObject(arr, base)
  * 
  * cdef inline object get_array_base(ndarray arr):             # <<<<<<<<<<<<<<
@@ -19399,7 +19394,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":983
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":980
  * # Versions of the import_* functions which are more suitable for
  * # Cython code.
  * cdef inline int import_array() except -1:             # <<<<<<<<<<<<<<
@@ -19423,7 +19418,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("import_array", 1);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":984
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":981
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -19439,16 +19434,16 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":985
+      /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":982
  * cdef inline int import_array() except -1:
  *     try:
  *         __pyx_import_array()             # <<<<<<<<<<<<<<
  *     except Exception:
  *         raise ImportError("numpy.core.multiarray failed to import")
  */
-      __pyx_t_4 = _import_array(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(2, 985, __pyx_L3_error)
+      __pyx_t_4 = _import_array(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(2, 982, __pyx_L3_error)
 
-      /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":984
+      /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":981
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -19462,7 +19457,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     goto __pyx_L8_try_end;
     __pyx_L3_error:;
 
-    /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":986
+    /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":983
  *     try:
  *         __pyx_import_array()
  *     except Exception:             # <<<<<<<<<<<<<<
@@ -19472,27 +19467,27 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     __pyx_t_4 = __Pyx_PyErr_ExceptionMatches(((PyObject *)(&((PyTypeObject*)PyExc_Exception)[0])));
     if (__pyx_t_4) {
       __Pyx_AddTraceback("numpy.import_array", __pyx_clineno, __pyx_lineno, __pyx_filename);
-      if (__Pyx_GetException(&__pyx_t_5, &__pyx_t_6, &__pyx_t_7) < 0) __PYX_ERR(2, 986, __pyx_L5_except_error)
+      if (__Pyx_GetException(&__pyx_t_5, &__pyx_t_6, &__pyx_t_7) < 0) __PYX_ERR(2, 983, __pyx_L5_except_error)
       __Pyx_XGOTREF(__pyx_t_5);
       __Pyx_XGOTREF(__pyx_t_6);
       __Pyx_XGOTREF(__pyx_t_7);
 
-      /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":987
+      /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":984
  *         __pyx_import_array()
  *     except Exception:
  *         raise ImportError("numpy.core.multiarray failed to import")             # <<<<<<<<<<<<<<
  * 
  * cdef inline int import_umath() except -1:
  */
-      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__9, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(2, 987, __pyx_L5_except_error)
+      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__9, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(2, 984, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_8);
       __Pyx_Raise(__pyx_t_8, 0, 0, 0);
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-      __PYX_ERR(2, 987, __pyx_L5_except_error)
+      __PYX_ERR(2, 984, __pyx_L5_except_error)
     }
     goto __pyx_L5_except_error;
 
-    /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":984
+    /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":981
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -19508,7 +19503,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     __pyx_L8_try_end:;
   }
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":983
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":980
  * # Versions of the import_* functions which are more suitable for
  * # Cython code.
  * cdef inline int import_array() except -1:             # <<<<<<<<<<<<<<
@@ -19531,7 +19526,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":989
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":986
  *         raise ImportError("numpy.core.multiarray failed to import")
  * 
  * cdef inline int import_umath() except -1:             # <<<<<<<<<<<<<<
@@ -19555,7 +19550,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("import_umath", 1);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":990
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":987
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -19571,16 +19566,16 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":991
+      /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":988
  * cdef inline int import_umath() except -1:
  *     try:
  *         _import_umath()             # <<<<<<<<<<<<<<
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")
  */
-      __pyx_t_4 = _import_umath(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(2, 991, __pyx_L3_error)
+      __pyx_t_4 = _import_umath(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(2, 988, __pyx_L3_error)
 
-      /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":990
+      /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":987
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -19594,7 +19589,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     goto __pyx_L8_try_end;
     __pyx_L3_error:;
 
-    /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":992
+    /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":989
  *     try:
  *         _import_umath()
  *     except Exception:             # <<<<<<<<<<<<<<
@@ -19604,27 +19599,27 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     __pyx_t_4 = __Pyx_PyErr_ExceptionMatches(((PyObject *)(&((PyTypeObject*)PyExc_Exception)[0])));
     if (__pyx_t_4) {
       __Pyx_AddTraceback("numpy.import_umath", __pyx_clineno, __pyx_lineno, __pyx_filename);
-      if (__Pyx_GetException(&__pyx_t_5, &__pyx_t_6, &__pyx_t_7) < 0) __PYX_ERR(2, 992, __pyx_L5_except_error)
+      if (__Pyx_GetException(&__pyx_t_5, &__pyx_t_6, &__pyx_t_7) < 0) __PYX_ERR(2, 989, __pyx_L5_except_error)
       __Pyx_XGOTREF(__pyx_t_5);
       __Pyx_XGOTREF(__pyx_t_6);
       __Pyx_XGOTREF(__pyx_t_7);
 
-      /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":993
+      /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":990
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")             # <<<<<<<<<<<<<<
  * 
  * cdef inline int import_ufunc() except -1:
  */
-      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__10, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(2, 993, __pyx_L5_except_error)
+      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__10, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(2, 990, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_8);
       __Pyx_Raise(__pyx_t_8, 0, 0, 0);
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-      __PYX_ERR(2, 993, __pyx_L5_except_error)
+      __PYX_ERR(2, 990, __pyx_L5_except_error)
     }
     goto __pyx_L5_except_error;
 
-    /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":990
+    /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":987
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -19640,7 +19635,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     __pyx_L8_try_end:;
   }
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":989
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":986
  *         raise ImportError("numpy.core.multiarray failed to import")
  * 
  * cdef inline int import_umath() except -1:             # <<<<<<<<<<<<<<
@@ -19663,7 +19658,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":995
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":992
  *         raise ImportError("numpy.core.umath failed to import")
  * 
  * cdef inline int import_ufunc() except -1:             # <<<<<<<<<<<<<<
@@ -19687,7 +19682,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("import_ufunc", 1);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":996
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":993
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -19703,16 +19698,16 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":997
+      /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":994
  * cdef inline int import_ufunc() except -1:
  *     try:
  *         _import_umath()             # <<<<<<<<<<<<<<
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")
  */
-      __pyx_t_4 = _import_umath(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(2, 997, __pyx_L3_error)
+      __pyx_t_4 = _import_umath(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(2, 994, __pyx_L3_error)
 
-      /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":996
+      /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":993
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -19726,7 +19721,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     goto __pyx_L8_try_end;
     __pyx_L3_error:;
 
-    /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":998
+    /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":995
  *     try:
  *         _import_umath()
  *     except Exception:             # <<<<<<<<<<<<<<
@@ -19736,27 +19731,27 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     __pyx_t_4 = __Pyx_PyErr_ExceptionMatches(((PyObject *)(&((PyTypeObject*)PyExc_Exception)[0])));
     if (__pyx_t_4) {
       __Pyx_AddTraceback("numpy.import_ufunc", __pyx_clineno, __pyx_lineno, __pyx_filename);
-      if (__Pyx_GetException(&__pyx_t_5, &__pyx_t_6, &__pyx_t_7) < 0) __PYX_ERR(2, 998, __pyx_L5_except_error)
+      if (__Pyx_GetException(&__pyx_t_5, &__pyx_t_6, &__pyx_t_7) < 0) __PYX_ERR(2, 995, __pyx_L5_except_error)
       __Pyx_XGOTREF(__pyx_t_5);
       __Pyx_XGOTREF(__pyx_t_6);
       __Pyx_XGOTREF(__pyx_t_7);
 
-      /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":999
+      /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":996
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")             # <<<<<<<<<<<<<<
  * 
  * 
  */
-      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__10, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(2, 999, __pyx_L5_except_error)
+      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__10, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(2, 996, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_8);
       __Pyx_Raise(__pyx_t_8, 0, 0, 0);
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-      __PYX_ERR(2, 999, __pyx_L5_except_error)
+      __PYX_ERR(2, 996, __pyx_L5_except_error)
     }
     goto __pyx_L5_except_error;
 
-    /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":996
+    /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":993
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -19772,7 +19767,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     __pyx_L8_try_end:;
   }
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":995
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":992
  *         raise ImportError("numpy.core.umath failed to import")
  * 
  * cdef inline int import_ufunc() except -1:             # <<<<<<<<<<<<<<
@@ -19795,7 +19790,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1002
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":999
  * 
  * 
  * cdef inline bint is_timedelta64_object(object obj):             # <<<<<<<<<<<<<<
@@ -19806,7 +19801,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
 static CYTHON_INLINE int __pyx_f_5numpy_is_timedelta64_object(PyObject *__pyx_v_obj) {
   int __pyx_r;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1014
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1011
  *     bool
  *     """
  *     return PyObject_TypeCheck(obj, &PyTimedeltaArrType_Type)             # <<<<<<<<<<<<<<
@@ -19816,7 +19811,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_timedelta64_object(PyObject *__pyx_v_
   __pyx_r = PyObject_TypeCheck(__pyx_v_obj, (&PyTimedeltaArrType_Type));
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1002
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":999
  * 
  * 
  * cdef inline bint is_timedelta64_object(object obj):             # <<<<<<<<<<<<<<
@@ -19829,7 +19824,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_timedelta64_object(PyObject *__pyx_v_
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1017
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1014
  * 
  * 
  * cdef inline bint is_datetime64_object(object obj):             # <<<<<<<<<<<<<<
@@ -19840,7 +19835,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_timedelta64_object(PyObject *__pyx_v_
 static CYTHON_INLINE int __pyx_f_5numpy_is_datetime64_object(PyObject *__pyx_v_obj) {
   int __pyx_r;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1029
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1026
  *     bool
  *     """
  *     return PyObject_TypeCheck(obj, &PyDatetimeArrType_Type)             # <<<<<<<<<<<<<<
@@ -19850,7 +19845,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_datetime64_object(PyObject *__pyx_v_o
   __pyx_r = PyObject_TypeCheck(__pyx_v_obj, (&PyDatetimeArrType_Type));
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1017
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1014
  * 
  * 
  * cdef inline bint is_datetime64_object(object obj):             # <<<<<<<<<<<<<<
@@ -19863,7 +19858,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_datetime64_object(PyObject *__pyx_v_o
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1032
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1029
  * 
  * 
  * cdef inline npy_datetime get_datetime64_value(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -19874,7 +19869,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_datetime64_object(PyObject *__pyx_v_o
 static CYTHON_INLINE npy_datetime __pyx_f_5numpy_get_datetime64_value(PyObject *__pyx_v_obj) {
   npy_datetime __pyx_r;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1039
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1036
  *     also needed.  That can be found using `get_datetime64_unit`.
  *     """
  *     return (<PyDatetimeScalarObject*>obj).obval             # <<<<<<<<<<<<<<
@@ -19884,7 +19879,7 @@ static CYTHON_INLINE npy_datetime __pyx_f_5numpy_get_datetime64_value(PyObject *
   __pyx_r = ((PyDatetimeScalarObject *)__pyx_v_obj)->obval;
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1032
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1029
  * 
  * 
  * cdef inline npy_datetime get_datetime64_value(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -19897,7 +19892,7 @@ static CYTHON_INLINE npy_datetime __pyx_f_5numpy_get_datetime64_value(PyObject *
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1042
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1039
  * 
  * 
  * cdef inline npy_timedelta get_timedelta64_value(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -19908,7 +19903,7 @@ static CYTHON_INLINE npy_datetime __pyx_f_5numpy_get_datetime64_value(PyObject *
 static CYTHON_INLINE npy_timedelta __pyx_f_5numpy_get_timedelta64_value(PyObject *__pyx_v_obj) {
   npy_timedelta __pyx_r;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1046
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1043
  *     returns the int64 value underlying scalar numpy timedelta64 object
  *     """
  *     return (<PyTimedeltaScalarObject*>obj).obval             # <<<<<<<<<<<<<<
@@ -19918,7 +19913,7 @@ static CYTHON_INLINE npy_timedelta __pyx_f_5numpy_get_timedelta64_value(PyObject
   __pyx_r = ((PyTimedeltaScalarObject *)__pyx_v_obj)->obval;
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1042
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1039
  * 
  * 
  * cdef inline npy_timedelta get_timedelta64_value(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -19931,7 +19926,7 @@ static CYTHON_INLINE npy_timedelta __pyx_f_5numpy_get_timedelta64_value(PyObject
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1049
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1046
  * 
  * 
  * cdef inline NPY_DATETIMEUNIT get_datetime64_unit(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -19942,7 +19937,7 @@ static CYTHON_INLINE npy_timedelta __pyx_f_5numpy_get_timedelta64_value(PyObject
 static CYTHON_INLINE NPY_DATETIMEUNIT __pyx_f_5numpy_get_datetime64_unit(PyObject *__pyx_v_obj) {
   NPY_DATETIMEUNIT __pyx_r;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1053
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1050
  *     returns the unit part of the dtype for a numpy datetime64 object.
  *     """
  *     return <NPY_DATETIMEUNIT>(<PyDatetimeScalarObject*>obj).obmeta.base             # <<<<<<<<<<<<<<
@@ -19950,7 +19945,7 @@ static CYTHON_INLINE NPY_DATETIMEUNIT __pyx_f_5numpy_get_datetime64_unit(PyObjec
   __pyx_r = ((NPY_DATETIMEUNIT)((PyDatetimeScalarObject *)__pyx_v_obj)->obmeta.base);
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1049
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1046
  * 
  * 
  * cdef inline NPY_DATETIMEUNIT get_datetime64_unit(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -20604,7 +20599,7 @@ static CYTHON_INLINE void __pyx_f_7cpython_5array_zero(arrayobject *__pyx_v_self
   /* function exit code */
 }
 
-/* "FBSM_Rating_Cython_SGD.pyx":78
+/* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":78
  * 
  * 
  *     def __init__(self, URM, ICM,             # <<<<<<<<<<<<<<
@@ -20613,8 +20608,8 @@ static CYTHON_INLINE void __pyx_f_7cpython_5array_zero(arrayobject *__pyx_v_self
  */
 
 /* Python wrapper */
-static int __pyx_pw_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static int __pyx_pw_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static int __pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static int __pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_URM = 0;
   PyObject *__pyx_v_ICM = 0;
   PyObject *__pyx_v_n_factors = 0;
@@ -20652,7 +20647,7 @@ static int __pyx_pw_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_1__init__(
     PyObject **__pyx_pyargnames[] = {&__pyx_n_s_URM,&__pyx_n_s_ICM,&__pyx_n_s_n_factors,&__pyx_n_s_precompute_user_feature_count,&__pyx_n_s_learning_rate,&__pyx_n_s_l2_reg_D,&__pyx_n_s_l2_reg_V,&__pyx_n_s_weights_initialization_D,&__pyx_n_s_weights_initialization_V,&__pyx_n_s_positive_only_D,&__pyx_n_s_positive_only_V,&__pyx_n_s_verbose,&__pyx_n_s_sgd_mode,&__pyx_n_s_gamma,&__pyx_n_s_beta_1,&__pyx_n_s_beta_2,&__pyx_n_s_mean_init,&__pyx_n_s_std_init,0};
     values[2] = __Pyx_Arg_NewRef_VARARGS(((PyObject *)__pyx_int_1));
 
-    /* "FBSM_Rating_Cython_SGD.pyx":79
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":79
  * 
  *     def __init__(self, URM, ICM,
  *                  n_factors = 1, precompute_user_feature_count = False,             # <<<<<<<<<<<<<<
@@ -20664,7 +20659,7 @@ static int __pyx_pw_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_1__init__(
     values[5] = __Pyx_Arg_NewRef_VARARGS(((PyObject *)__pyx_float_0_0));
     values[6] = __Pyx_Arg_NewRef_VARARGS(((PyObject *)__pyx_float_0_0));
 
-    /* "FBSM_Rating_Cython_SGD.pyx":82
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":82
  *                  learning_rate = 0.05,
  *                  l2_reg_D = 0.0, l2_reg_V = 0.0,
  *                  weights_initialization_D = None,             # <<<<<<<<<<<<<<
@@ -20673,7 +20668,7 @@ static int __pyx_pw_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_1__init__(
  */
     values[7] = __Pyx_Arg_NewRef_VARARGS(((PyObject *)Py_None));
 
-    /* "FBSM_Rating_Cython_SGD.pyx":83
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":83
  *                  l2_reg_D = 0.0, l2_reg_V = 0.0,
  *                  weights_initialization_D = None,
  *                  weights_initialization_V = None,             # <<<<<<<<<<<<<<
@@ -20682,7 +20677,7 @@ static int __pyx_pw_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_1__init__(
  */
     values[8] = __Pyx_Arg_NewRef_VARARGS(((PyObject *)Py_None));
 
-    /* "FBSM_Rating_Cython_SGD.pyx":84
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":84
  *                  weights_initialization_D = None,
  *                  weights_initialization_V = None,
  *                  positive_only_D = True,             # <<<<<<<<<<<<<<
@@ -20691,7 +20686,7 @@ static int __pyx_pw_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_1__init__(
  */
     values[9] = __Pyx_Arg_NewRef_VARARGS(((PyObject *)Py_True));
 
-    /* "FBSM_Rating_Cython_SGD.pyx":85
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":85
  *                  weights_initialization_V = None,
  *                  positive_only_D = True,
  *                  positive_only_V = True,             # <<<<<<<<<<<<<<
@@ -20700,7 +20695,7 @@ static int __pyx_pw_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_1__init__(
  */
     values[10] = __Pyx_Arg_NewRef_VARARGS(((PyObject *)Py_True));
 
-    /* "FBSM_Rating_Cython_SGD.pyx":86
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":86
  *                  positive_only_D = True,
  *                  positive_only_V = True,
  *                  verbose = False,             # <<<<<<<<<<<<<<
@@ -20963,13 +20958,13 @@ static int __pyx_pw_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_1__init__(
       __Pyx_Arg_XDECREF_VARARGS(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("FBSM_Rating_Cython_SGD.FBSM_Rating_Cython_SGD.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.FBSM_Rating_Cython_SGD.FBSM_Rating_Cython_SGD.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return -1;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(((struct __pyx_obj_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *)__pyx_v_self), __pyx_v_URM, __pyx_v_ICM, __pyx_v_n_factors, __pyx_v_precompute_user_feature_count, __pyx_v_learning_rate, __pyx_v_l2_reg_D, __pyx_v_l2_reg_V, __pyx_v_weights_initialization_D, __pyx_v_weights_initialization_V, __pyx_v_positive_only_D, __pyx_v_positive_only_V, __pyx_v_verbose, __pyx_v_sgd_mode, __pyx_v_gamma, __pyx_v_beta_1, __pyx_v_beta_2, __pyx_v_mean_init, __pyx_v_std_init);
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *)__pyx_v_self), __pyx_v_URM, __pyx_v_ICM, __pyx_v_n_factors, __pyx_v_precompute_user_feature_count, __pyx_v_learning_rate, __pyx_v_l2_reg_D, __pyx_v_l2_reg_V, __pyx_v_weights_initialization_D, __pyx_v_weights_initialization_V, __pyx_v_positive_only_D, __pyx_v_positive_only_V, __pyx_v_verbose, __pyx_v_sgd_mode, __pyx_v_gamma, __pyx_v_beta_1, __pyx_v_beta_2, __pyx_v_mean_init, __pyx_v_std_init);
 
-  /* "FBSM_Rating_Cython_SGD.pyx":78
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":78
  * 
  * 
  *     def __init__(self, URM, ICM,             # <<<<<<<<<<<<<<
@@ -20988,7 +20983,7 @@ static int __pyx_pw_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_1__init__(
   return __pyx_r;
 }
 
-static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(struct __pyx_obj_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *__pyx_v_self, PyObject *__pyx_v_URM, PyObject *__pyx_v_ICM, PyObject *__pyx_v_n_factors, PyObject *__pyx_v_precompute_user_feature_count, PyObject *__pyx_v_learning_rate, PyObject *__pyx_v_l2_reg_D, PyObject *__pyx_v_l2_reg_V, PyObject *__pyx_v_weights_initialization_D, PyObject *__pyx_v_weights_initialization_V, PyObject *__pyx_v_positive_only_D, PyObject *__pyx_v_positive_only_V, PyObject *__pyx_v_verbose, PyObject *__pyx_v_sgd_mode, PyObject *__pyx_v_gamma, PyObject *__pyx_v_beta_1, PyObject *__pyx_v_beta_2, PyObject *__pyx_v_mean_init, PyObject *__pyx_v_std_init) {
+static int __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *__pyx_v_self, PyObject *__pyx_v_URM, PyObject *__pyx_v_ICM, PyObject *__pyx_v_n_factors, PyObject *__pyx_v_precompute_user_feature_count, PyObject *__pyx_v_learning_rate, PyObject *__pyx_v_l2_reg_D, PyObject *__pyx_v_l2_reg_V, PyObject *__pyx_v_weights_initialization_D, PyObject *__pyx_v_weights_initialization_V, PyObject *__pyx_v_positive_only_D, PyObject *__pyx_v_positive_only_V, PyObject *__pyx_v_verbose, PyObject *__pyx_v_sgd_mode, PyObject *__pyx_v_gamma, PyObject *__pyx_v_beta_1, PyObject *__pyx_v_beta_2, PyObject *__pyx_v_mean_init, PyObject *__pyx_v_std_init) {
   PyObject *__pyx_v_user_feature_count = NULL;
   int __pyx_r;
   __Pyx_RefNannyDeclarations
@@ -21015,7 +21010,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
   __Pyx_INCREF(__pyx_v_URM);
   __Pyx_INCREF(__pyx_v_ICM);
 
-  /* "FBSM_Rating_Cython_SGD.pyx":91
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":91
  * 
  * 
  *         URM = check_matrix(URM, 'csr').astype(np.int32)             # <<<<<<<<<<<<<<
@@ -21080,7 +21075,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
   __Pyx_DECREF_SET(__pyx_v_URM, __pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "FBSM_Rating_Cython_SGD.pyx":92
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":92
  * 
  *         URM = check_matrix(URM, 'csr').astype(np.int32)
  *         self.URM_mask_indices = np.array(URM.indices, dtype=np.int32)             # <<<<<<<<<<<<<<
@@ -21120,7 +21115,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
   __pyx_t_7.memview = NULL;
   __pyx_t_7.data = NULL;
 
-  /* "FBSM_Rating_Cython_SGD.pyx":93
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":93
  *         URM = check_matrix(URM, 'csr').astype(np.int32)
  *         self.URM_mask_indices = np.array(URM.indices, dtype=np.int32)
  *         self.URM_mask_indptr = np.array(URM.indptr, dtype=np.int32)             # <<<<<<<<<<<<<<
@@ -21160,7 +21155,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
   __pyx_t_7.memview = NULL;
   __pyx_t_7.data = NULL;
 
-  /* "FBSM_Rating_Cython_SGD.pyx":95
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":95
  *         self.URM_mask_indptr = np.array(URM.indptr, dtype=np.int32)
  * 
  *         ICM = check_matrix(ICM, 'csr').astype(np.int32)             # <<<<<<<<<<<<<<
@@ -21225,7 +21220,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
   __Pyx_DECREF_SET(__pyx_v_ICM, __pyx_t_2);
   __pyx_t_2 = 0;
 
-  /* "FBSM_Rating_Cython_SGD.pyx":96
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":96
  * 
  *         ICM = check_matrix(ICM, 'csr').astype(np.int32)
  *         self.ICM_indices = np.array(ICM.indices, dtype=np.int32)             # <<<<<<<<<<<<<<
@@ -21265,7 +21260,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
   __pyx_t_7.memview = NULL;
   __pyx_t_7.data = NULL;
 
-  /* "FBSM_Rating_Cython_SGD.pyx":97
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":97
  *         ICM = check_matrix(ICM, 'csr').astype(np.int32)
  *         self.ICM_indices = np.array(ICM.indices, dtype=np.int32)
  *         self.ICM_indptr = np.array(ICM.indptr, dtype=np.int32)             # <<<<<<<<<<<<<<
@@ -21305,7 +21300,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
   __pyx_t_7.memview = NULL;
   __pyx_t_7.data = NULL;
 
-  /* "FBSM_Rating_Cython_SGD.pyx":101
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":101
  * 
  * 
  *         self.n_users, self.n_items = URM.shape             # <<<<<<<<<<<<<<
@@ -21367,7 +21362,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
   __pyx_v_self->n_users = __pyx_t_9;
   __pyx_v_self->n_items = __pyx_t_10;
 
-  /* "FBSM_Rating_Cython_SGD.pyx":102
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":102
  * 
  *         self.n_users, self.n_items = URM.shape
  *         self.n_features = ICM.shape[1]             # <<<<<<<<<<<<<<
@@ -21383,7 +21378,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_self->n_features = __pyx_t_10;
 
-  /* "FBSM_Rating_Cython_SGD.pyx":103
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":103
  *         self.n_users, self.n_items = URM.shape
  *         self.n_features = ICM.shape[1]
  *         self.n_factors = n_factors             # <<<<<<<<<<<<<<
@@ -21393,7 +21388,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
   __pyx_t_10 = __Pyx_PyInt_As_int(__pyx_v_n_factors); if (unlikely((__pyx_t_10 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 103, __pyx_L1_error)
   __pyx_v_self->n_factors = __pyx_t_10;
 
-  /* "FBSM_Rating_Cython_SGD.pyx":104
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":104
  *         self.n_features = ICM.shape[1]
  *         self.n_factors = n_factors
  *         self.n_samples = URM.nnz             # <<<<<<<<<<<<<<
@@ -21406,7 +21401,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_self->n_samples = __pyx_t_10;
 
-  /* "FBSM_Rating_Cython_SGD.pyx":105
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":105
  *         self.n_factors = n_factors
  *         self.n_samples = URM.nnz
  *         self.verbose = verbose             # <<<<<<<<<<<<<<
@@ -21416,7 +21411,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
   __pyx_t_10 = __Pyx_PyInt_As_int(__pyx_v_verbose); if (unlikely((__pyx_t_10 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 105, __pyx_L1_error)
   __pyx_v_self->verbose = __pyx_t_10;
 
-  /* "FBSM_Rating_Cython_SGD.pyx":107
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":107
  *         self.verbose = verbose
  * 
  *         self.learning_rate = learning_rate             # <<<<<<<<<<<<<<
@@ -21426,7 +21421,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
   __pyx_t_11 = __pyx_PyFloat_AsDouble(__pyx_v_learning_rate); if (unlikely((__pyx_t_11 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 107, __pyx_L1_error)
   __pyx_v_self->learning_rate = __pyx_t_11;
 
-  /* "FBSM_Rating_Cython_SGD.pyx":108
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":108
  * 
  *         self.learning_rate = learning_rate
  *         self.l2_reg_D = l2_reg_D             # <<<<<<<<<<<<<<
@@ -21436,7 +21431,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
   __pyx_t_11 = __pyx_PyFloat_AsDouble(__pyx_v_l2_reg_D); if (unlikely((__pyx_t_11 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 108, __pyx_L1_error)
   __pyx_v_self->l2_reg_D = __pyx_t_11;
 
-  /* "FBSM_Rating_Cython_SGD.pyx":109
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":109
  *         self.learning_rate = learning_rate
  *         self.l2_reg_D = l2_reg_D
  *         self.l2_reg_V = l2_reg_V             # <<<<<<<<<<<<<<
@@ -21446,7 +21441,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
   __pyx_t_11 = __pyx_PyFloat_AsDouble(__pyx_v_l2_reg_V); if (unlikely((__pyx_t_11 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 109, __pyx_L1_error)
   __pyx_v_self->l2_reg_V = __pyx_t_11;
 
-  /* "FBSM_Rating_Cython_SGD.pyx":111
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":111
  *         self.l2_reg_V = l2_reg_V
  * 
  *         self.positive_only_D = positive_only_D             # <<<<<<<<<<<<<<
@@ -21456,7 +21451,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
   __pyx_t_10 = __Pyx_PyInt_As_int(__pyx_v_positive_only_D); if (unlikely((__pyx_t_10 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 111, __pyx_L1_error)
   __pyx_v_self->positive_only_D = __pyx_t_10;
 
-  /* "FBSM_Rating_Cython_SGD.pyx":112
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":112
  * 
  *         self.positive_only_D = positive_only_D
  *         self.positive_only_V = positive_only_V             # <<<<<<<<<<<<<<
@@ -21466,7 +21461,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
   __pyx_t_10 = __Pyx_PyInt_As_int(__pyx_v_positive_only_V); if (unlikely((__pyx_t_10 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 112, __pyx_L1_error)
   __pyx_v_self->positive_only_V = __pyx_t_10;
 
-  /* "FBSM_Rating_Cython_SGD.pyx":116
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":116
  *         # Initialization of vector d and matrix V
  * 
  *         if weights_initialization_D is not None:             # <<<<<<<<<<<<<<
@@ -21476,7 +21471,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
   __pyx_t_12 = (__pyx_v_weights_initialization_D != Py_None);
   if (__pyx_t_12) {
 
-    /* "FBSM_Rating_Cython_SGD.pyx":117
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":117
  * 
  *         if weights_initialization_D is not None:
  *             assert np.array(weights_initialization_D).ravel().shape == (self.n_features,), \             # <<<<<<<<<<<<<<
@@ -21554,7 +21549,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
       if (unlikely(!__pyx_t_12)) {
 
-        /* "FBSM_Rating_Cython_SGD.pyx":118
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":118
  *         if weights_initialization_D is not None:
  *             assert np.array(weights_initialization_D).ravel().shape == (self.n_features,), \
  *                 "FBSM_Rating_Cython_SGD: Wrong shape for weights_initialization_D, received was {}, expected was {}.".format(             # <<<<<<<<<<<<<<
@@ -21564,7 +21559,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
         __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_FBSM_Rating_Cython_SGD_Wrong_sha, __pyx_n_s_format); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 118, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_6);
 
-        /* "FBSM_Rating_Cython_SGD.pyx":119
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":119
  *             assert np.array(weights_initialization_D).ravel().shape == (self.n_features,), \
  *                 "FBSM_Rating_Cython_SGD: Wrong shape for weights_initialization_D, received was {}, expected was {}.".format(
  *                     np.array(weights_initialization_D).ravel().shape, (self.n_features,))             # <<<<<<<<<<<<<<
@@ -21658,7 +21653,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
           __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
         }
 
-        /* "FBSM_Rating_Cython_SGD.pyx":118
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":118
  *         if weights_initialization_D is not None:
  *             assert np.array(weights_initialization_D).ravel().shape == (self.n_features,), \
  *                 "FBSM_Rating_Cython_SGD: Wrong shape for weights_initialization_D, received was {}, expected was {}.".format(             # <<<<<<<<<<<<<<
@@ -21677,7 +21672,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
     if ((1)); else __PYX_ERR(0, 117, __pyx_L1_error)
     #endif
 
-    /* "FBSM_Rating_Cython_SGD.pyx":121
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":121
  *                     np.array(weights_initialization_D).ravel().shape, (self.n_features,))
  * 
  *             self.D = np.array(weights_initialization_D, dtype=np.float64)             # <<<<<<<<<<<<<<
@@ -21715,7 +21710,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
     __pyx_t_14.memview = NULL;
     __pyx_t_14.data = NULL;
 
-    /* "FBSM_Rating_Cython_SGD.pyx":116
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":116
  *         # Initialization of vector d and matrix V
  * 
  *         if weights_initialization_D is not None:             # <<<<<<<<<<<<<<
@@ -21725,7 +21720,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
     goto __pyx_L5;
   }
 
-  /* "FBSM_Rating_Cython_SGD.pyx":123
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":123
  *             self.D = np.array(weights_initialization_D, dtype=np.float64)
  *         else:
  *             self.D = np.zeros(self.n_features, dtype=np.float64)             # <<<<<<<<<<<<<<
@@ -21768,7 +21763,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
   }
   __pyx_L5:;
 
-  /* "FBSM_Rating_Cython_SGD.pyx":125
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":125
  *             self.D = np.zeros(self.n_features, dtype=np.float64)
  * 
  *         if weights_initialization_V is not None:             # <<<<<<<<<<<<<<
@@ -21778,7 +21773,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
   __pyx_t_12 = (__pyx_v_weights_initialization_V != Py_None);
   if (__pyx_t_12) {
 
-    /* "FBSM_Rating_Cython_SGD.pyx":126
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":126
  * 
  *         if weights_initialization_V is not None:
  *             assert np.array(weights_initialization_V).ravel().shape == (self.n_factors, self.n_features), \             # <<<<<<<<<<<<<<
@@ -21861,7 +21856,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
       if (unlikely(!__pyx_t_12)) {
 
-        /* "FBSM_Rating_Cython_SGD.pyx":127
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":127
  *         if weights_initialization_V is not None:
  *             assert np.array(weights_initialization_V).ravel().shape == (self.n_factors, self.n_features), \
  *                 "FBSM_Rating_Cython_SGD: Wrong shape for weights_initialization_V, received was {}, expected was {}.".format(             # <<<<<<<<<<<<<<
@@ -21871,7 +21866,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
         __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_FBSM_Rating_Cython_SGD_Wrong_sha_2, __pyx_n_s_format); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 127, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_6);
 
-        /* "FBSM_Rating_Cython_SGD.pyx":128
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":128
  *             assert np.array(weights_initialization_V).ravel().shape == (self.n_factors, self.n_features), \
  *                 "FBSM_Rating_Cython_SGD: Wrong shape for weights_initialization_V, received was {}, expected was {}.".format(
  *                     np.array(weights_initialization_V).ravel().shape, (self.n_factors, self.n_features))             # <<<<<<<<<<<<<<
@@ -21970,7 +21965,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
           __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
         }
 
-        /* "FBSM_Rating_Cython_SGD.pyx":127
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":127
  *         if weights_initialization_V is not None:
  *             assert np.array(weights_initialization_V).ravel().shape == (self.n_factors, self.n_features), \
  *                 "FBSM_Rating_Cython_SGD: Wrong shape for weights_initialization_V, received was {}, expected was {}.".format(             # <<<<<<<<<<<<<<
@@ -21989,7 +21984,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
     if ((1)); else __PYX_ERR(0, 126, __pyx_L1_error)
     #endif
 
-    /* "FBSM_Rating_Cython_SGD.pyx":130
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":130
  *                     np.array(weights_initialization_V).ravel().shape, (self.n_factors, self.n_features))
  * 
  *             self.V = np.array(weights_initialization_V, dtype=np.float64)             # <<<<<<<<<<<<<<
@@ -22027,7 +22022,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
     __pyx_t_15.memview = NULL;
     __pyx_t_15.data = NULL;
 
-    /* "FBSM_Rating_Cython_SGD.pyx":125
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":125
  *             self.D = np.zeros(self.n_features, dtype=np.float64)
  * 
  *         if weights_initialization_V is not None:             # <<<<<<<<<<<<<<
@@ -22037,7 +22032,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
     goto __pyx_L6;
   }
 
-  /* "FBSM_Rating_Cython_SGD.pyx":132
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":132
  *             self.V = np.array(weights_initialization_V, dtype=np.float64)
  *         else:
  *             self.V = np.random.normal(mean_init, std_init, (self.n_factors, self.n_features)).astype(np.float64)             # <<<<<<<<<<<<<<
@@ -22128,7 +22123,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
   }
   __pyx_L6:;
 
-  /* "FBSM_Rating_Cython_SGD.pyx":138
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":138
  * 
  * 
  *         self.precompute_user_feature_count = precompute_user_feature_count             # <<<<<<<<<<<<<<
@@ -22138,7 +22133,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
   __pyx_t_10 = __Pyx_PyInt_As_int(__pyx_v_precompute_user_feature_count); if (unlikely((__pyx_t_10 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 138, __pyx_L1_error)
   __pyx_v_self->precompute_user_feature_count = __pyx_t_10;
 
-  /* "FBSM_Rating_Cython_SGD.pyx":140
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":140
  *         self.precompute_user_feature_count = precompute_user_feature_count
  * 
  *         if self.precompute_user_feature_count:             # <<<<<<<<<<<<<<
@@ -22148,7 +22143,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
   __pyx_t_12 = (__pyx_v_self->precompute_user_feature_count != 0);
   if (__pyx_t_12) {
 
-    /* "FBSM_Rating_Cython_SGD.pyx":142
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":142
  *         if self.precompute_user_feature_count:
  * 
  *             if self.verbose:             # <<<<<<<<<<<<<<
@@ -22158,7 +22153,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
     __pyx_t_12 = (__pyx_v_self->verbose != 0);
     if (__pyx_t_12) {
 
-      /* "FBSM_Rating_Cython_SGD.pyx":143
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":143
  * 
  *             if self.verbose:
  *                 print("FBSM_Rating_Cython: Precomputing user_feature_count...")             # <<<<<<<<<<<<<<
@@ -22169,7 +22164,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
       __Pyx_GOTREF(__pyx_t_13);
       __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
 
-      /* "FBSM_Rating_Cython_SGD.pyx":142
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":142
  *         if self.precompute_user_feature_count:
  * 
  *             if self.verbose:             # <<<<<<<<<<<<<<
@@ -22178,7 +22173,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
  */
     }
 
-    /* "FBSM_Rating_Cython_SGD.pyx":147
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":147
  *             # Compute sum of occurrencies of features in items each user interacted with
  *             # self.User_feature_count = #users, #features
  *             URM.data = np.ones_like(URM.data, np.int32)             # <<<<<<<<<<<<<<
@@ -22224,7 +22219,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
     if (__Pyx_PyObject_SetAttrStr(__pyx_v_URM, __pyx_n_s_data, __pyx_t_13) < 0) __PYX_ERR(0, 147, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
 
-    /* "FBSM_Rating_Cython_SGD.pyx":148
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":148
  *             # self.User_feature_count = #users, #features
  *             URM.data = np.ones_like(URM.data, np.int32)
  *             user_feature_count = (URM * ICM).astype(np.int32)             # <<<<<<<<<<<<<<
@@ -22267,7 +22262,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
     __pyx_v_user_feature_count = __pyx_t_13;
     __pyx_t_13 = 0;
 
-    /* "FBSM_Rating_Cython_SGD.pyx":150
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":150
  *             user_feature_count = (URM * ICM).astype(np.int32)
  * 
  *             user_feature_count = check_matrix(user_feature_count, 'csr')             # <<<<<<<<<<<<<<
@@ -22301,7 +22296,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
     __Pyx_DECREF_SET(__pyx_v_user_feature_count, __pyx_t_13);
     __pyx_t_13 = 0;
 
-    /* "FBSM_Rating_Cython_SGD.pyx":151
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":151
  * 
  *             user_feature_count = check_matrix(user_feature_count, 'csr')
  *             self.user_feature_count_indices = np.array(user_feature_count.indices, dtype=np.int32)             # <<<<<<<<<<<<<<
@@ -22341,7 +22336,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
     __pyx_t_7.memview = NULL;
     __pyx_t_7.data = NULL;
 
-    /* "FBSM_Rating_Cython_SGD.pyx":152
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":152
  *             user_feature_count = check_matrix(user_feature_count, 'csr')
  *             self.user_feature_count_indices = np.array(user_feature_count.indices, dtype=np.int32)
  *             self.user_feature_count_indptr = np.array(user_feature_count.indptr, dtype=np.int32)             # <<<<<<<<<<<<<<
@@ -22381,7 +22376,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
     __pyx_t_7.memview = NULL;
     __pyx_t_7.data = NULL;
 
-    /* "FBSM_Rating_Cython_SGD.pyx":153
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":153
  *             self.user_feature_count_indices = np.array(user_feature_count.indices, dtype=np.int32)
  *             self.user_feature_count_indptr = np.array(user_feature_count.indptr, dtype=np.int32)
  *             self.user_feature_count_data = np.array(user_feature_count.data, dtype=np.int32)             # <<<<<<<<<<<<<<
@@ -22421,7 +22416,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
     __pyx_t_7.memview = NULL;
     __pyx_t_7.data = NULL;
 
-    /* "FBSM_Rating_Cython_SGD.pyx":155
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":155
  *             self.user_feature_count_data = np.array(user_feature_count.data, dtype=np.int32)
  * 
  *             if self.verbose:             # <<<<<<<<<<<<<<
@@ -22431,7 +22426,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
     __pyx_t_12 = (__pyx_v_self->verbose != 0);
     if (__pyx_t_12) {
 
-      /* "FBSM_Rating_Cython_SGD.pyx":157
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":157
  *             if self.verbose:
  *                 print("FBSM_Rating_Cython: Precomputing user_feature_count... Done. "
  *                       "Nonzero elements are {}, density is {:.4E}.".format(             # <<<<<<<<<<<<<<
@@ -22441,7 +22436,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
       __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_FBSM_Rating_Cython_Precomputing_2, __pyx_n_s_format); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 157, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
 
-      /* "FBSM_Rating_Cython_SGD.pyx":158
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":158
  *                 print("FBSM_Rating_Cython: Precomputing user_feature_count... Done. "
  *                       "Nonzero elements are {}, density is {:.4E}.".format(
  *                     int(user_feature_count.nnz),             # <<<<<<<<<<<<<<
@@ -22454,7 +22449,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
       __Pyx_GOTREF(__pyx_t_1);
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-      /* "FBSM_Rating_Cython_SGD.pyx":159
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":159
  *                       "Nonzero elements are {}, density is {:.4E}.".format(
  *                     int(user_feature_count.nnz),
  *                     int(user_feature_count.nnz)/(URM.shape[0]*ICM.shape[1])))             # <<<<<<<<<<<<<<
@@ -22509,7 +22504,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       }
 
-      /* "FBSM_Rating_Cython_SGD.pyx":156
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":156
  * 
  *             if self.verbose:
  *                 print("FBSM_Rating_Cython: Precomputing user_feature_count... Done. "             # <<<<<<<<<<<<<<
@@ -22521,7 +22516,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-      /* "FBSM_Rating_Cython_SGD.pyx":155
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":155
  *             self.user_feature_count_data = np.array(user_feature_count.data, dtype=np.int32)
  * 
  *             if self.verbose:             # <<<<<<<<<<<<<<
@@ -22530,7 +22525,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
  */
     }
 
-    /* "FBSM_Rating_Cython_SGD.pyx":140
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":140
  *         self.precompute_user_feature_count = precompute_user_feature_count
  * 
  *         if self.precompute_user_feature_count:             # <<<<<<<<<<<<<<
@@ -22540,7 +22535,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
     goto __pyx_L7;
   }
 
-  /* "FBSM_Rating_Cython_SGD.pyx":162
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":162
  * 
  *         else:
  *             self.user_feature_count_counter_temp = np.zeros(self.n_features, dtype=np.int32)             # <<<<<<<<<<<<<<
@@ -22581,7 +22576,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
     __pyx_t_7.memview = NULL;
     __pyx_t_7.data = NULL;
 
-    /* "FBSM_Rating_Cython_SGD.pyx":163
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":163
  *         else:
  *             self.user_feature_count_counter_temp = np.zeros(self.n_features, dtype=np.int32)
  *             self.user_feature_count_flag = np.zeros(self.n_features, dtype=np.int32)             # <<<<<<<<<<<<<<
@@ -22623,7 +22618,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
   }
   __pyx_L7:;
 
-  /* "FBSM_Rating_Cython_SGD.pyx":165
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":165
  *             self.user_feature_count_flag = np.zeros(self.n_features, dtype=np.int32)
  * 
  *         self.user_feature_count_len = 0             # <<<<<<<<<<<<<<
@@ -22632,7 +22627,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
  */
   __pyx_v_self->user_feature_count_len = 0;
 
-  /* "FBSM_Rating_Cython_SGD.pyx":166
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":166
  * 
  *         self.user_feature_count_len = 0
  *         self.user_feature_count_id = np.zeros(self.n_features, dtype=np.int32)             # <<<<<<<<<<<<<<
@@ -22672,7 +22667,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
   __pyx_t_7.memview = NULL;
   __pyx_t_7.data = NULL;
 
-  /* "FBSM_Rating_Cython_SGD.pyx":167
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":167
  *         self.user_feature_count_len = 0
  *         self.user_feature_count_id = np.zeros(self.n_features, dtype=np.int32)
  *         self.user_feature_count_counter = np.zeros(self.n_features, dtype=np.int32)             # <<<<<<<<<<<<<<
@@ -22712,7 +22707,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
   __pyx_t_7.memview = NULL;
   __pyx_t_7.data = NULL;
 
-  /* "FBSM_Rating_Cython_SGD.pyx":173
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":173
  * 
  * 
  *         self.useAdaGrad = False             # <<<<<<<<<<<<<<
@@ -22721,7 +22716,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
  */
   __pyx_v_self->useAdaGrad = 0;
 
-  /* "FBSM_Rating_Cython_SGD.pyx":174
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":174
  * 
  *         self.useAdaGrad = False
  *         self.useRmsprop = False             # <<<<<<<<<<<<<<
@@ -22730,7 +22725,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
  */
   __pyx_v_self->useRmsprop = 0;
 
-  /* "FBSM_Rating_Cython_SGD.pyx":175
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":175
  *         self.useAdaGrad = False
  *         self.useRmsprop = False
  *         self.useAdam = False             # <<<<<<<<<<<<<<
@@ -22739,7 +22734,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
  */
   __pyx_v_self->useAdam = 0;
 
-  /* "FBSM_Rating_Cython_SGD.pyx":177
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":177
  *         self.useAdam = False
  * 
  *         if sgd_mode=='adagrad':             # <<<<<<<<<<<<<<
@@ -22749,7 +22744,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
   __pyx_t_12 = (__Pyx_PyString_Equals(__pyx_v_sgd_mode, __pyx_n_s_adagrad, Py_EQ)); if (unlikely((__pyx_t_12 < 0))) __PYX_ERR(0, 177, __pyx_L1_error)
   if (__pyx_t_12) {
 
-    /* "FBSM_Rating_Cython_SGD.pyx":178
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":178
  * 
  *         if sgd_mode=='adagrad':
  *             self.useAdaGrad = True             # <<<<<<<<<<<<<<
@@ -22758,7 +22753,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
  */
     __pyx_v_self->useAdaGrad = 1;
 
-    /* "FBSM_Rating_Cython_SGD.pyx":179
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":179
  *         if sgd_mode=='adagrad':
  *             self.useAdaGrad = True
  *             self.sgd_cache_D = np.zeros((self.n_features), dtype=np.float64)             # <<<<<<<<<<<<<<
@@ -22798,7 +22793,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
     __pyx_t_14.memview = NULL;
     __pyx_t_14.data = NULL;
 
-    /* "FBSM_Rating_Cython_SGD.pyx":180
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":180
  *             self.useAdaGrad = True
  *             self.sgd_cache_D = np.zeros((self.n_features), dtype=np.float64)
  *             self.sgd_cache_V = np.zeros((self.n_factors, self.n_features), dtype=np.float64)             # <<<<<<<<<<<<<<
@@ -22848,7 +22843,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
     __pyx_t_15.memview = NULL;
     __pyx_t_15.data = NULL;
 
-    /* "FBSM_Rating_Cython_SGD.pyx":177
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":177
  *         self.useAdam = False
  * 
  *         if sgd_mode=='adagrad':             # <<<<<<<<<<<<<<
@@ -22858,7 +22853,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
     goto __pyx_L10;
   }
 
-  /* "FBSM_Rating_Cython_SGD.pyx":182
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":182
  *             self.sgd_cache_V = np.zeros((self.n_factors, self.n_features), dtype=np.float64)
  * 
  *         elif sgd_mode=='rmsprop':             # <<<<<<<<<<<<<<
@@ -22868,7 +22863,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
   __pyx_t_12 = (__Pyx_PyString_Equals(__pyx_v_sgd_mode, __pyx_n_s_rmsprop, Py_EQ)); if (unlikely((__pyx_t_12 < 0))) __PYX_ERR(0, 182, __pyx_L1_error)
   if (__pyx_t_12) {
 
-    /* "FBSM_Rating_Cython_SGD.pyx":183
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":183
  * 
  *         elif sgd_mode=='rmsprop':
  *             self.useRmsprop = True             # <<<<<<<<<<<<<<
@@ -22877,7 +22872,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
  */
     __pyx_v_self->useRmsprop = 1;
 
-    /* "FBSM_Rating_Cython_SGD.pyx":184
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":184
  *         elif sgd_mode=='rmsprop':
  *             self.useRmsprop = True
  *             self.sgd_cache_D = np.zeros((self.n_features), dtype=np.float64)             # <<<<<<<<<<<<<<
@@ -22917,7 +22912,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
     __pyx_t_14.memview = NULL;
     __pyx_t_14.data = NULL;
 
-    /* "FBSM_Rating_Cython_SGD.pyx":185
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":185
  *             self.useRmsprop = True
  *             self.sgd_cache_D = np.zeros((self.n_features), dtype=np.float64)
  *             self.sgd_cache_V = np.zeros((self.n_factors, self.n_features), dtype=np.float64)             # <<<<<<<<<<<<<<
@@ -22967,7 +22962,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
     __pyx_t_15.memview = NULL;
     __pyx_t_15.data = NULL;
 
-    /* "FBSM_Rating_Cython_SGD.pyx":189
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":189
  *             # Gamma default value suggested by Hinton
  *             # self.gamma = 0.9
  *             self.gamma = gamma             # <<<<<<<<<<<<<<
@@ -22977,7 +22972,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
     __pyx_t_11 = __pyx_PyFloat_AsDouble(__pyx_v_gamma); if (unlikely((__pyx_t_11 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 189, __pyx_L1_error)
     __pyx_v_self->gamma = __pyx_t_11;
 
-    /* "FBSM_Rating_Cython_SGD.pyx":182
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":182
  *             self.sgd_cache_V = np.zeros((self.n_factors, self.n_features), dtype=np.float64)
  * 
  *         elif sgd_mode=='rmsprop':             # <<<<<<<<<<<<<<
@@ -22987,7 +22982,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
     goto __pyx_L10;
   }
 
-  /* "FBSM_Rating_Cython_SGD.pyx":191
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":191
  *             self.gamma = gamma
  * 
  *         elif sgd_mode=='adam':             # <<<<<<<<<<<<<<
@@ -22997,7 +22992,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
   __pyx_t_12 = (__Pyx_PyString_Equals(__pyx_v_sgd_mode, __pyx_n_s_adam, Py_EQ)); if (unlikely((__pyx_t_12 < 0))) __PYX_ERR(0, 191, __pyx_L1_error)
   if (__pyx_t_12) {
 
-    /* "FBSM_Rating_Cython_SGD.pyx":192
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":192
  * 
  *         elif sgd_mode=='adam':
  *             self.useAdam = True             # <<<<<<<<<<<<<<
@@ -23006,7 +23001,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
  */
     __pyx_v_self->useAdam = 1;
 
-    /* "FBSM_Rating_Cython_SGD.pyx":193
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":193
  *         elif sgd_mode=='adam':
  *             self.useAdam = True
  *             self.sgd_cache_D_momentum_1 = np.zeros((self.n_features), dtype=np.float64)             # <<<<<<<<<<<<<<
@@ -23046,7 +23041,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
     __pyx_t_14.memview = NULL;
     __pyx_t_14.data = NULL;
 
-    /* "FBSM_Rating_Cython_SGD.pyx":194
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":194
  *             self.useAdam = True
  *             self.sgd_cache_D_momentum_1 = np.zeros((self.n_features), dtype=np.float64)
  *             self.sgd_cache_D_momentum_2 = np.zeros((self.n_features), dtype=np.float64)             # <<<<<<<<<<<<<<
@@ -23086,7 +23081,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
     __pyx_t_14.memview = NULL;
     __pyx_t_14.data = NULL;
 
-    /* "FBSM_Rating_Cython_SGD.pyx":196
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":196
  *             self.sgd_cache_D_momentum_2 = np.zeros((self.n_features), dtype=np.float64)
  * 
  *             self.sgd_cache_V_momentum_1 = np.zeros((self.n_factors, self.n_features), dtype=np.float64)             # <<<<<<<<<<<<<<
@@ -23136,7 +23131,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
     __pyx_t_15.memview = NULL;
     __pyx_t_15.data = NULL;
 
-    /* "FBSM_Rating_Cython_SGD.pyx":197
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":197
  * 
  *             self.sgd_cache_V_momentum_1 = np.zeros((self.n_factors, self.n_features), dtype=np.float64)
  *             self.sgd_cache_V_momentum_2 = np.zeros((self.n_factors, self.n_features), dtype=np.float64)             # <<<<<<<<<<<<<<
@@ -23186,7 +23181,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
     __pyx_t_15.memview = NULL;
     __pyx_t_15.data = NULL;
 
-    /* "FBSM_Rating_Cython_SGD.pyx":201
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":201
  *             # Default value suggested by the original paper
  *             # beta_1=0.9, beta_2=0.999
  *             self.beta_1 = beta_1             # <<<<<<<<<<<<<<
@@ -23196,7 +23191,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
     __pyx_t_11 = __pyx_PyFloat_AsDouble(__pyx_v_beta_1); if (unlikely((__pyx_t_11 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 201, __pyx_L1_error)
     __pyx_v_self->beta_1 = __pyx_t_11;
 
-    /* "FBSM_Rating_Cython_SGD.pyx":202
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":202
  *             # beta_1=0.9, beta_2=0.999
  *             self.beta_1 = beta_1
  *             self.beta_2 = beta_2             # <<<<<<<<<<<<<<
@@ -23206,7 +23201,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
     __pyx_t_11 = __pyx_PyFloat_AsDouble(__pyx_v_beta_2); if (unlikely((__pyx_t_11 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 202, __pyx_L1_error)
     __pyx_v_self->beta_2 = __pyx_t_11;
 
-    /* "FBSM_Rating_Cython_SGD.pyx":203
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":203
  *             self.beta_1 = beta_1
  *             self.beta_2 = beta_2
  *             self.beta_1_power_t = beta_1             # <<<<<<<<<<<<<<
@@ -23216,7 +23211,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
     __pyx_t_11 = __pyx_PyFloat_AsDouble(__pyx_v_beta_1); if (unlikely((__pyx_t_11 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 203, __pyx_L1_error)
     __pyx_v_self->beta_1_power_t = __pyx_t_11;
 
-    /* "FBSM_Rating_Cython_SGD.pyx":204
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":204
  *             self.beta_2 = beta_2
  *             self.beta_1_power_t = beta_1
  *             self.beta_2_power_t = beta_2             # <<<<<<<<<<<<<<
@@ -23226,7 +23221,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
     __pyx_t_11 = __pyx_PyFloat_AsDouble(__pyx_v_beta_2); if (unlikely((__pyx_t_11 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 204, __pyx_L1_error)
     __pyx_v_self->beta_2_power_t = __pyx_t_11;
 
-    /* "FBSM_Rating_Cython_SGD.pyx":191
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":191
  *             self.gamma = gamma
  * 
  *         elif sgd_mode=='adam':             # <<<<<<<<<<<<<<
@@ -23236,7 +23231,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
     goto __pyx_L10;
   }
 
-  /* "FBSM_Rating_Cython_SGD.pyx":206
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":206
  *             self.beta_2_power_t = beta_2
  * 
  *         elif sgd_mode=='sgd':             # <<<<<<<<<<<<<<
@@ -23248,7 +23243,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
     goto __pyx_L10;
   }
 
-  /* "FBSM_Rating_Cython_SGD.pyx":209
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":209
  *             pass
  *         else:
  *             raise ValueError(             # <<<<<<<<<<<<<<
@@ -23257,7 +23252,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
  */
   /*else*/ {
 
-    /* "FBSM_Rating_Cython_SGD.pyx":210
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":210
  *         else:
  *             raise ValueError(
  *                 "SGD_mode not valid. Acceptable values are: 'sgd', 'adagrad', 'rmsprop'. Provided value was '{}'".format(             # <<<<<<<<<<<<<<
@@ -23267,7 +23262,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
     __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_SGD_mode_not_valid_Acceptable_va, __pyx_n_s_format); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 210, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
 
-    /* "FBSM_Rating_Cython_SGD.pyx":211
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":211
  *             raise ValueError(
  *                 "SGD_mode not valid. Acceptable values are: 'sgd', 'adagrad', 'rmsprop'. Provided value was '{}'".format(
  *                     sgd_mode))             # <<<<<<<<<<<<<<
@@ -23297,7 +23292,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     }
 
-    /* "FBSM_Rating_Cython_SGD.pyx":209
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":209
  *             pass
  *         else:
  *             raise ValueError(             # <<<<<<<<<<<<<<
@@ -23313,7 +23308,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
   }
   __pyx_L10:;
 
-  /* "FBSM_Rating_Cython_SGD.pyx":78
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":78
  * 
  * 
  *     def __init__(self, URM, ICM,             # <<<<<<<<<<<<<<
@@ -23335,7 +23330,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
   __PYX_XCLEAR_MEMVIEW(&__pyx_t_14, 1);
   __PYX_XCLEAR_MEMVIEW(&__pyx_t_15, 1);
   __Pyx_XDECREF(__pyx_t_16);
-  __Pyx_AddTraceback("FBSM_Rating_Cython_SGD.FBSM_Rating_Cython_SGD.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.FBSM_Rating_Cython_SGD.FBSM_Rating_Cython_SGD.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = -1;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_user_feature_count);
@@ -23345,7 +23340,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
   return __pyx_r;
 }
 
-/* "FBSM_Rating_Cython_SGD.pyx":217
+/* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":217
  * 
  * 
  *     def fit(self):             # <<<<<<<<<<<<<<
@@ -23354,15 +23349,15 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_3fit(PyObject *__pyx_v_self, 
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_3fit(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static PyMethodDef __pyx_mdef_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_3fit = {"fit", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_3fit, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_3fit(PyObject *__pyx_v_self, 
+static PyMethodDef __pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_3fit = {"fit", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_3fit, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_3fit(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -23387,14 +23382,14 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   if (unlikely(__pyx_nargs > 0)) {
     __Pyx_RaiseArgtupleInvalid("fit", 1, 0, 0, __pyx_nargs); return NULL;}
   if (unlikely(__pyx_kwds) && __Pyx_NumKwargs_FASTCALL(__pyx_kwds) && unlikely(!__Pyx_CheckKeywordStrings(__pyx_kwds, "fit", 0))) return NULL;
-  __pyx_r = __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit(((struct __pyx_obj_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *)__pyx_v_self));
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit(struct __pyx_obj_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *__pyx_v_self) {
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *__pyx_v_self) {
   int __pyx_v_num_sample;
   CYTHON_UNUSED int __pyx_v_n_block;
   double __pyx_v_cum_loss;
@@ -23408,7 +23403,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
   int __pyx_v_feature_id;
   int __pyx_v_feature_count;
   int __pyx_v_factor_index;
-  struct __pyx_t_22FBSM_Rating_Cython_SGD_BPR_sample __pyx_v_sample;
+  struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_BPR_sample __pyx_v_sample;
   __Pyx_memviewslice __pyx_v_user_feature_count_u_full_vector = { 0, 0, { 0 }, { 0 }, { 0 } };
   __Pyx_memviewslice __pyx_v_D_update = { 0, 0, { 0 }, { 0 }, { 0 } };
   __Pyx_memviewslice __pyx_v_V_update = { 0, 0, { 0 }, { 0 }, { 0 } };
@@ -23434,7 +23429,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
   int __pyx_t_10;
   int __pyx_t_11;
   int __pyx_t_12;
-  struct __pyx_t_22FBSM_Rating_Cython_SGD_BPR_sample __pyx_t_13;
+  struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_BPR_sample __pyx_t_13;
   int __pyx_t_14;
   Py_ssize_t __pyx_t_15;
   Py_ssize_t __pyx_t_16;
@@ -23461,7 +23456,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("fit", 1);
 
-  /* "FBSM_Rating_Cython_SGD.pyx":220
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":220
  * 
  * 
  *         cdef int num_sample, n_block = 10             # <<<<<<<<<<<<<<
@@ -23470,7 +23465,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
  */
   __pyx_v_n_block = 10;
 
-  /* "FBSM_Rating_Cython_SGD.pyx":222
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":222
  *         cdef int num_sample, n_block = 10
  * 
  *         cdef double cum_loss=0.0, r_uij_hat, sigma_deriv, loss, loss_deriv, adaptive_gradient, learning_rate_current_feature             # <<<<<<<<<<<<<<
@@ -23479,7 +23474,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
  */
   __pyx_v_cum_loss = 0.0;
 
-  /* "FBSM_Rating_Cython_SGD.pyx":231
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":231
  *         cdef BPR_sample sample
  * 
  *         cdef int [:] user_feature_count_u_full_vector = np.zeros(self.n_features, dtype=np.int32)             # <<<<<<<<<<<<<<
@@ -23518,7 +23513,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
   __pyx_t_6.memview = NULL;
   __pyx_t_6.data = NULL;
 
-  /* "FBSM_Rating_Cython_SGD.pyx":232
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":232
  * 
  *         cdef int [:] user_feature_count_u_full_vector = np.zeros(self.n_features, dtype=np.int32)
  *         cdef double [:] D_update = np.zeros(self.n_features, dtype=np.float64)             # <<<<<<<<<<<<<<
@@ -23557,7 +23552,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
   __pyx_t_7.memview = NULL;
   __pyx_t_7.data = NULL;
 
-  /* "FBSM_Rating_Cython_SGD.pyx":233
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":233
  *         cdef int [:] user_feature_count_u_full_vector = np.zeros(self.n_features, dtype=np.int32)
  *         cdef double [:] D_update = np.zeros(self.n_features, dtype=np.float64)
  *         cdef double [:,:] V_update = np.zeros((self.n_factors, self.n_features), dtype=np.float64)             # <<<<<<<<<<<<<<
@@ -23606,7 +23601,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
   __pyx_t_8.memview = NULL;
   __pyx_t_8.data = NULL;
 
-  /* "FBSM_Rating_Cython_SGD.pyx":234
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":234
  *         cdef double [:] D_update = np.zeros(self.n_features, dtype=np.float64)
  *         cdef double [:,:] V_update = np.zeros((self.n_factors, self.n_features), dtype=np.float64)
  *         cdef int [:] updated_features_id = np.zeros(self.n_features, dtype=np.int32)             # <<<<<<<<<<<<<<
@@ -23645,7 +23640,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
   __pyx_t_6.memview = NULL;
   __pyx_t_6.data = NULL;
 
-  /* "FBSM_Rating_Cython_SGD.pyx":235
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":235
  *         cdef double [:,:] V_update = np.zeros((self.n_factors, self.n_features), dtype=np.float64)
  *         cdef int [:] updated_features_id = np.zeros(self.n_features, dtype=np.int32)
  *         cdef int [:] updated_features_flag = np.zeros(self.n_features, dtype=np.int32)             # <<<<<<<<<<<<<<
@@ -23684,7 +23679,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
   __pyx_t_6.memview = NULL;
   __pyx_t_6.data = NULL;
 
-  /* "FBSM_Rating_Cython_SGD.pyx":240
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":240
  *         # cdef array[double] template_zero = array('d')
  *         # cdef array[double] V_f_u, Vdelta_ij, Vfi, Ddelta_ij
  *         cdef double [:] V_f_u = np.zeros(self.n_factors, dtype=np.float64)             # <<<<<<<<<<<<<<
@@ -23723,7 +23718,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
   __pyx_t_7.memview = NULL;
   __pyx_t_7.data = NULL;
 
-  /* "FBSM_Rating_Cython_SGD.pyx":241
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":241
  *         # cdef array[double] V_f_u, Vdelta_ij, Vfi, Ddelta_ij
  *         cdef double [:] V_f_u = np.zeros(self.n_factors, dtype=np.float64)
  *         cdef double [:] Vdelta_ij = np.zeros(self.n_factors, dtype=np.float64)             # <<<<<<<<<<<<<<
@@ -23762,7 +23757,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
   __pyx_t_7.memview = NULL;
   __pyx_t_7.data = NULL;
 
-  /* "FBSM_Rating_Cython_SGD.pyx":242
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":242
  *         cdef double [:] V_f_u = np.zeros(self.n_factors, dtype=np.float64)
  *         cdef double [:] Vdelta_ij = np.zeros(self.n_factors, dtype=np.float64)
  *         cdef double [:] Vfi = np.zeros(self.n_factors, dtype=np.float64)             # <<<<<<<<<<<<<<
@@ -23801,7 +23796,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
   __pyx_t_7.memview = NULL;
   __pyx_t_7.data = NULL;
 
-  /* "FBSM_Rating_Cython_SGD.pyx":243
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":243
  *         cdef double [:] Vdelta_ij = np.zeros(self.n_factors, dtype=np.float64)
  *         cdef double [:] Vfi = np.zeros(self.n_factors, dtype=np.float64)
  *         cdef double [:] Ddelta_ij = np.zeros(self.n_features, dtype=np.float64)             # <<<<<<<<<<<<<<
@@ -23840,7 +23835,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
   __pyx_t_7.memview = NULL;
   __pyx_t_7.data = NULL;
 
-  /* "FBSM_Rating_Cython_SGD.pyx":245
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":245
  *         cdef double [:] Ddelta_ij = np.zeros(self.n_features, dtype=np.float64)
  * 
  *         start_time = time.time()             # <<<<<<<<<<<<<<
@@ -23877,7 +23872,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
   __pyx_v_start_time = __pyx_t_5;
   __pyx_t_5 = 0;
 
-  /* "FBSM_Rating_Cython_SGD.pyx":248
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":248
  * 
  * 
  *         for num_sample in range(self.n_users):             # <<<<<<<<<<<<<<
@@ -23889,43 +23884,43 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
   for (__pyx_t_12 = 0; __pyx_t_12 < __pyx_t_11; __pyx_t_12+=1) {
     __pyx_v_num_sample = __pyx_t_12;
 
-    /* "FBSM_Rating_Cython_SGD.pyx":250
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":250
  *         for num_sample in range(self.n_users):
  * 
  *             sample = self.sampleBPR_Cython()             # <<<<<<<<<<<<<<
  * 
  *             #Get features of items i and j and items clicked by user u
  */
-    __pyx_t_13 = ((struct __pyx_vtabstruct_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *)__pyx_v_self->__pyx_vtab)->sampleBPR_Cython(__pyx_v_self); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 250, __pyx_L1_error)
+    __pyx_t_13 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *)__pyx_v_self->__pyx_vtab)->sampleBPR_Cython(__pyx_v_self); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 250, __pyx_L1_error)
     __pyx_v_sample = __pyx_t_13;
 
-    /* "FBSM_Rating_Cython_SGD.pyx":254
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":254
  *             #Get features of items i and j and items clicked by user u
  *             # ALL of the following are (1,#features)
  *             feature_i = self.get_features_vector(sample.pos_item)             # <<<<<<<<<<<<<<
  *             feature_j = self.get_features_vector(sample.neg_item)
  * 
  */
-    __pyx_t_6 = ((struct __pyx_vtabstruct_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *)__pyx_v_self->__pyx_vtab)->get_features_vector(__pyx_v_self, __pyx_v_sample.pos_item); if (unlikely(!__pyx_t_6.memview)) __PYX_ERR(0, 254, __pyx_L1_error)
+    __pyx_t_6 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *)__pyx_v_self->__pyx_vtab)->get_features_vector(__pyx_v_self, __pyx_v_sample.pos_item); if (unlikely(!__pyx_t_6.memview)) __PYX_ERR(0, 254, __pyx_L1_error)
     __PYX_XCLEAR_MEMVIEW(&__pyx_v_feature_i, 1);
     __pyx_v_feature_i = __pyx_t_6;
     __pyx_t_6.memview = NULL;
     __pyx_t_6.data = NULL;
 
-    /* "FBSM_Rating_Cython_SGD.pyx":255
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":255
  *             # ALL of the following are (1,#features)
  *             feature_i = self.get_features_vector(sample.pos_item)
  *             feature_j = self.get_features_vector(sample.neg_item)             # <<<<<<<<<<<<<<
  * 
  *             if self.precompute_user_feature_count:
  */
-    __pyx_t_6 = ((struct __pyx_vtabstruct_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *)__pyx_v_self->__pyx_vtab)->get_features_vector(__pyx_v_self, __pyx_v_sample.neg_item); if (unlikely(!__pyx_t_6.memview)) __PYX_ERR(0, 255, __pyx_L1_error)
+    __pyx_t_6 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *)__pyx_v_self->__pyx_vtab)->get_features_vector(__pyx_v_self, __pyx_v_sample.neg_item); if (unlikely(!__pyx_t_6.memview)) __PYX_ERR(0, 255, __pyx_L1_error)
     __PYX_XCLEAR_MEMVIEW(&__pyx_v_feature_j, 1);
     __pyx_v_feature_j = __pyx_t_6;
     __pyx_t_6.memview = NULL;
     __pyx_t_6.data = NULL;
 
-    /* "FBSM_Rating_Cython_SGD.pyx":257
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":257
  *             feature_j = self.get_features_vector(sample.neg_item)
  * 
  *             if self.precompute_user_feature_count:             # <<<<<<<<<<<<<<
@@ -23935,18 +23930,18 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
     __pyx_t_14 = (__pyx_v_self->precompute_user_feature_count != 0);
     if (__pyx_t_14) {
 
-      /* "FBSM_Rating_Cython_SGD.pyx":258
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":258
  * 
  *             if self.precompute_user_feature_count:
  *                 self.get_user_feature_count(sample.user)             # <<<<<<<<<<<<<<
  *             else:
  *                 self.get_user_feature_count_compute(sample)
  */
-      __pyx_t_5 = ((struct __pyx_vtabstruct_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *)__pyx_v_self->__pyx_vtab)->get_user_feature_count(__pyx_v_self, __pyx_v_sample.user); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 258, __pyx_L1_error)
+      __pyx_t_5 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *)__pyx_v_self->__pyx_vtab)->get_user_feature_count(__pyx_v_self, __pyx_v_sample.user); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 258, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-      /* "FBSM_Rating_Cython_SGD.pyx":257
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":257
  *             feature_j = self.get_features_vector(sample.neg_item)
  * 
  *             if self.precompute_user_feature_count:             # <<<<<<<<<<<<<<
@@ -23956,7 +23951,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
       goto __pyx_L5;
     }
 
-    /* "FBSM_Rating_Cython_SGD.pyx":260
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":260
  *                 self.get_user_feature_count(sample.user)
  *             else:
  *                 self.get_user_feature_count_compute(sample)             # <<<<<<<<<<<<<<
@@ -23964,13 +23959,13 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
  *             # Add D component
  */
     /*else*/ {
-      __pyx_t_5 = ((struct __pyx_vtabstruct_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *)__pyx_v_self->__pyx_vtab)->get_user_feature_count_compute(__pyx_v_self, __pyx_v_sample); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 260, __pyx_L1_error)
+      __pyx_t_5 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *)__pyx_v_self->__pyx_vtab)->get_user_feature_count_compute(__pyx_v_self, __pyx_v_sample); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 260, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     }
     __pyx_L5:;
 
-    /* "FBSM_Rating_Cython_SGD.pyx":263
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":263
  * 
  *             # Add D component
  *             r_uij_hat = 0.0             # <<<<<<<<<<<<<<
@@ -23979,7 +23974,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
  */
     __pyx_v_r_uij_hat = 0.0;
 
-    /* "FBSM_Rating_Cython_SGD.pyx":267
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":267
  * 
  *             # Ddelta_ij = D (1,#Features) dot delta_ij (#Features,1)
  *             for feature_index in range(len(feature_i)):             # <<<<<<<<<<<<<<
@@ -23991,7 +23986,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
     for (__pyx_t_17 = 0; __pyx_t_17 < __pyx_t_16; __pyx_t_17+=1) {
       __pyx_v_feature_index = __pyx_t_17;
 
-      /* "FBSM_Rating_Cython_SGD.pyx":268
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":268
  *             # Ddelta_ij = D (1,#Features) dot delta_ij (#Features,1)
  *             for feature_index in range(len(feature_i)):
  *                 feature_id = feature_i[feature_index]             # <<<<<<<<<<<<<<
@@ -24010,7 +24005,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
       }
       __pyx_v_feature_id = (*((int *) ( /* dim=0 */ (__pyx_v_feature_i.data + __pyx_t_18 * __pyx_v_feature_i.strides[0]) )));
 
-      /* "FBSM_Rating_Cython_SGD.pyx":269
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":269
  *             for feature_index in range(len(feature_i)):
  *                 feature_id = feature_i[feature_index]
  *                 Ddelta_ij[feature_id] += self.D[feature_id]             # <<<<<<<<<<<<<<
@@ -24041,7 +24036,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
       *((double *) ( /* dim=0 */ (__pyx_v_Ddelta_ij.data + __pyx_t_20 * __pyx_v_Ddelta_ij.strides[0]) )) += (*((double *) ( /* dim=0 */ (__pyx_v_self->D.data + __pyx_t_18 * __pyx_v_self->D.strides[0]) )));
     }
 
-    /* "FBSM_Rating_Cython_SGD.pyx":271
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":271
  *                 Ddelta_ij[feature_id] += self.D[feature_id]
  * 
  *             for feature_index in range(len(feature_j)):             # <<<<<<<<<<<<<<
@@ -24053,7 +24048,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
     for (__pyx_t_17 = 0; __pyx_t_17 < __pyx_t_16; __pyx_t_17+=1) {
       __pyx_v_feature_index = __pyx_t_17;
 
-      /* "FBSM_Rating_Cython_SGD.pyx":272
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":272
  * 
  *             for feature_index in range(len(feature_j)):
  *                 feature_id = feature_j[feature_index]             # <<<<<<<<<<<<<<
@@ -24072,7 +24067,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
       }
       __pyx_v_feature_id = (*((int *) ( /* dim=0 */ (__pyx_v_feature_j.data + __pyx_t_18 * __pyx_v_feature_j.strides[0]) )));
 
-      /* "FBSM_Rating_Cython_SGD.pyx":273
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":273
  *             for feature_index in range(len(feature_j)):
  *                 feature_id = feature_j[feature_index]
  *                 Ddelta_ij[feature_id] -= self.D[feature_id]             # <<<<<<<<<<<<<<
@@ -24103,7 +24098,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
       *((double *) ( /* dim=0 */ (__pyx_v_Ddelta_ij.data + __pyx_t_20 * __pyx_v_Ddelta_ij.strides[0]) )) -= (*((double *) ( /* dim=0 */ (__pyx_v_self->D.data + __pyx_t_18 * __pyx_v_self->D.strides[0]) )));
     }
 
-    /* "FBSM_Rating_Cython_SGD.pyx":277
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":277
  * 
  *             # Ddelta_ij (#Features,1) dot user_feature_count_u (#Features,1)
  *             for feature_index in range(self.user_feature_count_len):             # <<<<<<<<<<<<<<
@@ -24115,7 +24110,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
     for (__pyx_t_21 = 0; __pyx_t_21 < __pyx_t_19; __pyx_t_21+=1) {
       __pyx_v_feature_index = __pyx_t_21;
 
-      /* "FBSM_Rating_Cython_SGD.pyx":278
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":278
  *             # Ddelta_ij (#Features,1) dot user_feature_count_u (#Features,1)
  *             for feature_index in range(self.user_feature_count_len):
  *                 feature_id = self.user_feature_count_id[feature_index]             # <<<<<<<<<<<<<<
@@ -24135,7 +24130,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
       }
       __pyx_v_feature_id = (*((int *) ( /* dim=0 */ (__pyx_v_self->user_feature_count_id.data + __pyx_t_18 * __pyx_v_self->user_feature_count_id.strides[0]) )));
 
-      /* "FBSM_Rating_Cython_SGD.pyx":279
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":279
  *             for feature_index in range(self.user_feature_count_len):
  *                 feature_id = self.user_feature_count_id[feature_index]
  *                 feature_count = self.user_feature_count_counter[feature_index]             # <<<<<<<<<<<<<<
@@ -24155,7 +24150,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
       }
       __pyx_v_feature_count = (*((int *) ( /* dim=0 */ (__pyx_v_self->user_feature_count_counter.data + __pyx_t_18 * __pyx_v_self->user_feature_count_counter.strides[0]) )));
 
-      /* "FBSM_Rating_Cython_SGD.pyx":281
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":281
  *                 feature_count = self.user_feature_count_counter[feature_index]
  * 
  *                 r_uij_hat += Ddelta_ij[feature_id] * feature_count             # <<<<<<<<<<<<<<
@@ -24175,7 +24170,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
       __pyx_v_r_uij_hat = (__pyx_v_r_uij_hat + ((*((double *) ( /* dim=0 */ (__pyx_v_Ddelta_ij.data + __pyx_t_18 * __pyx_v_Ddelta_ij.strides[0]) ))) * __pyx_v_feature_count));
     }
 
-    /* "FBSM_Rating_Cython_SGD.pyx":285
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":285
  * 
  *             # r_uij_hat -= feature_i * D * feature_i
  *             for feature_index in range(len(feature_i)):             # <<<<<<<<<<<<<<
@@ -24187,7 +24182,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
     for (__pyx_t_17 = 0; __pyx_t_17 < __pyx_t_16; __pyx_t_17+=1) {
       __pyx_v_feature_index = __pyx_t_17;
 
-      /* "FBSM_Rating_Cython_SGD.pyx":286
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":286
  *             # r_uij_hat -= feature_i * D * feature_i
  *             for feature_index in range(len(feature_i)):
  *                 feature_id = feature_i[feature_index]             # <<<<<<<<<<<<<<
@@ -24206,7 +24201,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
       }
       __pyx_v_feature_id = (*((int *) ( /* dim=0 */ (__pyx_v_feature_i.data + __pyx_t_18 * __pyx_v_feature_i.strides[0]) )));
 
-      /* "FBSM_Rating_Cython_SGD.pyx":288
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":288
  *                 feature_id = feature_i[feature_index]
  * 
  *                 r_uij_hat -= self.D[feature_id]             # <<<<<<<<<<<<<<
@@ -24227,7 +24222,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
       __pyx_v_r_uij_hat = (__pyx_v_r_uij_hat - (*((double *) ( /* dim=0 */ (__pyx_v_self->D.data + __pyx_t_18 * __pyx_v_self->D.strides[0]) ))));
     }
 
-    /* "FBSM_Rating_Cython_SGD.pyx":292
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":292
  * 
  *             # Clear Ddelta_ij
  *             for feature_index in range(len(feature_i)):             # <<<<<<<<<<<<<<
@@ -24239,7 +24234,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
     for (__pyx_t_17 = 0; __pyx_t_17 < __pyx_t_16; __pyx_t_17+=1) {
       __pyx_v_feature_index = __pyx_t_17;
 
-      /* "FBSM_Rating_Cython_SGD.pyx":293
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":293
  *             # Clear Ddelta_ij
  *             for feature_index in range(len(feature_i)):
  *                 feature_id = feature_i[feature_index]             # <<<<<<<<<<<<<<
@@ -24258,7 +24253,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
       }
       __pyx_v_feature_id = (*((int *) ( /* dim=0 */ (__pyx_v_feature_i.data + __pyx_t_18 * __pyx_v_feature_i.strides[0]) )));
 
-      /* "FBSM_Rating_Cython_SGD.pyx":294
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":294
  *             for feature_index in range(len(feature_i)):
  *                 feature_id = feature_i[feature_index]
  *                 Ddelta_ij[feature_id] = 0.0             # <<<<<<<<<<<<<<
@@ -24278,7 +24273,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
       *((double *) ( /* dim=0 */ (__pyx_v_Ddelta_ij.data + __pyx_t_18 * __pyx_v_Ddelta_ij.strides[0]) )) = 0.0;
     }
 
-    /* "FBSM_Rating_Cython_SGD.pyx":296
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":296
  *                 Ddelta_ij[feature_id] = 0.0
  * 
  *             for feature_index in range(len(feature_j)):             # <<<<<<<<<<<<<<
@@ -24290,7 +24285,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
     for (__pyx_t_17 = 0; __pyx_t_17 < __pyx_t_16; __pyx_t_17+=1) {
       __pyx_v_feature_index = __pyx_t_17;
 
-      /* "FBSM_Rating_Cython_SGD.pyx":297
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":297
  * 
  *             for feature_index in range(len(feature_j)):
  *                 feature_id = feature_j[feature_index]             # <<<<<<<<<<<<<<
@@ -24309,7 +24304,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
       }
       __pyx_v_feature_id = (*((int *) ( /* dim=0 */ (__pyx_v_feature_j.data + __pyx_t_18 * __pyx_v_feature_j.strides[0]) )));
 
-      /* "FBSM_Rating_Cython_SGD.pyx":298
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":298
  *             for feature_index in range(len(feature_j)):
  *                 feature_id = feature_j[feature_index]
  *                 Ddelta_ij[feature_id] = 0.0             # <<<<<<<<<<<<<<
@@ -24329,7 +24324,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
       *((double *) ( /* dim=0 */ (__pyx_v_Ddelta_ij.data + __pyx_t_18 * __pyx_v_Ddelta_ij.strides[0]) )) = 0.0;
     }
 
-    /* "FBSM_Rating_Cython_SGD.pyx":308
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":308
  *             # Vdelta_ij (#factors,1)
  *             # Vdelta_ij = clone(template_zero, self.n_factors, zero=True)
  *             for factor_index in range(self.n_factors):             # <<<<<<<<<<<<<<
@@ -24341,7 +24336,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
     for (__pyx_t_21 = 0; __pyx_t_21 < __pyx_t_19; __pyx_t_21+=1) {
       __pyx_v_factor_index = __pyx_t_21;
 
-      /* "FBSM_Rating_Cython_SGD.pyx":309
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":309
  *             # Vdelta_ij = clone(template_zero, self.n_factors, zero=True)
  *             for factor_index in range(self.n_factors):
  *                 Vdelta_ij[factor_index] = 0.0             # <<<<<<<<<<<<<<
@@ -24361,7 +24356,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
       *((double *) ( /* dim=0 */ (__pyx_v_Vdelta_ij.data + __pyx_t_18 * __pyx_v_Vdelta_ij.strides[0]) )) = 0.0;
     }
 
-    /* "FBSM_Rating_Cython_SGD.pyx":311
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":311
  *                 Vdelta_ij[factor_index] = 0.0
  * 
  *             for feature_index in range(len(feature_i)):             # <<<<<<<<<<<<<<
@@ -24373,7 +24368,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
     for (__pyx_t_17 = 0; __pyx_t_17 < __pyx_t_16; __pyx_t_17+=1) {
       __pyx_v_feature_index = __pyx_t_17;
 
-      /* "FBSM_Rating_Cython_SGD.pyx":312
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":312
  * 
  *             for feature_index in range(len(feature_i)):
  *                 feature_id = feature_i[feature_index]             # <<<<<<<<<<<<<<
@@ -24392,7 +24387,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
       }
       __pyx_v_feature_id = (*((int *) ( /* dim=0 */ (__pyx_v_feature_i.data + __pyx_t_18 * __pyx_v_feature_i.strides[0]) )));
 
-      /* "FBSM_Rating_Cython_SGD.pyx":314
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":314
  *                 feature_id = feature_i[feature_index]
  * 
  *                 for factor_index in range(self.n_factors):             # <<<<<<<<<<<<<<
@@ -24404,7 +24399,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
       for (__pyx_t_22 = 0; __pyx_t_22 < __pyx_t_21; __pyx_t_22+=1) {
         __pyx_v_factor_index = __pyx_t_22;
 
-        /* "FBSM_Rating_Cython_SGD.pyx":315
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":315
  * 
  *                 for factor_index in range(self.n_factors):
  *                     Vdelta_ij[factor_index] += self.V[factor_index, feature_id]             # <<<<<<<<<<<<<<
@@ -24441,7 +24436,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
       }
     }
 
-    /* "FBSM_Rating_Cython_SGD.pyx":317
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":317
  *                     Vdelta_ij[factor_index] += self.V[factor_index, feature_id]
  * 
  *             for feature_index in range(len(feature_j)):             # <<<<<<<<<<<<<<
@@ -24453,7 +24448,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
     for (__pyx_t_17 = 0; __pyx_t_17 < __pyx_t_16; __pyx_t_17+=1) {
       __pyx_v_feature_index = __pyx_t_17;
 
-      /* "FBSM_Rating_Cython_SGD.pyx":318
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":318
  * 
  *             for feature_index in range(len(feature_j)):
  *                 feature_id = feature_j[feature_index]             # <<<<<<<<<<<<<<
@@ -24472,7 +24467,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
       }
       __pyx_v_feature_id = (*((int *) ( /* dim=0 */ (__pyx_v_feature_j.data + __pyx_t_20 * __pyx_v_feature_j.strides[0]) )));
 
-      /* "FBSM_Rating_Cython_SGD.pyx":320
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":320
  *                 feature_id = feature_j[feature_index]
  * 
  *                 for factor_index in range(self.n_factors):             # <<<<<<<<<<<<<<
@@ -24484,7 +24479,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
       for (__pyx_t_22 = 0; __pyx_t_22 < __pyx_t_21; __pyx_t_22+=1) {
         __pyx_v_factor_index = __pyx_t_22;
 
-        /* "FBSM_Rating_Cython_SGD.pyx":321
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":321
  * 
  *                 for factor_index in range(self.n_factors):
  *                     Vdelta_ij[factor_index] -= self.V[factor_index, feature_id]             # <<<<<<<<<<<<<<
@@ -24521,7 +24516,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
       }
     }
 
-    /* "FBSM_Rating_Cython_SGD.pyx":328
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":328
  *             # V_f_u = user_feature_count (1,#Features) dot V.t (#factors,#Features).t
  *             # V_f_u is (#factors,1)
  *             for factor_index in range(self.n_factors):             # <<<<<<<<<<<<<<
@@ -24533,7 +24528,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
     for (__pyx_t_21 = 0; __pyx_t_21 < __pyx_t_19; __pyx_t_21+=1) {
       __pyx_v_factor_index = __pyx_t_21;
 
-      /* "FBSM_Rating_Cython_SGD.pyx":329
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":329
  *             # V_f_u is (#factors,1)
  *             for factor_index in range(self.n_factors):
  *                 V_f_u[factor_index] = 0.0             # <<<<<<<<<<<<<<
@@ -24553,7 +24548,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
       *((double *) ( /* dim=0 */ (__pyx_v_V_f_u.data + __pyx_t_18 * __pyx_v_V_f_u.strides[0]) )) = 0.0;
     }
 
-    /* "FBSM_Rating_Cython_SGD.pyx":331
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":331
  *                 V_f_u[factor_index] = 0.0
  * 
  *             for feature_index in range(self.user_feature_count_len):             # <<<<<<<<<<<<<<
@@ -24565,7 +24560,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
     for (__pyx_t_21 = 0; __pyx_t_21 < __pyx_t_19; __pyx_t_21+=1) {
       __pyx_v_feature_index = __pyx_t_21;
 
-      /* "FBSM_Rating_Cython_SGD.pyx":332
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":332
  * 
  *             for feature_index in range(self.user_feature_count_len):
  *                 feature_id = self.user_feature_count_id[feature_index]             # <<<<<<<<<<<<<<
@@ -24585,7 +24580,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
       }
       __pyx_v_feature_id = (*((int *) ( /* dim=0 */ (__pyx_v_self->user_feature_count_id.data + __pyx_t_18 * __pyx_v_self->user_feature_count_id.strides[0]) )));
 
-      /* "FBSM_Rating_Cython_SGD.pyx":333
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":333
  *             for feature_index in range(self.user_feature_count_len):
  *                 feature_id = self.user_feature_count_id[feature_index]
  *                 feature_count = self.user_feature_count_counter[feature_index]             # <<<<<<<<<<<<<<
@@ -24605,7 +24600,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
       }
       __pyx_v_feature_count = (*((int *) ( /* dim=0 */ (__pyx_v_self->user_feature_count_counter.data + __pyx_t_18 * __pyx_v_self->user_feature_count_counter.strides[0]) )));
 
-      /* "FBSM_Rating_Cython_SGD.pyx":335
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":335
  *                 feature_count = self.user_feature_count_counter[feature_index]
  * 
  *                 for factor_index in range(self.n_factors):             # <<<<<<<<<<<<<<
@@ -24617,7 +24612,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
       for (__pyx_t_25 = 0; __pyx_t_25 < __pyx_t_23; __pyx_t_25+=1) {
         __pyx_v_factor_index = __pyx_t_25;
 
-        /* "FBSM_Rating_Cython_SGD.pyx":336
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":336
  * 
  *                 for factor_index in range(self.n_factors):
  *                     V_f_u[factor_index] += self.V[factor_index, feature_id] * feature_count             # <<<<<<<<<<<<<<
@@ -24654,7 +24649,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
       }
     }
 
-    /* "FBSM_Rating_Cython_SGD.pyx":343
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":343
  *             # Vfi = V (#factors,#Features) dot fi (#Features,1)
  *             # Vfi (#factors,1)
  *             for factor_index in range(self.n_factors):             # <<<<<<<<<<<<<<
@@ -24666,7 +24661,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
     for (__pyx_t_21 = 0; __pyx_t_21 < __pyx_t_19; __pyx_t_21+=1) {
       __pyx_v_factor_index = __pyx_t_21;
 
-      /* "FBSM_Rating_Cython_SGD.pyx":344
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":344
  *             # Vfi (#factors,1)
  *             for factor_index in range(self.n_factors):
  *                 Vfi[factor_index] = 0.0             # <<<<<<<<<<<<<<
@@ -24686,7 +24681,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
       *((double *) ( /* dim=0 */ (__pyx_v_Vfi.data + __pyx_t_20 * __pyx_v_Vfi.strides[0]) )) = 0.0;
     }
 
-    /* "FBSM_Rating_Cython_SGD.pyx":346
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":346
  *                 Vfi[factor_index] = 0.0
  * 
  *             for feature_index in range(len(feature_i)):             # <<<<<<<<<<<<<<
@@ -24698,7 +24693,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
     for (__pyx_t_17 = 0; __pyx_t_17 < __pyx_t_16; __pyx_t_17+=1) {
       __pyx_v_feature_index = __pyx_t_17;
 
-      /* "FBSM_Rating_Cython_SGD.pyx":347
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":347
  * 
  *             for feature_index in range(len(feature_i)):
  *                 feature_id = feature_i[feature_index]             # <<<<<<<<<<<<<<
@@ -24717,7 +24712,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
       }
       __pyx_v_feature_id = (*((int *) ( /* dim=0 */ (__pyx_v_feature_i.data + __pyx_t_20 * __pyx_v_feature_i.strides[0]) )));
 
-      /* "FBSM_Rating_Cython_SGD.pyx":349
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":349
  *                 feature_id = feature_i[feature_index]
  * 
  *                 for factor_index in range(self.n_factors):             # <<<<<<<<<<<<<<
@@ -24729,7 +24724,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
       for (__pyx_t_22 = 0; __pyx_t_22 < __pyx_t_21; __pyx_t_22+=1) {
         __pyx_v_factor_index = __pyx_t_22;
 
-        /* "FBSM_Rating_Cython_SGD.pyx":350
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":350
  * 
  *                 for factor_index in range(self.n_factors):
  *                     Vfi[factor_index] += self.V[factor_index, feature_id]             # <<<<<<<<<<<<<<
@@ -24766,7 +24761,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
       }
     }
 
-    /* "FBSM_Rating_Cython_SGD.pyx":355
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":355
  * 
  *             # Compute np.dot(Vdelta_ij, Vrf_u.T)
  *             for factor_index in range(self.n_factors):             # <<<<<<<<<<<<<<
@@ -24778,7 +24773,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
     for (__pyx_t_21 = 0; __pyx_t_21 < __pyx_t_19; __pyx_t_21+=1) {
       __pyx_v_factor_index = __pyx_t_21;
 
-      /* "FBSM_Rating_Cython_SGD.pyx":356
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":356
  *             # Compute np.dot(Vdelta_ij, Vrf_u.T)
  *             for factor_index in range(self.n_factors):
  *                 r_uij_hat += Vdelta_ij[factor_index] * V_f_u[factor_index]             # <<<<<<<<<<<<<<
@@ -24808,7 +24803,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
       __pyx_v_r_uij_hat = (__pyx_v_r_uij_hat + ((*((double *) ( /* dim=0 */ (__pyx_v_Vdelta_ij.data + __pyx_t_18 * __pyx_v_Vdelta_ij.strides[0]) ))) * (*((double *) ( /* dim=0 */ (__pyx_v_V_f_u.data + __pyx_t_20 * __pyx_v_V_f_u.strides[0]) )))));
     }
 
-    /* "FBSM_Rating_Cython_SGD.pyx":359
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":359
  * 
  *             # Compute np.dot(Vfi, Vfi.T)
  *             for factor_index in range(self.n_factors):             # <<<<<<<<<<<<<<
@@ -24820,7 +24815,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
     for (__pyx_t_21 = 0; __pyx_t_21 < __pyx_t_19; __pyx_t_21+=1) {
       __pyx_v_factor_index = __pyx_t_21;
 
-      /* "FBSM_Rating_Cython_SGD.pyx":360
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":360
  *             # Compute np.dot(Vfi, Vfi.T)
  *             for factor_index in range(self.n_factors):
  *                 r_uij_hat -= Vfi[factor_index] * Vfi[factor_index]             # <<<<<<<<<<<<<<
@@ -24850,7 +24845,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
       __pyx_v_r_uij_hat = (__pyx_v_r_uij_hat - ((*((double *) ( /* dim=0 */ (__pyx_v_Vfi.data + __pyx_t_20 * __pyx_v_Vfi.strides[0]) ))) * (*((double *) ( /* dim=0 */ (__pyx_v_Vfi.data + __pyx_t_18 * __pyx_v_Vfi.strides[0]) )))));
     }
 
-    /* "FBSM_Rating_Cython_SGD.pyx":367
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":367
  *             #Compute derivatives
  *             # Use alternate form for sigma e^-x / (1+ e^-x)
  *             sigma_deriv = 1.0 / (1.0 + exp(r_uij_hat))             # <<<<<<<<<<<<<<
@@ -24864,7 +24859,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
     }
     __pyx_v_sigma_deriv = (1.0 / __pyx_t_27);
 
-    /* "FBSM_Rating_Cython_SGD.pyx":371
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":371
  *             #Compute loss
  *             # loss = log(1. / (1. + exp(-r_uij_hat)))
  *             cum_loss += r_uij_hat             # <<<<<<<<<<<<<<
@@ -24873,7 +24868,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
  */
     __pyx_v_cum_loss = (__pyx_v_cum_loss + __pyx_v_r_uij_hat);
 
-    /* "FBSM_Rating_Cython_SGD.pyx":378
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":378
  *             ### UPDATE D
  * 
  *             updated_features_count = 0             # <<<<<<<<<<<<<<
@@ -24882,7 +24877,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
  */
     __pyx_v_updated_features_count = 0;
 
-    /* "FBSM_Rating_Cython_SGD.pyx":384
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":384
  *             # Problem, delta_ij and user_feature_count_u are two independent data structures and the ordering is not consistent
  *             # Use a big array to avoid manipulating indices
  *             for feature_index in range(self.user_feature_count_len):             # <<<<<<<<<<<<<<
@@ -24894,7 +24889,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
     for (__pyx_t_21 = 0; __pyx_t_21 < __pyx_t_19; __pyx_t_21+=1) {
       __pyx_v_feature_index = __pyx_t_21;
 
-      /* "FBSM_Rating_Cython_SGD.pyx":385
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":385
  *             # Use a big array to avoid manipulating indices
  *             for feature_index in range(self.user_feature_count_len):
  *                 feature_id = self.user_feature_count_id[feature_index]             # <<<<<<<<<<<<<<
@@ -24914,7 +24909,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
       }
       __pyx_v_feature_id = (*((int *) ( /* dim=0 */ (__pyx_v_self->user_feature_count_id.data + __pyx_t_18 * __pyx_v_self->user_feature_count_id.strides[0]) )));
 
-      /* "FBSM_Rating_Cython_SGD.pyx":386
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":386
  *             for feature_index in range(self.user_feature_count_len):
  *                 feature_id = self.user_feature_count_id[feature_index]
  *                 feature_count = self.user_feature_count_counter[feature_index]             # <<<<<<<<<<<<<<
@@ -24934,7 +24929,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
       }
       __pyx_v_feature_count = (*((int *) ( /* dim=0 */ (__pyx_v_self->user_feature_count_counter.data + __pyx_t_18 * __pyx_v_self->user_feature_count_counter.strides[0]) )));
 
-      /* "FBSM_Rating_Cython_SGD.pyx":388
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":388
  *                 feature_count = self.user_feature_count_counter[feature_index]
  * 
  *                 user_feature_count_u_full_vector[feature_id] = feature_count             # <<<<<<<<<<<<<<
@@ -24954,7 +24949,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
       *((int *) ( /* dim=0 */ (__pyx_v_user_feature_count_u_full_vector.data + __pyx_t_18 * __pyx_v_user_feature_count_u_full_vector.strides[0]) )) = __pyx_v_feature_count;
     }
 
-    /* "FBSM_Rating_Cython_SGD.pyx":391
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":391
  * 
  * 
  *             for feature_index in range(len(feature_i)):             # <<<<<<<<<<<<<<
@@ -24966,7 +24961,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
     for (__pyx_t_17 = 0; __pyx_t_17 < __pyx_t_16; __pyx_t_17+=1) {
       __pyx_v_feature_index = __pyx_t_17;
 
-      /* "FBSM_Rating_Cython_SGD.pyx":392
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":392
  * 
  *             for feature_index in range(len(feature_i)):
  *                 feature_id = feature_i[feature_index]             # <<<<<<<<<<<<<<
@@ -24985,7 +24980,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
       }
       __pyx_v_feature_id = (*((int *) ( /* dim=0 */ (__pyx_v_feature_i.data + __pyx_t_18 * __pyx_v_feature_i.strides[0]) )));
 
-      /* "FBSM_Rating_Cython_SGD.pyx":394
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":394
  *                 feature_id = feature_i[feature_index]
  * 
  *                 D_update[feature_id] += user_feature_count_u_full_vector[feature_id]             # <<<<<<<<<<<<<<
@@ -25014,7 +25009,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
       }
       *((double *) ( /* dim=0 */ (__pyx_v_D_update.data + __pyx_t_20 * __pyx_v_D_update.strides[0]) )) += (*((int *) ( /* dim=0 */ (__pyx_v_user_feature_count_u_full_vector.data + __pyx_t_18 * __pyx_v_user_feature_count_u_full_vector.strides[0]) )));
 
-      /* "FBSM_Rating_Cython_SGD.pyx":396
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":396
  *                 D_update[feature_id] += user_feature_count_u_full_vector[feature_id]
  * 
  *                 if not updated_features_flag[feature_id]:             # <<<<<<<<<<<<<<
@@ -25034,7 +25029,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
       __pyx_t_14 = (!((*((int *) ( /* dim=0 */ (__pyx_v_updated_features_flag.data + __pyx_t_18 * __pyx_v_updated_features_flag.strides[0]) ))) != 0));
       if (__pyx_t_14) {
 
-        /* "FBSM_Rating_Cython_SGD.pyx":397
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":397
  * 
  *                 if not updated_features_flag[feature_id]:
  *                     updated_features_flag[feature_id] = True             # <<<<<<<<<<<<<<
@@ -25053,7 +25048,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
         }
         *((int *) ( /* dim=0 */ (__pyx_v_updated_features_flag.data + __pyx_t_18 * __pyx_v_updated_features_flag.strides[0]) )) = 1;
 
-        /* "FBSM_Rating_Cython_SGD.pyx":398
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":398
  *                 if not updated_features_flag[feature_id]:
  *                     updated_features_flag[feature_id] = True
  *                     updated_features_id[updated_features_count] = feature_id             # <<<<<<<<<<<<<<
@@ -25072,7 +25067,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
         }
         *((int *) ( /* dim=0 */ (__pyx_v_updated_features_id.data + __pyx_t_18 * __pyx_v_updated_features_id.strides[0]) )) = __pyx_v_feature_id;
 
-        /* "FBSM_Rating_Cython_SGD.pyx":399
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":399
  *                     updated_features_flag[feature_id] = True
  *                     updated_features_id[updated_features_count] = feature_id
  *                     updated_features_count += 1             # <<<<<<<<<<<<<<
@@ -25081,7 +25076,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
  */
         __pyx_v_updated_features_count = (__pyx_v_updated_features_count + 1);
 
-        /* "FBSM_Rating_Cython_SGD.pyx":396
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":396
  *                 D_update[feature_id] += user_feature_count_u_full_vector[feature_id]
  * 
  *                 if not updated_features_flag[feature_id]:             # <<<<<<<<<<<<<<
@@ -25091,7 +25086,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
       }
     }
 
-    /* "FBSM_Rating_Cython_SGD.pyx":402
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":402
  * 
  * 
  *             for feature_index in range(len(feature_j)):             # <<<<<<<<<<<<<<
@@ -25103,7 +25098,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
     for (__pyx_t_17 = 0; __pyx_t_17 < __pyx_t_16; __pyx_t_17+=1) {
       __pyx_v_feature_index = __pyx_t_17;
 
-      /* "FBSM_Rating_Cython_SGD.pyx":403
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":403
  * 
  *             for feature_index in range(len(feature_j)):
  *                 feature_id = feature_j[feature_index]             # <<<<<<<<<<<<<<
@@ -25122,7 +25117,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
       }
       __pyx_v_feature_id = (*((int *) ( /* dim=0 */ (__pyx_v_feature_j.data + __pyx_t_18 * __pyx_v_feature_j.strides[0]) )));
 
-      /* "FBSM_Rating_Cython_SGD.pyx":405
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":405
  *                 feature_id = feature_j[feature_index]
  * 
  *                 D_update[feature_id] -= user_feature_count_u_full_vector[feature_id]             # <<<<<<<<<<<<<<
@@ -25151,7 +25146,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
       }
       *((double *) ( /* dim=0 */ (__pyx_v_D_update.data + __pyx_t_20 * __pyx_v_D_update.strides[0]) )) -= (*((int *) ( /* dim=0 */ (__pyx_v_user_feature_count_u_full_vector.data + __pyx_t_18 * __pyx_v_user_feature_count_u_full_vector.strides[0]) )));
 
-      /* "FBSM_Rating_Cython_SGD.pyx":407
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":407
  *                 D_update[feature_id] -= user_feature_count_u_full_vector[feature_id]
  * 
  *                 if not updated_features_flag[feature_id]:             # <<<<<<<<<<<<<<
@@ -25171,7 +25166,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
       __pyx_t_14 = (!((*((int *) ( /* dim=0 */ (__pyx_v_updated_features_flag.data + __pyx_t_18 * __pyx_v_updated_features_flag.strides[0]) ))) != 0));
       if (__pyx_t_14) {
 
-        /* "FBSM_Rating_Cython_SGD.pyx":408
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":408
  * 
  *                 if not updated_features_flag[feature_id]:
  *                     updated_features_flag[feature_id] = True             # <<<<<<<<<<<<<<
@@ -25190,7 +25185,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
         }
         *((int *) ( /* dim=0 */ (__pyx_v_updated_features_flag.data + __pyx_t_18 * __pyx_v_updated_features_flag.strides[0]) )) = 1;
 
-        /* "FBSM_Rating_Cython_SGD.pyx":409
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":409
  *                 if not updated_features_flag[feature_id]:
  *                     updated_features_flag[feature_id] = True
  *                     updated_features_id[updated_features_count] = feature_id             # <<<<<<<<<<<<<<
@@ -25209,7 +25204,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
         }
         *((int *) ( /* dim=0 */ (__pyx_v_updated_features_id.data + __pyx_t_18 * __pyx_v_updated_features_id.strides[0]) )) = __pyx_v_feature_id;
 
-        /* "FBSM_Rating_Cython_SGD.pyx":410
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":410
  *                     updated_features_flag[feature_id] = True
  *                     updated_features_id[updated_features_count] = feature_id
  *                     updated_features_count += 1             # <<<<<<<<<<<<<<
@@ -25218,7 +25213,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
  */
         __pyx_v_updated_features_count = (__pyx_v_updated_features_count + 1);
 
-        /* "FBSM_Rating_Cython_SGD.pyx":407
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":407
  *                 D_update[feature_id] -= user_feature_count_u_full_vector[feature_id]
  * 
  *                 if not updated_features_flag[feature_id]:             # <<<<<<<<<<<<<<
@@ -25228,7 +25223,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
       }
     }
 
-    /* "FBSM_Rating_Cython_SGD.pyx":414
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":414
  * 
  *             # Clear array full
  *             for feature_index in range(self.user_feature_count_len):             # <<<<<<<<<<<<<<
@@ -25240,7 +25235,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
     for (__pyx_t_21 = 0; __pyx_t_21 < __pyx_t_19; __pyx_t_21+=1) {
       __pyx_v_feature_index = __pyx_t_21;
 
-      /* "FBSM_Rating_Cython_SGD.pyx":415
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":415
  *             # Clear array full
  *             for feature_index in range(self.user_feature_count_len):
  *                 feature_id = self.user_feature_count_id[feature_index]             # <<<<<<<<<<<<<<
@@ -25260,7 +25255,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
       }
       __pyx_v_feature_id = (*((int *) ( /* dim=0 */ (__pyx_v_self->user_feature_count_id.data + __pyx_t_18 * __pyx_v_self->user_feature_count_id.strides[0]) )));
 
-      /* "FBSM_Rating_Cython_SGD.pyx":417
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":417
  *                 feature_id = self.user_feature_count_id[feature_index]
  * 
  *                 user_feature_count_u_full_vector[feature_id] = 0             # <<<<<<<<<<<<<<
@@ -25280,7 +25275,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
       *((int *) ( /* dim=0 */ (__pyx_v_user_feature_count_u_full_vector.data + __pyx_t_18 * __pyx_v_user_feature_count_u_full_vector.strides[0]) )) = 0;
     }
 
-    /* "FBSM_Rating_Cython_SGD.pyx":421
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":421
  * 
  *             # loss_deriv_D += sigma_deriv * (- fi.multiply(fi))
  *             for feature_index in range(len(feature_i)):             # <<<<<<<<<<<<<<
@@ -25292,7 +25287,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
     for (__pyx_t_17 = 0; __pyx_t_17 < __pyx_t_16; __pyx_t_17+=1) {
       __pyx_v_feature_index = __pyx_t_17;
 
-      /* "FBSM_Rating_Cython_SGD.pyx":422
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":422
  *             # loss_deriv_D += sigma_deriv * (- fi.multiply(fi))
  *             for feature_index in range(len(feature_i)):
  *                 feature_id = feature_i[feature_index]             # <<<<<<<<<<<<<<
@@ -25311,7 +25306,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
       }
       __pyx_v_feature_id = (*((int *) ( /* dim=0 */ (__pyx_v_feature_i.data + __pyx_t_18 * __pyx_v_feature_i.strides[0]) )));
 
-      /* "FBSM_Rating_Cython_SGD.pyx":424
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":424
  *                 feature_id = feature_i[feature_index]
  * 
  *                 D_update[feature_id] -= 1             # <<<<<<<<<<<<<<
@@ -25331,7 +25326,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
       *((double *) ( /* dim=0 */ (__pyx_v_D_update.data + __pyx_t_18 * __pyx_v_D_update.strides[0]) )) -= 1.0;
     }
 
-    /* "FBSM_Rating_Cython_SGD.pyx":432
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":432
  * 
  *             # Apply update and regularization only to modified features
  *             if updated_features_count > 0:             # <<<<<<<<<<<<<<
@@ -25341,7 +25336,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
     __pyx_t_14 = (__pyx_v_updated_features_count > 0);
     if (__pyx_t_14) {
 
-      /* "FBSM_Rating_Cython_SGD.pyx":434
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":434
  *             if updated_features_count > 0:
  * 
  *                 for feature_index in range(updated_features_count):             # <<<<<<<<<<<<<<
@@ -25353,7 +25348,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
       for (__pyx_t_21 = 0; __pyx_t_21 < __pyx_t_19; __pyx_t_21+=1) {
         __pyx_v_feature_index = __pyx_t_21;
 
-        /* "FBSM_Rating_Cython_SGD.pyx":435
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":435
  * 
  *                 for feature_index in range(updated_features_count):
  *                     feature_id = updated_features_id[feature_index]             # <<<<<<<<<<<<<<
@@ -25372,7 +25367,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
         }
         __pyx_v_feature_id = (*((int *) ( /* dim=0 */ (__pyx_v_updated_features_id.data + __pyx_t_18 * __pyx_v_updated_features_id.strides[0]) )));
 
-        /* "FBSM_Rating_Cython_SGD.pyx":436
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":436
  *                 for feature_index in range(updated_features_count):
  *                     feature_id = updated_features_id[feature_index]
  *                     updated_features_flag[feature_id] = False             # <<<<<<<<<<<<<<
@@ -25391,7 +25386,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
         }
         *((int *) ( /* dim=0 */ (__pyx_v_updated_features_flag.data + __pyx_t_18 * __pyx_v_updated_features_flag.strides[0]) )) = 0;
 
-        /* "FBSM_Rating_Cython_SGD.pyx":438
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":438
  *                     updated_features_flag[feature_id] = False
  * 
  *                     loss_deriv = sigma_deriv*D_update[feature_id]             # <<<<<<<<<<<<<<
@@ -25410,17 +25405,17 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
         }
         __pyx_v_loss_deriv = (__pyx_v_sigma_deriv * (*((double *) ( /* dim=0 */ (__pyx_v_D_update.data + __pyx_t_18 * __pyx_v_D_update.strides[0]) ))));
 
-        /* "FBSM_Rating_Cython_SGD.pyx":440
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":440
  *                     loss_deriv = sigma_deriv*D_update[feature_id]
  * 
  *                     adaptive_gradient = self.compute_adaptive_gradient_D(feature_id, loss_deriv)             # <<<<<<<<<<<<<<
  * 
  *                     self.D[feature_id] += self.learning_rate * (adaptive_gradient - 2 * self.l2_reg_D * self.D[feature_id])
  */
-        __pyx_t_27 = ((struct __pyx_vtabstruct_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *)__pyx_v_self->__pyx_vtab)->compute_adaptive_gradient_D(__pyx_v_self, __pyx_v_feature_id, __pyx_v_loss_deriv); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 440, __pyx_L1_error)
+        __pyx_t_27 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *)__pyx_v_self->__pyx_vtab)->compute_adaptive_gradient_D(__pyx_v_self, __pyx_v_feature_id, __pyx_v_loss_deriv); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 440, __pyx_L1_error)
         __pyx_v_adaptive_gradient = __pyx_t_27;
 
-        /* "FBSM_Rating_Cython_SGD.pyx":442
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":442
  *                     adaptive_gradient = self.compute_adaptive_gradient_D(feature_id, loss_deriv)
  * 
  *                     self.D[feature_id] += self.learning_rate * (adaptive_gradient - 2 * self.l2_reg_D * self.D[feature_id])             # <<<<<<<<<<<<<<
@@ -25451,7 +25446,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
         }
         *((double *) ( /* dim=0 */ (__pyx_v_self->D.data + __pyx_t_20 * __pyx_v_self->D.strides[0]) )) += (__pyx_v_self->learning_rate * (__pyx_v_adaptive_gradient - ((2.0 * __pyx_v_self->l2_reg_D) * (*((double *) ( /* dim=0 */ (__pyx_v_self->D.data + __pyx_t_18 * __pyx_v_self->D.strides[0]) ))))));
 
-        /* "FBSM_Rating_Cython_SGD.pyx":445
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":445
  * 
  * 
  *                     D_update[feature_id] = 0.0             # <<<<<<<<<<<<<<
@@ -25470,7 +25465,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
         }
         *((double *) ( /* dim=0 */ (__pyx_v_D_update.data + __pyx_t_18 * __pyx_v_D_update.strides[0]) )) = 0.0;
 
-        /* "FBSM_Rating_Cython_SGD.pyx":447
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":447
  *                     D_update[feature_id] = 0.0
  * 
  *                     if self.positive_only_D and self.D[feature_id] < 0.0:             # <<<<<<<<<<<<<<
@@ -25499,7 +25494,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
         __pyx_L60_bool_binop_done:;
         if (__pyx_t_14) {
 
-          /* "FBSM_Rating_Cython_SGD.pyx":448
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":448
  * 
  *                     if self.positive_only_D and self.D[feature_id] < 0.0:
  *                         self.D[feature_id] = 0.0             # <<<<<<<<<<<<<<
@@ -25519,7 +25514,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
           }
           *((double *) ( /* dim=0 */ (__pyx_v_self->D.data + __pyx_t_18 * __pyx_v_self->D.strides[0]) )) = 0.0;
 
-          /* "FBSM_Rating_Cython_SGD.pyx":447
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":447
  *                     D_update[feature_id] = 0.0
  * 
  *                     if self.positive_only_D and self.D[feature_id] < 0.0:             # <<<<<<<<<<<<<<
@@ -25529,7 +25524,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
         }
       }
 
-      /* "FBSM_Rating_Cython_SGD.pyx":432
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":432
  * 
  *             # Apply update and regularization only to modified features
  *             if updated_features_count > 0:             # <<<<<<<<<<<<<<
@@ -25538,7 +25533,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
  */
     }
 
-    /* "FBSM_Rating_Cython_SGD.pyx":457
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":457
  *             ### UPDATE V
  * 
  *             updated_features_count = 0             # <<<<<<<<<<<<<<
@@ -25547,7 +25542,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
  */
     __pyx_v_updated_features_count = 0;
 
-    /* "FBSM_Rating_Cython_SGD.pyx":463
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":463
  *             #V_f_u.T (#factors,1).T * delta_ij(#Features,1)         Is an outer product
  * 
  *             for factor_index in range(self.n_factors):             # <<<<<<<<<<<<<<
@@ -25559,7 +25554,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
     for (__pyx_t_21 = 0; __pyx_t_21 < __pyx_t_19; __pyx_t_21+=1) {
       __pyx_v_factor_index = __pyx_t_21;
 
-      /* "FBSM_Rating_Cython_SGD.pyx":465
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":465
  *             for factor_index in range(self.n_factors):
  * 
  *                 for feature_index in range(len(feature_i)):             # <<<<<<<<<<<<<<
@@ -25571,7 +25566,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
       for (__pyx_t_22 = 0; __pyx_t_22 < __pyx_t_16; __pyx_t_22+=1) {
         __pyx_v_feature_index = __pyx_t_22;
 
-        /* "FBSM_Rating_Cython_SGD.pyx":466
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":466
  * 
  *                 for feature_index in range(len(feature_i)):
  *                     feature_id = feature_i[feature_index]             # <<<<<<<<<<<<<<
@@ -25590,7 +25585,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
         }
         __pyx_v_feature_id = (*((int *) ( /* dim=0 */ (__pyx_v_feature_i.data + __pyx_t_18 * __pyx_v_feature_i.strides[0]) )));
 
-        /* "FBSM_Rating_Cython_SGD.pyx":468
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":468
  *                     feature_id = feature_i[feature_index]
  * 
  *                     V_update[factor_index, feature_id] += V_f_u[factor_index]             # <<<<<<<<<<<<<<
@@ -25624,7 +25619,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
         }
         *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_V_update.data + __pyx_t_20 * __pyx_v_V_update.strides[0]) ) + __pyx_t_24 * __pyx_v_V_update.strides[1]) )) += (*((double *) ( /* dim=0 */ (__pyx_v_V_f_u.data + __pyx_t_18 * __pyx_v_V_f_u.strides[0]) )));
 
-        /* "FBSM_Rating_Cython_SGD.pyx":470
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":470
  *                     V_update[factor_index, feature_id] += V_f_u[factor_index]
  * 
  *                     if not updated_features_flag[feature_id]:             # <<<<<<<<<<<<<<
@@ -25644,7 +25639,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
         __pyx_t_14 = (!((*((int *) ( /* dim=0 */ (__pyx_v_updated_features_flag.data + __pyx_t_18 * __pyx_v_updated_features_flag.strides[0]) ))) != 0));
         if (__pyx_t_14) {
 
-          /* "FBSM_Rating_Cython_SGD.pyx":471
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":471
  * 
  *                     if not updated_features_flag[feature_id]:
  *                         updated_features_flag[feature_id] = True             # <<<<<<<<<<<<<<
@@ -25663,7 +25658,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
           }
           *((int *) ( /* dim=0 */ (__pyx_v_updated_features_flag.data + __pyx_t_18 * __pyx_v_updated_features_flag.strides[0]) )) = 1;
 
-          /* "FBSM_Rating_Cython_SGD.pyx":472
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":472
  *                     if not updated_features_flag[feature_id]:
  *                         updated_features_flag[feature_id] = True
  *                         updated_features_id[updated_features_count] = feature_id             # <<<<<<<<<<<<<<
@@ -25682,7 +25677,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
           }
           *((int *) ( /* dim=0 */ (__pyx_v_updated_features_id.data + __pyx_t_18 * __pyx_v_updated_features_id.strides[0]) )) = __pyx_v_feature_id;
 
-          /* "FBSM_Rating_Cython_SGD.pyx":473
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":473
  *                         updated_features_flag[feature_id] = True
  *                         updated_features_id[updated_features_count] = feature_id
  *                         updated_features_count += 1             # <<<<<<<<<<<<<<
@@ -25691,7 +25686,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
  */
           __pyx_v_updated_features_count = (__pyx_v_updated_features_count + 1);
 
-          /* "FBSM_Rating_Cython_SGD.pyx":470
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":470
  *                     V_update[factor_index, feature_id] += V_f_u[factor_index]
  * 
  *                     if not updated_features_flag[feature_id]:             # <<<<<<<<<<<<<<
@@ -25701,7 +25696,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
         }
       }
 
-      /* "FBSM_Rating_Cython_SGD.pyx":476
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":476
  * 
  * 
  *                 for feature_index in range(len(feature_j)):             # <<<<<<<<<<<<<<
@@ -25713,7 +25708,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
       for (__pyx_t_22 = 0; __pyx_t_22 < __pyx_t_16; __pyx_t_22+=1) {
         __pyx_v_feature_index = __pyx_t_22;
 
-        /* "FBSM_Rating_Cython_SGD.pyx":477
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":477
  * 
  *                 for feature_index in range(len(feature_j)):
  *                     feature_id = feature_j[feature_index]             # <<<<<<<<<<<<<<
@@ -25732,7 +25727,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
         }
         __pyx_v_feature_id = (*((int *) ( /* dim=0 */ (__pyx_v_feature_j.data + __pyx_t_18 * __pyx_v_feature_j.strides[0]) )));
 
-        /* "FBSM_Rating_Cython_SGD.pyx":479
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":479
  *                     feature_id = feature_j[feature_index]
  * 
  *                     V_update[factor_index, feature_id] -= V_f_u[factor_index]             # <<<<<<<<<<<<<<
@@ -25766,7 +25761,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
         }
         *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_V_update.data + __pyx_t_24 * __pyx_v_V_update.strides[0]) ) + __pyx_t_20 * __pyx_v_V_update.strides[1]) )) -= (*((double *) ( /* dim=0 */ (__pyx_v_V_f_u.data + __pyx_t_18 * __pyx_v_V_f_u.strides[0]) )));
 
-        /* "FBSM_Rating_Cython_SGD.pyx":481
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":481
  *                     V_update[factor_index, feature_id] -= V_f_u[factor_index]
  * 
  *                     if not updated_features_flag[feature_id]:             # <<<<<<<<<<<<<<
@@ -25786,7 +25781,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
         __pyx_t_14 = (!((*((int *) ( /* dim=0 */ (__pyx_v_updated_features_flag.data + __pyx_t_18 * __pyx_v_updated_features_flag.strides[0]) ))) != 0));
         if (__pyx_t_14) {
 
-          /* "FBSM_Rating_Cython_SGD.pyx":482
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":482
  * 
  *                     if not updated_features_flag[feature_id]:
  *                         updated_features_flag[feature_id] = True             # <<<<<<<<<<<<<<
@@ -25805,7 +25800,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
           }
           *((int *) ( /* dim=0 */ (__pyx_v_updated_features_flag.data + __pyx_t_18 * __pyx_v_updated_features_flag.strides[0]) )) = 1;
 
-          /* "FBSM_Rating_Cython_SGD.pyx":483
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":483
  *                     if not updated_features_flag[feature_id]:
  *                         updated_features_flag[feature_id] = True
  *                         updated_features_id[updated_features_count] = feature_id             # <<<<<<<<<<<<<<
@@ -25824,7 +25819,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
           }
           *((int *) ( /* dim=0 */ (__pyx_v_updated_features_id.data + __pyx_t_18 * __pyx_v_updated_features_id.strides[0]) )) = __pyx_v_feature_id;
 
-          /* "FBSM_Rating_Cython_SGD.pyx":484
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":484
  *                         updated_features_flag[feature_id] = True
  *                         updated_features_id[updated_features_count] = feature_id
  *                         updated_features_count += 1             # <<<<<<<<<<<<<<
@@ -25833,7 +25828,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
  */
           __pyx_v_updated_features_count = (__pyx_v_updated_features_count + 1);
 
-          /* "FBSM_Rating_Cython_SGD.pyx":481
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":481
  *                     V_update[factor_index, feature_id] -= V_f_u[factor_index]
  * 
  *                     if not updated_features_flag[feature_id]:             # <<<<<<<<<<<<<<
@@ -25844,7 +25839,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
       }
     }
 
-    /* "FBSM_Rating_Cython_SGD.pyx":489
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":489
  * 
  *             # + Vdelta_ij.T (#factors,1).T * user_feature_count_u(#Features,1)
  *             for factor_index in range(self.n_factors):             # <<<<<<<<<<<<<<
@@ -25856,7 +25851,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
     for (__pyx_t_21 = 0; __pyx_t_21 < __pyx_t_19; __pyx_t_21+=1) {
       __pyx_v_factor_index = __pyx_t_21;
 
-      /* "FBSM_Rating_Cython_SGD.pyx":491
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":491
  *             for factor_index in range(self.n_factors):
  * 
  *                 for feature_index in range(self.user_feature_count_len):             # <<<<<<<<<<<<<<
@@ -25868,7 +25863,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
       for (__pyx_t_25 = 0; __pyx_t_25 < __pyx_t_23; __pyx_t_25+=1) {
         __pyx_v_feature_index = __pyx_t_25;
 
-        /* "FBSM_Rating_Cython_SGD.pyx":492
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":492
  * 
  *                 for feature_index in range(self.user_feature_count_len):
  *                     feature_id = self.user_feature_count_id[feature_index]             # <<<<<<<<<<<<<<
@@ -25888,7 +25883,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
         }
         __pyx_v_feature_id = (*((int *) ( /* dim=0 */ (__pyx_v_self->user_feature_count_id.data + __pyx_t_18 * __pyx_v_self->user_feature_count_id.strides[0]) )));
 
-        /* "FBSM_Rating_Cython_SGD.pyx":493
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":493
  *                 for feature_index in range(self.user_feature_count_len):
  *                     feature_id = self.user_feature_count_id[feature_index]
  *                     feature_count = self.user_feature_count_counter[feature_index]             # <<<<<<<<<<<<<<
@@ -25908,7 +25903,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
         }
         __pyx_v_feature_count = (*((int *) ( /* dim=0 */ (__pyx_v_self->user_feature_count_counter.data + __pyx_t_18 * __pyx_v_self->user_feature_count_counter.strides[0]) )));
 
-        /* "FBSM_Rating_Cython_SGD.pyx":495
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":495
  *                     feature_count = self.user_feature_count_counter[feature_index]
  * 
  *                     V_update[factor_index, feature_id] += Vdelta_ij[factor_index] * feature_count             # <<<<<<<<<<<<<<
@@ -25942,7 +25937,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
         }
         *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_V_update.data + __pyx_t_20 * __pyx_v_V_update.strides[0]) ) + __pyx_t_24 * __pyx_v_V_update.strides[1]) )) += ((*((double *) ( /* dim=0 */ (__pyx_v_Vdelta_ij.data + __pyx_t_18 * __pyx_v_Vdelta_ij.strides[0]) ))) * __pyx_v_feature_count);
 
-        /* "FBSM_Rating_Cython_SGD.pyx":497
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":497
  *                     V_update[factor_index, feature_id] += Vdelta_ij[factor_index] * feature_count
  * 
  *                     if not updated_features_flag[feature_id]:             # <<<<<<<<<<<<<<
@@ -25962,7 +25957,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
         __pyx_t_14 = (!((*((int *) ( /* dim=0 */ (__pyx_v_updated_features_flag.data + __pyx_t_18 * __pyx_v_updated_features_flag.strides[0]) ))) != 0));
         if (__pyx_t_14) {
 
-          /* "FBSM_Rating_Cython_SGD.pyx":498
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":498
  * 
  *                     if not updated_features_flag[feature_id]:
  *                         updated_features_flag[feature_id] = True             # <<<<<<<<<<<<<<
@@ -25981,7 +25976,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
           }
           *((int *) ( /* dim=0 */ (__pyx_v_updated_features_flag.data + __pyx_t_18 * __pyx_v_updated_features_flag.strides[0]) )) = 1;
 
-          /* "FBSM_Rating_Cython_SGD.pyx":499
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":499
  *                     if not updated_features_flag[feature_id]:
  *                         updated_features_flag[feature_id] = True
  *                         updated_features_id[updated_features_count] = feature_id             # <<<<<<<<<<<<<<
@@ -26000,7 +25995,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
           }
           *((int *) ( /* dim=0 */ (__pyx_v_updated_features_id.data + __pyx_t_18 * __pyx_v_updated_features_id.strides[0]) )) = __pyx_v_feature_id;
 
-          /* "FBSM_Rating_Cython_SGD.pyx":500
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":500
  *                         updated_features_flag[feature_id] = True
  *                         updated_features_id[updated_features_count] = feature_id
  *                         updated_features_count += 1             # <<<<<<<<<<<<<<
@@ -26009,7 +26004,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
  */
           __pyx_v_updated_features_count = (__pyx_v_updated_features_count + 1);
 
-          /* "FBSM_Rating_Cython_SGD.pyx":497
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":497
  *                     V_update[factor_index, feature_id] += Vdelta_ij[factor_index] * feature_count
  * 
  *                     if not updated_features_flag[feature_id]:             # <<<<<<<<<<<<<<
@@ -26020,7 +26015,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
       }
     }
 
-    /* "FBSM_Rating_Cython_SGD.pyx":505
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":505
  * 
  *             # - Vfi.T * fi * 2
  *             for factor_index in range(self.n_factors):             # <<<<<<<<<<<<<<
@@ -26032,7 +26027,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
     for (__pyx_t_21 = 0; __pyx_t_21 < __pyx_t_19; __pyx_t_21+=1) {
       __pyx_v_factor_index = __pyx_t_21;
 
-      /* "FBSM_Rating_Cython_SGD.pyx":507
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":507
  *             for factor_index in range(self.n_factors):
  * 
  *                 for feature_index in range(len(feature_i)):             # <<<<<<<<<<<<<<
@@ -26044,7 +26039,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
       for (__pyx_t_22 = 0; __pyx_t_22 < __pyx_t_16; __pyx_t_22+=1) {
         __pyx_v_feature_index = __pyx_t_22;
 
-        /* "FBSM_Rating_Cython_SGD.pyx":508
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":508
  * 
  *                 for feature_index in range(len(feature_i)):
  *                     feature_id = feature_i[feature_index]             # <<<<<<<<<<<<<<
@@ -26063,7 +26058,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
         }
         __pyx_v_feature_id = (*((int *) ( /* dim=0 */ (__pyx_v_feature_i.data + __pyx_t_18 * __pyx_v_feature_i.strides[0]) )));
 
-        /* "FBSM_Rating_Cython_SGD.pyx":510
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":510
  *                     feature_id = feature_i[feature_index]
  * 
  *                     V_update[factor_index, feature_id] -= 2 * Vfi[factor_index]             # <<<<<<<<<<<<<<
@@ -26099,7 +26094,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
       }
     }
 
-    /* "FBSM_Rating_Cython_SGD.pyx":516
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":516
  * 
  *             # Apply regularization only to modified features and reset data structure
  *             if updated_features_count > 0:             # <<<<<<<<<<<<<<
@@ -26109,7 +26104,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
     __pyx_t_14 = (__pyx_v_updated_features_count > 0);
     if (__pyx_t_14) {
 
-      /* "FBSM_Rating_Cython_SGD.pyx":518
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":518
  *             if updated_features_count > 0:
  * 
  *                 for feature_index in range(updated_features_count):             # <<<<<<<<<<<<<<
@@ -26121,7 +26116,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
       for (__pyx_t_21 = 0; __pyx_t_21 < __pyx_t_19; __pyx_t_21+=1) {
         __pyx_v_feature_index = __pyx_t_21;
 
-        /* "FBSM_Rating_Cython_SGD.pyx":519
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":519
  * 
  *                 for feature_index in range(updated_features_count):
  *                     feature_id = updated_features_id[feature_index]             # <<<<<<<<<<<<<<
@@ -26140,7 +26135,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
         }
         __pyx_v_feature_id = (*((int *) ( /* dim=0 */ (__pyx_v_updated_features_id.data + __pyx_t_18 * __pyx_v_updated_features_id.strides[0]) )));
 
-        /* "FBSM_Rating_Cython_SGD.pyx":520
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":520
  *                 for feature_index in range(updated_features_count):
  *                     feature_id = updated_features_id[feature_index]
  *                     updated_features_flag[feature_id] = False             # <<<<<<<<<<<<<<
@@ -26159,7 +26154,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
         }
         *((int *) ( /* dim=0 */ (__pyx_v_updated_features_flag.data + __pyx_t_18 * __pyx_v_updated_features_flag.strides[0]) )) = 0;
 
-        /* "FBSM_Rating_Cython_SGD.pyx":522
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":522
  *                     updated_features_flag[feature_id] = False
  * 
  *                     for factor_index in range(self.n_factors):             # <<<<<<<<<<<<<<
@@ -26171,7 +26166,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
         for (__pyx_t_25 = 0; __pyx_t_25 < __pyx_t_23; __pyx_t_25+=1) {
           __pyx_v_factor_index = __pyx_t_25;
 
-          /* "FBSM_Rating_Cython_SGD.pyx":524
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":524
  *                     for factor_index in range(self.n_factors):
  * 
  *                         loss_deriv = sigma_deriv * V_update[factor_index, feature_id]             # <<<<<<<<<<<<<<
@@ -26195,17 +26190,17 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
           }
           __pyx_v_loss_deriv = (__pyx_v_sigma_deriv * (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_V_update.data + __pyx_t_18 * __pyx_v_V_update.strides[0]) ) + __pyx_t_20 * __pyx_v_V_update.strides[1]) ))));
 
-          /* "FBSM_Rating_Cython_SGD.pyx":525
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":525
  * 
  *                         loss_deriv = sigma_deriv * V_update[factor_index, feature_id]
  *                         adaptive_gradient = self.compute_adaptive_gradient_V(factor_index, feature_id, loss_deriv)             # <<<<<<<<<<<<<<
  * 
  * 
  */
-          __pyx_t_27 = ((struct __pyx_vtabstruct_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *)__pyx_v_self->__pyx_vtab)->compute_adaptive_gradient_V(__pyx_v_self, __pyx_v_factor_index, __pyx_v_feature_id, __pyx_v_loss_deriv); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 525, __pyx_L1_error)
+          __pyx_t_27 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *)__pyx_v_self->__pyx_vtab)->compute_adaptive_gradient_V(__pyx_v_self, __pyx_v_factor_index, __pyx_v_feature_id, __pyx_v_loss_deriv); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 525, __pyx_L1_error)
           __pyx_v_adaptive_gradient = __pyx_t_27;
 
-          /* "FBSM_Rating_Cython_SGD.pyx":528
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":528
  * 
  * 
  *                         self.V[factor_index, feature_id] += self.learning_rate * (adaptive_gradient - 2 *self.l2_reg_V * self.V[factor_index, feature_id])             # <<<<<<<<<<<<<<
@@ -26246,7 +26241,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
           }
           *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_self->V.data + __pyx_t_24 * __pyx_v_self->V.strides[0]) ) + __pyx_t_29 * __pyx_v_self->V.strides[1]) )) += (__pyx_v_self->learning_rate * (__pyx_v_adaptive_gradient - ((2.0 * __pyx_v_self->l2_reg_V) * (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_self->V.data + __pyx_t_20 * __pyx_v_self->V.strides[0]) ) + __pyx_t_18 * __pyx_v_self->V.strides[1]) ))))));
 
-          /* "FBSM_Rating_Cython_SGD.pyx":530
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":530
  *                         self.V[factor_index, feature_id] += self.learning_rate * (adaptive_gradient - 2 *self.l2_reg_V * self.V[factor_index, feature_id])
  * 
  *                         V_update[factor_index, feature_id] = 0.0             # <<<<<<<<<<<<<<
@@ -26270,7 +26265,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
           }
           *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_V_update.data + __pyx_t_18 * __pyx_v_V_update.strides[0]) ) + __pyx_t_20 * __pyx_v_V_update.strides[1]) )) = 0.0;
 
-          /* "FBSM_Rating_Cython_SGD.pyx":532
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":532
  *                         V_update[factor_index, feature_id] = 0.0
  * 
  *                         if self.positive_only_V and self.V[factor_index, feature_id] < 0.0:             # <<<<<<<<<<<<<<
@@ -26304,7 +26299,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
           __pyx_L85_bool_binop_done:;
           if (__pyx_t_14) {
 
-            /* "FBSM_Rating_Cython_SGD.pyx":533
+            /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":533
  * 
  *                         if self.positive_only_V and self.V[factor_index, feature_id] < 0.0:
  *                             self.V[factor_index, feature_id] = 0.0             # <<<<<<<<<<<<<<
@@ -26329,7 +26324,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
             }
             *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_self->V.data + __pyx_t_18 * __pyx_v_self->V.strides[0]) ) + __pyx_t_20 * __pyx_v_self->V.strides[1]) )) = 0.0;
 
-            /* "FBSM_Rating_Cython_SGD.pyx":532
+            /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":532
  *                         V_update[factor_index, feature_id] = 0.0
  * 
  *                         if self.positive_only_V and self.V[factor_index, feature_id] < 0.0:             # <<<<<<<<<<<<<<
@@ -26340,7 +26335,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
         }
       }
 
-      /* "FBSM_Rating_Cython_SGD.pyx":516
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":516
  * 
  *             # Apply regularization only to modified features and reset data structure
  *             if updated_features_count > 0:             # <<<<<<<<<<<<<<
@@ -26349,7 +26344,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
  */
     }
 
-    /* "FBSM_Rating_Cython_SGD.pyx":536
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":536
  * 
  * 
  *             if self.useAdam:             # <<<<<<<<<<<<<<
@@ -26359,7 +26354,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
     __pyx_t_14 = (__pyx_v_self->useAdam != 0);
     if (__pyx_t_14) {
 
-      /* "FBSM_Rating_Cython_SGD.pyx":538
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":538
  *             if self.useAdam:
  * 
  *                 self.beta_1_power_t *= self.beta_1             # <<<<<<<<<<<<<<
@@ -26368,7 +26363,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
  */
       __pyx_v_self->beta_1_power_t = (__pyx_v_self->beta_1_power_t * __pyx_v_self->beta_1);
 
-      /* "FBSM_Rating_Cython_SGD.pyx":539
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":539
  * 
  *                 self.beta_1_power_t *= self.beta_1
  *                 self.beta_2_power_t *= self.beta_2             # <<<<<<<<<<<<<<
@@ -26377,7 +26372,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
  */
       __pyx_v_self->beta_2_power_t = (__pyx_v_self->beta_2_power_t * __pyx_v_self->beta_2);
 
-      /* "FBSM_Rating_Cython_SGD.pyx":536
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":536
  * 
  * 
  *             if self.useAdam:             # <<<<<<<<<<<<<<
@@ -26386,7 +26381,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
  */
     }
 
-    /* "FBSM_Rating_Cython_SGD.pyx":543
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":543
  * 
  * 
  *             if self.verbose and ((num_sample % 500000 == 0 and num_sample!=0) or num_sample == self.n_samples-1):             # <<<<<<<<<<<<<<
@@ -26416,7 +26411,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
     __pyx_L89_bool_binop_done:;
     if (__pyx_t_14) {
 
-      /* "FBSM_Rating_Cython_SGD.pyx":544
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":544
  * 
  *             if self.verbose and ((num_sample % 500000 == 0 and num_sample!=0) or num_sample == self.n_samples-1):
  *                 print ("FBSM_Rating_Cython: Processed {} out of {} samples ( {:.2f}%). BPR loss is {:.4E}. Sample per second {:.0f}".format(             # <<<<<<<<<<<<<<
@@ -26426,7 +26421,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
       __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_FBSM_Rating_Cython_Processed_out, __pyx_n_s_format); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 544, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
 
-      /* "FBSM_Rating_Cython_SGD.pyx":545
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":545
  *             if self.verbose and ((num_sample % 500000 == 0 and num_sample!=0) or num_sample == self.n_samples-1):
  *                 print ("FBSM_Rating_Cython: Processed {} out of {} samples ( {:.2f}%). BPR loss is {:.4E}. Sample per second {:.0f}".format(
  *                     num_sample, self.n_samples, 100*float(num_sample)/self.n_samples, np.sqrt(cum_loss/num_sample),             # <<<<<<<<<<<<<<
@@ -26479,7 +26474,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
         __Pyx_DECREF(__pyx_t_32); __pyx_t_32 = 0;
       }
 
-      /* "FBSM_Rating_Cython_SGD.pyx":546
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":546
  *                 print ("FBSM_Rating_Cython: Processed {} out of {} samples ( {:.2f}%). BPR loss is {:.4E}. Sample per second {:.0f}".format(
  *                     num_sample, self.n_samples, 100*float(num_sample)/self.n_samples, np.sqrt(cum_loss/num_sample),
  *                     float(num_sample)/(time.time() - start_time)))             # <<<<<<<<<<<<<<
@@ -26550,7 +26545,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       }
 
-      /* "FBSM_Rating_Cython_SGD.pyx":544
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":544
  * 
  *             if self.verbose and ((num_sample % 500000 == 0 and num_sample!=0) or num_sample == self.n_samples-1):
  *                 print ("FBSM_Rating_Cython: Processed {} out of {} samples ( {:.2f}%). BPR loss is {:.4E}. Sample per second {:.0f}".format(             # <<<<<<<<<<<<<<
@@ -26562,7 +26557,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-      /* "FBSM_Rating_Cython_SGD.pyx":543
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":543
  * 
  * 
  *             if self.verbose and ((num_sample % 500000 == 0 and num_sample!=0) or num_sample == self.n_samples-1):             # <<<<<<<<<<<<<<
@@ -26572,7 +26567,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
     }
   }
 
-  /* "FBSM_Rating_Cython_SGD.pyx":551
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":551
  * 
  * 
  *         return np.sqrt(cum_loss/num_sample)             # <<<<<<<<<<<<<<
@@ -26618,7 +26613,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
   __pyx_t_3 = 0;
   goto __pyx_L0;
 
-  /* "FBSM_Rating_Cython_SGD.pyx":217
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":217
  * 
  * 
  *     def fit(self):             # <<<<<<<<<<<<<<
@@ -26641,7 +26636,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
   __Pyx_XDECREF(__pyx_t_32);
   __Pyx_XDECREF(__pyx_t_33);
   __Pyx_XDECREF(__pyx_t_34);
-  __Pyx_AddTraceback("FBSM_Rating_Cython_SGD.FBSM_Rating_Cython_SGD.fit", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.FBSM_Rating_Cython_SGD.FBSM_Rating_Cython_SGD.fit", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __PYX_XCLEAR_MEMVIEW(&__pyx_v_feature_i, 1);
@@ -26661,7 +26656,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
   return __pyx_r;
 }
 
-/* "FBSM_Rating_Cython_SGD.pyx":557
+/* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":557
  * 
  * 
  *     def get_D(self):             # <<<<<<<<<<<<<<
@@ -26670,15 +26665,15 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_5get_D(PyObject *__pyx_v_self, 
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_5get_D(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static PyMethodDef __pyx_mdef_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_5get_D = {"get_D", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_5get_D, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_5get_D(PyObject *__pyx_v_self, 
+static PyMethodDef __pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_5get_D = {"get_D", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_5get_D, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_5get_D(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -26703,14 +26698,14 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   if (unlikely(__pyx_nargs > 0)) {
     __Pyx_RaiseArgtupleInvalid("get_D", 1, 0, 0, __pyx_nargs); return NULL;}
   if (unlikely(__pyx_kwds) && __Pyx_NumKwargs_FASTCALL(__pyx_kwds) && unlikely(!__Pyx_CheckKeywordStrings(__pyx_kwds, "get_D", 0))) return NULL;
-  __pyx_r = __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_4get_D(((struct __pyx_obj_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *)__pyx_v_self));
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_4get_D(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_4get_D(struct __pyx_obj_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *__pyx_v_self) {
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_4get_D(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *__pyx_v_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -26723,7 +26718,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_4get
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("get_D", 1);
 
-  /* "FBSM_Rating_Cython_SGD.pyx":558
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":558
  * 
  *     def get_D(self):
  *         return np.array(self.D)             # <<<<<<<<<<<<<<
@@ -26766,7 +26761,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_4get
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "FBSM_Rating_Cython_SGD.pyx":557
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":557
  * 
  * 
  *     def get_D(self):             # <<<<<<<<<<<<<<
@@ -26780,7 +26775,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_4get
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
-  __Pyx_AddTraceback("FBSM_Rating_Cython_SGD.FBSM_Rating_Cython_SGD.get_D", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.FBSM_Rating_Cython_SGD.FBSM_Rating_Cython_SGD.get_D", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -26788,7 +26783,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_4get
   return __pyx_r;
 }
 
-/* "FBSM_Rating_Cython_SGD.pyx":560
+/* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":560
  *         return np.array(self.D)
  * 
  *     def get_V(self):             # <<<<<<<<<<<<<<
@@ -26797,15 +26792,15 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_4get
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_7get_V(PyObject *__pyx_v_self, 
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_7get_V(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static PyMethodDef __pyx_mdef_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_7get_V = {"get_V", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_7get_V, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_7get_V(PyObject *__pyx_v_self, 
+static PyMethodDef __pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_7get_V = {"get_V", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_7get_V, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_7get_V(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -26830,14 +26825,14 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   if (unlikely(__pyx_nargs > 0)) {
     __Pyx_RaiseArgtupleInvalid("get_V", 1, 0, 0, __pyx_nargs); return NULL;}
   if (unlikely(__pyx_kwds) && __Pyx_NumKwargs_FASTCALL(__pyx_kwds) && unlikely(!__Pyx_CheckKeywordStrings(__pyx_kwds, "get_V", 0))) return NULL;
-  __pyx_r = __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_6get_V(((struct __pyx_obj_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *)__pyx_v_self));
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_6get_V(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_6get_V(struct __pyx_obj_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *__pyx_v_self) {
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_6get_V(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *__pyx_v_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -26850,7 +26845,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_6get
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("get_V", 1);
 
-  /* "FBSM_Rating_Cython_SGD.pyx":561
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":561
  * 
  *     def get_V(self):
  *         return  np.array(self.V)             # <<<<<<<<<<<<<<
@@ -26893,7 +26888,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_6get
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "FBSM_Rating_Cython_SGD.pyx":560
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":560
  *         return np.array(self.D)
  * 
  *     def get_V(self):             # <<<<<<<<<<<<<<
@@ -26907,7 +26902,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_6get
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
-  __Pyx_AddTraceback("FBSM_Rating_Cython_SGD.FBSM_Rating_Cython_SGD.get_V", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.FBSM_Rating_Cython_SGD.FBSM_Rating_Cython_SGD.get_V", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -26915,7 +26910,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_6get
   return __pyx_r;
 }
 
-/* "FBSM_Rating_Cython_SGD.pyx":566
+/* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":566
  * 
  *     # Using memoryview instead of the sparse matrix itself allows for much faster access
  *     cdef int[:] get_features_vector(self, long item_id):             # <<<<<<<<<<<<<<
@@ -26923,7 +26918,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_6get
  * 
  */
 
-static __Pyx_memviewslice __pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_get_features_vector(struct __pyx_obj_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *__pyx_v_self, long __pyx_v_item_id) {
+static __Pyx_memviewslice __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_get_features_vector(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *__pyx_v_self, long __pyx_v_item_id) {
   __Pyx_memviewslice __pyx_r = { 0, 0, { 0 }, { 0 }, { 0 } };
   Py_ssize_t __pyx_t_1;
   int __pyx_t_2;
@@ -26933,7 +26928,7 @@ static __Pyx_memviewslice __pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
 
-  /* "FBSM_Rating_Cython_SGD.pyx":567
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":567
  *     # Using memoryview instead of the sparse matrix itself allows for much faster access
  *     cdef int[:] get_features_vector(self, long item_id):
  *         return self.ICM_indices[self.ICM_indptr[item_id]:self.ICM_indptr[item_id + 1]]             # <<<<<<<<<<<<<<
@@ -26989,7 +26984,7 @@ __pyx_r = __pyx_t_4;
   __pyx_t_4.data = NULL;
   goto __pyx_L0;
 
-  /* "FBSM_Rating_Cython_SGD.pyx":566
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":566
  * 
  *     # Using memoryview instead of the sparse matrix itself allows for much faster access
  *     cdef int[:] get_features_vector(self, long item_id):             # <<<<<<<<<<<<<<
@@ -27002,7 +26997,7 @@ __pyx_r = __pyx_t_4;
   __PYX_XCLEAR_MEMVIEW(&__pyx_t_4, 1);
   __pyx_r.data = NULL;
   __pyx_r.memview = NULL;
-  __Pyx_AddTraceback("FBSM_Rating_Cython_SGD.FBSM_Rating_Cython_SGD.get_features_vector", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.FBSM_Rating_Cython_SGD.FBSM_Rating_Cython_SGD.get_features_vector", __pyx_clineno, __pyx_lineno, __pyx_filename);
   goto __pyx_L2;
   __pyx_L0:;
   if (unlikely(!__pyx_r.memview)) {
@@ -27012,7 +27007,7 @@ __pyx_r = __pyx_t_4;
   return __pyx_r;
 }
 
-/* "FBSM_Rating_Cython_SGD.pyx":571
+/* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":571
  * 
  * 
  *     cdef get_user_feature_count(self, long user_id):             # <<<<<<<<<<<<<<
@@ -27020,7 +27015,7 @@ __pyx_r = __pyx_t_4;
  *         cdef int start_pos = self.user_feature_count_indptr[user_id]
  */
 
-static PyObject *__pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_get_user_feature_count(struct __pyx_obj_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *__pyx_v_self, long __pyx_v_user_id) {
+static PyObject *__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_get_user_feature_count(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *__pyx_v_self, long __pyx_v_user_id) {
   int __pyx_v_start_pos;
   int __pyx_v_end_pos;
   int __pyx_v_feature_index;
@@ -27035,7 +27030,7 @@ static PyObject *__pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_get_u
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("get_user_feature_count", 1);
 
-  /* "FBSM_Rating_Cython_SGD.pyx":573
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":573
  *     cdef get_user_feature_count(self, long user_id):
  * 
  *         cdef int start_pos = self.user_feature_count_indptr[user_id]             # <<<<<<<<<<<<<<
@@ -27055,7 +27050,7 @@ static PyObject *__pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_get_u
   }
   __pyx_v_start_pos = (*((int *) ( /* dim=0 */ (__pyx_v_self->user_feature_count_indptr.data + __pyx_t_1 * __pyx_v_self->user_feature_count_indptr.strides[0]) )));
 
-  /* "FBSM_Rating_Cython_SGD.pyx":574
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":574
  * 
  *         cdef int start_pos = self.user_feature_count_indptr[user_id]
  *         cdef int end_pos = self.user_feature_count_indptr[user_id + 1]             # <<<<<<<<<<<<<<
@@ -27075,7 +27070,7 @@ static PyObject *__pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_get_u
   }
   __pyx_v_end_pos = (*((int *) ( /* dim=0 */ (__pyx_v_self->user_feature_count_indptr.data + __pyx_t_1 * __pyx_v_self->user_feature_count_indptr.strides[0]) )));
 
-  /* "FBSM_Rating_Cython_SGD.pyx":577
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":577
  *         cdef int feature_index, feature_id
  * 
  *         self.user_feature_count_len = 0             # <<<<<<<<<<<<<<
@@ -27084,7 +27079,7 @@ static PyObject *__pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_get_u
  */
   __pyx_v_self->user_feature_count_len = 0;
 
-  /* "FBSM_Rating_Cython_SGD.pyx":579
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":579
  *         self.user_feature_count_len = 0
  * 
  *         feature_index = start_pos             # <<<<<<<<<<<<<<
@@ -27093,7 +27088,7 @@ static PyObject *__pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_get_u
  */
   __pyx_v_feature_index = __pyx_v_start_pos;
 
-  /* "FBSM_Rating_Cython_SGD.pyx":581
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":581
  *         feature_index = start_pos
  * 
  *         while feature_index < end_pos:             # <<<<<<<<<<<<<<
@@ -27104,7 +27099,7 @@ static PyObject *__pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_get_u
     __pyx_t_3 = (__pyx_v_feature_index < __pyx_v_end_pos);
     if (!__pyx_t_3) break;
 
-    /* "FBSM_Rating_Cython_SGD.pyx":583
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":583
  *         while feature_index < end_pos:
  * 
  *             self.user_feature_count_id[self.user_feature_count_len] = self.user_feature_count_indices[feature_index]             # <<<<<<<<<<<<<<
@@ -27135,7 +27130,7 @@ static PyObject *__pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_get_u
     }
     *((int *) ( /* dim=0 */ (__pyx_v_self->user_feature_count_id.data + __pyx_t_4 * __pyx_v_self->user_feature_count_id.strides[0]) )) = (*((int *) ( /* dim=0 */ (__pyx_v_self->user_feature_count_indices.data + __pyx_t_1 * __pyx_v_self->user_feature_count_indices.strides[0]) )));
 
-    /* "FBSM_Rating_Cython_SGD.pyx":584
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":584
  * 
  *             self.user_feature_count_id[self.user_feature_count_len] = self.user_feature_count_indices[feature_index]
  *             self.user_feature_count_counter[self.user_feature_count_len] = self.user_feature_count_data[feature_index]             # <<<<<<<<<<<<<<
@@ -27166,7 +27161,7 @@ static PyObject *__pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_get_u
     }
     *((int *) ( /* dim=0 */ (__pyx_v_self->user_feature_count_counter.data + __pyx_t_4 * __pyx_v_self->user_feature_count_counter.strides[0]) )) = (*((int *) ( /* dim=0 */ (__pyx_v_self->user_feature_count_data.data + __pyx_t_1 * __pyx_v_self->user_feature_count_data.strides[0]) )));
 
-    /* "FBSM_Rating_Cython_SGD.pyx":585
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":585
  *             self.user_feature_count_id[self.user_feature_count_len] = self.user_feature_count_indices[feature_index]
  *             self.user_feature_count_counter[self.user_feature_count_len] = self.user_feature_count_data[feature_index]
  *             self.user_feature_count_len += 1             # <<<<<<<<<<<<<<
@@ -27175,7 +27170,7 @@ static PyObject *__pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_get_u
  */
     __pyx_v_self->user_feature_count_len = (__pyx_v_self->user_feature_count_len + 1);
 
-    /* "FBSM_Rating_Cython_SGD.pyx":587
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":587
  *             self.user_feature_count_len += 1
  * 
  *             feature_index += 1             # <<<<<<<<<<<<<<
@@ -27185,7 +27180,7 @@ static PyObject *__pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_get_u
     __pyx_v_feature_index = (__pyx_v_feature_index + 1);
   }
 
-  /* "FBSM_Rating_Cython_SGD.pyx":571
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":571
  * 
  * 
  *     cdef get_user_feature_count(self, long user_id):             # <<<<<<<<<<<<<<
@@ -27197,7 +27192,7 @@ static PyObject *__pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_get_u
   __pyx_r = Py_None; __Pyx_INCREF(Py_None);
   goto __pyx_L0;
   __pyx_L1_error:;
-  __Pyx_AddTraceback("FBSM_Rating_Cython_SGD.FBSM_Rating_Cython_SGD.get_user_feature_count", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.FBSM_Rating_Cython_SGD.FBSM_Rating_Cython_SGD.get_user_feature_count", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = 0;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -27205,7 +27200,7 @@ static PyObject *__pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_get_u
   return __pyx_r;
 }
 
-/* "FBSM_Rating_Cython_SGD.pyx":591
+/* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":591
  * 
  * 
  *     cdef get_user_feature_count_compute(self, BPR_sample sample):             # <<<<<<<<<<<<<<
@@ -27213,7 +27208,7 @@ static PyObject *__pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_get_u
  *         cdef int item_index, item_id
  */
 
-static PyObject *__pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_get_user_feature_count_compute(struct __pyx_obj_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *__pyx_v_self, struct __pyx_t_22FBSM_Rating_Cython_SGD_BPR_sample __pyx_v_sample) {
+static PyObject *__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_get_user_feature_count_compute(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *__pyx_v_self, struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_BPR_sample __pyx_v_sample) {
   int __pyx_v_item_index;
   int __pyx_v_item_id;
   int __pyx_v_feature_index;
@@ -27233,7 +27228,7 @@ static PyObject *__pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_get_u
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("get_user_feature_count_compute", 1);
 
-  /* "FBSM_Rating_Cython_SGD.pyx":598
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":598
  * 
  *         # Clean data structure
  *         for feature_index in range(self.user_feature_count_len):             # <<<<<<<<<<<<<<
@@ -27245,7 +27240,7 @@ static PyObject *__pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_get_u
   for (__pyx_t_3 = 0; __pyx_t_3 < __pyx_t_2; __pyx_t_3+=1) {
     __pyx_v_feature_index = __pyx_t_3;
 
-    /* "FBSM_Rating_Cython_SGD.pyx":599
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":599
  *         # Clean data structure
  *         for feature_index in range(self.user_feature_count_len):
  *             feature_id = self.user_feature_count_id[feature_index]             # <<<<<<<<<<<<<<
@@ -27265,7 +27260,7 @@ static PyObject *__pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_get_u
     }
     __pyx_v_feature_id = (*((int *) ( /* dim=0 */ (__pyx_v_self->user_feature_count_id.data + __pyx_t_4 * __pyx_v_self->user_feature_count_id.strides[0]) )));
 
-    /* "FBSM_Rating_Cython_SGD.pyx":602
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":602
  * 
  *             # Get all feature count with the same ordering as the user_feature_count_id array
  *             self.user_feature_count_counter_temp[feature_id] = 0             # <<<<<<<<<<<<<<
@@ -27285,7 +27280,7 @@ static PyObject *__pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_get_u
     }
     *((int *) ( /* dim=0 */ (__pyx_v_self->user_feature_count_counter_temp.data + __pyx_t_4 * __pyx_v_self->user_feature_count_counter_temp.strides[0]) )) = 0;
 
-    /* "FBSM_Rating_Cython_SGD.pyx":603
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":603
  *             # Get all feature count with the same ordering as the user_feature_count_id array
  *             self.user_feature_count_counter_temp[feature_id] = 0
  *             self.user_feature_count_flag[feature_id] = False             # <<<<<<<<<<<<<<
@@ -27306,7 +27301,7 @@ static PyObject *__pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_get_u
     *((int *) ( /* dim=0 */ (__pyx_v_self->user_feature_count_flag.data + __pyx_t_4 * __pyx_v_self->user_feature_count_flag.strides[0]) )) = 0;
   }
 
-  /* "FBSM_Rating_Cython_SGD.pyx":607
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":607
  * 
  *         # Compute the occurence of features for all seen items
  *         self.user_feature_count_len = 0             # <<<<<<<<<<<<<<
@@ -27315,7 +27310,7 @@ static PyObject *__pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_get_u
  */
   __pyx_v_self->user_feature_count_len = 0;
 
-  /* "FBSM_Rating_Cython_SGD.pyx":609
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":609
  *         self.user_feature_count_len = 0
  * 
  *         item_index = sample.seen_items_start_pos             # <<<<<<<<<<<<<<
@@ -27325,7 +27320,7 @@ static PyObject *__pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_get_u
   __pyx_t_6 = __pyx_v_sample.seen_items_start_pos;
   __pyx_v_item_index = __pyx_t_6;
 
-  /* "FBSM_Rating_Cython_SGD.pyx":612
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":612
  * 
  * 
  *         while item_index < sample.seen_items_end_pos:             # <<<<<<<<<<<<<<
@@ -27336,7 +27331,7 @@ static PyObject *__pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_get_u
     __pyx_t_7 = (__pyx_v_item_index < __pyx_v_sample.seen_items_end_pos);
     if (!__pyx_t_7) break;
 
-    /* "FBSM_Rating_Cython_SGD.pyx":614
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":614
  *         while item_index < sample.seen_items_end_pos:
  * 
  *             item_id = self.URM_mask_indices[item_index]             # <<<<<<<<<<<<<<
@@ -27356,7 +27351,7 @@ static PyObject *__pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_get_u
     }
     __pyx_v_item_id = (*((int *) ( /* dim=0 */ (__pyx_v_self->URM_mask_indices.data + __pyx_t_4 * __pyx_v_self->URM_mask_indices.strides[0]) )));
 
-    /* "FBSM_Rating_Cython_SGD.pyx":615
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":615
  * 
  *             item_id = self.URM_mask_indices[item_index]
  *             feature_index = self.ICM_indptr[item_id]             # <<<<<<<<<<<<<<
@@ -27376,7 +27371,7 @@ static PyObject *__pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_get_u
     }
     __pyx_v_feature_index = (*((int *) ( /* dim=0 */ (__pyx_v_self->ICM_indptr.data + __pyx_t_4 * __pyx_v_self->ICM_indptr.strides[0]) )));
 
-    /* "FBSM_Rating_Cython_SGD.pyx":616
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":616
  *             item_id = self.URM_mask_indices[item_index]
  *             feature_index = self.ICM_indptr[item_id]
  *             item_index += 1             # <<<<<<<<<<<<<<
@@ -27385,7 +27380,7 @@ static PyObject *__pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_get_u
  */
     __pyx_v_item_index = (__pyx_v_item_index + 1);
 
-    /* "FBSM_Rating_Cython_SGD.pyx":618
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":618
  *             item_index += 1
  * 
  *             while feature_index < self.ICM_indptr[item_id+1]:             # <<<<<<<<<<<<<<
@@ -27407,7 +27402,7 @@ static PyObject *__pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_get_u
       __pyx_t_7 = (__pyx_v_feature_index < (*((int *) ( /* dim=0 */ (__pyx_v_self->ICM_indptr.data + __pyx_t_4 * __pyx_v_self->ICM_indptr.strides[0]) ))));
       if (!__pyx_t_7) break;
 
-      /* "FBSM_Rating_Cython_SGD.pyx":620
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":620
  *             while feature_index < self.ICM_indptr[item_id+1]:
  * 
  *                 feature_id = self.ICM_indices[feature_index]             # <<<<<<<<<<<<<<
@@ -27427,7 +27422,7 @@ static PyObject *__pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_get_u
       }
       __pyx_v_feature_id = (*((int *) ( /* dim=0 */ (__pyx_v_self->ICM_indices.data + __pyx_t_4 * __pyx_v_self->ICM_indices.strides[0]) )));
 
-      /* "FBSM_Rating_Cython_SGD.pyx":621
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":621
  * 
  *                 feature_id = self.ICM_indices[feature_index]
  *                 feature_index += 1             # <<<<<<<<<<<<<<
@@ -27436,7 +27431,7 @@ static PyObject *__pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_get_u
  */
       __pyx_v_feature_index = (__pyx_v_feature_index + 1);
 
-      /* "FBSM_Rating_Cython_SGD.pyx":622
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":622
  *                 feature_id = self.ICM_indices[feature_index]
  *                 feature_index += 1
  *                 self.user_feature_count_counter_temp[feature_id] += 1             # <<<<<<<<<<<<<<
@@ -27456,7 +27451,7 @@ static PyObject *__pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_get_u
       }
       *((int *) ( /* dim=0 */ (__pyx_v_self->user_feature_count_counter_temp.data + __pyx_t_4 * __pyx_v_self->user_feature_count_counter_temp.strides[0]) )) += 1;
 
-      /* "FBSM_Rating_Cython_SGD.pyx":624
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":624
  *                 self.user_feature_count_counter_temp[feature_id] += 1
  * 
  *                 if not self.user_feature_count_flag[feature_id]:             # <<<<<<<<<<<<<<
@@ -27477,7 +27472,7 @@ static PyObject *__pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_get_u
       __pyx_t_7 = (!((*((int *) ( /* dim=0 */ (__pyx_v_self->user_feature_count_flag.data + __pyx_t_4 * __pyx_v_self->user_feature_count_flag.strides[0]) ))) != 0));
       if (__pyx_t_7) {
 
-        /* "FBSM_Rating_Cython_SGD.pyx":626
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":626
  *                 if not self.user_feature_count_flag[feature_id]:
  * 
  *                     self.user_feature_count_flag[feature_id] = True             # <<<<<<<<<<<<<<
@@ -27497,7 +27492,7 @@ static PyObject *__pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_get_u
         }
         *((int *) ( /* dim=0 */ (__pyx_v_self->user_feature_count_flag.data + __pyx_t_4 * __pyx_v_self->user_feature_count_flag.strides[0]) )) = 1;
 
-        /* "FBSM_Rating_Cython_SGD.pyx":627
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":627
  * 
  *                     self.user_feature_count_flag[feature_id] = True
  *                     self.user_feature_count_id[self.user_feature_count_len] = feature_id             # <<<<<<<<<<<<<<
@@ -27517,7 +27512,7 @@ static PyObject *__pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_get_u
         }
         *((int *) ( /* dim=0 */ (__pyx_v_self->user_feature_count_id.data + __pyx_t_4 * __pyx_v_self->user_feature_count_id.strides[0]) )) = __pyx_v_feature_id;
 
-        /* "FBSM_Rating_Cython_SGD.pyx":628
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":628
  *                     self.user_feature_count_flag[feature_id] = True
  *                     self.user_feature_count_id[self.user_feature_count_len] = feature_id
  *                     self.user_feature_count_len += 1             # <<<<<<<<<<<<<<
@@ -27526,7 +27521,7 @@ static PyObject *__pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_get_u
  */
         __pyx_v_self->user_feature_count_len = (__pyx_v_self->user_feature_count_len + 1);
 
-        /* "FBSM_Rating_Cython_SGD.pyx":624
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":624
  *                 self.user_feature_count_counter_temp[feature_id] += 1
  * 
  *                 if not self.user_feature_count_flag[feature_id]:             # <<<<<<<<<<<<<<
@@ -27537,7 +27532,7 @@ static PyObject *__pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_get_u
     }
   }
 
-  /* "FBSM_Rating_Cython_SGD.pyx":632
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":632
  * 
  *         # Collect counters
  *         for feature_index in range(self.user_feature_count_len):             # <<<<<<<<<<<<<<
@@ -27549,7 +27544,7 @@ static PyObject *__pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_get_u
   for (__pyx_t_3 = 0; __pyx_t_3 < __pyx_t_2; __pyx_t_3+=1) {
     __pyx_v_feature_index = __pyx_t_3;
 
-    /* "FBSM_Rating_Cython_SGD.pyx":633
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":633
  *         # Collect counters
  *         for feature_index in range(self.user_feature_count_len):
  *             feature_id = self.user_feature_count_id[feature_index]             # <<<<<<<<<<<<<<
@@ -27569,7 +27564,7 @@ static PyObject *__pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_get_u
     }
     __pyx_v_feature_id = (*((int *) ( /* dim=0 */ (__pyx_v_self->user_feature_count_id.data + __pyx_t_4 * __pyx_v_self->user_feature_count_id.strides[0]) )));
 
-    /* "FBSM_Rating_Cython_SGD.pyx":636
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":636
  * 
  *             # Get all feature count with the same ordering as the user_feature_count_id array
  *             self.user_feature_count_counter[feature_index] = self.user_feature_count_counter_temp[feature_id]             # <<<<<<<<<<<<<<
@@ -27601,7 +27596,7 @@ static PyObject *__pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_get_u
     *((int *) ( /* dim=0 */ (__pyx_v_self->user_feature_count_counter.data + __pyx_t_8 * __pyx_v_self->user_feature_count_counter.strides[0]) )) = (*((int *) ( /* dim=0 */ (__pyx_v_self->user_feature_count_counter_temp.data + __pyx_t_4 * __pyx_v_self->user_feature_count_counter_temp.strides[0]) )));
   }
 
-  /* "FBSM_Rating_Cython_SGD.pyx":591
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":591
  * 
  * 
  *     cdef get_user_feature_count_compute(self, BPR_sample sample):             # <<<<<<<<<<<<<<
@@ -27613,7 +27608,7 @@ static PyObject *__pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_get_u
   __pyx_r = Py_None; __Pyx_INCREF(Py_None);
   goto __pyx_L0;
   __pyx_L1_error:;
-  __Pyx_AddTraceback("FBSM_Rating_Cython_SGD.FBSM_Rating_Cython_SGD.get_user_feature_count_compute", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.FBSM_Rating_Cython_SGD.FBSM_Rating_Cython_SGD.get_user_feature_count_compute", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = 0;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -27621,7 +27616,7 @@ static PyObject *__pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_get_u
   return __pyx_r;
 }
 
-/* "FBSM_Rating_Cython_SGD.pyx":643
+/* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":643
  * 
  * 
  *     cdef BPR_sample sampleBPR_Cython(self):             # <<<<<<<<<<<<<<
@@ -27629,13 +27624,13 @@ static PyObject *__pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_get_u
  *         cdef BPR_sample sample = BPR_sample(-1,-1,-1,-1,-1)
  */
 
-static struct __pyx_t_22FBSM_Rating_Cython_SGD_BPR_sample __pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_sampleBPR_Cython(struct __pyx_obj_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *__pyx_v_self) {
-  struct __pyx_t_22FBSM_Rating_Cython_SGD_BPR_sample __pyx_v_sample;
+static struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_BPR_sample __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_sampleBPR_Cython(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *__pyx_v_self) {
+  struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_BPR_sample __pyx_v_sample;
   long __pyx_v_index;
   int __pyx_v_negItemSelected;
   int __pyx_v_numSeenItems;
-  struct __pyx_t_22FBSM_Rating_Cython_SGD_BPR_sample __pyx_r;
-  struct __pyx_t_22FBSM_Rating_Cython_SGD_BPR_sample __pyx_t_1;
+  struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_BPR_sample __pyx_r;
+  struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_BPR_sample __pyx_t_1;
   int __pyx_t_2;
   int __pyx_t_3;
   int __pyx_t_4;
@@ -27644,7 +27639,7 @@ static struct __pyx_t_22FBSM_Rating_Cython_SGD_BPR_sample __pyx_f_22FBSM_Rating_
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
 
-  /* "FBSM_Rating_Cython_SGD.pyx":645
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":645
  *     cdef BPR_sample sampleBPR_Cython(self):
  * 
  *         cdef BPR_sample sample = BPR_sample(-1,-1,-1,-1,-1)             # <<<<<<<<<<<<<<
@@ -27658,7 +27653,7 @@ static struct __pyx_t_22FBSM_Rating_Cython_SGD_BPR_sample __pyx_f_22FBSM_Rating_
   __pyx_t_1.seen_items_end_pos = -1L;
   __pyx_v_sample = __pyx_t_1;
 
-  /* "FBSM_Rating_Cython_SGD.pyx":649
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":649
  *         cdef long index
  * 
  *         cdef int negItemSelected, numSeenItems = 0             # <<<<<<<<<<<<<<
@@ -27667,7 +27662,7 @@ static struct __pyx_t_22FBSM_Rating_Cython_SGD_BPR_sample __pyx_f_22FBSM_Rating_
  */
   __pyx_v_numSeenItems = 0;
 
-  /* "FBSM_Rating_Cython_SGD.pyx":653
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":653
  * 
  *         # Skip users with no interactions or with no negative items
  *         while numSeenItems == 0 or numSeenItems == self.n_items:             # <<<<<<<<<<<<<<
@@ -27686,7 +27681,7 @@ static struct __pyx_t_22FBSM_Rating_Cython_SGD_BPR_sample __pyx_f_22FBSM_Rating_
     __pyx_L5_bool_binop_done:;
     if (!__pyx_t_2) break;
 
-    /* "FBSM_Rating_Cython_SGD.pyx":655
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":655
  *         while numSeenItems == 0 or numSeenItems == self.n_items:
  * 
  *             sample.user = rand() % self.n_users             # <<<<<<<<<<<<<<
@@ -27700,7 +27695,7 @@ static struct __pyx_t_22FBSM_Rating_Cython_SGD_BPR_sample __pyx_f_22FBSM_Rating_
     }
     __pyx_v_sample.user = __Pyx_mod_int(__pyx_t_4, __pyx_v_self->n_users);
 
-    /* "FBSM_Rating_Cython_SGD.pyx":657
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":657
  *             sample.user = rand() % self.n_users
  * 
  *             sample.seen_items_start_pos = self.URM_mask_indptr[sample.user]             # <<<<<<<<<<<<<<
@@ -27720,7 +27715,7 @@ static struct __pyx_t_22FBSM_Rating_Cython_SGD_BPR_sample __pyx_f_22FBSM_Rating_
     }
     __pyx_v_sample.seen_items_start_pos = (*((int *) ( /* dim=0 */ (__pyx_v_self->URM_mask_indptr.data + __pyx_t_5 * __pyx_v_self->URM_mask_indptr.strides[0]) )));
 
-    /* "FBSM_Rating_Cython_SGD.pyx":658
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":658
  * 
  *             sample.seen_items_start_pos = self.URM_mask_indptr[sample.user]
  *             sample.seen_items_end_pos = self.URM_mask_indptr[sample.user + 1]             # <<<<<<<<<<<<<<
@@ -27740,7 +27735,7 @@ static struct __pyx_t_22FBSM_Rating_Cython_SGD_BPR_sample __pyx_f_22FBSM_Rating_
     }
     __pyx_v_sample.seen_items_end_pos = (*((int *) ( /* dim=0 */ (__pyx_v_self->URM_mask_indptr.data + __pyx_t_5 * __pyx_v_self->URM_mask_indptr.strides[0]) )));
 
-    /* "FBSM_Rating_Cython_SGD.pyx":660
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":660
  *             sample.seen_items_end_pos = self.URM_mask_indptr[sample.user + 1]
  * 
  *             numSeenItems = sample.seen_items_end_pos - sample.seen_items_start_pos             # <<<<<<<<<<<<<<
@@ -27750,7 +27745,7 @@ static struct __pyx_t_22FBSM_Rating_Cython_SGD_BPR_sample __pyx_f_22FBSM_Rating_
     __pyx_v_numSeenItems = (__pyx_v_sample.seen_items_end_pos - __pyx_v_sample.seen_items_start_pos);
   }
 
-  /* "FBSM_Rating_Cython_SGD.pyx":663
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":663
  * 
  * 
  *         index = rand() % numSeenItems             # <<<<<<<<<<<<<<
@@ -27764,7 +27759,7 @@ static struct __pyx_t_22FBSM_Rating_Cython_SGD_BPR_sample __pyx_f_22FBSM_Rating_
   }
   __pyx_v_index = __Pyx_mod_int(__pyx_t_4, __pyx_v_numSeenItems);
 
-  /* "FBSM_Rating_Cython_SGD.pyx":665
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":665
  *         index = rand() % numSeenItems
  * 
  *         sample.pos_item = self.URM_mask_indices[sample.seen_items_start_pos + index]             # <<<<<<<<<<<<<<
@@ -27784,7 +27779,7 @@ static struct __pyx_t_22FBSM_Rating_Cython_SGD_BPR_sample __pyx_f_22FBSM_Rating_
   }
   __pyx_v_sample.pos_item = (*((int *) ( /* dim=0 */ (__pyx_v_self->URM_mask_indices.data + __pyx_t_5 * __pyx_v_self->URM_mask_indices.strides[0]) )));
 
-  /* "FBSM_Rating_Cython_SGD.pyx":668
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":668
  * 
  * 
  *         negItemSelected = False             # <<<<<<<<<<<<<<
@@ -27793,7 +27788,7 @@ static struct __pyx_t_22FBSM_Rating_Cython_SGD_BPR_sample __pyx_f_22FBSM_Rating_
  */
   __pyx_v_negItemSelected = 0;
 
-  /* "FBSM_Rating_Cython_SGD.pyx":672
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":672
  *         # It's faster to just try again then to build a mapping of the non-seen items
  *         # for every user
  *         while (not negItemSelected):             # <<<<<<<<<<<<<<
@@ -27804,7 +27799,7 @@ static struct __pyx_t_22FBSM_Rating_Cython_SGD_BPR_sample __pyx_f_22FBSM_Rating_
     __pyx_t_2 = (!(__pyx_v_negItemSelected != 0));
     if (!__pyx_t_2) break;
 
-    /* "FBSM_Rating_Cython_SGD.pyx":674
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":674
  *         while (not negItemSelected):
  * 
  *             sample.neg_item = rand() % self.n_items             # <<<<<<<<<<<<<<
@@ -27818,7 +27813,7 @@ static struct __pyx_t_22FBSM_Rating_Cython_SGD_BPR_sample __pyx_f_22FBSM_Rating_
     }
     __pyx_v_sample.neg_item = __Pyx_mod_int(__pyx_t_4, __pyx_v_self->n_items);
 
-    /* "FBSM_Rating_Cython_SGD.pyx":676
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":676
  *             sample.neg_item = rand() % self.n_items
  * 
  *             index = 0             # <<<<<<<<<<<<<<
@@ -27827,7 +27822,7 @@ static struct __pyx_t_22FBSM_Rating_Cython_SGD_BPR_sample __pyx_f_22FBSM_Rating_
  */
     __pyx_v_index = 0;
 
-    /* "FBSM_Rating_Cython_SGD.pyx":677
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":677
  * 
  *             index = 0
  *             while index < numSeenItems and self.URM_mask_indices[sample.seen_items_start_pos + index]!=sample.neg_item:             # <<<<<<<<<<<<<<
@@ -27857,7 +27852,7 @@ static struct __pyx_t_22FBSM_Rating_Cython_SGD_BPR_sample __pyx_f_22FBSM_Rating_
       __pyx_L11_bool_binop_done:;
       if (!__pyx_t_2) break;
 
-      /* "FBSM_Rating_Cython_SGD.pyx":678
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":678
  *             index = 0
  *             while index < numSeenItems and self.URM_mask_indices[sample.seen_items_start_pos + index]!=sample.neg_item:
  *                 index+=1             # <<<<<<<<<<<<<<
@@ -27867,7 +27862,7 @@ static struct __pyx_t_22FBSM_Rating_Cython_SGD_BPR_sample __pyx_f_22FBSM_Rating_
       __pyx_v_index = (__pyx_v_index + 1);
     }
 
-    /* "FBSM_Rating_Cython_SGD.pyx":680
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":680
  *                 index+=1
  * 
  *             if index == numSeenItems:             # <<<<<<<<<<<<<<
@@ -27877,7 +27872,7 @@ static struct __pyx_t_22FBSM_Rating_Cython_SGD_BPR_sample __pyx_f_22FBSM_Rating_
     __pyx_t_2 = (__pyx_v_index == __pyx_v_numSeenItems);
     if (__pyx_t_2) {
 
-      /* "FBSM_Rating_Cython_SGD.pyx":681
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":681
  * 
  *             if index == numSeenItems:
  *                 negItemSelected = True             # <<<<<<<<<<<<<<
@@ -27886,7 +27881,7 @@ static struct __pyx_t_22FBSM_Rating_Cython_SGD_BPR_sample __pyx_f_22FBSM_Rating_
  */
       __pyx_v_negItemSelected = 1;
 
-      /* "FBSM_Rating_Cython_SGD.pyx":680
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":680
  *                 index+=1
  * 
  *             if index == numSeenItems:             # <<<<<<<<<<<<<<
@@ -27896,7 +27891,7 @@ static struct __pyx_t_22FBSM_Rating_Cython_SGD_BPR_sample __pyx_f_22FBSM_Rating_
     }
   }
 
-  /* "FBSM_Rating_Cython_SGD.pyx":684
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":684
  * 
  * 
  *         return sample             # <<<<<<<<<<<<<<
@@ -27906,7 +27901,7 @@ static struct __pyx_t_22FBSM_Rating_Cython_SGD_BPR_sample __pyx_f_22FBSM_Rating_
   __pyx_r = __pyx_v_sample;
   goto __pyx_L0;
 
-  /* "FBSM_Rating_Cython_SGD.pyx":643
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":643
  * 
  * 
  *     cdef BPR_sample sampleBPR_Cython(self):             # <<<<<<<<<<<<<<
@@ -27916,13 +27911,13 @@ static struct __pyx_t_22FBSM_Rating_Cython_SGD_BPR_sample __pyx_f_22FBSM_Rating_
 
   /* function exit code */
   __pyx_L1_error:;
-  __Pyx_AddTraceback("FBSM_Rating_Cython_SGD.FBSM_Rating_Cython_SGD.sampleBPR_Cython", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.FBSM_Rating_Cython_SGD.FBSM_Rating_Cython_SGD.sampleBPR_Cython", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_pretend_to_initialize(&__pyx_r);
   __pyx_L0:;
   return __pyx_r;
 }
 
-/* "FBSM_Rating_Cython_SGD.pyx":690
+/* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":690
  * 
  * 
  *     cdef double compute_adaptive_gradient_D(self, int feature_id, double gradient):             # <<<<<<<<<<<<<<
@@ -27930,7 +27925,7 @@ static struct __pyx_t_22FBSM_Rating_Cython_SGD_BPR_sample __pyx_f_22FBSM_Rating_
  *         cdef double adaptive_gradient
  */
 
-static double __pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_compute_adaptive_gradient_D(struct __pyx_obj_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *__pyx_v_self, int __pyx_v_feature_id, double __pyx_v_gradient) {
+static double __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_compute_adaptive_gradient_D(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *__pyx_v_self, int __pyx_v_feature_id, double __pyx_v_gradient) {
   double __pyx_v_adaptive_gradient;
   double __pyx_r;
   int __pyx_t_1;
@@ -27943,7 +27938,7 @@ static double __pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_compute_
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
 
-  /* "FBSM_Rating_Cython_SGD.pyx":694
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":694
  *         cdef double adaptive_gradient
  * 
  *         if self.useAdaGrad:             # <<<<<<<<<<<<<<
@@ -27953,7 +27948,7 @@ static double __pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_compute_
   __pyx_t_1 = (__pyx_v_self->useAdaGrad != 0);
   if (__pyx_t_1) {
 
-    /* "FBSM_Rating_Cython_SGD.pyx":695
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":695
  * 
  *         if self.useAdaGrad:
  *             self.sgd_cache_D[feature_id] += gradient ** 2             # <<<<<<<<<<<<<<
@@ -27973,7 +27968,7 @@ static double __pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_compute_
     }
     *((double *) ( /* dim=0 */ (__pyx_v_self->sgd_cache_D.data + __pyx_t_2 * __pyx_v_self->sgd_cache_D.strides[0]) )) += pow(__pyx_v_gradient, 2.0);
 
-    /* "FBSM_Rating_Cython_SGD.pyx":696
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":696
  *         if self.useAdaGrad:
  *             self.sgd_cache_D[feature_id] += gradient ** 2
  *             adaptive_gradient = self.learning_rate / (sqrt(self.sgd_cache_D[feature_id]) + 1e-8)             # <<<<<<<<<<<<<<
@@ -27998,7 +27993,7 @@ static double __pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_compute_
     }
     __pyx_v_adaptive_gradient = (__pyx_v_self->learning_rate / __pyx_t_4);
 
-    /* "FBSM_Rating_Cython_SGD.pyx":694
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":694
  *         cdef double adaptive_gradient
  * 
  *         if self.useAdaGrad:             # <<<<<<<<<<<<<<
@@ -28008,7 +28003,7 @@ static double __pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_compute_
     goto __pyx_L3;
   }
 
-  /* "FBSM_Rating_Cython_SGD.pyx":699
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":699
  * 
  * 
  *         elif self.useRmsprop:             # <<<<<<<<<<<<<<
@@ -28018,7 +28013,7 @@ static double __pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_compute_
   __pyx_t_1 = (__pyx_v_self->useRmsprop != 0);
   if (__pyx_t_1) {
 
-    /* "FBSM_Rating_Cython_SGD.pyx":700
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":700
  * 
  *         elif self.useRmsprop:
  *             self.sgd_cache_D[feature_id] = self.sgd_cache_D[feature_id] * self.gamma + (1 - self.gamma) * gradient ** 2             # <<<<<<<<<<<<<<
@@ -28049,7 +28044,7 @@ static double __pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_compute_
     }
     *((double *) ( /* dim=0 */ (__pyx_v_self->sgd_cache_D.data + __pyx_t_5 * __pyx_v_self->sgd_cache_D.strides[0]) )) = (((*((double *) ( /* dim=0 */ (__pyx_v_self->sgd_cache_D.data + __pyx_t_2 * __pyx_v_self->sgd_cache_D.strides[0]) ))) * __pyx_v_self->gamma) + ((1.0 - __pyx_v_self->gamma) * pow(__pyx_v_gradient, 2.0)));
 
-    /* "FBSM_Rating_Cython_SGD.pyx":701
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":701
  *         elif self.useRmsprop:
  *             self.sgd_cache_D[feature_id] = self.sgd_cache_D[feature_id] * self.gamma + (1 - self.gamma) * gradient ** 2
  *             adaptive_gradient = self.learning_rate / (sqrt(self.sgd_cache_D[feature_id]) + 1e-8)             # <<<<<<<<<<<<<<
@@ -28074,7 +28069,7 @@ static double __pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_compute_
     }
     __pyx_v_adaptive_gradient = (__pyx_v_self->learning_rate / __pyx_t_4);
 
-    /* "FBSM_Rating_Cython_SGD.pyx":699
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":699
  * 
  * 
  *         elif self.useRmsprop:             # <<<<<<<<<<<<<<
@@ -28084,7 +28079,7 @@ static double __pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_compute_
     goto __pyx_L3;
   }
 
-  /* "FBSM_Rating_Cython_SGD.pyx":704
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":704
  * 
  * 
  *         elif self.useAdam:             # <<<<<<<<<<<<<<
@@ -28094,7 +28089,7 @@ static double __pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_compute_
   __pyx_t_1 = (__pyx_v_self->useAdam != 0);
   if (__pyx_t_1) {
 
-    /* "FBSM_Rating_Cython_SGD.pyx":707
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":707
  * 
  *             self.sgd_cache_D_momentum_1[feature_id] = \
  *                 self.sgd_cache_D_momentum_1[feature_id] * self.beta_1 + (1 - self.beta_1) * gradient             # <<<<<<<<<<<<<<
@@ -28113,7 +28108,7 @@ static double __pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_compute_
       __PYX_ERR(0, 707, __pyx_L1_error)
     }
 
-    /* "FBSM_Rating_Cython_SGD.pyx":706
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":706
  *         elif self.useAdam:
  * 
  *             self.sgd_cache_D_momentum_1[feature_id] = \             # <<<<<<<<<<<<<<
@@ -28133,7 +28128,7 @@ static double __pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_compute_
     }
     *((double *) ( /* dim=0 */ (__pyx_v_self->sgd_cache_D_momentum_1.data + __pyx_t_5 * __pyx_v_self->sgd_cache_D_momentum_1.strides[0]) )) = (((*((double *) ( /* dim=0 */ (__pyx_v_self->sgd_cache_D_momentum_1.data + __pyx_t_2 * __pyx_v_self->sgd_cache_D_momentum_1.strides[0]) ))) * __pyx_v_self->beta_1) + ((1.0 - __pyx_v_self->beta_1) * __pyx_v_gradient));
 
-    /* "FBSM_Rating_Cython_SGD.pyx":710
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":710
  * 
  *             self.sgd_cache_D_momentum_2[feature_id] = \
  *                 self.sgd_cache_D_momentum_2[feature_id] * self.beta_2 + (1 - self.beta_2) * gradient**2             # <<<<<<<<<<<<<<
@@ -28152,7 +28147,7 @@ static double __pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_compute_
       __PYX_ERR(0, 710, __pyx_L1_error)
     }
 
-    /* "FBSM_Rating_Cython_SGD.pyx":709
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":709
  *                 self.sgd_cache_D_momentum_1[feature_id] * self.beta_1 + (1 - self.beta_1) * gradient
  * 
  *             self.sgd_cache_D_momentum_2[feature_id] = \             # <<<<<<<<<<<<<<
@@ -28172,7 +28167,7 @@ static double __pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_compute_
     }
     *((double *) ( /* dim=0 */ (__pyx_v_self->sgd_cache_D_momentum_2.data + __pyx_t_5 * __pyx_v_self->sgd_cache_D_momentum_2.strides[0]) )) = (((*((double *) ( /* dim=0 */ (__pyx_v_self->sgd_cache_D_momentum_2.data + __pyx_t_2 * __pyx_v_self->sgd_cache_D_momentum_2.strides[0]) ))) * __pyx_v_self->beta_2) + ((1.0 - __pyx_v_self->beta_2) * pow(__pyx_v_gradient, 2.0)));
 
-    /* "FBSM_Rating_Cython_SGD.pyx":713
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":713
  * 
  * 
  *             self.momentum_1 = self.sgd_cache_D_momentum_1[feature_id]/ (1 - self.beta_1_power_t)             # <<<<<<<<<<<<<<
@@ -28198,7 +28193,7 @@ static double __pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_compute_
     }
     __pyx_v_self->momentum_1 = (__pyx_t_4 / __pyx_t_6);
 
-    /* "FBSM_Rating_Cython_SGD.pyx":714
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":714
  * 
  *             self.momentum_1 = self.sgd_cache_D_momentum_1[feature_id]/ (1 - self.beta_1_power_t)
  *             self.momentum_2 = self.sgd_cache_D_momentum_2[feature_id]/ (1 - self.beta_2_power_t)             # <<<<<<<<<<<<<<
@@ -28224,7 +28219,7 @@ static double __pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_compute_
     }
     __pyx_v_self->momentum_2 = (__pyx_t_6 / __pyx_t_4);
 
-    /* "FBSM_Rating_Cython_SGD.pyx":716
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":716
  *             self.momentum_2 = self.sgd_cache_D_momentum_2[feature_id]/ (1 - self.beta_2_power_t)
  * 
  *             adaptive_gradient = self.momentum_1/ (sqrt(self.momentum_2) + 1e-8)             # <<<<<<<<<<<<<<
@@ -28238,7 +28233,7 @@ static double __pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_compute_
     }
     __pyx_v_adaptive_gradient = (__pyx_v_self->momentum_1 / __pyx_t_4);
 
-    /* "FBSM_Rating_Cython_SGD.pyx":704
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":704
  * 
  * 
  *         elif self.useAdam:             # <<<<<<<<<<<<<<
@@ -28248,7 +28243,7 @@ static double __pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_compute_
     goto __pyx_L3;
   }
 
-  /* "FBSM_Rating_Cython_SGD.pyx":720
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":720
  *         else:
  * 
  *             adaptive_gradient = gradient             # <<<<<<<<<<<<<<
@@ -28260,7 +28255,7 @@ static double __pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_compute_
   }
   __pyx_L3:;
 
-  /* "FBSM_Rating_Cython_SGD.pyx":723
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":723
  * 
  * 
  *         return adaptive_gradient             # <<<<<<<<<<<<<<
@@ -28270,7 +28265,7 @@ static double __pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_compute_
   __pyx_r = __pyx_v_adaptive_gradient;
   goto __pyx_L0;
 
-  /* "FBSM_Rating_Cython_SGD.pyx":690
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":690
  * 
  * 
  *     cdef double compute_adaptive_gradient_D(self, int feature_id, double gradient):             # <<<<<<<<<<<<<<
@@ -28280,13 +28275,13 @@ static double __pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_compute_
 
   /* function exit code */
   __pyx_L1_error:;
-  __Pyx_AddTraceback("FBSM_Rating_Cython_SGD.FBSM_Rating_Cython_SGD.compute_adaptive_gradient_D", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.FBSM_Rating_Cython_SGD.FBSM_Rating_Cython_SGD.compute_adaptive_gradient_D", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = 0;
   __pyx_L0:;
   return __pyx_r;
 }
 
-/* "FBSM_Rating_Cython_SGD.pyx":728
+/* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":728
  * 
  * 
  *     cdef double compute_adaptive_gradient_V(self, int factor_index, int feature_id, double gradient):             # <<<<<<<<<<<<<<
@@ -28294,7 +28289,7 @@ static double __pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_compute_
  *         cdef double adaptive_gradient
  */
 
-static double __pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_compute_adaptive_gradient_V(struct __pyx_obj_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *__pyx_v_self, int __pyx_v_factor_index, int __pyx_v_feature_id, double __pyx_v_gradient) {
+static double __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_compute_adaptive_gradient_V(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *__pyx_v_self, int __pyx_v_factor_index, int __pyx_v_feature_id, double __pyx_v_gradient) {
   double __pyx_v_adaptive_gradient;
   double __pyx_r;
   int __pyx_t_1;
@@ -28309,7 +28304,7 @@ static double __pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_compute_
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
 
-  /* "FBSM_Rating_Cython_SGD.pyx":732
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":732
  *         cdef double adaptive_gradient
  * 
  *         if self.useAdaGrad:             # <<<<<<<<<<<<<<
@@ -28319,7 +28314,7 @@ static double __pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_compute_
   __pyx_t_1 = (__pyx_v_self->useAdaGrad != 0);
   if (__pyx_t_1) {
 
-    /* "FBSM_Rating_Cython_SGD.pyx":734
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":734
  *         if self.useAdaGrad:
  * 
  *             self.sgd_cache_V[factor_index, feature_id] += gradient ** 2             # <<<<<<<<<<<<<<
@@ -28344,7 +28339,7 @@ static double __pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_compute_
     }
     *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_self->sgd_cache_V.data + __pyx_t_2 * __pyx_v_self->sgd_cache_V.strides[0]) ) + __pyx_t_3 * __pyx_v_self->sgd_cache_V.strides[1]) )) += pow(__pyx_v_gradient, 2.0);
 
-    /* "FBSM_Rating_Cython_SGD.pyx":735
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":735
  * 
  *             self.sgd_cache_V[factor_index, feature_id] += gradient ** 2
  *             adaptive_gradient = self.learning_rate / (sqrt(self.sgd_cache_V[factor_index, feature_id]) + 1e-8)             # <<<<<<<<<<<<<<
@@ -28374,7 +28369,7 @@ static double __pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_compute_
     }
     __pyx_v_adaptive_gradient = (__pyx_v_self->learning_rate / __pyx_t_5);
 
-    /* "FBSM_Rating_Cython_SGD.pyx":732
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":732
  *         cdef double adaptive_gradient
  * 
  *         if self.useAdaGrad:             # <<<<<<<<<<<<<<
@@ -28384,7 +28379,7 @@ static double __pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_compute_
     goto __pyx_L3;
   }
 
-  /* "FBSM_Rating_Cython_SGD.pyx":737
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":737
  *             adaptive_gradient = self.learning_rate / (sqrt(self.sgd_cache_V[factor_index, feature_id]) + 1e-8)
  * 
  *         elif self.useRmsprop:             # <<<<<<<<<<<<<<
@@ -28394,7 +28389,7 @@ static double __pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_compute_
   __pyx_t_1 = (__pyx_v_self->useRmsprop != 0);
   if (__pyx_t_1) {
 
-    /* "FBSM_Rating_Cython_SGD.pyx":738
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":738
  * 
  *         elif self.useRmsprop:
  *             self.sgd_cache_V[factor_index, feature_id] = self.sgd_cache_V[factor_index, feature_id] * self.gamma + (1 - self.gamma) * gradient ** 2             # <<<<<<<<<<<<<<
@@ -28435,7 +28430,7 @@ static double __pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_compute_
     }
     *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_self->sgd_cache_V.data + __pyx_t_6 * __pyx_v_self->sgd_cache_V.strides[0]) ) + __pyx_t_7 * __pyx_v_self->sgd_cache_V.strides[1]) )) = (((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_self->sgd_cache_V.data + __pyx_t_2 * __pyx_v_self->sgd_cache_V.strides[0]) ) + __pyx_t_3 * __pyx_v_self->sgd_cache_V.strides[1]) ))) * __pyx_v_self->gamma) + ((1.0 - __pyx_v_self->gamma) * pow(__pyx_v_gradient, 2.0)));
 
-    /* "FBSM_Rating_Cython_SGD.pyx":739
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":739
  *         elif self.useRmsprop:
  *             self.sgd_cache_V[factor_index, feature_id] = self.sgd_cache_V[factor_index, feature_id] * self.gamma + (1 - self.gamma) * gradient ** 2
  *             adaptive_gradient = self.learning_rate / (sqrt(self.sgd_cache_V[factor_index, feature_id]) + 1e-8)             # <<<<<<<<<<<<<<
@@ -28465,7 +28460,7 @@ static double __pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_compute_
     }
     __pyx_v_adaptive_gradient = (__pyx_v_self->learning_rate / __pyx_t_5);
 
-    /* "FBSM_Rating_Cython_SGD.pyx":737
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":737
  *             adaptive_gradient = self.learning_rate / (sqrt(self.sgd_cache_V[factor_index, feature_id]) + 1e-8)
  * 
  *         elif self.useRmsprop:             # <<<<<<<<<<<<<<
@@ -28475,7 +28470,7 @@ static double __pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_compute_
     goto __pyx_L3;
   }
 
-  /* "FBSM_Rating_Cython_SGD.pyx":741
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":741
  *             adaptive_gradient = self.learning_rate / (sqrt(self.sgd_cache_V[factor_index, feature_id]) + 1e-8)
  * 
  *         elif self.useAdam:             # <<<<<<<<<<<<<<
@@ -28485,7 +28480,7 @@ static double __pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_compute_
   __pyx_t_1 = (__pyx_v_self->useAdam != 0);
   if (__pyx_t_1) {
 
-    /* "FBSM_Rating_Cython_SGD.pyx":744
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":744
  * 
  *             self.sgd_cache_V_momentum_1[factor_index, feature_id] = \
  *                 self.sgd_cache_V_momentum_1[factor_index, feature_id] * self.beta_1 + (1 - self.beta_1) * gradient             # <<<<<<<<<<<<<<
@@ -28509,7 +28504,7 @@ static double __pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_compute_
       __PYX_ERR(0, 744, __pyx_L1_error)
     }
 
-    /* "FBSM_Rating_Cython_SGD.pyx":743
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":743
  *         elif self.useAdam:
  * 
  *             self.sgd_cache_V_momentum_1[factor_index, feature_id] = \             # <<<<<<<<<<<<<<
@@ -28534,7 +28529,7 @@ static double __pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_compute_
     }
     *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_self->sgd_cache_V_momentum_1.data + __pyx_t_7 * __pyx_v_self->sgd_cache_V_momentum_1.strides[0]) ) + __pyx_t_6 * __pyx_v_self->sgd_cache_V_momentum_1.strides[1]) )) = (((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_self->sgd_cache_V_momentum_1.data + __pyx_t_2 * __pyx_v_self->sgd_cache_V_momentum_1.strides[0]) ) + __pyx_t_3 * __pyx_v_self->sgd_cache_V_momentum_1.strides[1]) ))) * __pyx_v_self->beta_1) + ((1.0 - __pyx_v_self->beta_1) * __pyx_v_gradient));
 
-    /* "FBSM_Rating_Cython_SGD.pyx":747
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":747
  * 
  *             self.sgd_cache_V_momentum_2[factor_index, feature_id] = \
  *                 self.sgd_cache_V_momentum_2[factor_index, feature_id] * self.beta_2 + (1 - self.beta_2) * gradient**2             # <<<<<<<<<<<<<<
@@ -28558,7 +28553,7 @@ static double __pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_compute_
       __PYX_ERR(0, 747, __pyx_L1_error)
     }
 
-    /* "FBSM_Rating_Cython_SGD.pyx":746
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":746
  *                 self.sgd_cache_V_momentum_1[factor_index, feature_id] * self.beta_1 + (1 - self.beta_1) * gradient
  * 
  *             self.sgd_cache_V_momentum_2[factor_index, feature_id] = \             # <<<<<<<<<<<<<<
@@ -28583,7 +28578,7 @@ static double __pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_compute_
     }
     *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_self->sgd_cache_V_momentum_2.data + __pyx_t_6 * __pyx_v_self->sgd_cache_V_momentum_2.strides[0]) ) + __pyx_t_7 * __pyx_v_self->sgd_cache_V_momentum_2.strides[1]) )) = (((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_self->sgd_cache_V_momentum_2.data + __pyx_t_3 * __pyx_v_self->sgd_cache_V_momentum_2.strides[0]) ) + __pyx_t_2 * __pyx_v_self->sgd_cache_V_momentum_2.strides[1]) ))) * __pyx_v_self->beta_2) + ((1.0 - __pyx_v_self->beta_2) * pow(__pyx_v_gradient, 2.0)));
 
-    /* "FBSM_Rating_Cython_SGD.pyx":750
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":750
  * 
  * 
  *             self.momentum_1 = self.sgd_cache_V_momentum_1[factor_index, feature_id]/ (1 - self.beta_1_power_t)             # <<<<<<<<<<<<<<
@@ -28614,7 +28609,7 @@ static double __pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_compute_
     }
     __pyx_v_self->momentum_1 = (__pyx_t_5 / __pyx_t_8);
 
-    /* "FBSM_Rating_Cython_SGD.pyx":751
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":751
  * 
  *             self.momentum_1 = self.sgd_cache_V_momentum_1[factor_index, feature_id]/ (1 - self.beta_1_power_t)
  *             self.momentum_2 = self.sgd_cache_V_momentum_2[factor_index, feature_id]/ (1 - self.beta_2_power_t)             # <<<<<<<<<<<<<<
@@ -28645,7 +28640,7 @@ static double __pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_compute_
     }
     __pyx_v_self->momentum_2 = (__pyx_t_8 / __pyx_t_5);
 
-    /* "FBSM_Rating_Cython_SGD.pyx":753
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":753
  *             self.momentum_2 = self.sgd_cache_V_momentum_2[factor_index, feature_id]/ (1 - self.beta_2_power_t)
  * 
  *             adaptive_gradient = self.momentum_1/ (sqrt(self.momentum_2) + 1e-8)             # <<<<<<<<<<<<<<
@@ -28659,7 +28654,7 @@ static double __pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_compute_
     }
     __pyx_v_adaptive_gradient = (__pyx_v_self->momentum_1 / __pyx_t_5);
 
-    /* "FBSM_Rating_Cython_SGD.pyx":741
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":741
  *             adaptive_gradient = self.learning_rate / (sqrt(self.sgd_cache_V[factor_index, feature_id]) + 1e-8)
  * 
  *         elif self.useAdam:             # <<<<<<<<<<<<<<
@@ -28669,7 +28664,7 @@ static double __pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_compute_
     goto __pyx_L3;
   }
 
-  /* "FBSM_Rating_Cython_SGD.pyx":757
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":757
  *         else:
  * 
  *             adaptive_gradient = gradient             # <<<<<<<<<<<<<<
@@ -28681,7 +28676,7 @@ static double __pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_compute_
   }
   __pyx_L3:;
 
-  /* "FBSM_Rating_Cython_SGD.pyx":760
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":760
  * 
  * 
  *         return adaptive_gradient             # <<<<<<<<<<<<<<
@@ -28691,7 +28686,7 @@ static double __pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_compute_
   __pyx_r = __pyx_v_adaptive_gradient;
   goto __pyx_L0;
 
-  /* "FBSM_Rating_Cython_SGD.pyx":728
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":728
  * 
  * 
  *     cdef double compute_adaptive_gradient_V(self, int factor_index, int feature_id, double gradient):             # <<<<<<<<<<<<<<
@@ -28701,7 +28696,7 @@ static double __pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_compute_
 
   /* function exit code */
   __pyx_L1_error:;
-  __Pyx_AddTraceback("FBSM_Rating_Cython_SGD.FBSM_Rating_Cython_SGD.compute_adaptive_gradient_V", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.FBSM_Rating_Cython_SGD.FBSM_Rating_Cython_SGD.compute_adaptive_gradient_V", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = 0;
   __pyx_L0:;
   return __pyx_r;
@@ -28714,15 +28709,15 @@ static double __pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_compute_
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_9__reduce_cython__(PyObject *__pyx_v_self, 
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_9__reduce_cython__(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static PyMethodDef __pyx_mdef_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_9__reduce_cython__ = {"__reduce_cython__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_9__reduce_cython__, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_9__reduce_cython__(PyObject *__pyx_v_self, 
+static PyMethodDef __pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_9__reduce_cython__ = {"__reduce_cython__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_9__reduce_cython__, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_9__reduce_cython__(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -28747,14 +28742,14 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   if (unlikely(__pyx_nargs > 0)) {
     __Pyx_RaiseArgtupleInvalid("__reduce_cython__", 1, 0, 0, __pyx_nargs); return NULL;}
   if (unlikely(__pyx_kwds) && __Pyx_NumKwargs_FASTCALL(__pyx_kwds) && unlikely(!__Pyx_CheckKeywordStrings(__pyx_kwds, "__reduce_cython__", 0))) return NULL;
-  __pyx_r = __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_8__reduce_cython__(((struct __pyx_obj_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *)__pyx_v_self));
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_8__reduce_cython__(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_8__reduce_cython__(struct __pyx_obj_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *__pyx_v_self) {
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_8__reduce_cython__(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *__pyx_v_self) {
   PyObject *__pyx_v_state = 0;
   PyObject *__pyx_v__dict = 0;
   int __pyx_v_use_setstate;
@@ -29285,7 +29280,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_8__r
   __Pyx_XDECREF(__pyx_t_44);
   __Pyx_XDECREF(__pyx_t_45);
   __Pyx_XDECREF(__pyx_t_46);
-  __Pyx_AddTraceback("FBSM_Rating_Cython_SGD.FBSM_Rating_Cython_SGD.__reduce_cython__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.FBSM_Rating_Cython_SGD.FBSM_Rating_Cython_SGD.__reduce_cython__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_state);
@@ -29303,15 +29298,15 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_8__r
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_11__setstate_cython__(PyObject *__pyx_v_self, 
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_11__setstate_cython__(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static PyMethodDef __pyx_mdef_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_11__setstate_cython__ = {"__setstate_cython__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_11__setstate_cython__, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_11__setstate_cython__(PyObject *__pyx_v_self, 
+static PyMethodDef __pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_11__setstate_cython__ = {"__setstate_cython__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_11__setstate_cython__, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_11__setstate_cython__(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -29381,11 +29376,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("FBSM_Rating_Cython_SGD.FBSM_Rating_Cython_SGD.__setstate_cython__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.FBSM_Rating_Cython_SGD.FBSM_Rating_Cython_SGD.__setstate_cython__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_10__setstate_cython__(((struct __pyx_obj_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *)__pyx_v_self), __pyx_v___pyx_state);
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_10__setstate_cython__(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *)__pyx_v_self), __pyx_v___pyx_state);
 
   /* function exit code */
   {
@@ -29398,7 +29393,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_10__setstate_cython__(struct __pyx_obj_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *__pyx_v_self, PyObject *__pyx_v___pyx_state) {
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_10__setstate_cython__(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *__pyx_v_self, PyObject *__pyx_v___pyx_state) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -29413,7 +29408,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_10__
  *     __pyx_unpickle_FBSM_Rating_Cython_SGD__set_state(self, __pyx_state)             # <<<<<<<<<<<<<<
  */
   if (!(likely(PyTuple_CheckExact(__pyx_v___pyx_state))||((__pyx_v___pyx_state) == Py_None) || __Pyx_RaiseUnexpectedTypeError("tuple", __pyx_v___pyx_state))) __PYX_ERR(1, 17, __pyx_L1_error)
-  __pyx_t_1 = __pyx_f_22FBSM_Rating_Cython_SGD___pyx_unpickle_FBSM_Rating_Cython_SGD__set_state(__pyx_v_self, ((PyObject*)__pyx_v___pyx_state)); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 17, __pyx_L1_error)
+  __pyx_t_1 = __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD___pyx_unpickle_FBSM_Rating_Cython_SGD__set_state(__pyx_v_self, ((PyObject*)__pyx_v___pyx_state)); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 17, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
@@ -29429,7 +29424,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_10__
   goto __pyx_L0;
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_AddTraceback("FBSM_Rating_Cython_SGD.FBSM_Rating_Cython_SGD.__setstate_cython__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.FBSM_Rating_Cython_SGD.FBSM_Rating_Cython_SGD.__setstate_cython__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -29444,15 +29439,15 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_10__
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_22FBSM_Rating_Cython_SGD_1__pyx_unpickle_FBSM_Rating_Cython_SGD(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_1__pyx_unpickle_FBSM_Rating_Cython_SGD(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static PyMethodDef __pyx_mdef_22FBSM_Rating_Cython_SGD_1__pyx_unpickle_FBSM_Rating_Cython_SGD = {"__pyx_unpickle_FBSM_Rating_Cython_SGD", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_22FBSM_Rating_Cython_SGD_1__pyx_unpickle_FBSM_Rating_Cython_SGD, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_22FBSM_Rating_Cython_SGD_1__pyx_unpickle_FBSM_Rating_Cython_SGD(PyObject *__pyx_self, 
+static PyMethodDef __pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_1__pyx_unpickle_FBSM_Rating_Cython_SGD = {"__pyx_unpickle_FBSM_Rating_Cython_SGD", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_1__pyx_unpickle_FBSM_Rating_Cython_SGD, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_1__pyx_unpickle_FBSM_Rating_Cython_SGD(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -29552,11 +29547,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("FBSM_Rating_Cython_SGD.__pyx_unpickle_FBSM_Rating_Cython_SGD", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.FBSM_Rating_Cython_SGD.__pyx_unpickle_FBSM_Rating_Cython_SGD", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_22FBSM_Rating_Cython_SGD___pyx_unpickle_FBSM_Rating_Cython_SGD(__pyx_self, __pyx_v___pyx_type, __pyx_v___pyx_checksum, __pyx_v___pyx_state);
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD___pyx_unpickle_FBSM_Rating_Cython_SGD(__pyx_self, __pyx_v___pyx_type, __pyx_v___pyx_checksum, __pyx_v___pyx_state);
 
   /* function exit code */
   {
@@ -29569,7 +29564,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD___pyx_unpickle_FBSM_Rating_Cython_SGD(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v___pyx_type, long __pyx_v___pyx_checksum, PyObject *__pyx_v___pyx_state) {
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD___pyx_unpickle_FBSM_Rating_Cython_SGD(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v___pyx_type, long __pyx_v___pyx_checksum, PyObject *__pyx_v___pyx_state) {
   PyObject *__pyx_v___pyx_PickleError = 0;
   PyObject *__pyx_v___pyx_result = 0;
   PyObject *__pyx_r = NULL;
@@ -29651,7 +29646,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD___pyx_unpickle_FBSM_Rating_Cy
  *     if __pyx_state is not None:
  *         __pyx_unpickle_FBSM_Rating_Cython_SGD__set_state(<FBSM_Rating_Cython_SGD> __pyx_result, __pyx_state)
  */
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_ptype_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD), __pyx_n_s_new); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 7, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD), __pyx_n_s_new); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 7, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __pyx_t_4 = NULL;
   __pyx_t_5 = 0;
@@ -29696,7 +29691,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD___pyx_unpickle_FBSM_Rating_Cy
  * cdef __pyx_unpickle_FBSM_Rating_Cython_SGD__set_state(FBSM_Rating_Cython_SGD __pyx_result, tuple __pyx_state):
  */
     if (!(likely(PyTuple_CheckExact(__pyx_v___pyx_state))||((__pyx_v___pyx_state) == Py_None) || __Pyx_RaiseUnexpectedTypeError("tuple", __pyx_v___pyx_state))) __PYX_ERR(1, 9, __pyx_L1_error)
-    __pyx_t_1 = __pyx_f_22FBSM_Rating_Cython_SGD___pyx_unpickle_FBSM_Rating_Cython_SGD__set_state(((struct __pyx_obj_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *)__pyx_v___pyx_result), ((PyObject*)__pyx_v___pyx_state)); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 9, __pyx_L1_error)
+    __pyx_t_1 = __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD___pyx_unpickle_FBSM_Rating_Cython_SGD__set_state(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *)__pyx_v___pyx_result), ((PyObject*)__pyx_v___pyx_state)); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 9, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
@@ -29732,7 +29727,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD___pyx_unpickle_FBSM_Rating_Cy
   __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
-  __Pyx_AddTraceback("FBSM_Rating_Cython_SGD.__pyx_unpickle_FBSM_Rating_Cython_SGD", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.FBSM_Rating_Cython_SGD.__pyx_unpickle_FBSM_Rating_Cython_SGD", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v___pyx_PickleError);
@@ -29750,7 +29745,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD___pyx_unpickle_FBSM_Rating_Cy
  *     if len(__pyx_state) > 45 and hasattr(__pyx_result, '__dict__'):
  */
 
-static PyObject *__pyx_f_22FBSM_Rating_Cython_SGD___pyx_unpickle_FBSM_Rating_Cython_SGD__set_state(struct __pyx_obj_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *__pyx_v___pyx_result, PyObject *__pyx_v___pyx_state) {
+static PyObject *__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD___pyx_unpickle_FBSM_Rating_Cython_SGD__set_state(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *__pyx_v___pyx_result, PyObject *__pyx_v___pyx_state) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -30340,17 +30335,17 @@ static PyObject *__pyx_f_22FBSM_Rating_Cython_SGD___pyx_unpickle_FBSM_Rating_Cyt
   __Pyx_XDECREF(__pyx_t_10);
   __Pyx_XDECREF(__pyx_t_11);
   __Pyx_XDECREF(__pyx_t_12);
-  __Pyx_AddTraceback("FBSM_Rating_Cython_SGD.__pyx_unpickle_FBSM_Rating_Cython_SGD__set_state", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.FBSM_Rating_Cython_SGD.__pyx_unpickle_FBSM_Rating_Cython_SGD__set_state", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = 0;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
-static struct __pyx_vtabstruct_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD __pyx_vtable_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD;
+static struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD __pyx_vtable_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD;
 
-static PyObject *__pyx_tp_new_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD(PyTypeObject *t, CYTHON_UNUSED PyObject *a, CYTHON_UNUSED PyObject *k) {
-  struct __pyx_obj_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *p;
+static PyObject *__pyx_tp_new_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD(PyTypeObject *t, CYTHON_UNUSED PyObject *a, CYTHON_UNUSED PyObject *k) {
+  struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *p;
   PyObject *o;
   #if CYTHON_COMPILING_IN_LIMITED_API
   allocfunc alloc_func = (allocfunc)PyType_GetSlot(t, Py_tp_alloc);
@@ -30363,8 +30358,8 @@ static PyObject *__pyx_tp_new_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD(Py
   }
   if (unlikely(!o)) return 0;
   #endif
-  p = ((struct __pyx_obj_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *)o);
-  p->__pyx_vtab = __pyx_vtabptr_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD;
+  p = ((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *)o);
+  p->__pyx_vtab = __pyx_vtabptr_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD;
   p->data_list.data = NULL;
   p->data_list.memview = NULL;
   p->row_list.data = NULL;
@@ -30412,11 +30407,11 @@ static PyObject *__pyx_tp_new_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD(Py
   return o;
 }
 
-static void __pyx_tp_dealloc_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD(PyObject *o) {
-  struct __pyx_obj_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *p = (struct __pyx_obj_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *)o;
+static void __pyx_tp_dealloc_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD(PyObject *o) {
+  struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *p = (struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *)o;
   #if CYTHON_USE_TP_FINALIZE
   if (unlikely((PY_VERSION_HEX >= 0x03080000 || __Pyx_PyType_HasFeature(Py_TYPE(o), Py_TPFLAGS_HAVE_FINALIZE)) && __Pyx_PyObject_GetSlot(o, tp_finalize, destructor)) && (!PyType_IS_GC(Py_TYPE(o)) || !__Pyx_PyObject_GC_IsFinalized(o))) {
-    if (__Pyx_PyObject_GetSlot(o, tp_dealloc, destructor) == __pyx_tp_dealloc_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD) {
+    if (__Pyx_PyObject_GetSlot(o, tp_dealloc, destructor) == __pyx_tp_dealloc_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD) {
       if (PyObject_CallFinalizerFromDealloc(o)) return;
     }
   }
@@ -30475,37 +30470,37 @@ static void __pyx_tp_dealloc_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD(PyO
   #endif
 }
 
-static PyMethodDef __pyx_methods_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD[] = {
-  {"fit", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_3fit, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
-  {"get_D", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_5get_D, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
-  {"get_V", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_7get_V, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
-  {"__reduce_cython__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_9__reduce_cython__, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
-  {"__setstate_cython__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_11__setstate_cython__, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
+static PyMethodDef __pyx_methods_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD[] = {
+  {"fit", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_3fit, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
+  {"get_D", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_5get_D, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
+  {"get_V", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_7get_V, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
+  {"__reduce_cython__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_9__reduce_cython__, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
+  {"__setstate_cython__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_11__setstate_cython__, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
   {0, 0, 0, 0}
 };
 #if CYTHON_USE_TYPE_SPECS
-static PyType_Slot __pyx_type_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD_slots[] = {
-  {Py_tp_dealloc, (void *)__pyx_tp_dealloc_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD},
-  {Py_tp_methods, (void *)__pyx_methods_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD},
-  {Py_tp_init, (void *)__pyx_pw_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_1__init__},
-  {Py_tp_new, (void *)__pyx_tp_new_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD},
+static PyType_Slot __pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD_slots[] = {
+  {Py_tp_dealloc, (void *)__pyx_tp_dealloc_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD},
+  {Py_tp_methods, (void *)__pyx_methods_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD},
+  {Py_tp_init, (void *)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_1__init__},
+  {Py_tp_new, (void *)__pyx_tp_new_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD},
   {0, 0},
 };
-static PyType_Spec __pyx_type_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD_spec = {
-  "FBSM_Rating_Cython_SGD.FBSM_Rating_Cython_SGD",
-  sizeof(struct __pyx_obj_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD),
+static PyType_Spec __pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD_spec = {
+  "RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.FBSM_Rating_Cython_SGD.FBSM_Rating_Cython_SGD",
+  sizeof(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD),
   0,
   Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_VERSION_TAG|Py_TPFLAGS_CHECKTYPES|Py_TPFLAGS_HAVE_NEWBUFFER|Py_TPFLAGS_BASETYPE,
-  __pyx_type_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD_slots,
+  __pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD_slots,
 };
 #else
 
-static PyTypeObject __pyx_type_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD = {
+static PyTypeObject __pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD = {
   PyVarObject_HEAD_INIT(0, 0)
-  "FBSM_Rating_Cython_SGD.""FBSM_Rating_Cython_SGD", /*tp_name*/
-  sizeof(struct __pyx_obj_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD), /*tp_basicsize*/
+  "RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.FBSM_Rating_Cython_SGD.""FBSM_Rating_Cython_SGD", /*tp_name*/
+  sizeof(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD), /*tp_basicsize*/
   0, /*tp_itemsize*/
-  __pyx_tp_dealloc_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD, /*tp_dealloc*/
+  __pyx_tp_dealloc_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD, /*tp_dealloc*/
   #if PY_VERSION_HEX < 0x030800b4
   0, /*tp_print*/
   #endif
@@ -30538,7 +30533,7 @@ static PyTypeObject __pyx_type_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD =
   0, /*tp_weaklistoffset*/
   0, /*tp_iter*/
   0, /*tp_iternext*/
-  __pyx_methods_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD, /*tp_methods*/
+  __pyx_methods_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD, /*tp_methods*/
   0, /*tp_members*/
   0, /*tp_getset*/
   0, /*tp_base*/
@@ -30548,9 +30543,9 @@ static PyTypeObject __pyx_type_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD =
   #if !CYTHON_USE_TYPE_SPECS
   0, /*tp_dictoffset*/
   #endif
-  __pyx_pw_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_1__init__, /*tp_init*/
+  __pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_1__init__, /*tp_init*/
   0, /*tp_alloc*/
-  __pyx_tp_new_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD, /*tp_new*/
+  __pyx_tp_new_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD, /*tp_new*/
   0, /*tp_free*/
   0, /*tp_is_gc*/
   0, /*tp_bases*/
@@ -30722,7 +30717,7 @@ static PyType_Slot __pyx_type___pyx_array_slots[] = {
   {0, 0},
 };
 static PyType_Spec __pyx_type___pyx_array_spec = {
-  "FBSM_Rating_Cython_SGD.array",
+  "RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.FBSM_Rating_Cython_SGD.array",
   sizeof(struct __pyx_array_obj),
   0,
   Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_VERSION_TAG|Py_TPFLAGS_CHECKTYPES|Py_TPFLAGS_HAVE_NEWBUFFER|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_SEQUENCE,
@@ -30768,7 +30763,7 @@ static PyBufferProcs __pyx_tp_as_buffer_array = {
 
 static PyTypeObject __pyx_type___pyx_array = {
   PyVarObject_HEAD_INIT(0, 0)
-  "FBSM_Rating_Cython_SGD.""array", /*tp_name*/
+  "RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.FBSM_Rating_Cython_SGD.""array", /*tp_name*/
   sizeof(struct __pyx_array_obj), /*tp_basicsize*/
   0, /*tp_itemsize*/
   __pyx_tp_dealloc_array, /*tp_dealloc*/
@@ -30931,7 +30926,7 @@ static PyType_Slot __pyx_type___pyx_MemviewEnum_slots[] = {
   {0, 0},
 };
 static PyType_Spec __pyx_type___pyx_MemviewEnum_spec = {
-  "FBSM_Rating_Cython_SGD.Enum",
+  "RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.FBSM_Rating_Cython_SGD.Enum",
   sizeof(struct __pyx_MemviewEnum_obj),
   0,
   Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_VERSION_TAG|Py_TPFLAGS_CHECKTYPES|Py_TPFLAGS_HAVE_NEWBUFFER|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_HAVE_GC,
@@ -30941,7 +30936,7 @@ static PyType_Spec __pyx_type___pyx_MemviewEnum_spec = {
 
 static PyTypeObject __pyx_type___pyx_MemviewEnum = {
   PyVarObject_HEAD_INIT(0, 0)
-  "FBSM_Rating_Cython_SGD.""Enum", /*tp_name*/
+  "RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.FBSM_Rating_Cython_SGD.""Enum", /*tp_name*/
   sizeof(struct __pyx_MemviewEnum_obj), /*tp_basicsize*/
   0, /*tp_itemsize*/
   __pyx_tp_dealloc_Enum, /*tp_dealloc*/
@@ -31241,7 +31236,7 @@ static PyType_Slot __pyx_type___pyx_memoryview_slots[] = {
   {0, 0},
 };
 static PyType_Spec __pyx_type___pyx_memoryview_spec = {
-  "FBSM_Rating_Cython_SGD.memoryview",
+  "RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.FBSM_Rating_Cython_SGD.memoryview",
   sizeof(struct __pyx_memoryview_obj),
   0,
   Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_VERSION_TAG|Py_TPFLAGS_CHECKTYPES|Py_TPFLAGS_HAVE_NEWBUFFER|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_HAVE_GC,
@@ -31287,7 +31282,7 @@ static PyBufferProcs __pyx_tp_as_buffer_memoryview = {
 
 static PyTypeObject __pyx_type___pyx_memoryview = {
   PyVarObject_HEAD_INIT(0, 0)
-  "FBSM_Rating_Cython_SGD.""memoryview", /*tp_name*/
+  "RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.FBSM_Rating_Cython_SGD.""memoryview", /*tp_name*/
   sizeof(struct __pyx_memoryview_obj), /*tp_basicsize*/
   0, /*tp_itemsize*/
   __pyx_tp_dealloc_memoryview, /*tp_dealloc*/
@@ -31442,7 +31437,7 @@ static PyType_Slot __pyx_type___pyx_memoryviewslice_slots[] = {
   {0, 0},
 };
 static PyType_Spec __pyx_type___pyx_memoryviewslice_spec = {
-  "FBSM_Rating_Cython_SGD._memoryviewslice",
+  "RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.FBSM_Rating_Cython_SGD._memoryviewslice",
   sizeof(struct __pyx_memoryviewslice_obj),
   0,
   Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_VERSION_TAG|Py_TPFLAGS_CHECKTYPES|Py_TPFLAGS_HAVE_NEWBUFFER|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_SEQUENCE,
@@ -31452,7 +31447,7 @@ static PyType_Spec __pyx_type___pyx_memoryviewslice_spec = {
 
 static PyTypeObject __pyx_type___pyx_memoryviewslice = {
   PyVarObject_HEAD_INIT(0, 0)
-  "FBSM_Rating_Cython_SGD.""_memoryviewslice", /*tp_name*/
+  "RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.FBSM_Rating_Cython_SGD.""_memoryviewslice", /*tp_name*/
   sizeof(struct __pyx_memoryviewslice_obj), /*tp_basicsize*/
   0, /*tp_itemsize*/
   __pyx_tp_dealloc__memoryviewslice, /*tp_dealloc*/
@@ -31601,6 +31596,7 @@ static int __Pyx_CreateStringTabAndInitStrings(void) {
     {&__pyx_n_b_O, __pyx_k_O, sizeof(__pyx_k_O), 0, 0, 0, 1},
     {&__pyx_kp_u_Out_of_bounds_on_buffer_access_a, __pyx_k_Out_of_bounds_on_buffer_access_a, sizeof(__pyx_k_Out_of_bounds_on_buffer_access_a), 0, 1, 0, 0},
     {&__pyx_n_s_PickleError, __pyx_k_PickleError, sizeof(__pyx_k_PickleError), 0, 0, 1, 1},
+    {&__pyx_n_s_RecSysCompetition2024Polimi_libs, __pyx_k_RecSysCompetition2024Polimi_libs, sizeof(__pyx_k_RecSysCompetition2024Polimi_libs), 0, 0, 1, 1},
     {&__pyx_n_s_Recommenders_Recommender_utils, __pyx_k_Recommenders_Recommender_utils, sizeof(__pyx_k_Recommenders_Recommender_utils), 0, 0, 1, 1},
     {&__pyx_kp_s_SGD_mode_not_valid_Acceptable_va, __pyx_k_SGD_mode_not_valid_Acceptable_va, sizeof(__pyx_k_SGD_mode_not_valid_Acceptable_va), 0, 0, 1, 0},
     {&__pyx_n_s_Sequence, __pyx_k_Sequence, sizeof(__pyx_k_Sequence), 0, 0, 1, 1},
@@ -31794,7 +31790,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedBuiltins(void) {
   __pyx_builtin_Ellipsis = __Pyx_GetBuiltinName(__pyx_n_s_Ellipsis); if (!__pyx_builtin_Ellipsis) __PYX_ERR(1, 408, __pyx_L1_error)
   __pyx_builtin_id = __Pyx_GetBuiltinName(__pyx_n_s_id); if (!__pyx_builtin_id) __PYX_ERR(1, 618, __pyx_L1_error)
   __pyx_builtin_IndexError = __Pyx_GetBuiltinName(__pyx_n_s_IndexError); if (!__pyx_builtin_IndexError) __PYX_ERR(1, 914, __pyx_L1_error)
-  __pyx_builtin_ImportError = __Pyx_GetBuiltinName(__pyx_n_s_ImportError); if (!__pyx_builtin_ImportError) __PYX_ERR(2, 987, __pyx_L1_error)
+  __pyx_builtin_ImportError = __Pyx_GetBuiltinName(__pyx_n_s_ImportError); if (!__pyx_builtin_ImportError) __PYX_ERR(2, 984, __pyx_L1_error)
   return 0;
   __pyx_L1_error:;
   return -1;
@@ -31841,29 +31837,29 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__8);
   __Pyx_GIVEREF(__pyx_tuple__8);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":987
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":984
  *         __pyx_import_array()
  *     except Exception:
  *         raise ImportError("numpy.core.multiarray failed to import")             # <<<<<<<<<<<<<<
  * 
  * cdef inline int import_umath() except -1:
  */
-  __pyx_tuple__9 = PyTuple_Pack(1, __pyx_kp_s_numpy_core_multiarray_failed_to); if (unlikely(!__pyx_tuple__9)) __PYX_ERR(2, 987, __pyx_L1_error)
+  __pyx_tuple__9 = PyTuple_Pack(1, __pyx_kp_s_numpy_core_multiarray_failed_to); if (unlikely(!__pyx_tuple__9)) __PYX_ERR(2, 984, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__9);
   __Pyx_GIVEREF(__pyx_tuple__9);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":993
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":990
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")             # <<<<<<<<<<<<<<
  * 
  * cdef inline int import_ufunc() except -1:
  */
-  __pyx_tuple__10 = PyTuple_Pack(1, __pyx_kp_s_numpy_core_umath_failed_to_impor); if (unlikely(!__pyx_tuple__10)) __PYX_ERR(2, 993, __pyx_L1_error)
+  __pyx_tuple__10 = PyTuple_Pack(1, __pyx_kp_s_numpy_core_umath_failed_to_impor); if (unlikely(!__pyx_tuple__10)) __PYX_ERR(2, 990, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__10);
   __Pyx_GIVEREF(__pyx_tuple__10);
 
-  /* "FBSM_Rating_Cython_SGD.pyx":143
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":143
  * 
  *             if self.verbose:
  *                 print("FBSM_Rating_Cython: Precomputing user_feature_count...")             # <<<<<<<<<<<<<<
@@ -31986,7 +31982,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__22);
   __pyx_codeobj__23 = (PyObject*)__Pyx_PyCode_New(3, 0, 0, 5, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__22, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_stringsource, __pyx_n_s_pyx_unpickle_Enum, 1, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__23)) __PYX_ERR(1, 1, __pyx_L1_error)
 
-  /* "FBSM_Rating_Cython_SGD.pyx":217
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":217
  * 
  * 
  *     def fit(self):             # <<<<<<<<<<<<<<
@@ -31998,7 +31994,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__24);
   __pyx_codeobj__25 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 28, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__24, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_FBSM_Rating_Cython_SGD_pyx, __pyx_n_s_fit, 217, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__25)) __PYX_ERR(0, 217, __pyx_L1_error)
 
-  /* "FBSM_Rating_Cython_SGD.pyx":557
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":557
  * 
  * 
  *     def get_D(self):             # <<<<<<<<<<<<<<
@@ -32010,7 +32006,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__26);
   __pyx_codeobj__27 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 1, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__26, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_FBSM_Rating_Cython_SGD_pyx, __pyx_n_s_get_D, 557, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__27)) __PYX_ERR(0, 557, __pyx_L1_error)
 
-  /* "FBSM_Rating_Cython_SGD.pyx":560
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":560
  *         return np.array(self.D)
  * 
  *     def get_V(self):             # <<<<<<<<<<<<<<
@@ -32155,39 +32151,39 @@ static int __Pyx_modinit_type_init_code(void) {
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__Pyx_modinit_type_init_code", 0);
   /*--- Type init code ---*/
-  __pyx_vtabptr_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD = &__pyx_vtable_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD;
-  __pyx_vtable_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD.get_features_vector = (__Pyx_memviewslice (*)(struct __pyx_obj_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *, long))__pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_get_features_vector;
-  __pyx_vtable_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD.get_user_feature_count = (PyObject *(*)(struct __pyx_obj_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *, long))__pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_get_user_feature_count;
-  __pyx_vtable_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD.get_user_feature_count_compute = (PyObject *(*)(struct __pyx_obj_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *, struct __pyx_t_22FBSM_Rating_Cython_SGD_BPR_sample))__pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_get_user_feature_count_compute;
-  __pyx_vtable_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD.sampleBPR_Cython = (struct __pyx_t_22FBSM_Rating_Cython_SGD_BPR_sample (*)(struct __pyx_obj_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *))__pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_sampleBPR_Cython;
-  __pyx_vtable_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD.compute_adaptive_gradient_D = (double (*)(struct __pyx_obj_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *, int, double))__pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_compute_adaptive_gradient_D;
-  __pyx_vtable_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD.compute_adaptive_gradient_V = (double (*)(struct __pyx_obj_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *, int, int, double))__pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_compute_adaptive_gradient_V;
+  __pyx_vtabptr_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD = &__pyx_vtable_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD;
+  __pyx_vtable_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD.get_features_vector = (__Pyx_memviewslice (*)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *, long))__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_get_features_vector;
+  __pyx_vtable_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD.get_user_feature_count = (PyObject *(*)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *, long))__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_get_user_feature_count;
+  __pyx_vtable_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD.get_user_feature_count_compute = (PyObject *(*)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *, struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_BPR_sample))__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_get_user_feature_count_compute;
+  __pyx_vtable_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD.sampleBPR_Cython = (struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_BPR_sample (*)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *))__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_sampleBPR_Cython;
+  __pyx_vtable_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD.compute_adaptive_gradient_D = (double (*)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *, int, double))__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_compute_adaptive_gradient_D;
+  __pyx_vtable_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD.compute_adaptive_gradient_V = (double (*)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *, int, int, double))__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_compute_adaptive_gradient_V;
   #if CYTHON_USE_TYPE_SPECS
-  __pyx_ptype_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD = (PyTypeObject *) __Pyx_PyType_FromModuleAndSpec(__pyx_m, &__pyx_type_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD_spec, NULL); if (unlikely(!__pyx_ptype_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD)) __PYX_ERR(0, 40, __pyx_L1_error)
-  if (__Pyx_fix_up_extension_type_from_spec(&__pyx_type_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD_spec, __pyx_ptype_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD) < 0) __PYX_ERR(0, 40, __pyx_L1_error)
+  __pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD = (PyTypeObject *) __Pyx_PyType_FromModuleAndSpec(__pyx_m, &__pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD_spec, NULL); if (unlikely(!__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD)) __PYX_ERR(0, 40, __pyx_L1_error)
+  if (__Pyx_fix_up_extension_type_from_spec(&__pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD_spec, __pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD) < 0) __PYX_ERR(0, 40, __pyx_L1_error)
   #else
-  __pyx_ptype_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD = &__pyx_type_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD;
+  __pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD = &__pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD;
   #endif
   #if !CYTHON_COMPILING_IN_LIMITED_API
   #endif
   #if !CYTHON_USE_TYPE_SPECS
-  if (__Pyx_PyType_Ready(__pyx_ptype_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD) < 0) __PYX_ERR(0, 40, __pyx_L1_error)
+  if (__Pyx_PyType_Ready(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD) < 0) __PYX_ERR(0, 40, __pyx_L1_error)
   #endif
   #if PY_MAJOR_VERSION < 3
-  __pyx_ptype_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD->tp_print = 0;
+  __pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD->tp_print = 0;
   #endif
   #if !CYTHON_COMPILING_IN_LIMITED_API
-  if ((CYTHON_USE_TYPE_SLOTS && CYTHON_USE_PYTYPE_LOOKUP) && likely(!__pyx_ptype_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD->tp_dictoffset && __pyx_ptype_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD->tp_getattro == PyObject_GenericGetAttr)) {
-    __pyx_ptype_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD->tp_getattro = __Pyx_PyObject_GenericGetAttr;
+  if ((CYTHON_USE_TYPE_SLOTS && CYTHON_USE_PYTYPE_LOOKUP) && likely(!__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD->tp_dictoffset && __pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD->tp_getattro == PyObject_GenericGetAttr)) {
+    __pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD->tp_getattro = __Pyx_PyObject_GenericGetAttr;
   }
   #endif
-  if (__Pyx_SetVtable(__pyx_ptype_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD, __pyx_vtabptr_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD) < 0) __PYX_ERR(0, 40, __pyx_L1_error)
+  if (__Pyx_SetVtable(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD, __pyx_vtabptr_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD) < 0) __PYX_ERR(0, 40, __pyx_L1_error)
   #if !CYTHON_COMPILING_IN_LIMITED_API
-  if (__Pyx_MergeVtables(__pyx_ptype_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD) < 0) __PYX_ERR(0, 40, __pyx_L1_error)
+  if (__Pyx_MergeVtables(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD) < 0) __PYX_ERR(0, 40, __pyx_L1_error)
   #endif
-  if (PyObject_SetAttr(__pyx_m, __pyx_n_s_FBSM_Rating_Cython_SGD, (PyObject *) __pyx_ptype_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD) < 0) __PYX_ERR(0, 40, __pyx_L1_error)
+  if (PyObject_SetAttr(__pyx_m, __pyx_n_s_FBSM_Rating_Cython_SGD, (PyObject *) __pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD) < 0) __PYX_ERR(0, 40, __pyx_L1_error)
   #if !CYTHON_COMPILING_IN_LIMITED_API
-  if (__Pyx_setup_reduce((PyObject *) __pyx_ptype_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD) < 0) __PYX_ERR(0, 40, __pyx_L1_error)
+  if (__Pyx_setup_reduce((PyObject *) __pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD) < 0) __PYX_ERR(0, 40, __pyx_L1_error)
   #endif
   __pyx_vtabptr_array = &__pyx_vtable_array;
   __pyx_vtable_array.get_memview = (PyObject *(*)(struct __pyx_array_obj *))__pyx_array_get_memview;
@@ -32357,23 +32353,23 @@ static int __Pyx_modinit_type_import_code(void) {
   #endif
   __Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_7cpython_4type_type) __PYX_ERR(4, 9, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_1 = PyImport_ImportModule("numpy"); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 203, __pyx_L1_error)
+  __pyx_t_1 = PyImport_ImportModule("numpy"); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 202, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_ptype_5numpy_dtype = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "dtype", sizeof(PyArray_Descr), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyArray_Descr),__Pyx_ImportType_CheckSize_Ignore_3_0_11); if (!__pyx_ptype_5numpy_dtype) __PYX_ERR(2, 203, __pyx_L1_error)
-  __pyx_ptype_5numpy_flatiter = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "flatiter", sizeof(PyArrayIterObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyArrayIterObject),__Pyx_ImportType_CheckSize_Ignore_3_0_11); if (!__pyx_ptype_5numpy_flatiter) __PYX_ERR(2, 226, __pyx_L1_error)
-  __pyx_ptype_5numpy_broadcast = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "broadcast", sizeof(PyArrayMultiIterObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyArrayMultiIterObject),__Pyx_ImportType_CheckSize_Ignore_3_0_11); if (!__pyx_ptype_5numpy_broadcast) __PYX_ERR(2, 230, __pyx_L1_error)
-  __pyx_ptype_5numpy_ndarray = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "ndarray", sizeof(PyArrayObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyArrayObject),__Pyx_ImportType_CheckSize_Ignore_3_0_11); if (!__pyx_ptype_5numpy_ndarray) __PYX_ERR(2, 239, __pyx_L1_error)
-  __pyx_ptype_5numpy_generic = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "generic", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_generic) __PYX_ERR(2, 813, __pyx_L1_error)
-  __pyx_ptype_5numpy_number = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "number", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_number) __PYX_ERR(2, 815, __pyx_L1_error)
-  __pyx_ptype_5numpy_integer = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "integer", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_integer) __PYX_ERR(2, 817, __pyx_L1_error)
-  __pyx_ptype_5numpy_signedinteger = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "signedinteger", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_signedinteger) __PYX_ERR(2, 819, __pyx_L1_error)
-  __pyx_ptype_5numpy_unsignedinteger = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "unsignedinteger", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_unsignedinteger) __PYX_ERR(2, 821, __pyx_L1_error)
-  __pyx_ptype_5numpy_inexact = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "inexact", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_inexact) __PYX_ERR(2, 823, __pyx_L1_error)
-  __pyx_ptype_5numpy_floating = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "floating", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_floating) __PYX_ERR(2, 825, __pyx_L1_error)
-  __pyx_ptype_5numpy_complexfloating = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "complexfloating", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_complexfloating) __PYX_ERR(2, 827, __pyx_L1_error)
-  __pyx_ptype_5numpy_flexible = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "flexible", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_flexible) __PYX_ERR(2, 829, __pyx_L1_error)
-  __pyx_ptype_5numpy_character = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "character", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_character) __PYX_ERR(2, 831, __pyx_L1_error)
-  __pyx_ptype_5numpy_ufunc = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "ufunc", sizeof(PyUFuncObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyUFuncObject),__Pyx_ImportType_CheckSize_Ignore_3_0_11); if (!__pyx_ptype_5numpy_ufunc) __PYX_ERR(2, 869, __pyx_L1_error)
+  __pyx_ptype_5numpy_dtype = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "dtype", sizeof(PyArray_Descr), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyArray_Descr),__Pyx_ImportType_CheckSize_Ignore_3_0_11); if (!__pyx_ptype_5numpy_dtype) __PYX_ERR(2, 202, __pyx_L1_error)
+  __pyx_ptype_5numpy_flatiter = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "flatiter", sizeof(PyArrayIterObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyArrayIterObject),__Pyx_ImportType_CheckSize_Ignore_3_0_11); if (!__pyx_ptype_5numpy_flatiter) __PYX_ERR(2, 225, __pyx_L1_error)
+  __pyx_ptype_5numpy_broadcast = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "broadcast", sizeof(PyArrayMultiIterObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyArrayMultiIterObject),__Pyx_ImportType_CheckSize_Ignore_3_0_11); if (!__pyx_ptype_5numpy_broadcast) __PYX_ERR(2, 229, __pyx_L1_error)
+  __pyx_ptype_5numpy_ndarray = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "ndarray", sizeof(PyArrayObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyArrayObject),__Pyx_ImportType_CheckSize_Ignore_3_0_11); if (!__pyx_ptype_5numpy_ndarray) __PYX_ERR(2, 238, __pyx_L1_error)
+  __pyx_ptype_5numpy_generic = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "generic", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_generic) __PYX_ERR(2, 809, __pyx_L1_error)
+  __pyx_ptype_5numpy_number = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "number", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_number) __PYX_ERR(2, 811, __pyx_L1_error)
+  __pyx_ptype_5numpy_integer = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "integer", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_integer) __PYX_ERR(2, 813, __pyx_L1_error)
+  __pyx_ptype_5numpy_signedinteger = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "signedinteger", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_signedinteger) __PYX_ERR(2, 815, __pyx_L1_error)
+  __pyx_ptype_5numpy_unsignedinteger = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "unsignedinteger", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_unsignedinteger) __PYX_ERR(2, 817, __pyx_L1_error)
+  __pyx_ptype_5numpy_inexact = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "inexact", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_inexact) __PYX_ERR(2, 819, __pyx_L1_error)
+  __pyx_ptype_5numpy_floating = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "floating", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_floating) __PYX_ERR(2, 821, __pyx_L1_error)
+  __pyx_ptype_5numpy_complexfloating = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "complexfloating", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_complexfloating) __PYX_ERR(2, 823, __pyx_L1_error)
+  __pyx_ptype_5numpy_flexible = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "flexible", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_flexible) __PYX_ERR(2, 825, __pyx_L1_error)
+  __pyx_ptype_5numpy_character = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "character", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_character) __PYX_ERR(2, 827, __pyx_L1_error)
+  __pyx_ptype_5numpy_ufunc = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "ufunc", sizeof(PyUFuncObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyUFuncObject),__Pyx_ImportType_CheckSize_Ignore_3_0_11); if (!__pyx_ptype_5numpy_ufunc) __PYX_ERR(2, 866, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_t_1 = PyImport_ImportModule("array"); if (unlikely(!__pyx_t_1)) __PYX_ERR(3, 69, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
@@ -32659,14 +32655,14 @@ if (!__Pyx_RefNanny) {
   #if PY_MAJOR_VERSION < 3 && (__PYX_DEFAULT_STRING_ENCODING_IS_ASCII || __PYX_DEFAULT_STRING_ENCODING_IS_DEFAULT)
   if (__Pyx_init_sys_getdefaultencoding_params() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   #endif
-  if (__pyx_module_is_main_FBSM_Rating_Cython_SGD) {
+  if (__pyx_module_is_main_RecSysCompetition2024Polimi__libs__Recommenders__FeatureWeighting__Cython__FBSM_Rating_Cython_SGD) {
     if (PyObject_SetAttr(__pyx_m, __pyx_n_s_name_2, __pyx_n_s_main) < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   }
   #if PY_MAJOR_VERSION >= 3
   {
     PyObject *modules = PyImport_GetModuleDict(); if (unlikely(!modules)) __PYX_ERR(0, 1, __pyx_L1_error)
-    if (!PyDict_GetItemString(modules, "FBSM_Rating_Cython_SGD")) {
-      if (unlikely((PyDict_SetItemString(modules, "FBSM_Rating_Cython_SGD", __pyx_m) < 0))) __PYX_ERR(0, 1, __pyx_L1_error)
+    if (!PyDict_GetItemString(modules, "RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.FBSM_Rating_Cython_SGD")) {
+      if (unlikely((PyDict_SetItemString(modules, "RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.FBSM_Rating_Cython_SGD", __pyx_m) < 0))) __PYX_ERR(0, 1, __pyx_L1_error)
     }
   }
   #endif
@@ -33200,7 +33196,7 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_pyx_unpickle_Enum, __pyx_t_7) < 0) __PYX_ERR(1, 1, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-  /* "FBSM_Rating_Cython_SGD.pyx":19
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":19
  * 
  * cimport numpy as np
  * import numpy as np             # <<<<<<<<<<<<<<
@@ -33212,7 +33208,7 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_np, __pyx_t_7) < 0) __PYX_ERR(0, 19, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-  /* "FBSM_Rating_Cython_SGD.pyx":27
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":27
  * 
  * 
  * from Recommenders.Recommender_utils import check_matrix             # <<<<<<<<<<<<<<
@@ -33233,7 +33229,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "FBSM_Rating_Cython_SGD.pyx":28
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":28
  * 
  * from Recommenders.Recommender_utils import check_matrix
  * import time             # <<<<<<<<<<<<<<
@@ -33245,55 +33241,55 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_time, __pyx_t_4) < 0) __PYX_ERR(0, 28, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "FBSM_Rating_Cython_SGD.pyx":217
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":217
  * 
  * 
  *     def fit(self):             # <<<<<<<<<<<<<<
  * 
  * 
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_3fit, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_FBSM_Rating_Cython_SGD_fit, NULL, __pyx_n_s_FBSM_Rating_Cython_SGD, __pyx_d, ((PyObject *)__pyx_codeobj__25)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 217, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_3fit, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_FBSM_Rating_Cython_SGD_fit, NULL, __pyx_n_s_RecSysCompetition2024Polimi_libs, __pyx_d, ((PyObject *)__pyx_codeobj__25)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 217, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD, __pyx_n_s_fit, __pyx_t_4) < 0) __PYX_ERR(0, 217, __pyx_L1_error)
+  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD, __pyx_n_s_fit, __pyx_t_4) < 0) __PYX_ERR(0, 217, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  PyType_Modified(__pyx_ptype_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD);
+  PyType_Modified(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD);
 
-  /* "FBSM_Rating_Cython_SGD.pyx":557
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":557
  * 
  * 
  *     def get_D(self):             # <<<<<<<<<<<<<<
  *         return np.array(self.D)
  * 
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_5get_D, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_FBSM_Rating_Cython_SGD_get_D, NULL, __pyx_n_s_FBSM_Rating_Cython_SGD, __pyx_d, ((PyObject *)__pyx_codeobj__27)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 557, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_5get_D, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_FBSM_Rating_Cython_SGD_get_D, NULL, __pyx_n_s_RecSysCompetition2024Polimi_libs, __pyx_d, ((PyObject *)__pyx_codeobj__27)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 557, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD, __pyx_n_s_get_D, __pyx_t_4) < 0) __PYX_ERR(0, 557, __pyx_L1_error)
+  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD, __pyx_n_s_get_D, __pyx_t_4) < 0) __PYX_ERR(0, 557, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  PyType_Modified(__pyx_ptype_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD);
+  PyType_Modified(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD);
 
-  /* "FBSM_Rating_Cython_SGD.pyx":560
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":560
  *         return np.array(self.D)
  * 
  *     def get_V(self):             # <<<<<<<<<<<<<<
  *         return  np.array(self.V)
  * 
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_7get_V, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_FBSM_Rating_Cython_SGD_get_V, NULL, __pyx_n_s_FBSM_Rating_Cython_SGD, __pyx_d, ((PyObject *)__pyx_codeobj__28)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 560, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_7get_V, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_FBSM_Rating_Cython_SGD_get_V, NULL, __pyx_n_s_RecSysCompetition2024Polimi_libs, __pyx_d, ((PyObject *)__pyx_codeobj__28)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 560, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD, __pyx_n_s_get_V, __pyx_t_4) < 0) __PYX_ERR(0, 560, __pyx_L1_error)
+  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD, __pyx_n_s_get_V, __pyx_t_4) < 0) __PYX_ERR(0, 560, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  PyType_Modified(__pyx_ptype_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD);
+  PyType_Modified(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD);
 
   /* "(tree fragment)":1
  * def __reduce_cython__(self):             # <<<<<<<<<<<<<<
  *     cdef tuple state
  *     cdef object _dict
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_9__reduce_cython__, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_FBSM_Rating_Cython_SGD___reduce, NULL, __pyx_n_s_FBSM_Rating_Cython_SGD, __pyx_d, ((PyObject *)__pyx_codeobj__30)); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 1, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_9__reduce_cython__, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_FBSM_Rating_Cython_SGD___reduce, NULL, __pyx_n_s_RecSysCompetition2024Polimi_libs, __pyx_d, ((PyObject *)__pyx_codeobj__30)); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 1, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD, __pyx_n_s_reduce_cython, __pyx_t_4) < 0) __PYX_ERR(1, 1, __pyx_L1_error)
+  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD, __pyx_n_s_reduce_cython, __pyx_t_4) < 0) __PYX_ERR(1, 1, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  PyType_Modified(__pyx_ptype_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD);
+  PyType_Modified(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD);
 
   /* "(tree fragment)":16
  *     else:
@@ -33301,23 +33297,23 @@ if (!__Pyx_RefNanny) {
  * def __setstate_cython__(self, __pyx_state):             # <<<<<<<<<<<<<<
  *     __pyx_unpickle_FBSM_Rating_Cython_SGD__set_state(self, __pyx_state)
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_11__setstate_cython__, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_FBSM_Rating_Cython_SGD___setstat, NULL, __pyx_n_s_FBSM_Rating_Cython_SGD, __pyx_d, ((PyObject *)__pyx_codeobj__32)); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 16, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_11__setstate_cython__, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_FBSM_Rating_Cython_SGD___setstat, NULL, __pyx_n_s_RecSysCompetition2024Polimi_libs, __pyx_d, ((PyObject *)__pyx_codeobj__32)); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 16, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD, __pyx_n_s_setstate_cython, __pyx_t_4) < 0) __PYX_ERR(1, 16, __pyx_L1_error)
+  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD, __pyx_n_s_setstate_cython, __pyx_t_4) < 0) __PYX_ERR(1, 16, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  PyType_Modified(__pyx_ptype_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD);
+  PyType_Modified(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD);
 
   /* "(tree fragment)":1
  * def __pyx_unpickle_FBSM_Rating_Cython_SGD(__pyx_type, long __pyx_checksum, __pyx_state):             # <<<<<<<<<<<<<<
  *     cdef object __pyx_PickleError
  *     cdef object __pyx_result
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_22FBSM_Rating_Cython_SGD_1__pyx_unpickle_FBSM_Rating_Cython_SGD, 0, __pyx_n_s_pyx_unpickle_FBSM_Rating_Cytho, NULL, __pyx_n_s_FBSM_Rating_Cython_SGD, __pyx_d, ((PyObject *)__pyx_codeobj__33)); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 1, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_1__pyx_unpickle_FBSM_Rating_Cython_SGD, 0, __pyx_n_s_pyx_unpickle_FBSM_Rating_Cytho, NULL, __pyx_n_s_RecSysCompetition2024Polimi_libs, __pyx_d, ((PyObject *)__pyx_codeobj__33)); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 1, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_pyx_unpickle_FBSM_Rating_Cytho, __pyx_t_4) < 0) __PYX_ERR(1, 1, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "FBSM_Rating_Cython_SGD.pyx":1
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/FBSM_Rating_Cython_SGD.pyx":1
  * """             # <<<<<<<<<<<<<<
  * Created on 03/02/2018
  * 
@@ -33336,7 +33332,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_XDECREF(__pyx_t_7);
   if (__pyx_m) {
     if (__pyx_d && stringtab_initialized) {
-      __Pyx_AddTraceback("init FBSM_Rating_Cython_SGD", __pyx_clineno, __pyx_lineno, __pyx_filename);
+      __Pyx_AddTraceback("init RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.FBSM_Rating_Cython_SGD", __pyx_clineno, __pyx_lineno, __pyx_filename);
     }
     #if !CYTHON_USE_MODULE_STATE
     Py_CLEAR(__pyx_m);
@@ -33350,7 +33346,7 @@ if (!__Pyx_RefNanny) {
     }
     #endif
   } else if (!PyErr_Occurred()) {
-    PyErr_SetString(PyExc_ImportError, "init FBSM_Rating_Cython_SGD");
+    PyErr_SetString(PyExc_ImportError, "init RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.FBSM_Rating_Cython_SGD");
   }
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();

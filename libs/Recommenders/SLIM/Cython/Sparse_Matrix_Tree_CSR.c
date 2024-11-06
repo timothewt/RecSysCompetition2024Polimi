@@ -1216,8 +1216,8 @@ static CYTHON_INLINE float __PYX_NAN() {
   #endif
 #endif
 
-#define __PYX_HAVE__Sparse_Matrix_Tree_CSR
-#define __PYX_HAVE_API__Sparse_Matrix_Tree_CSR
+#define __PYX_HAVE__RecSysCompetition2024Polimi__libs__Recommenders__SLIM__Cython__Sparse_Matrix_Tree_CSR
+#define __PYX_HAVE_API__RecSysCompetition2024Polimi__libs__Recommenders__SLIM__Cython__Sparse_Matrix_Tree_CSR
 /* Early includes */
 #include <string.h>
 #include <stdio.h>
@@ -1514,7 +1514,7 @@ static const char *__pyx_f[] = {
 
 /* #### Code section: numeric_typedefs ### */
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":732
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":730
  * # in Cython to enable them only on the right systems.
  * 
  * ctypedef npy_int8       int8_t             # <<<<<<<<<<<<<<
@@ -1523,7 +1523,7 @@ static const char *__pyx_f[] = {
  */
 typedef npy_int8 __pyx_t_5numpy_int8_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":733
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":731
  * 
  * ctypedef npy_int8       int8_t
  * ctypedef npy_int16      int16_t             # <<<<<<<<<<<<<<
@@ -1532,7 +1532,7 @@ typedef npy_int8 __pyx_t_5numpy_int8_t;
  */
 typedef npy_int16 __pyx_t_5numpy_int16_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":734
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":732
  * ctypedef npy_int8       int8_t
  * ctypedef npy_int16      int16_t
  * ctypedef npy_int32      int32_t             # <<<<<<<<<<<<<<
@@ -1541,7 +1541,7 @@ typedef npy_int16 __pyx_t_5numpy_int16_t;
  */
 typedef npy_int32 __pyx_t_5numpy_int32_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":735
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":733
  * ctypedef npy_int16      int16_t
  * ctypedef npy_int32      int32_t
  * ctypedef npy_int64      int64_t             # <<<<<<<<<<<<<<
@@ -1550,7 +1550,7 @@ typedef npy_int32 __pyx_t_5numpy_int32_t;
  */
 typedef npy_int64 __pyx_t_5numpy_int64_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":739
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":737
  * #ctypedef npy_int128     int128_t
  * 
  * ctypedef npy_uint8      uint8_t             # <<<<<<<<<<<<<<
@@ -1559,7 +1559,7 @@ typedef npy_int64 __pyx_t_5numpy_int64_t;
  */
 typedef npy_uint8 __pyx_t_5numpy_uint8_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":740
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":738
  * 
  * ctypedef npy_uint8      uint8_t
  * ctypedef npy_uint16     uint16_t             # <<<<<<<<<<<<<<
@@ -1568,7 +1568,7 @@ typedef npy_uint8 __pyx_t_5numpy_uint8_t;
  */
 typedef npy_uint16 __pyx_t_5numpy_uint16_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":741
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":739
  * ctypedef npy_uint8      uint8_t
  * ctypedef npy_uint16     uint16_t
  * ctypedef npy_uint32     uint32_t             # <<<<<<<<<<<<<<
@@ -1577,7 +1577,7 @@ typedef npy_uint16 __pyx_t_5numpy_uint16_t;
  */
 typedef npy_uint32 __pyx_t_5numpy_uint32_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":742
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":740
  * ctypedef npy_uint16     uint16_t
  * ctypedef npy_uint32     uint32_t
  * ctypedef npy_uint64     uint64_t             # <<<<<<<<<<<<<<
@@ -1586,7 +1586,7 @@ typedef npy_uint32 __pyx_t_5numpy_uint32_t;
  */
 typedef npy_uint64 __pyx_t_5numpy_uint64_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":746
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":744
  * #ctypedef npy_uint128    uint128_t
  * 
  * ctypedef npy_float32    float32_t             # <<<<<<<<<<<<<<
@@ -1595,7 +1595,7 @@ typedef npy_uint64 __pyx_t_5numpy_uint64_t;
  */
 typedef npy_float32 __pyx_t_5numpy_float32_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":747
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":745
  * 
  * ctypedef npy_float32    float32_t
  * ctypedef npy_float64    float64_t             # <<<<<<<<<<<<<<
@@ -1604,61 +1604,43 @@ typedef npy_float32 __pyx_t_5numpy_float32_t;
  */
 typedef npy_float64 __pyx_t_5numpy_float64_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":756
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":754
  * # The int types are mapped a bit surprising --
  * # numpy.int corresponds to 'l' and numpy.long to 'q'
  * ctypedef npy_long       int_t             # <<<<<<<<<<<<<<
- * ctypedef npy_longlong   long_t
- * ctypedef npy_longlong   longlong_t
- */
-typedef npy_long __pyx_t_5numpy_int_t;
-
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":757
- * # numpy.int corresponds to 'l' and numpy.long to 'q'
- * ctypedef npy_long       int_t
- * ctypedef npy_longlong   long_t             # <<<<<<<<<<<<<<
  * ctypedef npy_longlong   longlong_t
  * 
  */
-typedef npy_longlong __pyx_t_5numpy_long_t;
+typedef npy_long __pyx_t_5numpy_int_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":758
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":755
+ * # numpy.int corresponds to 'l' and numpy.long to 'q'
  * ctypedef npy_long       int_t
- * ctypedef npy_longlong   long_t
  * ctypedef npy_longlong   longlong_t             # <<<<<<<<<<<<<<
  * 
  * ctypedef npy_ulong      uint_t
  */
 typedef npy_longlong __pyx_t_5numpy_longlong_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":760
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":757
  * ctypedef npy_longlong   longlong_t
  * 
  * ctypedef npy_ulong      uint_t             # <<<<<<<<<<<<<<
- * ctypedef npy_ulonglong  ulong_t
  * ctypedef npy_ulonglong  ulonglong_t
+ * 
  */
 typedef npy_ulong __pyx_t_5numpy_uint_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":761
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":758
  * 
  * ctypedef npy_ulong      uint_t
- * ctypedef npy_ulonglong  ulong_t             # <<<<<<<<<<<<<<
- * ctypedef npy_ulonglong  ulonglong_t
- * 
- */
-typedef npy_ulonglong __pyx_t_5numpy_ulong_t;
-
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":762
- * ctypedef npy_ulong      uint_t
- * ctypedef npy_ulonglong  ulong_t
  * ctypedef npy_ulonglong  ulonglong_t             # <<<<<<<<<<<<<<
  * 
  * ctypedef npy_intp       intp_t
  */
 typedef npy_ulonglong __pyx_t_5numpy_ulonglong_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":764
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":760
  * ctypedef npy_ulonglong  ulonglong_t
  * 
  * ctypedef npy_intp       intp_t             # <<<<<<<<<<<<<<
@@ -1667,7 +1649,7 @@ typedef npy_ulonglong __pyx_t_5numpy_ulonglong_t;
  */
 typedef npy_intp __pyx_t_5numpy_intp_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":765
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":761
  * 
  * ctypedef npy_intp       intp_t
  * ctypedef npy_uintp      uintp_t             # <<<<<<<<<<<<<<
@@ -1676,7 +1658,7 @@ typedef npy_intp __pyx_t_5numpy_intp_t;
  */
 typedef npy_uintp __pyx_t_5numpy_uintp_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":767
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":763
  * ctypedef npy_uintp      uintp_t
  * 
  * ctypedef npy_double     float_t             # <<<<<<<<<<<<<<
@@ -1685,7 +1667,7 @@ typedef npy_uintp __pyx_t_5numpy_uintp_t;
  */
 typedef npy_double __pyx_t_5numpy_float_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":768
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":764
  * 
  * ctypedef npy_double     float_t
  * ctypedef npy_double     double_t             # <<<<<<<<<<<<<<
@@ -1694,7 +1676,7 @@ typedef npy_double __pyx_t_5numpy_float_t;
  */
 typedef npy_double __pyx_t_5numpy_double_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":769
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":765
  * ctypedef npy_double     float_t
  * ctypedef npy_double     double_t
  * ctypedef npy_longdouble longdouble_t             # <<<<<<<<<<<<<<
@@ -1730,9 +1712,9 @@ static CYTHON_INLINE __pyx_t_double_complex __pyx_t_double_complex_from_parts(do
 /* #### Code section: type_declarations ### */
 
 /*--- Type declarations ---*/
-struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR;
+struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":771
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":767
  * ctypedef npy_longdouble longdouble_t
  * 
  * ctypedef npy_cfloat      cfloat_t             # <<<<<<<<<<<<<<
@@ -1741,7 +1723,7 @@ struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR;
  */
 typedef npy_cfloat __pyx_t_5numpy_cfloat_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":772
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":768
  * 
  * ctypedef npy_cfloat      cfloat_t
  * ctypedef npy_cdouble     cdouble_t             # <<<<<<<<<<<<<<
@@ -1750,7 +1732,7 @@ typedef npy_cfloat __pyx_t_5numpy_cfloat_t;
  */
 typedef npy_cdouble __pyx_t_5numpy_cdouble_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":773
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":769
  * ctypedef npy_cfloat      cfloat_t
  * ctypedef npy_cdouble     cdouble_t
  * ctypedef npy_clongdouble clongdouble_t             # <<<<<<<<<<<<<<
@@ -1759,7 +1741,7 @@ typedef npy_cdouble __pyx_t_5numpy_cdouble_t;
  */
 typedef npy_clongdouble __pyx_t_5numpy_clongdouble_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":775
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":771
  * ctypedef npy_clongdouble clongdouble_t
  * 
  * ctypedef npy_cdouble     complex_t             # <<<<<<<<<<<<<<
@@ -1767,94 +1749,94 @@ typedef npy_clongdouble __pyx_t_5numpy_clongdouble_t;
  * cdef inline object PyArray_MultiIterNew1(a):
  */
 typedef npy_cdouble __pyx_t_5numpy_complex_t;
-struct __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s;
-typedef struct __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s;
-struct __pyx_t_22Sparse_Matrix_Tree_CSR_head_pointer_tree_s;
-typedef struct __pyx_t_22Sparse_Matrix_Tree_CSR_head_pointer_tree_s __pyx_t_22Sparse_Matrix_Tree_CSR_head_pointer_tree_s;
-struct __pyx_opt_args_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_scipy_csr;
-struct __pyx_opt_args_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_rebalance_tree;
+struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s;
+typedef struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s;
+struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_head_pointer_tree_s;
+typedef struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_head_pointer_tree_s __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_head_pointer_tree_s;
+struct __pyx_opt_args_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_scipy_csr;
+struct __pyx_opt_args_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_rebalance_tree;
 
-/* "Sparse_Matrix_Tree_CSR.pyx":35
+/* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":35
  * 
  * # Node struct
  * ctypedef struct matrix_element_tree_s:             # <<<<<<<<<<<<<<
  *     long column
  *     double data
  */
-struct __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s {
+struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s {
   long column;
   double data;
-  __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *higher;
-  __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *lower;
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *higher;
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *lower;
 };
 
-/* "Sparse_Matrix_Tree_CSR.pyx":41
+/* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":41
  *     matrix_element_tree_s *lower
  * 
  * ctypedef struct head_pointer_tree_s:             # <<<<<<<<<<<<<<
  *     matrix_element_tree_s *head
  * 
  */
-struct __pyx_t_22Sparse_Matrix_Tree_CSR_head_pointer_tree_s {
-  __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *head;
+struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_head_pointer_tree_s {
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *head;
 };
 
-/* "Sparse_Matrix_Tree_CSR.pyx":240
+/* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":240
  * 
  * 
  *     cpdef get_scipy_csr(self, long TopK = False):             # <<<<<<<<<<<<<<
  *         """
  *         The function returns the current sparse matrix as a scipy_csr object
  */
-struct __pyx_opt_args_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_scipy_csr {
+struct __pyx_opt_args_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_scipy_csr {
   int __pyx_n;
   long TopK;
 };
 
-/* "Sparse_Matrix_Tree_CSR.pyx":288
+/* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":288
  * 
  * 
  *     cpdef rebalance_tree(self, long TopK = False):             # <<<<<<<<<<<<<<
  *         """
  *         The function builds a balanced binary tree from the current one, for all matrix rows
  */
-struct __pyx_opt_args_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_rebalance_tree {
+struct __pyx_opt_args_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_rebalance_tree {
   int __pyx_n;
   long TopK;
 };
 
-/* "Sparse_Matrix_Tree_CSR.pyx":99
+/* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":99
  * #################################
  * 
  * cdef class Sparse_Matrix_Tree_CSR:             # <<<<<<<<<<<<<<
  * 
  *     cdef long num_rows, num_cols
  */
-struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR {
+struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR {
   PyObject_HEAD
-  struct __pyx_vtabstruct_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_vtab;
+  struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_vtab;
   long num_rows;
   long num_cols;
-  __pyx_t_22Sparse_Matrix_Tree_CSR_head_pointer_tree_s *row_pointer;
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_head_pointer_tree_s *row_pointer;
 };
 
 
 
-struct __pyx_vtabstruct_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR {
-  double (*add_value)(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *, long, long, double, int __pyx_skip_dispatch);
-  double (*get_value)(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *, long, long, int __pyx_skip_dispatch);
-  PyObject *(*get_scipy_csr)(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *, int __pyx_skip_dispatch, struct __pyx_opt_args_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_scipy_csr *__pyx_optional_args);
-  PyObject *(*rebalance_tree)(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *, int __pyx_skip_dispatch, struct __pyx_opt_args_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_rebalance_tree *__pyx_optional_args);
-  __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *(*subtree_to_list_flat)(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *, __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *);
-  PyObject *(*from_linked_list_to_python_list)(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *, __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *);
-  PyObject *(*subtree_free_memory)(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *, __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *);
-  PyObject *(*list_free_memory)(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *, __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *);
-  __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *(*build_tree_from_list_flat)(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *, __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *);
-  __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *(*topK_selection_from_list)(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *, __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *, long);
-  PyObject *(*test_list_tree_conversion)(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *, long, int __pyx_skip_dispatch);
-  PyObject *(*test_topK_from_list_selection)(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *, long, long, int __pyx_skip_dispatch);
+struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR {
+  double (*add_value)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *, long, long, double, int __pyx_skip_dispatch);
+  double (*get_value)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *, long, long, int __pyx_skip_dispatch);
+  PyObject *(*get_scipy_csr)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *, int __pyx_skip_dispatch, struct __pyx_opt_args_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_scipy_csr *__pyx_optional_args);
+  PyObject *(*rebalance_tree)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *, int __pyx_skip_dispatch, struct __pyx_opt_args_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_rebalance_tree *__pyx_optional_args);
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *(*subtree_to_list_flat)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *, __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *);
+  PyObject *(*from_linked_list_to_python_list)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *, __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *);
+  PyObject *(*subtree_free_memory)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *, __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *);
+  PyObject *(*list_free_memory)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *, __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *);
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *(*build_tree_from_list_flat)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *, __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *);
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *(*topK_selection_from_list)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *, __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *, long);
+  PyObject *(*test_list_tree_conversion)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *, long, int __pyx_skip_dispatch);
+  PyObject *(*test_topK_from_list_selection)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *, long, long, int __pyx_skip_dispatch);
 };
-static struct __pyx_vtabstruct_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_vtabptr_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR;
+static struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_vtabptr_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR;
 /* #### Code section: utility_code_proto ### */
 
 /* --- Runtime support code (head) --- */
@@ -2737,18 +2719,18 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_5shape_shape(PyArrayObjec
 static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_7strides_strides(PyArrayObject *__pyx_v_self); /* proto*/
 static CYTHON_INLINE npy_intp __pyx_f_5numpy_7ndarray_4size_size(PyArrayObject *__pyx_v_self); /* proto*/
 static CYTHON_INLINE char *__pyx_f_5numpy_7ndarray_4data_data(PyArrayObject *__pyx_v_self); /* proto*/
-static double __pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_add_value(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_row, long __pyx_v_col, double __pyx_v_value, int __pyx_skip_dispatch); /* proto*/
-static double __pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_value(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_row, long __pyx_v_col, int __pyx_skip_dispatch); /* proto*/
-static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_scipy_csr(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, int __pyx_skip_dispatch, struct __pyx_opt_args_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_scipy_csr *__pyx_optional_args); /* proto*/
-static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_rebalance_tree(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, int __pyx_skip_dispatch, struct __pyx_opt_args_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_rebalance_tree *__pyx_optional_args); /* proto*/
-static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_subtree_to_list_flat(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_root); /* proto*/
-static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_from_linked_list_to_python_list(CYTHON_UNUSED struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_head); /* proto*/
-static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_subtree_free_memory(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_root); /* proto*/
-static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_list_free_memory(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_head); /* proto*/
-static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_build_tree_from_list_flat(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_flat_list_head); /* proto*/
-static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_topK_selection_from_list(CYTHON_UNUSED struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_head, long __pyx_v_TopK); /* proto*/
-static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_list_tree_conversion(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_row, int __pyx_skip_dispatch); /* proto*/
-static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_topK_from_list_selection(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_row, long __pyx_v_topK, int __pyx_skip_dispatch); /* proto*/
+static double __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_add_value(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_row, long __pyx_v_col, double __pyx_v_value, int __pyx_skip_dispatch); /* proto*/
+static double __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_value(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_row, long __pyx_v_col, int __pyx_skip_dispatch); /* proto*/
+static PyObject *__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_scipy_csr(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, int __pyx_skip_dispatch, struct __pyx_opt_args_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_scipy_csr *__pyx_optional_args); /* proto*/
+static PyObject *__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_rebalance_tree(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, int __pyx_skip_dispatch, struct __pyx_opt_args_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_rebalance_tree *__pyx_optional_args); /* proto*/
+static __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_subtree_to_list_flat(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_root); /* proto*/
+static PyObject *__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_from_linked_list_to_python_list(CYTHON_UNUSED struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_head); /* proto*/
+static PyObject *__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_subtree_free_memory(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_root); /* proto*/
+static PyObject *__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_list_free_memory(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_head); /* proto*/
+static __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_build_tree_from_list_flat(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_flat_list_head); /* proto*/
+static __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_topK_selection_from_list(CYTHON_UNUSED struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_head, long __pyx_v_TopK); /* proto*/
+static PyObject *__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_list_tree_conversion(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_row, int __pyx_skip_dispatch); /* proto*/
+static PyObject *__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_topK_from_list_selection(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_row, long __pyx_v_topK, int __pyx_skip_dispatch); /* proto*/
 
 /* Module declarations from "libc.string" */
 
@@ -2770,17 +2752,17 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
 
 /* Module declarations from "libc.stdlib" */
 
-/* Module declarations from "Sparse_Matrix_Tree_CSR" */
-static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_Matrix_Tree_CSR_pointer_new_matrix_element_tree_s(long, double, __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *, __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *); /*proto*/
-static int __pyx_f_22Sparse_Matrix_Tree_CSR_compare_struct_on_column(void const *, void const *); /*proto*/
-static int __pyx_f_22Sparse_Matrix_Tree_CSR_compare_struct_on_data(void const *, void const *); /*proto*/
+/* Module declarations from "RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.Sparse_Matrix_Tree_CSR" */
+static __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_pointer_new_matrix_element_tree_s(long, double, __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *, __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *); /*proto*/
+static int __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_compare_struct_on_column(void const *, void const *); /*proto*/
+static int __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_compare_struct_on_data(void const *, void const *); /*proto*/
 /* #### Code section: typeinfo ### */
 /* #### Code section: before_global_var ### */
-#define __Pyx_MODULE_NAME "Sparse_Matrix_Tree_CSR"
-extern int __pyx_module_is_main_Sparse_Matrix_Tree_CSR;
-int __pyx_module_is_main_Sparse_Matrix_Tree_CSR = 0;
+#define __Pyx_MODULE_NAME "RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.Sparse_Matrix_Tree_CSR"
+extern int __pyx_module_is_main_RecSysCompetition2024Polimi__libs__Recommenders__SLIM__Cython__Sparse_Matrix_Tree_CSR;
+int __pyx_module_is_main_RecSysCompetition2024Polimi__libs__Recommenders__SLIM__Cython__Sparse_Matrix_Tree_CSR = 0;
 
-/* Implementation of "Sparse_Matrix_Tree_CSR" */
+/* Implementation of "RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.Sparse_Matrix_Tree_CSR" */
 /* #### Code section: global_var ### */
 static PyObject *__pyx_builtin_range;
 static PyObject *__pyx_builtin_ValueError;
@@ -2867,6 +2849,7 @@ static const char __pyx_k_Cell_is_outside_matrix_Matrix_sh[] = "Cell is outside 
 static const char __pyx_k_Columns_not_ordered_correctly_Tr[] = "Columns not ordered correctly. Tree not flattened properly";
 static const char __pyx_k_Data_structure_size_inconsistent[] = "Data structure size inconsistent. LinkedList is {}, Python list is {}";
 static const char __pyx_k_ERROR_Current_insert_operation_i[] = "ERROR - Current insert operation is not implemented";
+static const char __pyx_k_RecSysCompetition2024Polimi_libs[] = "RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.Sparse_Matrix_Tree_CSR";
 static const char __pyx_k_Sparse_Matrix_Tree_CSR___setstat[] = "Sparse_Matrix_Tree_CSR.__setstate_cython__";
 static const char __pyx_k_Sparse_Matrix_Tree_CSR_add_value[] = "Sparse_Matrix_Tree_CSR.add_value";
 static const char __pyx_k_Sparse_Matrix_Tree_CSR_get_scipy[] = "Sparse_Matrix_Tree_CSR.get_scipy_csr";
@@ -2882,16 +2865,16 @@ static const char __pyx_k_Data_structure_size_inconsistent_2[] = "Data structure
 static const char __pyx_k_TopK_extracted_list_and_numpy_on_2[] = "TopK extracted list and numpy one have different content at index {} as column value. Extracted list lenght is {}, while numpy is {}";
 static const char __pyx_k_TopK_extracted_list_and_numpy_on_3[] = "TopK extracted list and numpy one have different content at index {} as data value. Extracted list lenght is {}, while numpy is {}";
 /* #### Code section: decls ### */
-static int __pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR___init__(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_num_rows, long __pyx_v_num_cols); /* proto */
-static PyObject *__pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_2add_value(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_row, long __pyx_v_col, double __pyx_v_value); /* proto */
-static PyObject *__pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_4get_value(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_row, long __pyx_v_col); /* proto */
-static PyObject *__pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_6get_scipy_csr(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_TopK); /* proto */
-static PyObject *__pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_8rebalance_tree(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_TopK); /* proto */
-static PyObject *__pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_10test_list_tree_conversion(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_row); /* proto */
-static PyObject *__pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_12test_topK_from_list_selection(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_row, long __pyx_v_topK); /* proto */
-static PyObject *__pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_14__reduce_cython__(CYTHON_UNUSED struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_16__setstate_cython__(CYTHON_UNUSED struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, CYTHON_UNUSED PyObject *__pyx_v___pyx_state); /* proto */
-static PyObject *__pyx_tp_new_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
+static int __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR___init__(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_num_rows, long __pyx_v_num_cols); /* proto */
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_2add_value(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_row, long __pyx_v_col, double __pyx_v_value); /* proto */
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_4get_value(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_row, long __pyx_v_col); /* proto */
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_6get_scipy_csr(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_TopK); /* proto */
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_8rebalance_tree(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_TopK); /* proto */
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_10test_list_tree_conversion(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_row); /* proto */
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_12test_topK_from_list_selection(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_row, long __pyx_v_topK); /* proto */
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_14__reduce_cython__(CYTHON_UNUSED struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_16__setstate_cython__(CYTHON_UNUSED struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, CYTHON_UNUSED PyObject *__pyx_v___pyx_state); /* proto */
+static PyObject *__pyx_tp_new_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
 /* #### Code section: late_includes ### */
 /* #### Code section: module_state ### */
 typedef struct {
@@ -2956,9 +2939,9 @@ typedef struct {
   #if CYTHON_USE_MODULE_STATE
   #endif
   #if CYTHON_USE_MODULE_STATE
-  PyObject *__pyx_type_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR;
+  PyObject *__pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR;
   #endif
-  PyTypeObject *__pyx_ptype_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR;
+  PyTypeObject *__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR;
   PyObject *__pyx_kp_s_After_tree_construction_columns;
   PyObject *__pyx_kp_s_After_tree_construction_data_con;
   PyObject *__pyx_n_s_AssertionError;
@@ -2974,6 +2957,7 @@ typedef struct {
   PyObject *__pyx_kp_s_Data_structure_size_inconsistent_2;
   PyObject *__pyx_kp_s_ERROR_Current_insert_operation_i;
   PyObject *__pyx_n_s_ImportError;
+  PyObject *__pyx_n_s_RecSysCompetition2024Polimi_libs;
   PyObject *__pyx_n_s_Sparse_Matrix_Tree_CSR;
   PyObject *__pyx_n_s_Sparse_Matrix_Tree_CSR___reduce;
   PyObject *__pyx_n_s_Sparse_Matrix_Tree_CSR___setstat;
@@ -3136,8 +3120,8 @@ static int __pyx_m_clear(PyObject *m) {
   Py_CLEAR(clear_module_state->__pyx_ptype_5numpy_flexible);
   Py_CLEAR(clear_module_state->__pyx_ptype_5numpy_character);
   Py_CLEAR(clear_module_state->__pyx_ptype_5numpy_ufunc);
-  Py_CLEAR(clear_module_state->__pyx_ptype_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR);
-  Py_CLEAR(clear_module_state->__pyx_type_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR);
+  Py_CLEAR(clear_module_state->__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR);
+  Py_CLEAR(clear_module_state->__pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR);
   Py_CLEAR(clear_module_state->__pyx_kp_s_After_tree_construction_columns);
   Py_CLEAR(clear_module_state->__pyx_kp_s_After_tree_construction_data_con);
   Py_CLEAR(clear_module_state->__pyx_n_s_AssertionError);
@@ -3153,6 +3137,7 @@ static int __pyx_m_clear(PyObject *m) {
   Py_CLEAR(clear_module_state->__pyx_kp_s_Data_structure_size_inconsistent_2);
   Py_CLEAR(clear_module_state->__pyx_kp_s_ERROR_Current_insert_operation_i);
   Py_CLEAR(clear_module_state->__pyx_n_s_ImportError);
+  Py_CLEAR(clear_module_state->__pyx_n_s_RecSysCompetition2024Polimi_libs);
   Py_CLEAR(clear_module_state->__pyx_n_s_Sparse_Matrix_Tree_CSR);
   Py_CLEAR(clear_module_state->__pyx_n_s_Sparse_Matrix_Tree_CSR___reduce);
   Py_CLEAR(clear_module_state->__pyx_n_s_Sparse_Matrix_Tree_CSR___setstat);
@@ -3293,8 +3278,8 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
   Py_VISIT(traverse_module_state->__pyx_ptype_5numpy_flexible);
   Py_VISIT(traverse_module_state->__pyx_ptype_5numpy_character);
   Py_VISIT(traverse_module_state->__pyx_ptype_5numpy_ufunc);
-  Py_VISIT(traverse_module_state->__pyx_ptype_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR);
-  Py_VISIT(traverse_module_state->__pyx_type_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR);
+  Py_VISIT(traverse_module_state->__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR);
+  Py_VISIT(traverse_module_state->__pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR);
   Py_VISIT(traverse_module_state->__pyx_kp_s_After_tree_construction_columns);
   Py_VISIT(traverse_module_state->__pyx_kp_s_After_tree_construction_data_con);
   Py_VISIT(traverse_module_state->__pyx_n_s_AssertionError);
@@ -3310,6 +3295,7 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
   Py_VISIT(traverse_module_state->__pyx_kp_s_Data_structure_size_inconsistent_2);
   Py_VISIT(traverse_module_state->__pyx_kp_s_ERROR_Current_insert_operation_i);
   Py_VISIT(traverse_module_state->__pyx_n_s_ImportError);
+  Py_VISIT(traverse_module_state->__pyx_n_s_RecSysCompetition2024Polimi_libs);
   Py_VISIT(traverse_module_state->__pyx_n_s_Sparse_Matrix_Tree_CSR);
   Py_VISIT(traverse_module_state->__pyx_n_s_Sparse_Matrix_Tree_CSR___reduce);
   Py_VISIT(traverse_module_state->__pyx_n_s_Sparse_Matrix_Tree_CSR___setstat);
@@ -3479,9 +3465,9 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #if CYTHON_USE_MODULE_STATE
 #endif
 #if CYTHON_USE_MODULE_STATE
-#define __pyx_type_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR __pyx_mstate_global->__pyx_type_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR
+#define __pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR __pyx_mstate_global->__pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR
 #endif
-#define __pyx_ptype_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR __pyx_mstate_global->__pyx_ptype_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR
+#define __pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR __pyx_mstate_global->__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR
 #define __pyx_kp_s_After_tree_construction_columns __pyx_mstate_global->__pyx_kp_s_After_tree_construction_columns
 #define __pyx_kp_s_After_tree_construction_data_con __pyx_mstate_global->__pyx_kp_s_After_tree_construction_data_con
 #define __pyx_n_s_AssertionError __pyx_mstate_global->__pyx_n_s_AssertionError
@@ -3497,6 +3483,7 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #define __pyx_kp_s_Data_structure_size_inconsistent_2 __pyx_mstate_global->__pyx_kp_s_Data_structure_size_inconsistent_2
 #define __pyx_kp_s_ERROR_Current_insert_operation_i __pyx_mstate_global->__pyx_kp_s_ERROR_Current_insert_operation_i
 #define __pyx_n_s_ImportError __pyx_mstate_global->__pyx_n_s_ImportError
+#define __pyx_n_s_RecSysCompetition2024Polimi_libs __pyx_mstate_global->__pyx_n_s_RecSysCompetition2024Polimi_libs
 #define __pyx_n_s_Sparse_Matrix_Tree_CSR __pyx_mstate_global->__pyx_n_s_Sparse_Matrix_Tree_CSR
 #define __pyx_n_s_Sparse_Matrix_Tree_CSR___reduce __pyx_mstate_global->__pyx_n_s_Sparse_Matrix_Tree_CSR___reduce
 #define __pyx_n_s_Sparse_Matrix_Tree_CSR___setstat __pyx_mstate_global->__pyx_n_s_Sparse_Matrix_Tree_CSR___setstat
@@ -3603,7 +3590,7 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #define __pyx_codeobj__27 __pyx_mstate_global->__pyx_codeobj__27
 /* #### Code section: module_code ### */
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":246
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":245
  * 
  *         @property
  *         cdef inline PyObject* base(self) nogil:             # <<<<<<<<<<<<<<
@@ -3614,7 +3601,7 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 static CYTHON_INLINE PyObject *__pyx_f_5numpy_7ndarray_4base_base(PyArrayObject *__pyx_v_self) {
   PyObject *__pyx_r;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":249
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":248
  *             """Returns a borrowed reference to the object owning the data/memory.
  *             """
  *             return PyArray_BASE(self)             # <<<<<<<<<<<<<<
@@ -3624,7 +3611,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_7ndarray_4base_base(PyArrayObject 
   __pyx_r = PyArray_BASE(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":246
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":245
  * 
  *         @property
  *         cdef inline PyObject* base(self) nogil:             # <<<<<<<<<<<<<<
@@ -3637,7 +3624,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_7ndarray_4base_base(PyArrayObject 
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":252
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":251
  * 
  *         @property
  *         cdef inline dtype descr(self):             # <<<<<<<<<<<<<<
@@ -3651,7 +3638,7 @@ static CYTHON_INLINE PyArray_Descr *__pyx_f_5numpy_7ndarray_5descr_descr(PyArray
   PyArray_Descr *__pyx_t_1;
   __Pyx_RefNannySetupContext("descr", 1);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":255
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":254
  *             """Returns an owned reference to the dtype of the array.
  *             """
  *             return <dtype>PyArray_DESCR(self)             # <<<<<<<<<<<<<<
@@ -3664,7 +3651,7 @@ static CYTHON_INLINE PyArray_Descr *__pyx_f_5numpy_7ndarray_5descr_descr(PyArray
   __pyx_r = ((PyArray_Descr *)__pyx_t_1);
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":252
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":251
  * 
  *         @property
  *         cdef inline dtype descr(self):             # <<<<<<<<<<<<<<
@@ -3679,7 +3666,7 @@ static CYTHON_INLINE PyArray_Descr *__pyx_f_5numpy_7ndarray_5descr_descr(PyArray
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":258
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":257
  * 
  *         @property
  *         cdef inline int ndim(self) nogil:             # <<<<<<<<<<<<<<
@@ -3690,7 +3677,7 @@ static CYTHON_INLINE PyArray_Descr *__pyx_f_5numpy_7ndarray_5descr_descr(PyArray
 static CYTHON_INLINE int __pyx_f_5numpy_7ndarray_4ndim_ndim(PyArrayObject *__pyx_v_self) {
   int __pyx_r;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":261
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":260
  *             """Returns the number of dimensions in the array.
  *             """
  *             return PyArray_NDIM(self)             # <<<<<<<<<<<<<<
@@ -3700,7 +3687,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_7ndarray_4ndim_ndim(PyArrayObject *__pyx
   __pyx_r = PyArray_NDIM(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":258
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":257
  * 
  *         @property
  *         cdef inline int ndim(self) nogil:             # <<<<<<<<<<<<<<
@@ -3713,7 +3700,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_7ndarray_4ndim_ndim(PyArrayObject *__pyx
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":264
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":263
  * 
  *         @property
  *         cdef inline npy_intp *shape(self) nogil:             # <<<<<<<<<<<<<<
@@ -3724,7 +3711,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_7ndarray_4ndim_ndim(PyArrayObject *__pyx
 static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_5shape_shape(PyArrayObject *__pyx_v_self) {
   npy_intp *__pyx_r;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":269
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":268
  *             Can return NULL for 0-dimensional arrays.
  *             """
  *             return PyArray_DIMS(self)             # <<<<<<<<<<<<<<
@@ -3734,7 +3721,7 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_5shape_shape(PyArrayObjec
   __pyx_r = PyArray_DIMS(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":264
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":263
  * 
  *         @property
  *         cdef inline npy_intp *shape(self) nogil:             # <<<<<<<<<<<<<<
@@ -3747,7 +3734,7 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_5shape_shape(PyArrayObjec
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":272
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":271
  * 
  *         @property
  *         cdef inline npy_intp *strides(self) nogil:             # <<<<<<<<<<<<<<
@@ -3758,7 +3745,7 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_5shape_shape(PyArrayObjec
 static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_7strides_strides(PyArrayObject *__pyx_v_self) {
   npy_intp *__pyx_r;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":276
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":275
  *             The number of elements matches the number of dimensions of the array (ndim).
  *             """
  *             return PyArray_STRIDES(self)             # <<<<<<<<<<<<<<
@@ -3768,7 +3755,7 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_7strides_strides(PyArrayO
   __pyx_r = PyArray_STRIDES(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":272
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":271
  * 
  *         @property
  *         cdef inline npy_intp *strides(self) nogil:             # <<<<<<<<<<<<<<
@@ -3781,7 +3768,7 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_7strides_strides(PyArrayO
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":279
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":278
  * 
  *         @property
  *         cdef inline npy_intp size(self) nogil:             # <<<<<<<<<<<<<<
@@ -3792,7 +3779,7 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_7strides_strides(PyArrayO
 static CYTHON_INLINE npy_intp __pyx_f_5numpy_7ndarray_4size_size(PyArrayObject *__pyx_v_self) {
   npy_intp __pyx_r;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":282
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":281
  *             """Returns the total size (in number of elements) of the array.
  *             """
  *             return PyArray_SIZE(self)             # <<<<<<<<<<<<<<
@@ -3802,7 +3789,7 @@ static CYTHON_INLINE npy_intp __pyx_f_5numpy_7ndarray_4size_size(PyArrayObject *
   __pyx_r = PyArray_SIZE(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":279
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":278
  * 
  *         @property
  *         cdef inline npy_intp size(self) nogil:             # <<<<<<<<<<<<<<
@@ -3815,7 +3802,7 @@ static CYTHON_INLINE npy_intp __pyx_f_5numpy_7ndarray_4size_size(PyArrayObject *
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":285
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":284
  * 
  *         @property
  *         cdef inline char* data(self) nogil:             # <<<<<<<<<<<<<<
@@ -3826,7 +3813,7 @@ static CYTHON_INLINE npy_intp __pyx_f_5numpy_7ndarray_4size_size(PyArrayObject *
 static CYTHON_INLINE char *__pyx_f_5numpy_7ndarray_4data_data(PyArrayObject *__pyx_v_self) {
   char *__pyx_r;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":291
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":290
  *             of `PyArray_DATA()` instead, which returns a 'void*'.
  *             """
  *             return PyArray_BYTES(self)             # <<<<<<<<<<<<<<
@@ -3836,7 +3823,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy_7ndarray_4data_data(PyArrayObject *__p
   __pyx_r = PyArray_BYTES(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":285
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":284
  * 
  *         @property
  *         cdef inline char* data(self) nogil:             # <<<<<<<<<<<<<<
@@ -3849,7 +3836,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy_7ndarray_4data_data(PyArrayObject *__p
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":777
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":773
  * ctypedef npy_cdouble     complex_t
  * 
  * cdef inline object PyArray_MultiIterNew1(a):             # <<<<<<<<<<<<<<
@@ -3866,7 +3853,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew1", 1);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":778
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":774
  * 
  * cdef inline object PyArray_MultiIterNew1(a):
  *     return PyArray_MultiIterNew(1, <void*>a)             # <<<<<<<<<<<<<<
@@ -3874,13 +3861,13 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
  * cdef inline object PyArray_MultiIterNew2(a, b):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = PyArray_MultiIterNew(1, ((void *)__pyx_v_a)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 778, __pyx_L1_error)
+  __pyx_t_1 = PyArray_MultiIterNew(1, ((void *)__pyx_v_a)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 774, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":777
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":773
  * ctypedef npy_cdouble     complex_t
  * 
  * cdef inline object PyArray_MultiIterNew1(a):             # <<<<<<<<<<<<<<
@@ -3899,7 +3886,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":780
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":776
  *     return PyArray_MultiIterNew(1, <void*>a)
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):             # <<<<<<<<<<<<<<
@@ -3916,7 +3903,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew2", 1);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":781
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":777
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)             # <<<<<<<<<<<<<<
@@ -3924,13 +3911,13 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
  * cdef inline object PyArray_MultiIterNew3(a, b, c):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = PyArray_MultiIterNew(2, ((void *)__pyx_v_a), ((void *)__pyx_v_b)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 781, __pyx_L1_error)
+  __pyx_t_1 = PyArray_MultiIterNew(2, ((void *)__pyx_v_a), ((void *)__pyx_v_b)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 777, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":780
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":776
  *     return PyArray_MultiIterNew(1, <void*>a)
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):             # <<<<<<<<<<<<<<
@@ -3949,7 +3936,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":783
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":779
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):             # <<<<<<<<<<<<<<
@@ -3966,7 +3953,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew3", 1);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":784
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":780
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)             # <<<<<<<<<<<<<<
@@ -3974,13 +3961,13 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = PyArray_MultiIterNew(3, ((void *)__pyx_v_a), ((void *)__pyx_v_b), ((void *)__pyx_v_c)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 784, __pyx_L1_error)
+  __pyx_t_1 = PyArray_MultiIterNew(3, ((void *)__pyx_v_a), ((void *)__pyx_v_b), ((void *)__pyx_v_c)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 780, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":783
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":779
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):             # <<<<<<<<<<<<<<
@@ -3999,7 +3986,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":786
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":782
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):             # <<<<<<<<<<<<<<
@@ -4016,7 +4003,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew4", 1);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":787
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":783
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)             # <<<<<<<<<<<<<<
@@ -4024,13 +4011,13 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = PyArray_MultiIterNew(4, ((void *)__pyx_v_a), ((void *)__pyx_v_b), ((void *)__pyx_v_c), ((void *)__pyx_v_d)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 787, __pyx_L1_error)
+  __pyx_t_1 = PyArray_MultiIterNew(4, ((void *)__pyx_v_a), ((void *)__pyx_v_b), ((void *)__pyx_v_c), ((void *)__pyx_v_d)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 783, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":786
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":782
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):             # <<<<<<<<<<<<<<
@@ -4049,7 +4036,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":789
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":785
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):             # <<<<<<<<<<<<<<
@@ -4066,7 +4053,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew5", 1);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":790
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":786
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)             # <<<<<<<<<<<<<<
@@ -4074,13 +4061,13 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = PyArray_MultiIterNew(5, ((void *)__pyx_v_a), ((void *)__pyx_v_b), ((void *)__pyx_v_c), ((void *)__pyx_v_d), ((void *)__pyx_v_e)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 790, __pyx_L1_error)
+  __pyx_t_1 = PyArray_MultiIterNew(5, ((void *)__pyx_v_a), ((void *)__pyx_v_b), ((void *)__pyx_v_c), ((void *)__pyx_v_d), ((void *)__pyx_v_e)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 786, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":789
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":785
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):             # <<<<<<<<<<<<<<
@@ -4099,7 +4086,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":792
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":788
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):             # <<<<<<<<<<<<<<
@@ -4113,7 +4100,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
   int __pyx_t_1;
   __Pyx_RefNannySetupContext("PyDataType_SHAPE", 1);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":793
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":789
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):             # <<<<<<<<<<<<<<
@@ -4123,7 +4110,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
   __pyx_t_1 = PyDataType_HASSUBARRAY(__pyx_v_d);
   if (__pyx_t_1) {
 
-    /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":794
+    /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":790
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):
  *         return <tuple>d.subarray.shape             # <<<<<<<<<<<<<<
@@ -4135,7 +4122,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
     __pyx_r = ((PyObject*)__pyx_v_d->subarray->shape);
     goto __pyx_L0;
 
-    /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":793
+    /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":789
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):             # <<<<<<<<<<<<<<
@@ -4144,7 +4131,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
  */
   }
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":796
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":792
  *         return <tuple>d.subarray.shape
  *     else:
  *         return ()             # <<<<<<<<<<<<<<
@@ -4158,7 +4145,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
     goto __pyx_L0;
   }
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":792
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":788
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):             # <<<<<<<<<<<<<<
@@ -4173,7 +4160,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":971
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":968
  *     int _import_umath() except -1
  * 
  * cdef inline void set_array_base(ndarray arr, object base):             # <<<<<<<<<<<<<<
@@ -4182,8 +4169,12 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
  */
 
 static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_arr, PyObject *__pyx_v_base) {
+  int __pyx_t_1;
+  int __pyx_lineno = 0;
+  const char *__pyx_filename = NULL;
+  int __pyx_clineno = 0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":972
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":969
  * 
  * cdef inline void set_array_base(ndarray arr, object base):
  *     Py_INCREF(base) # important to do this before stealing the reference below!             # <<<<<<<<<<<<<<
@@ -4192,16 +4183,16 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
  */
   Py_INCREF(__pyx_v_base);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":973
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":970
  * cdef inline void set_array_base(ndarray arr, object base):
  *     Py_INCREF(base) # important to do this before stealing the reference below!
  *     PyArray_SetBaseObject(arr, base)             # <<<<<<<<<<<<<<
  * 
  * cdef inline object get_array_base(ndarray arr):
  */
-  (void)(PyArray_SetBaseObject(__pyx_v_arr, __pyx_v_base));
+  __pyx_t_1 = PyArray_SetBaseObject(__pyx_v_arr, __pyx_v_base); if (unlikely(__pyx_t_1 == ((int)-1))) __PYX_ERR(2, 970, __pyx_L1_error)
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":971
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":968
  *     int _import_umath() except -1
  * 
  * cdef inline void set_array_base(ndarray arr, object base):             # <<<<<<<<<<<<<<
@@ -4210,9 +4201,13 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
  */
 
   /* function exit code */
+  goto __pyx_L0;
+  __pyx_L1_error:;
+  __Pyx_AddTraceback("numpy.set_array_base", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __pyx_L0:;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":975
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":972
  *     PyArray_SetBaseObject(arr, base)
  * 
  * cdef inline object get_array_base(ndarray arr):             # <<<<<<<<<<<<<<
@@ -4227,7 +4222,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   int __pyx_t_1;
   __Pyx_RefNannySetupContext("get_array_base", 1);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":976
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":973
  * 
  * cdef inline object get_array_base(ndarray arr):
  *     base = PyArray_BASE(arr)             # <<<<<<<<<<<<<<
@@ -4236,7 +4231,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
  */
   __pyx_v_base = PyArray_BASE(__pyx_v_arr);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":977
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":974
  * cdef inline object get_array_base(ndarray arr):
  *     base = PyArray_BASE(arr)
  *     if base is NULL:             # <<<<<<<<<<<<<<
@@ -4246,7 +4241,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   __pyx_t_1 = (__pyx_v_base == NULL);
   if (__pyx_t_1) {
 
-    /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":978
+    /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":975
  *     base = PyArray_BASE(arr)
  *     if base is NULL:
  *         return None             # <<<<<<<<<<<<<<
@@ -4257,7 +4252,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
     __pyx_r = Py_None; __Pyx_INCREF(Py_None);
     goto __pyx_L0;
 
-    /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":977
+    /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":974
  * cdef inline object get_array_base(ndarray arr):
  *     base = PyArray_BASE(arr)
  *     if base is NULL:             # <<<<<<<<<<<<<<
@@ -4266,7 +4261,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
  */
   }
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":979
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":976
  *     if base is NULL:
  *         return None
  *     return <object>base             # <<<<<<<<<<<<<<
@@ -4278,7 +4273,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   __pyx_r = ((PyObject *)__pyx_v_base);
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":975
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":972
  *     PyArray_SetBaseObject(arr, base)
  * 
  * cdef inline object get_array_base(ndarray arr):             # <<<<<<<<<<<<<<
@@ -4293,7 +4288,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":983
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":980
  * # Versions of the import_* functions which are more suitable for
  * # Cython code.
  * cdef inline int import_array() except -1:             # <<<<<<<<<<<<<<
@@ -4317,7 +4312,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("import_array", 1);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":984
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":981
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -4333,16 +4328,16 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":985
+      /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":982
  * cdef inline int import_array() except -1:
  *     try:
  *         __pyx_import_array()             # <<<<<<<<<<<<<<
  *     except Exception:
  *         raise ImportError("numpy.core.multiarray failed to import")
  */
-      __pyx_t_4 = _import_array(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(2, 985, __pyx_L3_error)
+      __pyx_t_4 = _import_array(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(2, 982, __pyx_L3_error)
 
-      /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":984
+      /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":981
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -4356,7 +4351,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     goto __pyx_L8_try_end;
     __pyx_L3_error:;
 
-    /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":986
+    /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":983
  *     try:
  *         __pyx_import_array()
  *     except Exception:             # <<<<<<<<<<<<<<
@@ -4366,27 +4361,27 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     __pyx_t_4 = __Pyx_PyErr_ExceptionMatches(((PyObject *)(&((PyTypeObject*)PyExc_Exception)[0])));
     if (__pyx_t_4) {
       __Pyx_AddTraceback("numpy.import_array", __pyx_clineno, __pyx_lineno, __pyx_filename);
-      if (__Pyx_GetException(&__pyx_t_5, &__pyx_t_6, &__pyx_t_7) < 0) __PYX_ERR(2, 986, __pyx_L5_except_error)
+      if (__Pyx_GetException(&__pyx_t_5, &__pyx_t_6, &__pyx_t_7) < 0) __PYX_ERR(2, 983, __pyx_L5_except_error)
       __Pyx_XGOTREF(__pyx_t_5);
       __Pyx_XGOTREF(__pyx_t_6);
       __Pyx_XGOTREF(__pyx_t_7);
 
-      /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":987
+      /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":984
  *         __pyx_import_array()
  *     except Exception:
  *         raise ImportError("numpy.core.multiarray failed to import")             # <<<<<<<<<<<<<<
  * 
  * cdef inline int import_umath() except -1:
  */
-      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple_, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(2, 987, __pyx_L5_except_error)
+      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple_, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(2, 984, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_8);
       __Pyx_Raise(__pyx_t_8, 0, 0, 0);
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-      __PYX_ERR(2, 987, __pyx_L5_except_error)
+      __PYX_ERR(2, 984, __pyx_L5_except_error)
     }
     goto __pyx_L5_except_error;
 
-    /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":984
+    /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":981
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -4402,7 +4397,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     __pyx_L8_try_end:;
   }
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":983
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":980
  * # Versions of the import_* functions which are more suitable for
  * # Cython code.
  * cdef inline int import_array() except -1:             # <<<<<<<<<<<<<<
@@ -4425,7 +4420,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":989
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":986
  *         raise ImportError("numpy.core.multiarray failed to import")
  * 
  * cdef inline int import_umath() except -1:             # <<<<<<<<<<<<<<
@@ -4449,7 +4444,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("import_umath", 1);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":990
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":987
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -4465,16 +4460,16 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":991
+      /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":988
  * cdef inline int import_umath() except -1:
  *     try:
  *         _import_umath()             # <<<<<<<<<<<<<<
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")
  */
-      __pyx_t_4 = _import_umath(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(2, 991, __pyx_L3_error)
+      __pyx_t_4 = _import_umath(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(2, 988, __pyx_L3_error)
 
-      /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":990
+      /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":987
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -4488,7 +4483,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     goto __pyx_L8_try_end;
     __pyx_L3_error:;
 
-    /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":992
+    /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":989
  *     try:
  *         _import_umath()
  *     except Exception:             # <<<<<<<<<<<<<<
@@ -4498,27 +4493,27 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     __pyx_t_4 = __Pyx_PyErr_ExceptionMatches(((PyObject *)(&((PyTypeObject*)PyExc_Exception)[0])));
     if (__pyx_t_4) {
       __Pyx_AddTraceback("numpy.import_umath", __pyx_clineno, __pyx_lineno, __pyx_filename);
-      if (__Pyx_GetException(&__pyx_t_5, &__pyx_t_6, &__pyx_t_7) < 0) __PYX_ERR(2, 992, __pyx_L5_except_error)
+      if (__Pyx_GetException(&__pyx_t_5, &__pyx_t_6, &__pyx_t_7) < 0) __PYX_ERR(2, 989, __pyx_L5_except_error)
       __Pyx_XGOTREF(__pyx_t_5);
       __Pyx_XGOTREF(__pyx_t_6);
       __Pyx_XGOTREF(__pyx_t_7);
 
-      /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":993
+      /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":990
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")             # <<<<<<<<<<<<<<
  * 
  * cdef inline int import_ufunc() except -1:
  */
-      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__2, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(2, 993, __pyx_L5_except_error)
+      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__2, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(2, 990, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_8);
       __Pyx_Raise(__pyx_t_8, 0, 0, 0);
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-      __PYX_ERR(2, 993, __pyx_L5_except_error)
+      __PYX_ERR(2, 990, __pyx_L5_except_error)
     }
     goto __pyx_L5_except_error;
 
-    /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":990
+    /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":987
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -4534,7 +4529,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     __pyx_L8_try_end:;
   }
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":989
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":986
  *         raise ImportError("numpy.core.multiarray failed to import")
  * 
  * cdef inline int import_umath() except -1:             # <<<<<<<<<<<<<<
@@ -4557,7 +4552,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":995
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":992
  *         raise ImportError("numpy.core.umath failed to import")
  * 
  * cdef inline int import_ufunc() except -1:             # <<<<<<<<<<<<<<
@@ -4581,7 +4576,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("import_ufunc", 1);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":996
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":993
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -4597,16 +4592,16 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":997
+      /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":994
  * cdef inline int import_ufunc() except -1:
  *     try:
  *         _import_umath()             # <<<<<<<<<<<<<<
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")
  */
-      __pyx_t_4 = _import_umath(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(2, 997, __pyx_L3_error)
+      __pyx_t_4 = _import_umath(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(2, 994, __pyx_L3_error)
 
-      /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":996
+      /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":993
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -4620,7 +4615,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     goto __pyx_L8_try_end;
     __pyx_L3_error:;
 
-    /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":998
+    /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":995
  *     try:
  *         _import_umath()
  *     except Exception:             # <<<<<<<<<<<<<<
@@ -4630,27 +4625,27 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     __pyx_t_4 = __Pyx_PyErr_ExceptionMatches(((PyObject *)(&((PyTypeObject*)PyExc_Exception)[0])));
     if (__pyx_t_4) {
       __Pyx_AddTraceback("numpy.import_ufunc", __pyx_clineno, __pyx_lineno, __pyx_filename);
-      if (__Pyx_GetException(&__pyx_t_5, &__pyx_t_6, &__pyx_t_7) < 0) __PYX_ERR(2, 998, __pyx_L5_except_error)
+      if (__Pyx_GetException(&__pyx_t_5, &__pyx_t_6, &__pyx_t_7) < 0) __PYX_ERR(2, 995, __pyx_L5_except_error)
       __Pyx_XGOTREF(__pyx_t_5);
       __Pyx_XGOTREF(__pyx_t_6);
       __Pyx_XGOTREF(__pyx_t_7);
 
-      /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":999
+      /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":996
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")             # <<<<<<<<<<<<<<
  * 
  * 
  */
-      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__2, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(2, 999, __pyx_L5_except_error)
+      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__2, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(2, 996, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_8);
       __Pyx_Raise(__pyx_t_8, 0, 0, 0);
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-      __PYX_ERR(2, 999, __pyx_L5_except_error)
+      __PYX_ERR(2, 996, __pyx_L5_except_error)
     }
     goto __pyx_L5_except_error;
 
-    /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":996
+    /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":993
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -4666,7 +4661,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     __pyx_L8_try_end:;
   }
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":995
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":992
  *         raise ImportError("numpy.core.umath failed to import")
  * 
  * cdef inline int import_ufunc() except -1:             # <<<<<<<<<<<<<<
@@ -4689,7 +4684,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1002
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":999
  * 
  * 
  * cdef inline bint is_timedelta64_object(object obj):             # <<<<<<<<<<<<<<
@@ -4700,7 +4695,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
 static CYTHON_INLINE int __pyx_f_5numpy_is_timedelta64_object(PyObject *__pyx_v_obj) {
   int __pyx_r;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1014
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1011
  *     bool
  *     """
  *     return PyObject_TypeCheck(obj, &PyTimedeltaArrType_Type)             # <<<<<<<<<<<<<<
@@ -4710,7 +4705,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_timedelta64_object(PyObject *__pyx_v_
   __pyx_r = PyObject_TypeCheck(__pyx_v_obj, (&PyTimedeltaArrType_Type));
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1002
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":999
  * 
  * 
  * cdef inline bint is_timedelta64_object(object obj):             # <<<<<<<<<<<<<<
@@ -4723,7 +4718,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_timedelta64_object(PyObject *__pyx_v_
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1017
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1014
  * 
  * 
  * cdef inline bint is_datetime64_object(object obj):             # <<<<<<<<<<<<<<
@@ -4734,7 +4729,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_timedelta64_object(PyObject *__pyx_v_
 static CYTHON_INLINE int __pyx_f_5numpy_is_datetime64_object(PyObject *__pyx_v_obj) {
   int __pyx_r;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1029
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1026
  *     bool
  *     """
  *     return PyObject_TypeCheck(obj, &PyDatetimeArrType_Type)             # <<<<<<<<<<<<<<
@@ -4744,7 +4739,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_datetime64_object(PyObject *__pyx_v_o
   __pyx_r = PyObject_TypeCheck(__pyx_v_obj, (&PyDatetimeArrType_Type));
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1017
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1014
  * 
  * 
  * cdef inline bint is_datetime64_object(object obj):             # <<<<<<<<<<<<<<
@@ -4757,7 +4752,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_datetime64_object(PyObject *__pyx_v_o
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1032
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1029
  * 
  * 
  * cdef inline npy_datetime get_datetime64_value(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -4768,7 +4763,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_datetime64_object(PyObject *__pyx_v_o
 static CYTHON_INLINE npy_datetime __pyx_f_5numpy_get_datetime64_value(PyObject *__pyx_v_obj) {
   npy_datetime __pyx_r;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1039
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1036
  *     also needed.  That can be found using `get_datetime64_unit`.
  *     """
  *     return (<PyDatetimeScalarObject*>obj).obval             # <<<<<<<<<<<<<<
@@ -4778,7 +4773,7 @@ static CYTHON_INLINE npy_datetime __pyx_f_5numpy_get_datetime64_value(PyObject *
   __pyx_r = ((PyDatetimeScalarObject *)__pyx_v_obj)->obval;
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1032
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1029
  * 
  * 
  * cdef inline npy_datetime get_datetime64_value(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -4791,7 +4786,7 @@ static CYTHON_INLINE npy_datetime __pyx_f_5numpy_get_datetime64_value(PyObject *
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1042
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1039
  * 
  * 
  * cdef inline npy_timedelta get_timedelta64_value(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -4802,7 +4797,7 @@ static CYTHON_INLINE npy_datetime __pyx_f_5numpy_get_datetime64_value(PyObject *
 static CYTHON_INLINE npy_timedelta __pyx_f_5numpy_get_timedelta64_value(PyObject *__pyx_v_obj) {
   npy_timedelta __pyx_r;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1046
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1043
  *     returns the int64 value underlying scalar numpy timedelta64 object
  *     """
  *     return (<PyTimedeltaScalarObject*>obj).obval             # <<<<<<<<<<<<<<
@@ -4812,7 +4807,7 @@ static CYTHON_INLINE npy_timedelta __pyx_f_5numpy_get_timedelta64_value(PyObject
   __pyx_r = ((PyTimedeltaScalarObject *)__pyx_v_obj)->obval;
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1042
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1039
  * 
  * 
  * cdef inline npy_timedelta get_timedelta64_value(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -4825,7 +4820,7 @@ static CYTHON_INLINE npy_timedelta __pyx_f_5numpy_get_timedelta64_value(PyObject
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1049
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1046
  * 
  * 
  * cdef inline NPY_DATETIMEUNIT get_datetime64_unit(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -4836,7 +4831,7 @@ static CYTHON_INLINE npy_timedelta __pyx_f_5numpy_get_timedelta64_value(PyObject
 static CYTHON_INLINE NPY_DATETIMEUNIT __pyx_f_5numpy_get_datetime64_unit(PyObject *__pyx_v_obj) {
   NPY_DATETIMEUNIT __pyx_r;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1053
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1050
  *     returns the unit part of the dtype for a numpy datetime64 object.
  *     """
  *     return <NPY_DATETIMEUNIT>(<PyDatetimeScalarObject*>obj).obmeta.base             # <<<<<<<<<<<<<<
@@ -4844,7 +4839,7 @@ static CYTHON_INLINE NPY_DATETIMEUNIT __pyx_f_5numpy_get_datetime64_unit(PyObjec
   __pyx_r = ((NPY_DATETIMEUNIT)((PyDatetimeScalarObject *)__pyx_v_obj)->obmeta.base);
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1049
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1046
  * 
  * 
  * cdef inline NPY_DATETIMEUNIT get_datetime64_unit(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -4857,7 +4852,7 @@ static CYTHON_INLINE NPY_DATETIMEUNIT __pyx_f_5numpy_get_datetime64_unit(PyObjec
   return __pyx_r;
 }
 
-/* "Sparse_Matrix_Tree_CSR.pyx":46
+/* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":46
  * 
  * # Function to allocate a new node
  * cdef matrix_element_tree_s * pointer_new_matrix_element_tree_s(long column, double data, matrix_element_tree_s *higher,  matrix_element_tree_s *lower):             # <<<<<<<<<<<<<<
@@ -4865,20 +4860,20 @@ static CYTHON_INLINE NPY_DATETIMEUNIT __pyx_f_5numpy_get_datetime64_unit(PyObjec
  *     cdef matrix_element_tree_s * new_element
  */
 
-static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_Matrix_Tree_CSR_pointer_new_matrix_element_tree_s(long __pyx_v_column, double __pyx_v_data, __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_higher, __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_lower) {
-  __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_new_element;
-  __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_r;
+static __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_pointer_new_matrix_element_tree_s(long __pyx_v_column, double __pyx_v_data, __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_higher, __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_lower) {
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_new_element;
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_r;
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":50
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":50
  *     cdef matrix_element_tree_s * new_element
  * 
  *     new_element = < matrix_element_tree_s * > malloc(sizeof(matrix_element_tree_s))             # <<<<<<<<<<<<<<
  *     new_element.column = column
  *     new_element.data = data
  */
-  __pyx_v_new_element = ((__pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *)malloc((sizeof(__pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s))));
+  __pyx_v_new_element = ((__pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *)malloc((sizeof(__pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s))));
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":51
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":51
  * 
  *     new_element = < matrix_element_tree_s * > malloc(sizeof(matrix_element_tree_s))
  *     new_element.column = column             # <<<<<<<<<<<<<<
@@ -4887,7 +4882,7 @@ static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_
  */
   __pyx_v_new_element->column = __pyx_v_column;
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":52
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":52
  *     new_element = < matrix_element_tree_s * > malloc(sizeof(matrix_element_tree_s))
  *     new_element.column = column
  *     new_element.data = data             # <<<<<<<<<<<<<<
@@ -4896,7 +4891,7 @@ static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_
  */
   __pyx_v_new_element->data = __pyx_v_data;
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":53
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":53
  *     new_element.column = column
  *     new_element.data = data
  *     new_element.higher = higher             # <<<<<<<<<<<<<<
@@ -4905,7 +4900,7 @@ static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_
  */
   __pyx_v_new_element->higher = __pyx_v_higher;
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":54
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":54
  *     new_element.data = data
  *     new_element.higher = higher
  *     new_element.lower = lower             # <<<<<<<<<<<<<<
@@ -4914,7 +4909,7 @@ static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_
  */
   __pyx_v_new_element->lower = __pyx_v_lower;
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":56
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":56
  *     new_element.lower = lower
  * 
  *     return new_element             # <<<<<<<<<<<<<<
@@ -4924,7 +4919,7 @@ static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_
   __pyx_r = __pyx_v_new_element;
   goto __pyx_L0;
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":46
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":46
  * 
  * # Function to allocate a new node
  * cdef matrix_element_tree_s * pointer_new_matrix_element_tree_s(long column, double data, matrix_element_tree_s *higher,  matrix_element_tree_s *lower):             # <<<<<<<<<<<<<<
@@ -4937,7 +4932,7 @@ static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_
   return __pyx_r;
 }
 
-/* "Sparse_Matrix_Tree_CSR.pyx":60
+/* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":60
  * 
  * # Functions to compare structs to be used in C qsort
  * cdef int compare_struct_on_column(const void *a_input, const void *b_input) noexcept:             # <<<<<<<<<<<<<<
@@ -4945,30 +4940,30 @@ static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_
  *     The function compares the column contained in the two struct passed.
  */
 
-static int __pyx_f_22Sparse_Matrix_Tree_CSR_compare_struct_on_column(void const *__pyx_v_a_input, void const *__pyx_v_b_input) {
-  __pyx_t_22Sparse_Matrix_Tree_CSR_head_pointer_tree_s *__pyx_v_a_casted;
-  __pyx_t_22Sparse_Matrix_Tree_CSR_head_pointer_tree_s *__pyx_v_b_casted;
+static int __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_compare_struct_on_column(void const *__pyx_v_a_input, void const *__pyx_v_b_input) {
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_head_pointer_tree_s *__pyx_v_a_casted;
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_head_pointer_tree_s *__pyx_v_b_casted;
   int __pyx_r;
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":69
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":69
  *     """
  * 
  *     cdef head_pointer_tree_s *a_casted = <head_pointer_tree_s *> a_input             # <<<<<<<<<<<<<<
  *     cdef head_pointer_tree_s *b_casted = <head_pointer_tree_s *> b_input
  * 
  */
-  __pyx_v_a_casted = ((__pyx_t_22Sparse_Matrix_Tree_CSR_head_pointer_tree_s *)__pyx_v_a_input);
+  __pyx_v_a_casted = ((__pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_head_pointer_tree_s *)__pyx_v_a_input);
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":70
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":70
  * 
  *     cdef head_pointer_tree_s *a_casted = <head_pointer_tree_s *> a_input
  *     cdef head_pointer_tree_s *b_casted = <head_pointer_tree_s *> b_input             # <<<<<<<<<<<<<<
  * 
  *     return a_casted.head.column  - b_casted.head.column
  */
-  __pyx_v_b_casted = ((__pyx_t_22Sparse_Matrix_Tree_CSR_head_pointer_tree_s *)__pyx_v_b_input);
+  __pyx_v_b_casted = ((__pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_head_pointer_tree_s *)__pyx_v_b_input);
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":72
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":72
  *     cdef head_pointer_tree_s *b_casted = <head_pointer_tree_s *> b_input
  * 
  *     return a_casted.head.column  - b_casted.head.column             # <<<<<<<<<<<<<<
@@ -4978,7 +4973,7 @@ static int __pyx_f_22Sparse_Matrix_Tree_CSR_compare_struct_on_column(void const 
   __pyx_r = (__pyx_v_a_casted->head->column - __pyx_v_b_casted->head->column);
   goto __pyx_L0;
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":60
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":60
  * 
  * # Functions to compare structs to be used in C qsort
  * cdef int compare_struct_on_column(const void *a_input, const void *b_input) noexcept:             # <<<<<<<<<<<<<<
@@ -4991,7 +4986,7 @@ static int __pyx_f_22Sparse_Matrix_Tree_CSR_compare_struct_on_column(void const 
   return __pyx_r;
 }
 
-/* "Sparse_Matrix_Tree_CSR.pyx":76
+/* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":76
  * 
  * 
  * cdef int compare_struct_on_data(const void * a_input, const void * b_input) noexcept:             # <<<<<<<<<<<<<<
@@ -4999,31 +4994,31 @@ static int __pyx_f_22Sparse_Matrix_Tree_CSR_compare_struct_on_column(void const 
  *     The function compares the data contained in the two struct passed.
  */
 
-static int __pyx_f_22Sparse_Matrix_Tree_CSR_compare_struct_on_data(void const *__pyx_v_a_input, void const *__pyx_v_b_input) {
-  __pyx_t_22Sparse_Matrix_Tree_CSR_head_pointer_tree_s *__pyx_v_a_casted;
-  __pyx_t_22Sparse_Matrix_Tree_CSR_head_pointer_tree_s *__pyx_v_b_casted;
+static int __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_compare_struct_on_data(void const *__pyx_v_a_input, void const *__pyx_v_b_input) {
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_head_pointer_tree_s *__pyx_v_a_casted;
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_head_pointer_tree_s *__pyx_v_b_casted;
   int __pyx_r;
   int __pyx_t_1;
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":85
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":85
  *     """
  * 
  *     cdef head_pointer_tree_s * a_casted = <head_pointer_tree_s *> a_input             # <<<<<<<<<<<<<<
  *     cdef head_pointer_tree_s * b_casted = <head_pointer_tree_s *> b_input
  * 
  */
-  __pyx_v_a_casted = ((__pyx_t_22Sparse_Matrix_Tree_CSR_head_pointer_tree_s *)__pyx_v_a_input);
+  __pyx_v_a_casted = ((__pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_head_pointer_tree_s *)__pyx_v_a_input);
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":86
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":86
  * 
  *     cdef head_pointer_tree_s * a_casted = <head_pointer_tree_s *> a_input
  *     cdef head_pointer_tree_s * b_casted = <head_pointer_tree_s *> b_input             # <<<<<<<<<<<<<<
  * 
  *     if (a_casted.head.data - b_casted.head.data) > 0.0:
  */
-  __pyx_v_b_casted = ((__pyx_t_22Sparse_Matrix_Tree_CSR_head_pointer_tree_s *)__pyx_v_b_input);
+  __pyx_v_b_casted = ((__pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_head_pointer_tree_s *)__pyx_v_b_input);
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":88
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":88
  *     cdef head_pointer_tree_s * b_casted = <head_pointer_tree_s *> b_input
  * 
  *     if (a_casted.head.data - b_casted.head.data) > 0.0:             # <<<<<<<<<<<<<<
@@ -5033,7 +5028,7 @@ static int __pyx_f_22Sparse_Matrix_Tree_CSR_compare_struct_on_data(void const *_
   __pyx_t_1 = ((__pyx_v_a_casted->head->data - __pyx_v_b_casted->head->data) > 0.0);
   if (__pyx_t_1) {
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":89
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":89
  * 
  *     if (a_casted.head.data - b_casted.head.data) > 0.0:
  *         return +1             # <<<<<<<<<<<<<<
@@ -5043,7 +5038,7 @@ static int __pyx_f_22Sparse_Matrix_Tree_CSR_compare_struct_on_data(void const *_
     __pyx_r = 1;
     goto __pyx_L0;
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":88
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":88
  *     cdef head_pointer_tree_s * b_casted = <head_pointer_tree_s *> b_input
  * 
  *     if (a_casted.head.data - b_casted.head.data) > 0.0:             # <<<<<<<<<<<<<<
@@ -5052,7 +5047,7 @@ static int __pyx_f_22Sparse_Matrix_Tree_CSR_compare_struct_on_data(void const *_
  */
   }
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":91
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":91
  *         return +1
  *     else:
  *         return -1             # <<<<<<<<<<<<<<
@@ -5064,7 +5059,7 @@ static int __pyx_f_22Sparse_Matrix_Tree_CSR_compare_struct_on_data(void const *_
     goto __pyx_L0;
   }
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":76
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":76
  * 
  * 
  * cdef int compare_struct_on_data(const void * a_input, const void * b_input) noexcept:             # <<<<<<<<<<<<<<
@@ -5077,7 +5072,7 @@ static int __pyx_f_22Sparse_Matrix_Tree_CSR_compare_struct_on_data(void const *_
   return __pyx_r;
 }
 
-/* "Sparse_Matrix_Tree_CSR.pyx":106
+/* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":106
  *     cdef head_pointer_tree_s* row_pointer
  * 
  *     def __init__(self, long num_rows, long num_cols):             # <<<<<<<<<<<<<<
@@ -5086,8 +5081,8 @@ static int __pyx_f_22Sparse_Matrix_Tree_CSR_compare_struct_on_data(void const *_
  */
 
 /* Python wrapper */
-static int __pyx_pw_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static int __pyx_pw_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static int __pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static int __pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   long __pyx_v_num_rows;
   long __pyx_v_num_cols;
   CYTHON_UNUSED Py_ssize_t __pyx_nargs;
@@ -5162,11 +5157,11 @@ static int __pyx_pw_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_1__init__(
       __Pyx_Arg_XDECREF_VARARGS(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return -1;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR___init__(((struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self), __pyx_v_num_rows, __pyx_v_num_cols);
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR___init__(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self), __pyx_v_num_rows, __pyx_v_num_cols);
 
   /* function exit code */
   {
@@ -5179,14 +5174,14 @@ static int __pyx_pw_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_1__init__(
   return __pyx_r;
 }
 
-static int __pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR___init__(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_num_rows, long __pyx_v_num_cols) {
+static int __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR___init__(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_num_rows, long __pyx_v_num_cols) {
   long __pyx_v_index;
   int __pyx_r;
   long __pyx_t_1;
   long __pyx_t_2;
   long __pyx_t_3;
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":108
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":108
  *     def __init__(self, long num_rows, long num_cols):
  * 
  *         self.num_rows = num_rows             # <<<<<<<<<<<<<<
@@ -5195,7 +5190,7 @@ static int __pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR___init__(s
  */
   __pyx_v_self->num_rows = __pyx_v_num_rows;
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":109
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":109
  * 
  *         self.num_rows = num_rows
  *         self.num_cols = num_cols             # <<<<<<<<<<<<<<
@@ -5204,16 +5199,16 @@ static int __pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR___init__(s
  */
   __pyx_v_self->num_cols = __pyx_v_num_cols;
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":111
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":111
  *         self.num_cols = num_cols
  * 
  *         self.row_pointer = < head_pointer_tree_s *> malloc(self.num_rows * sizeof(head_pointer_tree_s))             # <<<<<<<<<<<<<<
  * 
  *         # Initialize all rows to empty
  */
-  __pyx_v_self->row_pointer = ((__pyx_t_22Sparse_Matrix_Tree_CSR_head_pointer_tree_s *)malloc((__pyx_v_self->num_rows * (sizeof(__pyx_t_22Sparse_Matrix_Tree_CSR_head_pointer_tree_s)))));
+  __pyx_v_self->row_pointer = ((__pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_head_pointer_tree_s *)malloc((__pyx_v_self->num_rows * (sizeof(__pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_head_pointer_tree_s)))));
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":114
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":114
  * 
  *         # Initialize all rows to empty
  *         for index in range(self.num_rows):             # <<<<<<<<<<<<<<
@@ -5225,7 +5220,7 @@ static int __pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR___init__(s
   for (__pyx_t_3 = 0; __pyx_t_3 < __pyx_t_2; __pyx_t_3+=1) {
     __pyx_v_index = __pyx_t_3;
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":115
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":115
  *         # Initialize all rows to empty
  *         for index in range(self.num_rows):
  *             self.row_pointer[index].head = NULL             # <<<<<<<<<<<<<<
@@ -5235,7 +5230,7 @@ static int __pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR___init__(s
     (__pyx_v_self->row_pointer[__pyx_v_index]).head = NULL;
   }
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":106
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":106
  *     cdef head_pointer_tree_s* row_pointer
  * 
  *     def __init__(self, long num_rows, long num_cols):             # <<<<<<<<<<<<<<
@@ -5248,7 +5243,7 @@ static int __pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR___init__(s
   return __pyx_r;
 }
 
-/* "Sparse_Matrix_Tree_CSR.pyx":118
+/* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":118
  * 
  * 
  *     cpdef double add_value(self, long row, long col, double value):             # <<<<<<<<<<<<<<
@@ -5256,15 +5251,15 @@ static int __pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR___init__(s
  *         The function adds a value to the specified cell. A new cell is created if necessary.
  */
 
-static PyObject *__pyx_pw_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_3add_value(PyObject *__pyx_v_self, 
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_3add_value(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static double __pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_add_value(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_row, long __pyx_v_col, double __pyx_v_value, int __pyx_skip_dispatch) {
-  __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_current_element;
+static double __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_add_value(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_row, long __pyx_v_col, double __pyx_v_value, int __pyx_skip_dispatch) {
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_current_element;
   int __pyx_v_stopSearch;
   double __pyx_r;
   __Pyx_RefNannyDeclarations
@@ -5279,7 +5274,7 @@ static double __pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_add_valu
   double __pyx_t_9;
   int __pyx_t_10;
   int __pyx_t_11;
-  __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_t_12;
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_t_12;
   int __pyx_lineno = 0;
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
@@ -5295,7 +5290,7 @@ static double __pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_add_valu
       #endif
       __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_add_value); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 118, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
-      if (!__Pyx_IsSameCFunction(__pyx_t_1, (void*) __pyx_pw_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_3add_value)) {
+      if (!__Pyx_IsSameCFunction(__pyx_t_1, (void*) __pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_3add_value)) {
         __pyx_t_3 = __Pyx_PyInt_From_long(__pyx_v_row); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 118, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_3);
         __pyx_t_4 = __Pyx_PyInt_From_long(__pyx_v_col); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 118, __pyx_L1_error)
@@ -5347,7 +5342,7 @@ static double __pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_add_valu
     #endif
   }
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":128
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":128
  *         """
  * 
  *         if row >= self.num_rows or col >= self.num_cols or row < 0 or col < 0:             # <<<<<<<<<<<<<<
@@ -5377,7 +5372,7 @@ static double __pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_add_valu
   __pyx_L4_bool_binop_done:;
   if (unlikely(__pyx_t_10)) {
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":129
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":129
  * 
  *         if row >= self.num_rows or col >= self.num_cols or row < 0 or col < 0:
  *             raise ValueError("Cell is outside matrix. Matrix shape is ({},{}), coordinates given are ({},{})".format(             # <<<<<<<<<<<<<<
@@ -5387,7 +5382,7 @@ static double __pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_add_valu
     __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_Cell_is_outside_matrix_Matrix_sh, __pyx_n_s_format); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 129, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":130
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":130
  *         if row >= self.num_rows or col >= self.num_cols or row < 0 or col < 0:
  *             raise ValueError("Cell is outside matrix. Matrix shape is ({},{}), coordinates given are ({},{})".format(
  *                 self.num_rows, self.num_cols, row, col))             # <<<<<<<<<<<<<<
@@ -5429,7 +5424,7 @@ static double __pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_add_valu
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     }
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":129
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":129
  * 
  *         if row >= self.num_rows or col >= self.num_cols or row < 0 or col < 0:
  *             raise ValueError("Cell is outside matrix. Matrix shape is ({},{}), coordinates given are ({},{})".format(             # <<<<<<<<<<<<<<
@@ -5443,7 +5438,7 @@ static double __pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_add_valu
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __PYX_ERR(0, 129, __pyx_L1_error)
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":128
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":128
  *         """
  * 
  *         if row >= self.num_rows or col >= self.num_cols or row < 0 or col < 0:             # <<<<<<<<<<<<<<
@@ -5452,7 +5447,7 @@ static double __pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_add_valu
  */
   }
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":133
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":133
  * 
  *         cdef matrix_element_tree_s* current_element, new_element, * old_element
  *         cdef int stopSearch = False             # <<<<<<<<<<<<<<
@@ -5461,7 +5456,7 @@ static double __pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_add_valu
  */
   __pyx_v_stopSearch = 0;
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":137
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":137
  * 
  *         # If the row is empty, create a new element
  *         if self.row_pointer[row].head == NULL:             # <<<<<<<<<<<<<<
@@ -5471,17 +5466,17 @@ static double __pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_add_valu
   __pyx_t_10 = ((__pyx_v_self->row_pointer[__pyx_v_row]).head == NULL);
   if (__pyx_t_10) {
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":140
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":140
  * 
  *             # row_pointer is a python object, so I need the object itself and not the address
  *             self.row_pointer[row].head = pointer_new_matrix_element_tree_s(col, value, NULL, NULL)             # <<<<<<<<<<<<<<
  * 
  *             return value
  */
-    __pyx_t_12 = __pyx_f_22Sparse_Matrix_Tree_CSR_pointer_new_matrix_element_tree_s(__pyx_v_col, __pyx_v_value, NULL, NULL); if (unlikely(__pyx_t_12 == ((__pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *)NULL) && PyErr_Occurred())) __PYX_ERR(0, 140, __pyx_L1_error)
+    __pyx_t_12 = __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_pointer_new_matrix_element_tree_s(__pyx_v_col, __pyx_v_value, NULL, NULL); if (unlikely(__pyx_t_12 == ((__pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *)NULL) && PyErr_Occurred())) __PYX_ERR(0, 140, __pyx_L1_error)
     (__pyx_v_self->row_pointer[__pyx_v_row]).head = __pyx_t_12;
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":142
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":142
  *             self.row_pointer[row].head = pointer_new_matrix_element_tree_s(col, value, NULL, NULL)
  * 
  *             return value             # <<<<<<<<<<<<<<
@@ -5491,7 +5486,7 @@ static double __pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_add_valu
     __pyx_r = __pyx_v_value;
     goto __pyx_L0;
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":137
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":137
  * 
  *         # If the row is empty, create a new element
  *         if self.row_pointer[row].head == NULL:             # <<<<<<<<<<<<<<
@@ -5500,7 +5495,7 @@ static double __pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_add_valu
  */
   }
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":147
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":147
  *         # If the row is not empty, look for the cell
  *         # row_pointer contains the struct itself, but I just want its address
  *         current_element = self.row_pointer[row].head             # <<<<<<<<<<<<<<
@@ -5510,7 +5505,7 @@ static double __pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_add_valu
   __pyx_t_12 = (__pyx_v_self->row_pointer[__pyx_v_row]).head;
   __pyx_v_current_element = __pyx_t_12;
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":150
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":150
  * 
  *         # Follow the tree structure
  *         while not stopSearch:             # <<<<<<<<<<<<<<
@@ -5521,7 +5516,7 @@ static double __pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_add_valu
     __pyx_t_10 = (!(__pyx_v_stopSearch != 0));
     if (!__pyx_t_10) break;
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":152
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":152
  *         while not stopSearch:
  * 
  *             if current_element.column < col and current_element.higher != NULL:             # <<<<<<<<<<<<<<
@@ -5539,7 +5534,7 @@ static double __pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_add_valu
     __pyx_L12_bool_binop_done:;
     if (__pyx_t_10) {
 
-      /* "Sparse_Matrix_Tree_CSR.pyx":153
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":153
  * 
  *             if current_element.column < col and current_element.higher != NULL:
  *                 current_element = current_element.higher             # <<<<<<<<<<<<<<
@@ -5549,7 +5544,7 @@ static double __pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_add_valu
       __pyx_t_12 = __pyx_v_current_element->higher;
       __pyx_v_current_element = __pyx_t_12;
 
-      /* "Sparse_Matrix_Tree_CSR.pyx":152
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":152
  *         while not stopSearch:
  * 
  *             if current_element.column < col and current_element.higher != NULL:             # <<<<<<<<<<<<<<
@@ -5559,7 +5554,7 @@ static double __pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_add_valu
       goto __pyx_L11;
     }
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":155
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":155
  *                 current_element = current_element.higher
  * 
  *             elif current_element.column > col and current_element.lower != NULL:             # <<<<<<<<<<<<<<
@@ -5577,7 +5572,7 @@ static double __pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_add_valu
     __pyx_L14_bool_binop_done:;
     if (__pyx_t_10) {
 
-      /* "Sparse_Matrix_Tree_CSR.pyx":156
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":156
  * 
  *             elif current_element.column > col and current_element.lower != NULL:
  *                 current_element = current_element.lower             # <<<<<<<<<<<<<<
@@ -5587,7 +5582,7 @@ static double __pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_add_valu
       __pyx_t_12 = __pyx_v_current_element->lower;
       __pyx_v_current_element = __pyx_t_12;
 
-      /* "Sparse_Matrix_Tree_CSR.pyx":155
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":155
  *                 current_element = current_element.higher
  * 
  *             elif current_element.column > col and current_element.lower != NULL:             # <<<<<<<<<<<<<<
@@ -5597,7 +5592,7 @@ static double __pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_add_valu
       goto __pyx_L11;
     }
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":159
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":159
  * 
  *             else:
  *                 stopSearch = True             # <<<<<<<<<<<<<<
@@ -5610,7 +5605,7 @@ static double __pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_add_valu
     __pyx_L11:;
   }
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":162
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":162
  * 
  *         # If the cell exist, update its value
  *         if current_element.column == col:             # <<<<<<<<<<<<<<
@@ -5620,7 +5615,7 @@ static double __pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_add_valu
   __pyx_t_10 = (__pyx_v_current_element->column == __pyx_v_col);
   if (__pyx_t_10) {
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":163
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":163
  *         # If the cell exist, update its value
  *         if current_element.column == col:
  *             current_element.data += value             # <<<<<<<<<<<<<<
@@ -5629,7 +5624,7 @@ static double __pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_add_valu
  */
     __pyx_v_current_element->data = (__pyx_v_current_element->data + __pyx_v_value);
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":165
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":165
  *             current_element.data += value
  * 
  *             return current_element.data             # <<<<<<<<<<<<<<
@@ -5639,7 +5634,7 @@ static double __pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_add_valu
     __pyx_r = __pyx_v_current_element->data;
     goto __pyx_L0;
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":162
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":162
  * 
  *         # If the cell exist, update its value
  *         if current_element.column == col:             # <<<<<<<<<<<<<<
@@ -5648,7 +5643,7 @@ static double __pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_add_valu
  */
   }
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":169
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":169
  * 
  *         # The cell is not found, create new Higher element
  *         elif current_element.column < col and current_element.higher == NULL:             # <<<<<<<<<<<<<<
@@ -5666,17 +5661,17 @@ static double __pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_add_valu
   __pyx_L17_bool_binop_done:;
   if (__pyx_t_10) {
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":171
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":171
  *         elif current_element.column < col and current_element.higher == NULL:
  * 
  *             current_element.higher = pointer_new_matrix_element_tree_s(col, value, NULL, NULL)             # <<<<<<<<<<<<<<
  * 
  *             return value
  */
-    __pyx_t_12 = __pyx_f_22Sparse_Matrix_Tree_CSR_pointer_new_matrix_element_tree_s(__pyx_v_col, __pyx_v_value, NULL, NULL); if (unlikely(__pyx_t_12 == ((__pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *)NULL) && PyErr_Occurred())) __PYX_ERR(0, 171, __pyx_L1_error)
+    __pyx_t_12 = __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_pointer_new_matrix_element_tree_s(__pyx_v_col, __pyx_v_value, NULL, NULL); if (unlikely(__pyx_t_12 == ((__pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *)NULL) && PyErr_Occurred())) __PYX_ERR(0, 171, __pyx_L1_error)
     __pyx_v_current_element->higher = __pyx_t_12;
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":173
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":173
  *             current_element.higher = pointer_new_matrix_element_tree_s(col, value, NULL, NULL)
  * 
  *             return value             # <<<<<<<<<<<<<<
@@ -5686,7 +5681,7 @@ static double __pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_add_valu
     __pyx_r = __pyx_v_value;
     goto __pyx_L0;
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":169
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":169
  * 
  *         # The cell is not found, create new Higher element
  *         elif current_element.column < col and current_element.higher == NULL:             # <<<<<<<<<<<<<<
@@ -5695,7 +5690,7 @@ static double __pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_add_valu
  */
   }
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":176
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":176
  * 
  *         # The cell is not found, create new Lower element
  *         elif current_element.column > col and current_element.lower == NULL:             # <<<<<<<<<<<<<<
@@ -5713,17 +5708,17 @@ static double __pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_add_valu
   __pyx_L19_bool_binop_done:;
   if (__pyx_t_10) {
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":178
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":178
  *         elif current_element.column > col and current_element.lower == NULL:
  * 
  *             current_element.lower = pointer_new_matrix_element_tree_s(col, value, NULL, NULL)             # <<<<<<<<<<<<<<
  * 
  *             return value
  */
-    __pyx_t_12 = __pyx_f_22Sparse_Matrix_Tree_CSR_pointer_new_matrix_element_tree_s(__pyx_v_col, __pyx_v_value, NULL, NULL); if (unlikely(__pyx_t_12 == ((__pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *)NULL) && PyErr_Occurred())) __PYX_ERR(0, 178, __pyx_L1_error)
+    __pyx_t_12 = __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_pointer_new_matrix_element_tree_s(__pyx_v_col, __pyx_v_value, NULL, NULL); if (unlikely(__pyx_t_12 == ((__pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *)NULL) && PyErr_Occurred())) __PYX_ERR(0, 178, __pyx_L1_error)
     __pyx_v_current_element->lower = __pyx_t_12;
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":180
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":180
  *             current_element.lower = pointer_new_matrix_element_tree_s(col, value, NULL, NULL)
  * 
  *             return value             # <<<<<<<<<<<<<<
@@ -5733,7 +5728,7 @@ static double __pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_add_valu
     __pyx_r = __pyx_v_value;
     goto __pyx_L0;
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":176
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":176
  * 
  *         # The cell is not found, create new Lower element
  *         elif current_element.column > col and current_element.lower == NULL:             # <<<<<<<<<<<<<<
@@ -5742,7 +5737,7 @@ static double __pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_add_valu
  */
   }
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":183
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":183
  * 
  *         else:
  *             assert False, 'ERROR - Current insert operation is not implemented'             # <<<<<<<<<<<<<<
@@ -5762,7 +5757,7 @@ static double __pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_add_valu
     #endif
   }
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":118
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":118
  * 
  * 
  *     cpdef double add_value(self, long row, long col, double value):             # <<<<<<<<<<<<<<
@@ -5781,7 +5776,7 @@ static double __pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_add_valu
   __Pyx_XDECREF(__pyx_t_5);
   __Pyx_XDECREF(__pyx_t_6);
   __Pyx_XDECREF(__pyx_t_7);
-  __Pyx_AddTraceback("Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.add_value", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.add_value", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = 0;
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();
@@ -5789,16 +5784,16 @@ static double __pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_add_valu
 }
 
 /* Python wrapper */
-static PyObject *__pyx_pw_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_3add_value(PyObject *__pyx_v_self, 
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_3add_value(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-PyDoc_STRVAR(__pyx_doc_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_2add_value, "\n        The function adds a value to the specified cell. A new cell is created if necessary.         \n        \n        :param row: cell coordinates\n        :param col:  cell coordinates\n        :param value: value to add\n        :return double: resulting cell value\n        ");
-static PyMethodDef __pyx_mdef_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_3add_value = {"add_value", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_3add_value, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_2add_value};
-static PyObject *__pyx_pw_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_3add_value(PyObject *__pyx_v_self, 
+PyDoc_STRVAR(__pyx_doc_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_2add_value, "\n        The function adds a value to the specified cell. A new cell is created if necessary.         \n        \n        :param row: cell coordinates\n        :param col:  cell coordinates\n        :param value: value to add\n        :return double: resulting cell value\n        ");
+static PyMethodDef __pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_3add_value = {"add_value", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_3add_value, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_2add_value};
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_3add_value(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -5898,11 +5893,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.add_value", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.add_value", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_2add_value(((struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self), __pyx_v_row, __pyx_v_col, __pyx_v_value);
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_2add_value(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self), __pyx_v_row, __pyx_v_col, __pyx_v_value);
 
   /* function exit code */
   {
@@ -5915,7 +5910,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_2add_value(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_row, long __pyx_v_col, double __pyx_v_value) {
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_2add_value(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_row, long __pyx_v_col, double __pyx_v_value) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   double __pyx_t_1;
@@ -5925,7 +5920,7 @@ static PyObject *__pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_2add
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("add_value", 1);
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_add_value(__pyx_v_self, __pyx_v_row, __pyx_v_col, __pyx_v_value, 1); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 118, __pyx_L1_error)
+  __pyx_t_1 = __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_add_value(__pyx_v_self, __pyx_v_row, __pyx_v_col, __pyx_v_value, 1); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 118, __pyx_L1_error)
   __pyx_t_2 = PyFloat_FromDouble(__pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 118, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_r = __pyx_t_2;
@@ -5935,7 +5930,7 @@ static PyObject *__pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_2add
   /* function exit code */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_2);
-  __Pyx_AddTraceback("Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.add_value", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.add_value", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -5943,7 +5938,7 @@ static PyObject *__pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_2add
   return __pyx_r;
 }
 
-/* "Sparse_Matrix_Tree_CSR.pyx":188
+/* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":188
  * 
  * 
  *     cpdef double get_value(self, long row, long col):             # <<<<<<<<<<<<<<
@@ -5951,15 +5946,15 @@ static PyObject *__pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_2add
  *         The function returns the value of the specified cell.
  */
 
-static PyObject *__pyx_pw_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_5get_value(PyObject *__pyx_v_self, 
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_5get_value(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static double __pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_value(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_row, long __pyx_v_col, int __pyx_skip_dispatch) {
-  __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_current_element;
+static double __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_value(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_row, long __pyx_v_col, int __pyx_skip_dispatch) {
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_current_element;
   int __pyx_v_stopSearch;
   double __pyx_r;
   __Pyx_RefNannyDeclarations
@@ -5974,7 +5969,7 @@ static double __pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_valu
   int __pyx_t_9;
   int __pyx_t_10;
   PyObject *__pyx_t_11 = NULL;
-  __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_t_12;
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_t_12;
   int __pyx_lineno = 0;
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
@@ -5990,7 +5985,7 @@ static double __pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_valu
       #endif
       __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_get_value); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 188, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
-      if (!__Pyx_IsSameCFunction(__pyx_t_1, (void*) __pyx_pw_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_5get_value)) {
+      if (!__Pyx_IsSameCFunction(__pyx_t_1, (void*) __pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_5get_value)) {
         __pyx_t_3 = __Pyx_PyInt_From_long(__pyx_v_row); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 188, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_3);
         __pyx_t_4 = __Pyx_PyInt_From_long(__pyx_v_col); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 188, __pyx_L1_error)
@@ -6039,7 +6034,7 @@ static double __pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_valu
     #endif
   }
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":198
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":198
  * 
  * 
  *         if row >= self.num_rows or col >= self.num_cols or row < 0 or col < 0:             # <<<<<<<<<<<<<<
@@ -6069,7 +6064,7 @@ static double __pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_valu
   __pyx_L4_bool_binop_done:;
   if (unlikely(__pyx_t_9)) {
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":200
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":200
  *         if row >= self.num_rows or col >= self.num_cols or row < 0 or col < 0:
  *             raise ValueError(
  *                 "Cell is outside matrix. Matrix shape is ({},{}), coordinates given are ({},{})".format(             # <<<<<<<<<<<<<<
@@ -6079,7 +6074,7 @@ static double __pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_valu
     __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_Cell_is_outside_matrix_Matrix_sh, __pyx_n_s_format); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 200, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":201
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":201
  *             raise ValueError(
  *                 "Cell is outside matrix. Matrix shape is ({},{}), coordinates given are ({},{})".format(
  *                     self.num_rows, self.num_cols, row, col))             # <<<<<<<<<<<<<<
@@ -6121,7 +6116,7 @@ static double __pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_valu
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     }
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":199
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":199
  * 
  *         if row >= self.num_rows or col >= self.num_cols or row < 0 or col < 0:
  *             raise ValueError(             # <<<<<<<<<<<<<<
@@ -6135,7 +6130,7 @@ static double __pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_valu
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __PYX_ERR(0, 199, __pyx_L1_error)
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":198
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":198
  * 
  * 
  *         if row >= self.num_rows or col >= self.num_cols or row < 0 or col < 0:             # <<<<<<<<<<<<<<
@@ -6144,7 +6139,7 @@ static double __pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_valu
  */
   }
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":205
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":205
  * 
  *         cdef matrix_element_tree_s* current_element
  *         cdef int stopSearch = False             # <<<<<<<<<<<<<<
@@ -6153,7 +6148,7 @@ static double __pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_valu
  */
   __pyx_v_stopSearch = 0;
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":208
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":208
  * 
  *         # If the row is empty, return default
  *         if self.row_pointer[row].head == NULL:             # <<<<<<<<<<<<<<
@@ -6163,7 +6158,7 @@ static double __pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_valu
   __pyx_t_9 = ((__pyx_v_self->row_pointer[__pyx_v_row]).head == NULL);
   if (__pyx_t_9) {
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":209
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":209
  *         # If the row is empty, return default
  *         if self.row_pointer[row].head == NULL:
  *             return 0.0             # <<<<<<<<<<<<<<
@@ -6173,7 +6168,7 @@ static double __pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_valu
     __pyx_r = 0.0;
     goto __pyx_L0;
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":208
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":208
  * 
  *         # If the row is empty, return default
  *         if self.row_pointer[row].head == NULL:             # <<<<<<<<<<<<<<
@@ -6182,7 +6177,7 @@ static double __pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_valu
  */
   }
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":214
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":214
  *         # If the row is not empty, look for the cell
  *         # row_pointer contains the struct itself, but I just want its address
  *         current_element = self.row_pointer[row].head             # <<<<<<<<<<<<<<
@@ -6192,7 +6187,7 @@ static double __pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_valu
   __pyx_t_12 = (__pyx_v_self->row_pointer[__pyx_v_row]).head;
   __pyx_v_current_element = __pyx_t_12;
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":217
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":217
  * 
  *         # Follow the tree structure
  *         while not stopSearch:             # <<<<<<<<<<<<<<
@@ -6203,7 +6198,7 @@ static double __pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_valu
     __pyx_t_9 = (!(__pyx_v_stopSearch != 0));
     if (!__pyx_t_9) break;
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":219
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":219
  *         while not stopSearch:
  * 
  *             if current_element.column < col and current_element.higher != NULL:             # <<<<<<<<<<<<<<
@@ -6221,7 +6216,7 @@ static double __pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_valu
     __pyx_L12_bool_binop_done:;
     if (__pyx_t_9) {
 
-      /* "Sparse_Matrix_Tree_CSR.pyx":220
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":220
  * 
  *             if current_element.column < col and current_element.higher != NULL:
  *                 current_element = current_element.higher             # <<<<<<<<<<<<<<
@@ -6231,7 +6226,7 @@ static double __pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_valu
       __pyx_t_12 = __pyx_v_current_element->higher;
       __pyx_v_current_element = __pyx_t_12;
 
-      /* "Sparse_Matrix_Tree_CSR.pyx":219
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":219
  *         while not stopSearch:
  * 
  *             if current_element.column < col and current_element.higher != NULL:             # <<<<<<<<<<<<<<
@@ -6241,7 +6236,7 @@ static double __pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_valu
       goto __pyx_L11;
     }
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":222
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":222
  *                 current_element = current_element.higher
  * 
  *             elif current_element.column > col and current_element.lower != NULL:             # <<<<<<<<<<<<<<
@@ -6259,7 +6254,7 @@ static double __pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_valu
     __pyx_L14_bool_binop_done:;
     if (__pyx_t_9) {
 
-      /* "Sparse_Matrix_Tree_CSR.pyx":223
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":223
  * 
  *             elif current_element.column > col and current_element.lower != NULL:
  *                 current_element = current_element.lower             # <<<<<<<<<<<<<<
@@ -6269,7 +6264,7 @@ static double __pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_valu
       __pyx_t_12 = __pyx_v_current_element->lower;
       __pyx_v_current_element = __pyx_t_12;
 
-      /* "Sparse_Matrix_Tree_CSR.pyx":222
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":222
  *                 current_element = current_element.higher
  * 
  *             elif current_element.column > col and current_element.lower != NULL:             # <<<<<<<<<<<<<<
@@ -6279,7 +6274,7 @@ static double __pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_valu
       goto __pyx_L11;
     }
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":226
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":226
  * 
  *             else:
  *                 stopSearch = True             # <<<<<<<<<<<<<<
@@ -6292,7 +6287,7 @@ static double __pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_valu
     __pyx_L11:;
   }
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":230
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":230
  * 
  *         # If the cell exist, return its value
  *         if current_element.column == col:             # <<<<<<<<<<<<<<
@@ -6302,7 +6297,7 @@ static double __pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_valu
   __pyx_t_9 = (__pyx_v_current_element->column == __pyx_v_col);
   if (__pyx_t_9) {
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":231
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":231
  *         # If the cell exist, return its value
  *         if current_element.column == col:
  *             return current_element.data             # <<<<<<<<<<<<<<
@@ -6312,7 +6307,7 @@ static double __pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_valu
     __pyx_r = __pyx_v_current_element->data;
     goto __pyx_L0;
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":230
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":230
  * 
  *         # If the cell exist, return its value
  *         if current_element.column == col:             # <<<<<<<<<<<<<<
@@ -6321,7 +6316,7 @@ static double __pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_valu
  */
   }
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":235
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":235
  *         # The cell is not found, return default
  *         else:
  *             return 0.0             # <<<<<<<<<<<<<<
@@ -6333,7 +6328,7 @@ static double __pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_valu
     goto __pyx_L0;
   }
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":188
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":188
  * 
  * 
  *     cpdef double get_value(self, long row, long col):             # <<<<<<<<<<<<<<
@@ -6350,7 +6345,7 @@ static double __pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_valu
   __Pyx_XDECREF(__pyx_t_5);
   __Pyx_XDECREF(__pyx_t_6);
   __Pyx_XDECREF(__pyx_t_11);
-  __Pyx_AddTraceback("Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.get_value", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.get_value", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = 0;
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();
@@ -6358,16 +6353,16 @@ static double __pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_valu
 }
 
 /* Python wrapper */
-static PyObject *__pyx_pw_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_5get_value(PyObject *__pyx_v_self, 
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_5get_value(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-PyDoc_STRVAR(__pyx_doc_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_4get_value, "\n        The function returns the value of the specified cell.         \n        \n        :param row: cell coordinates\n        :param col:  cell coordinates\n        :return double: cell value\n        ");
-static PyMethodDef __pyx_mdef_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_5get_value = {"get_value", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_5get_value, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_4get_value};
-static PyObject *__pyx_pw_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_5get_value(PyObject *__pyx_v_self, 
+PyDoc_STRVAR(__pyx_doc_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_4get_value, "\n        The function returns the value of the specified cell.         \n        \n        :param row: cell coordinates\n        :param col:  cell coordinates\n        :return double: cell value\n        ");
+static PyMethodDef __pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_5get_value = {"get_value", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_5get_value, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_4get_value};
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_5get_value(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -6452,11 +6447,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.get_value", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.get_value", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_4get_value(((struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self), __pyx_v_row, __pyx_v_col);
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_4get_value(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self), __pyx_v_row, __pyx_v_col);
 
   /* function exit code */
   {
@@ -6469,7 +6464,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_4get_value(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_row, long __pyx_v_col) {
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_4get_value(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_row, long __pyx_v_col) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   double __pyx_t_1;
@@ -6479,7 +6474,7 @@ static PyObject *__pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_4get
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("get_value", 1);
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_value(__pyx_v_self, __pyx_v_row, __pyx_v_col, 1); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 188, __pyx_L1_error)
+  __pyx_t_1 = __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_value(__pyx_v_self, __pyx_v_row, __pyx_v_col, 1); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 188, __pyx_L1_error)
   __pyx_t_2 = PyFloat_FromDouble(__pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 188, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_r = __pyx_t_2;
@@ -6489,7 +6484,7 @@ static PyObject *__pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_4get
   /* function exit code */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_2);
-  __Pyx_AddTraceback("Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.get_value", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.get_value", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -6497,7 +6492,7 @@ static PyObject *__pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_4get
   return __pyx_r;
 }
 
-/* "Sparse_Matrix_Tree_CSR.pyx":240
+/* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":240
  * 
  * 
  *     cpdef get_scipy_csr(self, long TopK = False):             # <<<<<<<<<<<<<<
@@ -6505,14 +6500,14 @@ static PyObject *__pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_4get
  *         The function returns the current sparse matrix as a scipy_csr object
  */
 
-static PyObject *__pyx_pw_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_7get_scipy_csr(PyObject *__pyx_v_self, 
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_7get_scipy_csr(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_scipy_csr(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, int __pyx_skip_dispatch, struct __pyx_opt_args_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_scipy_csr *__pyx_optional_args) {
+static PyObject *__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_scipy_csr(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, int __pyx_skip_dispatch, struct __pyx_opt_args_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_scipy_csr *__pyx_optional_args) {
   long __pyx_v_TopK = ((long)0);
   long __pyx_v_row;
   PyObject *__pyx_v_data = NULL;
@@ -6534,7 +6529,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_s
   Py_ssize_t __pyx_t_10;
   int __pyx_t_11;
   int __pyx_t_12;
-  __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_t_13;
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_t_13;
   PyObject *(*__pyx_t_14)(PyObject *);
   PyObject *__pyx_t_15 = NULL;
   int __pyx_lineno = 0;
@@ -6557,7 +6552,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_s
       #endif
       __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_get_scipy_csr); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 240, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
-      if (!__Pyx_IsSameCFunction(__pyx_t_1, (void*) __pyx_pw_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_7get_scipy_csr)) {
+      if (!__Pyx_IsSameCFunction(__pyx_t_1, (void*) __pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_7get_scipy_csr)) {
         __Pyx_XDECREF(__pyx_r);
         __pyx_t_3 = __Pyx_PyInt_From_long(__pyx_v_TopK); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 240, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_3);
@@ -6603,7 +6598,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_s
     #endif
   }
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":249
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":249
  *         cdef long row
  * 
  *         data = []             # <<<<<<<<<<<<<<
@@ -6615,7 +6610,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_s
   __pyx_v_data = ((PyObject*)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":250
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":250
  * 
  *         data = []
  *         indices = []             # <<<<<<<<<<<<<<
@@ -6627,7 +6622,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_s
   __pyx_v_indices = ((PyObject*)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":251
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":251
  *         data = []
  *         indices = []
  *         indptr = []             # <<<<<<<<<<<<<<
@@ -6639,7 +6634,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_s
   __pyx_v_indptr = ((PyObject*)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":254
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":254
  * 
  *         # Loop the rows
  *         for row in range(self.num_rows):             # <<<<<<<<<<<<<<
@@ -6651,7 +6646,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_s
   for (__pyx_t_9 = 0; __pyx_t_9 < __pyx_t_8; __pyx_t_9+=1) {
     __pyx_v_row = __pyx_t_9;
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":257
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":257
  * 
  *             #Always set indptr
  *             indptr.append(len(data))             # <<<<<<<<<<<<<<
@@ -6664,7 +6659,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_s
     __pyx_t_11 = __Pyx_PyList_Append(__pyx_v_indptr, __pyx_t_1); if (unlikely(__pyx_t_11 == ((int)-1))) __PYX_ERR(0, 257, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":260
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":260
  * 
  *             # row contains data
  *             if self.row_pointer[row].head != NULL:             # <<<<<<<<<<<<<<
@@ -6674,17 +6669,17 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_s
     __pyx_t_12 = ((__pyx_v_self->row_pointer[__pyx_v_row]).head != NULL);
     if (__pyx_t_12) {
 
-      /* "Sparse_Matrix_Tree_CSR.pyx":263
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":263
  * 
  *                 # Flatten the data structure
  *                 self.row_pointer[row].head = self.subtree_to_list_flat(self.row_pointer[row].head)             # <<<<<<<<<<<<<<
  *                 #print("subtree_to_list_flat {} sec".format(time.time() - start_time))
  * 
  */
-      __pyx_t_13 = ((struct __pyx_vtabstruct_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->subtree_to_list_flat(__pyx_v_self, (__pyx_v_self->row_pointer[__pyx_v_row]).head); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 263, __pyx_L1_error)
+      __pyx_t_13 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->subtree_to_list_flat(__pyx_v_self, (__pyx_v_self->row_pointer[__pyx_v_row]).head); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 263, __pyx_L1_error)
       (__pyx_v_self->row_pointer[__pyx_v_row]).head = __pyx_t_13;
 
-      /* "Sparse_Matrix_Tree_CSR.pyx":266
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":266
  *                 #print("subtree_to_list_flat {} sec".format(time.time() - start_time))
  * 
  *                 if TopK:             # <<<<<<<<<<<<<<
@@ -6694,17 +6689,17 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_s
       __pyx_t_12 = (__pyx_v_TopK != 0);
       if (__pyx_t_12) {
 
-        /* "Sparse_Matrix_Tree_CSR.pyx":267
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":267
  * 
  *                 if TopK:
  *                     self.row_pointer[row].head = self.topK_selection_from_list(self.row_pointer[row].head, TopK)             # <<<<<<<<<<<<<<
  *                     #print("topK_selection_from_list {} sec".format(time.time() - start_time))
  * 
  */
-        __pyx_t_13 = ((struct __pyx_vtabstruct_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->topK_selection_from_list(__pyx_v_self, (__pyx_v_self->row_pointer[__pyx_v_row]).head, __pyx_v_TopK); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 267, __pyx_L1_error)
+        __pyx_t_13 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->topK_selection_from_list(__pyx_v_self, (__pyx_v_self->row_pointer[__pyx_v_row]).head, __pyx_v_TopK); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 267, __pyx_L1_error)
         (__pyx_v_self->row_pointer[__pyx_v_row]).head = __pyx_t_13;
 
-        /* "Sparse_Matrix_Tree_CSR.pyx":266
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":266
  *                 #print("subtree_to_list_flat {} sec".format(time.time() - start_time))
  * 
  *                 if TopK:             # <<<<<<<<<<<<<<
@@ -6713,14 +6708,14 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_s
  */
       }
 
-      /* "Sparse_Matrix_Tree_CSR.pyx":272
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":272
  * 
  *                 # Flatten the tree data
  *                 subtree_column, subtree_data = self.from_linked_list_to_python_list(self.row_pointer[row].head)             # <<<<<<<<<<<<<<
  *                 data.extend(subtree_data)
  *                 indices.extend(subtree_column)
  */
-      __pyx_t_1 = ((struct __pyx_vtabstruct_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->from_linked_list_to_python_list(__pyx_v_self, (__pyx_v_self->row_pointer[__pyx_v_row]).head); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 272, __pyx_L1_error)
+      __pyx_t_1 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->from_linked_list_to_python_list(__pyx_v_self, (__pyx_v_self->row_pointer[__pyx_v_row]).head); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 272, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       if ((likely(PyTuple_CheckExact(__pyx_t_1))) || (PyList_CheckExact(__pyx_t_1))) {
         PyObject* sequence = __pyx_t_1;
@@ -6773,7 +6768,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_s
       __Pyx_XDECREF_SET(__pyx_v_subtree_data, __pyx_t_4);
       __pyx_t_4 = 0;
 
-      /* "Sparse_Matrix_Tree_CSR.pyx":273
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":273
  *                 # Flatten the tree data
  *                 subtree_column, subtree_data = self.from_linked_list_to_python_list(self.row_pointer[row].head)
  *                 data.extend(subtree_data)             # <<<<<<<<<<<<<<
@@ -6782,7 +6777,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_s
  */
       __pyx_t_11 = __Pyx_PyList_Extend(__pyx_v_data, __pyx_v_subtree_data); if (unlikely(__pyx_t_11 == ((int)-1))) __PYX_ERR(0, 273, __pyx_L1_error)
 
-      /* "Sparse_Matrix_Tree_CSR.pyx":274
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":274
  *                 subtree_column, subtree_data = self.from_linked_list_to_python_list(self.row_pointer[row].head)
  *                 data.extend(subtree_data)
  *                 indices.extend(subtree_column)             # <<<<<<<<<<<<<<
@@ -6791,17 +6786,17 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_s
  */
       __pyx_t_11 = __Pyx_PyList_Extend(__pyx_v_indices, __pyx_v_subtree_column); if (unlikely(__pyx_t_11 == ((int)-1))) __PYX_ERR(0, 274, __pyx_L1_error)
 
-      /* "Sparse_Matrix_Tree_CSR.pyx":277
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":277
  * 
  *                 # Rebuild the tree
  *                 self.row_pointer[row].head = self.build_tree_from_list_flat(self.row_pointer[row].head)             # <<<<<<<<<<<<<<
  *                 #print("build_tree_from_list_flat {} sec".format(time.time() - start_time))
  * 
  */
-      __pyx_t_13 = ((struct __pyx_vtabstruct_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->build_tree_from_list_flat(__pyx_v_self, (__pyx_v_self->row_pointer[__pyx_v_row]).head); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 277, __pyx_L1_error)
+      __pyx_t_13 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->build_tree_from_list_flat(__pyx_v_self, (__pyx_v_self->row_pointer[__pyx_v_row]).head); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 277, __pyx_L1_error)
       (__pyx_v_self->row_pointer[__pyx_v_row]).head = __pyx_t_13;
 
-      /* "Sparse_Matrix_Tree_CSR.pyx":260
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":260
  * 
  *             # row contains data
  *             if self.row_pointer[row].head != NULL:             # <<<<<<<<<<<<<<
@@ -6811,7 +6806,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_s
     }
   }
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":282
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":282
  * 
  *         #Set terminal indptr
  *         indptr.append(len(data))             # <<<<<<<<<<<<<<
@@ -6824,7 +6819,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_s
   __pyx_t_11 = __Pyx_PyList_Append(__pyx_v_indptr, __pyx_t_1); if (unlikely(__pyx_t_11 == ((int)-1))) __PYX_ERR(0, 282, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":284
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":284
  *         indptr.append(len(data))
  * 
  *         return sps.csr_matrix((data, indices, indptr), shape=(self.num_rows, self.num_cols))             # <<<<<<<<<<<<<<
@@ -6878,7 +6873,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_s
   __pyx_t_15 = 0;
   goto __pyx_L0;
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":240
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":240
  * 
  * 
  *     cpdef get_scipy_csr(self, long TopK = False):             # <<<<<<<<<<<<<<
@@ -6894,7 +6889,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_s
   __Pyx_XDECREF(__pyx_t_4);
   __Pyx_XDECREF(__pyx_t_5);
   __Pyx_XDECREF(__pyx_t_15);
-  __Pyx_AddTraceback("Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.get_scipy_csr", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.get_scipy_csr", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = 0;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_data);
@@ -6908,16 +6903,16 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_s
 }
 
 /* Python wrapper */
-static PyObject *__pyx_pw_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_7get_scipy_csr(PyObject *__pyx_v_self, 
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_7get_scipy_csr(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-PyDoc_STRVAR(__pyx_doc_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_6get_scipy_csr, "\n        The function returns the current sparse matrix as a scipy_csr object         \n   \n        :return double: scipy_csr object\n        ");
-static PyMethodDef __pyx_mdef_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_7get_scipy_csr = {"get_scipy_csr", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_7get_scipy_csr, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_6get_scipy_csr};
-static PyObject *__pyx_pw_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_7get_scipy_csr(PyObject *__pyx_v_self, 
+PyDoc_STRVAR(__pyx_doc_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_6get_scipy_csr, "\n        The function returns the current sparse matrix as a scipy_csr object         \n   \n        :return double: scipy_csr object\n        ");
+static PyMethodDef __pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_7get_scipy_csr = {"get_scipy_csr", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_7get_scipy_csr, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_6get_scipy_csr};
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_7get_scipy_csr(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -6993,11 +6988,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.get_scipy_csr", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.get_scipy_csr", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_6get_scipy_csr(((struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self), __pyx_v_TopK);
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_6get_scipy_csr(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self), __pyx_v_TopK);
 
   /* function exit code */
   {
@@ -7010,11 +7005,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_6get_scipy_csr(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_TopK) {
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_6get_scipy_csr(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_TopK) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
-  struct __pyx_opt_args_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_scipy_csr __pyx_t_2;
+  struct __pyx_opt_args_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_scipy_csr __pyx_t_2;
   int __pyx_lineno = 0;
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
@@ -7022,7 +7017,7 @@ static PyObject *__pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_6get
   __Pyx_XDECREF(__pyx_r);
   __pyx_t_2.__pyx_n = 1;
   __pyx_t_2.TopK = __pyx_v_TopK;
-  __pyx_t_1 = __pyx_vtabptr_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR->get_scipy_csr(__pyx_v_self, 1, &__pyx_t_2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 240, __pyx_L1_error)
+  __pyx_t_1 = __pyx_vtabptr_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR->get_scipy_csr(__pyx_v_self, 1, &__pyx_t_2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 240, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
@@ -7031,7 +7026,7 @@ static PyObject *__pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_6get
   /* function exit code */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_AddTraceback("Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.get_scipy_csr", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.get_scipy_csr", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -7039,7 +7034,7 @@ static PyObject *__pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_6get
   return __pyx_r;
 }
 
-/* "Sparse_Matrix_Tree_CSR.pyx":288
+/* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":288
  * 
  * 
  *     cpdef rebalance_tree(self, long TopK = False):             # <<<<<<<<<<<<<<
@@ -7047,14 +7042,14 @@ static PyObject *__pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_6get
  *         The function builds a balanced binary tree from the current one, for all matrix rows
  */
 
-static PyObject *__pyx_pw_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_9rebalance_tree(PyObject *__pyx_v_self, 
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_9rebalance_tree(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_rebalance_tree(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, int __pyx_skip_dispatch, struct __pyx_opt_args_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_rebalance_tree *__pyx_optional_args) {
+static PyObject *__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_rebalance_tree(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, int __pyx_skip_dispatch, struct __pyx_opt_args_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_rebalance_tree *__pyx_optional_args) {
   long __pyx_v_TopK = ((long)0);
   long __pyx_v_row;
   PyObject *__pyx_r = NULL;
@@ -7069,7 +7064,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_rebal
   long __pyx_t_8;
   long __pyx_t_9;
   int __pyx_t_10;
-  __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_t_11;
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_t_11;
   int __pyx_lineno = 0;
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
@@ -7090,7 +7085,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_rebal
       #endif
       __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_rebalance_tree); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 288, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
-      if (!__Pyx_IsSameCFunction(__pyx_t_1, (void*) __pyx_pw_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_9rebalance_tree)) {
+      if (!__Pyx_IsSameCFunction(__pyx_t_1, (void*) __pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_9rebalance_tree)) {
         __Pyx_XDECREF(__pyx_r);
         __pyx_t_3 = __Pyx_PyInt_From_long(__pyx_v_TopK); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 288, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_3);
@@ -7136,7 +7131,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_rebal
     #endif
   }
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":299
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":299
  *         #start_time = time.time()
  * 
  *         for row in range(self.num_rows):             # <<<<<<<<<<<<<<
@@ -7148,7 +7143,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_rebal
   for (__pyx_t_9 = 0; __pyx_t_9 < __pyx_t_8; __pyx_t_9+=1) {
     __pyx_v_row = __pyx_t_9;
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":301
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":301
  *         for row in range(self.num_rows):
  * 
  *             if self.row_pointer[row].head != NULL:             # <<<<<<<<<<<<<<
@@ -7158,17 +7153,17 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_rebal
     __pyx_t_10 = ((__pyx_v_self->row_pointer[__pyx_v_row]).head != NULL);
     if (__pyx_t_10) {
 
-      /* "Sparse_Matrix_Tree_CSR.pyx":304
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":304
  * 
  *                 # Flatten the data structure
  *                 self.row_pointer[row].head = self.subtree_to_list_flat(self.row_pointer[row].head)             # <<<<<<<<<<<<<<
  *                 #print("subtree_to_list_flat {} sec".format(time.time() - start_time))
  * 
  */
-      __pyx_t_11 = ((struct __pyx_vtabstruct_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->subtree_to_list_flat(__pyx_v_self, (__pyx_v_self->row_pointer[__pyx_v_row]).head); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 304, __pyx_L1_error)
+      __pyx_t_11 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->subtree_to_list_flat(__pyx_v_self, (__pyx_v_self->row_pointer[__pyx_v_row]).head); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 304, __pyx_L1_error)
       (__pyx_v_self->row_pointer[__pyx_v_row]).head = __pyx_t_11;
 
-      /* "Sparse_Matrix_Tree_CSR.pyx":307
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":307
  *                 #print("subtree_to_list_flat {} sec".format(time.time() - start_time))
  * 
  *                 if TopK:             # <<<<<<<<<<<<<<
@@ -7178,17 +7173,17 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_rebal
       __pyx_t_10 = (__pyx_v_TopK != 0);
       if (__pyx_t_10) {
 
-        /* "Sparse_Matrix_Tree_CSR.pyx":308
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":308
  * 
  *                 if TopK:
  *                     self.row_pointer[row].head = self.topK_selection_from_list(self.row_pointer[row].head, TopK)             # <<<<<<<<<<<<<<
  *                     #print("topK_selection_from_list {} sec".format(time.time() - start_time))
  * 
  */
-        __pyx_t_11 = ((struct __pyx_vtabstruct_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->topK_selection_from_list(__pyx_v_self, (__pyx_v_self->row_pointer[__pyx_v_row]).head, __pyx_v_TopK); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 308, __pyx_L1_error)
+        __pyx_t_11 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->topK_selection_from_list(__pyx_v_self, (__pyx_v_self->row_pointer[__pyx_v_row]).head, __pyx_v_TopK); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 308, __pyx_L1_error)
         (__pyx_v_self->row_pointer[__pyx_v_row]).head = __pyx_t_11;
 
-        /* "Sparse_Matrix_Tree_CSR.pyx":307
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":307
  *                 #print("subtree_to_list_flat {} sec".format(time.time() - start_time))
  * 
  *                 if TopK:             # <<<<<<<<<<<<<<
@@ -7197,17 +7192,17 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_rebal
  */
       }
 
-      /* "Sparse_Matrix_Tree_CSR.pyx":312
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":312
  * 
  *                 # Rebuild the tree
  *                 self.row_pointer[row].head = self.build_tree_from_list_flat(self.row_pointer[row].head)             # <<<<<<<<<<<<<<
  *                 #print("build_tree_from_list_flat {} sec".format(time.time() - start_time))
  * 
  */
-      __pyx_t_11 = ((struct __pyx_vtabstruct_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->build_tree_from_list_flat(__pyx_v_self, (__pyx_v_self->row_pointer[__pyx_v_row]).head); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 312, __pyx_L1_error)
+      __pyx_t_11 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->build_tree_from_list_flat(__pyx_v_self, (__pyx_v_self->row_pointer[__pyx_v_row]).head); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 312, __pyx_L1_error)
       (__pyx_v_self->row_pointer[__pyx_v_row]).head = __pyx_t_11;
 
-      /* "Sparse_Matrix_Tree_CSR.pyx":301
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":301
  *         for row in range(self.num_rows):
  * 
  *             if self.row_pointer[row].head != NULL:             # <<<<<<<<<<<<<<
@@ -7217,7 +7212,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_rebal
     }
   }
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":288
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":288
  * 
  * 
  *     cpdef rebalance_tree(self, long TopK = False):             # <<<<<<<<<<<<<<
@@ -7234,7 +7229,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_rebal
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
   __Pyx_XDECREF(__pyx_t_5);
-  __Pyx_AddTraceback("Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.rebalance_tree", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.rebalance_tree", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = 0;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -7243,16 +7238,16 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_rebal
 }
 
 /* Python wrapper */
-static PyObject *__pyx_pw_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_9rebalance_tree(PyObject *__pyx_v_self, 
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_9rebalance_tree(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-PyDoc_STRVAR(__pyx_doc_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_8rebalance_tree, "\n        The function builds a balanced binary tree from the current one, for all matrix rows\n        \n        :param TopK: either False or an integer number. Number of the highest elements to preserve\n        ");
-static PyMethodDef __pyx_mdef_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_9rebalance_tree = {"rebalance_tree", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_9rebalance_tree, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_8rebalance_tree};
-static PyObject *__pyx_pw_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_9rebalance_tree(PyObject *__pyx_v_self, 
+PyDoc_STRVAR(__pyx_doc_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_8rebalance_tree, "\n        The function builds a balanced binary tree from the current one, for all matrix rows\n        \n        :param TopK: either False or an integer number. Number of the highest elements to preserve\n        ");
+static PyMethodDef __pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_9rebalance_tree = {"rebalance_tree", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_9rebalance_tree, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_8rebalance_tree};
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_9rebalance_tree(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -7328,11 +7323,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.rebalance_tree", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.rebalance_tree", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_8rebalance_tree(((struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self), __pyx_v_TopK);
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_8rebalance_tree(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self), __pyx_v_TopK);
 
   /* function exit code */
   {
@@ -7345,11 +7340,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_8rebalance_tree(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_TopK) {
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_8rebalance_tree(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_TopK) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
-  struct __pyx_opt_args_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_rebalance_tree __pyx_t_2;
+  struct __pyx_opt_args_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_rebalance_tree __pyx_t_2;
   int __pyx_lineno = 0;
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
@@ -7357,7 +7352,7 @@ static PyObject *__pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_8reb
   __Pyx_XDECREF(__pyx_r);
   __pyx_t_2.__pyx_n = 1;
   __pyx_t_2.TopK = __pyx_v_TopK;
-  __pyx_t_1 = __pyx_vtabptr_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR->rebalance_tree(__pyx_v_self, 1, &__pyx_t_2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 288, __pyx_L1_error)
+  __pyx_t_1 = __pyx_vtabptr_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR->rebalance_tree(__pyx_v_self, 1, &__pyx_t_2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 288, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
@@ -7366,7 +7361,7 @@ static PyObject *__pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_8reb
   /* function exit code */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_AddTraceback("Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.rebalance_tree", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.rebalance_tree", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -7374,7 +7369,7 @@ static PyObject *__pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_8reb
   return __pyx_r;
 }
 
-/* "Sparse_Matrix_Tree_CSR.pyx":330
+/* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":330
  * 
  * 
  *     cdef matrix_element_tree_s * subtree_to_list_flat(self, matrix_element_tree_s * root):             # <<<<<<<<<<<<<<
@@ -7382,17 +7377,17 @@ static PyObject *__pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_8reb
  *         The function flatten the structure of the subtree whose root is passed as a parameter
  */
 
-static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_subtree_to_list_flat(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_root) {
-  __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_flat_list_head;
-  __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_current_element;
-  __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_r;
+static __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_subtree_to_list_flat(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_root) {
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_flat_list_head;
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_current_element;
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_r;
   int __pyx_t_1;
-  __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_t_2;
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_t_2;
   int __pyx_lineno = 0;
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":340
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":340
  *         """
  * 
  *         if root == NULL:             # <<<<<<<<<<<<<<
@@ -7402,7 +7397,7 @@ static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_
   __pyx_t_1 = (__pyx_v_root == NULL);
   if (__pyx_t_1) {
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":341
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":341
  * 
  *         if root == NULL:
  *             return NULL             # <<<<<<<<<<<<<<
@@ -7412,7 +7407,7 @@ static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_
     __pyx_r = NULL;
     goto __pyx_L0;
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":340
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":340
  *         """
  * 
  *         if root == NULL:             # <<<<<<<<<<<<<<
@@ -7421,17 +7416,17 @@ static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_
  */
   }
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":346
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":346
  * 
  *         # Flatten lower subtree
  *         flat_list_head = self.subtree_to_list_flat(root.lower)             # <<<<<<<<<<<<<<
  * 
  *         # If no lower elements exist, the head is the current element
  */
-  __pyx_t_2 = ((struct __pyx_vtabstruct_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->subtree_to_list_flat(__pyx_v_self, __pyx_v_root->lower); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 346, __pyx_L1_error)
+  __pyx_t_2 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->subtree_to_list_flat(__pyx_v_self, __pyx_v_root->lower); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 346, __pyx_L1_error)
   __pyx_v_flat_list_head = __pyx_t_2;
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":349
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":349
  * 
  *         # If no lower elements exist, the head is the current element
  *         if flat_list_head == NULL:             # <<<<<<<<<<<<<<
@@ -7441,7 +7436,7 @@ static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_
   __pyx_t_1 = (__pyx_v_flat_list_head == NULL);
   if (__pyx_t_1) {
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":350
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":350
  *         # If no lower elements exist, the head is the current element
  *         if flat_list_head == NULL:
  *             flat_list_head = root             # <<<<<<<<<<<<<<
@@ -7450,7 +7445,7 @@ static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_
  */
     __pyx_v_flat_list_head = __pyx_v_root;
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":351
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":351
  *         if flat_list_head == NULL:
  *             flat_list_head = root
  *             root.lower = NULL             # <<<<<<<<<<<<<<
@@ -7459,7 +7454,7 @@ static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_
  */
     __pyx_v_root->lower = NULL;
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":349
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":349
  * 
  *         # If no lower elements exist, the head is the current element
  *         if flat_list_head == NULL:             # <<<<<<<<<<<<<<
@@ -7469,7 +7464,7 @@ static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_
     goto __pyx_L4;
   }
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":355
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":355
  *         # Else move to the tail and add the subtree root
  *         else:
  *             current_element = flat_list_head             # <<<<<<<<<<<<<<
@@ -7479,7 +7474,7 @@ static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_
   /*else*/ {
     __pyx_v_current_element = __pyx_v_flat_list_head;
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":356
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":356
  *         else:
  *             current_element = flat_list_head
  *             while current_element.higher != NULL:             # <<<<<<<<<<<<<<
@@ -7490,7 +7485,7 @@ static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_
       __pyx_t_1 = (__pyx_v_current_element->higher != NULL);
       if (!__pyx_t_1) break;
 
-      /* "Sparse_Matrix_Tree_CSR.pyx":357
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":357
  *             current_element = flat_list_head
  *             while current_element.higher != NULL:
  *                 current_element = current_element.higher             # <<<<<<<<<<<<<<
@@ -7501,7 +7496,7 @@ static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_
       __pyx_v_current_element = __pyx_t_2;
     }
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":360
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":360
  * 
  *             # Attach the element with the bidirectional pointers
  *             current_element.higher = root             # <<<<<<<<<<<<<<
@@ -7510,7 +7505,7 @@ static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_
  */
     __pyx_v_current_element->higher = __pyx_v_root;
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":361
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":361
  *             # Attach the element with the bidirectional pointers
  *             current_element.higher = root
  *             root.lower = current_element             # <<<<<<<<<<<<<<
@@ -7521,17 +7516,17 @@ static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_
   }
   __pyx_L4:;
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":364
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":364
  * 
  *         # Flatten higher subtree and attach it to the tail of the flat list
  *         root.higher = self.subtree_to_list_flat(root.higher)             # <<<<<<<<<<<<<<
  * 
  *         # Attach the element with the bidirectional pointers
  */
-  __pyx_t_2 = ((struct __pyx_vtabstruct_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->subtree_to_list_flat(__pyx_v_self, __pyx_v_root->higher); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 364, __pyx_L1_error)
+  __pyx_t_2 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->subtree_to_list_flat(__pyx_v_self, __pyx_v_root->higher); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 364, __pyx_L1_error)
   __pyx_v_root->higher = __pyx_t_2;
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":367
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":367
  * 
  *         # Attach the element with the bidirectional pointers
  *         if root.higher != NULL:             # <<<<<<<<<<<<<<
@@ -7541,7 +7536,7 @@ static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_
   __pyx_t_1 = (__pyx_v_root->higher != NULL);
   if (__pyx_t_1) {
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":368
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":368
  *         # Attach the element with the bidirectional pointers
  *         if root.higher != NULL:
  *             root.higher.lower = root             # <<<<<<<<<<<<<<
@@ -7550,7 +7545,7 @@ static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_
  */
     __pyx_v_root->higher->lower = __pyx_v_root;
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":367
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":367
  * 
  *         # Attach the element with the bidirectional pointers
  *         if root.higher != NULL:             # <<<<<<<<<<<<<<
@@ -7559,7 +7554,7 @@ static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_
  */
   }
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":370
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":370
  *             root.higher.lower = root
  * 
  *         return flat_list_head             # <<<<<<<<<<<<<<
@@ -7569,7 +7564,7 @@ static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_
   __pyx_r = __pyx_v_flat_list_head;
   goto __pyx_L0;
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":330
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":330
  * 
  * 
  *     cdef matrix_element_tree_s * subtree_to_list_flat(self, matrix_element_tree_s * root):             # <<<<<<<<<<<<<<
@@ -7579,13 +7574,13 @@ static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_
 
   /* function exit code */
   __pyx_L1_error:;
-  __Pyx_AddTraceback("Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.subtree_to_list_flat", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.subtree_to_list_flat", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = 0;
   __pyx_L0:;
   return __pyx_r;
 }
 
-/* "Sparse_Matrix_Tree_CSR.pyx":374
+/* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":374
  * 
  * 
  *     cdef from_linked_list_to_python_list(self, matrix_element_tree_s * head):             # <<<<<<<<<<<<<<
@@ -7593,7 +7588,7 @@ static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_
  *         data = []
  */
 
-static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_from_linked_list_to_python_list(CYTHON_UNUSED struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_head) {
+static PyObject *__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_from_linked_list_to_python_list(CYTHON_UNUSED struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_head) {
   PyObject *__pyx_v_data = NULL;
   PyObject *__pyx_v_column = NULL;
   PyObject *__pyx_r = NULL;
@@ -7601,13 +7596,13 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_from_
   PyObject *__pyx_t_1 = NULL;
   int __pyx_t_2;
   int __pyx_t_3;
-  __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_t_4;
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_t_4;
   int __pyx_lineno = 0;
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("from_linked_list_to_python_list", 1);
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":376
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":376
  *     cdef from_linked_list_to_python_list(self, matrix_element_tree_s * head):
  * 
  *         data = []             # <<<<<<<<<<<<<<
@@ -7619,7 +7614,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_from_
   __pyx_v_data = ((PyObject*)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":377
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":377
  * 
  *         data = []
  *         column = []             # <<<<<<<<<<<<<<
@@ -7631,7 +7626,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_from_
   __pyx_v_column = ((PyObject*)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":379
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":379
  *         column = []
  * 
  *         while head != NULL:             # <<<<<<<<<<<<<<
@@ -7642,7 +7637,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_from_
     __pyx_t_2 = (__pyx_v_head != NULL);
     if (!__pyx_t_2) break;
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":381
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":381
  *         while head != NULL:
  * 
  *             if head.data != 0.0:             # <<<<<<<<<<<<<<
@@ -7652,7 +7647,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_from_
     __pyx_t_2 = (__pyx_v_head->data != 0.0);
     if (__pyx_t_2) {
 
-      /* "Sparse_Matrix_Tree_CSR.pyx":382
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":382
  * 
  *             if head.data != 0.0:
  *                 data.append(head.data)             # <<<<<<<<<<<<<<
@@ -7664,7 +7659,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_from_
       __pyx_t_3 = __Pyx_PyList_Append(__pyx_v_data, __pyx_t_1); if (unlikely(__pyx_t_3 == ((int)-1))) __PYX_ERR(0, 382, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-      /* "Sparse_Matrix_Tree_CSR.pyx":383
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":383
  *             if head.data != 0.0:
  *                 data.append(head.data)
  *                 column.append(head.column)             # <<<<<<<<<<<<<<
@@ -7676,7 +7671,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_from_
       __pyx_t_3 = __Pyx_PyList_Append(__pyx_v_column, __pyx_t_1); if (unlikely(__pyx_t_3 == ((int)-1))) __PYX_ERR(0, 383, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-      /* "Sparse_Matrix_Tree_CSR.pyx":381
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":381
  *         while head != NULL:
  * 
  *             if head.data != 0.0:             # <<<<<<<<<<<<<<
@@ -7685,7 +7680,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_from_
  */
     }
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":385
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":385
  *                 column.append(head.column)
  * 
  *             head = head.higher             # <<<<<<<<<<<<<<
@@ -7696,7 +7691,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_from_
     __pyx_v_head = __pyx_t_4;
   }
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":387
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":387
  *             head = head.higher
  * 
  *         return column, data             # <<<<<<<<<<<<<<
@@ -7716,7 +7711,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_from_
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":374
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":374
  * 
  * 
  *     cdef from_linked_list_to_python_list(self, matrix_element_tree_s * head):             # <<<<<<<<<<<<<<
@@ -7727,7 +7722,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_from_
   /* function exit code */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_AddTraceback("Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.from_linked_list_to_python_list", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.from_linked_list_to_python_list", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = 0;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_data);
@@ -7737,7 +7732,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_from_
   return __pyx_r;
 }
 
-/* "Sparse_Matrix_Tree_CSR.pyx":391
+/* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":391
  * 
  * 
  *     cdef subtree_free_memory(self, matrix_element_tree_s* root):             # <<<<<<<<<<<<<<
@@ -7745,7 +7740,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_from_
  *         The function frees all struct in the subtree whose root is passed as a parameter, root included
  */
 
-static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_subtree_free_memory(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_root) {
+static PyObject *__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_subtree_free_memory(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_root) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   int __pyx_t_1;
@@ -7755,7 +7750,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_subtr
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("subtree_free_memory", 1);
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":398
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":398
  *         """
  * 
  *         if root != NULL:             # <<<<<<<<<<<<<<
@@ -7765,29 +7760,29 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_subtr
   __pyx_t_1 = (__pyx_v_root != NULL);
   if (__pyx_t_1) {
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":400
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":400
  *         if root != NULL:
  *             # If the root exists, open recursion
  *             self.subtree_free_memory(root.higher)             # <<<<<<<<<<<<<<
  *             self.subtree_free_memory(root.lower)
  * 
  */
-    __pyx_t_2 = ((struct __pyx_vtabstruct_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->subtree_free_memory(__pyx_v_self, __pyx_v_root->higher); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 400, __pyx_L1_error)
+    __pyx_t_2 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->subtree_free_memory(__pyx_v_self, __pyx_v_root->higher); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 400, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":401
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":401
  *             # If the root exists, open recursion
  *             self.subtree_free_memory(root.higher)
  *             self.subtree_free_memory(root.lower)             # <<<<<<<<<<<<<<
  * 
  *             # Once the lower elements have been reached, start freeing from the bottom
  */
-    __pyx_t_2 = ((struct __pyx_vtabstruct_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->subtree_free_memory(__pyx_v_self, __pyx_v_root->lower); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 401, __pyx_L1_error)
+    __pyx_t_2 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->subtree_free_memory(__pyx_v_self, __pyx_v_root->lower); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 401, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":404
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":404
  * 
  *             # Once the lower elements have been reached, start freeing from the bottom
  *             free(root)             # <<<<<<<<<<<<<<
@@ -7796,7 +7791,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_subtr
  */
     free(__pyx_v_root);
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":398
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":398
  *         """
  * 
  *         if root != NULL:             # <<<<<<<<<<<<<<
@@ -7805,7 +7800,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_subtr
  */
   }
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":391
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":391
  * 
  * 
  *     cdef subtree_free_memory(self, matrix_element_tree_s* root):             # <<<<<<<<<<<<<<
@@ -7818,7 +7813,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_subtr
   goto __pyx_L0;
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_2);
-  __Pyx_AddTraceback("Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.subtree_free_memory", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.subtree_free_memory", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = 0;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -7826,7 +7821,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_subtr
   return __pyx_r;
 }
 
-/* "Sparse_Matrix_Tree_CSR.pyx":408
+/* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":408
  * 
  * 
  *     cdef list_free_memory(self, matrix_element_tree_s * head):             # <<<<<<<<<<<<<<
@@ -7834,7 +7829,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_subtr
  *         The function frees all struct in the list whose head is passed as a parameter, head included
  */
 
-static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_list_free_memory(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_head) {
+static PyObject *__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_list_free_memory(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_head) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   int __pyx_t_1;
@@ -7844,7 +7839,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_list_
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("list_free_memory", 1);
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":415
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":415
  *         """
  * 
  *         if head != NULL:             # <<<<<<<<<<<<<<
@@ -7854,18 +7849,18 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_list_
   __pyx_t_1 = (__pyx_v_head != NULL);
   if (__pyx_t_1) {
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":417
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":417
  *         if head != NULL:
  *             # If the root exists, open recursion
  *             self.subtree_free_memory(head.higher)             # <<<<<<<<<<<<<<
  * 
  *             # Once the tail element have been reached, start freeing from them
  */
-    __pyx_t_2 = ((struct __pyx_vtabstruct_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->subtree_free_memory(__pyx_v_self, __pyx_v_head->higher); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 417, __pyx_L1_error)
+    __pyx_t_2 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->subtree_free_memory(__pyx_v_self, __pyx_v_head->higher); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 417, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":420
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":420
  * 
  *             # Once the tail element have been reached, start freeing from them
  *             free(head)             # <<<<<<<<<<<<<<
@@ -7874,7 +7869,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_list_
  */
     free(__pyx_v_head);
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":415
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":415
  *         """
  * 
  *         if head != NULL:             # <<<<<<<<<<<<<<
@@ -7883,7 +7878,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_list_
  */
   }
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":408
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":408
  * 
  * 
  *     cdef list_free_memory(self, matrix_element_tree_s * head):             # <<<<<<<<<<<<<<
@@ -7896,7 +7891,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_list_
   goto __pyx_L0;
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_2);
-  __Pyx_AddTraceback("Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.list_free_memory", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.list_free_memory", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = 0;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -7904,7 +7899,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_list_
   return __pyx_r;
 }
 
-/* "Sparse_Matrix_Tree_CSR.pyx":424
+/* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":424
  * 
  * 
  *     cdef matrix_element_tree_s* build_tree_from_list_flat(self, matrix_element_tree_s* flat_list_head):             # <<<<<<<<<<<<<<
@@ -7912,20 +7907,20 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_list_
  *         The function builds a tree containing the passed data. This is the recursive function, the
  */
 
-static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_build_tree_from_list_flat(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_flat_list_head) {
+static __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_build_tree_from_list_flat(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_flat_list_head) {
   long __pyx_v_list_length;
   long __pyx_v_middle_element_step;
-  __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_current_element;
-  __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_middleElement;
-  __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_tree_root;
-  __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_r;
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_current_element;
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_middleElement;
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_tree_root;
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_r;
   int __pyx_t_1;
-  __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_t_2;
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_t_2;
   int __pyx_lineno = 0;
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":435
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":435
  *         """
  * 
  *         if flat_list_head == NULL:             # <<<<<<<<<<<<<<
@@ -7935,7 +7930,7 @@ static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_
   __pyx_t_1 = (__pyx_v_flat_list_head == NULL);
   if (__pyx_t_1) {
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":436
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":436
  * 
  *         if flat_list_head == NULL:
  *             return NULL             # <<<<<<<<<<<<<<
@@ -7945,7 +7940,7 @@ static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_
     __pyx_r = NULL;
     goto __pyx_L0;
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":435
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":435
  *         """
  * 
  *         if flat_list_head == NULL:             # <<<<<<<<<<<<<<
@@ -7954,7 +7949,7 @@ static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_
  */
   }
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":439
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":439
  * 
  * 
  *         cdef long list_length = 0             # <<<<<<<<<<<<<<
@@ -7963,7 +7958,7 @@ static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_
  */
   __pyx_v_list_length = 0;
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":440
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":440
  * 
  *         cdef long list_length = 0
  *         cdef long middle_element_step = 0             # <<<<<<<<<<<<<<
@@ -7972,7 +7967,7 @@ static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_
  */
   __pyx_v_middle_element_step = 0;
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":444
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":444
  *         cdef matrix_element_tree_s *current_element, *middleElement, *tree_root
  * 
  *         current_element = flat_list_head             # <<<<<<<<<<<<<<
@@ -7981,7 +7976,7 @@ static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_
  */
   __pyx_v_current_element = __pyx_v_flat_list_head;
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":445
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":445
  * 
  *         current_element = flat_list_head
  *         middleElement = flat_list_head             # <<<<<<<<<<<<<<
@@ -7990,7 +7985,7 @@ static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_
  */
   __pyx_v_middleElement = __pyx_v_flat_list_head;
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":448
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":448
  * 
  *         # Explore the flat list moving the middle elment every tho jumps
  *         while current_element != NULL:             # <<<<<<<<<<<<<<
@@ -8001,7 +7996,7 @@ static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_
     __pyx_t_1 = (__pyx_v_current_element != NULL);
     if (!__pyx_t_1) break;
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":449
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":449
  *         # Explore the flat list moving the middle elment every tho jumps
  *         while current_element != NULL:
  *             current_element = current_element.higher             # <<<<<<<<<<<<<<
@@ -8011,7 +8006,7 @@ static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_
     __pyx_t_2 = __pyx_v_current_element->higher;
     __pyx_v_current_element = __pyx_t_2;
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":450
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":450
  *         while current_element != NULL:
  *             current_element = current_element.higher
  *             list_length += 1             # <<<<<<<<<<<<<<
@@ -8020,7 +8015,7 @@ static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_
  */
     __pyx_v_list_length = (__pyx_v_list_length + 1);
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":451
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":451
  *             current_element = current_element.higher
  *             list_length += 1
  *             middle_element_step += 1             # <<<<<<<<<<<<<<
@@ -8029,7 +8024,7 @@ static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_
  */
     __pyx_v_middle_element_step = (__pyx_v_middle_element_step + 1);
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":453
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":453
  *             middle_element_step += 1
  * 
  *             if middle_element_step == 2:             # <<<<<<<<<<<<<<
@@ -8039,7 +8034,7 @@ static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_
     __pyx_t_1 = (__pyx_v_middle_element_step == 2);
     if (__pyx_t_1) {
 
-      /* "Sparse_Matrix_Tree_CSR.pyx":454
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":454
  * 
  *             if middle_element_step == 2:
  *                 middleElement = middleElement.higher             # <<<<<<<<<<<<<<
@@ -8049,7 +8044,7 @@ static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_
       __pyx_t_2 = __pyx_v_middleElement->higher;
       __pyx_v_middleElement = __pyx_t_2;
 
-      /* "Sparse_Matrix_Tree_CSR.pyx":455
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":455
  *             if middle_element_step == 2:
  *                 middleElement = middleElement.higher
  *                 middle_element_step = 0             # <<<<<<<<<<<<<<
@@ -8058,7 +8053,7 @@ static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_
  */
       __pyx_v_middle_element_step = 0;
 
-      /* "Sparse_Matrix_Tree_CSR.pyx":453
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":453
  *             middle_element_step += 1
  * 
  *             if middle_element_step == 2:             # <<<<<<<<<<<<<<
@@ -8068,7 +8063,7 @@ static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_
     }
   }
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":457
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":457
  *                 middle_element_step = 0
  * 
  *         tree_root = middleElement             # <<<<<<<<<<<<<<
@@ -8077,7 +8072,7 @@ static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_
  */
   __pyx_v_tree_root = __pyx_v_middleElement;
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":461
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":461
  *         # To execute the recursion it is necessary to cut the flat list
  *         # The last of the lower elements will have to be a tail
  *         if middleElement.lower != NULL:             # <<<<<<<<<<<<<<
@@ -8087,7 +8082,7 @@ static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_
   __pyx_t_1 = (__pyx_v_middleElement->lower != NULL);
   if (__pyx_t_1) {
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":462
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":462
  *         # The last of the lower elements will have to be a tail
  *         if middleElement.lower != NULL:
  *             middleElement.lower.higher = NULL             # <<<<<<<<<<<<<<
@@ -8096,17 +8091,17 @@ static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_
  */
     __pyx_v_middleElement->lower->higher = NULL;
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":464
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":464
  *             middleElement.lower.higher = NULL
  * 
  *             tree_root.lower = self.build_tree_from_list_flat(flat_list_head)             # <<<<<<<<<<<<<<
  * 
  * 
  */
-    __pyx_t_2 = ((struct __pyx_vtabstruct_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->build_tree_from_list_flat(__pyx_v_self, __pyx_v_flat_list_head); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 464, __pyx_L1_error)
+    __pyx_t_2 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->build_tree_from_list_flat(__pyx_v_self, __pyx_v_flat_list_head); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 464, __pyx_L1_error)
     __pyx_v_tree_root->lower = __pyx_t_2;
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":461
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":461
  *         # To execute the recursion it is necessary to cut the flat list
  *         # The last of the lower elements will have to be a tail
  *         if middleElement.lower != NULL:             # <<<<<<<<<<<<<<
@@ -8115,7 +8110,7 @@ static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_
  */
   }
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":468
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":468
  * 
  *         # The first of the higher elements will have to be a head
  *         if middleElement.higher != NULL:             # <<<<<<<<<<<<<<
@@ -8125,7 +8120,7 @@ static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_
   __pyx_t_1 = (__pyx_v_middleElement->higher != NULL);
   if (__pyx_t_1) {
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":469
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":469
  *         # The first of the higher elements will have to be a head
  *         if middleElement.higher != NULL:
  *             middleElement.higher.lower = NULL             # <<<<<<<<<<<<<<
@@ -8134,17 +8129,17 @@ static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_
  */
     __pyx_v_middleElement->higher->lower = NULL;
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":471
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":471
  *             middleElement.higher.lower = NULL
  * 
  *             tree_root.higher = self.build_tree_from_list_flat(middleElement.higher)             # <<<<<<<<<<<<<<
  * 
  * 
  */
-    __pyx_t_2 = ((struct __pyx_vtabstruct_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->build_tree_from_list_flat(__pyx_v_self, __pyx_v_middleElement->higher); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 471, __pyx_L1_error)
+    __pyx_t_2 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->build_tree_from_list_flat(__pyx_v_self, __pyx_v_middleElement->higher); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 471, __pyx_L1_error)
     __pyx_v_tree_root->higher = __pyx_t_2;
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":468
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":468
  * 
  *         # The first of the higher elements will have to be a head
  *         if middleElement.higher != NULL:             # <<<<<<<<<<<<<<
@@ -8153,7 +8148,7 @@ static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_
  */
   }
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":474
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":474
  * 
  * 
  *         return tree_root             # <<<<<<<<<<<<<<
@@ -8163,7 +8158,7 @@ static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_
   __pyx_r = __pyx_v_tree_root;
   goto __pyx_L0;
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":424
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":424
  * 
  * 
  *     cdef matrix_element_tree_s* build_tree_from_list_flat(self, matrix_element_tree_s* flat_list_head):             # <<<<<<<<<<<<<<
@@ -8173,13 +8168,13 @@ static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_
 
   /* function exit code */
   __pyx_L1_error:;
-  __Pyx_AddTraceback("Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.build_tree_from_list_flat", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.build_tree_from_list_flat", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = 0;
   __pyx_L0:;
   return __pyx_r;
 }
 
-/* "Sparse_Matrix_Tree_CSR.pyx":479
+/* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":479
  * 
  * 
  *     cdef matrix_element_tree_s* topK_selection_from_list(self, matrix_element_tree_s* head, long TopK):             # <<<<<<<<<<<<<<
@@ -8187,19 +8182,19 @@ static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_
  *         The function selects the topK highest elements in the given list
  */
 
-static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_topK_selection_from_list(CYTHON_UNUSED struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_head, long __pyx_v_TopK) {
-  __pyx_t_22Sparse_Matrix_Tree_CSR_head_pointer_tree_s *__pyx_v_vector_pointer_to_list_elements;
-  __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_current_element;
+static __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_topK_selection_from_list(CYTHON_UNUSED struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_head, long __pyx_v_TopK) {
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_head_pointer_tree_s *__pyx_v_vector_pointer_to_list_elements;
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_current_element;
   long __pyx_v_list_length;
   long __pyx_v_index;
-  __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_r;
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_r;
   int __pyx_t_1;
-  __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_t_2;
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_t_2;
   long __pyx_t_3;
   long __pyx_t_4;
   long __pyx_t_5;
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":493
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":493
  * 
  *         # Get list size
  *         current_element = head             # <<<<<<<<<<<<<<
@@ -8208,7 +8203,7 @@ static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_
  */
   __pyx_v_current_element = __pyx_v_head;
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":494
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":494
  *         # Get list size
  *         current_element = head
  *         list_length = 0             # <<<<<<<<<<<<<<
@@ -8217,7 +8212,7 @@ static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_
  */
   __pyx_v_list_length = 0;
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":496
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":496
  *         list_length = 0
  * 
  *         while current_element != NULL:             # <<<<<<<<<<<<<<
@@ -8228,7 +8223,7 @@ static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_
     __pyx_t_1 = (__pyx_v_current_element != NULL);
     if (!__pyx_t_1) break;
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":497
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":497
  * 
  *         while current_element != NULL:
  *             list_length += 1             # <<<<<<<<<<<<<<
@@ -8237,7 +8232,7 @@ static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_
  */
     __pyx_v_list_length = (__pyx_v_list_length + 1);
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":498
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":498
  *         while current_element != NULL:
  *             list_length += 1
  *             current_element = current_element.higher             # <<<<<<<<<<<<<<
@@ -8248,7 +8243,7 @@ static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_
     __pyx_v_current_element = __pyx_t_2;
   }
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":502
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":502
  * 
  *         # If list elements are not enough to perform a selection, return
  *         if list_length < TopK:             # <<<<<<<<<<<<<<
@@ -8258,7 +8253,7 @@ static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_
   __pyx_t_1 = (__pyx_v_list_length < __pyx_v_TopK);
   if (__pyx_t_1) {
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":503
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":503
  *         # If list elements are not enough to perform a selection, return
  *         if list_length < TopK:
  *             return head             # <<<<<<<<<<<<<<
@@ -8268,7 +8263,7 @@ static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_
     __pyx_r = __pyx_v_head;
     goto __pyx_L0;
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":502
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":502
  * 
  *         # If list elements are not enough to perform a selection, return
  *         if list_length < TopK:             # <<<<<<<<<<<<<<
@@ -8277,16 +8272,16 @@ static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_
  */
   }
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":506
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":506
  * 
  *         # Allocate vector that will be used for sorting
  *         vector_pointer_to_list_elements = < head_pointer_tree_s *> malloc(list_length * sizeof(head_pointer_tree_s))             # <<<<<<<<<<<<<<
  * 
  *         # Fill vector wit pointers to list elements
  */
-  __pyx_v_vector_pointer_to_list_elements = ((__pyx_t_22Sparse_Matrix_Tree_CSR_head_pointer_tree_s *)malloc((__pyx_v_list_length * (sizeof(__pyx_t_22Sparse_Matrix_Tree_CSR_head_pointer_tree_s)))));
+  __pyx_v_vector_pointer_to_list_elements = ((__pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_head_pointer_tree_s *)malloc((__pyx_v_list_length * (sizeof(__pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_head_pointer_tree_s)))));
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":509
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":509
  * 
  *         # Fill vector wit pointers to list elements
  *         current_element = head             # <<<<<<<<<<<<<<
@@ -8295,7 +8290,7 @@ static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_
  */
   __pyx_v_current_element = __pyx_v_head;
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":510
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":510
  *         # Fill vector wit pointers to list elements
  *         current_element = head
  *         for index in range(list_length):             # <<<<<<<<<<<<<<
@@ -8307,7 +8302,7 @@ static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_
   for (__pyx_t_5 = 0; __pyx_t_5 < __pyx_t_4; __pyx_t_5+=1) {
     __pyx_v_index = __pyx_t_5;
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":511
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":511
  *         current_element = head
  *         for index in range(list_length):
  *             vector_pointer_to_list_elements[index].head = current_element             # <<<<<<<<<<<<<<
@@ -8316,7 +8311,7 @@ static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_
  */
     (__pyx_v_vector_pointer_to_list_elements[__pyx_v_index]).head = __pyx_v_current_element;
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":512
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":512
  *         for index in range(list_length):
  *             vector_pointer_to_list_elements[index].head = current_element
  *             current_element = current_element.higher             # <<<<<<<<<<<<<<
@@ -8327,25 +8322,25 @@ static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_
     __pyx_v_current_element = __pyx_t_2;
   }
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":516
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":516
  * 
  *         # Sort array elements on their data field
  *         qsort(vector_pointer_to_list_elements, list_length, sizeof(head_pointer_tree_s), compare_struct_on_data)             # <<<<<<<<<<<<<<
  * 
  *         # Sort only the TopK according to their column field
  */
-  qsort(__pyx_v_vector_pointer_to_list_elements, __pyx_v_list_length, (sizeof(__pyx_t_22Sparse_Matrix_Tree_CSR_head_pointer_tree_s)), __pyx_f_22Sparse_Matrix_Tree_CSR_compare_struct_on_data);
+  qsort(__pyx_v_vector_pointer_to_list_elements, __pyx_v_list_length, (sizeof(__pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_head_pointer_tree_s)), __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_compare_struct_on_data);
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":520
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":520
  *         # Sort only the TopK according to their column field
  *         # Sort is from lower to higher, therefore the elements to be considered are from len-topK to len
  *         qsort(&vector_pointer_to_list_elements[list_length-TopK], TopK, sizeof(head_pointer_tree_s), compare_struct_on_column)             # <<<<<<<<<<<<<<
  * 
  * 
  */
-  qsort((&(__pyx_v_vector_pointer_to_list_elements[(__pyx_v_list_length - __pyx_v_TopK)])), __pyx_v_TopK, (sizeof(__pyx_t_22Sparse_Matrix_Tree_CSR_head_pointer_tree_s)), __pyx_f_22Sparse_Matrix_Tree_CSR_compare_struct_on_column);
+  qsort((&(__pyx_v_vector_pointer_to_list_elements[(__pyx_v_list_length - __pyx_v_TopK)])), __pyx_v_TopK, (sizeof(__pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_head_pointer_tree_s)), __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_compare_struct_on_column);
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":524
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":524
  * 
  *         # Rebuild list attaching the consecutive elements
  *         index = list_length-TopK             # <<<<<<<<<<<<<<
@@ -8354,7 +8349,7 @@ static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_
  */
   __pyx_v_index = (__pyx_v_list_length - __pyx_v_TopK);
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":527
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":527
  * 
  *         # Detach last TopK element from previous ones
  *         vector_pointer_to_list_elements[index].head.lower = NULL             # <<<<<<<<<<<<<<
@@ -8363,7 +8358,7 @@ static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_
  */
   (__pyx_v_vector_pointer_to_list_elements[__pyx_v_index]).head->lower = NULL;
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":529
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":529
  *         vector_pointer_to_list_elements[index].head.lower = NULL
  * 
  *         while index<list_length-1:             # <<<<<<<<<<<<<<
@@ -8374,7 +8369,7 @@ static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_
     __pyx_t_1 = (__pyx_v_index < (__pyx_v_list_length - 1));
     if (!__pyx_t_1) break;
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":531
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":531
  *         while index<list_length-1:
  *             # Rearrange bidirectional pointers
  *             vector_pointer_to_list_elements[index+1].head.lower = vector_pointer_to_list_elements[index].head             # <<<<<<<<<<<<<<
@@ -8384,7 +8379,7 @@ static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_
     __pyx_t_2 = (__pyx_v_vector_pointer_to_list_elements[__pyx_v_index]).head;
     (__pyx_v_vector_pointer_to_list_elements[(__pyx_v_index + 1)]).head->lower = __pyx_t_2;
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":532
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":532
  *             # Rearrange bidirectional pointers
  *             vector_pointer_to_list_elements[index+1].head.lower = vector_pointer_to_list_elements[index].head
  *             vector_pointer_to_list_elements[index].head.higher = vector_pointer_to_list_elements[index+1].head             # <<<<<<<<<<<<<<
@@ -8394,7 +8389,7 @@ static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_
     __pyx_t_2 = (__pyx_v_vector_pointer_to_list_elements[(__pyx_v_index + 1)]).head;
     (__pyx_v_vector_pointer_to_list_elements[__pyx_v_index]).head->higher = __pyx_t_2;
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":534
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":534
  *             vector_pointer_to_list_elements[index].head.higher = vector_pointer_to_list_elements[index+1].head
  * 
  *             index += 1             # <<<<<<<<<<<<<<
@@ -8404,7 +8399,7 @@ static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_
     __pyx_v_index = (__pyx_v_index + 1);
   }
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":537
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":537
  * 
  *         # Last element in vector will be the hew head
  *         vector_pointer_to_list_elements[list_length - 1].head.higher = NULL             # <<<<<<<<<<<<<<
@@ -8413,7 +8408,7 @@ static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_
  */
   (__pyx_v_vector_pointer_to_list_elements[(__pyx_v_list_length - 1)]).head->higher = NULL;
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":540
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":540
  * 
  *         # Get hew list head
  *         current_element = vector_pointer_to_list_elements[list_length-TopK].head             # <<<<<<<<<<<<<<
@@ -8423,7 +8418,7 @@ static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_
   __pyx_t_2 = (__pyx_v_vector_pointer_to_list_elements[(__pyx_v_list_length - __pyx_v_TopK)]).head;
   __pyx_v_current_element = __pyx_t_2;
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":544
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":544
  *         # If there are exactly enough elements to reach TopK, index == 0 will be the tail
  *         # Else, index will be the tail and the other elements will be removed
  *         index = list_length - TopK - 1             # <<<<<<<<<<<<<<
@@ -8432,7 +8427,7 @@ static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_
  */
   __pyx_v_index = ((__pyx_v_list_length - __pyx_v_TopK) - 1);
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":545
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":545
  *         # Else, index will be the tail and the other elements will be removed
  *         index = list_length - TopK - 1
  *         if index > 0:             # <<<<<<<<<<<<<<
@@ -8442,7 +8437,7 @@ static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_
   __pyx_t_1 = (__pyx_v_index > 0);
   if (__pyx_t_1) {
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":547
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":547
  *         if index > 0:
  * 
  *             index -= 1             # <<<<<<<<<<<<<<
@@ -8451,7 +8446,7 @@ static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_
  */
     __pyx_v_index = (__pyx_v_index - 1);
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":548
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":548
  * 
  *             index -= 1
  *             while index >= 0:             # <<<<<<<<<<<<<<
@@ -8462,7 +8457,7 @@ static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_
       __pyx_t_1 = (__pyx_v_index >= 0);
       if (!__pyx_t_1) break;
 
-      /* "Sparse_Matrix_Tree_CSR.pyx":549
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":549
  *             index -= 1
  *             while index >= 0:
  *                 free(vector_pointer_to_list_elements[index].head)             # <<<<<<<<<<<<<<
@@ -8471,7 +8466,7 @@ static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_
  */
       free((__pyx_v_vector_pointer_to_list_elements[__pyx_v_index]).head);
 
-      /* "Sparse_Matrix_Tree_CSR.pyx":550
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":550
  *             while index >= 0:
  *                 free(vector_pointer_to_list_elements[index].head)
  *                 index -= 1             # <<<<<<<<<<<<<<
@@ -8481,7 +8476,7 @@ static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_
       __pyx_v_index = (__pyx_v_index - 1);
     }
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":545
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":545
  *         # Else, index will be the tail and the other elements will be removed
  *         index = list_length - TopK - 1
  *         if index > 0:             # <<<<<<<<<<<<<<
@@ -8490,7 +8485,7 @@ static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_
  */
   }
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":553
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":553
  * 
  *         # Free array
  *         free(vector_pointer_to_list_elements)             # <<<<<<<<<<<<<<
@@ -8499,7 +8494,7 @@ static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_
  */
   free(__pyx_v_vector_pointer_to_list_elements);
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":556
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":556
  * 
  * 
  *         return current_element             # <<<<<<<<<<<<<<
@@ -8509,7 +8504,7 @@ static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_
   __pyx_r = __pyx_v_current_element;
   goto __pyx_L0;
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":479
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":479
  * 
  * 
  *     cdef matrix_element_tree_s* topK_selection_from_list(self, matrix_element_tree_s* head, long TopK):             # <<<<<<<<<<<<<<
@@ -8522,7 +8517,7 @@ static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_
   return __pyx_r;
 }
 
-/* "Sparse_Matrix_Tree_CSR.pyx":570
+/* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":570
  * 
  * 
  *     cpdef test_list_tree_conversion(self, long row):             # <<<<<<<<<<<<<<
@@ -8530,18 +8525,18 @@ static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_
  *         The function tests the inner data structure conversion from tree to C linked list and back to tree
  */
 
-static PyObject *__pyx_pw_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_11test_list_tree_conversion(PyObject *__pyx_v_self, 
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_11test_list_tree_conversion(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_list_tree_conversion(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_row, int __pyx_skip_dispatch) {
-  __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_head;
-  __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_tree_root;
-  __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_current_element;
-  __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_previous_element;
+static PyObject *__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_list_tree_conversion(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_row, int __pyx_skip_dispatch) {
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_head;
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_tree_root;
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_current_element;
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_previous_element;
   PyObject *__pyx_v_numElements_higher = 0;
   PyObject *__pyx_v_numElements_lower = 0;
   PyObject *__pyx_v_column_original = NULL;
@@ -8559,7 +8554,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
   PyObject *__pyx_t_4 = NULL;
   PyObject *__pyx_t_5 = NULL;
   unsigned int __pyx_t_6;
-  __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_t_7;
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_t_7;
   int __pyx_t_8;
   PyObject *(*__pyx_t_9)(PyObject *);
   Py_ssize_t __pyx_t_10;
@@ -8580,7 +8575,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
       #endif
       __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_test_list_tree_conversion); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 570, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
-      if (!__Pyx_IsSameCFunction(__pyx_t_1, (void*) __pyx_pw_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_11test_list_tree_conversion)) {
+      if (!__Pyx_IsSameCFunction(__pyx_t_1, (void*) __pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_11test_list_tree_conversion)) {
         __Pyx_XDECREF(__pyx_r);
         __pyx_t_3 = __Pyx_PyInt_From_long(__pyx_v_row); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 570, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_3);
@@ -8626,17 +8621,17 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
     #endif
   }
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":580
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":580
  *         cdef matrix_element_tree_s *current_element, *previous_element
  * 
  *         head = self.subtree_to_list_flat(self.row_pointer[row].head)             # <<<<<<<<<<<<<<
  *         current_element = head
  * 
  */
-  __pyx_t_7 = ((struct __pyx_vtabstruct_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->subtree_to_list_flat(__pyx_v_self, (__pyx_v_self->row_pointer[__pyx_v_row]).head); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 580, __pyx_L1_error)
+  __pyx_t_7 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->subtree_to_list_flat(__pyx_v_self, (__pyx_v_self->row_pointer[__pyx_v_row]).head); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 580, __pyx_L1_error)
   __pyx_v_head = __pyx_t_7;
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":581
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":581
  * 
  *         head = self.subtree_to_list_flat(self.row_pointer[row].head)
  *         current_element = head             # <<<<<<<<<<<<<<
@@ -8645,7 +8640,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
  */
   __pyx_v_current_element = __pyx_v_head;
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":583
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":583
  *         current_element = head
  * 
  *         cdef numElements_higher = 0             # <<<<<<<<<<<<<<
@@ -8655,7 +8650,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
   __Pyx_INCREF(__pyx_int_0);
   __pyx_v_numElements_higher = __pyx_int_0;
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":584
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":584
  * 
  *         cdef numElements_higher = 0
  *         cdef numElements_lower = 0             # <<<<<<<<<<<<<<
@@ -8665,7 +8660,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
   __Pyx_INCREF(__pyx_int_0);
   __pyx_v_numElements_lower = __pyx_int_0;
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":586
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":586
  *         cdef numElements_lower = 0
  * 
  *         while current_element != NULL:             # <<<<<<<<<<<<<<
@@ -8676,7 +8671,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
     __pyx_t_8 = (__pyx_v_current_element != NULL);
     if (!__pyx_t_8) break;
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":587
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":587
  * 
  *         while current_element != NULL:
  *             numElements_higher += 1             # <<<<<<<<<<<<<<
@@ -8688,7 +8683,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
     __Pyx_DECREF_SET(__pyx_v_numElements_higher, __pyx_t_1);
     __pyx_t_1 = 0;
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":588
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":588
  *         while current_element != NULL:
  *             numElements_higher += 1
  *             previous_element = current_element             # <<<<<<<<<<<<<<
@@ -8697,7 +8692,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
  */
     __pyx_v_previous_element = __pyx_v_current_element;
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":589
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":589
  *             numElements_higher += 1
  *             previous_element = current_element
  *             current_element = current_element.higher             # <<<<<<<<<<<<<<
@@ -8708,7 +8703,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
     __pyx_v_current_element = __pyx_t_7;
   }
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":591
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":591
  *             current_element = current_element.higher
  * 
  *         current_element = previous_element             # <<<<<<<<<<<<<<
@@ -8717,7 +8712,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
  */
   __pyx_v_current_element = __pyx_v_previous_element;
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":592
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":592
  * 
  *         current_element = previous_element
  *         while current_element != NULL:             # <<<<<<<<<<<<<<
@@ -8728,7 +8723,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
     __pyx_t_8 = (__pyx_v_current_element != NULL);
     if (!__pyx_t_8) break;
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":593
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":593
  *         current_element = previous_element
  *         while current_element != NULL:
  *             numElements_lower += 1             # <<<<<<<<<<<<<<
@@ -8740,7 +8735,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
     __Pyx_DECREF_SET(__pyx_v_numElements_lower, __pyx_t_1);
     __pyx_t_1 = 0;
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":594
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":594
  *         while current_element != NULL:
  *             numElements_lower += 1
  *             current_element = current_element.lower             # <<<<<<<<<<<<<<
@@ -8751,7 +8746,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
     __pyx_v_current_element = __pyx_t_7;
   }
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":596
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":596
  *             current_element = current_element.lower
  * 
  *         assert numElements_higher == numElements_lower, 'Bidirectional linked list not consistent.' \             # <<<<<<<<<<<<<<
@@ -8765,7 +8760,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     if (unlikely(!__pyx_t_8)) {
 
-      /* "Sparse_Matrix_Tree_CSR.pyx":597
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":597
  * 
  *         assert numElements_higher == numElements_lower, 'Bidirectional linked list not consistent.' \
  *                                                         ' From head to tail element count is {}, from tail to head is {}'.format(             # <<<<<<<<<<<<<<
@@ -8775,7 +8770,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
       __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_Bidirectional_linked_list_not_co, __pyx_n_s_format); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 597, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
 
-      /* "Sparse_Matrix_Tree_CSR.pyx":598
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":598
  *         assert numElements_higher == numElements_lower, 'Bidirectional linked list not consistent.' \
  *                                                         ' From head to tail element count is {}, from tail to head is {}'.format(
  *                                                         numElements_higher, numElements_lower)             # <<<<<<<<<<<<<<
@@ -8805,7 +8800,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
       }
 
-      /* "Sparse_Matrix_Tree_CSR.pyx":597
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":597
  * 
  *         assert numElements_higher == numElements_lower, 'Bidirectional linked list not consistent.' \
  *                                                         ' From head to tail element count is {}, from tail to head is {}'.format(             # <<<<<<<<<<<<<<
@@ -8824,7 +8819,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
   if ((1)); else __PYX_ERR(0, 596, __pyx_L1_error)
   #endif
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":600
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":600
  *                                                         numElements_higher, numElements_lower)
  * 
  *         print("Bidirectional list link - Passed")             # <<<<<<<<<<<<<<
@@ -8835,14 +8830,14 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":602
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":602
  *         print("Bidirectional list link - Passed")
  * 
  *         column_original, data_original = self.from_linked_list_to_python_list(head)             # <<<<<<<<<<<<<<
  * 
  *         assert numElements_higher == len(column_original), \
  */
-  __pyx_t_2 = ((struct __pyx_vtabstruct_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->from_linked_list_to_python_list(__pyx_v_self, __pyx_v_head); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 602, __pyx_L1_error)
+  __pyx_t_2 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->from_linked_list_to_python_list(__pyx_v_self, __pyx_v_head); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 602, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   if ((likely(PyTuple_CheckExact(__pyx_t_2))) || (PyList_CheckExact(__pyx_t_2))) {
     PyObject* sequence = __pyx_t_2;
@@ -8895,7 +8890,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
   __pyx_v_data_original = __pyx_t_4;
   __pyx_t_4 = 0;
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":604
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":604
  *         column_original, data_original = self.from_linked_list_to_python_list(head)
  * 
  *         assert numElements_higher == len(column_original), \             # <<<<<<<<<<<<<<
@@ -8913,7 +8908,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     if (unlikely(!__pyx_t_8)) {
 
-      /* "Sparse_Matrix_Tree_CSR.pyx":605
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":605
  * 
  *         assert numElements_higher == len(column_original), \
  *             'Data structure size inconsistent. LinkedList is {}, Python list is {}'.format(numElements_higher, len(column_original))             # <<<<<<<<<<<<<<
@@ -8960,7 +8955,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
   if ((1)); else __PYX_ERR(0, 604, __pyx_L1_error)
   #endif
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":607
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":607
  *             'Data structure size inconsistent. LinkedList is {}, Python list is {}'.format(numElements_higher, len(column_original))
  * 
  *         for index in range(len(column_original)-1):             # <<<<<<<<<<<<<<
@@ -9029,7 +9024,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
     __Pyx_XDECREF_SET(__pyx_v_index, __pyx_t_4);
     __pyx_t_4 = 0;
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":608
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":608
  * 
  *         for index in range(len(column_original)-1):
  *             assert column_original[index] < column_original[index+1],\             # <<<<<<<<<<<<<<
@@ -9059,7 +9054,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
     if ((1)); else __PYX_ERR(0, 608, __pyx_L1_error)
     #endif
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":607
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":607
  *             'Data structure size inconsistent. LinkedList is {}, Python list is {}'.format(numElements_higher, len(column_original))
  * 
  *         for index in range(len(column_original)-1):             # <<<<<<<<<<<<<<
@@ -9069,7 +9064,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
   }
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":611
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":611
  *                 'Columns not ordered correctly. Tree not flattened properly'
  * 
  *         print("Bidirectional list ordering - Passed")             # <<<<<<<<<<<<<<
@@ -9080,27 +9075,27 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":614
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":614
  * 
  *         # Transform list into tree and back into list, as it is easy to test
  *         tree_root = self.build_tree_from_list_flat(head)             # <<<<<<<<<<<<<<
  *         head = self.subtree_to_list_flat(tree_root)
  * 
  */
-  __pyx_t_7 = ((struct __pyx_vtabstruct_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->build_tree_from_list_flat(__pyx_v_self, __pyx_v_head); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 614, __pyx_L1_error)
+  __pyx_t_7 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->build_tree_from_list_flat(__pyx_v_self, __pyx_v_head); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 614, __pyx_L1_error)
   __pyx_v_tree_root = __pyx_t_7;
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":615
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":615
  *         # Transform list into tree and back into list, as it is easy to test
  *         tree_root = self.build_tree_from_list_flat(head)
  *         head = self.subtree_to_list_flat(tree_root)             # <<<<<<<<<<<<<<
  * 
  *         cdef numElements_higher_after = 0
  */
-  __pyx_t_7 = ((struct __pyx_vtabstruct_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->subtree_to_list_flat(__pyx_v_self, __pyx_v_tree_root); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 615, __pyx_L1_error)
+  __pyx_t_7 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->subtree_to_list_flat(__pyx_v_self, __pyx_v_tree_root); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 615, __pyx_L1_error)
   __pyx_v_head = __pyx_t_7;
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":617
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":617
  *         head = self.subtree_to_list_flat(tree_root)
  * 
  *         cdef numElements_higher_after = 0             # <<<<<<<<<<<<<<
@@ -9110,7 +9105,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
   __Pyx_INCREF(__pyx_int_0);
   __pyx_v_numElements_higher_after = __pyx_int_0;
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":618
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":618
  * 
  *         cdef numElements_higher_after = 0
  *         cdef numElements_lower_after = 0             # <<<<<<<<<<<<<<
@@ -9120,7 +9115,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
   __Pyx_INCREF(__pyx_int_0);
   __pyx_v_numElements_lower_after = __pyx_int_0;
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":620
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":620
  *         cdef numElements_lower_after = 0
  * 
  *         current_element = head             # <<<<<<<<<<<<<<
@@ -9129,7 +9124,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
  */
   __pyx_v_current_element = __pyx_v_head;
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":622
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":622
  *         current_element = head
  * 
  *         while current_element != NULL:             # <<<<<<<<<<<<<<
@@ -9140,7 +9135,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
     __pyx_t_8 = (__pyx_v_current_element != NULL);
     if (!__pyx_t_8) break;
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":623
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":623
  * 
  *         while current_element != NULL:
  *             numElements_higher_after += 1             # <<<<<<<<<<<<<<
@@ -9152,7 +9147,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
     __Pyx_DECREF_SET(__pyx_v_numElements_higher_after, __pyx_t_2);
     __pyx_t_2 = 0;
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":624
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":624
  *         while current_element != NULL:
  *             numElements_higher_after += 1
  *             previous_element = current_element             # <<<<<<<<<<<<<<
@@ -9161,7 +9156,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
  */
     __pyx_v_previous_element = __pyx_v_current_element;
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":625
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":625
  *             numElements_higher_after += 1
  *             previous_element = current_element
  *             current_element = current_element.higher             # <<<<<<<<<<<<<<
@@ -9172,7 +9167,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
     __pyx_v_current_element = __pyx_t_7;
   }
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":627
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":627
  *             current_element = current_element.higher
  * 
  *         current_element = previous_element             # <<<<<<<<<<<<<<
@@ -9181,7 +9176,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
  */
   __pyx_v_current_element = __pyx_v_previous_element;
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":628
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":628
  * 
  *         current_element = previous_element
  *         while current_element != NULL:             # <<<<<<<<<<<<<<
@@ -9192,7 +9187,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
     __pyx_t_8 = (__pyx_v_current_element != NULL);
     if (!__pyx_t_8) break;
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":629
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":629
  *         current_element = previous_element
  *         while current_element != NULL:
  *             numElements_lower_after += 1             # <<<<<<<<<<<<<<
@@ -9204,7 +9199,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
     __Pyx_DECREF_SET(__pyx_v_numElements_lower_after, __pyx_t_2);
     __pyx_t_2 = 0;
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":630
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":630
  *         while current_element != NULL:
  *             numElements_lower_after += 1
  *             current_element = current_element.lower             # <<<<<<<<<<<<<<
@@ -9215,7 +9210,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
     __pyx_v_current_element = __pyx_t_7;
   }
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":632
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":632
  *             current_element = current_element.lower
  * 
  *         print("Bidirectional list from tree link - Passed")             # <<<<<<<<<<<<<<
@@ -9226,7 +9221,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":634
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":634
  *         print("Bidirectional list from tree link - Passed")
  * 
  *         assert numElements_higher_after == numElements_lower_after, \             # <<<<<<<<<<<<<<
@@ -9240,7 +9235,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     if (unlikely(!__pyx_t_8)) {
 
-      /* "Sparse_Matrix_Tree_CSR.pyx":636
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":636
  *         assert numElements_higher_after == numElements_lower_after, \
  *             'Bidirectional linked list after tree construction not consistent. ' \
  *             'From head to tail element count is {}, from tail to head is {}'.format(             # <<<<<<<<<<<<<<
@@ -9250,7 +9245,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
       __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_Bidirectional_linked_list_after, __pyx_n_s_format); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 636, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
 
-      /* "Sparse_Matrix_Tree_CSR.pyx":637
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":637
  *             'Bidirectional linked list after tree construction not consistent. ' \
  *             'From head to tail element count is {}, from tail to head is {}'.format(
  *             numElements_higher_after, numElements_lower_after)             # <<<<<<<<<<<<<<
@@ -9280,7 +9275,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
       }
 
-      /* "Sparse_Matrix_Tree_CSR.pyx":636
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":636
  *         assert numElements_higher_after == numElements_lower_after, \
  *             'Bidirectional linked list after tree construction not consistent. ' \
  *             'From head to tail element count is {}, from tail to head is {}'.format(             # <<<<<<<<<<<<<<
@@ -9299,7 +9294,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
   if ((1)); else __PYX_ERR(0, 634, __pyx_L1_error)
   #endif
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":639
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":639
  *             numElements_higher_after, numElements_lower_after)
  * 
  *         assert numElements_higher == numElements_higher_after, \             # <<<<<<<<<<<<<<
@@ -9313,7 +9308,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     if (unlikely(!__pyx_t_8)) {
 
-      /* "Sparse_Matrix_Tree_CSR.pyx":640
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":640
  * 
  *         assert numElements_higher == numElements_higher_after, \
  *             'Data structure size inconsistent. Original length is {}, after tree conversion is {}'.format(             # <<<<<<<<<<<<<<
@@ -9323,7 +9318,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
       __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_Data_structure_size_inconsistent_2, __pyx_n_s_format); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 640, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
 
-      /* "Sparse_Matrix_Tree_CSR.pyx":641
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":641
  *         assert numElements_higher == numElements_higher_after, \
  *             'Data structure size inconsistent. Original length is {}, after tree conversion is {}'.format(
  *                 numElements_higher, numElements_higher_after)             # <<<<<<<<<<<<<<
@@ -9353,7 +9348,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
       }
 
-      /* "Sparse_Matrix_Tree_CSR.pyx":640
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":640
  * 
  *         assert numElements_higher == numElements_higher_after, \
  *             'Data structure size inconsistent. Original length is {}, after tree conversion is {}'.format(             # <<<<<<<<<<<<<<
@@ -9372,14 +9367,14 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
   if ((1)); else __PYX_ERR(0, 639, __pyx_L1_error)
   #endif
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":643
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":643
  *                 numElements_higher, numElements_higher_after)
  * 
  *         column_after_tree, data_after_tree = self.from_linked_list_to_python_list(head)             # <<<<<<<<<<<<<<
  * 
  *         assert len(column_original) == len(column_after_tree), \
  */
-  __pyx_t_2 = ((struct __pyx_vtabstruct_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->from_linked_list_to_python_list(__pyx_v_self, __pyx_v_head); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 643, __pyx_L1_error)
+  __pyx_t_2 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->from_linked_list_to_python_list(__pyx_v_self, __pyx_v_head); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 643, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   if ((likely(PyTuple_CheckExact(__pyx_t_2))) || (PyList_CheckExact(__pyx_t_2))) {
     PyObject* sequence = __pyx_t_2;
@@ -9432,7 +9427,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
   __pyx_v_data_after_tree = __pyx_t_3;
   __pyx_t_3 = 0;
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":645
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":645
  *         column_after_tree, data_after_tree = self.from_linked_list_to_python_list(head)
  * 
  *         assert len(column_original) == len(column_after_tree), \             # <<<<<<<<<<<<<<
@@ -9446,7 +9441,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
     __pyx_t_8 = (__pyx_t_10 == __pyx_t_12);
     if (unlikely(!__pyx_t_8)) {
 
-      /* "Sparse_Matrix_Tree_CSR.pyx":646
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":646
  * 
  *         assert len(column_original) == len(column_after_tree), \
  *             'Data structure size inconsistent. Original length is {}, after tree conversion is {}'.format(             # <<<<<<<<<<<<<<
@@ -9456,7 +9451,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
       __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_Data_structure_size_inconsistent_2, __pyx_n_s_format); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 646, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
 
-      /* "Sparse_Matrix_Tree_CSR.pyx":647
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":647
  *         assert len(column_original) == len(column_after_tree), \
  *             'Data structure size inconsistent. Original length is {}, after tree conversion is {}'.format(
  *                 len(column_original), len(column_after_tree))             # <<<<<<<<<<<<<<
@@ -9494,7 +9489,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       }
 
-      /* "Sparse_Matrix_Tree_CSR.pyx":646
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":646
  * 
  *         assert len(column_original) == len(column_after_tree), \
  *             'Data structure size inconsistent. Original length is {}, after tree conversion is {}'.format(             # <<<<<<<<<<<<<<
@@ -9513,7 +9508,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
   if ((1)); else __PYX_ERR(0, 645, __pyx_L1_error)
   #endif
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":649
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":649
  *                 len(column_original), len(column_after_tree))
  * 
  *         for index in range(len(column_original)):             # <<<<<<<<<<<<<<
@@ -9582,7 +9577,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
     __Pyx_XDECREF_SET(__pyx_v_index, __pyx_t_2);
     __pyx_t_2 = 0;
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":650
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":650
  * 
  *         for index in range(len(column_original)):
  *             assert column_original[index] == column_after_tree[index],\             # <<<<<<<<<<<<<<
@@ -9609,7 +9604,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
     if ((1)); else __PYX_ERR(0, 650, __pyx_L1_error)
     #endif
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":652
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":652
  *             assert column_original[index] == column_after_tree[index],\
  *                 'After tree construction columns are not ordered properly'
  *             assert data_original[index] == data_after_tree[index],\             # <<<<<<<<<<<<<<
@@ -9636,7 +9631,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
     if ((1)); else __PYX_ERR(0, 652, __pyx_L1_error)
     #endif
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":649
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":649
  *                 len(column_original), len(column_after_tree))
  * 
  *         for index in range(len(column_original)):             # <<<<<<<<<<<<<<
@@ -9646,7 +9641,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
   }
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":655
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":655
  *                 'After tree construction data content is changed'
  * 
  *         print("Bidirectional list from tree ordering - Passed")             # <<<<<<<<<<<<<<
@@ -9657,7 +9652,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":570
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":570
  * 
  * 
  *     cpdef test_list_tree_conversion(self, long row):             # <<<<<<<<<<<<<<
@@ -9674,7 +9669,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
   __Pyx_XDECREF(__pyx_t_5);
-  __Pyx_AddTraceback("Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.test_list_tree_conversion", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.test_list_tree_conversion", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = 0;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_numElements_higher);
@@ -9692,16 +9687,16 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
 }
 
 /* Python wrapper */
-static PyObject *__pyx_pw_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_11test_list_tree_conversion(PyObject *__pyx_v_self, 
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_11test_list_tree_conversion(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-PyDoc_STRVAR(__pyx_doc_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_10test_list_tree_conversion, "\n        The function tests the inner data structure conversion from tree to C linked list and back to tree\n        \n        :param row: row to use for testing\n        ");
-static PyMethodDef __pyx_mdef_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_11test_list_tree_conversion = {"test_list_tree_conversion", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_11test_list_tree_conversion, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_10test_list_tree_conversion};
-static PyObject *__pyx_pw_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_11test_list_tree_conversion(PyObject *__pyx_v_self, 
+PyDoc_STRVAR(__pyx_doc_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_10test_list_tree_conversion, "\n        The function tests the inner data structure conversion from tree to C linked list and back to tree\n        \n        :param row: row to use for testing\n        ");
+static PyMethodDef __pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_11test_list_tree_conversion = {"test_list_tree_conversion", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_11test_list_tree_conversion, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_10test_list_tree_conversion};
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_11test_list_tree_conversion(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -9771,11 +9766,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.test_list_tree_conversion", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.test_list_tree_conversion", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_10test_list_tree_conversion(((struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self), __pyx_v_row);
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_10test_list_tree_conversion(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self), __pyx_v_row);
 
   /* function exit code */
   {
@@ -9788,7 +9783,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_10test_list_tree_conversion(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_row) {
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_10test_list_tree_conversion(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_row) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -9797,7 +9792,7 @@ static PyObject *__pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_10te
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("test_list_tree_conversion", 1);
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_list_tree_conversion(__pyx_v_self, __pyx_v_row, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 570, __pyx_L1_error)
+  __pyx_t_1 = __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_list_tree_conversion(__pyx_v_self, __pyx_v_row, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 570, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
@@ -9806,7 +9801,7 @@ static PyObject *__pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_10te
   /* function exit code */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_AddTraceback("Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.test_list_tree_conversion", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.test_list_tree_conversion", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -9814,7 +9809,7 @@ static PyObject *__pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_10te
   return __pyx_r;
 }
 
-/* "Sparse_Matrix_Tree_CSR.pyx":659
+/* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":659
  * 
  * 
  *     cpdef test_topK_from_list_selection(self, long row, long topK):             # <<<<<<<<<<<<<<
@@ -9822,15 +9817,15 @@ static PyObject *__pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_10te
  *         The function tests the topK selection from list
  */
 
-static PyObject *__pyx_pw_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_13test_topK_from_list_selection(PyObject *__pyx_v_self, 
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_13test_topK_from_list_selection(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_topK_from_list_selection(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_row, long __pyx_v_topK, int __pyx_skip_dispatch) {
-  __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_head;
+static PyObject *__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_topK_from_list_selection(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_row, long __pyx_v_topK, int __pyx_skip_dispatch) {
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_head;
   PyObject *__pyx_v_column_original = NULL;
   PyObject *__pyx_v_data_original = NULL;
   PyObject *__pyx_v_column_topK = NULL;
@@ -9849,7 +9844,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
   PyObject *__pyx_t_5 = NULL;
   PyObject *__pyx_t_6 = NULL;
   unsigned int __pyx_t_7;
-  __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_t_8;
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_t_8;
   PyObject *(*__pyx_t_9)(PyObject *);
   Py_ssize_t __pyx_t_10;
   Py_ssize_t __pyx_t_11;
@@ -9870,7 +9865,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
       #endif
       __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_test_topK_from_list_selection); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 659, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
-      if (!__Pyx_IsSameCFunction(__pyx_t_1, (void*) __pyx_pw_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_13test_topK_from_list_selection)) {
+      if (!__Pyx_IsSameCFunction(__pyx_t_1, (void*) __pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_13test_topK_from_list_selection)) {
         __Pyx_XDECREF(__pyx_r);
         __pyx_t_3 = __Pyx_PyInt_From_long(__pyx_v_row); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 659, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_3);
@@ -9919,24 +9914,24 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
     #endif
   }
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":668
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":668
  *         cdef matrix_element_tree_s *head
  * 
  *         head = self.subtree_to_list_flat(self.row_pointer[row].head)             # <<<<<<<<<<<<<<
  * 
  *         column_original, data_original = self.from_linked_list_to_python_list(head)
  */
-  __pyx_t_8 = ((struct __pyx_vtabstruct_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->subtree_to_list_flat(__pyx_v_self, (__pyx_v_self->row_pointer[__pyx_v_row]).head); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 668, __pyx_L1_error)
+  __pyx_t_8 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->subtree_to_list_flat(__pyx_v_self, (__pyx_v_self->row_pointer[__pyx_v_row]).head); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 668, __pyx_L1_error)
   __pyx_v_head = __pyx_t_8;
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":670
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":670
  *         head = self.subtree_to_list_flat(self.row_pointer[row].head)
  * 
  *         column_original, data_original = self.from_linked_list_to_python_list(head)             # <<<<<<<<<<<<<<
  * 
  *         head = self.topK_selection_from_list(head, topK)
  */
-  __pyx_t_1 = ((struct __pyx_vtabstruct_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->from_linked_list_to_python_list(__pyx_v_self, __pyx_v_head); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 670, __pyx_L1_error)
+  __pyx_t_1 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->from_linked_list_to_python_list(__pyx_v_self, __pyx_v_head); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 670, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if ((likely(PyTuple_CheckExact(__pyx_t_1))) || (PyList_CheckExact(__pyx_t_1))) {
     PyObject* sequence = __pyx_t_1;
@@ -9989,24 +9984,24 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
   __pyx_v_data_original = __pyx_t_5;
   __pyx_t_5 = 0;
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":672
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":672
  *         column_original, data_original = self.from_linked_list_to_python_list(head)
  * 
  *         head = self.topK_selection_from_list(head, topK)             # <<<<<<<<<<<<<<
  * 
  *         column_topK, data_topK = self.from_linked_list_to_python_list(head)
  */
-  __pyx_t_8 = ((struct __pyx_vtabstruct_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->topK_selection_from_list(__pyx_v_self, __pyx_v_head, __pyx_v_topK); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 672, __pyx_L1_error)
+  __pyx_t_8 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->topK_selection_from_list(__pyx_v_self, __pyx_v_head, __pyx_v_topK); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 672, __pyx_L1_error)
   __pyx_v_head = __pyx_t_8;
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":674
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":674
  *         head = self.topK_selection_from_list(head, topK)
  * 
  *         column_topK, data_topK = self.from_linked_list_to_python_list(head)             # <<<<<<<<<<<<<<
  * 
  *         assert len(column_topK) == len(data_topK),\
  */
-  __pyx_t_1 = ((struct __pyx_vtabstruct_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->from_linked_list_to_python_list(__pyx_v_self, __pyx_v_head); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 674, __pyx_L1_error)
+  __pyx_t_1 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->from_linked_list_to_python_list(__pyx_v_self, __pyx_v_head); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 674, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if ((likely(PyTuple_CheckExact(__pyx_t_1))) || (PyList_CheckExact(__pyx_t_1))) {
     PyObject* sequence = __pyx_t_1;
@@ -10059,7 +10054,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
   __pyx_v_data_topK = __pyx_t_2;
   __pyx_t_2 = 0;
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":676
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":676
  *         column_topK, data_topK = self.from_linked_list_to_python_list(head)
  * 
  *         assert len(column_topK) == len(data_topK),\             # <<<<<<<<<<<<<<
@@ -10073,7 +10068,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
     __pyx_t_12 = (__pyx_t_10 == __pyx_t_11);
     if (unlikely(!__pyx_t_12)) {
 
-      /* "Sparse_Matrix_Tree_CSR.pyx":677
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":677
  * 
  *         assert len(column_topK) == len(data_topK),\
  *             "TopK data and column lists have different length. Columns length is {}, data is {}".format(len(column_topK), len(data_topK))             # <<<<<<<<<<<<<<
@@ -10124,7 +10119,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
   if ((1)); else __PYX_ERR(0, 676, __pyx_L1_error)
   #endif
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":678
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":678
  *         assert len(column_topK) == len(data_topK),\
  *             "TopK data and column lists have different length. Columns length is {}, data is {}".format(len(column_topK), len(data_topK))
  *         assert len(column_topK) <= topK,\             # <<<<<<<<<<<<<<
@@ -10137,7 +10132,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
     __pyx_t_12 = (__pyx_t_11 <= __pyx_v_topK);
     if (unlikely(!__pyx_t_12)) {
 
-      /* "Sparse_Matrix_Tree_CSR.pyx":679
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":679
  *             "TopK data and column lists have different length. Columns length is {}, data is {}".format(len(column_topK), len(data_topK))
  *         assert len(column_topK) <= topK,\
  *             "TopK extracted list is longer than desired value. Desired is {}, while list is {}".format(topK, len(column_topK))             # <<<<<<<<<<<<<<
@@ -10187,7 +10182,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
   if ((1)); else __PYX_ERR(0, 678, __pyx_L1_error)
   #endif
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":681
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":681
  *             "TopK extracted list is longer than desired value. Desired is {}, while list is {}".format(topK, len(column_topK))
  * 
  *         print("TopK extracted length - Passed")             # <<<<<<<<<<<<<<
@@ -10198,7 +10193,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":684
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":684
  * 
  *         # Sort with respect to the content to select topK
  *         idx_sorted = np.argsort(data_original)             # <<<<<<<<<<<<<<
@@ -10235,7 +10230,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
   __pyx_v_idx_sorted = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":685
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":685
  *         # Sort with respect to the content to select topK
  *         idx_sorted = np.argsort(data_original)
  *         idx_sorted = np.flip(idx_sorted, axis=0)             # <<<<<<<<<<<<<<
@@ -10263,7 +10258,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
   __Pyx_DECREF_SET(__pyx_v_idx_sorted, __pyx_t_4);
   __pyx_t_4 = 0;
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":686
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":686
  *         idx_sorted = np.argsort(data_original)
  *         idx_sorted = np.flip(idx_sorted, axis=0)
  *         top_k_idx = idx_sorted[0:topK]             # <<<<<<<<<<<<<<
@@ -10275,7 +10270,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
   __pyx_v_top_k_idx = __pyx_t_4;
   __pyx_t_4 = 0;
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":688
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":688
  *         top_k_idx = idx_sorted[0:topK]
  * 
  *         column_topK_numpy = np.array(column_original)[top_k_idx]             # <<<<<<<<<<<<<<
@@ -10315,7 +10310,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
   __pyx_v_column_topK_numpy = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":689
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":689
  * 
  *         column_topK_numpy = np.array(column_original)[top_k_idx]
  *         data_topK_numpy = np.array(data_original)[top_k_idx]             # <<<<<<<<<<<<<<
@@ -10355,7 +10350,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
   __pyx_v_data_topK_numpy = __pyx_t_2;
   __pyx_t_2 = 0;
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":692
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":692
  * 
  *         # Sort with respect to the column to ensure it is ordered as the tree flattened list
  *         idx_sorted = np.argsort(column_topK_numpy)             # <<<<<<<<<<<<<<
@@ -10392,7 +10387,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
   __Pyx_DECREF_SET(__pyx_v_idx_sorted, __pyx_t_2);
   __pyx_t_2 = 0;
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":693
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":693
  *         # Sort with respect to the column to ensure it is ordered as the tree flattened list
  *         idx_sorted = np.argsort(column_topK_numpy)
  *         column_topK_numpy = column_topK_numpy[idx_sorted]             # <<<<<<<<<<<<<<
@@ -10404,7 +10399,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
   __Pyx_DECREF_SET(__pyx_v_column_topK_numpy, __pyx_t_2);
   __pyx_t_2 = 0;
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":694
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":694
  *         idx_sorted = np.argsort(column_topK_numpy)
  *         column_topK_numpy = column_topK_numpy[idx_sorted]
  *         data_topK_numpy = data_topK_numpy[idx_sorted]             # <<<<<<<<<<<<<<
@@ -10416,7 +10411,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
   __Pyx_DECREF_SET(__pyx_v_data_topK_numpy, __pyx_t_2);
   __pyx_t_2 = 0;
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":697
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":697
  * 
  * 
  *         assert len(column_topK_numpy) <= len(column_topK),\             # <<<<<<<<<<<<<<
@@ -10430,7 +10425,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
     __pyx_t_12 = (__pyx_t_11 <= __pyx_t_10);
     if (unlikely(!__pyx_t_12)) {
 
-      /* "Sparse_Matrix_Tree_CSR.pyx":698
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":698
  * 
  *         assert len(column_topK_numpy) <= len(column_topK),\
  *             "TopK extracted list and numpy one have different length. Extracted list lenght is {}, while numpy is {}".format(             # <<<<<<<<<<<<<<
@@ -10440,7 +10435,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
       __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_TopK_extracted_list_and_numpy_on, __pyx_n_s_format); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 698, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
 
-      /* "Sparse_Matrix_Tree_CSR.pyx":699
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":699
  *         assert len(column_topK_numpy) <= len(column_topK),\
  *             "TopK extracted list and numpy one have different length. Extracted list lenght is {}, while numpy is {}".format(
  *                 len(column_topK_numpy), len(column_topK))             # <<<<<<<<<<<<<<
@@ -10478,7 +10473,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       }
 
-      /* "Sparse_Matrix_Tree_CSR.pyx":698
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":698
  * 
  *         assert len(column_topK_numpy) <= len(column_topK),\
  *             "TopK extracted list and numpy one have different length. Extracted list lenght is {}, while numpy is {}".format(             # <<<<<<<<<<<<<<
@@ -10497,7 +10492,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
   if ((1)); else __PYX_ERR(0, 697, __pyx_L1_error)
   #endif
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":702
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":702
  * 
  * 
  *         for index in range(len(column_topK)):             # <<<<<<<<<<<<<<
@@ -10509,7 +10504,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
   for (__pyx_t_13 = 0; __pyx_t_13 < __pyx_t_11; __pyx_t_13+=1) {
     __pyx_v_index = __pyx_t_13;
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":704
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":704
  *         for index in range(len(column_topK)):
  * 
  *             assert column_topK[index] == column_topK_numpy[index], \             # <<<<<<<<<<<<<<
@@ -10529,7 +10524,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       if (unlikely(!__pyx_t_12)) {
 
-        /* "Sparse_Matrix_Tree_CSR.pyx":706
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":706
  *             assert column_topK[index] == column_topK_numpy[index], \
  *                 "TopK extracted list and numpy one have different content at index {} as column value." \
  *                 " Extracted list lenght is {}, while numpy is {}".format(index, column_topK[index], column_topK_numpy[index])             # <<<<<<<<<<<<<<
@@ -10581,7 +10576,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
     if ((1)); else __PYX_ERR(0, 704, __pyx_L1_error)
     #endif
 
-    /* "Sparse_Matrix_Tree_CSR.pyx":708
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":708
  *                 " Extracted list lenght is {}, while numpy is {}".format(index, column_topK[index], column_topK_numpy[index])
  * 
  *             assert data_topK[index] == data_topK_numpy[index], \             # <<<<<<<<<<<<<<
@@ -10601,7 +10596,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       if (unlikely(!__pyx_t_12)) {
 
-        /* "Sparse_Matrix_Tree_CSR.pyx":710
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":710
  *             assert data_topK[index] == data_topK_numpy[index], \
  *                 "TopK extracted list and numpy one have different content at index {} as data value." \
  *                 " Extracted list lenght is {}, while numpy is {}".format(index, data_topK[index], data_topK_numpy[index])             # <<<<<<<<<<<<<<
@@ -10654,7 +10649,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
     #endif
   }
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":712
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":712
  *                 " Extracted list lenght is {}, while numpy is {}".format(index, data_topK[index], data_topK_numpy[index])
  * 
  *         print("TopK extracted content - Passed")             # <<<<<<<<<<<<<<
@@ -10665,7 +10660,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":659
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":659
  * 
  * 
  *     cpdef test_topK_from_list_selection(self, long row, long topK):             # <<<<<<<<<<<<<<
@@ -10683,7 +10678,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
   __Pyx_XDECREF(__pyx_t_4);
   __Pyx_XDECREF(__pyx_t_5);
   __Pyx_XDECREF(__pyx_t_6);
-  __Pyx_AddTraceback("Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.test_topK_from_list_selection", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.test_topK_from_list_selection", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = 0;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_column_original);
@@ -10700,16 +10695,16 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
 }
 
 /* Python wrapper */
-static PyObject *__pyx_pw_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_13test_topK_from_list_selection(PyObject *__pyx_v_self, 
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_13test_topK_from_list_selection(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-PyDoc_STRVAR(__pyx_doc_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_12test_topK_from_list_selection, "\n        The function tests the topK selection from list\n        \n        :param row: row to use for testing\n        ");
-static PyMethodDef __pyx_mdef_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_13test_topK_from_list_selection = {"test_topK_from_list_selection", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_13test_topK_from_list_selection, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_12test_topK_from_list_selection};
-static PyObject *__pyx_pw_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_13test_topK_from_list_selection(PyObject *__pyx_v_self, 
+PyDoc_STRVAR(__pyx_doc_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_12test_topK_from_list_selection, "\n        The function tests the topK selection from list\n        \n        :param row: row to use for testing\n        ");
+static PyMethodDef __pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_13test_topK_from_list_selection = {"test_topK_from_list_selection", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_13test_topK_from_list_selection, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_12test_topK_from_list_selection};
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_13test_topK_from_list_selection(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -10794,11 +10789,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.test_topK_from_list_selection", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.test_topK_from_list_selection", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_12test_topK_from_list_selection(((struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self), __pyx_v_row, __pyx_v_topK);
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_12test_topK_from_list_selection(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self), __pyx_v_row, __pyx_v_topK);
 
   /* function exit code */
   {
@@ -10811,7 +10806,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_12test_topK_from_list_selection(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_row, long __pyx_v_topK) {
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_12test_topK_from_list_selection(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_row, long __pyx_v_topK) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -10820,7 +10815,7 @@ static PyObject *__pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_12te
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("test_topK_from_list_selection", 1);
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_topK_from_list_selection(__pyx_v_self, __pyx_v_row, __pyx_v_topK, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 659, __pyx_L1_error)
+  __pyx_t_1 = __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_topK_from_list_selection(__pyx_v_self, __pyx_v_row, __pyx_v_topK, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 659, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
@@ -10829,7 +10824,7 @@ static PyObject *__pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_12te
   /* function exit code */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_AddTraceback("Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.test_topK_from_list_selection", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.test_topK_from_list_selection", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -10844,15 +10839,15 @@ static PyObject *__pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_12te
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_15__reduce_cython__(PyObject *__pyx_v_self, 
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_15__reduce_cython__(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static PyMethodDef __pyx_mdef_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_15__reduce_cython__ = {"__reduce_cython__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_15__reduce_cython__, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_15__reduce_cython__(PyObject *__pyx_v_self, 
+static PyMethodDef __pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_15__reduce_cython__ = {"__reduce_cython__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_15__reduce_cython__, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_15__reduce_cython__(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -10877,14 +10872,14 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   if (unlikely(__pyx_nargs > 0)) {
     __Pyx_RaiseArgtupleInvalid("__reduce_cython__", 1, 0, 0, __pyx_nargs); return NULL;}
   if (unlikely(__pyx_kwds) && __Pyx_NumKwargs_FASTCALL(__pyx_kwds) && unlikely(!__Pyx_CheckKeywordStrings(__pyx_kwds, "__reduce_cython__", 0))) return NULL;
-  __pyx_r = __pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_14__reduce_cython__(((struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self));
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_14__reduce_cython__(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_14__reduce_cython__(CYTHON_UNUSED struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self) {
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_14__reduce_cython__(CYTHON_UNUSED struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   int __pyx_lineno = 0;
@@ -10909,7 +10904,7 @@ static PyObject *__pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_14__
 
   /* function exit code */
   __pyx_L1_error:;
-  __Pyx_AddTraceback("Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.__reduce_cython__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.__reduce_cython__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __Pyx_XGIVEREF(__pyx_r);
   __Pyx_RefNannyFinishContext();
@@ -10924,15 +10919,15 @@ static PyObject *__pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_14__
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_17__setstate_cython__(PyObject *__pyx_v_self, 
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_17__setstate_cython__(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static PyMethodDef __pyx_mdef_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_17__setstate_cython__ = {"__setstate_cython__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_17__setstate_cython__, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_17__setstate_cython__(PyObject *__pyx_v_self, 
+static PyMethodDef __pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_17__setstate_cython__ = {"__setstate_cython__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_17__setstate_cython__, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_17__setstate_cython__(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -11002,11 +10997,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.__setstate_cython__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.__setstate_cython__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_16__setstate_cython__(((struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self), __pyx_v___pyx_state);
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_16__setstate_cython__(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self), __pyx_v___pyx_state);
 
   /* function exit code */
   {
@@ -11019,7 +11014,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_16__setstate_cython__(CYTHON_UNUSED struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, CYTHON_UNUSED PyObject *__pyx_v___pyx_state) {
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_16__setstate_cython__(CYTHON_UNUSED struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, CYTHON_UNUSED PyObject *__pyx_v___pyx_state) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   int __pyx_lineno = 0;
@@ -11044,16 +11039,16 @@ static PyObject *__pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_16__
 
   /* function exit code */
   __pyx_L1_error:;
-  __Pyx_AddTraceback("Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.__setstate_cython__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.__setstate_cython__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __Pyx_XGIVEREF(__pyx_r);
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
-static struct __pyx_vtabstruct_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR __pyx_vtable_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR;
+static struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR __pyx_vtable_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR;
 
-static PyObject *__pyx_tp_new_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR(PyTypeObject *t, CYTHON_UNUSED PyObject *a, CYTHON_UNUSED PyObject *k) {
-  struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *p;
+static PyObject *__pyx_tp_new_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR(PyTypeObject *t, CYTHON_UNUSED PyObject *a, CYTHON_UNUSED PyObject *k) {
+  struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *p;
   PyObject *o;
   #if CYTHON_COMPILING_IN_LIMITED_API
   allocfunc alloc_func = (allocfunc)PyType_GetSlot(t, Py_tp_alloc);
@@ -11066,15 +11061,15 @@ static PyObject *__pyx_tp_new_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR(Py
   }
   if (unlikely(!o)) return 0;
   #endif
-  p = ((struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)o);
-  p->__pyx_vtab = __pyx_vtabptr_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR;
+  p = ((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)o);
+  p->__pyx_vtab = __pyx_vtabptr_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR;
   return o;
 }
 
-static void __pyx_tp_dealloc_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR(PyObject *o) {
+static void __pyx_tp_dealloc_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR(PyObject *o) {
   #if CYTHON_USE_TP_FINALIZE
   if (unlikely((PY_VERSION_HEX >= 0x03080000 || __Pyx_PyType_HasFeature(Py_TYPE(o), Py_TPFLAGS_HAVE_FINALIZE)) && __Pyx_PyObject_GetSlot(o, tp_finalize, destructor)) && (!PyType_IS_GC(Py_TYPE(o)) || !__Pyx_PyObject_GC_IsFinalized(o))) {
-    if (__Pyx_PyObject_GetSlot(o, tp_dealloc, destructor) == __pyx_tp_dealloc_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR) {
+    if (__Pyx_PyObject_GetSlot(o, tp_dealloc, destructor) == __pyx_tp_dealloc_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR) {
       if (PyObject_CallFinalizerFromDealloc(o)) return;
     }
   }
@@ -11089,34 +11084,34 @@ static void __pyx_tp_dealloc_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR(PyO
   #endif
 }
 
-static PyMethodDef __pyx_methods_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR[] = {
-  {"__reduce_cython__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_15__reduce_cython__, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
-  {"__setstate_cython__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_17__setstate_cython__, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
+static PyMethodDef __pyx_methods_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR[] = {
+  {"__reduce_cython__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_15__reduce_cython__, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
+  {"__setstate_cython__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_17__setstate_cython__, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
   {0, 0, 0, 0}
 };
 #if CYTHON_USE_TYPE_SPECS
-static PyType_Slot __pyx_type_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR_slots[] = {
-  {Py_tp_dealloc, (void *)__pyx_tp_dealloc_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR},
-  {Py_tp_methods, (void *)__pyx_methods_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR},
-  {Py_tp_init, (void *)__pyx_pw_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_1__init__},
-  {Py_tp_new, (void *)__pyx_tp_new_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR},
+static PyType_Slot __pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR_slots[] = {
+  {Py_tp_dealloc, (void *)__pyx_tp_dealloc_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR},
+  {Py_tp_methods, (void *)__pyx_methods_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR},
+  {Py_tp_init, (void *)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_1__init__},
+  {Py_tp_new, (void *)__pyx_tp_new_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR},
   {0, 0},
 };
-static PyType_Spec __pyx_type_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR_spec = {
-  "Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR",
-  sizeof(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR),
+static PyType_Spec __pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR_spec = {
+  "RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR",
+  sizeof(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR),
   0,
   Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_VERSION_TAG|Py_TPFLAGS_CHECKTYPES|Py_TPFLAGS_HAVE_NEWBUFFER|Py_TPFLAGS_BASETYPE,
-  __pyx_type_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR_slots,
+  __pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR_slots,
 };
 #else
 
-static PyTypeObject __pyx_type_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR = {
+static PyTypeObject __pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR = {
   PyVarObject_HEAD_INIT(0, 0)
-  "Sparse_Matrix_Tree_CSR.""Sparse_Matrix_Tree_CSR", /*tp_name*/
-  sizeof(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR), /*tp_basicsize*/
+  "RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.Sparse_Matrix_Tree_CSR.""Sparse_Matrix_Tree_CSR", /*tp_name*/
+  sizeof(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR), /*tp_basicsize*/
   0, /*tp_itemsize*/
-  __pyx_tp_dealloc_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR, /*tp_dealloc*/
+  __pyx_tp_dealloc_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR, /*tp_dealloc*/
   #if PY_VERSION_HEX < 0x030800b4
   0, /*tp_print*/
   #endif
@@ -11149,7 +11144,7 @@ static PyTypeObject __pyx_type_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR =
   0, /*tp_weaklistoffset*/
   0, /*tp_iter*/
   0, /*tp_iternext*/
-  __pyx_methods_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR, /*tp_methods*/
+  __pyx_methods_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR, /*tp_methods*/
   0, /*tp_members*/
   0, /*tp_getset*/
   0, /*tp_base*/
@@ -11159,9 +11154,9 @@ static PyTypeObject __pyx_type_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR =
   #if !CYTHON_USE_TYPE_SPECS
   0, /*tp_dictoffset*/
   #endif
-  __pyx_pw_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_1__init__, /*tp_init*/
+  __pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_1__init__, /*tp_init*/
   0, /*tp_alloc*/
-  __pyx_tp_new_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR, /*tp_new*/
+  __pyx_tp_new_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR, /*tp_new*/
   0, /*tp_free*/
   0, /*tp_is_gc*/
   0, /*tp_bases*/
@@ -11227,6 +11222,7 @@ static int __Pyx_CreateStringTabAndInitStrings(void) {
     {&__pyx_kp_s_Data_structure_size_inconsistent_2, __pyx_k_Data_structure_size_inconsistent_2, sizeof(__pyx_k_Data_structure_size_inconsistent_2), 0, 0, 1, 0},
     {&__pyx_kp_s_ERROR_Current_insert_operation_i, __pyx_k_ERROR_Current_insert_operation_i, sizeof(__pyx_k_ERROR_Current_insert_operation_i), 0, 0, 1, 0},
     {&__pyx_n_s_ImportError, __pyx_k_ImportError, sizeof(__pyx_k_ImportError), 0, 0, 1, 1},
+    {&__pyx_n_s_RecSysCompetition2024Polimi_libs, __pyx_k_RecSysCompetition2024Polimi_libs, sizeof(__pyx_k_RecSysCompetition2024Polimi_libs), 0, 0, 1, 1},
     {&__pyx_n_s_Sparse_Matrix_Tree_CSR, __pyx_k_Sparse_Matrix_Tree_CSR, sizeof(__pyx_k_Sparse_Matrix_Tree_CSR), 0, 0, 1, 1},
     {&__pyx_n_s_Sparse_Matrix_Tree_CSR___reduce, __pyx_k_Sparse_Matrix_Tree_CSR___reduce, sizeof(__pyx_k_Sparse_Matrix_Tree_CSR___reduce), 0, 0, 1, 1},
     {&__pyx_n_s_Sparse_Matrix_Tree_CSR___setstat, __pyx_k_Sparse_Matrix_Tree_CSR___setstat, sizeof(__pyx_k_Sparse_Matrix_Tree_CSR___setstat), 0, 0, 1, 1},
@@ -11314,7 +11310,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedBuiltins(void) {
   __pyx_builtin_AssertionError = __Pyx_GetBuiltinName(__pyx_n_s_AssertionError); if (!__pyx_builtin_AssertionError) __PYX_ERR(0, 183, __pyx_L1_error)
   __pyx_builtin_print = __Pyx_GetBuiltinName(__pyx_n_s_print); if (!__pyx_builtin_print) __PYX_ERR(0, 600, __pyx_L1_error)
   __pyx_builtin_TypeError = __Pyx_GetBuiltinName(__pyx_n_s_TypeError); if (!__pyx_builtin_TypeError) __PYX_ERR(1, 2, __pyx_L1_error)
-  __pyx_builtin_ImportError = __Pyx_GetBuiltinName(__pyx_n_s_ImportError); if (!__pyx_builtin_ImportError) __PYX_ERR(2, 987, __pyx_L1_error)
+  __pyx_builtin_ImportError = __Pyx_GetBuiltinName(__pyx_n_s_ImportError); if (!__pyx_builtin_ImportError) __PYX_ERR(2, 984, __pyx_L1_error)
   return 0;
   __pyx_L1_error:;
   return -1;
@@ -11325,29 +11321,29 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__Pyx_InitCachedConstants", 0);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":987
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":984
  *         __pyx_import_array()
  *     except Exception:
  *         raise ImportError("numpy.core.multiarray failed to import")             # <<<<<<<<<<<<<<
  * 
  * cdef inline int import_umath() except -1:
  */
-  __pyx_tuple_ = PyTuple_Pack(1, __pyx_kp_s_numpy_core_multiarray_failed_to); if (unlikely(!__pyx_tuple_)) __PYX_ERR(2, 987, __pyx_L1_error)
+  __pyx_tuple_ = PyTuple_Pack(1, __pyx_kp_s_numpy_core_multiarray_failed_to); if (unlikely(!__pyx_tuple_)) __PYX_ERR(2, 984, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple_);
   __Pyx_GIVEREF(__pyx_tuple_);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":993
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":990
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")             # <<<<<<<<<<<<<<
  * 
  * cdef inline int import_ufunc() except -1:
  */
-  __pyx_tuple__2 = PyTuple_Pack(1, __pyx_kp_s_numpy_core_umath_failed_to_impor); if (unlikely(!__pyx_tuple__2)) __PYX_ERR(2, 993, __pyx_L1_error)
+  __pyx_tuple__2 = PyTuple_Pack(1, __pyx_kp_s_numpy_core_umath_failed_to_impor); if (unlikely(!__pyx_tuple__2)) __PYX_ERR(2, 990, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__2);
   __Pyx_GIVEREF(__pyx_tuple__2);
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":600
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":600
  *                                                         numElements_higher, numElements_lower)
  * 
  *         print("Bidirectional list link - Passed")             # <<<<<<<<<<<<<<
@@ -11358,7 +11354,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__3);
   __Pyx_GIVEREF(__pyx_tuple__3);
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":611
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":611
  *                 'Columns not ordered correctly. Tree not flattened properly'
  * 
  *         print("Bidirectional list ordering - Passed")             # <<<<<<<<<<<<<<
@@ -11369,7 +11365,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__4);
   __Pyx_GIVEREF(__pyx_tuple__4);
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":632
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":632
  *             current_element = current_element.lower
  * 
  *         print("Bidirectional list from tree link - Passed")             # <<<<<<<<<<<<<<
@@ -11380,7 +11376,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__5);
   __Pyx_GIVEREF(__pyx_tuple__5);
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":655
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":655
  *                 'After tree construction data content is changed'
  * 
  *         print("Bidirectional list from tree ordering - Passed")             # <<<<<<<<<<<<<<
@@ -11391,7 +11387,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__6);
   __Pyx_GIVEREF(__pyx_tuple__6);
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":681
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":681
  *             "TopK extracted list is longer than desired value. Desired is {}, while list is {}".format(topK, len(column_topK))
  * 
  *         print("TopK extracted length - Passed")             # <<<<<<<<<<<<<<
@@ -11402,7 +11398,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__7);
   __Pyx_GIVEREF(__pyx_tuple__7);
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":712
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":712
  *                 " Extracted list lenght is {}, while numpy is {}".format(index, data_topK[index], data_topK_numpy[index])
  * 
  *         print("TopK extracted content - Passed")             # <<<<<<<<<<<<<<
@@ -11413,7 +11409,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__8);
   __Pyx_GIVEREF(__pyx_tuple__8);
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":18
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":18
  * #define NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION
  * 
  * import scipy.sparse as sps             # <<<<<<<<<<<<<<
@@ -11424,7 +11420,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__9);
   __Pyx_GIVEREF(__pyx_tuple__9);
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":118
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":118
  * 
  * 
  *     cpdef double add_value(self, long row, long col, double value):             # <<<<<<<<<<<<<<
@@ -11436,7 +11432,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__11);
   __pyx_codeobj__12 = (PyObject*)__Pyx_PyCode_New(4, 0, 0, 4, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__11, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Sparse_Matrix_Tree_CSR_pyx, __pyx_n_s_add_value, 118, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__12)) __PYX_ERR(0, 118, __pyx_L1_error)
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":188
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":188
  * 
  * 
  *     cpdef double get_value(self, long row, long col):             # <<<<<<<<<<<<<<
@@ -11448,7 +11444,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__13);
   __pyx_codeobj__14 = (PyObject*)__Pyx_PyCode_New(3, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__13, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Sparse_Matrix_Tree_CSR_pyx, __pyx_n_s_get_value, 188, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__14)) __PYX_ERR(0, 188, __pyx_L1_error)
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":240
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":240
  * 
  * 
  *     cpdef get_scipy_csr(self, long TopK = False):             # <<<<<<<<<<<<<<
@@ -11463,7 +11459,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__17);
   __Pyx_GIVEREF(__pyx_tuple__17);
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":288
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":288
  * 
  * 
  *     cpdef rebalance_tree(self, long TopK = False):             # <<<<<<<<<<<<<<
@@ -11475,7 +11471,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__19);
   __Pyx_GIVEREF(__pyx_tuple__19);
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":570
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":570
  * 
  * 
  *     cpdef test_list_tree_conversion(self, long row):             # <<<<<<<<<<<<<<
@@ -11487,7 +11483,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__20);
   __pyx_codeobj__21 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__20, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Sparse_Matrix_Tree_CSR_pyx, __pyx_n_s_test_list_tree_conversion, 570, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__21)) __PYX_ERR(0, 570, __pyx_L1_error)
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":659
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":659
  * 
  * 
  *     cpdef test_topK_from_list_selection(self, long row, long topK):             # <<<<<<<<<<<<<<
@@ -11607,45 +11603,45 @@ static int __Pyx_modinit_type_init_code(void) {
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__Pyx_modinit_type_init_code", 0);
   /*--- Type init code ---*/
-  __pyx_vtabptr_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR = &__pyx_vtable_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR;
-  __pyx_vtable_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR.add_value = (double (*)(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *, long, long, double, int __pyx_skip_dispatch))__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_add_value;
-  __pyx_vtable_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR.get_value = (double (*)(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *, long, long, int __pyx_skip_dispatch))__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_value;
-  __pyx_vtable_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR.get_scipy_csr = (PyObject *(*)(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *, int __pyx_skip_dispatch, struct __pyx_opt_args_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_scipy_csr *__pyx_optional_args))__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_scipy_csr;
-  __pyx_vtable_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR.rebalance_tree = (PyObject *(*)(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *, int __pyx_skip_dispatch, struct __pyx_opt_args_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_rebalance_tree *__pyx_optional_args))__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_rebalance_tree;
-  __pyx_vtable_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR.subtree_to_list_flat = (__pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *(*)(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *, __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *))__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_subtree_to_list_flat;
-  __pyx_vtable_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR.from_linked_list_to_python_list = (PyObject *(*)(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *, __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *))__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_from_linked_list_to_python_list;
-  __pyx_vtable_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR.subtree_free_memory = (PyObject *(*)(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *, __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *))__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_subtree_free_memory;
-  __pyx_vtable_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR.list_free_memory = (PyObject *(*)(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *, __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *))__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_list_free_memory;
-  __pyx_vtable_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR.build_tree_from_list_flat = (__pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *(*)(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *, __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *))__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_build_tree_from_list_flat;
-  __pyx_vtable_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR.topK_selection_from_list = (__pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *(*)(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *, __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *, long))__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_topK_selection_from_list;
-  __pyx_vtable_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR.test_list_tree_conversion = (PyObject *(*)(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *, long, int __pyx_skip_dispatch))__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_list_tree_conversion;
-  __pyx_vtable_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR.test_topK_from_list_selection = (PyObject *(*)(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *, long, long, int __pyx_skip_dispatch))__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_topK_from_list_selection;
+  __pyx_vtabptr_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR = &__pyx_vtable_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR;
+  __pyx_vtable_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR.add_value = (double (*)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *, long, long, double, int __pyx_skip_dispatch))__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_add_value;
+  __pyx_vtable_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR.get_value = (double (*)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *, long, long, int __pyx_skip_dispatch))__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_value;
+  __pyx_vtable_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR.get_scipy_csr = (PyObject *(*)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *, int __pyx_skip_dispatch, struct __pyx_opt_args_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_scipy_csr *__pyx_optional_args))__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_scipy_csr;
+  __pyx_vtable_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR.rebalance_tree = (PyObject *(*)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *, int __pyx_skip_dispatch, struct __pyx_opt_args_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_rebalance_tree *__pyx_optional_args))__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_rebalance_tree;
+  __pyx_vtable_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR.subtree_to_list_flat = (__pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *(*)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *, __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *))__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_subtree_to_list_flat;
+  __pyx_vtable_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR.from_linked_list_to_python_list = (PyObject *(*)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *, __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *))__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_from_linked_list_to_python_list;
+  __pyx_vtable_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR.subtree_free_memory = (PyObject *(*)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *, __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *))__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_subtree_free_memory;
+  __pyx_vtable_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR.list_free_memory = (PyObject *(*)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *, __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *))__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_list_free_memory;
+  __pyx_vtable_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR.build_tree_from_list_flat = (__pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *(*)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *, __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *))__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_build_tree_from_list_flat;
+  __pyx_vtable_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR.topK_selection_from_list = (__pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *(*)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *, __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *, long))__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_topK_selection_from_list;
+  __pyx_vtable_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR.test_list_tree_conversion = (PyObject *(*)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *, long, int __pyx_skip_dispatch))__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_list_tree_conversion;
+  __pyx_vtable_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR.test_topK_from_list_selection = (PyObject *(*)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *, long, long, int __pyx_skip_dispatch))__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_topK_from_list_selection;
   #if CYTHON_USE_TYPE_SPECS
-  __pyx_ptype_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR = (PyTypeObject *) __Pyx_PyType_FromModuleAndSpec(__pyx_m, &__pyx_type_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR_spec, NULL); if (unlikely(!__pyx_ptype_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR)) __PYX_ERR(0, 99, __pyx_L1_error)
-  if (__Pyx_fix_up_extension_type_from_spec(&__pyx_type_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR_spec, __pyx_ptype_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR) < 0) __PYX_ERR(0, 99, __pyx_L1_error)
+  __pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR = (PyTypeObject *) __Pyx_PyType_FromModuleAndSpec(__pyx_m, &__pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR_spec, NULL); if (unlikely(!__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR)) __PYX_ERR(0, 99, __pyx_L1_error)
+  if (__Pyx_fix_up_extension_type_from_spec(&__pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR_spec, __pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR) < 0) __PYX_ERR(0, 99, __pyx_L1_error)
   #else
-  __pyx_ptype_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR = &__pyx_type_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR;
+  __pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR = &__pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR;
   #endif
   #if !CYTHON_COMPILING_IN_LIMITED_API
   #endif
   #if !CYTHON_USE_TYPE_SPECS
-  if (__Pyx_PyType_Ready(__pyx_ptype_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR) < 0) __PYX_ERR(0, 99, __pyx_L1_error)
+  if (__Pyx_PyType_Ready(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR) < 0) __PYX_ERR(0, 99, __pyx_L1_error)
   #endif
   #if PY_MAJOR_VERSION < 3
-  __pyx_ptype_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR->tp_print = 0;
+  __pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR->tp_print = 0;
   #endif
   #if !CYTHON_COMPILING_IN_LIMITED_API
-  if ((CYTHON_USE_TYPE_SLOTS && CYTHON_USE_PYTYPE_LOOKUP) && likely(!__pyx_ptype_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR->tp_dictoffset && __pyx_ptype_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR->tp_getattro == PyObject_GenericGetAttr)) {
-    __pyx_ptype_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR->tp_getattro = __Pyx_PyObject_GenericGetAttr;
+  if ((CYTHON_USE_TYPE_SLOTS && CYTHON_USE_PYTYPE_LOOKUP) && likely(!__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR->tp_dictoffset && __pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR->tp_getattro == PyObject_GenericGetAttr)) {
+    __pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR->tp_getattro = __Pyx_PyObject_GenericGetAttr;
   }
   #endif
-  if (__Pyx_SetVtable(__pyx_ptype_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR, __pyx_vtabptr_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR) < 0) __PYX_ERR(0, 99, __pyx_L1_error)
+  if (__Pyx_SetVtable(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR, __pyx_vtabptr_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR) < 0) __PYX_ERR(0, 99, __pyx_L1_error)
   #if !CYTHON_COMPILING_IN_LIMITED_API
-  if (__Pyx_MergeVtables(__pyx_ptype_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR) < 0) __PYX_ERR(0, 99, __pyx_L1_error)
+  if (__Pyx_MergeVtables(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR) < 0) __PYX_ERR(0, 99, __pyx_L1_error)
   #endif
-  if (PyObject_SetAttr(__pyx_m, __pyx_n_s_Sparse_Matrix_Tree_CSR, (PyObject *) __pyx_ptype_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR) < 0) __PYX_ERR(0, 99, __pyx_L1_error)
+  if (PyObject_SetAttr(__pyx_m, __pyx_n_s_Sparse_Matrix_Tree_CSR, (PyObject *) __pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR) < 0) __PYX_ERR(0, 99, __pyx_L1_error)
   #if !CYTHON_COMPILING_IN_LIMITED_API
-  if (__Pyx_setup_reduce((PyObject *) __pyx_ptype_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR) < 0) __PYX_ERR(0, 99, __pyx_L1_error)
+  if (__Pyx_setup_reduce((PyObject *) __pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR) < 0) __PYX_ERR(0, 99, __pyx_L1_error)
   #endif
   __Pyx_RefNannyFinishContext();
   return 0;
@@ -11674,23 +11670,23 @@ static int __Pyx_modinit_type_import_code(void) {
   #endif
   __Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_7cpython_4type_type) __PYX_ERR(3, 9, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_1 = PyImport_ImportModule("numpy"); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 203, __pyx_L1_error)
+  __pyx_t_1 = PyImport_ImportModule("numpy"); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 202, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_ptype_5numpy_dtype = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "dtype", sizeof(PyArray_Descr), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyArray_Descr),__Pyx_ImportType_CheckSize_Ignore_3_0_11); if (!__pyx_ptype_5numpy_dtype) __PYX_ERR(2, 203, __pyx_L1_error)
-  __pyx_ptype_5numpy_flatiter = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "flatiter", sizeof(PyArrayIterObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyArrayIterObject),__Pyx_ImportType_CheckSize_Ignore_3_0_11); if (!__pyx_ptype_5numpy_flatiter) __PYX_ERR(2, 226, __pyx_L1_error)
-  __pyx_ptype_5numpy_broadcast = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "broadcast", sizeof(PyArrayMultiIterObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyArrayMultiIterObject),__Pyx_ImportType_CheckSize_Ignore_3_0_11); if (!__pyx_ptype_5numpy_broadcast) __PYX_ERR(2, 230, __pyx_L1_error)
-  __pyx_ptype_5numpy_ndarray = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "ndarray", sizeof(PyArrayObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyArrayObject),__Pyx_ImportType_CheckSize_Ignore_3_0_11); if (!__pyx_ptype_5numpy_ndarray) __PYX_ERR(2, 239, __pyx_L1_error)
-  __pyx_ptype_5numpy_generic = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "generic", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_generic) __PYX_ERR(2, 813, __pyx_L1_error)
-  __pyx_ptype_5numpy_number = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "number", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_number) __PYX_ERR(2, 815, __pyx_L1_error)
-  __pyx_ptype_5numpy_integer = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "integer", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_integer) __PYX_ERR(2, 817, __pyx_L1_error)
-  __pyx_ptype_5numpy_signedinteger = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "signedinteger", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_signedinteger) __PYX_ERR(2, 819, __pyx_L1_error)
-  __pyx_ptype_5numpy_unsignedinteger = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "unsignedinteger", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_unsignedinteger) __PYX_ERR(2, 821, __pyx_L1_error)
-  __pyx_ptype_5numpy_inexact = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "inexact", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_inexact) __PYX_ERR(2, 823, __pyx_L1_error)
-  __pyx_ptype_5numpy_floating = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "floating", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_floating) __PYX_ERR(2, 825, __pyx_L1_error)
-  __pyx_ptype_5numpy_complexfloating = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "complexfloating", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_complexfloating) __PYX_ERR(2, 827, __pyx_L1_error)
-  __pyx_ptype_5numpy_flexible = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "flexible", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_flexible) __PYX_ERR(2, 829, __pyx_L1_error)
-  __pyx_ptype_5numpy_character = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "character", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_character) __PYX_ERR(2, 831, __pyx_L1_error)
-  __pyx_ptype_5numpy_ufunc = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "ufunc", sizeof(PyUFuncObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyUFuncObject),__Pyx_ImportType_CheckSize_Ignore_3_0_11); if (!__pyx_ptype_5numpy_ufunc) __PYX_ERR(2, 869, __pyx_L1_error)
+  __pyx_ptype_5numpy_dtype = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "dtype", sizeof(PyArray_Descr), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyArray_Descr),__Pyx_ImportType_CheckSize_Ignore_3_0_11); if (!__pyx_ptype_5numpy_dtype) __PYX_ERR(2, 202, __pyx_L1_error)
+  __pyx_ptype_5numpy_flatiter = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "flatiter", sizeof(PyArrayIterObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyArrayIterObject),__Pyx_ImportType_CheckSize_Ignore_3_0_11); if (!__pyx_ptype_5numpy_flatiter) __PYX_ERR(2, 225, __pyx_L1_error)
+  __pyx_ptype_5numpy_broadcast = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "broadcast", sizeof(PyArrayMultiIterObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyArrayMultiIterObject),__Pyx_ImportType_CheckSize_Ignore_3_0_11); if (!__pyx_ptype_5numpy_broadcast) __PYX_ERR(2, 229, __pyx_L1_error)
+  __pyx_ptype_5numpy_ndarray = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "ndarray", sizeof(PyArrayObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyArrayObject),__Pyx_ImportType_CheckSize_Ignore_3_0_11); if (!__pyx_ptype_5numpy_ndarray) __PYX_ERR(2, 238, __pyx_L1_error)
+  __pyx_ptype_5numpy_generic = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "generic", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_generic) __PYX_ERR(2, 809, __pyx_L1_error)
+  __pyx_ptype_5numpy_number = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "number", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_number) __PYX_ERR(2, 811, __pyx_L1_error)
+  __pyx_ptype_5numpy_integer = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "integer", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_integer) __PYX_ERR(2, 813, __pyx_L1_error)
+  __pyx_ptype_5numpy_signedinteger = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "signedinteger", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_signedinteger) __PYX_ERR(2, 815, __pyx_L1_error)
+  __pyx_ptype_5numpy_unsignedinteger = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "unsignedinteger", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_unsignedinteger) __PYX_ERR(2, 817, __pyx_L1_error)
+  __pyx_ptype_5numpy_inexact = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "inexact", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_inexact) __PYX_ERR(2, 819, __pyx_L1_error)
+  __pyx_ptype_5numpy_floating = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "floating", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_floating) __PYX_ERR(2, 821, __pyx_L1_error)
+  __pyx_ptype_5numpy_complexfloating = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "complexfloating", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_complexfloating) __PYX_ERR(2, 823, __pyx_L1_error)
+  __pyx_ptype_5numpy_flexible = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "flexible", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_flexible) __PYX_ERR(2, 825, __pyx_L1_error)
+  __pyx_ptype_5numpy_character = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "character", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_character) __PYX_ERR(2, 827, __pyx_L1_error)
+  __pyx_ptype_5numpy_ufunc = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "ufunc", sizeof(PyUFuncObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyUFuncObject),__Pyx_ImportType_CheckSize_Ignore_3_0_11); if (!__pyx_ptype_5numpy_ufunc) __PYX_ERR(2, 866, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_RefNannyFinishContext();
   return 0;
@@ -11966,14 +11962,14 @@ if (!__Pyx_RefNanny) {
   #if PY_MAJOR_VERSION < 3 && (__PYX_DEFAULT_STRING_ENCODING_IS_ASCII || __PYX_DEFAULT_STRING_ENCODING_IS_DEFAULT)
   if (__Pyx_init_sys_getdefaultencoding_params() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   #endif
-  if (__pyx_module_is_main_Sparse_Matrix_Tree_CSR) {
+  if (__pyx_module_is_main_RecSysCompetition2024Polimi__libs__Recommenders__SLIM__Cython__Sparse_Matrix_Tree_CSR) {
     if (PyObject_SetAttr(__pyx_m, __pyx_n_s_name, __pyx_n_s_main) < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   }
   #if PY_MAJOR_VERSION >= 3
   {
     PyObject *modules = PyImport_GetModuleDict(); if (unlikely(!modules)) __PYX_ERR(0, 1, __pyx_L1_error)
-    if (!PyDict_GetItemString(modules, "Sparse_Matrix_Tree_CSR")) {
-      if (unlikely((PyDict_SetItemString(modules, "Sparse_Matrix_Tree_CSR", __pyx_m) < 0))) __PYX_ERR(0, 1, __pyx_L1_error)
+    if (!PyDict_GetItemString(modules, "RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.Sparse_Matrix_Tree_CSR")) {
+      if (unlikely((PyDict_SetItemString(modules, "RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.Sparse_Matrix_Tree_CSR", __pyx_m) < 0))) __PYX_ERR(0, 1, __pyx_L1_error)
     }
   }
   #endif
@@ -11994,7 +11990,7 @@ if (!__Pyx_RefNanny) {
   if (__Pyx_patch_abc() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   #endif
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":18
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":18
  * #define NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION
  * 
  * import scipy.sparse as sps             # <<<<<<<<<<<<<<
@@ -12006,7 +12002,7 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_sps, __pyx_t_2) < 0) __PYX_ERR(0, 18, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":20
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":20
  * import scipy.sparse as sps
  * 
  * import numpy as np             # <<<<<<<<<<<<<<
@@ -12018,92 +12014,92 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_np, __pyx_t_2) < 0) __PYX_ERR(0, 20, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":118
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":118
  * 
  * 
  *     cpdef double add_value(self, long row, long col, double value):             # <<<<<<<<<<<<<<
  *         """
  *         The function adds a value to the specified cell. A new cell is created if necessary.
  */
-  __pyx_t_2 = __Pyx_CyFunction_New(&__pyx_mdef_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_3add_value, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_Sparse_Matrix_Tree_CSR_add_value, NULL, __pyx_n_s_Sparse_Matrix_Tree_CSR, __pyx_d, ((PyObject *)__pyx_codeobj__12)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 118, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_CyFunction_New(&__pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_3add_value, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_Sparse_Matrix_Tree_CSR_add_value, NULL, __pyx_n_s_RecSysCompetition2024Polimi_libs, __pyx_d, ((PyObject *)__pyx_codeobj__12)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 118, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR, __pyx_n_s_add_value, __pyx_t_2) < 0) __PYX_ERR(0, 118, __pyx_L1_error)
+  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR, __pyx_n_s_add_value, __pyx_t_2) < 0) __PYX_ERR(0, 118, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  PyType_Modified(__pyx_ptype_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR);
+  PyType_Modified(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR);
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":188
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":188
  * 
  * 
  *     cpdef double get_value(self, long row, long col):             # <<<<<<<<<<<<<<
  *         """
  *         The function returns the value of the specified cell.
  */
-  __pyx_t_2 = __Pyx_CyFunction_New(&__pyx_mdef_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_5get_value, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_Sparse_Matrix_Tree_CSR_get_value, NULL, __pyx_n_s_Sparse_Matrix_Tree_CSR, __pyx_d, ((PyObject *)__pyx_codeobj__14)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 188, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_CyFunction_New(&__pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_5get_value, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_Sparse_Matrix_Tree_CSR_get_value, NULL, __pyx_n_s_RecSysCompetition2024Polimi_libs, __pyx_d, ((PyObject *)__pyx_codeobj__14)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 188, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR, __pyx_n_s_get_value, __pyx_t_2) < 0) __PYX_ERR(0, 188, __pyx_L1_error)
+  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR, __pyx_n_s_get_value, __pyx_t_2) < 0) __PYX_ERR(0, 188, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  PyType_Modified(__pyx_ptype_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR);
+  PyType_Modified(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR);
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":240
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":240
  * 
  * 
  *     cpdef get_scipy_csr(self, long TopK = False):             # <<<<<<<<<<<<<<
  *         """
  *         The function returns the current sparse matrix as a scipy_csr object
  */
-  __pyx_t_2 = __Pyx_CyFunction_New(&__pyx_mdef_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_7get_scipy_csr, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_Sparse_Matrix_Tree_CSR_get_scipy, NULL, __pyx_n_s_Sparse_Matrix_Tree_CSR, __pyx_d, ((PyObject *)__pyx_codeobj__16)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 240, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_CyFunction_New(&__pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_7get_scipy_csr, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_Sparse_Matrix_Tree_CSR_get_scipy, NULL, __pyx_n_s_RecSysCompetition2024Polimi_libs, __pyx_d, ((PyObject *)__pyx_codeobj__16)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 240, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_2, __pyx_tuple__17);
-  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR, __pyx_n_s_get_scipy_csr, __pyx_t_2) < 0) __PYX_ERR(0, 240, __pyx_L1_error)
+  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR, __pyx_n_s_get_scipy_csr, __pyx_t_2) < 0) __PYX_ERR(0, 240, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  PyType_Modified(__pyx_ptype_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR);
+  PyType_Modified(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR);
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":288
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":288
  * 
  * 
  *     cpdef rebalance_tree(self, long TopK = False):             # <<<<<<<<<<<<<<
  *         """
  *         The function builds a balanced binary tree from the current one, for all matrix rows
  */
-  __pyx_t_2 = __Pyx_CyFunction_New(&__pyx_mdef_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_9rebalance_tree, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_Sparse_Matrix_Tree_CSR_rebalance, NULL, __pyx_n_s_Sparse_Matrix_Tree_CSR, __pyx_d, ((PyObject *)__pyx_codeobj__18)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 288, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_CyFunction_New(&__pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_9rebalance_tree, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_Sparse_Matrix_Tree_CSR_rebalance, NULL, __pyx_n_s_RecSysCompetition2024Polimi_libs, __pyx_d, ((PyObject *)__pyx_codeobj__18)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 288, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_2, __pyx_tuple__19);
-  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR, __pyx_n_s_rebalance_tree, __pyx_t_2) < 0) __PYX_ERR(0, 288, __pyx_L1_error)
+  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR, __pyx_n_s_rebalance_tree, __pyx_t_2) < 0) __PYX_ERR(0, 288, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  PyType_Modified(__pyx_ptype_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR);
+  PyType_Modified(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR);
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":570
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":570
  * 
  * 
  *     cpdef test_list_tree_conversion(self, long row):             # <<<<<<<<<<<<<<
  *         """
  *         The function tests the inner data structure conversion from tree to C linked list and back to tree
  */
-  __pyx_t_2 = __Pyx_CyFunction_New(&__pyx_mdef_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_11test_list_tree_conversion, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_Sparse_Matrix_Tree_CSR_test_list, NULL, __pyx_n_s_Sparse_Matrix_Tree_CSR, __pyx_d, ((PyObject *)__pyx_codeobj__21)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 570, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_CyFunction_New(&__pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_11test_list_tree_conversion, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_Sparse_Matrix_Tree_CSR_test_list, NULL, __pyx_n_s_RecSysCompetition2024Polimi_libs, __pyx_d, ((PyObject *)__pyx_codeobj__21)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 570, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR, __pyx_n_s_test_list_tree_conversion, __pyx_t_2) < 0) __PYX_ERR(0, 570, __pyx_L1_error)
+  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR, __pyx_n_s_test_list_tree_conversion, __pyx_t_2) < 0) __PYX_ERR(0, 570, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  PyType_Modified(__pyx_ptype_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR);
+  PyType_Modified(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR);
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":659
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":659
  * 
  * 
  *     cpdef test_topK_from_list_selection(self, long row, long topK):             # <<<<<<<<<<<<<<
  *         """
  *         The function tests the topK selection from list
  */
-  __pyx_t_2 = __Pyx_CyFunction_New(&__pyx_mdef_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_13test_topK_from_list_selection, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_Sparse_Matrix_Tree_CSR_test_topK, NULL, __pyx_n_s_Sparse_Matrix_Tree_CSR, __pyx_d, ((PyObject *)__pyx_codeobj__23)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 659, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_CyFunction_New(&__pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_13test_topK_from_list_selection, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_Sparse_Matrix_Tree_CSR_test_topK, NULL, __pyx_n_s_RecSysCompetition2024Polimi_libs, __pyx_d, ((PyObject *)__pyx_codeobj__23)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 659, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR, __pyx_n_s_test_topK_from_list_selection, __pyx_t_2) < 0) __PYX_ERR(0, 659, __pyx_L1_error)
+  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR, __pyx_n_s_test_topK_from_list_selection, __pyx_t_2) < 0) __PYX_ERR(0, 659, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  PyType_Modified(__pyx_ptype_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR);
+  PyType_Modified(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR);
 
   /* "(tree fragment)":1
  * def __reduce_cython__(self):             # <<<<<<<<<<<<<<
  *     raise TypeError, "self.row_pointer cannot be converted to a Python object for pickling"
  * def __setstate_cython__(self, __pyx_state):
  */
-  __pyx_t_2 = __Pyx_CyFunction_New(&__pyx_mdef_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_15__reduce_cython__, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_Sparse_Matrix_Tree_CSR___reduce, NULL, __pyx_n_s_Sparse_Matrix_Tree_CSR, __pyx_d, ((PyObject *)__pyx_codeobj__25)); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 1, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_CyFunction_New(&__pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_15__reduce_cython__, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_Sparse_Matrix_Tree_CSR___reduce, NULL, __pyx_n_s_RecSysCompetition2024Polimi_libs, __pyx_d, ((PyObject *)__pyx_codeobj__25)); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 1, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_reduce_cython, __pyx_t_2) < 0) __PYX_ERR(1, 1, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -12114,12 +12110,12 @@ if (!__Pyx_RefNanny) {
  * def __setstate_cython__(self, __pyx_state):             # <<<<<<<<<<<<<<
  *     raise TypeError, "self.row_pointer cannot be converted to a Python object for pickling"
  */
-  __pyx_t_2 = __Pyx_CyFunction_New(&__pyx_mdef_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_17__setstate_cython__, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_Sparse_Matrix_Tree_CSR___setstat, NULL, __pyx_n_s_Sparse_Matrix_Tree_CSR, __pyx_d, ((PyObject *)__pyx_codeobj__27)); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 3, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_CyFunction_New(&__pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_17__setstate_cython__, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_Sparse_Matrix_Tree_CSR___setstat, NULL, __pyx_n_s_RecSysCompetition2024Polimi_libs, __pyx_d, ((PyObject *)__pyx_codeobj__27)); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 3, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_setstate_cython, __pyx_t_2) < 0) __PYX_ERR(1, 3, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "Sparse_Matrix_Tree_CSR.pyx":1
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/Sparse_Matrix_Tree_CSR.pyx":1
  * """             # <<<<<<<<<<<<<<
  * Created on 26/09/17
  * 
@@ -12136,7 +12132,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_XDECREF(__pyx_t_2);
   if (__pyx_m) {
     if (__pyx_d && stringtab_initialized) {
-      __Pyx_AddTraceback("init Sparse_Matrix_Tree_CSR", __pyx_clineno, __pyx_lineno, __pyx_filename);
+      __Pyx_AddTraceback("init RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.Sparse_Matrix_Tree_CSR", __pyx_clineno, __pyx_lineno, __pyx_filename);
     }
     #if !CYTHON_USE_MODULE_STATE
     Py_CLEAR(__pyx_m);
@@ -12150,7 +12146,7 @@ if (!__Pyx_RefNanny) {
     }
     #endif
   } else if (!PyErr_Occurred()) {
-    PyErr_SetString(PyExc_ImportError, "init Sparse_Matrix_Tree_CSR");
+    PyErr_SetString(PyExc_ImportError, "init RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.Sparse_Matrix_Tree_CSR");
   }
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();

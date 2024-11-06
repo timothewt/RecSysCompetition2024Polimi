@@ -305,7 +305,6 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 .cython .cs { color: #3D7B7B; font-style: italic } /* Comment.Special */
 .cython .gd { color: #A00000 } /* Generic.Deleted */
 .cython .ge { font-style: italic } /* Generic.Emph */
-.cython .ges { font-weight: bold; font-style: italic } /* Generic.EmphStrong */
 .cython .gr { color: #E40000 } /* Generic.Error */
 .cython .gh { color: #000080; font-weight: bold } /* Generic.Heading */
 .cython .gi { color: #008400 } /* Generic.Inserted */
@@ -421,11 +420,11 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 <pre class="cython line score-0">&#xA0;<span class="">033</span>: </pre>
 <pre class="cython line score-0">&#xA0;<span class="">034</span>: <span class="c"># Node struct</span></pre>
 <pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">035</span>: <span class="k">ctypedef</span> <span class="k">struct</span> <span class="nc">matrix_element_tree_s</span><span class="p">:</span></pre>
-<pre class='cython code score-0 '>struct __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s {
+<pre class='cython code score-0 '>struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s {
   long column;
   double data;
-  __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *higher;
-  __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *lower;
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *higher;
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *lower;
 };
 </pre><pre class="cython line score-0">&#xA0;<span class="">036</span>:     <span class="nb">long</span> <span class="n">column</span></pre>
 <pre class="cython line score-0">&#xA0;<span class="">037</span>:     <span class="n">double</span> <span class="n">data</span></pre>
@@ -433,17 +432,17 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 <pre class="cython line score-0">&#xA0;<span class="">039</span>:     <span class="n">matrix_element_tree_s</span> <span class="o">*</span><span class="n">lower</span></pre>
 <pre class="cython line score-0">&#xA0;<span class="">040</span>: </pre>
 <pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">041</span>: <span class="k">ctypedef</span> <span class="k">struct</span> <span class="nc">head_pointer_tree_s</span><span class="p">:</span></pre>
-<pre class='cython code score-0 '>struct __pyx_t_22Sparse_Matrix_Tree_CSR_head_pointer_tree_s {
-  __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *head;
+<pre class='cython code score-0 '>struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_head_pointer_tree_s {
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *head;
 };
 </pre><pre class="cython line score-0">&#xA0;<span class="">042</span>:     <span class="n">matrix_element_tree_s</span> <span class="o">*</span><span class="n">head</span></pre>
 <pre class="cython line score-0">&#xA0;<span class="">043</span>: </pre>
 <pre class="cython line score-0">&#xA0;<span class="">044</span>: </pre>
 <pre class="cython line score-0">&#xA0;<span class="">045</span>: <span class="c"># Function to allocate a new node</span></pre>
 <pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">046</span>: <span class="k">cdef</span> <span class="kt">matrix_element_tree_s</span> * <span class="nf">pointer_new_matrix_element_tree_s</span><span class="p">(</span><span class="nb">long</span> <span class="n">column</span><span class="p">,</span> <span class="n">double</span> <span class="n">data</span><span class="p">,</span> <span class="n">matrix_element_tree_s</span> <span class="o">*</span><span class="n">higher</span><span class="p">,</span>  <span class="n">matrix_element_tree_s</span> <span class="o">*</span><span class="n">lower</span><span class="p">):</span></pre>
-<pre class='cython code score-0 '>static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_Matrix_Tree_CSR_pointer_new_matrix_element_tree_s(long __pyx_v_column, double __pyx_v_data, __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_higher, __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_lower) {
-  __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_new_element;
-  __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_r;
+<pre class='cython code score-0 '>static __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_pointer_new_matrix_element_tree_s(long __pyx_v_column, double __pyx_v_data, __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_higher, __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_lower) {
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_new_element;
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_r;
 /* … */
   /* function exit code */
   __pyx_L0:;
@@ -453,7 +452,7 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 <pre class="cython line score-0">&#xA0;<span class="">048</span>:     <span class="k">cdef</span> <span class="kt">matrix_element_tree_s</span> * <span class="nf">new_element</span></pre>
 <pre class="cython line score-0">&#xA0;<span class="">049</span>: </pre>
 <pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">050</span>:     <span class="n">new_element</span> <span class="o">=</span> <span class="o">&lt;</span> <span class="n">matrix_element_tree_s</span> <span class="o">*</span> <span class="o">&gt;</span> <span class="n">malloc</span><span class="p">(</span><span class="n">sizeof</span><span class="p">(</span><span class="n">matrix_element_tree_s</span><span class="p">))</span></pre>
-<pre class='cython code score-0 '>  __pyx_v_new_element = ((__pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *)malloc((sizeof(__pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s))));
+<pre class='cython code score-0 '>  __pyx_v_new_element = ((__pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *)malloc((sizeof(__pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s))));
 </pre><pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">051</span>:     <span class="n">new_element</span><span class="o">.</span><span class="n">column</span> <span class="o">=</span> <span class="n">column</span></pre>
 <pre class='cython code score-0 '>  __pyx_v_new_element-&gt;column = __pyx_v_column;
 </pre><pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">052</span>:     <span class="n">new_element</span><span class="o">.</span><span class="n">data</span> <span class="o">=</span> <span class="n">data</span></pre>
@@ -470,9 +469,9 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 <pre class="cython line score-0">&#xA0;<span class="">058</span>: </pre>
 <pre class="cython line score-0">&#xA0;<span class="">059</span>: <span class="c"># Functions to compare structs to be used in C qsort</span></pre>
 <pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">060</span>: <span class="k">cdef</span> <span class="kt">int</span> <span class="nf">compare_struct_on_column</span><span class="p">(</span><span class="n">const</span> <span class="n">void</span> <span class="o">*</span><span class="n">a_input</span><span class="p">,</span> <span class="n">const</span> <span class="n">void</span> <span class="o">*</span><span class="n">b_input</span><span class="p">)</span> <span class="n">noexcept</span><span class="p">:</span></pre>
-<pre class='cython code score-0 '>static int __pyx_f_22Sparse_Matrix_Tree_CSR_compare_struct_on_column(void const *__pyx_v_a_input, void const *__pyx_v_b_input) {
-  __pyx_t_22Sparse_Matrix_Tree_CSR_head_pointer_tree_s *__pyx_v_a_casted;
-  __pyx_t_22Sparse_Matrix_Tree_CSR_head_pointer_tree_s *__pyx_v_b_casted;
+<pre class='cython code score-0 '>static int __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_compare_struct_on_column(void const *__pyx_v_a_input, void const *__pyx_v_b_input) {
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_head_pointer_tree_s *__pyx_v_a_casted;
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_head_pointer_tree_s *__pyx_v_b_casted;
   int __pyx_r;
 /* … */
   /* function exit code */
@@ -488,9 +487,9 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 <pre class="cython line score-0">&#xA0;<span class="">067</span>: <span class="sd">    &quot;&quot;&quot;</span></pre>
 <pre class="cython line score-0">&#xA0;<span class="">068</span>: </pre>
 <pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">069</span>:     <span class="k">cdef</span> <span class="kt">head_pointer_tree_s</span> *<span class="nf">a_casted</span> <span class="o">=</span> <span class="o">&lt;</span><span class="n">head_pointer_tree_s</span> <span class="o">*&gt;</span> <span class="n">a_input</span></pre>
-<pre class='cython code score-0 '>  __pyx_v_a_casted = ((__pyx_t_22Sparse_Matrix_Tree_CSR_head_pointer_tree_s *)__pyx_v_a_input);
+<pre class='cython code score-0 '>  __pyx_v_a_casted = ((__pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_head_pointer_tree_s *)__pyx_v_a_input);
 </pre><pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">070</span>:     <span class="k">cdef</span> <span class="kt">head_pointer_tree_s</span> *<span class="nf">b_casted</span> <span class="o">=</span> <span class="o">&lt;</span><span class="n">head_pointer_tree_s</span> <span class="o">*&gt;</span> <span class="n">b_input</span></pre>
-<pre class='cython code score-0 '>  __pyx_v_b_casted = ((__pyx_t_22Sparse_Matrix_Tree_CSR_head_pointer_tree_s *)__pyx_v_b_input);
+<pre class='cython code score-0 '>  __pyx_v_b_casted = ((__pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_head_pointer_tree_s *)__pyx_v_b_input);
 </pre><pre class="cython line score-0">&#xA0;<span class="">071</span>: </pre>
 <pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">072</span>:     <span class="k">return</span> <span class="n">a_casted</span><span class="o">.</span><span class="n">head</span><span class="o">.</span><span class="n">column</span>  <span class="o">-</span> <span class="n">b_casted</span><span class="o">.</span><span class="n">head</span><span class="o">.</span><span class="n">column</span></pre>
 <pre class='cython code score-0 '>  __pyx_r = (__pyx_v_a_casted-&gt;head-&gt;column - __pyx_v_b_casted-&gt;head-&gt;column);
@@ -499,9 +498,9 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 <pre class="cython line score-0">&#xA0;<span class="">074</span>: </pre>
 <pre class="cython line score-0">&#xA0;<span class="">075</span>: </pre>
 <pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">076</span>: <span class="k">cdef</span> <span class="kt">int</span> <span class="nf">compare_struct_on_data</span><span class="p">(</span><span class="n">const</span> <span class="n">void</span> <span class="o">*</span> <span class="n">a_input</span><span class="p">,</span> <span class="n">const</span> <span class="n">void</span> <span class="o">*</span> <span class="n">b_input</span><span class="p">)</span> <span class="n">noexcept</span><span class="p">:</span></pre>
-<pre class='cython code score-0 '>static int __pyx_f_22Sparse_Matrix_Tree_CSR_compare_struct_on_data(void const *__pyx_v_a_input, void const *__pyx_v_b_input) {
-  __pyx_t_22Sparse_Matrix_Tree_CSR_head_pointer_tree_s *__pyx_v_a_casted;
-  __pyx_t_22Sparse_Matrix_Tree_CSR_head_pointer_tree_s *__pyx_v_b_casted;
+<pre class='cython code score-0 '>static int __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_compare_struct_on_data(void const *__pyx_v_a_input, void const *__pyx_v_b_input) {
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_head_pointer_tree_s *__pyx_v_a_casted;
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_head_pointer_tree_s *__pyx_v_b_casted;
   int __pyx_r;
 /* … */
   /* function exit code */
@@ -517,9 +516,9 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 <pre class="cython line score-0">&#xA0;<span class="">083</span>: <span class="sd">    &quot;&quot;&quot;</span></pre>
 <pre class="cython line score-0">&#xA0;<span class="">084</span>: </pre>
 <pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">085</span>:     <span class="k">cdef</span> <span class="kt">head_pointer_tree_s</span> * <span class="nf">a_casted</span> <span class="o">=</span> <span class="o">&lt;</span><span class="n">head_pointer_tree_s</span> <span class="o">*&gt;</span> <span class="n">a_input</span></pre>
-<pre class='cython code score-0 '>  __pyx_v_a_casted = ((__pyx_t_22Sparse_Matrix_Tree_CSR_head_pointer_tree_s *)__pyx_v_a_input);
+<pre class='cython code score-0 '>  __pyx_v_a_casted = ((__pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_head_pointer_tree_s *)__pyx_v_a_input);
 </pre><pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">086</span>:     <span class="k">cdef</span> <span class="kt">head_pointer_tree_s</span> * <span class="nf">b_casted</span> <span class="o">=</span> <span class="o">&lt;</span><span class="n">head_pointer_tree_s</span> <span class="o">*&gt;</span> <span class="n">b_input</span></pre>
-<pre class='cython code score-0 '>  __pyx_v_b_casted = ((__pyx_t_22Sparse_Matrix_Tree_CSR_head_pointer_tree_s *)__pyx_v_b_input);
+<pre class='cython code score-0 '>  __pyx_v_b_casted = ((__pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_head_pointer_tree_s *)__pyx_v_b_input);
 </pre><pre class="cython line score-0">&#xA0;<span class="">087</span>: </pre>
 <pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">088</span>:     <span class="k">if</span> <span class="p">(</span><span class="n">a_casted</span><span class="o">.</span><span class="n">head</span><span class="o">.</span><span class="n">data</span> <span class="o">-</span> <span class="n">b_casted</span><span class="o">.</span><span class="n">head</span><span class="o">.</span><span class="n">data</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mf">0.0</span><span class="p">:</span></pre>
 <pre class='cython code score-0 '>  __pyx_t_1 = ((__pyx_v_a_casted-&gt;head-&gt;data - __pyx_v_b_casted-&gt;head-&gt;data) &gt; 0.0);
@@ -543,31 +542,31 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 <pre class="cython line score-0">&#xA0;<span class="">097</span>: <span class="c">#################################</span></pre>
 <pre class="cython line score-0">&#xA0;<span class="">098</span>: </pre>
 <pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">099</span>: <span class="k">cdef</span> <span class="k">class</span> <span class="nf">Sparse_Matrix_Tree_CSR</span><span class="p">:</span></pre>
-<pre class='cython code score-0 '>struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR {
+<pre class='cython code score-0 '>struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR {
   PyObject_HEAD
-  struct __pyx_vtabstruct_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_vtab;
+  struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_vtab;
   long num_rows;
   long num_cols;
-  __pyx_t_22Sparse_Matrix_Tree_CSR_head_pointer_tree_s *row_pointer;
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_head_pointer_tree_s *row_pointer;
 };
 
 
 
-struct __pyx_vtabstruct_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR {
-  double (*add_value)(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *, long, long, double, int __pyx_skip_dispatch);
-  double (*get_value)(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *, long, long, int __pyx_skip_dispatch);
-  PyObject *(*get_scipy_csr)(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *, int __pyx_skip_dispatch, struct __pyx_opt_args_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_scipy_csr *__pyx_optional_args);
-  PyObject *(*rebalance_tree)(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *, int __pyx_skip_dispatch, struct __pyx_opt_args_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_rebalance_tree *__pyx_optional_args);
-  __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *(*subtree_to_list_flat)(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *, __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *);
-  PyObject *(*from_linked_list_to_python_list)(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *, __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *);
-  PyObject *(*subtree_free_memory)(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *, __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *);
-  PyObject *(*list_free_memory)(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *, __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *);
-  __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *(*build_tree_from_list_flat)(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *, __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *);
-  __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *(*topK_selection_from_list)(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *, __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *, long);
-  PyObject *(*test_list_tree_conversion)(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *, long, int __pyx_skip_dispatch);
-  PyObject *(*test_topK_from_list_selection)(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *, long, long, int __pyx_skip_dispatch);
+struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR {
+  double (*add_value)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *, long, long, double, int __pyx_skip_dispatch);
+  double (*get_value)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *, long, long, int __pyx_skip_dispatch);
+  PyObject *(*get_scipy_csr)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *, int __pyx_skip_dispatch, struct __pyx_opt_args_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_scipy_csr *__pyx_optional_args);
+  PyObject *(*rebalance_tree)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *, int __pyx_skip_dispatch, struct __pyx_opt_args_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_rebalance_tree *__pyx_optional_args);
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *(*subtree_to_list_flat)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *, __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *);
+  PyObject *(*from_linked_list_to_python_list)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *, __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *);
+  PyObject *(*subtree_free_memory)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *, __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *);
+  PyObject *(*list_free_memory)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *, __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *);
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *(*build_tree_from_list_flat)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *, __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *);
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *(*topK_selection_from_list)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *, __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *, long);
+  PyObject *(*test_list_tree_conversion)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *, long, int __pyx_skip_dispatch);
+  PyObject *(*test_topK_from_list_selection)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *, long, long, int __pyx_skip_dispatch);
 };
-static struct __pyx_vtabstruct_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_vtabptr_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR;
+static struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_vtabptr_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR;
 </pre><pre class="cython line score-0">&#xA0;<span class="">100</span>: </pre>
 <pre class="cython line score-0">&#xA0;<span class="">101</span>:     <span class="k">cdef</span> <span class="kt">long</span> <span class="nf">num_rows</span><span class="p">,</span> <span class="nf">num_cols</span></pre>
 <pre class="cython line score-0">&#xA0;<span class="">102</span>: </pre>
@@ -576,8 +575,8 @@ static struct __pyx_vtabstruct_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *
 <pre class="cython line score-0">&#xA0;<span class="">105</span>: </pre>
 <pre class="cython line score-62" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">106</span>:     <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="nb">long</span> <span class="n">num_rows</span><span class="p">,</span> <span class="nb">long</span> <span class="n">num_cols</span><span class="p">):</span></pre>
 <pre class='cython code score-62 '>/* Python wrapper */
-static int __pyx_pw_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static int __pyx_pw_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static int __pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static int __pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   long __pyx_v_num_rows;
   long __pyx_v_num_cols;
   CYTHON_UNUSED Py_ssize_t __pyx_nargs;
@@ -649,11 +648,11 @@ static int __pyx_pw_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_1__init__(
       <span class='pyx_c_api'>__Pyx_Arg_XDECREF_VARARGS</span>(values[__pyx_temp]);
     }
   }
-  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   <span class='refnanny'>__Pyx_RefNannyFinishContext</span>();
   return -1;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR___init__(((struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self), __pyx_v_num_rows, __pyx_v_num_cols);
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR___init__(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self), __pyx_v_num_rows, __pyx_v_num_cols);
   int __pyx_lineno = 0;
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
@@ -669,7 +668,7 @@ static int __pyx_pw_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_1__init__(
   return __pyx_r;
 }
 
-static int __pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR___init__(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_num_rows, long __pyx_v_num_cols) {
+static int __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR___init__(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_num_rows, long __pyx_v_num_cols) {
   long __pyx_v_index;
   int __pyx_r;
 /* … */
@@ -684,7 +683,7 @@ static int __pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR___init__(s
 <pre class='cython code score-0 '>  __pyx_v_self-&gt;num_cols = __pyx_v_num_cols;
 </pre><pre class="cython line score-0">&#xA0;<span class="">110</span>: </pre>
 <pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">111</span>:         <span class="bp">self</span><span class="o">.</span><span class="n">row_pointer</span> <span class="o">=</span> <span class="o">&lt;</span> <span class="n">head_pointer_tree_s</span> <span class="o">*&gt;</span> <span class="n">malloc</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">num_rows</span> <span class="o">*</span> <span class="n">sizeof</span><span class="p">(</span><span class="n">head_pointer_tree_s</span><span class="p">))</span></pre>
-<pre class='cython code score-0 '>  __pyx_v_self-&gt;row_pointer = ((__pyx_t_22Sparse_Matrix_Tree_CSR_head_pointer_tree_s *)malloc((__pyx_v_self-&gt;num_rows * (sizeof(__pyx_t_22Sparse_Matrix_Tree_CSR_head_pointer_tree_s)))));
+<pre class='cython code score-0 '>  __pyx_v_self-&gt;row_pointer = ((__pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_head_pointer_tree_s *)malloc((__pyx_v_self-&gt;num_rows * (sizeof(__pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_head_pointer_tree_s)))));
 </pre><pre class="cython line score-0">&#xA0;<span class="">112</span>: </pre>
 <pre class="cython line score-0">&#xA0;<span class="">113</span>:         <span class="c"># Initialize all rows to empty</span></pre>
 <pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">114</span>:         <span class="k">for</span> <span class="n">index</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">num_rows</span><span class="p">):</span></pre>
@@ -698,15 +697,15 @@ static int __pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR___init__(s
 </pre><pre class="cython line score-0">&#xA0;<span class="">116</span>: </pre>
 <pre class="cython line score-0">&#xA0;<span class="">117</span>: </pre>
 <pre class="cython line score-169" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">118</span>:     <span class="k">cpdef</span> <span class="kt">double</span> <span class="nf">add_value</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="nb">long</span> <span class="n">row</span><span class="p">,</span> <span class="nb">long</span> <span class="n">col</span><span class="p">,</span> <span class="n">double</span> <span class="n">value</span><span class="p">):</span></pre>
-<pre class='cython code score-169 '>static PyObject *__pyx_pw_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_3add_value(PyObject *__pyx_v_self, 
+<pre class='cython code score-169 '>static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_3add_value(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static double __pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_add_value(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_row, long __pyx_v_col, double __pyx_v_value, int __pyx_skip_dispatch) {
-  __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_current_element;
+static double __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_add_value(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_row, long __pyx_v_col, double __pyx_v_value, int __pyx_skip_dispatch) {
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_current_element;
   int __pyx_v_stopSearch;
   double __pyx_r;
   /* Check if called by wrapper */
@@ -720,7 +719,7 @@ static double __pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_add_valu
       #endif
       __pyx_t_1 = <span class='pyx_c_api'>__Pyx_PyObject_GetAttrStr</span>(((PyObject *)__pyx_v_self), __pyx_n_s_add_value);<span class='error_goto'> if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 118, __pyx_L1_error)</span>
       <span class='refnanny'>__Pyx_GOTREF</span>(__pyx_t_1);
-      if (!<span class='pyx_c_api'>__Pyx_IsSameCFunction</span>(__pyx_t_1, (void*) __pyx_pw_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_3add_value)) {
+      if (!<span class='pyx_c_api'>__Pyx_IsSameCFunction</span>(__pyx_t_1, (void*) __pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_3add_value)) {
         __pyx_t_3 = <span class='pyx_c_api'>__Pyx_PyInt_From_long</span>(__pyx_v_row);<span class='error_goto'> if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 118, __pyx_L1_error)</span>
         <span class='refnanny'>__Pyx_GOTREF</span>(__pyx_t_3);
         __pyx_t_4 = <span class='pyx_c_api'>__Pyx_PyInt_From_long</span>(__pyx_v_col);<span class='error_goto'> if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 118, __pyx_L1_error)</span>
@@ -783,7 +782,7 @@ static double __pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_add_valu
   <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_t_5);
   <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_t_6);
   <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_t_7);
-  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.add_value", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.add_value", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = 0;
   __pyx_L0:;
   <span class='refnanny'>__Pyx_RefNannyFinishContext</span>();
@@ -791,16 +790,16 @@ static double __pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_add_valu
 }
 
 /* Python wrapper */
-static PyObject *__pyx_pw_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_3add_value(PyObject *__pyx_v_self, 
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_3add_value(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-<span class='py_macro_api'>PyDoc_STRVAR</span>(__pyx_doc_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_2add_value, "\n        The function adds a value to the specified cell. A new cell is created if necessary.         \n        \n        :param row: cell coordinates\n        :param col:  cell coordinates\n        :param value: value to add\n        :return double: resulting cell value\n        ");
-static PyMethodDef __pyx_mdef_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_3add_value = {"add_value", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_3add_value, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_2add_value};
-static PyObject *__pyx_pw_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_3add_value(PyObject *__pyx_v_self, 
+<span class='py_macro_api'>PyDoc_STRVAR</span>(__pyx_doc_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_2add_value, "\n        The function adds a value to the specified cell. A new cell is created if necessary.         \n        \n        :param row: cell coordinates\n        :param col:  cell coordinates\n        :param value: value to add\n        :return double: resulting cell value\n        ");
+static PyMethodDef __pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_3add_value = {"add_value", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_3add_value, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_2add_value};
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_3add_value(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -897,11 +896,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       <span class='pyx_c_api'>__Pyx_Arg_XDECREF_FASTCALL</span>(values[__pyx_temp]);
     }
   }
-  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.add_value", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.add_value", __pyx_clineno, __pyx_lineno, __pyx_filename);
   <span class='refnanny'>__Pyx_RefNannyFinishContext</span>();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_2add_value(((struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self), __pyx_v_row, __pyx_v_col, __pyx_v_value);
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_2add_value(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self), __pyx_v_row, __pyx_v_col, __pyx_v_value);
   int __pyx_lineno = 0;
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
@@ -917,10 +916,10 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_2add_value(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_row, long __pyx_v_col, double __pyx_v_value) {
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_2add_value(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_row, long __pyx_v_col, double __pyx_v_value) {
   PyObject *__pyx_r = NULL;
   <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_r);
-  __pyx_t_1 = __pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_add_value(__pyx_v_self, __pyx_v_row, __pyx_v_col, __pyx_v_value, 1);<span class='error_goto'> if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 118, __pyx_L1_error)</span>
+  __pyx_t_1 = __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_add_value(__pyx_v_self, __pyx_v_row, __pyx_v_col, __pyx_v_value, 1);<span class='error_goto'> if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 118, __pyx_L1_error)</span>
   __pyx_t_2 = <span class='py_c_api'>PyFloat_FromDouble</span>(__pyx_t_1);<span class='error_goto'> if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 118, __pyx_L1_error)</span>
   <span class='refnanny'>__Pyx_GOTREF</span>(__pyx_t_2);
   __pyx_r = __pyx_t_2;
@@ -930,7 +929,7 @@ static PyObject *__pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_2add
   /* function exit code */
   __pyx_L1_error:;
   <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_t_2);
-  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.add_value", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.add_value", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   <span class='refnanny'>__Pyx_XGIVEREF</span>(__pyx_r);
@@ -942,11 +941,11 @@ static PyObject *__pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_2add
   <span class='refnanny'>__Pyx_GOTREF</span>(__pyx_tuple__11);
   <span class='refnanny'>__Pyx_GIVEREF</span>(__pyx_tuple__11);
 /* … */
-  __pyx_t_2 = <span class='pyx_c_api'>__Pyx_CyFunction_New</span>(&amp;__pyx_mdef_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_3add_value, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_Sparse_Matrix_Tree_CSR_add_value, NULL, __pyx_n_s_Sparse_Matrix_Tree_CSR, __pyx_d, ((PyObject *)__pyx_codeobj__12));<span class='error_goto'> if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 118, __pyx_L1_error)</span>
+  __pyx_t_2 = <span class='pyx_c_api'>__Pyx_CyFunction_New</span>(&amp;__pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_3add_value, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_Sparse_Matrix_Tree_CSR_add_value, NULL, __pyx_n_s_RecSysCompetition2024Polimi_libs, __pyx_d, ((PyObject *)__pyx_codeobj__12));<span class='error_goto'> if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 118, __pyx_L1_error)</span>
   <span class='refnanny'>__Pyx_GOTREF</span>(__pyx_t_2);
-  if (<span class='pyx_c_api'>__Pyx_SetItemOnTypeDict</span>((PyObject *)__pyx_ptype_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR, __pyx_n_s_add_value, __pyx_t_2) &lt; 0) <span class='error_goto'>__PYX_ERR(0, 118, __pyx_L1_error)</span>
+  if (<span class='pyx_c_api'>__Pyx_SetItemOnTypeDict</span>((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR, __pyx_n_s_add_value, __pyx_t_2) &lt; 0) <span class='error_goto'>__PYX_ERR(0, 118, __pyx_L1_error)</span>
   <span class='pyx_macro_api'>__Pyx_DECREF</span>(__pyx_t_2); __pyx_t_2 = 0;
-  <span class='py_c_api'>PyType_Modified</span>(__pyx_ptype_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR);
+  <span class='py_c_api'>PyType_Modified</span>(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR);
   __pyx_codeobj__12 = (PyObject*)<span class='pyx_c_api'>__Pyx_PyCode_New</span>(4, 0, 0, 4, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__11, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Sparse_Matrix_Tree_CSR_pyx, __pyx_n_s_add_value, 118, __pyx_empty_bytes);<span class='error_goto'> if (unlikely(!__pyx_codeobj__12)) __PYX_ERR(0, 118, __pyx_L1_error)</span>
 </pre><pre class="cython line score-0">&#xA0;<span class="">119</span>: <span class="w">        </span><span class="sd">&quot;&quot;&quot;</span></pre>
 <pre class="cython line score-0">&#xA0;<span class="">120</span>: <span class="sd">        The function adds a value to the specified cell. A new cell is created if necessary.         </span></pre>
@@ -1042,7 +1041,7 @@ static PyObject *__pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_2add
 </pre><pre class="cython line score-0">&#xA0;<span class="">138</span>: </pre>
 <pre class="cython line score-0">&#xA0;<span class="">139</span>:             <span class="c"># row_pointer is a python object, so I need the object itself and not the address</span></pre>
 <pre class="cython line score-5" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">140</span>:             <span class="bp">self</span><span class="o">.</span><span class="n">row_pointer</span><span class="p">[</span><span class="n">row</span><span class="p">]</span><span class="o">.</span><span class="n">head</span> <span class="o">=</span> <span class="n">pointer_new_matrix_element_tree_s</span><span class="p">(</span><span class="n">col</span><span class="p">,</span> <span class="n">value</span><span class="p">,</span> <span class="bp">NULL</span><span class="p">,</span> <span class="bp">NULL</span><span class="p">)</span></pre>
-<pre class='cython code score-5 '>    __pyx_t_12 = __pyx_f_22Sparse_Matrix_Tree_CSR_pointer_new_matrix_element_tree_s(__pyx_v_col, __pyx_v_value, NULL, NULL); if (unlikely(__pyx_t_12 == ((__pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *)NULL) &amp;&amp; <span class='py_c_api'>PyErr_Occurred</span>())) <span class='error_goto'>__PYX_ERR(0, 140, __pyx_L1_error)</span>
+<pre class='cython code score-5 '>    __pyx_t_12 = __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_pointer_new_matrix_element_tree_s(__pyx_v_col, __pyx_v_value, NULL, NULL); if (unlikely(__pyx_t_12 == ((__pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *)NULL) &amp;&amp; <span class='py_c_api'>PyErr_Occurred</span>())) <span class='error_goto'>__PYX_ERR(0, 140, __pyx_L1_error)</span>
     (__pyx_v_self-&gt;row_pointer[__pyx_v_row]).head = __pyx_t_12;
 </pre><pre class="cython line score-0">&#xA0;<span class="">141</span>: </pre>
 <pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">142</span>:             <span class="k">return</span> <span class="n">value</span></pre>
@@ -1136,7 +1135,7 @@ static PyObject *__pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_2add
   }
 </pre><pre class="cython line score-0">&#xA0;<span class="">170</span>: </pre>
 <pre class="cython line score-5" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">171</span>:             <span class="n">current_element</span><span class="o">.</span><span class="n">higher</span> <span class="o">=</span> <span class="n">pointer_new_matrix_element_tree_s</span><span class="p">(</span><span class="n">col</span><span class="p">,</span> <span class="n">value</span><span class="p">,</span> <span class="bp">NULL</span><span class="p">,</span> <span class="bp">NULL</span><span class="p">)</span></pre>
-<pre class='cython code score-5 '>    __pyx_t_12 = __pyx_f_22Sparse_Matrix_Tree_CSR_pointer_new_matrix_element_tree_s(__pyx_v_col, __pyx_v_value, NULL, NULL); if (unlikely(__pyx_t_12 == ((__pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *)NULL) &amp;&amp; <span class='py_c_api'>PyErr_Occurred</span>())) <span class='error_goto'>__PYX_ERR(0, 171, __pyx_L1_error)</span>
+<pre class='cython code score-5 '>    __pyx_t_12 = __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_pointer_new_matrix_element_tree_s(__pyx_v_col, __pyx_v_value, NULL, NULL); if (unlikely(__pyx_t_12 == ((__pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *)NULL) &amp;&amp; <span class='py_c_api'>PyErr_Occurred</span>())) <span class='error_goto'>__PYX_ERR(0, 171, __pyx_L1_error)</span>
     __pyx_v_current_element-&gt;higher = __pyx_t_12;
 </pre><pre class="cython line score-0">&#xA0;<span class="">172</span>: </pre>
 <pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">173</span>:             <span class="k">return</span> <span class="n">value</span></pre>
@@ -1159,7 +1158,7 @@ static PyObject *__pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_2add
   }
 </pre><pre class="cython line score-0">&#xA0;<span class="">177</span>: </pre>
 <pre class="cython line score-5" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">178</span>:             <span class="n">current_element</span><span class="o">.</span><span class="n">lower</span> <span class="o">=</span> <span class="n">pointer_new_matrix_element_tree_s</span><span class="p">(</span><span class="n">col</span><span class="p">,</span> <span class="n">value</span><span class="p">,</span> <span class="bp">NULL</span><span class="p">,</span> <span class="bp">NULL</span><span class="p">)</span></pre>
-<pre class='cython code score-5 '>    __pyx_t_12 = __pyx_f_22Sparse_Matrix_Tree_CSR_pointer_new_matrix_element_tree_s(__pyx_v_col, __pyx_v_value, NULL, NULL); if (unlikely(__pyx_t_12 == ((__pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *)NULL) &amp;&amp; <span class='py_c_api'>PyErr_Occurred</span>())) <span class='error_goto'>__PYX_ERR(0, 178, __pyx_L1_error)</span>
+<pre class='cython code score-5 '>    __pyx_t_12 = __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_pointer_new_matrix_element_tree_s(__pyx_v_col, __pyx_v_value, NULL, NULL); if (unlikely(__pyx_t_12 == ((__pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *)NULL) &amp;&amp; <span class='py_c_api'>PyErr_Occurred</span>())) <span class='error_goto'>__PYX_ERR(0, 178, __pyx_L1_error)</span>
     __pyx_v_current_element-&gt;lower = __pyx_t_12;
 </pre><pre class="cython line score-0">&#xA0;<span class="">179</span>: </pre>
 <pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">180</span>:             <span class="k">return</span> <span class="n">value</span></pre>
@@ -1185,15 +1184,15 @@ static PyObject *__pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_2add
 <pre class="cython line score-0">&#xA0;<span class="">186</span>: </pre>
 <pre class="cython line score-0">&#xA0;<span class="">187</span>: </pre>
 <pre class="cython line score-138" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">188</span>:     <span class="k">cpdef</span> <span class="kt">double</span> <span class="nf">get_value</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="nb">long</span> <span class="n">row</span><span class="p">,</span> <span class="nb">long</span> <span class="n">col</span><span class="p">):</span></pre>
-<pre class='cython code score-138 '>static PyObject *__pyx_pw_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_5get_value(PyObject *__pyx_v_self, 
+<pre class='cython code score-138 '>static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_5get_value(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static double __pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_value(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_row, long __pyx_v_col, int __pyx_skip_dispatch) {
-  __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_current_element;
+static double __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_value(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_row, long __pyx_v_col, int __pyx_skip_dispatch) {
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_current_element;
   int __pyx_v_stopSearch;
   double __pyx_r;
   /* Check if called by wrapper */
@@ -1207,7 +1206,7 @@ static double __pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_valu
       #endif
       __pyx_t_1 = <span class='pyx_c_api'>__Pyx_PyObject_GetAttrStr</span>(((PyObject *)__pyx_v_self), __pyx_n_s_get_value);<span class='error_goto'> if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 188, __pyx_L1_error)</span>
       <span class='refnanny'>__Pyx_GOTREF</span>(__pyx_t_1);
-      if (!<span class='pyx_c_api'>__Pyx_IsSameCFunction</span>(__pyx_t_1, (void*) __pyx_pw_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_5get_value)) {
+      if (!<span class='pyx_c_api'>__Pyx_IsSameCFunction</span>(__pyx_t_1, (void*) __pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_5get_value)) {
         __pyx_t_3 = <span class='pyx_c_api'>__Pyx_PyInt_From_long</span>(__pyx_v_row);<span class='error_goto'> if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 188, __pyx_L1_error)</span>
         <span class='refnanny'>__Pyx_GOTREF</span>(__pyx_t_3);
         __pyx_t_4 = <span class='pyx_c_api'>__Pyx_PyInt_From_long</span>(__pyx_v_col);<span class='error_goto'> if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 188, __pyx_L1_error)</span>
@@ -1265,7 +1264,7 @@ static double __pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_valu
   <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_t_5);
   <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_t_6);
   <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_t_11);
-  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.get_value", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.get_value", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = 0;
   __pyx_L0:;
   <span class='refnanny'>__Pyx_RefNannyFinishContext</span>();
@@ -1273,16 +1272,16 @@ static double __pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_valu
 }
 
 /* Python wrapper */
-static PyObject *__pyx_pw_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_5get_value(PyObject *__pyx_v_self, 
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_5get_value(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-<span class='py_macro_api'>PyDoc_STRVAR</span>(__pyx_doc_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_4get_value, "\n        The function returns the value of the specified cell.         \n        \n        :param row: cell coordinates\n        :param col:  cell coordinates\n        :return double: cell value\n        ");
-static PyMethodDef __pyx_mdef_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_5get_value = {"get_value", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_5get_value, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_4get_value};
-static PyObject *__pyx_pw_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_5get_value(PyObject *__pyx_v_self, 
+<span class='py_macro_api'>PyDoc_STRVAR</span>(__pyx_doc_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_4get_value, "\n        The function returns the value of the specified cell.         \n        \n        :param row: cell coordinates\n        :param col:  cell coordinates\n        :return double: cell value\n        ");
+static PyMethodDef __pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_5get_value = {"get_value", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_5get_value, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_4get_value};
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_5get_value(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -1364,11 +1363,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       <span class='pyx_c_api'>__Pyx_Arg_XDECREF_FASTCALL</span>(values[__pyx_temp]);
     }
   }
-  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.get_value", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.get_value", __pyx_clineno, __pyx_lineno, __pyx_filename);
   <span class='refnanny'>__Pyx_RefNannyFinishContext</span>();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_4get_value(((struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self), __pyx_v_row, __pyx_v_col);
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_4get_value(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self), __pyx_v_row, __pyx_v_col);
   int __pyx_lineno = 0;
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
@@ -1384,10 +1383,10 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_4get_value(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_row, long __pyx_v_col) {
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_4get_value(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_row, long __pyx_v_col) {
   PyObject *__pyx_r = NULL;
   <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_r);
-  __pyx_t_1 = __pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_value(__pyx_v_self, __pyx_v_row, __pyx_v_col, 1);<span class='error_goto'> if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 188, __pyx_L1_error)</span>
+  __pyx_t_1 = __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_value(__pyx_v_self, __pyx_v_row, __pyx_v_col, 1);<span class='error_goto'> if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 188, __pyx_L1_error)</span>
   __pyx_t_2 = <span class='py_c_api'>PyFloat_FromDouble</span>(__pyx_t_1);<span class='error_goto'> if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 188, __pyx_L1_error)</span>
   <span class='refnanny'>__Pyx_GOTREF</span>(__pyx_t_2);
   __pyx_r = __pyx_t_2;
@@ -1397,7 +1396,7 @@ static PyObject *__pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_4get
   /* function exit code */
   __pyx_L1_error:;
   <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_t_2);
-  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.get_value", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.get_value", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   <span class='refnanny'>__Pyx_XGIVEREF</span>(__pyx_r);
@@ -1409,11 +1408,11 @@ static PyObject *__pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_4get
   <span class='refnanny'>__Pyx_GOTREF</span>(__pyx_tuple__13);
   <span class='refnanny'>__Pyx_GIVEREF</span>(__pyx_tuple__13);
 /* … */
-  __pyx_t_2 = <span class='pyx_c_api'>__Pyx_CyFunction_New</span>(&amp;__pyx_mdef_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_5get_value, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_Sparse_Matrix_Tree_CSR_get_value, NULL, __pyx_n_s_Sparse_Matrix_Tree_CSR, __pyx_d, ((PyObject *)__pyx_codeobj__14));<span class='error_goto'> if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 188, __pyx_L1_error)</span>
+  __pyx_t_2 = <span class='pyx_c_api'>__Pyx_CyFunction_New</span>(&amp;__pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_5get_value, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_Sparse_Matrix_Tree_CSR_get_value, NULL, __pyx_n_s_RecSysCompetition2024Polimi_libs, __pyx_d, ((PyObject *)__pyx_codeobj__14));<span class='error_goto'> if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 188, __pyx_L1_error)</span>
   <span class='refnanny'>__Pyx_GOTREF</span>(__pyx_t_2);
-  if (<span class='pyx_c_api'>__Pyx_SetItemOnTypeDict</span>((PyObject *)__pyx_ptype_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR, __pyx_n_s_get_value, __pyx_t_2) &lt; 0) <span class='error_goto'>__PYX_ERR(0, 188, __pyx_L1_error)</span>
+  if (<span class='pyx_c_api'>__Pyx_SetItemOnTypeDict</span>((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR, __pyx_n_s_get_value, __pyx_t_2) &lt; 0) <span class='error_goto'>__PYX_ERR(0, 188, __pyx_L1_error)</span>
   <span class='pyx_macro_api'>__Pyx_DECREF</span>(__pyx_t_2); __pyx_t_2 = 0;
-  <span class='py_c_api'>PyType_Modified</span>(__pyx_ptype_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR);
+  <span class='py_c_api'>PyType_Modified</span>(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR);
   __pyx_codeobj__14 = (PyObject*)<span class='pyx_c_api'>__Pyx_PyCode_New</span>(3, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__13, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Sparse_Matrix_Tree_CSR_pyx, __pyx_n_s_get_value, 188, __pyx_empty_bytes);<span class='error_goto'> if (unlikely(!__pyx_codeobj__14)) __PYX_ERR(0, 188, __pyx_L1_error)</span>
 </pre><pre class="cython line score-0">&#xA0;<span class="">189</span>: <span class="w">        </span><span class="sd">&quot;&quot;&quot;</span></pre>
 <pre class="cython line score-0">&#xA0;<span class="">190</span>: <span class="sd">        The function returns the value of the specified cell.         </span></pre>
@@ -1590,14 +1589,14 @@ static PyObject *__pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_4get
 <pre class="cython line score-0">&#xA0;<span class="">238</span>: </pre>
 <pre class="cython line score-0">&#xA0;<span class="">239</span>: </pre>
 <pre class="cython line score-109" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">240</span>:     <span class="k">cpdef</span> <span class="nf">get_scipy_csr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="nb">long</span> <span class="n">TopK</span> <span class="o">=</span> <span class="bp">False</span><span class="p">):</span></pre>
-<pre class='cython code score-109 '>static PyObject *__pyx_pw_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_7get_scipy_csr(PyObject *__pyx_v_self, 
+<pre class='cython code score-109 '>static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_7get_scipy_csr(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_scipy_csr(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, int __pyx_skip_dispatch, struct __pyx_opt_args_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_scipy_csr *__pyx_optional_args) {
+static PyObject *__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_scipy_csr(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, int __pyx_skip_dispatch, struct __pyx_opt_args_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_scipy_csr *__pyx_optional_args) {
   long __pyx_v_TopK = ((long)0);
   long __pyx_v_row;
   PyObject *__pyx_v_data = NULL;
@@ -1622,7 +1621,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_s
       #endif
       __pyx_t_1 = <span class='pyx_c_api'>__Pyx_PyObject_GetAttrStr</span>(((PyObject *)__pyx_v_self), __pyx_n_s_get_scipy_csr);<span class='error_goto'> if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 240, __pyx_L1_error)</span>
       <span class='refnanny'>__Pyx_GOTREF</span>(__pyx_t_1);
-      if (!<span class='pyx_c_api'>__Pyx_IsSameCFunction</span>(__pyx_t_1, (void*) __pyx_pw_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_7get_scipy_csr)) {
+      if (!<span class='pyx_c_api'>__Pyx_IsSameCFunction</span>(__pyx_t_1, (void*) __pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_7get_scipy_csr)) {
         <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_r);
         __pyx_t_3 = <span class='pyx_c_api'>__Pyx_PyInt_From_long</span>(__pyx_v_TopK);<span class='error_goto'> if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 240, __pyx_L1_error)</span>
         <span class='refnanny'>__Pyx_GOTREF</span>(__pyx_t_3);
@@ -1676,7 +1675,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_s
   <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_t_4);
   <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_t_5);
   <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_t_15);
-  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.get_scipy_csr", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.get_scipy_csr", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = 0;
   __pyx_L0:;
   <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_v_data);
@@ -1690,16 +1689,16 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_s
 }
 
 /* Python wrapper */
-static PyObject *__pyx_pw_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_7get_scipy_csr(PyObject *__pyx_v_self, 
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_7get_scipy_csr(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-<span class='py_macro_api'>PyDoc_STRVAR</span>(__pyx_doc_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_6get_scipy_csr, "\n        The function returns the current sparse matrix as a scipy_csr object         \n   \n        :return double: scipy_csr object\n        ");
-static PyMethodDef __pyx_mdef_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_7get_scipy_csr = {"get_scipy_csr", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_7get_scipy_csr, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_6get_scipy_csr};
-static PyObject *__pyx_pw_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_7get_scipy_csr(PyObject *__pyx_v_self, 
+<span class='py_macro_api'>PyDoc_STRVAR</span>(__pyx_doc_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_6get_scipy_csr, "\n        The function returns the current sparse matrix as a scipy_csr object         \n   \n        :return double: scipy_csr object\n        ");
+static PyMethodDef __pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_7get_scipy_csr = {"get_scipy_csr", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_7get_scipy_csr, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_6get_scipy_csr};
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_7get_scipy_csr(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -1772,11 +1771,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       <span class='pyx_c_api'>__Pyx_Arg_XDECREF_FASTCALL</span>(values[__pyx_temp]);
     }
   }
-  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.get_scipy_csr", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.get_scipy_csr", __pyx_clineno, __pyx_lineno, __pyx_filename);
   <span class='refnanny'>__Pyx_RefNannyFinishContext</span>();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_6get_scipy_csr(((struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self), __pyx_v_TopK);
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_6get_scipy_csr(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self), __pyx_v_TopK);
 
   /* function exit code */
   {
@@ -1789,12 +1788,12 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_6get_scipy_csr(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_TopK) {
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_6get_scipy_csr(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_TopK) {
   PyObject *__pyx_r = NULL;
   <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_r);
   __pyx_t_2.__pyx_n = 1;
   __pyx_t_2.TopK = __pyx_v_TopK;
-  __pyx_t_1 = __pyx_vtabptr_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR-&gt;get_scipy_csr(__pyx_v_self, 1, &amp;__pyx_t_2);<span class='error_goto'> if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 240, __pyx_L1_error)</span>
+  __pyx_t_1 = __pyx_vtabptr_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR-&gt;get_scipy_csr(__pyx_v_self, 1, &amp;__pyx_t_2);<span class='error_goto'> if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 240, __pyx_L1_error)</span>
   <span class='refnanny'>__Pyx_GOTREF</span>(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
@@ -1803,7 +1802,7 @@ static PyObject *__pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_6get
   /* function exit code */
   __pyx_L1_error:;
   <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_t_1);
-  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.get_scipy_csr", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.get_scipy_csr", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   <span class='refnanny'>__Pyx_XGIVEREF</span>(__pyx_r);
@@ -1816,17 +1815,17 @@ static PyObject *__pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_6get
   <span class='refnanny'>__Pyx_GIVEREF</span>(__pyx_tuple__15);
   __pyx_codeobj__16 = (PyObject*)<span class='pyx_c_api'>__Pyx_PyCode_New</span>(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__15, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Sparse_Matrix_Tree_CSR_pyx, __pyx_n_s_get_scipy_csr, 240, __pyx_empty_bytes);<span class='error_goto'> if (unlikely(!__pyx_codeobj__16)) __PYX_ERR(0, 240, __pyx_L1_error)</span>
 /* … */
-  __pyx_t_2 = <span class='pyx_c_api'>__Pyx_CyFunction_New</span>(&amp;__pyx_mdef_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_7get_scipy_csr, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_Sparse_Matrix_Tree_CSR_get_scipy, NULL, __pyx_n_s_Sparse_Matrix_Tree_CSR, __pyx_d, ((PyObject *)__pyx_codeobj__16));<span class='error_goto'> if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 240, __pyx_L1_error)</span>
+  __pyx_t_2 = <span class='pyx_c_api'>__Pyx_CyFunction_New</span>(&amp;__pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_7get_scipy_csr, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_Sparse_Matrix_Tree_CSR_get_scipy, NULL, __pyx_n_s_RecSysCompetition2024Polimi_libs, __pyx_d, ((PyObject *)__pyx_codeobj__16));<span class='error_goto'> if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 240, __pyx_L1_error)</span>
   <span class='refnanny'>__Pyx_GOTREF</span>(__pyx_t_2);
   <span class='pyx_c_api'>__Pyx_CyFunction_SetDefaultsTuple</span>(__pyx_t_2, __pyx_tuple__17);
-  if (<span class='pyx_c_api'>__Pyx_SetItemOnTypeDict</span>((PyObject *)__pyx_ptype_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR, __pyx_n_s_get_scipy_csr, __pyx_t_2) &lt; 0) <span class='error_goto'>__PYX_ERR(0, 240, __pyx_L1_error)</span>
+  if (<span class='pyx_c_api'>__Pyx_SetItemOnTypeDict</span>((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR, __pyx_n_s_get_scipy_csr, __pyx_t_2) &lt; 0) <span class='error_goto'>__PYX_ERR(0, 240, __pyx_L1_error)</span>
   <span class='pyx_macro_api'>__Pyx_DECREF</span>(__pyx_t_2); __pyx_t_2 = 0;
-  <span class='py_c_api'>PyType_Modified</span>(__pyx_ptype_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR);
+  <span class='py_c_api'>PyType_Modified</span>(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR);
   __pyx_tuple__17 = <span class='py_c_api'>PyTuple_Pack</span>(1, Py_False);<span class='error_goto'> if (unlikely(!__pyx_tuple__17)) __PYX_ERR(0, 240, __pyx_L1_error)</span>
   <span class='refnanny'>__Pyx_GOTREF</span>(__pyx_tuple__17);
   <span class='refnanny'>__Pyx_GIVEREF</span>(__pyx_tuple__17);
 /* … */
-struct __pyx_opt_args_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_scipy_csr {
+struct __pyx_opt_args_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_scipy_csr {
   int __pyx_n;
   long TopK;
 };
@@ -1879,7 +1878,7 @@ struct __pyx_opt_args_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_scip
 </pre><pre class="cython line score-0">&#xA0;<span class="">261</span>: </pre>
 <pre class="cython line score-0">&#xA0;<span class="">262</span>:                 <span class="c"># Flatten the data structure</span></pre>
 <pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">263</span>:                 <span class="bp">self</span><span class="o">.</span><span class="n">row_pointer</span><span class="p">[</span><span class="n">row</span><span class="p">]</span><span class="o">.</span><span class="n">head</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">subtree_to_list_flat</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">row_pointer</span><span class="p">[</span><span class="n">row</span><span class="p">]</span><span class="o">.</span><span class="n">head</span><span class="p">)</span></pre>
-<pre class='cython code score-0 '>      __pyx_t_13 = ((struct __pyx_vtabstruct_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self-&gt;__pyx_vtab)-&gt;subtree_to_list_flat(__pyx_v_self, (__pyx_v_self-&gt;row_pointer[__pyx_v_row]).head);<span class='error_goto'> if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 263, __pyx_L1_error)</span>
+<pre class='cython code score-0 '>      __pyx_t_13 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self-&gt;__pyx_vtab)-&gt;subtree_to_list_flat(__pyx_v_self, (__pyx_v_self-&gt;row_pointer[__pyx_v_row]).head);<span class='error_goto'> if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 263, __pyx_L1_error)</span>
       (__pyx_v_self-&gt;row_pointer[__pyx_v_row]).head = __pyx_t_13;
 </pre><pre class="cython line score-0">&#xA0;<span class="">264</span>:                 <span class="c">#print(&quot;subtree_to_list_flat {} sec&quot;.format(time.time() - start_time))</span></pre>
 <pre class="cython line score-0">&#xA0;<span class="">265</span>: </pre>
@@ -1889,14 +1888,14 @@ struct __pyx_opt_args_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_scip
 /* … */
       }
 </pre><pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">267</span>:                     <span class="bp">self</span><span class="o">.</span><span class="n">row_pointer</span><span class="p">[</span><span class="n">row</span><span class="p">]</span><span class="o">.</span><span class="n">head</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">topK_selection_from_list</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">row_pointer</span><span class="p">[</span><span class="n">row</span><span class="p">]</span><span class="o">.</span><span class="n">head</span><span class="p">,</span> <span class="n">TopK</span><span class="p">)</span></pre>
-<pre class='cython code score-0 '>        __pyx_t_13 = ((struct __pyx_vtabstruct_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self-&gt;__pyx_vtab)-&gt;topK_selection_from_list(__pyx_v_self, (__pyx_v_self-&gt;row_pointer[__pyx_v_row]).head, __pyx_v_TopK);<span class='error_goto'> if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 267, __pyx_L1_error)</span>
+<pre class='cython code score-0 '>        __pyx_t_13 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self-&gt;__pyx_vtab)-&gt;topK_selection_from_list(__pyx_v_self, (__pyx_v_self-&gt;row_pointer[__pyx_v_row]).head, __pyx_v_TopK);<span class='error_goto'> if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 267, __pyx_L1_error)</span>
         (__pyx_v_self-&gt;row_pointer[__pyx_v_row]).head = __pyx_t_13;
 </pre><pre class="cython line score-0">&#xA0;<span class="">268</span>:                     <span class="c">#print(&quot;topK_selection_from_list {} sec&quot;.format(time.time() - start_time))</span></pre>
 <pre class="cython line score-0">&#xA0;<span class="">269</span>: </pre>
 <pre class="cython line score-0">&#xA0;<span class="">270</span>: </pre>
 <pre class="cython line score-0">&#xA0;<span class="">271</span>:                 <span class="c"># Flatten the tree data</span></pre>
 <pre class="cython line score-48" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">272</span>:                 <span class="n">subtree_column</span><span class="p">,</span> <span class="n">subtree_data</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">from_linked_list_to_python_list</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">row_pointer</span><span class="p">[</span><span class="n">row</span><span class="p">]</span><span class="o">.</span><span class="n">head</span><span class="p">)</span></pre>
-<pre class='cython code score-48 '>      __pyx_t_1 = ((struct __pyx_vtabstruct_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self-&gt;__pyx_vtab)-&gt;from_linked_list_to_python_list(__pyx_v_self, (__pyx_v_self-&gt;row_pointer[__pyx_v_row]).head);<span class='error_goto'> if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 272, __pyx_L1_error)</span>
+<pre class='cython code score-48 '>      __pyx_t_1 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self-&gt;__pyx_vtab)-&gt;from_linked_list_to_python_list(__pyx_v_self, (__pyx_v_self-&gt;row_pointer[__pyx_v_row]).head);<span class='error_goto'> if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 272, __pyx_L1_error)</span>
       <span class='refnanny'>__Pyx_GOTREF</span>(__pyx_t_1);
       if ((likely(<span class='py_c_api'>PyTuple_CheckExact</span>(__pyx_t_1))) || (<span class='py_c_api'>PyList_CheckExact</span>(__pyx_t_1))) {
         PyObject* sequence = __pyx_t_1;
@@ -1955,7 +1954,7 @@ struct __pyx_opt_args_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_scip
 </pre><pre class="cython line score-0">&#xA0;<span class="">275</span>: </pre>
 <pre class="cython line score-0">&#xA0;<span class="">276</span>:                 <span class="c"># Rebuild the tree</span></pre>
 <pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">277</span>:                 <span class="bp">self</span><span class="o">.</span><span class="n">row_pointer</span><span class="p">[</span><span class="n">row</span><span class="p">]</span><span class="o">.</span><span class="n">head</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">build_tree_from_list_flat</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">row_pointer</span><span class="p">[</span><span class="n">row</span><span class="p">]</span><span class="o">.</span><span class="n">head</span><span class="p">)</span></pre>
-<pre class='cython code score-0 '>      __pyx_t_13 = ((struct __pyx_vtabstruct_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self-&gt;__pyx_vtab)-&gt;build_tree_from_list_flat(__pyx_v_self, (__pyx_v_self-&gt;row_pointer[__pyx_v_row]).head);<span class='error_goto'> if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 277, __pyx_L1_error)</span>
+<pre class='cython code score-0 '>      __pyx_t_13 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self-&gt;__pyx_vtab)-&gt;build_tree_from_list_flat(__pyx_v_self, (__pyx_v_self-&gt;row_pointer[__pyx_v_row]).head);<span class='error_goto'> if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 277, __pyx_L1_error)</span>
       (__pyx_v_self-&gt;row_pointer[__pyx_v_row]).head = __pyx_t_13;
 </pre><pre class="cython line score-0">&#xA0;<span class="">278</span>:                 <span class="c">#print(&quot;build_tree_from_list_flat {} sec&quot;.format(time.time() - start_time))</span></pre>
 <pre class="cython line score-0">&#xA0;<span class="">279</span>: </pre>
@@ -2019,14 +2018,14 @@ struct __pyx_opt_args_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_get_scip
 <pre class="cython line score-0">&#xA0;<span class="">286</span>: </pre>
 <pre class="cython line score-0">&#xA0;<span class="">287</span>: </pre>
 <pre class="cython line score-99" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">288</span>:     <span class="k">cpdef</span> <span class="nf">rebalance_tree</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="nb">long</span> <span class="n">TopK</span> <span class="o">=</span> <span class="bp">False</span><span class="p">):</span></pre>
-<pre class='cython code score-99 '>static PyObject *__pyx_pw_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_9rebalance_tree(PyObject *__pyx_v_self, 
+<pre class='cython code score-99 '>static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_9rebalance_tree(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_rebalance_tree(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, int __pyx_skip_dispatch, struct __pyx_opt_args_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_rebalance_tree *__pyx_optional_args) {
+static PyObject *__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_rebalance_tree(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, int __pyx_skip_dispatch, struct __pyx_opt_args_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_rebalance_tree *__pyx_optional_args) {
   long __pyx_v_TopK = ((long)0);
   long __pyx_v_row;
   PyObject *__pyx_r = NULL;
@@ -2046,7 +2045,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_rebal
       #endif
       __pyx_t_1 = <span class='pyx_c_api'>__Pyx_PyObject_GetAttrStr</span>(((PyObject *)__pyx_v_self), __pyx_n_s_rebalance_tree);<span class='error_goto'> if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 288, __pyx_L1_error)</span>
       <span class='refnanny'>__Pyx_GOTREF</span>(__pyx_t_1);
-      if (!<span class='pyx_c_api'>__Pyx_IsSameCFunction</span>(__pyx_t_1, (void*) __pyx_pw_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_9rebalance_tree)) {
+      if (!<span class='pyx_c_api'>__Pyx_IsSameCFunction</span>(__pyx_t_1, (void*) __pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_9rebalance_tree)) {
         <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_r);
         __pyx_t_3 = <span class='pyx_c_api'>__Pyx_PyInt_From_long</span>(__pyx_v_TopK);<span class='error_goto'> if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 288, __pyx_L1_error)</span>
         <span class='refnanny'>__Pyx_GOTREF</span>(__pyx_t_3);
@@ -2101,7 +2100,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_rebal
   <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_t_3);
   <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_t_4);
   <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_t_5);
-  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.rebalance_tree", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.rebalance_tree", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = 0;
   __pyx_L0:;
   <span class='refnanny'>__Pyx_XGIVEREF</span>(__pyx_r);
@@ -2110,16 +2109,16 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_rebal
 }
 
 /* Python wrapper */
-static PyObject *__pyx_pw_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_9rebalance_tree(PyObject *__pyx_v_self, 
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_9rebalance_tree(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-<span class='py_macro_api'>PyDoc_STRVAR</span>(__pyx_doc_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_8rebalance_tree, "\n        The function builds a balanced binary tree from the current one, for all matrix rows\n        \n        :param TopK: either False or an integer number. Number of the highest elements to preserve\n        ");
-static PyMethodDef __pyx_mdef_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_9rebalance_tree = {"rebalance_tree", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_9rebalance_tree, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_8rebalance_tree};
-static PyObject *__pyx_pw_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_9rebalance_tree(PyObject *__pyx_v_self, 
+<span class='py_macro_api'>PyDoc_STRVAR</span>(__pyx_doc_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_8rebalance_tree, "\n        The function builds a balanced binary tree from the current one, for all matrix rows\n        \n        :param TopK: either False or an integer number. Number of the highest elements to preserve\n        ");
+static PyMethodDef __pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_9rebalance_tree = {"rebalance_tree", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_9rebalance_tree, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_8rebalance_tree};
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_9rebalance_tree(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -2192,11 +2191,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       <span class='pyx_c_api'>__Pyx_Arg_XDECREF_FASTCALL</span>(values[__pyx_temp]);
     }
   }
-  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.rebalance_tree", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.rebalance_tree", __pyx_clineno, __pyx_lineno, __pyx_filename);
   <span class='refnanny'>__Pyx_RefNannyFinishContext</span>();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_8rebalance_tree(((struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self), __pyx_v_TopK);
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_8rebalance_tree(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self), __pyx_v_TopK);
 
   /* function exit code */
   {
@@ -2209,12 +2208,12 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_8rebalance_tree(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_TopK) {
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_8rebalance_tree(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_TopK) {
   PyObject *__pyx_r = NULL;
   <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_r);
   __pyx_t_2.__pyx_n = 1;
   __pyx_t_2.TopK = __pyx_v_TopK;
-  __pyx_t_1 = __pyx_vtabptr_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR-&gt;rebalance_tree(__pyx_v_self, 1, &amp;__pyx_t_2);<span class='error_goto'> if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 288, __pyx_L1_error)</span>
+  __pyx_t_1 = __pyx_vtabptr_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR-&gt;rebalance_tree(__pyx_v_self, 1, &amp;__pyx_t_2);<span class='error_goto'> if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 288, __pyx_L1_error)</span>
   <span class='refnanny'>__Pyx_GOTREF</span>(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
@@ -2223,7 +2222,7 @@ static PyObject *__pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_8reb
   /* function exit code */
   __pyx_L1_error:;
   <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_t_1);
-  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.rebalance_tree", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.rebalance_tree", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   <span class='refnanny'>__Pyx_XGIVEREF</span>(__pyx_r);
@@ -2233,17 +2232,17 @@ static PyObject *__pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_8reb
 /* … */
   __pyx_codeobj__18 = (PyObject*)<span class='pyx_c_api'>__Pyx_PyCode_New</span>(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__15, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Sparse_Matrix_Tree_CSR_pyx, __pyx_n_s_rebalance_tree, 288, __pyx_empty_bytes);<span class='error_goto'> if (unlikely(!__pyx_codeobj__18)) __PYX_ERR(0, 288, __pyx_L1_error)</span>
 /* … */
-  __pyx_t_2 = <span class='pyx_c_api'>__Pyx_CyFunction_New</span>(&amp;__pyx_mdef_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_9rebalance_tree, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_Sparse_Matrix_Tree_CSR_rebalance, NULL, __pyx_n_s_Sparse_Matrix_Tree_CSR, __pyx_d, ((PyObject *)__pyx_codeobj__18));<span class='error_goto'> if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 288, __pyx_L1_error)</span>
+  __pyx_t_2 = <span class='pyx_c_api'>__Pyx_CyFunction_New</span>(&amp;__pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_9rebalance_tree, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_Sparse_Matrix_Tree_CSR_rebalance, NULL, __pyx_n_s_RecSysCompetition2024Polimi_libs, __pyx_d, ((PyObject *)__pyx_codeobj__18));<span class='error_goto'> if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 288, __pyx_L1_error)</span>
   <span class='refnanny'>__Pyx_GOTREF</span>(__pyx_t_2);
   <span class='pyx_c_api'>__Pyx_CyFunction_SetDefaultsTuple</span>(__pyx_t_2, __pyx_tuple__19);
-  if (<span class='pyx_c_api'>__Pyx_SetItemOnTypeDict</span>((PyObject *)__pyx_ptype_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR, __pyx_n_s_rebalance_tree, __pyx_t_2) &lt; 0) <span class='error_goto'>__PYX_ERR(0, 288, __pyx_L1_error)</span>
+  if (<span class='pyx_c_api'>__Pyx_SetItemOnTypeDict</span>((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR, __pyx_n_s_rebalance_tree, __pyx_t_2) &lt; 0) <span class='error_goto'>__PYX_ERR(0, 288, __pyx_L1_error)</span>
   <span class='pyx_macro_api'>__Pyx_DECREF</span>(__pyx_t_2); __pyx_t_2 = 0;
-  <span class='py_c_api'>PyType_Modified</span>(__pyx_ptype_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR);
+  <span class='py_c_api'>PyType_Modified</span>(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR);
   __pyx_tuple__19 = <span class='py_c_api'>PyTuple_Pack</span>(1, Py_False);<span class='error_goto'> if (unlikely(!__pyx_tuple__19)) __PYX_ERR(0, 288, __pyx_L1_error)</span>
   <span class='refnanny'>__Pyx_GOTREF</span>(__pyx_tuple__19);
   <span class='refnanny'>__Pyx_GIVEREF</span>(__pyx_tuple__19);
 /* … */
-struct __pyx_opt_args_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_rebalance_tree {
+struct __pyx_opt_args_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_rebalance_tree {
   int __pyx_n;
   long TopK;
 };
@@ -2272,7 +2271,7 @@ struct __pyx_opt_args_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_rebalanc
 </pre><pre class="cython line score-0">&#xA0;<span class="">302</span>: </pre>
 <pre class="cython line score-0">&#xA0;<span class="">303</span>:                 <span class="c"># Flatten the data structure</span></pre>
 <pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">304</span>:                 <span class="bp">self</span><span class="o">.</span><span class="n">row_pointer</span><span class="p">[</span><span class="n">row</span><span class="p">]</span><span class="o">.</span><span class="n">head</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">subtree_to_list_flat</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">row_pointer</span><span class="p">[</span><span class="n">row</span><span class="p">]</span><span class="o">.</span><span class="n">head</span><span class="p">)</span></pre>
-<pre class='cython code score-0 '>      __pyx_t_11 = ((struct __pyx_vtabstruct_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self-&gt;__pyx_vtab)-&gt;subtree_to_list_flat(__pyx_v_self, (__pyx_v_self-&gt;row_pointer[__pyx_v_row]).head);<span class='error_goto'> if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 304, __pyx_L1_error)</span>
+<pre class='cython code score-0 '>      __pyx_t_11 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self-&gt;__pyx_vtab)-&gt;subtree_to_list_flat(__pyx_v_self, (__pyx_v_self-&gt;row_pointer[__pyx_v_row]).head);<span class='error_goto'> if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 304, __pyx_L1_error)</span>
       (__pyx_v_self-&gt;row_pointer[__pyx_v_row]).head = __pyx_t_11;
 </pre><pre class="cython line score-0">&#xA0;<span class="">305</span>:                 <span class="c">#print(&quot;subtree_to_list_flat {} sec&quot;.format(time.time() - start_time))</span></pre>
 <pre class="cython line score-0">&#xA0;<span class="">306</span>: </pre>
@@ -2282,13 +2281,13 @@ struct __pyx_opt_args_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_rebalanc
 /* … */
       }
 </pre><pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">308</span>:                     <span class="bp">self</span><span class="o">.</span><span class="n">row_pointer</span><span class="p">[</span><span class="n">row</span><span class="p">]</span><span class="o">.</span><span class="n">head</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">topK_selection_from_list</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">row_pointer</span><span class="p">[</span><span class="n">row</span><span class="p">]</span><span class="o">.</span><span class="n">head</span><span class="p">,</span> <span class="n">TopK</span><span class="p">)</span></pre>
-<pre class='cython code score-0 '>        __pyx_t_11 = ((struct __pyx_vtabstruct_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self-&gt;__pyx_vtab)-&gt;topK_selection_from_list(__pyx_v_self, (__pyx_v_self-&gt;row_pointer[__pyx_v_row]).head, __pyx_v_TopK);<span class='error_goto'> if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 308, __pyx_L1_error)</span>
+<pre class='cython code score-0 '>        __pyx_t_11 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self-&gt;__pyx_vtab)-&gt;topK_selection_from_list(__pyx_v_self, (__pyx_v_self-&gt;row_pointer[__pyx_v_row]).head, __pyx_v_TopK);<span class='error_goto'> if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 308, __pyx_L1_error)</span>
         (__pyx_v_self-&gt;row_pointer[__pyx_v_row]).head = __pyx_t_11;
 </pre><pre class="cython line score-0">&#xA0;<span class="">309</span>:                     <span class="c">#print(&quot;topK_selection_from_list {} sec&quot;.format(time.time() - start_time))</span></pre>
 <pre class="cython line score-0">&#xA0;<span class="">310</span>: </pre>
 <pre class="cython line score-0">&#xA0;<span class="">311</span>:                 <span class="c"># Rebuild the tree</span></pre>
 <pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">312</span>:                 <span class="bp">self</span><span class="o">.</span><span class="n">row_pointer</span><span class="p">[</span><span class="n">row</span><span class="p">]</span><span class="o">.</span><span class="n">head</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">build_tree_from_list_flat</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">row_pointer</span><span class="p">[</span><span class="n">row</span><span class="p">]</span><span class="o">.</span><span class="n">head</span><span class="p">)</span></pre>
-<pre class='cython code score-0 '>      __pyx_t_11 = ((struct __pyx_vtabstruct_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self-&gt;__pyx_vtab)-&gt;build_tree_from_list_flat(__pyx_v_self, (__pyx_v_self-&gt;row_pointer[__pyx_v_row]).head);<span class='error_goto'> if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 312, __pyx_L1_error)</span>
+<pre class='cython code score-0 '>      __pyx_t_11 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self-&gt;__pyx_vtab)-&gt;build_tree_from_list_flat(__pyx_v_self, (__pyx_v_self-&gt;row_pointer[__pyx_v_row]).head);<span class='error_goto'> if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 312, __pyx_L1_error)</span>
       (__pyx_v_self-&gt;row_pointer[__pyx_v_row]).head = __pyx_t_11;
 </pre><pre class="cython line score-0">&#xA0;<span class="">313</span>:                 <span class="c">#print(&quot;build_tree_from_list_flat {} sec&quot;.format(time.time() - start_time))</span></pre>
 <pre class="cython line score-0">&#xA0;<span class="">314</span>: </pre>
@@ -2308,14 +2307,14 @@ struct __pyx_opt_args_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_rebalanc
 <pre class="cython line score-0">&#xA0;<span class="">328</span>: </pre>
 <pre class="cython line score-0">&#xA0;<span class="">329</span>: </pre>
 <pre class="cython line score-2" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">330</span>:     <span class="k">cdef</span> <span class="kt">matrix_element_tree_s</span> * <span class="nf">subtree_to_list_flat</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">matrix_element_tree_s</span> <span class="o">*</span> <span class="n">root</span><span class="p">):</span></pre>
-<pre class='cython code score-2 '>static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_subtree_to_list_flat(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_root) {
-  __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_flat_list_head;
-  __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_current_element;
-  __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_r;
+<pre class='cython code score-2 '>static __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_subtree_to_list_flat(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_root) {
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_flat_list_head;
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_current_element;
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_r;
 /* … */
   /* function exit code */
   __pyx_L1_error:;
-  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.subtree_to_list_flat", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.subtree_to_list_flat", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = 0;
   __pyx_L0:;
   return __pyx_r;
@@ -2342,7 +2341,7 @@ struct __pyx_opt_args_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_rebalanc
 <pre class="cython line score-0">&#xA0;<span class="">344</span>: </pre>
 <pre class="cython line score-0">&#xA0;<span class="">345</span>:         <span class="c"># Flatten lower subtree</span></pre>
 <pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">346</span>:         <span class="n">flat_list_head</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">subtree_to_list_flat</span><span class="p">(</span><span class="n">root</span><span class="o">.</span><span class="n">lower</span><span class="p">)</span></pre>
-<pre class='cython code score-0 '>  __pyx_t_2 = ((struct __pyx_vtabstruct_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self-&gt;__pyx_vtab)-&gt;subtree_to_list_flat(__pyx_v_self, __pyx_v_root-&gt;lower);<span class='error_goto'> if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 346, __pyx_L1_error)</span>
+<pre class='cython code score-0 '>  __pyx_t_2 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self-&gt;__pyx_vtab)-&gt;subtree_to_list_flat(__pyx_v_self, __pyx_v_root-&gt;lower);<span class='error_goto'> if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 346, __pyx_L1_error)</span>
   __pyx_v_flat_list_head = __pyx_t_2;
 </pre><pre class="cython line score-0">&#xA0;<span class="">347</span>: </pre>
 <pre class="cython line score-0">&#xA0;<span class="">348</span>:         <span class="c"># If no lower elements exist, the head is the current element</span></pre>
@@ -2381,7 +2380,7 @@ struct __pyx_opt_args_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_rebalanc
 </pre><pre class="cython line score-0">&#xA0;<span class="">362</span>: </pre>
 <pre class="cython line score-0">&#xA0;<span class="">363</span>:         <span class="c"># Flatten higher subtree and attach it to the tail of the flat list</span></pre>
 <pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">364</span>:         <span class="n">root</span><span class="o">.</span><span class="n">higher</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">subtree_to_list_flat</span><span class="p">(</span><span class="n">root</span><span class="o">.</span><span class="n">higher</span><span class="p">)</span></pre>
-<pre class='cython code score-0 '>  __pyx_t_2 = ((struct __pyx_vtabstruct_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self-&gt;__pyx_vtab)-&gt;subtree_to_list_flat(__pyx_v_self, __pyx_v_root-&gt;higher);<span class='error_goto'> if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 364, __pyx_L1_error)</span>
+<pre class='cython code score-0 '>  __pyx_t_2 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self-&gt;__pyx_vtab)-&gt;subtree_to_list_flat(__pyx_v_self, __pyx_v_root-&gt;higher);<span class='error_goto'> if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 364, __pyx_L1_error)</span>
   __pyx_v_root-&gt;higher = __pyx_t_2;
 </pre><pre class="cython line score-0">&#xA0;<span class="">365</span>: </pre>
 <pre class="cython line score-0">&#xA0;<span class="">366</span>:         <span class="c"># Attach the element with the bidirectional pointers</span></pre>
@@ -2400,7 +2399,7 @@ struct __pyx_opt_args_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_rebalanc
 <pre class="cython line score-0">&#xA0;<span class="">372</span>: </pre>
 <pre class="cython line score-0">&#xA0;<span class="">373</span>: </pre>
 <pre class="cython line score-5" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">374</span>:     <span class="k">cdef</span> <span class="nf">from_linked_list_to_python_list</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">matrix_element_tree_s</span> <span class="o">*</span> <span class="n">head</span><span class="p">):</span></pre>
-<pre class='cython code score-5 '>static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_from_linked_list_to_python_list(CYTHON_UNUSED struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_head) {
+<pre class='cython code score-5 '>static PyObject *__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_from_linked_list_to_python_list(CYTHON_UNUSED struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_head) {
   PyObject *__pyx_v_data = NULL;
   PyObject *__pyx_v_column = NULL;
   PyObject *__pyx_r = NULL;
@@ -2408,7 +2407,7 @@ struct __pyx_opt_args_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_rebalanc
   /* function exit code */
   __pyx_L1_error:;
   <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_t_1);
-  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.from_linked_list_to_python_list", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.from_linked_list_to_python_list", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = 0;
   __pyx_L0:;
   <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_v_data);
@@ -2472,7 +2471,7 @@ struct __pyx_opt_args_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_rebalanc
 <pre class="cython line score-0">&#xA0;<span class="">389</span>: </pre>
 <pre class="cython line score-0">&#xA0;<span class="">390</span>: </pre>
 <pre class="cython line score-4" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">391</span>:     <span class="k">cdef</span> <span class="nf">subtree_free_memory</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">matrix_element_tree_s</span><span class="o">*</span> <span class="n">root</span><span class="p">):</span></pre>
-<pre class='cython code score-4 '>static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_subtree_free_memory(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_root) {
+<pre class='cython code score-4 '>static PyObject *__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_subtree_free_memory(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_root) {
   PyObject *__pyx_r = NULL;
 /* … */
   /* function exit code */
@@ -2480,7 +2479,7 @@ struct __pyx_opt_args_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_rebalanc
   goto __pyx_L0;
   __pyx_L1_error:;
   <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_t_2);
-  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.subtree_free_memory", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.subtree_free_memory", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = 0;
   __pyx_L0:;
   <span class='refnanny'>__Pyx_XGIVEREF</span>(__pyx_r);
@@ -2500,11 +2499,11 @@ struct __pyx_opt_args_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_rebalanc
   }
 </pre><pre class="cython line score-0">&#xA0;<span class="">399</span>:             <span class="c"># If the root exists, open recursion</span></pre>
 <pre class="cython line score-1" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">400</span>:             <span class="bp">self</span><span class="o">.</span><span class="n">subtree_free_memory</span><span class="p">(</span><span class="n">root</span><span class="o">.</span><span class="n">higher</span><span class="p">)</span></pre>
-<pre class='cython code score-1 '>    __pyx_t_2 = ((struct __pyx_vtabstruct_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self-&gt;__pyx_vtab)-&gt;subtree_free_memory(__pyx_v_self, __pyx_v_root-&gt;higher);<span class='error_goto'> if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 400, __pyx_L1_error)</span>
+<pre class='cython code score-1 '>    __pyx_t_2 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self-&gt;__pyx_vtab)-&gt;subtree_free_memory(__pyx_v_self, __pyx_v_root-&gt;higher);<span class='error_goto'> if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 400, __pyx_L1_error)</span>
     <span class='refnanny'>__Pyx_GOTREF</span>(__pyx_t_2);
     <span class='pyx_macro_api'>__Pyx_DECREF</span>(__pyx_t_2); __pyx_t_2 = 0;
 </pre><pre class="cython line score-1" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">401</span>:             <span class="bp">self</span><span class="o">.</span><span class="n">subtree_free_memory</span><span class="p">(</span><span class="n">root</span><span class="o">.</span><span class="n">lower</span><span class="p">)</span></pre>
-<pre class='cython code score-1 '>    __pyx_t_2 = ((struct __pyx_vtabstruct_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self-&gt;__pyx_vtab)-&gt;subtree_free_memory(__pyx_v_self, __pyx_v_root-&gt;lower);<span class='error_goto'> if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 401, __pyx_L1_error)</span>
+<pre class='cython code score-1 '>    __pyx_t_2 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self-&gt;__pyx_vtab)-&gt;subtree_free_memory(__pyx_v_self, __pyx_v_root-&gt;lower);<span class='error_goto'> if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 401, __pyx_L1_error)</span>
     <span class='refnanny'>__Pyx_GOTREF</span>(__pyx_t_2);
     <span class='pyx_macro_api'>__Pyx_DECREF</span>(__pyx_t_2); __pyx_t_2 = 0;
 </pre><pre class="cython line score-0">&#xA0;<span class="">402</span>: </pre>
@@ -2515,7 +2514,7 @@ struct __pyx_opt_args_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_rebalanc
 <pre class="cython line score-0">&#xA0;<span class="">406</span>: </pre>
 <pre class="cython line score-0">&#xA0;<span class="">407</span>: </pre>
 <pre class="cython line score-4" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">408</span>:     <span class="k">cdef</span> <span class="nf">list_free_memory</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">matrix_element_tree_s</span> <span class="o">*</span> <span class="n">head</span><span class="p">):</span></pre>
-<pre class='cython code score-4 '>static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_list_free_memory(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_head) {
+<pre class='cython code score-4 '>static PyObject *__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_list_free_memory(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_head) {
   PyObject *__pyx_r = NULL;
 /* … */
   /* function exit code */
@@ -2523,7 +2522,7 @@ struct __pyx_opt_args_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_rebalanc
   goto __pyx_L0;
   __pyx_L1_error:;
   <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_t_2);
-  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.list_free_memory", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.list_free_memory", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = 0;
   __pyx_L0:;
   <span class='refnanny'>__Pyx_XGIVEREF</span>(__pyx_r);
@@ -2543,7 +2542,7 @@ struct __pyx_opt_args_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_rebalanc
   }
 </pre><pre class="cython line score-0">&#xA0;<span class="">416</span>:             <span class="c"># If the root exists, open recursion</span></pre>
 <pre class="cython line score-1" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">417</span>:             <span class="bp">self</span><span class="o">.</span><span class="n">subtree_free_memory</span><span class="p">(</span><span class="n">head</span><span class="o">.</span><span class="n">higher</span><span class="p">)</span></pre>
-<pre class='cython code score-1 '>    __pyx_t_2 = ((struct __pyx_vtabstruct_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self-&gt;__pyx_vtab)-&gt;subtree_free_memory(__pyx_v_self, __pyx_v_head-&gt;higher);<span class='error_goto'> if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 417, __pyx_L1_error)</span>
+<pre class='cython code score-1 '>    __pyx_t_2 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self-&gt;__pyx_vtab)-&gt;subtree_free_memory(__pyx_v_self, __pyx_v_head-&gt;higher);<span class='error_goto'> if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 417, __pyx_L1_error)</span>
     <span class='refnanny'>__Pyx_GOTREF</span>(__pyx_t_2);
     <span class='pyx_macro_api'>__Pyx_DECREF</span>(__pyx_t_2); __pyx_t_2 = 0;
 </pre><pre class="cython line score-0">&#xA0;<span class="">418</span>: </pre>
@@ -2554,17 +2553,17 @@ struct __pyx_opt_args_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_rebalanc
 <pre class="cython line score-0">&#xA0;<span class="">422</span>: </pre>
 <pre class="cython line score-0">&#xA0;<span class="">423</span>: </pre>
 <pre class="cython line score-2" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">424</span>:     <span class="k">cdef</span> <span class="kt">matrix_element_tree_s</span>* <span class="nf">build_tree_from_list_flat</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">matrix_element_tree_s</span><span class="o">*</span> <span class="n">flat_list_head</span><span class="p">):</span></pre>
-<pre class='cython code score-2 '>static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_build_tree_from_list_flat(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_flat_list_head) {
+<pre class='cython code score-2 '>static __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_build_tree_from_list_flat(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_flat_list_head) {
   long __pyx_v_list_length;
   long __pyx_v_middle_element_step;
-  __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_current_element;
-  __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_middleElement;
-  __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_tree_root;
-  __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_r;
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_current_element;
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_middleElement;
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_tree_root;
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_r;
 /* … */
   /* function exit code */
   __pyx_L1_error:;
-  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.build_tree_from_list_flat", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.build_tree_from_list_flat", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = 0;
   __pyx_L0:;
   return __pyx_r;
@@ -2640,7 +2639,7 @@ struct __pyx_opt_args_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_rebalanc
 <pre class='cython code score-0 '>    __pyx_v_middleElement-&gt;lower-&gt;higher = NULL;
 </pre><pre class="cython line score-0">&#xA0;<span class="">463</span>: </pre>
 <pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">464</span>:             <span class="n">tree_root</span><span class="o">.</span><span class="n">lower</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">build_tree_from_list_flat</span><span class="p">(</span><span class="n">flat_list_head</span><span class="p">)</span></pre>
-<pre class='cython code score-0 '>    __pyx_t_2 = ((struct __pyx_vtabstruct_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self-&gt;__pyx_vtab)-&gt;build_tree_from_list_flat(__pyx_v_self, __pyx_v_flat_list_head);<span class='error_goto'> if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 464, __pyx_L1_error)</span>
+<pre class='cython code score-0 '>    __pyx_t_2 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self-&gt;__pyx_vtab)-&gt;build_tree_from_list_flat(__pyx_v_self, __pyx_v_flat_list_head);<span class='error_goto'> if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 464, __pyx_L1_error)</span>
     __pyx_v_tree_root-&gt;lower = __pyx_t_2;
 </pre><pre class="cython line score-0">&#xA0;<span class="">465</span>: </pre>
 <pre class="cython line score-0">&#xA0;<span class="">466</span>: </pre>
@@ -2654,7 +2653,7 @@ struct __pyx_opt_args_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_rebalanc
 <pre class='cython code score-0 '>    __pyx_v_middleElement-&gt;higher-&gt;lower = NULL;
 </pre><pre class="cython line score-0">&#xA0;<span class="">470</span>: </pre>
 <pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">471</span>:             <span class="n">tree_root</span><span class="o">.</span><span class="n">higher</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">build_tree_from_list_flat</span><span class="p">(</span><span class="n">middleElement</span><span class="o">.</span><span class="n">higher</span><span class="p">)</span></pre>
-<pre class='cython code score-0 '>    __pyx_t_2 = ((struct __pyx_vtabstruct_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self-&gt;__pyx_vtab)-&gt;build_tree_from_list_flat(__pyx_v_self, __pyx_v_middleElement-&gt;higher);<span class='error_goto'> if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 471, __pyx_L1_error)</span>
+<pre class='cython code score-0 '>    __pyx_t_2 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self-&gt;__pyx_vtab)-&gt;build_tree_from_list_flat(__pyx_v_self, __pyx_v_middleElement-&gt;higher);<span class='error_goto'> if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 471, __pyx_L1_error)</span>
     __pyx_v_tree_root-&gt;higher = __pyx_t_2;
 </pre><pre class="cython line score-0">&#xA0;<span class="">472</span>: </pre>
 <pre class="cython line score-0">&#xA0;<span class="">473</span>: </pre>
@@ -2666,12 +2665,12 @@ struct __pyx_opt_args_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_rebalanc
 <pre class="cython line score-0">&#xA0;<span class="">477</span>: </pre>
 <pre class="cython line score-0">&#xA0;<span class="">478</span>: </pre>
 <pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">479</span>:     <span class="k">cdef</span> <span class="kt">matrix_element_tree_s</span>* <span class="nf">topK_selection_from_list</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">matrix_element_tree_s</span><span class="o">*</span> <span class="n">head</span><span class="p">,</span> <span class="nb">long</span> <span class="n">TopK</span><span class="p">):</span></pre>
-<pre class='cython code score-0 '>static __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_topK_selection_from_list(CYTHON_UNUSED struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_head, long __pyx_v_TopK) {
-  __pyx_t_22Sparse_Matrix_Tree_CSR_head_pointer_tree_s *__pyx_v_vector_pointer_to_list_elements;
-  __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_current_element;
+<pre class='cython code score-0 '>static __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_topK_selection_from_list(CYTHON_UNUSED struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_head, long __pyx_v_TopK) {
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_head_pointer_tree_s *__pyx_v_vector_pointer_to_list_elements;
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_current_element;
   long __pyx_v_list_length;
   long __pyx_v_index;
-  __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_r;
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_r;
 /* … */
   /* function exit code */
   __pyx_L0:;
@@ -2719,7 +2718,7 @@ struct __pyx_opt_args_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_rebalanc
 </pre><pre class="cython line score-0">&#xA0;<span class="">504</span>: </pre>
 <pre class="cython line score-0">&#xA0;<span class="">505</span>:         <span class="c"># Allocate vector that will be used for sorting</span></pre>
 <pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">506</span>:         <span class="n">vector_pointer_to_list_elements</span> <span class="o">=</span> <span class="o">&lt;</span> <span class="n">head_pointer_tree_s</span> <span class="o">*&gt;</span> <span class="n">malloc</span><span class="p">(</span><span class="n">list_length</span> <span class="o">*</span> <span class="n">sizeof</span><span class="p">(</span><span class="n">head_pointer_tree_s</span><span class="p">))</span></pre>
-<pre class='cython code score-0 '>  __pyx_v_vector_pointer_to_list_elements = ((__pyx_t_22Sparse_Matrix_Tree_CSR_head_pointer_tree_s *)malloc((__pyx_v_list_length * (sizeof(__pyx_t_22Sparse_Matrix_Tree_CSR_head_pointer_tree_s)))));
+<pre class='cython code score-0 '>  __pyx_v_vector_pointer_to_list_elements = ((__pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_head_pointer_tree_s *)malloc((__pyx_v_list_length * (sizeof(__pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_head_pointer_tree_s)))));
 </pre><pre class="cython line score-0">&#xA0;<span class="">507</span>: </pre>
 <pre class="cython line score-0">&#xA0;<span class="">508</span>:         <span class="c"># Fill vector wit pointers to list elements</span></pre>
 <pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">509</span>:         <span class="n">current_element</span> <span class="o">=</span> <span class="n">head</span></pre>
@@ -2739,12 +2738,12 @@ struct __pyx_opt_args_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_rebalanc
 <pre class="cython line score-0">&#xA0;<span class="">514</span>: </pre>
 <pre class="cython line score-0">&#xA0;<span class="">515</span>:         <span class="c"># Sort array elements on their data field</span></pre>
 <pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">516</span>:         <span class="n">qsort</span><span class="p">(</span><span class="n">vector_pointer_to_list_elements</span><span class="p">,</span> <span class="n">list_length</span><span class="p">,</span> <span class="n">sizeof</span><span class="p">(</span><span class="n">head_pointer_tree_s</span><span class="p">),</span> <span class="n">compare_struct_on_data</span><span class="p">)</span></pre>
-<pre class='cython code score-0 '>  qsort(__pyx_v_vector_pointer_to_list_elements, __pyx_v_list_length, (sizeof(__pyx_t_22Sparse_Matrix_Tree_CSR_head_pointer_tree_s)), __pyx_f_22Sparse_Matrix_Tree_CSR_compare_struct_on_data);
+<pre class='cython code score-0 '>  qsort(__pyx_v_vector_pointer_to_list_elements, __pyx_v_list_length, (sizeof(__pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_head_pointer_tree_s)), __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_compare_struct_on_data);
 </pre><pre class="cython line score-0">&#xA0;<span class="">517</span>: </pre>
 <pre class="cython line score-0">&#xA0;<span class="">518</span>:         <span class="c"># Sort only the TopK according to their column field</span></pre>
 <pre class="cython line score-0">&#xA0;<span class="">519</span>:         <span class="c"># Sort is from lower to higher, therefore the elements to be considered are from len-topK to len</span></pre>
 <pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">520</span>:         <span class="n">qsort</span><span class="p">(</span><span class="o">&amp;</span><span class="n">vector_pointer_to_list_elements</span><span class="p">[</span><span class="n">list_length</span><span class="o">-</span><span class="n">TopK</span><span class="p">],</span> <span class="n">TopK</span><span class="p">,</span> <span class="n">sizeof</span><span class="p">(</span><span class="n">head_pointer_tree_s</span><span class="p">),</span> <span class="n">compare_struct_on_column</span><span class="p">)</span></pre>
-<pre class='cython code score-0 '>  qsort((&amp;(__pyx_v_vector_pointer_to_list_elements[(__pyx_v_list_length - __pyx_v_TopK)])), __pyx_v_TopK, (sizeof(__pyx_t_22Sparse_Matrix_Tree_CSR_head_pointer_tree_s)), __pyx_f_22Sparse_Matrix_Tree_CSR_compare_struct_on_column);
+<pre class='cython code score-0 '>  qsort((&amp;(__pyx_v_vector_pointer_to_list_elements[(__pyx_v_list_length - __pyx_v_TopK)])), __pyx_v_TopK, (sizeof(__pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_head_pointer_tree_s)), __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_compare_struct_on_column);
 </pre><pre class="cython line score-0">&#xA0;<span class="">521</span>: </pre>
 <pre class="cython line score-0">&#xA0;<span class="">522</span>: </pre>
 <pre class="cython line score-0">&#xA0;<span class="">523</span>:         <span class="c"># Rebuild list attaching the consecutive elements</span></pre>
@@ -2824,18 +2823,18 @@ struct __pyx_opt_args_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_rebalanc
 <pre class="cython line score-0">&#xA0;<span class="">568</span>: </pre>
 <pre class="cython line score-0">&#xA0;<span class="">569</span>: </pre>
 <pre class="cython line score-106" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">570</span>:     <span class="k">cpdef</span> <span class="nf">test_list_tree_conversion</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="nb">long</span> <span class="n">row</span><span class="p">):</span></pre>
-<pre class='cython code score-106 '>static PyObject *__pyx_pw_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_11test_list_tree_conversion(PyObject *__pyx_v_self, 
+<pre class='cython code score-106 '>static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_11test_list_tree_conversion(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_list_tree_conversion(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_row, int __pyx_skip_dispatch) {
-  __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_head;
-  __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_tree_root;
-  __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_current_element;
-  __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_previous_element;
+static PyObject *__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_list_tree_conversion(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_row, int __pyx_skip_dispatch) {
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_head;
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_tree_root;
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_current_element;
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_previous_element;
   PyObject *__pyx_v_numElements_higher = 0;
   PyObject *__pyx_v_numElements_lower = 0;
   PyObject *__pyx_v_column_original = NULL;
@@ -2857,7 +2856,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
       #endif
       __pyx_t_1 = <span class='pyx_c_api'>__Pyx_PyObject_GetAttrStr</span>(((PyObject *)__pyx_v_self), __pyx_n_s_test_list_tree_conversion);<span class='error_goto'> if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 570, __pyx_L1_error)</span>
       <span class='refnanny'>__Pyx_GOTREF</span>(__pyx_t_1);
-      if (!<span class='pyx_c_api'>__Pyx_IsSameCFunction</span>(__pyx_t_1, (void*) __pyx_pw_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_11test_list_tree_conversion)) {
+      if (!<span class='pyx_c_api'>__Pyx_IsSameCFunction</span>(__pyx_t_1, (void*) __pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_11test_list_tree_conversion)) {
         <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_r);
         __pyx_t_3 = <span class='pyx_c_api'>__Pyx_PyInt_From_long</span>(__pyx_v_row);<span class='error_goto'> if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 570, __pyx_L1_error)</span>
         <span class='refnanny'>__Pyx_GOTREF</span>(__pyx_t_3);
@@ -2912,7 +2911,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
   <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_t_3);
   <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_t_4);
   <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_t_5);
-  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.test_list_tree_conversion", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.test_list_tree_conversion", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = 0;
   __pyx_L0:;
   <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_v_numElements_higher);
@@ -2930,16 +2929,16 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
 }
 
 /* Python wrapper */
-static PyObject *__pyx_pw_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_11test_list_tree_conversion(PyObject *__pyx_v_self, 
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_11test_list_tree_conversion(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-<span class='py_macro_api'>PyDoc_STRVAR</span>(__pyx_doc_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_10test_list_tree_conversion, "\n        The function tests the inner data structure conversion from tree to C linked list and back to tree\n        \n        :param row: row to use for testing\n        ");
-static PyMethodDef __pyx_mdef_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_11test_list_tree_conversion = {"test_list_tree_conversion", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_11test_list_tree_conversion, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_10test_list_tree_conversion};
-static PyObject *__pyx_pw_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_11test_list_tree_conversion(PyObject *__pyx_v_self, 
+<span class='py_macro_api'>PyDoc_STRVAR</span>(__pyx_doc_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_10test_list_tree_conversion, "\n        The function tests the inner data structure conversion from tree to C linked list and back to tree\n        \n        :param row: row to use for testing\n        ");
+static PyMethodDef __pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_11test_list_tree_conversion = {"test_list_tree_conversion", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_11test_list_tree_conversion, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_10test_list_tree_conversion};
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_11test_list_tree_conversion(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -3006,11 +3005,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       <span class='pyx_c_api'>__Pyx_Arg_XDECREF_FASTCALL</span>(values[__pyx_temp]);
     }
   }
-  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.test_list_tree_conversion", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.test_list_tree_conversion", __pyx_clineno, __pyx_lineno, __pyx_filename);
   <span class='refnanny'>__Pyx_RefNannyFinishContext</span>();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_10test_list_tree_conversion(((struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self), __pyx_v_row);
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_10test_list_tree_conversion(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self), __pyx_v_row);
   int __pyx_lineno = 0;
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
@@ -3026,10 +3025,10 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_10test_list_tree_conversion(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_row) {
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_10test_list_tree_conversion(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_row) {
   PyObject *__pyx_r = NULL;
   <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_r);
-  __pyx_t_1 = __pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_list_tree_conversion(__pyx_v_self, __pyx_v_row, 1);<span class='error_goto'> if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 570, __pyx_L1_error)</span>
+  __pyx_t_1 = __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_list_tree_conversion(__pyx_v_self, __pyx_v_row, 1);<span class='error_goto'> if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 570, __pyx_L1_error)</span>
   <span class='refnanny'>__Pyx_GOTREF</span>(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
@@ -3038,7 +3037,7 @@ static PyObject *__pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_10te
   /* function exit code */
   __pyx_L1_error:;
   <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_t_1);
-  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.test_list_tree_conversion", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.test_list_tree_conversion", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   <span class='refnanny'>__Pyx_XGIVEREF</span>(__pyx_r);
@@ -3050,11 +3049,11 @@ static PyObject *__pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_10te
   <span class='refnanny'>__Pyx_GOTREF</span>(__pyx_tuple__20);
   <span class='refnanny'>__Pyx_GIVEREF</span>(__pyx_tuple__20);
 /* … */
-  __pyx_t_2 = <span class='pyx_c_api'>__Pyx_CyFunction_New</span>(&amp;__pyx_mdef_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_11test_list_tree_conversion, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_Sparse_Matrix_Tree_CSR_test_list, NULL, __pyx_n_s_Sparse_Matrix_Tree_CSR, __pyx_d, ((PyObject *)__pyx_codeobj__21));<span class='error_goto'> if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 570, __pyx_L1_error)</span>
+  __pyx_t_2 = <span class='pyx_c_api'>__Pyx_CyFunction_New</span>(&amp;__pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_11test_list_tree_conversion, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_Sparse_Matrix_Tree_CSR_test_list, NULL, __pyx_n_s_RecSysCompetition2024Polimi_libs, __pyx_d, ((PyObject *)__pyx_codeobj__21));<span class='error_goto'> if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 570, __pyx_L1_error)</span>
   <span class='refnanny'>__Pyx_GOTREF</span>(__pyx_t_2);
-  if (<span class='pyx_c_api'>__Pyx_SetItemOnTypeDict</span>((PyObject *)__pyx_ptype_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR, __pyx_n_s_test_list_tree_conversion, __pyx_t_2) &lt; 0) <span class='error_goto'>__PYX_ERR(0, 570, __pyx_L1_error)</span>
+  if (<span class='pyx_c_api'>__Pyx_SetItemOnTypeDict</span>((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR, __pyx_n_s_test_list_tree_conversion, __pyx_t_2) &lt; 0) <span class='error_goto'>__PYX_ERR(0, 570, __pyx_L1_error)</span>
   <span class='pyx_macro_api'>__Pyx_DECREF</span>(__pyx_t_2); __pyx_t_2 = 0;
-  <span class='py_c_api'>PyType_Modified</span>(__pyx_ptype_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR);
+  <span class='py_c_api'>PyType_Modified</span>(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR);
   __pyx_codeobj__21 = (PyObject*)<span class='pyx_c_api'>__Pyx_PyCode_New</span>(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__20, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Sparse_Matrix_Tree_CSR_pyx, __pyx_n_s_test_list_tree_conversion, 570, __pyx_empty_bytes);<span class='error_goto'> if (unlikely(!__pyx_codeobj__21)) __PYX_ERR(0, 570, __pyx_L1_error)</span>
 </pre><pre class="cython line score-0">&#xA0;<span class="">571</span>: <span class="w">        </span><span class="sd">&quot;&quot;&quot;</span></pre>
 <pre class="cython line score-0">&#xA0;<span class="">572</span>: <span class="sd">        The function tests the inner data structure conversion from tree to C linked list and back to tree</span></pre>
@@ -3066,7 +3065,7 @@ static PyObject *__pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_10te
 <pre class="cython line score-0">&#xA0;<span class="">578</span>:         <span class="k">cdef</span> <span class="kt">matrix_element_tree_s</span> *<span class="nf">current_element</span><span class="p">,</span> *<span class="nf">previous_element</span></pre>
 <pre class="cython line score-0">&#xA0;<span class="">579</span>: </pre>
 <pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">580</span>:         <span class="n">head</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">subtree_to_list_flat</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">row_pointer</span><span class="p">[</span><span class="n">row</span><span class="p">]</span><span class="o">.</span><span class="n">head</span><span class="p">)</span></pre>
-<pre class='cython code score-0 '>  __pyx_t_7 = ((struct __pyx_vtabstruct_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self-&gt;__pyx_vtab)-&gt;subtree_to_list_flat(__pyx_v_self, (__pyx_v_self-&gt;row_pointer[__pyx_v_row]).head);<span class='error_goto'> if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 580, __pyx_L1_error)</span>
+<pre class='cython code score-0 '>  __pyx_t_7 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self-&gt;__pyx_vtab)-&gt;subtree_to_list_flat(__pyx_v_self, (__pyx_v_self-&gt;row_pointer[__pyx_v_row]).head);<span class='error_goto'> if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 580, __pyx_L1_error)</span>
   __pyx_v_head = __pyx_t_7;
 </pre><pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">581</span>:         <span class="n">current_element</span> <span class="o">=</span> <span class="n">head</span></pre>
 <pre class='cython code score-0 '>  __pyx_v_current_element = __pyx_v_head;
@@ -3166,7 +3165,7 @@ static PyObject *__pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_10te
   <span class='refnanny'>__Pyx_GIVEREF</span>(__pyx_tuple__3);
 </pre><pre class="cython line score-0">&#xA0;<span class="">601</span>: </pre>
 <pre class="cython line score-46" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">602</span>:         <span class="n">column_original</span><span class="p">,</span> <span class="n">data_original</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">from_linked_list_to_python_list</span><span class="p">(</span><span class="n">head</span><span class="p">)</span></pre>
-<pre class='cython code score-46 '>  __pyx_t_2 = ((struct __pyx_vtabstruct_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self-&gt;__pyx_vtab)-&gt;from_linked_list_to_python_list(__pyx_v_self, __pyx_v_head);<span class='error_goto'> if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 602, __pyx_L1_error)</span>
+<pre class='cython code score-46 '>  __pyx_t_2 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self-&gt;__pyx_vtab)-&gt;from_linked_list_to_python_list(__pyx_v_self, __pyx_v_head);<span class='error_goto'> if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 602, __pyx_L1_error)</span>
   <span class='refnanny'>__Pyx_GOTREF</span>(__pyx_t_2);
   if ((likely(<span class='py_c_api'>PyTuple_CheckExact</span>(__pyx_t_2))) || (<span class='py_c_api'>PyList_CheckExact</span>(__pyx_t_2))) {
     PyObject* sequence = __pyx_t_2;
@@ -3372,10 +3371,10 @@ static PyObject *__pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_10te
 </pre><pre class="cython line score-0">&#xA0;<span class="">612</span>: </pre>
 <pre class="cython line score-0">&#xA0;<span class="">613</span>:         <span class="c"># Transform list into tree and back into list, as it is easy to test</span></pre>
 <pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">614</span>:         <span class="n">tree_root</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">build_tree_from_list_flat</span><span class="p">(</span><span class="n">head</span><span class="p">)</span></pre>
-<pre class='cython code score-0 '>  __pyx_t_7 = ((struct __pyx_vtabstruct_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self-&gt;__pyx_vtab)-&gt;build_tree_from_list_flat(__pyx_v_self, __pyx_v_head);<span class='error_goto'> if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 614, __pyx_L1_error)</span>
+<pre class='cython code score-0 '>  __pyx_t_7 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self-&gt;__pyx_vtab)-&gt;build_tree_from_list_flat(__pyx_v_self, __pyx_v_head);<span class='error_goto'> if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 614, __pyx_L1_error)</span>
   __pyx_v_tree_root = __pyx_t_7;
 </pre><pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">615</span>:         <span class="n">head</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">subtree_to_list_flat</span><span class="p">(</span><span class="n">tree_root</span><span class="p">)</span></pre>
-<pre class='cython code score-0 '>  __pyx_t_7 = ((struct __pyx_vtabstruct_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self-&gt;__pyx_vtab)-&gt;subtree_to_list_flat(__pyx_v_self, __pyx_v_tree_root);<span class='error_goto'> if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 615, __pyx_L1_error)</span>
+<pre class='cython code score-0 '>  __pyx_t_7 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self-&gt;__pyx_vtab)-&gt;subtree_to_list_flat(__pyx_v_self, __pyx_v_tree_root);<span class='error_goto'> if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 615, __pyx_L1_error)</span>
   __pyx_v_head = __pyx_t_7;
 </pre><pre class="cython line score-0">&#xA0;<span class="">616</span>: </pre>
 <pre class="cython line score-1" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">617</span>:         <span class="k">cdef</span> <span class="nf">numElements_higher_after</span> <span class="o">=</span> <span class="mf">0</span></pre>
@@ -3523,7 +3522,7 @@ static PyObject *__pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_10te
       }
 </pre><pre class="cython line score-0">&#xA0;<span class="">642</span>: </pre>
 <pre class="cython line score-46" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">643</span>:         <span class="n">column_after_tree</span><span class="p">,</span> <span class="n">data_after_tree</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">from_linked_list_to_python_list</span><span class="p">(</span><span class="n">head</span><span class="p">)</span></pre>
-<pre class='cython code score-46 '>  __pyx_t_2 = ((struct __pyx_vtabstruct_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self-&gt;__pyx_vtab)-&gt;from_linked_list_to_python_list(__pyx_v_self, __pyx_v_head);<span class='error_goto'> if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 643, __pyx_L1_error)</span>
+<pre class='cython code score-46 '>  __pyx_t_2 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self-&gt;__pyx_vtab)-&gt;from_linked_list_to_python_list(__pyx_v_self, __pyx_v_head);<span class='error_goto'> if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 643, __pyx_L1_error)</span>
   <span class='refnanny'>__Pyx_GOTREF</span>(__pyx_t_2);
   if ((likely(<span class='py_c_api'>PyTuple_CheckExact</span>(__pyx_t_2))) || (<span class='py_c_api'>PyList_CheckExact</span>(__pyx_t_2))) {
     PyObject* sequence = __pyx_t_2;
@@ -3750,15 +3749,15 @@ static PyObject *__pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_10te
 <pre class="cython line score-0">&#xA0;<span class="">657</span>: </pre>
 <pre class="cython line score-0">&#xA0;<span class="">658</span>: </pre>
 <pre class="cython line score-131" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">659</span>:     <span class="k">cpdef</span> <span class="nf">test_topK_from_list_selection</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="nb">long</span> <span class="n">row</span><span class="p">,</span> <span class="nb">long</span> <span class="n">topK</span><span class="p">):</span></pre>
-<pre class='cython code score-131 '>static PyObject *__pyx_pw_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_13test_topK_from_list_selection(PyObject *__pyx_v_self, 
+<pre class='cython code score-131 '>static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_13test_topK_from_list_selection(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_topK_from_list_selection(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_row, long __pyx_v_topK, int __pyx_skip_dispatch) {
-  __pyx_t_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_head;
+static PyObject *__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_topK_from_list_selection(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_row, long __pyx_v_topK, int __pyx_skip_dispatch) {
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_matrix_element_tree_s *__pyx_v_head;
   PyObject *__pyx_v_column_original = NULL;
   PyObject *__pyx_v_data_original = NULL;
   PyObject *__pyx_v_column_topK = NULL;
@@ -3780,7 +3779,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
       #endif
       __pyx_t_1 = <span class='pyx_c_api'>__Pyx_PyObject_GetAttrStr</span>(((PyObject *)__pyx_v_self), __pyx_n_s_test_topK_from_list_selection);<span class='error_goto'> if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 659, __pyx_L1_error)</span>
       <span class='refnanny'>__Pyx_GOTREF</span>(__pyx_t_1);
-      if (!<span class='pyx_c_api'>__Pyx_IsSameCFunction</span>(__pyx_t_1, (void*) __pyx_pw_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_13test_topK_from_list_selection)) {
+      if (!<span class='pyx_c_api'>__Pyx_IsSameCFunction</span>(__pyx_t_1, (void*) __pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_13test_topK_from_list_selection)) {
         <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_r);
         __pyx_t_3 = <span class='pyx_c_api'>__Pyx_PyInt_From_long</span>(__pyx_v_row);<span class='error_goto'> if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 659, __pyx_L1_error)</span>
         <span class='refnanny'>__Pyx_GOTREF</span>(__pyx_t_3);
@@ -3839,7 +3838,7 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
   <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_t_4);
   <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_t_5);
   <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_t_6);
-  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.test_topK_from_list_selection", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.test_topK_from_list_selection", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = 0;
   __pyx_L0:;
   <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_v_column_original);
@@ -3856,16 +3855,16 @@ static PyObject *__pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_
 }
 
 /* Python wrapper */
-static PyObject *__pyx_pw_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_13test_topK_from_list_selection(PyObject *__pyx_v_self, 
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_13test_topK_from_list_selection(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-<span class='py_macro_api'>PyDoc_STRVAR</span>(__pyx_doc_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_12test_topK_from_list_selection, "\n        The function tests the topK selection from list\n        \n        :param row: row to use for testing\n        ");
-static PyMethodDef __pyx_mdef_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_13test_topK_from_list_selection = {"test_topK_from_list_selection", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_13test_topK_from_list_selection, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_12test_topK_from_list_selection};
-static PyObject *__pyx_pw_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_13test_topK_from_list_selection(PyObject *__pyx_v_self, 
+<span class='py_macro_api'>PyDoc_STRVAR</span>(__pyx_doc_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_12test_topK_from_list_selection, "\n        The function tests the topK selection from list\n        \n        :param row: row to use for testing\n        ");
+static PyMethodDef __pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_13test_topK_from_list_selection = {"test_topK_from_list_selection", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_13test_topK_from_list_selection, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_12test_topK_from_list_selection};
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_13test_topK_from_list_selection(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -3947,11 +3946,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       <span class='pyx_c_api'>__Pyx_Arg_XDECREF_FASTCALL</span>(values[__pyx_temp]);
     }
   }
-  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.test_topK_from_list_selection", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.test_topK_from_list_selection", __pyx_clineno, __pyx_lineno, __pyx_filename);
   <span class='refnanny'>__Pyx_RefNannyFinishContext</span>();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_12test_topK_from_list_selection(((struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self), __pyx_v_row, __pyx_v_topK);
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_12test_topK_from_list_selection(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self), __pyx_v_row, __pyx_v_topK);
   int __pyx_lineno = 0;
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
@@ -3967,10 +3966,10 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_12test_topK_from_list_selection(struct __pyx_obj_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_row, long __pyx_v_topK) {
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_12test_topK_from_list_selection(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_row, long __pyx_v_topK) {
   PyObject *__pyx_r = NULL;
   <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_r);
-  __pyx_t_1 = __pyx_f_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_topK_from_list_selection(__pyx_v_self, __pyx_v_row, __pyx_v_topK, 1);<span class='error_goto'> if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 659, __pyx_L1_error)</span>
+  __pyx_t_1 = __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_test_topK_from_list_selection(__pyx_v_self, __pyx_v_row, __pyx_v_topK, 1);<span class='error_goto'> if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 659, __pyx_L1_error)</span>
   <span class='refnanny'>__Pyx_GOTREF</span>(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
@@ -3979,7 +3978,7 @@ static PyObject *__pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_12te
   /* function exit code */
   __pyx_L1_error:;
   <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_t_1);
-  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.test_topK_from_list_selection", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.Sparse_Matrix_Tree_CSR.Sparse_Matrix_Tree_CSR.test_topK_from_list_selection", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   <span class='refnanny'>__Pyx_XGIVEREF</span>(__pyx_r);
@@ -3991,11 +3990,11 @@ static PyObject *__pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_12te
   <span class='refnanny'>__Pyx_GOTREF</span>(__pyx_tuple__22);
   <span class='refnanny'>__Pyx_GIVEREF</span>(__pyx_tuple__22);
 /* … */
-  __pyx_t_2 = <span class='pyx_c_api'>__Pyx_CyFunction_New</span>(&amp;__pyx_mdef_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_13test_topK_from_list_selection, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_Sparse_Matrix_Tree_CSR_test_topK, NULL, __pyx_n_s_Sparse_Matrix_Tree_CSR, __pyx_d, ((PyObject *)__pyx_codeobj__23));<span class='error_goto'> if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 659, __pyx_L1_error)</span>
+  __pyx_t_2 = <span class='pyx_c_api'>__Pyx_CyFunction_New</span>(&amp;__pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_13test_topK_from_list_selection, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_Sparse_Matrix_Tree_CSR_test_topK, NULL, __pyx_n_s_RecSysCompetition2024Polimi_libs, __pyx_d, ((PyObject *)__pyx_codeobj__23));<span class='error_goto'> if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 659, __pyx_L1_error)</span>
   <span class='refnanny'>__Pyx_GOTREF</span>(__pyx_t_2);
-  if (<span class='pyx_c_api'>__Pyx_SetItemOnTypeDict</span>((PyObject *)__pyx_ptype_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR, __pyx_n_s_test_topK_from_list_selection, __pyx_t_2) &lt; 0) <span class='error_goto'>__PYX_ERR(0, 659, __pyx_L1_error)</span>
+  if (<span class='pyx_c_api'>__Pyx_SetItemOnTypeDict</span>((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR, __pyx_n_s_test_topK_from_list_selection, __pyx_t_2) &lt; 0) <span class='error_goto'>__PYX_ERR(0, 659, __pyx_L1_error)</span>
   <span class='pyx_macro_api'>__Pyx_DECREF</span>(__pyx_t_2); __pyx_t_2 = 0;
-  <span class='py_c_api'>PyType_Modified</span>(__pyx_ptype_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR);
+  <span class='py_c_api'>PyType_Modified</span>(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR);
   __pyx_codeobj__23 = (PyObject*)<span class='pyx_c_api'>__Pyx_PyCode_New</span>(3, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__22, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Sparse_Matrix_Tree_CSR_pyx, __pyx_n_s_test_topK_from_list_selection, 659, __pyx_empty_bytes);<span class='error_goto'> if (unlikely(!__pyx_codeobj__23)) __PYX_ERR(0, 659, __pyx_L1_error)</span>
 </pre><pre class="cython line score-0">&#xA0;<span class="">660</span>: <span class="w">        </span><span class="sd">&quot;&quot;&quot;</span></pre>
 <pre class="cython line score-0">&#xA0;<span class="">661</span>: <span class="sd">        The function tests the topK selection from list</span></pre>
@@ -4006,11 +4005,11 @@ static PyObject *__pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_12te
 <pre class="cython line score-0">&#xA0;<span class="">666</span>:         <span class="k">cdef</span> <span class="kt">matrix_element_tree_s</span> *<span class="nf">head</span></pre>
 <pre class="cython line score-0">&#xA0;<span class="">667</span>: </pre>
 <pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">668</span>:         <span class="n">head</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">subtree_to_list_flat</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">row_pointer</span><span class="p">[</span><span class="n">row</span><span class="p">]</span><span class="o">.</span><span class="n">head</span><span class="p">)</span></pre>
-<pre class='cython code score-0 '>  __pyx_t_8 = ((struct __pyx_vtabstruct_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self-&gt;__pyx_vtab)-&gt;subtree_to_list_flat(__pyx_v_self, (__pyx_v_self-&gt;row_pointer[__pyx_v_row]).head);<span class='error_goto'> if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 668, __pyx_L1_error)</span>
+<pre class='cython code score-0 '>  __pyx_t_8 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self-&gt;__pyx_vtab)-&gt;subtree_to_list_flat(__pyx_v_self, (__pyx_v_self-&gt;row_pointer[__pyx_v_row]).head);<span class='error_goto'> if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 668, __pyx_L1_error)</span>
   __pyx_v_head = __pyx_t_8;
 </pre><pre class="cython line score-0">&#xA0;<span class="">669</span>: </pre>
 <pre class="cython line score-46" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">670</span>:         <span class="n">column_original</span><span class="p">,</span> <span class="n">data_original</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">from_linked_list_to_python_list</span><span class="p">(</span><span class="n">head</span><span class="p">)</span></pre>
-<pre class='cython code score-46 '>  __pyx_t_1 = ((struct __pyx_vtabstruct_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self-&gt;__pyx_vtab)-&gt;from_linked_list_to_python_list(__pyx_v_self, __pyx_v_head);<span class='error_goto'> if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 670, __pyx_L1_error)</span>
+<pre class='cython code score-46 '>  __pyx_t_1 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self-&gt;__pyx_vtab)-&gt;from_linked_list_to_python_list(__pyx_v_self, __pyx_v_head);<span class='error_goto'> if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 670, __pyx_L1_error)</span>
   <span class='refnanny'>__Pyx_GOTREF</span>(__pyx_t_1);
   if ((likely(<span class='py_c_api'>PyTuple_CheckExact</span>(__pyx_t_1))) || (<span class='py_c_api'>PyList_CheckExact</span>(__pyx_t_1))) {
     PyObject* sequence = __pyx_t_1;
@@ -4064,11 +4063,11 @@ static PyObject *__pyx_pf_22Sparse_Matrix_Tree_CSR_22Sparse_Matrix_Tree_CSR_12te
   __pyx_t_5 = 0;
 </pre><pre class="cython line score-0">&#xA0;<span class="">671</span>: </pre>
 <pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">672</span>:         <span class="n">head</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">topK_selection_from_list</span><span class="p">(</span><span class="n">head</span><span class="p">,</span> <span class="n">topK</span><span class="p">)</span></pre>
-<pre class='cython code score-0 '>  __pyx_t_8 = ((struct __pyx_vtabstruct_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self-&gt;__pyx_vtab)-&gt;topK_selection_from_list(__pyx_v_self, __pyx_v_head, __pyx_v_topK);<span class='error_goto'> if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 672, __pyx_L1_error)</span>
+<pre class='cython code score-0 '>  __pyx_t_8 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self-&gt;__pyx_vtab)-&gt;topK_selection_from_list(__pyx_v_self, __pyx_v_head, __pyx_v_topK);<span class='error_goto'> if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 672, __pyx_L1_error)</span>
   __pyx_v_head = __pyx_t_8;
 </pre><pre class="cython line score-0">&#xA0;<span class="">673</span>: </pre>
 <pre class="cython line score-46" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">674</span>:         <span class="n">column_topK</span><span class="p">,</span> <span class="n">data_topK</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">from_linked_list_to_python_list</span><span class="p">(</span><span class="n">head</span><span class="p">)</span></pre>
-<pre class='cython code score-46 '>  __pyx_t_1 = ((struct __pyx_vtabstruct_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self-&gt;__pyx_vtab)-&gt;from_linked_list_to_python_list(__pyx_v_self, __pyx_v_head);<span class='error_goto'> if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 674, __pyx_L1_error)</span>
+<pre class='cython code score-46 '>  __pyx_t_1 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_22Sparse_Matrix_Tree_CSR_Sparse_Matrix_Tree_CSR *)__pyx_v_self-&gt;__pyx_vtab)-&gt;from_linked_list_to_python_list(__pyx_v_self, __pyx_v_head);<span class='error_goto'> if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 674, __pyx_L1_error)</span>
   <span class='refnanny'>__Pyx_GOTREF</span>(__pyx_t_1);
   if ((likely(<span class='py_c_api'>PyTuple_CheckExact</span>(__pyx_t_1))) || (<span class='py_c_api'>PyList_CheckExact</span>(__pyx_t_1))) {
     PyObject* sequence = __pyx_t_1;

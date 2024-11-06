@@ -1216,8 +1216,8 @@ static CYTHON_INLINE float __PYX_NAN() {
   #endif
 #endif
 
-#define __PYX_HAVE__Compute_Similarity_Cython
-#define __PYX_HAVE_API__Compute_Similarity_Cython
+#define __PYX_HAVE__RecSysCompetition2024Polimi__libs__Recommenders__Similarity__Cython__Compute_Similarity_Cython
+#define __PYX_HAVE_API__RecSysCompetition2024Polimi__libs__Recommenders__Similarity__Cython__Compute_Similarity_Cython
 /* Early includes */
 #include <string.h>
 #include <stdio.h>
@@ -1229,15 +1229,6 @@ static CYTHON_INLINE float __PYX_NAN() {
 #include "numpy/ndarraytypes.h"
 #include "numpy/arrayscalars.h"
 #include "numpy/ufuncobject.h"
-
-    #if CYTHON_COMPILING_IN_PYPY
-    #ifdef _MSC_VER
-    #pragma message ("This module uses CPython specific internals of 'array.array', which are not available in PyPy.")
-    #else
-    #warning This module uses CPython specific internals of 'array.array', which are not available in PyPy.
-    #endif
-    #endif
-    
 #include <math.h>
 #include "pythread.h"
 #include <stdlib.h>
@@ -1514,7 +1505,6 @@ static const char *__pyx_f[] = {
   "Compute_Similarity_Cython.pyx",
   "<stringsource>",
   "__init__.cython-30.pxd",
-  "array.pxd",
   "type.pxd",
 };
 /* #### Code section: utility_code_proto_before_types ### */
@@ -1661,7 +1651,7 @@ typedef struct {
 
 /* #### Code section: numeric_typedefs ### */
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":732
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":730
  * # in Cython to enable them only on the right systems.
  * 
  * ctypedef npy_int8       int8_t             # <<<<<<<<<<<<<<
@@ -1670,7 +1660,7 @@ typedef struct {
  */
 typedef npy_int8 __pyx_t_5numpy_int8_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":733
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":731
  * 
  * ctypedef npy_int8       int8_t
  * ctypedef npy_int16      int16_t             # <<<<<<<<<<<<<<
@@ -1679,7 +1669,7 @@ typedef npy_int8 __pyx_t_5numpy_int8_t;
  */
 typedef npy_int16 __pyx_t_5numpy_int16_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":734
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":732
  * ctypedef npy_int8       int8_t
  * ctypedef npy_int16      int16_t
  * ctypedef npy_int32      int32_t             # <<<<<<<<<<<<<<
@@ -1688,7 +1678,7 @@ typedef npy_int16 __pyx_t_5numpy_int16_t;
  */
 typedef npy_int32 __pyx_t_5numpy_int32_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":735
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":733
  * ctypedef npy_int16      int16_t
  * ctypedef npy_int32      int32_t
  * ctypedef npy_int64      int64_t             # <<<<<<<<<<<<<<
@@ -1697,7 +1687,7 @@ typedef npy_int32 __pyx_t_5numpy_int32_t;
  */
 typedef npy_int64 __pyx_t_5numpy_int64_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":739
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":737
  * #ctypedef npy_int128     int128_t
  * 
  * ctypedef npy_uint8      uint8_t             # <<<<<<<<<<<<<<
@@ -1706,7 +1696,7 @@ typedef npy_int64 __pyx_t_5numpy_int64_t;
  */
 typedef npy_uint8 __pyx_t_5numpy_uint8_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":740
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":738
  * 
  * ctypedef npy_uint8      uint8_t
  * ctypedef npy_uint16     uint16_t             # <<<<<<<<<<<<<<
@@ -1715,7 +1705,7 @@ typedef npy_uint8 __pyx_t_5numpy_uint8_t;
  */
 typedef npy_uint16 __pyx_t_5numpy_uint16_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":741
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":739
  * ctypedef npy_uint8      uint8_t
  * ctypedef npy_uint16     uint16_t
  * ctypedef npy_uint32     uint32_t             # <<<<<<<<<<<<<<
@@ -1724,7 +1714,7 @@ typedef npy_uint16 __pyx_t_5numpy_uint16_t;
  */
 typedef npy_uint32 __pyx_t_5numpy_uint32_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":742
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":740
  * ctypedef npy_uint16     uint16_t
  * ctypedef npy_uint32     uint32_t
  * ctypedef npy_uint64     uint64_t             # <<<<<<<<<<<<<<
@@ -1733,7 +1723,7 @@ typedef npy_uint32 __pyx_t_5numpy_uint32_t;
  */
 typedef npy_uint64 __pyx_t_5numpy_uint64_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":746
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":744
  * #ctypedef npy_uint128    uint128_t
  * 
  * ctypedef npy_float32    float32_t             # <<<<<<<<<<<<<<
@@ -1742,7 +1732,7 @@ typedef npy_uint64 __pyx_t_5numpy_uint64_t;
  */
 typedef npy_float32 __pyx_t_5numpy_float32_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":747
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":745
  * 
  * ctypedef npy_float32    float32_t
  * ctypedef npy_float64    float64_t             # <<<<<<<<<<<<<<
@@ -1751,61 +1741,43 @@ typedef npy_float32 __pyx_t_5numpy_float32_t;
  */
 typedef npy_float64 __pyx_t_5numpy_float64_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":756
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":754
  * # The int types are mapped a bit surprising --
  * # numpy.int corresponds to 'l' and numpy.long to 'q'
  * ctypedef npy_long       int_t             # <<<<<<<<<<<<<<
- * ctypedef npy_longlong   long_t
- * ctypedef npy_longlong   longlong_t
- */
-typedef npy_long __pyx_t_5numpy_int_t;
-
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":757
- * # numpy.int corresponds to 'l' and numpy.long to 'q'
- * ctypedef npy_long       int_t
- * ctypedef npy_longlong   long_t             # <<<<<<<<<<<<<<
  * ctypedef npy_longlong   longlong_t
  * 
  */
-typedef npy_longlong __pyx_t_5numpy_long_t;
+typedef npy_long __pyx_t_5numpy_int_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":758
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":755
+ * # numpy.int corresponds to 'l' and numpy.long to 'q'
  * ctypedef npy_long       int_t
- * ctypedef npy_longlong   long_t
  * ctypedef npy_longlong   longlong_t             # <<<<<<<<<<<<<<
  * 
  * ctypedef npy_ulong      uint_t
  */
 typedef npy_longlong __pyx_t_5numpy_longlong_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":760
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":757
  * ctypedef npy_longlong   longlong_t
  * 
  * ctypedef npy_ulong      uint_t             # <<<<<<<<<<<<<<
- * ctypedef npy_ulonglong  ulong_t
  * ctypedef npy_ulonglong  ulonglong_t
+ * 
  */
 typedef npy_ulong __pyx_t_5numpy_uint_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":761
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":758
  * 
  * ctypedef npy_ulong      uint_t
- * ctypedef npy_ulonglong  ulong_t             # <<<<<<<<<<<<<<
- * ctypedef npy_ulonglong  ulonglong_t
- * 
- */
-typedef npy_ulonglong __pyx_t_5numpy_ulong_t;
-
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":762
- * ctypedef npy_ulong      uint_t
- * ctypedef npy_ulonglong  ulong_t
  * ctypedef npy_ulonglong  ulonglong_t             # <<<<<<<<<<<<<<
  * 
  * ctypedef npy_intp       intp_t
  */
 typedef npy_ulonglong __pyx_t_5numpy_ulonglong_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":764
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":760
  * ctypedef npy_ulonglong  ulonglong_t
  * 
  * ctypedef npy_intp       intp_t             # <<<<<<<<<<<<<<
@@ -1814,7 +1786,7 @@ typedef npy_ulonglong __pyx_t_5numpy_ulonglong_t;
  */
 typedef npy_intp __pyx_t_5numpy_intp_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":765
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":761
  * 
  * ctypedef npy_intp       intp_t
  * ctypedef npy_uintp      uintp_t             # <<<<<<<<<<<<<<
@@ -1823,7 +1795,7 @@ typedef npy_intp __pyx_t_5numpy_intp_t;
  */
 typedef npy_uintp __pyx_t_5numpy_uintp_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":767
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":763
  * ctypedef npy_uintp      uintp_t
  * 
  * ctypedef npy_double     float_t             # <<<<<<<<<<<<<<
@@ -1832,7 +1804,7 @@ typedef npy_uintp __pyx_t_5numpy_uintp_t;
  */
 typedef npy_double __pyx_t_5numpy_float_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":768
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":764
  * 
  * ctypedef npy_double     float_t
  * ctypedef npy_double     double_t             # <<<<<<<<<<<<<<
@@ -1841,7 +1813,7 @@ typedef npy_double __pyx_t_5numpy_float_t;
  */
 typedef npy_double __pyx_t_5numpy_double_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":769
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":765
  * ctypedef npy_double     float_t
  * ctypedef npy_double     double_t
  * ctypedef npy_longdouble longdouble_t             # <<<<<<<<<<<<<<
@@ -1877,17 +1849,13 @@ static CYTHON_INLINE __pyx_t_double_complex __pyx_t_double_complex_from_parts(do
 /* #### Code section: type_declarations ### */
 
 /*--- Type declarations ---*/
-#ifndef _ARRAYARRAY_H
-struct arrayobject;
-typedef struct arrayobject arrayobject;
-#endif
-struct __pyx_obj_25Compute_Similarity_Cython_Compute_Similarity_Cython;
+struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython;
 struct __pyx_array_obj;
 struct __pyx_MemviewEnum_obj;
 struct __pyx_memoryview_obj;
 struct __pyx_memoryviewslice_obj;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":771
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":767
  * ctypedef npy_longdouble longdouble_t
  * 
  * ctypedef npy_cfloat      cfloat_t             # <<<<<<<<<<<<<<
@@ -1896,7 +1864,7 @@ struct __pyx_memoryviewslice_obj;
  */
 typedef npy_cfloat __pyx_t_5numpy_cfloat_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":772
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":768
  * 
  * ctypedef npy_cfloat      cfloat_t
  * ctypedef npy_cdouble     cdouble_t             # <<<<<<<<<<<<<<
@@ -1905,7 +1873,7 @@ typedef npy_cfloat __pyx_t_5numpy_cfloat_t;
  */
 typedef npy_cdouble __pyx_t_5numpy_cdouble_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":773
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":769
  * ctypedef npy_cfloat      cfloat_t
  * ctypedef npy_cdouble     cdouble_t
  * ctypedef npy_clongdouble clongdouble_t             # <<<<<<<<<<<<<<
@@ -1914,7 +1882,7 @@ typedef npy_cdouble __pyx_t_5numpy_cdouble_t;
  */
 typedef npy_clongdouble __pyx_t_5numpy_clongdouble_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":775
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":771
  * ctypedef npy_clongdouble clongdouble_t
  * 
  * ctypedef npy_cdouble     complex_t             # <<<<<<<<<<<<<<
@@ -1923,16 +1891,16 @@ typedef npy_clongdouble __pyx_t_5numpy_clongdouble_t;
  */
 typedef npy_cdouble __pyx_t_5numpy_complex_t;
 
-/* "Compute_Similarity_Cython.pyx":52
+/* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":50
  * @cython.cdivision(True)
  * @cython.overflowcheck(False)
  * cdef class Compute_Similarity_Cython:             # <<<<<<<<<<<<<<
  * 
  *     cdef int topK, use_dense
  */
-struct __pyx_obj_25Compute_Similarity_Cython_Compute_Similarity_Cython {
+struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython {
   PyObject_HEAD
-  struct __pyx_vtabstruct_25Compute_Similarity_Cython_Compute_Similarity_Cython *__pyx_vtab;
+  struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython *__pyx_vtab;
   int topK;
   int use_dense;
   long n_columns;
@@ -2044,7 +2012,7 @@ struct __pyx_memoryviewslice_obj {
 
 
 
-/* "Compute_Similarity_Cython.pyx":52
+/* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":50
  * @cython.cdivision(True)
  * @cython.overflowcheck(False)
  * cdef class Compute_Similarity_Cython:             # <<<<<<<<<<<<<<
@@ -2052,15 +2020,15 @@ struct __pyx_memoryviewslice_obj {
  *     cdef int topK, use_dense
  */
 
-struct __pyx_vtabstruct_25Compute_Similarity_Cython_Compute_Similarity_Cython {
-  PyObject *(*useOnlyBooleanInteractions)(struct __pyx_obj_25Compute_Similarity_Cython_Compute_Similarity_Cython *, PyObject *);
-  PyObject *(*applyPearsonCorrelation)(struct __pyx_obj_25Compute_Similarity_Cython_Compute_Similarity_Cython *, PyObject *);
-  PyObject *(*applyAdjustedCosine)(struct __pyx_obj_25Compute_Similarity_Cython_Compute_Similarity_Cython *, PyObject *);
-  __Pyx_memviewslice (*getUsersThatRatedItem)(struct __pyx_obj_25Compute_Similarity_Cython_Compute_Similarity_Cython *, long);
-  __Pyx_memviewslice (*getItemsRatedByUser)(struct __pyx_obj_25Compute_Similarity_Cython_Compute_Similarity_Cython *, long);
-  PyObject *(*computeItemSimilarities)(struct __pyx_obj_25Compute_Similarity_Cython_Compute_Similarity_Cython *, long);
+struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython {
+  PyObject *(*useOnlyBooleanInteractions)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython *, PyObject *);
+  PyObject *(*applyPearsonCorrelation)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython *, PyObject *);
+  PyObject *(*applyAdjustedCosine)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython *, PyObject *);
+  __Pyx_memviewslice (*getUsersThatRatedItem)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython *, long);
+  __Pyx_memviewslice (*getItemsRatedByUser)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython *, long);
+  PyObject *(*computeItemSimilarities)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython *, long);
 };
-static struct __pyx_vtabstruct_25Compute_Similarity_Cython_Compute_Similarity_Cython *__pyx_vtabptr_25Compute_Similarity_Cython_Compute_Similarity_Cython;
+static struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython *__pyx_vtabptr_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython;
 
 
 /* "View.MemoryView":114
@@ -2994,121 +2962,6 @@ static void __pyx_insert_code_object(int code_line, PyCodeObject* code_object);
 static void __Pyx_AddTraceback(const char *funcname, int c_line,
                                int py_line, const char *filename);
 
-/* ArrayAPI.proto */
-#ifndef _ARRAYARRAY_H
-#define _ARRAYARRAY_H
-typedef struct arraydescr {
-    int typecode;
-    int itemsize;
-    PyObject * (*getitem)(struct arrayobject *, Py_ssize_t);
-    int (*setitem)(struct arrayobject *, Py_ssize_t, PyObject *);
-#if PY_MAJOR_VERSION >= 3
-    char *formats;
-#endif
-} arraydescr;
-struct arrayobject {
-    PyObject_HEAD
-    Py_ssize_t ob_size;
-    union {
-        char *ob_item;
-        float *as_floats;
-        double *as_doubles;
-        int *as_ints;
-        unsigned int *as_uints;
-        unsigned char *as_uchars;
-        signed char *as_schars;
-        char *as_chars;
-        unsigned long *as_ulongs;
-        long *as_longs;
-#if PY_MAJOR_VERSION >= 3
-        unsigned long long *as_ulonglongs;
-        long long *as_longlongs;
-#endif
-        short *as_shorts;
-        unsigned short *as_ushorts;
-        Py_UNICODE *as_pyunicodes;
-        void *as_voidptr;
-    } data;
-    Py_ssize_t allocated;
-    struct arraydescr *ob_descr;
-    PyObject *weakreflist;
-#if PY_MAJOR_VERSION >= 3
-        int ob_exports;
-#endif
-};
-#ifndef NO_NEWARRAY_INLINE
-static CYTHON_INLINE PyObject * newarrayobject(PyTypeObject *type, Py_ssize_t size,
-    struct arraydescr *descr) {
-    arrayobject *op;
-    size_t nbytes;
-    if (size < 0) {
-        PyErr_BadInternalCall();
-        return NULL;
-    }
-    nbytes = size * descr->itemsize;
-    if (nbytes / descr->itemsize != (size_t)size) {
-        return PyErr_NoMemory();
-    }
-    op = (arrayobject *) type->tp_alloc(type, 0);
-    if (op == NULL) {
-        return NULL;
-    }
-    op->ob_descr = descr;
-    op->allocated = size;
-    op->weakreflist = NULL;
-    __Pyx_SET_SIZE(op, size);
-    if (size <= 0) {
-        op->data.ob_item = NULL;
-    }
-    else {
-        op->data.ob_item = PyMem_NEW(char, nbytes);
-        if (op->data.ob_item == NULL) {
-            Py_DECREF(op);
-            return PyErr_NoMemory();
-        }
-    }
-    return (PyObject *) op;
-}
-#else
-PyObject* newarrayobject(PyTypeObject *type, Py_ssize_t size,
-    struct arraydescr *descr);
-#endif
-static CYTHON_INLINE int resize(arrayobject *self, Py_ssize_t n) {
-    void *items = (void*) self->data.ob_item;
-    PyMem_Resize(items, char, (size_t)(n * self->ob_descr->itemsize));
-    if (items == NULL) {
-        PyErr_NoMemory();
-        return -1;
-    }
-    self->data.ob_item = (char*) items;
-    __Pyx_SET_SIZE(self, n);
-    self->allocated = n;
-    return 0;
-}
-static CYTHON_INLINE int resize_smart(arrayobject *self, Py_ssize_t n) {
-    void *items = (void*) self->data.ob_item;
-    Py_ssize_t newsize;
-    if (n < self->allocated && n*4 > self->allocated) {
-        __Pyx_SET_SIZE(self, n);
-        return 0;
-    }
-    newsize = n + (n / 2) + 1;
-    if (newsize <= n) {
-        PyErr_NoMemory();
-        return -1;
-    }
-    PyMem_Resize(items, char, (size_t)(newsize * self->ob_descr->itemsize));
-    if (items == NULL) {
-        PyErr_NoMemory();
-        return -1;
-    }
-    self->data.ob_item = (char*) items;
-    __Pyx_SET_SIZE(self, n);
-    self->allocated = newsize;
-    return 0;
-}
-#endif
-
 #if PY_MAJOR_VERSION < 3
     static int __Pyx_GetBuffer(PyObject *obj, Py_buffer *view, int flags);
     static void __Pyx_ReleaseBuffer(Py_buffer *view);
@@ -3359,12 +3212,12 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_5shape_shape(PyArrayObjec
 static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_7strides_strides(PyArrayObject *__pyx_v_self); /* proto*/
 static CYTHON_INLINE npy_intp __pyx_f_5numpy_7ndarray_4size_size(PyArrayObject *__pyx_v_self); /* proto*/
 static CYTHON_INLINE char *__pyx_f_5numpy_7ndarray_4data_data(PyArrayObject *__pyx_v_self); /* proto*/
-static PyObject *__pyx_f_25Compute_Similarity_Cython_25Compute_Similarity_Cython_useOnlyBooleanInteractions(CYTHON_UNUSED struct __pyx_obj_25Compute_Similarity_Cython_Compute_Similarity_Cython *__pyx_v_self, PyObject *__pyx_v_dataMatrix); /* proto*/
-static PyObject *__pyx_f_25Compute_Similarity_Cython_25Compute_Similarity_Cython_applyPearsonCorrelation(struct __pyx_obj_25Compute_Similarity_Cython_Compute_Similarity_Cython *__pyx_v_self, PyObject *__pyx_v_dataMatrix); /* proto*/
-static PyObject *__pyx_f_25Compute_Similarity_Cython_25Compute_Similarity_Cython_applyAdjustedCosine(struct __pyx_obj_25Compute_Similarity_Cython_Compute_Similarity_Cython *__pyx_v_self, PyObject *__pyx_v_dataMatrix); /* proto*/
-static __Pyx_memviewslice __pyx_f_25Compute_Similarity_Cython_25Compute_Similarity_Cython_getUsersThatRatedItem(struct __pyx_obj_25Compute_Similarity_Cython_Compute_Similarity_Cython *__pyx_v_self, long __pyx_v_item_id); /* proto*/
-static __Pyx_memviewslice __pyx_f_25Compute_Similarity_Cython_25Compute_Similarity_Cython_getItemsRatedByUser(struct __pyx_obj_25Compute_Similarity_Cython_Compute_Similarity_Cython *__pyx_v_self, long __pyx_v_user_id); /* proto*/
-static PyObject *__pyx_f_25Compute_Similarity_Cython_25Compute_Similarity_Cython_computeItemSimilarities(struct __pyx_obj_25Compute_Similarity_Cython_Compute_Similarity_Cython *__pyx_v_self, long __pyx_v_item_id_input); /* proto*/
+static PyObject *__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_25Compute_Similarity_Cython_useOnlyBooleanInteractions(CYTHON_UNUSED struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython *__pyx_v_self, PyObject *__pyx_v_dataMatrix); /* proto*/
+static PyObject *__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_25Compute_Similarity_Cython_applyPearsonCorrelation(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython *__pyx_v_self, PyObject *__pyx_v_dataMatrix); /* proto*/
+static PyObject *__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_25Compute_Similarity_Cython_applyAdjustedCosine(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython *__pyx_v_self, PyObject *__pyx_v_dataMatrix); /* proto*/
+static __Pyx_memviewslice __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_25Compute_Similarity_Cython_getUsersThatRatedItem(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython *__pyx_v_self, long __pyx_v_item_id); /* proto*/
+static __Pyx_memviewslice __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_25Compute_Similarity_Cython_getItemsRatedByUser(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython *__pyx_v_self, long __pyx_v_user_id); /* proto*/
+static PyObject *__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_25Compute_Similarity_Cython_computeItemSimilarities(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython *__pyx_v_self, long __pyx_v_item_id_input); /* proto*/
 
 /* Module declarations from "cython.view" */
 
@@ -3390,19 +3243,9 @@ static PyObject *__pyx_f_25Compute_Similarity_Cython_25Compute_Similarity_Cython
 
 /* Module declarations from "numpy" */
 
-/* Module declarations from "cpython.exc" */
-
-/* Module declarations from "cpython.mem" */
-
-/* Module declarations from "array" */
-
-/* Module declarations from "cpython.array" */
-static CYTHON_INLINE arrayobject *__pyx_f_7cpython_5array_clone(arrayobject *, Py_ssize_t, int); /*proto*/
-static CYTHON_INLINE int __pyx_f_7cpython_5array_extend_buffer(arrayobject *, char *, Py_ssize_t); /*proto*/
-
 /* Module declarations from "libc.math" */
 
-/* Module declarations from "Compute_Similarity_Cython" */
+/* Module declarations from "RecSysCompetition2024Polimi.libs.Recommenders.Similarity.Cython.Compute_Similarity_Cython" */
 static PyObject *__pyx_collections_abc_Sequence = 0;
 static PyObject *generic = 0;
 static PyObject *strided = 0;
@@ -3411,7 +3254,7 @@ static PyObject *contiguous = 0;
 static PyObject *indirect_contiguous = 0;
 static int __pyx_memoryview_thread_locks_used;
 static PyThread_type_lock __pyx_memoryview_thread_locks[8];
-static PyObject *__pyx_f_25Compute_Similarity_Cython___pyx_unpickle_Compute_Similarity_Cython__set_state(struct __pyx_obj_25Compute_Similarity_Cython_Compute_Similarity_Cython *, PyObject *); /*proto*/
+static PyObject *__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython___pyx_unpickle_Compute_Similarity_Cython__set_state(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython *, PyObject *); /*proto*/
 static int __pyx_array_allocate_buffer(struct __pyx_array_obj *); /*proto*/
 static struct __pyx_array_obj *__pyx_array_new(PyObject *, Py_ssize_t, char *, char *, char *); /*proto*/
 static PyObject *__pyx_memoryview_new(PyObject *, int, int, __Pyx_TypeInfo *); /*proto*/
@@ -3452,11 +3295,11 @@ static __Pyx_TypeInfo __Pyx_TypeInfo_PY_LONG_LONG = { "long long", NULL, sizeof(
 static __Pyx_TypeInfo __Pyx_TypeInfo_double = { "double", NULL, sizeof(double), { 0 }, 0, 'R', 0, 0 };
 static __Pyx_TypeInfo __Pyx_TypeInfo_int = { "int", NULL, sizeof(int), { 0 }, 0, __PYX_IS_UNSIGNED(int) ? 'U' : 'I', __PYX_IS_UNSIGNED(int), 0 };
 /* #### Code section: before_global_var ### */
-#define __Pyx_MODULE_NAME "Compute_Similarity_Cython"
-extern int __pyx_module_is_main_Compute_Similarity_Cython;
-int __pyx_module_is_main_Compute_Similarity_Cython = 0;
+#define __Pyx_MODULE_NAME "RecSysCompetition2024Polimi.libs.Recommenders.Similarity.Cython.Compute_Similarity_Cython"
+extern int __pyx_module_is_main_RecSysCompetition2024Polimi__libs__Recommenders__Similarity__Cython__Compute_Similarity_Cython;
+int __pyx_module_is_main_RecSysCompetition2024Polimi__libs__Recommenders__Similarity__Cython__Compute_Similarity_Cython = 0;
 
-/* Implementation of "Compute_Similarity_Cython" */
+/* Implementation of "RecSysCompetition2024Polimi.libs.Recommenders.Similarity.Cython.Compute_Similarity_Cython" */
 /* #### Code section: global_var ### */
 static PyObject *__pyx_builtin_super;
 static PyObject *__pyx_builtin_ValueError;
@@ -3657,9 +3500,7 @@ static const char __pyx_k_Index_out_of_bounds_axis_d[] = "Index out of bounds (a
 static const char __pyx_k_Step_may_not_be_zero_axis_d[] = "Step may not be zero (axis %d)";
 static const char __pyx_k_itemsize_0_for_cython_array[] = "itemsize <= 0 for cython.array";
 static const char __pyx_k_Compute_Similarity_Cython_pyx[] = "Compute_Similarity_Cython.pyx";
-static const char __pyx_k_Utils_seconds_to_biggest_unit[] = "Utils.seconds_to_biggest_unit";
 static const char __pyx_k_unable_to_allocate_array_data[] = "unable to allocate array data.";
-static const char __pyx_k_Recommenders_Recommender_utils[] = "Recommenders.Recommender_utils";
 static const char __pyx_k_pyx_unpickle_Compute_Similarit[] = "__pyx_unpickle_Compute_Similarity_Cython";
 static const char __pyx_k_strided_and_direct_or_indirect[] = "<strided and direct or indirect>";
 static const char __pyx_k_Created_on_23_10_17_author_Maur[] = "\nCreated on 23/10/17\n\n@author: Maurizio Ferrari Dacrema\n";
@@ -3680,10 +3521,13 @@ static const char __pyx_k_Incompatible_checksums_0x_x_vs_0[] = "Incompatible che
 static const char __pyx_k_Indirect_dimensions_not_supporte[] = "Indirect dimensions not supported";
 static const char __pyx_k_Invalid_mode_expected_c_or_fortr[] = "Invalid mode, expected 'c' or 'fortran', got ";
 static const char __pyx_k_Out_of_bounds_on_buffer_access_a[] = "Out of bounds on buffer access (axis ";
+static const char __pyx_k_RecSysCompetition2024Polimi_libs[] = "RecSysCompetition2024Polimi.libs.Recommenders.Similarity.Cython.Compute_Similarity_Cython";
 static const char __pyx_k_Similarity_column_4_1f_2f_column[] = "Similarity column {} ({:4.1f}%), {:.2f} column/sec. Elapsed time {:.2f} {}";
 static const char __pyx_k_TopK_must_be_between_0_and_the_n[] = "TopK must be between 0 and the number of columns";
 static const char __pyx_k_Unable_to_convert_item_to_object[] = "Unable to convert item to object";
 static const char __pyx_k_got_differing_extents_in_dimensi[] = "got differing extents in dimension ";
+static const char __pyx_k_libs_Recommenders_Recommender_ut[] = "libs.Recommenders.Recommender_utils";
+static const char __pyx_k_libs_Utils_seconds_to_biggest_un[] = "libs.Utils.seconds_to_biggest_unit";
 static const char __pyx_k_no_default___reduce___due_to_non[] = "no default __reduce__ due to non-trivial __cinit__";
 static const char __pyx_k_numpy_core_umath_failed_to_impor[] = "numpy.core.umath failed to import";
 static const char __pyx_k_unable_to_allocate_shape_and_str[] = "unable to allocate shape and strides.";
@@ -3730,14 +3574,12 @@ static void __pyx_memoryviewslice___pyx_pf_15View_dot_MemoryView_16_memoryviewsl
 static PyObject *__pyx_pf___pyx_memoryviewslice___reduce_cython__(CYTHON_UNUSED struct __pyx_memoryviewslice_obj *__pyx_v_self); /* proto */
 static PyObject *__pyx_pf___pyx_memoryviewslice_2__setstate_cython__(CYTHON_UNUSED struct __pyx_memoryviewslice_obj *__pyx_v_self, CYTHON_UNUSED PyObject *__pyx_v___pyx_state); /* proto */
 static PyObject *__pyx_pf_15View_dot_MemoryView___pyx_unpickle_Enum(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v___pyx_type, long __pyx_v___pyx_checksum, PyObject *__pyx_v___pyx_state); /* proto */
-static int __pyx_pf_7cpython_5array_5array___getbuffer__(arrayobject *__pyx_v_self, Py_buffer *__pyx_v_info, CYTHON_UNUSED int __pyx_v_flags); /* proto */
-static void __pyx_pf_7cpython_5array_5array_2__releasebuffer__(CYTHON_UNUSED arrayobject *__pyx_v_self, Py_buffer *__pyx_v_info); /* proto */
-static int __pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cython___init__(struct __pyx_obj_25Compute_Similarity_Cython_Compute_Similarity_Cython *__pyx_v_self, PyObject *__pyx_v_dataMatrix, PyObject *__pyx_v_topK, PyObject *__pyx_v_shrink, PyObject *__pyx_v_normalize, PyObject *__pyx_v_asymmetric_alpha, PyObject *__pyx_v_tversky_alpha, PyObject *__pyx_v_tversky_beta, PyObject *__pyx_v_similarity, PyObject *__pyx_v_row_weights, PyObject *__pyx_v_use_dense); /* proto */
-static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cython_2compute_similarity(struct __pyx_obj_25Compute_Similarity_Cython_Compute_Similarity_Cython *__pyx_v_self, PyObject *__pyx_v_start_col, PyObject *__pyx_v_end_col); /* proto */
-static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cython_4__reduce_cython__(struct __pyx_obj_25Compute_Similarity_Cython_Compute_Similarity_Cython *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cython_6__setstate_cython__(struct __pyx_obj_25Compute_Similarity_Cython_Compute_Similarity_Cython *__pyx_v_self, PyObject *__pyx_v___pyx_state); /* proto */
-static PyObject *__pyx_pf_25Compute_Similarity_Cython___pyx_unpickle_Compute_Similarity_Cython(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v___pyx_type, long __pyx_v___pyx_checksum, PyObject *__pyx_v___pyx_state); /* proto */
-static PyObject *__pyx_tp_new_25Compute_Similarity_Cython_Compute_Similarity_Cython(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
+static int __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_25Compute_Similarity_Cython___init__(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython *__pyx_v_self, PyObject *__pyx_v_dataMatrix, PyObject *__pyx_v_topK, PyObject *__pyx_v_shrink, PyObject *__pyx_v_normalize, PyObject *__pyx_v_asymmetric_alpha, PyObject *__pyx_v_tversky_alpha, PyObject *__pyx_v_tversky_beta, PyObject *__pyx_v_similarity, PyObject *__pyx_v_row_weights, PyObject *__pyx_v_use_dense); /* proto */
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_25Compute_Similarity_Cython_2compute_similarity(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython *__pyx_v_self, PyObject *__pyx_v_start_col, PyObject *__pyx_v_end_col); /* proto */
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_25Compute_Similarity_Cython_4__reduce_cython__(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_25Compute_Similarity_Cython_6__setstate_cython__(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython *__pyx_v_self, PyObject *__pyx_v___pyx_state); /* proto */
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython___pyx_unpickle_Compute_Similarity_Cython(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v___pyx_type, long __pyx_v___pyx_checksum, PyObject *__pyx_v___pyx_state); /* proto */
+static PyObject *__pyx_tp_new_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
 static PyObject *__pyx_tp_new_array(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
 static PyObject *__pyx_tp_new_Enum(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
 static PyObject *__pyx_tp_new_memoryview(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
@@ -3812,22 +3654,13 @@ typedef struct {
   #if CYTHON_USE_MODULE_STATE
   #endif
   #if CYTHON_USE_MODULE_STATE
-  #endif
-  #if CYTHON_USE_MODULE_STATE
-  #endif
-  #if CYTHON_USE_MODULE_STATE
-  #endif
-  PyTypeObject *__pyx_ptype_7cpython_5array_array;
-  #if CYTHON_USE_MODULE_STATE
-  #endif
-  #if CYTHON_USE_MODULE_STATE
-  PyObject *__pyx_type_25Compute_Similarity_Cython_Compute_Similarity_Cython;
+  PyObject *__pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython;
   PyObject *__pyx_type___pyx_array;
   PyObject *__pyx_type___pyx_MemviewEnum;
   PyObject *__pyx_type___pyx_memoryview;
   PyObject *__pyx_type___pyx_memoryviewslice;
   #endif
-  PyTypeObject *__pyx_ptype_25Compute_Similarity_Cython_Compute_Similarity_Cython;
+  PyTypeObject *__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython;
   PyTypeObject *__pyx_array_type;
   PyTypeObject *__pyx_MemviewEnum_type;
   PyTypeObject *__pyx_memoryview_type;
@@ -3866,14 +3699,13 @@ typedef struct {
   PyObject *__pyx_n_b_O;
   PyObject *__pyx_kp_u_Out_of_bounds_on_buffer_access_a;
   PyObject *__pyx_n_s_PickleError;
-  PyObject *__pyx_n_s_Recommenders_Recommender_utils;
+  PyObject *__pyx_n_s_RecSysCompetition2024Polimi_libs;
   PyObject *__pyx_n_s_Sequence;
   PyObject *__pyx_kp_s_Similarity_column_4_1f_2f_column;
   PyObject *__pyx_kp_s_Step_may_not_be_zero_axis_d;
   PyObject *__pyx_kp_s_TopK_must_be_between_0_and_the_n;
   PyObject *__pyx_n_s_TypeError;
   PyObject *__pyx_kp_s_Unable_to_convert_item_to_object;
-  PyObject *__pyx_n_s_Utils_seconds_to_biggest_unit;
   PyObject *__pyx_n_s_ValueError;
   PyObject *__pyx_n_s_View_MemoryView;
   PyObject *__pyx_n_s_W_sparse;
@@ -3956,6 +3788,8 @@ typedef struct {
   PyObject *__pyx_kp_s_itemsize_0_for_cython_array;
   PyObject *__pyx_n_s_jaccard;
   PyObject *__pyx_n_s_last_print_time;
+  PyObject *__pyx_n_s_libs_Recommenders_Recommender_ut;
+  PyObject *__pyx_n_s_libs_Utils_seconds_to_biggest_un;
   PyObject *__pyx_n_s_local_topK;
   PyObject *__pyx_n_s_main;
   PyObject *__pyx_n_s_max_cells;
@@ -4149,9 +3983,8 @@ static int __pyx_m_clear(PyObject *m) {
   Py_CLEAR(clear_module_state->__pyx_ptype_5numpy_flexible);
   Py_CLEAR(clear_module_state->__pyx_ptype_5numpy_character);
   Py_CLEAR(clear_module_state->__pyx_ptype_5numpy_ufunc);
-  Py_CLEAR(clear_module_state->__pyx_ptype_7cpython_5array_array);
-  Py_CLEAR(clear_module_state->__pyx_ptype_25Compute_Similarity_Cython_Compute_Similarity_Cython);
-  Py_CLEAR(clear_module_state->__pyx_type_25Compute_Similarity_Cython_Compute_Similarity_Cython);
+  Py_CLEAR(clear_module_state->__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython);
+  Py_CLEAR(clear_module_state->__pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython);
   Py_CLEAR(clear_module_state->__pyx_array_type);
   Py_CLEAR(clear_module_state->__pyx_type___pyx_array);
   Py_CLEAR(clear_module_state->__pyx_MemviewEnum_type);
@@ -4194,14 +4027,13 @@ static int __pyx_m_clear(PyObject *m) {
   Py_CLEAR(clear_module_state->__pyx_n_b_O);
   Py_CLEAR(clear_module_state->__pyx_kp_u_Out_of_bounds_on_buffer_access_a);
   Py_CLEAR(clear_module_state->__pyx_n_s_PickleError);
-  Py_CLEAR(clear_module_state->__pyx_n_s_Recommenders_Recommender_utils);
+  Py_CLEAR(clear_module_state->__pyx_n_s_RecSysCompetition2024Polimi_libs);
   Py_CLEAR(clear_module_state->__pyx_n_s_Sequence);
   Py_CLEAR(clear_module_state->__pyx_kp_s_Similarity_column_4_1f_2f_column);
   Py_CLEAR(clear_module_state->__pyx_kp_s_Step_may_not_be_zero_axis_d);
   Py_CLEAR(clear_module_state->__pyx_kp_s_TopK_must_be_between_0_and_the_n);
   Py_CLEAR(clear_module_state->__pyx_n_s_TypeError);
   Py_CLEAR(clear_module_state->__pyx_kp_s_Unable_to_convert_item_to_object);
-  Py_CLEAR(clear_module_state->__pyx_n_s_Utils_seconds_to_biggest_unit);
   Py_CLEAR(clear_module_state->__pyx_n_s_ValueError);
   Py_CLEAR(clear_module_state->__pyx_n_s_View_MemoryView);
   Py_CLEAR(clear_module_state->__pyx_n_s_W_sparse);
@@ -4284,6 +4116,8 @@ static int __pyx_m_clear(PyObject *m) {
   Py_CLEAR(clear_module_state->__pyx_kp_s_itemsize_0_for_cython_array);
   Py_CLEAR(clear_module_state->__pyx_n_s_jaccard);
   Py_CLEAR(clear_module_state->__pyx_n_s_last_print_time);
+  Py_CLEAR(clear_module_state->__pyx_n_s_libs_Recommenders_Recommender_ut);
+  Py_CLEAR(clear_module_state->__pyx_n_s_libs_Utils_seconds_to_biggest_un);
   Py_CLEAR(clear_module_state->__pyx_n_s_local_topK);
   Py_CLEAR(clear_module_state->__pyx_n_s_main);
   Py_CLEAR(clear_module_state->__pyx_n_s_max_cells);
@@ -4455,9 +4289,8 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
   Py_VISIT(traverse_module_state->__pyx_ptype_5numpy_flexible);
   Py_VISIT(traverse_module_state->__pyx_ptype_5numpy_character);
   Py_VISIT(traverse_module_state->__pyx_ptype_5numpy_ufunc);
-  Py_VISIT(traverse_module_state->__pyx_ptype_7cpython_5array_array);
-  Py_VISIT(traverse_module_state->__pyx_ptype_25Compute_Similarity_Cython_Compute_Similarity_Cython);
-  Py_VISIT(traverse_module_state->__pyx_type_25Compute_Similarity_Cython_Compute_Similarity_Cython);
+  Py_VISIT(traverse_module_state->__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython);
+  Py_VISIT(traverse_module_state->__pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython);
   Py_VISIT(traverse_module_state->__pyx_array_type);
   Py_VISIT(traverse_module_state->__pyx_type___pyx_array);
   Py_VISIT(traverse_module_state->__pyx_MemviewEnum_type);
@@ -4500,14 +4333,13 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
   Py_VISIT(traverse_module_state->__pyx_n_b_O);
   Py_VISIT(traverse_module_state->__pyx_kp_u_Out_of_bounds_on_buffer_access_a);
   Py_VISIT(traverse_module_state->__pyx_n_s_PickleError);
-  Py_VISIT(traverse_module_state->__pyx_n_s_Recommenders_Recommender_utils);
+  Py_VISIT(traverse_module_state->__pyx_n_s_RecSysCompetition2024Polimi_libs);
   Py_VISIT(traverse_module_state->__pyx_n_s_Sequence);
   Py_VISIT(traverse_module_state->__pyx_kp_s_Similarity_column_4_1f_2f_column);
   Py_VISIT(traverse_module_state->__pyx_kp_s_Step_may_not_be_zero_axis_d);
   Py_VISIT(traverse_module_state->__pyx_kp_s_TopK_must_be_between_0_and_the_n);
   Py_VISIT(traverse_module_state->__pyx_n_s_TypeError);
   Py_VISIT(traverse_module_state->__pyx_kp_s_Unable_to_convert_item_to_object);
-  Py_VISIT(traverse_module_state->__pyx_n_s_Utils_seconds_to_biggest_unit);
   Py_VISIT(traverse_module_state->__pyx_n_s_ValueError);
   Py_VISIT(traverse_module_state->__pyx_n_s_View_MemoryView);
   Py_VISIT(traverse_module_state->__pyx_n_s_W_sparse);
@@ -4590,6 +4422,8 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
   Py_VISIT(traverse_module_state->__pyx_kp_s_itemsize_0_for_cython_array);
   Py_VISIT(traverse_module_state->__pyx_n_s_jaccard);
   Py_VISIT(traverse_module_state->__pyx_n_s_last_print_time);
+  Py_VISIT(traverse_module_state->__pyx_n_s_libs_Recommenders_Recommender_ut);
+  Py_VISIT(traverse_module_state->__pyx_n_s_libs_Utils_seconds_to_biggest_un);
   Py_VISIT(traverse_module_state->__pyx_n_s_local_topK);
   Py_VISIT(traverse_module_state->__pyx_n_s_main);
   Py_VISIT(traverse_module_state->__pyx_n_s_max_cells);
@@ -4796,22 +4630,13 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #if CYTHON_USE_MODULE_STATE
 #endif
 #if CYTHON_USE_MODULE_STATE
-#endif
-#if CYTHON_USE_MODULE_STATE
-#endif
-#if CYTHON_USE_MODULE_STATE
-#endif
-#define __pyx_ptype_7cpython_5array_array __pyx_mstate_global->__pyx_ptype_7cpython_5array_array
-#if CYTHON_USE_MODULE_STATE
-#endif
-#if CYTHON_USE_MODULE_STATE
-#define __pyx_type_25Compute_Similarity_Cython_Compute_Similarity_Cython __pyx_mstate_global->__pyx_type_25Compute_Similarity_Cython_Compute_Similarity_Cython
+#define __pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython __pyx_mstate_global->__pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython
 #define __pyx_type___pyx_array __pyx_mstate_global->__pyx_type___pyx_array
 #define __pyx_type___pyx_MemviewEnum __pyx_mstate_global->__pyx_type___pyx_MemviewEnum
 #define __pyx_type___pyx_memoryview __pyx_mstate_global->__pyx_type___pyx_memoryview
 #define __pyx_type___pyx_memoryviewslice __pyx_mstate_global->__pyx_type___pyx_memoryviewslice
 #endif
-#define __pyx_ptype_25Compute_Similarity_Cython_Compute_Similarity_Cython __pyx_mstate_global->__pyx_ptype_25Compute_Similarity_Cython_Compute_Similarity_Cython
+#define __pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython __pyx_mstate_global->__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython
 #define __pyx_array_type __pyx_mstate_global->__pyx_array_type
 #define __pyx_MemviewEnum_type __pyx_mstate_global->__pyx_MemviewEnum_type
 #define __pyx_memoryview_type __pyx_mstate_global->__pyx_memoryview_type
@@ -4850,14 +4675,13 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #define __pyx_n_b_O __pyx_mstate_global->__pyx_n_b_O
 #define __pyx_kp_u_Out_of_bounds_on_buffer_access_a __pyx_mstate_global->__pyx_kp_u_Out_of_bounds_on_buffer_access_a
 #define __pyx_n_s_PickleError __pyx_mstate_global->__pyx_n_s_PickleError
-#define __pyx_n_s_Recommenders_Recommender_utils __pyx_mstate_global->__pyx_n_s_Recommenders_Recommender_utils
+#define __pyx_n_s_RecSysCompetition2024Polimi_libs __pyx_mstate_global->__pyx_n_s_RecSysCompetition2024Polimi_libs
 #define __pyx_n_s_Sequence __pyx_mstate_global->__pyx_n_s_Sequence
 #define __pyx_kp_s_Similarity_column_4_1f_2f_column __pyx_mstate_global->__pyx_kp_s_Similarity_column_4_1f_2f_column
 #define __pyx_kp_s_Step_may_not_be_zero_axis_d __pyx_mstate_global->__pyx_kp_s_Step_may_not_be_zero_axis_d
 #define __pyx_kp_s_TopK_must_be_between_0_and_the_n __pyx_mstate_global->__pyx_kp_s_TopK_must_be_between_0_and_the_n
 #define __pyx_n_s_TypeError __pyx_mstate_global->__pyx_n_s_TypeError
 #define __pyx_kp_s_Unable_to_convert_item_to_object __pyx_mstate_global->__pyx_kp_s_Unable_to_convert_item_to_object
-#define __pyx_n_s_Utils_seconds_to_biggest_unit __pyx_mstate_global->__pyx_n_s_Utils_seconds_to_biggest_unit
 #define __pyx_n_s_ValueError __pyx_mstate_global->__pyx_n_s_ValueError
 #define __pyx_n_s_View_MemoryView __pyx_mstate_global->__pyx_n_s_View_MemoryView
 #define __pyx_n_s_W_sparse __pyx_mstate_global->__pyx_n_s_W_sparse
@@ -4940,6 +4764,8 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #define __pyx_kp_s_itemsize_0_for_cython_array __pyx_mstate_global->__pyx_kp_s_itemsize_0_for_cython_array
 #define __pyx_n_s_jaccard __pyx_mstate_global->__pyx_n_s_jaccard
 #define __pyx_n_s_last_print_time __pyx_mstate_global->__pyx_n_s_last_print_time
+#define __pyx_n_s_libs_Recommenders_Recommender_ut __pyx_mstate_global->__pyx_n_s_libs_Recommenders_Recommender_ut
+#define __pyx_n_s_libs_Utils_seconds_to_biggest_un __pyx_mstate_global->__pyx_n_s_libs_Utils_seconds_to_biggest_un
 #define __pyx_n_s_local_topK __pyx_mstate_global->__pyx_n_s_local_topK
 #define __pyx_n_s_main __pyx_mstate_global->__pyx_n_s_main
 #define __pyx_n_s_max_cells __pyx_mstate_global->__pyx_n_s_max_cells
@@ -18705,7 +18531,7 @@ static PyObject *__pyx_unpickle_Enum__set_state(struct __pyx_MemviewEnum_obj *__
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":246
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":245
  * 
  *         @property
  *         cdef inline PyObject* base(self) nogil:             # <<<<<<<<<<<<<<
@@ -18716,7 +18542,7 @@ static PyObject *__pyx_unpickle_Enum__set_state(struct __pyx_MemviewEnum_obj *__
 static CYTHON_INLINE PyObject *__pyx_f_5numpy_7ndarray_4base_base(PyArrayObject *__pyx_v_self) {
   PyObject *__pyx_r;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":249
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":248
  *             """Returns a borrowed reference to the object owning the data/memory.
  *             """
  *             return PyArray_BASE(self)             # <<<<<<<<<<<<<<
@@ -18726,7 +18552,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_7ndarray_4base_base(PyArrayObject 
   __pyx_r = PyArray_BASE(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":246
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":245
  * 
  *         @property
  *         cdef inline PyObject* base(self) nogil:             # <<<<<<<<<<<<<<
@@ -18739,7 +18565,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_7ndarray_4base_base(PyArrayObject 
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":252
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":251
  * 
  *         @property
  *         cdef inline dtype descr(self):             # <<<<<<<<<<<<<<
@@ -18753,7 +18579,7 @@ static CYTHON_INLINE PyArray_Descr *__pyx_f_5numpy_7ndarray_5descr_descr(PyArray
   PyArray_Descr *__pyx_t_1;
   __Pyx_RefNannySetupContext("descr", 1);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":255
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":254
  *             """Returns an owned reference to the dtype of the array.
  *             """
  *             return <dtype>PyArray_DESCR(self)             # <<<<<<<<<<<<<<
@@ -18766,7 +18592,7 @@ static CYTHON_INLINE PyArray_Descr *__pyx_f_5numpy_7ndarray_5descr_descr(PyArray
   __pyx_r = ((PyArray_Descr *)__pyx_t_1);
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":252
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":251
  * 
  *         @property
  *         cdef inline dtype descr(self):             # <<<<<<<<<<<<<<
@@ -18781,7 +18607,7 @@ static CYTHON_INLINE PyArray_Descr *__pyx_f_5numpy_7ndarray_5descr_descr(PyArray
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":258
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":257
  * 
  *         @property
  *         cdef inline int ndim(self) nogil:             # <<<<<<<<<<<<<<
@@ -18792,7 +18618,7 @@ static CYTHON_INLINE PyArray_Descr *__pyx_f_5numpy_7ndarray_5descr_descr(PyArray
 static CYTHON_INLINE int __pyx_f_5numpy_7ndarray_4ndim_ndim(PyArrayObject *__pyx_v_self) {
   int __pyx_r;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":261
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":260
  *             """Returns the number of dimensions in the array.
  *             """
  *             return PyArray_NDIM(self)             # <<<<<<<<<<<<<<
@@ -18802,7 +18628,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_7ndarray_4ndim_ndim(PyArrayObject *__pyx
   __pyx_r = PyArray_NDIM(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":258
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":257
  * 
  *         @property
  *         cdef inline int ndim(self) nogil:             # <<<<<<<<<<<<<<
@@ -18815,7 +18641,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_7ndarray_4ndim_ndim(PyArrayObject *__pyx
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":264
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":263
  * 
  *         @property
  *         cdef inline npy_intp *shape(self) nogil:             # <<<<<<<<<<<<<<
@@ -18826,7 +18652,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_7ndarray_4ndim_ndim(PyArrayObject *__pyx
 static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_5shape_shape(PyArrayObject *__pyx_v_self) {
   npy_intp *__pyx_r;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":269
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":268
  *             Can return NULL for 0-dimensional arrays.
  *             """
  *             return PyArray_DIMS(self)             # <<<<<<<<<<<<<<
@@ -18836,7 +18662,7 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_5shape_shape(PyArrayObjec
   __pyx_r = PyArray_DIMS(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":264
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":263
  * 
  *         @property
  *         cdef inline npy_intp *shape(self) nogil:             # <<<<<<<<<<<<<<
@@ -18849,7 +18675,7 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_5shape_shape(PyArrayObjec
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":272
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":271
  * 
  *         @property
  *         cdef inline npy_intp *strides(self) nogil:             # <<<<<<<<<<<<<<
@@ -18860,7 +18686,7 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_5shape_shape(PyArrayObjec
 static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_7strides_strides(PyArrayObject *__pyx_v_self) {
   npy_intp *__pyx_r;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":276
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":275
  *             The number of elements matches the number of dimensions of the array (ndim).
  *             """
  *             return PyArray_STRIDES(self)             # <<<<<<<<<<<<<<
@@ -18870,7 +18696,7 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_7strides_strides(PyArrayO
   __pyx_r = PyArray_STRIDES(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":272
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":271
  * 
  *         @property
  *         cdef inline npy_intp *strides(self) nogil:             # <<<<<<<<<<<<<<
@@ -18883,7 +18709,7 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_7strides_strides(PyArrayO
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":279
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":278
  * 
  *         @property
  *         cdef inline npy_intp size(self) nogil:             # <<<<<<<<<<<<<<
@@ -18894,7 +18720,7 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_7strides_strides(PyArrayO
 static CYTHON_INLINE npy_intp __pyx_f_5numpy_7ndarray_4size_size(PyArrayObject *__pyx_v_self) {
   npy_intp __pyx_r;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":282
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":281
  *             """Returns the total size (in number of elements) of the array.
  *             """
  *             return PyArray_SIZE(self)             # <<<<<<<<<<<<<<
@@ -18904,7 +18730,7 @@ static CYTHON_INLINE npy_intp __pyx_f_5numpy_7ndarray_4size_size(PyArrayObject *
   __pyx_r = PyArray_SIZE(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":279
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":278
  * 
  *         @property
  *         cdef inline npy_intp size(self) nogil:             # <<<<<<<<<<<<<<
@@ -18917,7 +18743,7 @@ static CYTHON_INLINE npy_intp __pyx_f_5numpy_7ndarray_4size_size(PyArrayObject *
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":285
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":284
  * 
  *         @property
  *         cdef inline char* data(self) nogil:             # <<<<<<<<<<<<<<
@@ -18928,7 +18754,7 @@ static CYTHON_INLINE npy_intp __pyx_f_5numpy_7ndarray_4size_size(PyArrayObject *
 static CYTHON_INLINE char *__pyx_f_5numpy_7ndarray_4data_data(PyArrayObject *__pyx_v_self) {
   char *__pyx_r;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":291
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":290
  *             of `PyArray_DATA()` instead, which returns a 'void*'.
  *             """
  *             return PyArray_BYTES(self)             # <<<<<<<<<<<<<<
@@ -18938,7 +18764,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy_7ndarray_4data_data(PyArrayObject *__p
   __pyx_r = PyArray_BYTES(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":285
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":284
  * 
  *         @property
  *         cdef inline char* data(self) nogil:             # <<<<<<<<<<<<<<
@@ -18951,7 +18777,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy_7ndarray_4data_data(PyArrayObject *__p
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":777
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":773
  * ctypedef npy_cdouble     complex_t
  * 
  * cdef inline object PyArray_MultiIterNew1(a):             # <<<<<<<<<<<<<<
@@ -18968,7 +18794,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew1", 1);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":778
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":774
  * 
  * cdef inline object PyArray_MultiIterNew1(a):
  *     return PyArray_MultiIterNew(1, <void*>a)             # <<<<<<<<<<<<<<
@@ -18976,13 +18802,13 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
  * cdef inline object PyArray_MultiIterNew2(a, b):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = PyArray_MultiIterNew(1, ((void *)__pyx_v_a)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 778, __pyx_L1_error)
+  __pyx_t_1 = PyArray_MultiIterNew(1, ((void *)__pyx_v_a)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 774, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":777
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":773
  * ctypedef npy_cdouble     complex_t
  * 
  * cdef inline object PyArray_MultiIterNew1(a):             # <<<<<<<<<<<<<<
@@ -19001,7 +18827,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":780
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":776
  *     return PyArray_MultiIterNew(1, <void*>a)
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):             # <<<<<<<<<<<<<<
@@ -19018,7 +18844,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew2", 1);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":781
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":777
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)             # <<<<<<<<<<<<<<
@@ -19026,13 +18852,13 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
  * cdef inline object PyArray_MultiIterNew3(a, b, c):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = PyArray_MultiIterNew(2, ((void *)__pyx_v_a), ((void *)__pyx_v_b)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 781, __pyx_L1_error)
+  __pyx_t_1 = PyArray_MultiIterNew(2, ((void *)__pyx_v_a), ((void *)__pyx_v_b)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 777, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":780
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":776
  *     return PyArray_MultiIterNew(1, <void*>a)
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):             # <<<<<<<<<<<<<<
@@ -19051,7 +18877,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":783
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":779
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):             # <<<<<<<<<<<<<<
@@ -19068,7 +18894,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew3", 1);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":784
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":780
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)             # <<<<<<<<<<<<<<
@@ -19076,13 +18902,13 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = PyArray_MultiIterNew(3, ((void *)__pyx_v_a), ((void *)__pyx_v_b), ((void *)__pyx_v_c)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 784, __pyx_L1_error)
+  __pyx_t_1 = PyArray_MultiIterNew(3, ((void *)__pyx_v_a), ((void *)__pyx_v_b), ((void *)__pyx_v_c)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 780, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":783
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":779
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):             # <<<<<<<<<<<<<<
@@ -19101,7 +18927,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":786
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":782
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):             # <<<<<<<<<<<<<<
@@ -19118,7 +18944,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew4", 1);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":787
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":783
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)             # <<<<<<<<<<<<<<
@@ -19126,13 +18952,13 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = PyArray_MultiIterNew(4, ((void *)__pyx_v_a), ((void *)__pyx_v_b), ((void *)__pyx_v_c), ((void *)__pyx_v_d)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 787, __pyx_L1_error)
+  __pyx_t_1 = PyArray_MultiIterNew(4, ((void *)__pyx_v_a), ((void *)__pyx_v_b), ((void *)__pyx_v_c), ((void *)__pyx_v_d)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 783, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":786
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":782
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):             # <<<<<<<<<<<<<<
@@ -19151,7 +18977,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":789
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":785
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):             # <<<<<<<<<<<<<<
@@ -19168,7 +18994,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew5", 1);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":790
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":786
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)             # <<<<<<<<<<<<<<
@@ -19176,13 +19002,13 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = PyArray_MultiIterNew(5, ((void *)__pyx_v_a), ((void *)__pyx_v_b), ((void *)__pyx_v_c), ((void *)__pyx_v_d), ((void *)__pyx_v_e)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 790, __pyx_L1_error)
+  __pyx_t_1 = PyArray_MultiIterNew(5, ((void *)__pyx_v_a), ((void *)__pyx_v_b), ((void *)__pyx_v_c), ((void *)__pyx_v_d), ((void *)__pyx_v_e)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 786, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":789
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":785
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):             # <<<<<<<<<<<<<<
@@ -19201,7 +19027,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":792
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":788
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):             # <<<<<<<<<<<<<<
@@ -19215,7 +19041,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
   int __pyx_t_1;
   __Pyx_RefNannySetupContext("PyDataType_SHAPE", 1);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":793
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":789
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):             # <<<<<<<<<<<<<<
@@ -19225,7 +19051,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
   __pyx_t_1 = PyDataType_HASSUBARRAY(__pyx_v_d);
   if (__pyx_t_1) {
 
-    /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":794
+    /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":790
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):
  *         return <tuple>d.subarray.shape             # <<<<<<<<<<<<<<
@@ -19237,7 +19063,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
     __pyx_r = ((PyObject*)__pyx_v_d->subarray->shape);
     goto __pyx_L0;
 
-    /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":793
+    /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":789
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):             # <<<<<<<<<<<<<<
@@ -19246,7 +19072,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
  */
   }
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":796
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":792
  *         return <tuple>d.subarray.shape
  *     else:
  *         return ()             # <<<<<<<<<<<<<<
@@ -19260,7 +19086,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
     goto __pyx_L0;
   }
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":792
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":788
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):             # <<<<<<<<<<<<<<
@@ -19275,7 +19101,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":971
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":968
  *     int _import_umath() except -1
  * 
  * cdef inline void set_array_base(ndarray arr, object base):             # <<<<<<<<<<<<<<
@@ -19284,8 +19110,12 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
  */
 
 static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_arr, PyObject *__pyx_v_base) {
+  int __pyx_t_1;
+  int __pyx_lineno = 0;
+  const char *__pyx_filename = NULL;
+  int __pyx_clineno = 0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":972
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":969
  * 
  * cdef inline void set_array_base(ndarray arr, object base):
  *     Py_INCREF(base) # important to do this before stealing the reference below!             # <<<<<<<<<<<<<<
@@ -19294,16 +19124,16 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
  */
   Py_INCREF(__pyx_v_base);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":973
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":970
  * cdef inline void set_array_base(ndarray arr, object base):
  *     Py_INCREF(base) # important to do this before stealing the reference below!
  *     PyArray_SetBaseObject(arr, base)             # <<<<<<<<<<<<<<
  * 
  * cdef inline object get_array_base(ndarray arr):
  */
-  (void)(PyArray_SetBaseObject(__pyx_v_arr, __pyx_v_base));
+  __pyx_t_1 = PyArray_SetBaseObject(__pyx_v_arr, __pyx_v_base); if (unlikely(__pyx_t_1 == ((int)-1))) __PYX_ERR(2, 970, __pyx_L1_error)
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":971
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":968
  *     int _import_umath() except -1
  * 
  * cdef inline void set_array_base(ndarray arr, object base):             # <<<<<<<<<<<<<<
@@ -19312,9 +19142,13 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
  */
 
   /* function exit code */
+  goto __pyx_L0;
+  __pyx_L1_error:;
+  __Pyx_AddTraceback("numpy.set_array_base", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __pyx_L0:;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":975
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":972
  *     PyArray_SetBaseObject(arr, base)
  * 
  * cdef inline object get_array_base(ndarray arr):             # <<<<<<<<<<<<<<
@@ -19329,7 +19163,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   int __pyx_t_1;
   __Pyx_RefNannySetupContext("get_array_base", 1);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":976
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":973
  * 
  * cdef inline object get_array_base(ndarray arr):
  *     base = PyArray_BASE(arr)             # <<<<<<<<<<<<<<
@@ -19338,7 +19172,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
  */
   __pyx_v_base = PyArray_BASE(__pyx_v_arr);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":977
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":974
  * cdef inline object get_array_base(ndarray arr):
  *     base = PyArray_BASE(arr)
  *     if base is NULL:             # <<<<<<<<<<<<<<
@@ -19348,7 +19182,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   __pyx_t_1 = (__pyx_v_base == NULL);
   if (__pyx_t_1) {
 
-    /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":978
+    /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":975
  *     base = PyArray_BASE(arr)
  *     if base is NULL:
  *         return None             # <<<<<<<<<<<<<<
@@ -19359,7 +19193,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
     __pyx_r = Py_None; __Pyx_INCREF(Py_None);
     goto __pyx_L0;
 
-    /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":977
+    /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":974
  * cdef inline object get_array_base(ndarray arr):
  *     base = PyArray_BASE(arr)
  *     if base is NULL:             # <<<<<<<<<<<<<<
@@ -19368,7 +19202,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
  */
   }
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":979
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":976
  *     if base is NULL:
  *         return None
  *     return <object>base             # <<<<<<<<<<<<<<
@@ -19380,7 +19214,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   __pyx_r = ((PyObject *)__pyx_v_base);
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":975
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":972
  *     PyArray_SetBaseObject(arr, base)
  * 
  * cdef inline object get_array_base(ndarray arr):             # <<<<<<<<<<<<<<
@@ -19395,7 +19229,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":983
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":980
  * # Versions of the import_* functions which are more suitable for
  * # Cython code.
  * cdef inline int import_array() except -1:             # <<<<<<<<<<<<<<
@@ -19419,7 +19253,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("import_array", 1);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":984
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":981
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -19435,16 +19269,16 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":985
+      /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":982
  * cdef inline int import_array() except -1:
  *     try:
  *         __pyx_import_array()             # <<<<<<<<<<<<<<
  *     except Exception:
  *         raise ImportError("numpy.core.multiarray failed to import")
  */
-      __pyx_t_4 = _import_array(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(2, 985, __pyx_L3_error)
+      __pyx_t_4 = _import_array(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(2, 982, __pyx_L3_error)
 
-      /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":984
+      /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":981
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -19458,7 +19292,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     goto __pyx_L8_try_end;
     __pyx_L3_error:;
 
-    /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":986
+    /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":983
  *     try:
  *         __pyx_import_array()
  *     except Exception:             # <<<<<<<<<<<<<<
@@ -19468,27 +19302,27 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     __pyx_t_4 = __Pyx_PyErr_ExceptionMatches(((PyObject *)(&((PyTypeObject*)PyExc_Exception)[0])));
     if (__pyx_t_4) {
       __Pyx_AddTraceback("numpy.import_array", __pyx_clineno, __pyx_lineno, __pyx_filename);
-      if (__Pyx_GetException(&__pyx_t_5, &__pyx_t_6, &__pyx_t_7) < 0) __PYX_ERR(2, 986, __pyx_L5_except_error)
+      if (__Pyx_GetException(&__pyx_t_5, &__pyx_t_6, &__pyx_t_7) < 0) __PYX_ERR(2, 983, __pyx_L5_except_error)
       __Pyx_XGOTREF(__pyx_t_5);
       __Pyx_XGOTREF(__pyx_t_6);
       __Pyx_XGOTREF(__pyx_t_7);
 
-      /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":987
+      /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":984
  *         __pyx_import_array()
  *     except Exception:
  *         raise ImportError("numpy.core.multiarray failed to import")             # <<<<<<<<<<<<<<
  * 
  * cdef inline int import_umath() except -1:
  */
-      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__9, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(2, 987, __pyx_L5_except_error)
+      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__9, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(2, 984, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_8);
       __Pyx_Raise(__pyx_t_8, 0, 0, 0);
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-      __PYX_ERR(2, 987, __pyx_L5_except_error)
+      __PYX_ERR(2, 984, __pyx_L5_except_error)
     }
     goto __pyx_L5_except_error;
 
-    /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":984
+    /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":981
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -19504,7 +19338,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     __pyx_L8_try_end:;
   }
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":983
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":980
  * # Versions of the import_* functions which are more suitable for
  * # Cython code.
  * cdef inline int import_array() except -1:             # <<<<<<<<<<<<<<
@@ -19527,7 +19361,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":989
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":986
  *         raise ImportError("numpy.core.multiarray failed to import")
  * 
  * cdef inline int import_umath() except -1:             # <<<<<<<<<<<<<<
@@ -19551,7 +19385,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("import_umath", 1);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":990
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":987
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -19567,16 +19401,16 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":991
+      /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":988
  * cdef inline int import_umath() except -1:
  *     try:
  *         _import_umath()             # <<<<<<<<<<<<<<
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")
  */
-      __pyx_t_4 = _import_umath(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(2, 991, __pyx_L3_error)
+      __pyx_t_4 = _import_umath(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(2, 988, __pyx_L3_error)
 
-      /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":990
+      /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":987
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -19590,7 +19424,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     goto __pyx_L8_try_end;
     __pyx_L3_error:;
 
-    /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":992
+    /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":989
  *     try:
  *         _import_umath()
  *     except Exception:             # <<<<<<<<<<<<<<
@@ -19600,27 +19434,27 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     __pyx_t_4 = __Pyx_PyErr_ExceptionMatches(((PyObject *)(&((PyTypeObject*)PyExc_Exception)[0])));
     if (__pyx_t_4) {
       __Pyx_AddTraceback("numpy.import_umath", __pyx_clineno, __pyx_lineno, __pyx_filename);
-      if (__Pyx_GetException(&__pyx_t_5, &__pyx_t_6, &__pyx_t_7) < 0) __PYX_ERR(2, 992, __pyx_L5_except_error)
+      if (__Pyx_GetException(&__pyx_t_5, &__pyx_t_6, &__pyx_t_7) < 0) __PYX_ERR(2, 989, __pyx_L5_except_error)
       __Pyx_XGOTREF(__pyx_t_5);
       __Pyx_XGOTREF(__pyx_t_6);
       __Pyx_XGOTREF(__pyx_t_7);
 
-      /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":993
+      /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":990
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")             # <<<<<<<<<<<<<<
  * 
  * cdef inline int import_ufunc() except -1:
  */
-      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__10, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(2, 993, __pyx_L5_except_error)
+      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__10, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(2, 990, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_8);
       __Pyx_Raise(__pyx_t_8, 0, 0, 0);
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-      __PYX_ERR(2, 993, __pyx_L5_except_error)
+      __PYX_ERR(2, 990, __pyx_L5_except_error)
     }
     goto __pyx_L5_except_error;
 
-    /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":990
+    /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":987
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -19636,7 +19470,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     __pyx_L8_try_end:;
   }
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":989
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":986
  *         raise ImportError("numpy.core.multiarray failed to import")
  * 
  * cdef inline int import_umath() except -1:             # <<<<<<<<<<<<<<
@@ -19659,7 +19493,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":995
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":992
  *         raise ImportError("numpy.core.umath failed to import")
  * 
  * cdef inline int import_ufunc() except -1:             # <<<<<<<<<<<<<<
@@ -19683,7 +19517,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("import_ufunc", 1);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":996
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":993
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -19699,16 +19533,16 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":997
+      /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":994
  * cdef inline int import_ufunc() except -1:
  *     try:
  *         _import_umath()             # <<<<<<<<<<<<<<
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")
  */
-      __pyx_t_4 = _import_umath(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(2, 997, __pyx_L3_error)
+      __pyx_t_4 = _import_umath(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(2, 994, __pyx_L3_error)
 
-      /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":996
+      /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":993
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -19722,7 +19556,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     goto __pyx_L8_try_end;
     __pyx_L3_error:;
 
-    /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":998
+    /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":995
  *     try:
  *         _import_umath()
  *     except Exception:             # <<<<<<<<<<<<<<
@@ -19732,27 +19566,27 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     __pyx_t_4 = __Pyx_PyErr_ExceptionMatches(((PyObject *)(&((PyTypeObject*)PyExc_Exception)[0])));
     if (__pyx_t_4) {
       __Pyx_AddTraceback("numpy.import_ufunc", __pyx_clineno, __pyx_lineno, __pyx_filename);
-      if (__Pyx_GetException(&__pyx_t_5, &__pyx_t_6, &__pyx_t_7) < 0) __PYX_ERR(2, 998, __pyx_L5_except_error)
+      if (__Pyx_GetException(&__pyx_t_5, &__pyx_t_6, &__pyx_t_7) < 0) __PYX_ERR(2, 995, __pyx_L5_except_error)
       __Pyx_XGOTREF(__pyx_t_5);
       __Pyx_XGOTREF(__pyx_t_6);
       __Pyx_XGOTREF(__pyx_t_7);
 
-      /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":999
+      /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":996
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")             # <<<<<<<<<<<<<<
  * 
  * 
  */
-      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__10, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(2, 999, __pyx_L5_except_error)
+      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__10, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(2, 996, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_8);
       __Pyx_Raise(__pyx_t_8, 0, 0, 0);
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-      __PYX_ERR(2, 999, __pyx_L5_except_error)
+      __PYX_ERR(2, 996, __pyx_L5_except_error)
     }
     goto __pyx_L5_except_error;
 
-    /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":996
+    /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":993
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -19768,7 +19602,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     __pyx_L8_try_end:;
   }
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":995
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":992
  *         raise ImportError("numpy.core.umath failed to import")
  * 
  * cdef inline int import_ufunc() except -1:             # <<<<<<<<<<<<<<
@@ -19791,7 +19625,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1002
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":999
  * 
  * 
  * cdef inline bint is_timedelta64_object(object obj):             # <<<<<<<<<<<<<<
@@ -19802,7 +19636,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
 static CYTHON_INLINE int __pyx_f_5numpy_is_timedelta64_object(PyObject *__pyx_v_obj) {
   int __pyx_r;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1014
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1011
  *     bool
  *     """
  *     return PyObject_TypeCheck(obj, &PyTimedeltaArrType_Type)             # <<<<<<<<<<<<<<
@@ -19812,7 +19646,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_timedelta64_object(PyObject *__pyx_v_
   __pyx_r = PyObject_TypeCheck(__pyx_v_obj, (&PyTimedeltaArrType_Type));
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1002
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":999
  * 
  * 
  * cdef inline bint is_timedelta64_object(object obj):             # <<<<<<<<<<<<<<
@@ -19825,7 +19659,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_timedelta64_object(PyObject *__pyx_v_
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1017
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1014
  * 
  * 
  * cdef inline bint is_datetime64_object(object obj):             # <<<<<<<<<<<<<<
@@ -19836,7 +19670,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_timedelta64_object(PyObject *__pyx_v_
 static CYTHON_INLINE int __pyx_f_5numpy_is_datetime64_object(PyObject *__pyx_v_obj) {
   int __pyx_r;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1029
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1026
  *     bool
  *     """
  *     return PyObject_TypeCheck(obj, &PyDatetimeArrType_Type)             # <<<<<<<<<<<<<<
@@ -19846,7 +19680,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_datetime64_object(PyObject *__pyx_v_o
   __pyx_r = PyObject_TypeCheck(__pyx_v_obj, (&PyDatetimeArrType_Type));
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1017
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1014
  * 
  * 
  * cdef inline bint is_datetime64_object(object obj):             # <<<<<<<<<<<<<<
@@ -19859,7 +19693,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_datetime64_object(PyObject *__pyx_v_o
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1032
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1029
  * 
  * 
  * cdef inline npy_datetime get_datetime64_value(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -19870,7 +19704,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_datetime64_object(PyObject *__pyx_v_o
 static CYTHON_INLINE npy_datetime __pyx_f_5numpy_get_datetime64_value(PyObject *__pyx_v_obj) {
   npy_datetime __pyx_r;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1039
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1036
  *     also needed.  That can be found using `get_datetime64_unit`.
  *     """
  *     return (<PyDatetimeScalarObject*>obj).obval             # <<<<<<<<<<<<<<
@@ -19880,7 +19714,7 @@ static CYTHON_INLINE npy_datetime __pyx_f_5numpy_get_datetime64_value(PyObject *
   __pyx_r = ((PyDatetimeScalarObject *)__pyx_v_obj)->obval;
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1032
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1029
  * 
  * 
  * cdef inline npy_datetime get_datetime64_value(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -19893,7 +19727,7 @@ static CYTHON_INLINE npy_datetime __pyx_f_5numpy_get_datetime64_value(PyObject *
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1042
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1039
  * 
  * 
  * cdef inline npy_timedelta get_timedelta64_value(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -19904,7 +19738,7 @@ static CYTHON_INLINE npy_datetime __pyx_f_5numpy_get_datetime64_value(PyObject *
 static CYTHON_INLINE npy_timedelta __pyx_f_5numpy_get_timedelta64_value(PyObject *__pyx_v_obj) {
   npy_timedelta __pyx_r;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1046
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1043
  *     returns the int64 value underlying scalar numpy timedelta64 object
  *     """
  *     return (<PyTimedeltaScalarObject*>obj).obval             # <<<<<<<<<<<<<<
@@ -19914,7 +19748,7 @@ static CYTHON_INLINE npy_timedelta __pyx_f_5numpy_get_timedelta64_value(PyObject
   __pyx_r = ((PyTimedeltaScalarObject *)__pyx_v_obj)->obval;
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1042
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1039
  * 
  * 
  * cdef inline npy_timedelta get_timedelta64_value(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -19927,7 +19761,7 @@ static CYTHON_INLINE npy_timedelta __pyx_f_5numpy_get_timedelta64_value(PyObject
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1049
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1046
  * 
  * 
  * cdef inline NPY_DATETIMEUNIT get_datetime64_unit(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -19938,7 +19772,7 @@ static CYTHON_INLINE npy_timedelta __pyx_f_5numpy_get_timedelta64_value(PyObject
 static CYTHON_INLINE NPY_DATETIMEUNIT __pyx_f_5numpy_get_datetime64_unit(PyObject *__pyx_v_obj) {
   NPY_DATETIMEUNIT __pyx_r;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1053
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1050
  *     returns the unit part of the dtype for a numpy datetime64 object.
  *     """
  *     return <NPY_DATETIMEUNIT>(<PyDatetimeScalarObject*>obj).obmeta.base             # <<<<<<<<<<<<<<
@@ -19946,7 +19780,7 @@ static CYTHON_INLINE NPY_DATETIMEUNIT __pyx_f_5numpy_get_datetime64_unit(PyObjec
   __pyx_r = ((NPY_DATETIMEUNIT)((PyDatetimeScalarObject *)__pyx_v_obj)->obmeta.base);
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1049
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1046
  * 
  * 
  * cdef inline NPY_DATETIMEUNIT get_datetime64_unit(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -19959,648 +19793,7 @@ static CYTHON_INLINE NPY_DATETIMEUNIT __pyx_f_5numpy_get_datetime64_unit(PyObjec
   return __pyx_r;
 }
 
-/* "cpython/array.pxd":104
- *             __data_union data
- * 
- *         def __getbuffer__(self, Py_buffer* info, int flags):             # <<<<<<<<<<<<<<
- *             # This implementation of getbuffer is geared towards Cython
- *             # requirements, and does not yet fulfill the PEP.
- */
-
-/* Python wrapper */
-CYTHON_UNUSED static int __pyx_pw_7cpython_5array_5array_1__getbuffer__(PyObject *__pyx_v_self, Py_buffer *__pyx_v_info, int __pyx_v_flags); /*proto*/
-CYTHON_UNUSED static int __pyx_pw_7cpython_5array_5array_1__getbuffer__(PyObject *__pyx_v_self, Py_buffer *__pyx_v_info, int __pyx_v_flags) {
-  CYTHON_UNUSED PyObject *const *__pyx_kwvalues;
-  int __pyx_r;
-  __Pyx_RefNannyDeclarations
-  __Pyx_RefNannySetupContext("__getbuffer__ (wrapper)", 0);
-  __pyx_kwvalues = __Pyx_KwValues_VARARGS(__pyx_args, __pyx_nargs);
-  __pyx_r = __pyx_pf_7cpython_5array_5array___getbuffer__(((arrayobject *)__pyx_v_self), ((Py_buffer *)__pyx_v_info), ((int)__pyx_v_flags));
-
-  /* function exit code */
-  __Pyx_RefNannyFinishContext();
-  return __pyx_r;
-}
-
-static int __pyx_pf_7cpython_5array_5array___getbuffer__(arrayobject *__pyx_v_self, Py_buffer *__pyx_v_info, CYTHON_UNUSED int __pyx_v_flags) {
-  PyObject *__pyx_v_item_count = NULL;
-  int __pyx_r;
-  __Pyx_RefNannyDeclarations
-  PyObject *__pyx_t_1 = NULL;
-  char *__pyx_t_2;
-  int __pyx_t_3;
-  PyObject *__pyx_t_4 = NULL;
-  Py_ssize_t __pyx_t_5;
-  int __pyx_t_6;
-  char __pyx_t_7;
-  int __pyx_lineno = 0;
-  const char *__pyx_filename = NULL;
-  int __pyx_clineno = 0;
-  if (unlikely(__pyx_v_info == NULL)) {
-    PyErr_SetString(PyExc_BufferError, "PyObject_GetBuffer: view==NULL argument is obsolete");
-    return -1;
-  }
-  __Pyx_RefNannySetupContext("__getbuffer__", 0);
-  __pyx_v_info->obj = Py_None; __Pyx_INCREF(Py_None);
-  __Pyx_GIVEREF(__pyx_v_info->obj);
-
-  /* "cpython/array.pxd":109
- *             # In particular strided access is always provided regardless
- *             # of flags
- *             item_count = Py_SIZE(self)             # <<<<<<<<<<<<<<
- * 
- *             info.suboffsets = NULL
- */
-  __pyx_t_1 = PyInt_FromSsize_t(Py_SIZE(((PyObject *)__pyx_v_self))); if (unlikely(!__pyx_t_1)) __PYX_ERR(3, 109, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_1);
-  __pyx_v_item_count = __pyx_t_1;
-  __pyx_t_1 = 0;
-
-  /* "cpython/array.pxd":111
- *             item_count = Py_SIZE(self)
- * 
- *             info.suboffsets = NULL             # <<<<<<<<<<<<<<
- *             info.buf = self.data.as_chars
- *             info.readonly = 0
- */
-  __pyx_v_info->suboffsets = NULL;
-
-  /* "cpython/array.pxd":112
- * 
- *             info.suboffsets = NULL
- *             info.buf = self.data.as_chars             # <<<<<<<<<<<<<<
- *             info.readonly = 0
- *             info.ndim = 1
- */
-  __pyx_t_2 = __pyx_v_self->data.as_chars;
-  __pyx_v_info->buf = __pyx_t_2;
-
-  /* "cpython/array.pxd":113
- *             info.suboffsets = NULL
- *             info.buf = self.data.as_chars
- *             info.readonly = 0             # <<<<<<<<<<<<<<
- *             info.ndim = 1
- *             info.itemsize = self.ob_descr.itemsize   # e.g. sizeof(float)
- */
-  __pyx_v_info->readonly = 0;
-
-  /* "cpython/array.pxd":114
- *             info.buf = self.data.as_chars
- *             info.readonly = 0
- *             info.ndim = 1             # <<<<<<<<<<<<<<
- *             info.itemsize = self.ob_descr.itemsize   # e.g. sizeof(float)
- *             info.len = info.itemsize * item_count
- */
-  __pyx_v_info->ndim = 1;
-
-  /* "cpython/array.pxd":115
- *             info.readonly = 0
- *             info.ndim = 1
- *             info.itemsize = self.ob_descr.itemsize   # e.g. sizeof(float)             # <<<<<<<<<<<<<<
- *             info.len = info.itemsize * item_count
- * 
- */
-  __pyx_t_3 = __pyx_v_self->ob_descr->itemsize;
-  __pyx_v_info->itemsize = __pyx_t_3;
-
-  /* "cpython/array.pxd":116
- *             info.ndim = 1
- *             info.itemsize = self.ob_descr.itemsize   # e.g. sizeof(float)
- *             info.len = info.itemsize * item_count             # <<<<<<<<<<<<<<
- * 
- *             info.shape = <Py_ssize_t*> PyObject_Malloc(sizeof(Py_ssize_t) + 2)
- */
-  __pyx_t_1 = PyInt_FromSsize_t(__pyx_v_info->itemsize); if (unlikely(!__pyx_t_1)) __PYX_ERR(3, 116, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_4 = PyNumber_Multiply(__pyx_t_1, __pyx_v_item_count); if (unlikely(!__pyx_t_4)) __PYX_ERR(3, 116, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_4);
-  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_5 = __Pyx_PyIndex_AsSsize_t(__pyx_t_4); if (unlikely((__pyx_t_5 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(3, 116, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  __pyx_v_info->len = __pyx_t_5;
-
-  /* "cpython/array.pxd":118
- *             info.len = info.itemsize * item_count
- * 
- *             info.shape = <Py_ssize_t*> PyObject_Malloc(sizeof(Py_ssize_t) + 2)             # <<<<<<<<<<<<<<
- *             if not info.shape:
- *                 raise MemoryError()
- */
-  __pyx_v_info->shape = ((Py_ssize_t *)PyObject_Malloc(((sizeof(Py_ssize_t)) + 2)));
-
-  /* "cpython/array.pxd":119
- * 
- *             info.shape = <Py_ssize_t*> PyObject_Malloc(sizeof(Py_ssize_t) + 2)
- *             if not info.shape:             # <<<<<<<<<<<<<<
- *                 raise MemoryError()
- *             info.shape[0] = item_count      # constant regardless of resizing
- */
-  __pyx_t_6 = (!(__pyx_v_info->shape != 0));
-  if (unlikely(__pyx_t_6)) {
-
-    /* "cpython/array.pxd":120
- *             info.shape = <Py_ssize_t*> PyObject_Malloc(sizeof(Py_ssize_t) + 2)
- *             if not info.shape:
- *                 raise MemoryError()             # <<<<<<<<<<<<<<
- *             info.shape[0] = item_count      # constant regardless of resizing
- *             info.strides = &info.itemsize
- */
-    PyErr_NoMemory(); __PYX_ERR(3, 120, __pyx_L1_error)
-
-    /* "cpython/array.pxd":119
- * 
- *             info.shape = <Py_ssize_t*> PyObject_Malloc(sizeof(Py_ssize_t) + 2)
- *             if not info.shape:             # <<<<<<<<<<<<<<
- *                 raise MemoryError()
- *             info.shape[0] = item_count      # constant regardless of resizing
- */
-  }
-
-  /* "cpython/array.pxd":121
- *             if not info.shape:
- *                 raise MemoryError()
- *             info.shape[0] = item_count      # constant regardless of resizing             # <<<<<<<<<<<<<<
- *             info.strides = &info.itemsize
- * 
- */
-  __pyx_t_5 = __Pyx_PyIndex_AsSsize_t(__pyx_v_item_count); if (unlikely((__pyx_t_5 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(3, 121, __pyx_L1_error)
-  (__pyx_v_info->shape[0]) = __pyx_t_5;
-
-  /* "cpython/array.pxd":122
- *                 raise MemoryError()
- *             info.shape[0] = item_count      # constant regardless of resizing
- *             info.strides = &info.itemsize             # <<<<<<<<<<<<<<
- * 
- *             info.format = <char*> (info.shape + 1)
- */
-  __pyx_v_info->strides = (&__pyx_v_info->itemsize);
-
-  /* "cpython/array.pxd":124
- *             info.strides = &info.itemsize
- * 
- *             info.format = <char*> (info.shape + 1)             # <<<<<<<<<<<<<<
- *             info.format[0] = self.ob_descr.typecode
- *             info.format[1] = 0
- */
-  __pyx_v_info->format = ((char *)(__pyx_v_info->shape + 1));
-
-  /* "cpython/array.pxd":125
- * 
- *             info.format = <char*> (info.shape + 1)
- *             info.format[0] = self.ob_descr.typecode             # <<<<<<<<<<<<<<
- *             info.format[1] = 0
- *             info.obj = self
- */
-  __pyx_t_7 = __pyx_v_self->ob_descr->typecode;
-  (__pyx_v_info->format[0]) = __pyx_t_7;
-
-  /* "cpython/array.pxd":126
- *             info.format = <char*> (info.shape + 1)
- *             info.format[0] = self.ob_descr.typecode
- *             info.format[1] = 0             # <<<<<<<<<<<<<<
- *             info.obj = self
- * 
- */
-  (__pyx_v_info->format[1]) = 0;
-
-  /* "cpython/array.pxd":127
- *             info.format[0] = self.ob_descr.typecode
- *             info.format[1] = 0
- *             info.obj = self             # <<<<<<<<<<<<<<
- * 
- *         def __releasebuffer__(self, Py_buffer* info):
- */
-  __Pyx_INCREF((PyObject *)__pyx_v_self);
-  __Pyx_GIVEREF((PyObject *)__pyx_v_self);
-  __Pyx_GOTREF(__pyx_v_info->obj);
-  __Pyx_DECREF(__pyx_v_info->obj);
-  __pyx_v_info->obj = ((PyObject *)__pyx_v_self);
-
-  /* "cpython/array.pxd":104
- *             __data_union data
- * 
- *         def __getbuffer__(self, Py_buffer* info, int flags):             # <<<<<<<<<<<<<<
- *             # This implementation of getbuffer is geared towards Cython
- *             # requirements, and does not yet fulfill the PEP.
- */
-
-  /* function exit code */
-  __pyx_r = 0;
-  goto __pyx_L0;
-  __pyx_L1_error:;
-  __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_XDECREF(__pyx_t_4);
-  __Pyx_AddTraceback("cpython.array.array.__getbuffer__", __pyx_clineno, __pyx_lineno, __pyx_filename);
-  __pyx_r = -1;
-  if (__pyx_v_info->obj != NULL) {
-    __Pyx_GOTREF(__pyx_v_info->obj);
-    __Pyx_DECREF(__pyx_v_info->obj); __pyx_v_info->obj = 0;
-  }
-  goto __pyx_L2;
-  __pyx_L0:;
-  if (__pyx_v_info->obj == Py_None) {
-    __Pyx_GOTREF(__pyx_v_info->obj);
-    __Pyx_DECREF(__pyx_v_info->obj); __pyx_v_info->obj = 0;
-  }
-  __pyx_L2:;
-  __Pyx_XDECREF(__pyx_v_item_count);
-  __Pyx_RefNannyFinishContext();
-  return __pyx_r;
-}
-
-/* "cpython/array.pxd":129
- *             info.obj = self
- * 
- *         def __releasebuffer__(self, Py_buffer* info):             # <<<<<<<<<<<<<<
- *             PyObject_Free(info.shape)
- * 
- */
-
-/* Python wrapper */
-CYTHON_UNUSED static void __pyx_pw_7cpython_5array_5array_3__releasebuffer__(PyObject *__pyx_v_self, Py_buffer *__pyx_v_info); /*proto*/
-CYTHON_UNUSED static void __pyx_pw_7cpython_5array_5array_3__releasebuffer__(PyObject *__pyx_v_self, Py_buffer *__pyx_v_info) {
-  CYTHON_UNUSED PyObject *const *__pyx_kwvalues;
-  __Pyx_RefNannyDeclarations
-  __Pyx_RefNannySetupContext("__releasebuffer__ (wrapper)", 0);
-  __pyx_kwvalues = __Pyx_KwValues_VARARGS(__pyx_args, __pyx_nargs);
-  __pyx_pf_7cpython_5array_5array_2__releasebuffer__(((arrayobject *)__pyx_v_self), ((Py_buffer *)__pyx_v_info));
-
-  /* function exit code */
-  __Pyx_RefNannyFinishContext();
-}
-
-static void __pyx_pf_7cpython_5array_5array_2__releasebuffer__(CYTHON_UNUSED arrayobject *__pyx_v_self, Py_buffer *__pyx_v_info) {
-
-  /* "cpython/array.pxd":130
- * 
- *         def __releasebuffer__(self, Py_buffer* info):
- *             PyObject_Free(info.shape)             # <<<<<<<<<<<<<<
- * 
- *     array newarrayobject(PyTypeObject* type, Py_ssize_t size, arraydescr *descr)
- */
-  PyObject_Free(__pyx_v_info->shape);
-
-  /* "cpython/array.pxd":129
- *             info.obj = self
- * 
- *         def __releasebuffer__(self, Py_buffer* info):             # <<<<<<<<<<<<<<
- *             PyObject_Free(info.shape)
- * 
- */
-
-  /* function exit code */
-}
-
-/* "cpython/array.pxd":141
- * 
- * 
- * cdef inline array clone(array template, Py_ssize_t length, bint zero):             # <<<<<<<<<<<<<<
- *     """ fast creation of a new array, given a template array.
- *     type will be same as template.
- */
-
-static CYTHON_INLINE arrayobject *__pyx_f_7cpython_5array_clone(arrayobject *__pyx_v_template, Py_ssize_t __pyx_v_length, int __pyx_v_zero) {
-  arrayobject *__pyx_v_op = 0;
-  arrayobject *__pyx_r = NULL;
-  __Pyx_RefNannyDeclarations
-  PyObject *__pyx_t_1 = NULL;
-  int __pyx_t_2;
-  int __pyx_t_3;
-  int __pyx_lineno = 0;
-  const char *__pyx_filename = NULL;
-  int __pyx_clineno = 0;
-  __Pyx_RefNannySetupContext("clone", 1);
-
-  /* "cpython/array.pxd":145
- *     type will be same as template.
- *     if zero is true, new array will be initialized with zeroes."""
- *     cdef array op = newarrayobject(Py_TYPE(template), length, template.ob_descr)             # <<<<<<<<<<<<<<
- *     if zero and op is not None:
- *         memset(op.data.as_chars, 0, length * op.ob_descr.itemsize)
- */
-  __pyx_t_1 = ((PyObject *)newarrayobject(Py_TYPE(((PyObject *)__pyx_v_template)), __pyx_v_length, __pyx_v_template->ob_descr)); if (unlikely(!__pyx_t_1)) __PYX_ERR(3, 145, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_1);
-  __pyx_v_op = ((arrayobject *)__pyx_t_1);
-  __pyx_t_1 = 0;
-
-  /* "cpython/array.pxd":146
- *     if zero is true, new array will be initialized with zeroes."""
- *     cdef array op = newarrayobject(Py_TYPE(template), length, template.ob_descr)
- *     if zero and op is not None:             # <<<<<<<<<<<<<<
- *         memset(op.data.as_chars, 0, length * op.ob_descr.itemsize)
- *     return op
- */
-  if (__pyx_v_zero) {
-  } else {
-    __pyx_t_2 = __pyx_v_zero;
-    goto __pyx_L4_bool_binop_done;
-  }
-  __pyx_t_3 = (((PyObject *)__pyx_v_op) != Py_None);
-  __pyx_t_2 = __pyx_t_3;
-  __pyx_L4_bool_binop_done:;
-  if (__pyx_t_2) {
-
-    /* "cpython/array.pxd":147
- *     cdef array op = newarrayobject(Py_TYPE(template), length, template.ob_descr)
- *     if zero and op is not None:
- *         memset(op.data.as_chars, 0, length * op.ob_descr.itemsize)             # <<<<<<<<<<<<<<
- *     return op
- * 
- */
-    (void)(memset(__pyx_v_op->data.as_chars, 0, (__pyx_v_length * __pyx_v_op->ob_descr->itemsize)));
-
-    /* "cpython/array.pxd":146
- *     if zero is true, new array will be initialized with zeroes."""
- *     cdef array op = newarrayobject(Py_TYPE(template), length, template.ob_descr)
- *     if zero and op is not None:             # <<<<<<<<<<<<<<
- *         memset(op.data.as_chars, 0, length * op.ob_descr.itemsize)
- *     return op
- */
-  }
-
-  /* "cpython/array.pxd":148
- *     if zero and op is not None:
- *         memset(op.data.as_chars, 0, length * op.ob_descr.itemsize)
- *     return op             # <<<<<<<<<<<<<<
- * 
- * cdef inline array copy(array self):
- */
-  __Pyx_XDECREF((PyObject *)__pyx_r);
-  __Pyx_INCREF((PyObject *)__pyx_v_op);
-  __pyx_r = __pyx_v_op;
-  goto __pyx_L0;
-
-  /* "cpython/array.pxd":141
- * 
- * 
- * cdef inline array clone(array template, Py_ssize_t length, bint zero):             # <<<<<<<<<<<<<<
- *     """ fast creation of a new array, given a template array.
- *     type will be same as template.
- */
-
-  /* function exit code */
-  __pyx_L1_error:;
-  __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_AddTraceback("cpython.array.clone", __pyx_clineno, __pyx_lineno, __pyx_filename);
-  __pyx_r = 0;
-  __pyx_L0:;
-  __Pyx_XDECREF((PyObject *)__pyx_v_op);
-  __Pyx_XGIVEREF((PyObject *)__pyx_r);
-  __Pyx_RefNannyFinishContext();
-  return __pyx_r;
-}
-
-/* "cpython/array.pxd":150
- *     return op
- * 
- * cdef inline array copy(array self):             # <<<<<<<<<<<<<<
- *     """ make a copy of an array. """
- *     cdef array op = newarrayobject(Py_TYPE(self), Py_SIZE(self), self.ob_descr)
- */
-
-static CYTHON_INLINE arrayobject *__pyx_f_7cpython_5array_copy(arrayobject *__pyx_v_self) {
-  arrayobject *__pyx_v_op = 0;
-  arrayobject *__pyx_r = NULL;
-  __Pyx_RefNannyDeclarations
-  PyObject *__pyx_t_1 = NULL;
-  int __pyx_lineno = 0;
-  const char *__pyx_filename = NULL;
-  int __pyx_clineno = 0;
-  __Pyx_RefNannySetupContext("copy", 1);
-
-  /* "cpython/array.pxd":152
- * cdef inline array copy(array self):
- *     """ make a copy of an array. """
- *     cdef array op = newarrayobject(Py_TYPE(self), Py_SIZE(self), self.ob_descr)             # <<<<<<<<<<<<<<
- *     memcpy(op.data.as_chars, self.data.as_chars, Py_SIZE(op) * op.ob_descr.itemsize)
- *     return op
- */
-  __pyx_t_1 = ((PyObject *)newarrayobject(Py_TYPE(((PyObject *)__pyx_v_self)), Py_SIZE(((PyObject *)__pyx_v_self)), __pyx_v_self->ob_descr)); if (unlikely(!__pyx_t_1)) __PYX_ERR(3, 152, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_1);
-  __pyx_v_op = ((arrayobject *)__pyx_t_1);
-  __pyx_t_1 = 0;
-
-  /* "cpython/array.pxd":153
- *     """ make a copy of an array. """
- *     cdef array op = newarrayobject(Py_TYPE(self), Py_SIZE(self), self.ob_descr)
- *     memcpy(op.data.as_chars, self.data.as_chars, Py_SIZE(op) * op.ob_descr.itemsize)             # <<<<<<<<<<<<<<
- *     return op
- * 
- */
-  (void)(memcpy(__pyx_v_op->data.as_chars, __pyx_v_self->data.as_chars, (Py_SIZE(((PyObject *)__pyx_v_op)) * __pyx_v_op->ob_descr->itemsize)));
-
-  /* "cpython/array.pxd":154
- *     cdef array op = newarrayobject(Py_TYPE(self), Py_SIZE(self), self.ob_descr)
- *     memcpy(op.data.as_chars, self.data.as_chars, Py_SIZE(op) * op.ob_descr.itemsize)
- *     return op             # <<<<<<<<<<<<<<
- * 
- * cdef inline int extend_buffer(array self, char* stuff, Py_ssize_t n) except -1:
- */
-  __Pyx_XDECREF((PyObject *)__pyx_r);
-  __Pyx_INCREF((PyObject *)__pyx_v_op);
-  __pyx_r = __pyx_v_op;
-  goto __pyx_L0;
-
-  /* "cpython/array.pxd":150
- *     return op
- * 
- * cdef inline array copy(array self):             # <<<<<<<<<<<<<<
- *     """ make a copy of an array. """
- *     cdef array op = newarrayobject(Py_TYPE(self), Py_SIZE(self), self.ob_descr)
- */
-
-  /* function exit code */
-  __pyx_L1_error:;
-  __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_AddTraceback("cpython.array.copy", __pyx_clineno, __pyx_lineno, __pyx_filename);
-  __pyx_r = 0;
-  __pyx_L0:;
-  __Pyx_XDECREF((PyObject *)__pyx_v_op);
-  __Pyx_XGIVEREF((PyObject *)__pyx_r);
-  __Pyx_RefNannyFinishContext();
-  return __pyx_r;
-}
-
-/* "cpython/array.pxd":156
- *     return op
- * 
- * cdef inline int extend_buffer(array self, char* stuff, Py_ssize_t n) except -1:             # <<<<<<<<<<<<<<
- *     """ efficient appending of new stuff of same type
- *     (e.g. of same array type)
- */
-
-static CYTHON_INLINE int __pyx_f_7cpython_5array_extend_buffer(arrayobject *__pyx_v_self, char *__pyx_v_stuff, Py_ssize_t __pyx_v_n) {
-  Py_ssize_t __pyx_v_itemsize;
-  Py_ssize_t __pyx_v_origsize;
-  int __pyx_r;
-  int __pyx_t_1;
-  int __pyx_lineno = 0;
-  const char *__pyx_filename = NULL;
-  int __pyx_clineno = 0;
-
-  /* "cpython/array.pxd":160
- *     (e.g. of same array type)
- *     n: number of elements (not number of bytes!) """
- *     cdef Py_ssize_t itemsize = self.ob_descr.itemsize             # <<<<<<<<<<<<<<
- *     cdef Py_ssize_t origsize = Py_SIZE(self)
- *     resize_smart(self, origsize + n)
- */
-  __pyx_t_1 = __pyx_v_self->ob_descr->itemsize;
-  __pyx_v_itemsize = __pyx_t_1;
-
-  /* "cpython/array.pxd":161
- *     n: number of elements (not number of bytes!) """
- *     cdef Py_ssize_t itemsize = self.ob_descr.itemsize
- *     cdef Py_ssize_t origsize = Py_SIZE(self)             # <<<<<<<<<<<<<<
- *     resize_smart(self, origsize + n)
- *     memcpy(self.data.as_chars + origsize * itemsize, stuff, n * itemsize)
- */
-  __pyx_v_origsize = Py_SIZE(((PyObject *)__pyx_v_self));
-
-  /* "cpython/array.pxd":162
- *     cdef Py_ssize_t itemsize = self.ob_descr.itemsize
- *     cdef Py_ssize_t origsize = Py_SIZE(self)
- *     resize_smart(self, origsize + n)             # <<<<<<<<<<<<<<
- *     memcpy(self.data.as_chars + origsize * itemsize, stuff, n * itemsize)
- *     return 0
- */
-  __pyx_t_1 = resize_smart(__pyx_v_self, (__pyx_v_origsize + __pyx_v_n)); if (unlikely(__pyx_t_1 == ((int)-1))) __PYX_ERR(3, 162, __pyx_L1_error)
-
-  /* "cpython/array.pxd":163
- *     cdef Py_ssize_t origsize = Py_SIZE(self)
- *     resize_smart(self, origsize + n)
- *     memcpy(self.data.as_chars + origsize * itemsize, stuff, n * itemsize)             # <<<<<<<<<<<<<<
- *     return 0
- * 
- */
-  (void)(memcpy((__pyx_v_self->data.as_chars + (__pyx_v_origsize * __pyx_v_itemsize)), __pyx_v_stuff, (__pyx_v_n * __pyx_v_itemsize)));
-
-  /* "cpython/array.pxd":164
- *     resize_smart(self, origsize + n)
- *     memcpy(self.data.as_chars + origsize * itemsize, stuff, n * itemsize)
- *     return 0             # <<<<<<<<<<<<<<
- * 
- * cdef inline int extend(array self, array other) except -1:
- */
-  __pyx_r = 0;
-  goto __pyx_L0;
-
-  /* "cpython/array.pxd":156
- *     return op
- * 
- * cdef inline int extend_buffer(array self, char* stuff, Py_ssize_t n) except -1:             # <<<<<<<<<<<<<<
- *     """ efficient appending of new stuff of same type
- *     (e.g. of same array type)
- */
-
-  /* function exit code */
-  __pyx_L1_error:;
-  __Pyx_AddTraceback("cpython.array.extend_buffer", __pyx_clineno, __pyx_lineno, __pyx_filename);
-  __pyx_r = -1;
-  __pyx_L0:;
-  return __pyx_r;
-}
-
-/* "cpython/array.pxd":166
- *     return 0
- * 
- * cdef inline int extend(array self, array other) except -1:             # <<<<<<<<<<<<<<
- *     """ extend array with data from another array; types must match. """
- *     if self.ob_descr.typecode != other.ob_descr.typecode:
- */
-
-static CYTHON_INLINE int __pyx_f_7cpython_5array_extend(arrayobject *__pyx_v_self, arrayobject *__pyx_v_other) {
-  int __pyx_r;
-  int __pyx_t_1;
-  int __pyx_t_2;
-  int __pyx_lineno = 0;
-  const char *__pyx_filename = NULL;
-  int __pyx_clineno = 0;
-
-  /* "cpython/array.pxd":168
- * cdef inline int extend(array self, array other) except -1:
- *     """ extend array with data from another array; types must match. """
- *     if self.ob_descr.typecode != other.ob_descr.typecode:             # <<<<<<<<<<<<<<
- *         PyErr_BadArgument()
- *     return extend_buffer(self, other.data.as_chars, Py_SIZE(other))
- */
-  __pyx_t_1 = (__pyx_v_self->ob_descr->typecode != __pyx_v_other->ob_descr->typecode);
-  if (__pyx_t_1) {
-
-    /* "cpython/array.pxd":169
- *     """ extend array with data from another array; types must match. """
- *     if self.ob_descr.typecode != other.ob_descr.typecode:
- *         PyErr_BadArgument()             # <<<<<<<<<<<<<<
- *     return extend_buffer(self, other.data.as_chars, Py_SIZE(other))
- * 
- */
-    __pyx_t_2 = PyErr_BadArgument(); if (unlikely(__pyx_t_2 == ((int)0))) __PYX_ERR(3, 169, __pyx_L1_error)
-
-    /* "cpython/array.pxd":168
- * cdef inline int extend(array self, array other) except -1:
- *     """ extend array with data from another array; types must match. """
- *     if self.ob_descr.typecode != other.ob_descr.typecode:             # <<<<<<<<<<<<<<
- *         PyErr_BadArgument()
- *     return extend_buffer(self, other.data.as_chars, Py_SIZE(other))
- */
-  }
-
-  /* "cpython/array.pxd":170
- *     if self.ob_descr.typecode != other.ob_descr.typecode:
- *         PyErr_BadArgument()
- *     return extend_buffer(self, other.data.as_chars, Py_SIZE(other))             # <<<<<<<<<<<<<<
- * 
- * cdef inline void zero(array self) noexcept:
- */
-  __pyx_t_2 = __pyx_f_7cpython_5array_extend_buffer(__pyx_v_self, __pyx_v_other->data.as_chars, Py_SIZE(((PyObject *)__pyx_v_other))); if (unlikely(__pyx_t_2 == ((int)-1))) __PYX_ERR(3, 170, __pyx_L1_error)
-  __pyx_r = __pyx_t_2;
-  goto __pyx_L0;
-
-  /* "cpython/array.pxd":166
- *     return 0
- * 
- * cdef inline int extend(array self, array other) except -1:             # <<<<<<<<<<<<<<
- *     """ extend array with data from another array; types must match. """
- *     if self.ob_descr.typecode != other.ob_descr.typecode:
- */
-
-  /* function exit code */
-  __pyx_L1_error:;
-  __Pyx_AddTraceback("cpython.array.extend", __pyx_clineno, __pyx_lineno, __pyx_filename);
-  __pyx_r = -1;
-  __pyx_L0:;
-  return __pyx_r;
-}
-
-/* "cpython/array.pxd":172
- *     return extend_buffer(self, other.data.as_chars, Py_SIZE(other))
- * 
- * cdef inline void zero(array self) noexcept:             # <<<<<<<<<<<<<<
- *     """ set all elements of array to zero. """
- *     memset(self.data.as_chars, 0, Py_SIZE(self) * self.ob_descr.itemsize)
- */
-
-static CYTHON_INLINE void __pyx_f_7cpython_5array_zero(arrayobject *__pyx_v_self) {
-
-  /* "cpython/array.pxd":174
- * cdef inline void zero(array self) noexcept:
- *     """ set all elements of array to zero. """
- *     memset(self.data.as_chars, 0, Py_SIZE(self) * self.ob_descr.itemsize)             # <<<<<<<<<<<<<<
- */
-  (void)(memset(__pyx_v_self->data.as_chars, 0, (Py_SIZE(((PyObject *)__pyx_v_self)) * __pyx_v_self->ob_descr->itemsize)));
-
-  /* "cpython/array.pxd":172
- *     return extend_buffer(self, other.data.as_chars, Py_SIZE(other))
- * 
- * cdef inline void zero(array self) noexcept:             # <<<<<<<<<<<<<<
- *     """ set all elements of array to zero. """
- *     memset(self.data.as_chars, 0, Py_SIZE(self) * self.ob_descr.itemsize)
- */
-
-  /* function exit code */
-}
-
-/* "Compute_Similarity_Cython.pyx":73
+/* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":71
  *     cdef double[:,:] W_dense
  * 
  *     def __init__(self, dataMatrix, topK = 100, shrink=0, normalize = True,             # <<<<<<<<<<<<<<
@@ -20609,12 +19802,12 @@ static CYTHON_INLINE void __pyx_f_7cpython_5array_zero(arrayobject *__pyx_v_self
  */
 
 /* Python wrapper */
-static int __pyx_pw_25Compute_Similarity_Cython_25Compute_Similarity_Cython_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-PyDoc_STRVAR(__pyx_doc_25Compute_Similarity_Cython_25Compute_Similarity_Cython___init__, "\n        Computes the cosine similarity on the columns of dataMatrix\n        If it is computed on URM=|users|x|items|, pass the URM as is.\n        If it is computed on ICM=|items|x|features|, pass the ICM transposed.\n        :param dataMatrix:\n        :param topK:\n        :param use_dense:           If True returns dense numpy similarity\n        :param shrink:\n        :param normalize:           If True divide the dot product by the product of the norms\n        :param row_weights:         Multiply the values in each row by a specified value. Array\n        :param asymmetric_alpha     Coefficient alpha for the asymmetric cosine\n        :param similarity:  \"cosine\"        computes Cosine similarity\n                            \"adjusted\"      computes Adjusted Cosine, removing the average of the users\n                            \"asymmetric\"    computes Asymmetric Cosine\n                            \"pearson\"       computes Pearson Correlation, removing the average of the items\n                            \"jaccard\"       computes Jaccard similarity for binary interactions using Tanimoto\n                            \"dice\"          computes Dice similarity for binary interactions\n                            \"tversky\"       computes Tversky similarity for binary interactions\n                            \"tanimoto\"      computes Tanimoto coefficient for binary interactions\n\n        ");
+static int __pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_25Compute_Similarity_Cython_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+PyDoc_STRVAR(__pyx_doc_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_25Compute_Similarity_Cython___init__, "\n        Computes the cosine similarity on the columns of dataMatrix\n        If it is computed on URM=|users|x|items|, pass the URM as is.\n        If it is computed on ICM=|items|x|features|, pass the ICM transposed.\n        :param dataMatrix:\n        :param topK:\n        :param use_dense:           If True returns dense numpy similarity\n        :param shrink:\n        :param normalize:           If True divide the dot product by the product of the norms\n        :param row_weights:         Multiply the values in each row by a specified value. Array\n        :param asymmetric_alpha     Coefficient alpha for the asymmetric cosine\n        :param similarity:  \"cosine\"        computes Cosine similarity\n                            \"adjusted\"      computes Adjusted Cosine, removing the average of the users\n                            \"asymmetric\"    computes Asymmetric Cosine\n                            \"pearson\"       computes Pearson Correlation, removing the average of the items\n                            \"jaccard\"       computes Jaccard similarity for binary interactions using Tanimoto\n                            \"dice\"          computes Dice similarity for binary interactions\n                            \"tversky\"       computes Tversky similarity for binary interactions\n                            \"tanimoto\"      computes Tanimoto coefficient for binary interactions\n\n        ");
 #if CYTHON_UPDATE_DESCRIPTOR_DOC
-struct wrapperbase __pyx_wrapperbase_25Compute_Similarity_Cython_25Compute_Similarity_Cython___init__;
+struct wrapperbase __pyx_wrapperbase_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_25Compute_Similarity_Cython___init__;
 #endif
-static int __pyx_pw_25Compute_Similarity_Cython_25Compute_Similarity_Cython_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static int __pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_25Compute_Similarity_Cython_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_dataMatrix = 0;
   PyObject *__pyx_v_topK = 0;
   PyObject *__pyx_v_shrink = 0;
@@ -20650,7 +19843,7 @@ static int __pyx_pw_25Compute_Similarity_Cython_25Compute_Similarity_Cython_1__i
     values[6] = __Pyx_Arg_NewRef_VARARGS(((PyObject *)__pyx_float_1_0));
     values[7] = __Pyx_Arg_NewRef_VARARGS(((PyObject *)__pyx_n_s_cosine));
 
-    /* "Compute_Similarity_Cython.pyx":75
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":73
  *     def __init__(self, dataMatrix, topK = 100, shrink=0, normalize = True,
  *                  asymmetric_alpha = 0.5, tversky_alpha = 1.0, tversky_beta = 1.0,
  *                  similarity = "cosine", row_weights = None, use_dense = False):             # <<<<<<<<<<<<<<
@@ -20692,75 +19885,75 @@ static int __pyx_pw_25Compute_Similarity_Cython_25Compute_Similarity_Cython_1__i
           (void)__Pyx_Arg_NewRef_VARARGS(values[0]);
           kw_args--;
         }
-        else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 73, __pyx_L3_error)
+        else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 71, __pyx_L3_error)
         else goto __pyx_L5_argtuple_error;
         CYTHON_FALLTHROUGH;
         case  1:
         if (kw_args > 0) {
           PyObject* value = __Pyx_GetKwValue_VARARGS(__pyx_kwds, __pyx_kwvalues, __pyx_n_s_topK);
           if (value) { values[1] = __Pyx_Arg_NewRef_VARARGS(value); kw_args--; }
-          else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 73, __pyx_L3_error)
+          else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 71, __pyx_L3_error)
         }
         CYTHON_FALLTHROUGH;
         case  2:
         if (kw_args > 0) {
           PyObject* value = __Pyx_GetKwValue_VARARGS(__pyx_kwds, __pyx_kwvalues, __pyx_n_s_shrink);
           if (value) { values[2] = __Pyx_Arg_NewRef_VARARGS(value); kw_args--; }
-          else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 73, __pyx_L3_error)
+          else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 71, __pyx_L3_error)
         }
         CYTHON_FALLTHROUGH;
         case  3:
         if (kw_args > 0) {
           PyObject* value = __Pyx_GetKwValue_VARARGS(__pyx_kwds, __pyx_kwvalues, __pyx_n_s_normalize);
           if (value) { values[3] = __Pyx_Arg_NewRef_VARARGS(value); kw_args--; }
-          else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 73, __pyx_L3_error)
+          else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 71, __pyx_L3_error)
         }
         CYTHON_FALLTHROUGH;
         case  4:
         if (kw_args > 0) {
           PyObject* value = __Pyx_GetKwValue_VARARGS(__pyx_kwds, __pyx_kwvalues, __pyx_n_s_asymmetric_alpha);
           if (value) { values[4] = __Pyx_Arg_NewRef_VARARGS(value); kw_args--; }
-          else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 73, __pyx_L3_error)
+          else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 71, __pyx_L3_error)
         }
         CYTHON_FALLTHROUGH;
         case  5:
         if (kw_args > 0) {
           PyObject* value = __Pyx_GetKwValue_VARARGS(__pyx_kwds, __pyx_kwvalues, __pyx_n_s_tversky_alpha);
           if (value) { values[5] = __Pyx_Arg_NewRef_VARARGS(value); kw_args--; }
-          else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 73, __pyx_L3_error)
+          else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 71, __pyx_L3_error)
         }
         CYTHON_FALLTHROUGH;
         case  6:
         if (kw_args > 0) {
           PyObject* value = __Pyx_GetKwValue_VARARGS(__pyx_kwds, __pyx_kwvalues, __pyx_n_s_tversky_beta);
           if (value) { values[6] = __Pyx_Arg_NewRef_VARARGS(value); kw_args--; }
-          else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 73, __pyx_L3_error)
+          else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 71, __pyx_L3_error)
         }
         CYTHON_FALLTHROUGH;
         case  7:
         if (kw_args > 0) {
           PyObject* value = __Pyx_GetKwValue_VARARGS(__pyx_kwds, __pyx_kwvalues, __pyx_n_s_similarity);
           if (value) { values[7] = __Pyx_Arg_NewRef_VARARGS(value); kw_args--; }
-          else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 73, __pyx_L3_error)
+          else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 71, __pyx_L3_error)
         }
         CYTHON_FALLTHROUGH;
         case  8:
         if (kw_args > 0) {
           PyObject* value = __Pyx_GetKwValue_VARARGS(__pyx_kwds, __pyx_kwvalues, __pyx_n_s_row_weights);
           if (value) { values[8] = __Pyx_Arg_NewRef_VARARGS(value); kw_args--; }
-          else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 73, __pyx_L3_error)
+          else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 71, __pyx_L3_error)
         }
         CYTHON_FALLTHROUGH;
         case  9:
         if (kw_args > 0) {
           PyObject* value = __Pyx_GetKwValue_VARARGS(__pyx_kwds, __pyx_kwvalues, __pyx_n_s_use_dense);
           if (value) { values[9] = __Pyx_Arg_NewRef_VARARGS(value); kw_args--; }
-          else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 73, __pyx_L3_error)
+          else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 71, __pyx_L3_error)
         }
       }
       if (unlikely(kw_args > 0)) {
         const Py_ssize_t kwd_pos_args = __pyx_nargs;
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values + 0, kwd_pos_args, "__init__") < 0)) __PYX_ERR(0, 73, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values + 0, kwd_pos_args, "__init__") < 0)) __PYX_ERR(0, 71, __pyx_L3_error)
       }
     } else {
       switch (__pyx_nargs) {
@@ -20800,7 +19993,7 @@ static int __pyx_pw_25Compute_Similarity_Cython_25Compute_Similarity_Cython_1__i
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("__init__", 0, 1, 10, __pyx_nargs); __PYX_ERR(0, 73, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("__init__", 0, 1, 10, __pyx_nargs); __PYX_ERR(0, 71, __pyx_L3_error)
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -20810,13 +20003,13 @@ static int __pyx_pw_25Compute_Similarity_Cython_25Compute_Similarity_Cython_1__i
       __Pyx_Arg_XDECREF_VARARGS(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("Compute_Similarity_Cython.Compute_Similarity_Cython.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.Similarity.Cython.Compute_Similarity_Cython.Compute_Similarity_Cython.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return -1;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cython___init__(((struct __pyx_obj_25Compute_Similarity_Cython_Compute_Similarity_Cython *)__pyx_v_self), __pyx_v_dataMatrix, __pyx_v_topK, __pyx_v_shrink, __pyx_v_normalize, __pyx_v_asymmetric_alpha, __pyx_v_tversky_alpha, __pyx_v_tversky_beta, __pyx_v_similarity, __pyx_v_row_weights, __pyx_v_use_dense);
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_25Compute_Similarity_Cython___init__(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython *)__pyx_v_self), __pyx_v_dataMatrix, __pyx_v_topK, __pyx_v_shrink, __pyx_v_normalize, __pyx_v_asymmetric_alpha, __pyx_v_tversky_alpha, __pyx_v_tversky_beta, __pyx_v_similarity, __pyx_v_row_weights, __pyx_v_use_dense);
 
-  /* "Compute_Similarity_Cython.pyx":73
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":71
  *     cdef double[:,:] W_dense
  * 
  *     def __init__(self, dataMatrix, topK = 100, shrink=0, normalize = True,             # <<<<<<<<<<<<<<
@@ -20835,7 +20028,7 @@ static int __pyx_pw_25Compute_Similarity_Cython_25Compute_Similarity_Cython_1__i
   return __pyx_r;
 }
 
-static int __pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cython___init__(struct __pyx_obj_25Compute_Similarity_Cython_Compute_Similarity_Cython *__pyx_v_self, PyObject *__pyx_v_dataMatrix, PyObject *__pyx_v_topK, PyObject *__pyx_v_shrink, PyObject *__pyx_v_normalize, PyObject *__pyx_v_asymmetric_alpha, PyObject *__pyx_v_tversky_alpha, PyObject *__pyx_v_tversky_beta, PyObject *__pyx_v_similarity, PyObject *__pyx_v_row_weights, PyObject *__pyx_v_use_dense) {
+static int __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_25Compute_Similarity_Cython___init__(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython *__pyx_v_self, PyObject *__pyx_v_dataMatrix, PyObject *__pyx_v_topK, PyObject *__pyx_v_shrink, PyObject *__pyx_v_normalize, PyObject *__pyx_v_asymmetric_alpha, PyObject *__pyx_v_tversky_alpha, PyObject *__pyx_v_tversky_beta, PyObject *__pyx_v_similarity, PyObject *__pyx_v_row_weights, PyObject *__pyx_v_use_dense) {
   PyObject *__pyx_v_sum_of_squared_np = NULL;
   int __pyx_r;
   __Pyx_RefNannyDeclarations
@@ -20861,25 +20054,25 @@ static int __pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cython___in
   __Pyx_RefNannySetupContext("__init__", 0);
   __Pyx_INCREF(__pyx_v_dataMatrix);
 
-  /* "Compute_Similarity_Cython.pyx":103
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":101
  *         """
  * 
  *         super(Compute_Similarity_Cython, self).__init__()             # <<<<<<<<<<<<<<
  * 
  *         self.n_columns = dataMatrix.shape[1]
  */
-  __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 103, __pyx_L1_error)
+  __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 101, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __Pyx_INCREF((PyObject *)__pyx_ptype_25Compute_Similarity_Cython_Compute_Similarity_Cython);
-  __Pyx_GIVEREF((PyObject *)__pyx_ptype_25Compute_Similarity_Cython_Compute_Similarity_Cython);
-  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_2, 0, ((PyObject *)__pyx_ptype_25Compute_Similarity_Cython_Compute_Similarity_Cython))) __PYX_ERR(0, 103, __pyx_L1_error);
+  __Pyx_INCREF((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython);
+  __Pyx_GIVEREF((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython);
+  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_2, 0, ((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython))) __PYX_ERR(0, 101, __pyx_L1_error);
   __Pyx_INCREF((PyObject *)__pyx_v_self);
   __Pyx_GIVEREF((PyObject *)__pyx_v_self);
-  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_2, 1, ((PyObject *)__pyx_v_self))) __PYX_ERR(0, 103, __pyx_L1_error);
-  __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_super, __pyx_t_2, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 103, __pyx_L1_error)
+  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_2, 1, ((PyObject *)__pyx_v_self))) __PYX_ERR(0, 101, __pyx_L1_error);
+  __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_super, __pyx_t_2, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 101, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_init); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 103, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_init); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 101, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_3 = NULL;
@@ -20900,95 +20093,95 @@ static int __pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cython___in
     PyObject *__pyx_callargs[2] = {__pyx_t_3, NULL};
     __pyx_t_1 = __Pyx_PyObject_FastCall(__pyx_t_2, __pyx_callargs+1-__pyx_t_4, 0+__pyx_t_4);
     __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 103, __pyx_L1_error)
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 101, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   }
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "Compute_Similarity_Cython.pyx":105
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":103
  *         super(Compute_Similarity_Cython, self).__init__()
  * 
  *         self.n_columns = dataMatrix.shape[1]             # <<<<<<<<<<<<<<
  *         self.n_rows = dataMatrix.shape[0]
  *         self.shrink = shrink
  */
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_dataMatrix, __pyx_n_s_shape); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 105, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_dataMatrix, __pyx_n_s_shape); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 103, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_t_1, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 0); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 105, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_t_1, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 0); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 103, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_5 = __Pyx_PyInt_As_long(__pyx_t_2); if (unlikely((__pyx_t_5 == (long)-1) && PyErr_Occurred())) __PYX_ERR(0, 105, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyInt_As_long(__pyx_t_2); if (unlikely((__pyx_t_5 == (long)-1) && PyErr_Occurred())) __PYX_ERR(0, 103, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __pyx_v_self->n_columns = __pyx_t_5;
 
-  /* "Compute_Similarity_Cython.pyx":106
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":104
  * 
  *         self.n_columns = dataMatrix.shape[1]
  *         self.n_rows = dataMatrix.shape[0]             # <<<<<<<<<<<<<<
  *         self.shrink = shrink
  *         self.normalize = normalize
  */
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_dataMatrix, __pyx_n_s_shape); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 106, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_dataMatrix, __pyx_n_s_shape); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 104, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_1 = __Pyx_GetItemInt(__pyx_t_2, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 106, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt(__pyx_t_2, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 104, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_5 = __Pyx_PyInt_As_long(__pyx_t_1); if (unlikely((__pyx_t_5 == (long)-1) && PyErr_Occurred())) __PYX_ERR(0, 106, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyInt_As_long(__pyx_t_1); if (unlikely((__pyx_t_5 == (long)-1) && PyErr_Occurred())) __PYX_ERR(0, 104, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_self->n_rows = __pyx_t_5;
 
-  /* "Compute_Similarity_Cython.pyx":107
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":105
  *         self.n_columns = dataMatrix.shape[1]
  *         self.n_rows = dataMatrix.shape[0]
  *         self.shrink = shrink             # <<<<<<<<<<<<<<
  *         self.normalize = normalize
  *         self.asymmetric_alpha = asymmetric_alpha
  */
-  __pyx_t_6 = __Pyx_PyInt_As_int(__pyx_v_shrink); if (unlikely((__pyx_t_6 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 107, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyInt_As_int(__pyx_v_shrink); if (unlikely((__pyx_t_6 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 105, __pyx_L1_error)
   __pyx_v_self->shrink = __pyx_t_6;
 
-  /* "Compute_Similarity_Cython.pyx":108
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":106
  *         self.n_rows = dataMatrix.shape[0]
  *         self.shrink = shrink
  *         self.normalize = normalize             # <<<<<<<<<<<<<<
  *         self.asymmetric_alpha = asymmetric_alpha
  *         self.tversky_alpha = tversky_alpha
  */
-  __pyx_t_6 = __Pyx_PyInt_As_int(__pyx_v_normalize); if (unlikely((__pyx_t_6 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 108, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyInt_As_int(__pyx_v_normalize); if (unlikely((__pyx_t_6 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 106, __pyx_L1_error)
   __pyx_v_self->normalize = __pyx_t_6;
 
-  /* "Compute_Similarity_Cython.pyx":109
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":107
  *         self.shrink = shrink
  *         self.normalize = normalize
  *         self.asymmetric_alpha = asymmetric_alpha             # <<<<<<<<<<<<<<
  *         self.tversky_alpha = tversky_alpha
  *         self.tversky_beta = tversky_beta
  */
-  __pyx_t_7 = __pyx_PyFloat_AsFloat(__pyx_v_asymmetric_alpha); if (unlikely((__pyx_t_7 == (float)-1) && PyErr_Occurred())) __PYX_ERR(0, 109, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsFloat(__pyx_v_asymmetric_alpha); if (unlikely((__pyx_t_7 == (float)-1) && PyErr_Occurred())) __PYX_ERR(0, 107, __pyx_L1_error)
   __pyx_v_self->asymmetric_alpha = __pyx_t_7;
 
-  /* "Compute_Similarity_Cython.pyx":110
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":108
  *         self.normalize = normalize
  *         self.asymmetric_alpha = asymmetric_alpha
  *         self.tversky_alpha = tversky_alpha             # <<<<<<<<<<<<<<
  *         self.tversky_beta = tversky_beta
  * 
  */
-  __pyx_t_7 = __pyx_PyFloat_AsFloat(__pyx_v_tversky_alpha); if (unlikely((__pyx_t_7 == (float)-1) && PyErr_Occurred())) __PYX_ERR(0, 110, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsFloat(__pyx_v_tversky_alpha); if (unlikely((__pyx_t_7 == (float)-1) && PyErr_Occurred())) __PYX_ERR(0, 108, __pyx_L1_error)
   __pyx_v_self->tversky_alpha = __pyx_t_7;
 
-  /* "Compute_Similarity_Cython.pyx":111
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":109
  *         self.asymmetric_alpha = asymmetric_alpha
  *         self.tversky_alpha = tversky_alpha
  *         self.tversky_beta = tversky_beta             # <<<<<<<<<<<<<<
  * 
  *         self.adjusted_cosine = False
  */
-  __pyx_t_7 = __pyx_PyFloat_AsFloat(__pyx_v_tversky_beta); if (unlikely((__pyx_t_7 == (float)-1) && PyErr_Occurred())) __PYX_ERR(0, 111, __pyx_L1_error)
+  __pyx_t_7 = __pyx_PyFloat_AsFloat(__pyx_v_tversky_beta); if (unlikely((__pyx_t_7 == (float)-1) && PyErr_Occurred())) __PYX_ERR(0, 109, __pyx_L1_error)
   __pyx_v_self->tversky_beta = __pyx_t_7;
 
-  /* "Compute_Similarity_Cython.pyx":113
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":111
  *         self.tversky_beta = tversky_beta
  * 
  *         self.adjusted_cosine = False             # <<<<<<<<<<<<<<
@@ -20997,7 +20190,7 @@ static int __pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cython___in
  */
   __pyx_v_self->adjusted_cosine = 0;
 
-  /* "Compute_Similarity_Cython.pyx":114
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":112
  * 
  *         self.adjusted_cosine = False
  *         self.asymmetric_cosine = False             # <<<<<<<<<<<<<<
@@ -21006,7 +20199,7 @@ static int __pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cython___in
  */
   __pyx_v_self->asymmetric_cosine = 0;
 
-  /* "Compute_Similarity_Cython.pyx":115
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":113
  *         self.adjusted_cosine = False
  *         self.asymmetric_cosine = False
  *         self.pearson_correlation = False             # <<<<<<<<<<<<<<
@@ -21015,7 +20208,7 @@ static int __pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cython___in
  */
   __pyx_v_self->pearson_correlation = 0;
 
-  /* "Compute_Similarity_Cython.pyx":116
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":114
  *         self.asymmetric_cosine = False
  *         self.pearson_correlation = False
  *         self.tanimoto_coefficient = False             # <<<<<<<<<<<<<<
@@ -21024,7 +20217,7 @@ static int __pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cython___in
  */
   __pyx_v_self->tanimoto_coefficient = 0;
 
-  /* "Compute_Similarity_Cython.pyx":117
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":115
  *         self.pearson_correlation = False
  *         self.tanimoto_coefficient = False
  *         self.dice_coefficient = False             # <<<<<<<<<<<<<<
@@ -21033,7 +20226,7 @@ static int __pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cython___in
  */
   __pyx_v_self->dice_coefficient = 0;
 
-  /* "Compute_Similarity_Cython.pyx":118
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":116
  *         self.tanimoto_coefficient = False
  *         self.dice_coefficient = False
  *         self.tversky_coefficient = False             # <<<<<<<<<<<<<<
@@ -21042,17 +20235,17 @@ static int __pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cython___in
  */
   __pyx_v_self->tversky_coefficient = 0;
 
-  /* "Compute_Similarity_Cython.pyx":120
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":118
  *         self.tversky_coefficient = False
  * 
  *         if similarity == "adjusted":             # <<<<<<<<<<<<<<
  *             self.adjusted_cosine = True
  *         elif similarity == "asymmetric":
  */
-  __pyx_t_8 = (__Pyx_PyString_Equals(__pyx_v_similarity, __pyx_n_s_adjusted, Py_EQ)); if (unlikely((__pyx_t_8 < 0))) __PYX_ERR(0, 120, __pyx_L1_error)
+  __pyx_t_8 = (__Pyx_PyString_Equals(__pyx_v_similarity, __pyx_n_s_adjusted, Py_EQ)); if (unlikely((__pyx_t_8 < 0))) __PYX_ERR(0, 118, __pyx_L1_error)
   if (__pyx_t_8) {
 
-    /* "Compute_Similarity_Cython.pyx":121
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":119
  * 
  *         if similarity == "adjusted":
  *             self.adjusted_cosine = True             # <<<<<<<<<<<<<<
@@ -21061,7 +20254,7 @@ static int __pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cython___in
  */
     __pyx_v_self->adjusted_cosine = 1;
 
-    /* "Compute_Similarity_Cython.pyx":120
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":118
  *         self.tversky_coefficient = False
  * 
  *         if similarity == "adjusted":             # <<<<<<<<<<<<<<
@@ -21071,17 +20264,17 @@ static int __pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cython___in
     goto __pyx_L3;
   }
 
-  /* "Compute_Similarity_Cython.pyx":122
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":120
  *         if similarity == "adjusted":
  *             self.adjusted_cosine = True
  *         elif similarity == "asymmetric":             # <<<<<<<<<<<<<<
  *             self.asymmetric_cosine = True
  *         elif similarity == "pearson":
  */
-  __pyx_t_8 = (__Pyx_PyString_Equals(__pyx_v_similarity, __pyx_n_s_asymmetric, Py_EQ)); if (unlikely((__pyx_t_8 < 0))) __PYX_ERR(0, 122, __pyx_L1_error)
+  __pyx_t_8 = (__Pyx_PyString_Equals(__pyx_v_similarity, __pyx_n_s_asymmetric, Py_EQ)); if (unlikely((__pyx_t_8 < 0))) __PYX_ERR(0, 120, __pyx_L1_error)
   if (__pyx_t_8) {
 
-    /* "Compute_Similarity_Cython.pyx":123
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":121
  *             self.adjusted_cosine = True
  *         elif similarity == "asymmetric":
  *             self.asymmetric_cosine = True             # <<<<<<<<<<<<<<
@@ -21090,7 +20283,7 @@ static int __pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cython___in
  */
     __pyx_v_self->asymmetric_cosine = 1;
 
-    /* "Compute_Similarity_Cython.pyx":122
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":120
  *         if similarity == "adjusted":
  *             self.adjusted_cosine = True
  *         elif similarity == "asymmetric":             # <<<<<<<<<<<<<<
@@ -21100,17 +20293,17 @@ static int __pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cython___in
     goto __pyx_L3;
   }
 
-  /* "Compute_Similarity_Cython.pyx":124
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":122
  *         elif similarity == "asymmetric":
  *             self.asymmetric_cosine = True
  *         elif similarity == "pearson":             # <<<<<<<<<<<<<<
  *             self.pearson_correlation = True
  *         elif similarity == "jaccard" or similarity == "tanimoto":
  */
-  __pyx_t_8 = (__Pyx_PyString_Equals(__pyx_v_similarity, __pyx_n_s_pearson, Py_EQ)); if (unlikely((__pyx_t_8 < 0))) __PYX_ERR(0, 124, __pyx_L1_error)
+  __pyx_t_8 = (__Pyx_PyString_Equals(__pyx_v_similarity, __pyx_n_s_pearson, Py_EQ)); if (unlikely((__pyx_t_8 < 0))) __PYX_ERR(0, 122, __pyx_L1_error)
   if (__pyx_t_8) {
 
-    /* "Compute_Similarity_Cython.pyx":125
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":123
  *             self.asymmetric_cosine = True
  *         elif similarity == "pearson":
  *             self.pearson_correlation = True             # <<<<<<<<<<<<<<
@@ -21119,7 +20312,7 @@ static int __pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cython___in
  */
     __pyx_v_self->pearson_correlation = 1;
 
-    /* "Compute_Similarity_Cython.pyx":124
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":122
  *         elif similarity == "asymmetric":
  *             self.asymmetric_cosine = True
  *         elif similarity == "pearson":             # <<<<<<<<<<<<<<
@@ -21129,25 +20322,25 @@ static int __pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cython___in
     goto __pyx_L3;
   }
 
-  /* "Compute_Similarity_Cython.pyx":126
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":124
  *         elif similarity == "pearson":
  *             self.pearson_correlation = True
  *         elif similarity == "jaccard" or similarity == "tanimoto":             # <<<<<<<<<<<<<<
  *             self.tanimoto_coefficient = True
  *             # Tanimoto has a specific kind of normalization
  */
-  __pyx_t_9 = (__Pyx_PyString_Equals(__pyx_v_similarity, __pyx_n_s_jaccard, Py_EQ)); if (unlikely((__pyx_t_9 < 0))) __PYX_ERR(0, 126, __pyx_L1_error)
+  __pyx_t_9 = (__Pyx_PyString_Equals(__pyx_v_similarity, __pyx_n_s_jaccard, Py_EQ)); if (unlikely((__pyx_t_9 < 0))) __PYX_ERR(0, 124, __pyx_L1_error)
   if (!__pyx_t_9) {
   } else {
     __pyx_t_8 = __pyx_t_9;
     goto __pyx_L4_bool_binop_done;
   }
-  __pyx_t_9 = (__Pyx_PyString_Equals(__pyx_v_similarity, __pyx_n_s_tanimoto, Py_EQ)); if (unlikely((__pyx_t_9 < 0))) __PYX_ERR(0, 126, __pyx_L1_error)
+  __pyx_t_9 = (__Pyx_PyString_Equals(__pyx_v_similarity, __pyx_n_s_tanimoto, Py_EQ)); if (unlikely((__pyx_t_9 < 0))) __PYX_ERR(0, 124, __pyx_L1_error)
   __pyx_t_8 = __pyx_t_9;
   __pyx_L4_bool_binop_done:;
   if (__pyx_t_8) {
 
-    /* "Compute_Similarity_Cython.pyx":127
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":125
  *             self.pearson_correlation = True
  *         elif similarity == "jaccard" or similarity == "tanimoto":
  *             self.tanimoto_coefficient = True             # <<<<<<<<<<<<<<
@@ -21156,7 +20349,7 @@ static int __pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cython___in
  */
     __pyx_v_self->tanimoto_coefficient = 1;
 
-    /* "Compute_Similarity_Cython.pyx":129
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":127
  *             self.tanimoto_coefficient = True
  *             # Tanimoto has a specific kind of normalization
  *             self.normalize = False             # <<<<<<<<<<<<<<
@@ -21165,7 +20358,7 @@ static int __pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cython___in
  */
     __pyx_v_self->normalize = 0;
 
-    /* "Compute_Similarity_Cython.pyx":126
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":124
  *         elif similarity == "pearson":
  *             self.pearson_correlation = True
  *         elif similarity == "jaccard" or similarity == "tanimoto":             # <<<<<<<<<<<<<<
@@ -21175,17 +20368,17 @@ static int __pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cython___in
     goto __pyx_L3;
   }
 
-  /* "Compute_Similarity_Cython.pyx":131
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":129
  *             self.normalize = False
  * 
  *         elif similarity == "dice":             # <<<<<<<<<<<<<<
  *             self.dice_coefficient = True
  *             self.normalize = False
  */
-  __pyx_t_8 = (__Pyx_PyString_Equals(__pyx_v_similarity, __pyx_n_s_dice, Py_EQ)); if (unlikely((__pyx_t_8 < 0))) __PYX_ERR(0, 131, __pyx_L1_error)
+  __pyx_t_8 = (__Pyx_PyString_Equals(__pyx_v_similarity, __pyx_n_s_dice, Py_EQ)); if (unlikely((__pyx_t_8 < 0))) __PYX_ERR(0, 129, __pyx_L1_error)
   if (__pyx_t_8) {
 
-    /* "Compute_Similarity_Cython.pyx":132
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":130
  * 
  *         elif similarity == "dice":
  *             self.dice_coefficient = True             # <<<<<<<<<<<<<<
@@ -21194,7 +20387,7 @@ static int __pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cython___in
  */
     __pyx_v_self->dice_coefficient = 1;
 
-    /* "Compute_Similarity_Cython.pyx":133
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":131
  *         elif similarity == "dice":
  *             self.dice_coefficient = True
  *             self.normalize = False             # <<<<<<<<<<<<<<
@@ -21203,7 +20396,7 @@ static int __pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cython___in
  */
     __pyx_v_self->normalize = 0;
 
-    /* "Compute_Similarity_Cython.pyx":131
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":129
  *             self.normalize = False
  * 
  *         elif similarity == "dice":             # <<<<<<<<<<<<<<
@@ -21213,17 +20406,17 @@ static int __pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cython___in
     goto __pyx_L3;
   }
 
-  /* "Compute_Similarity_Cython.pyx":135
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":133
  *             self.normalize = False
  * 
  *         elif similarity == "tversky":             # <<<<<<<<<<<<<<
  *             self.tversky_coefficient = True
  *             self.normalize = False
  */
-  __pyx_t_8 = (__Pyx_PyString_Equals(__pyx_v_similarity, __pyx_n_s_tversky, Py_EQ)); if (unlikely((__pyx_t_8 < 0))) __PYX_ERR(0, 135, __pyx_L1_error)
+  __pyx_t_8 = (__Pyx_PyString_Equals(__pyx_v_similarity, __pyx_n_s_tversky, Py_EQ)); if (unlikely((__pyx_t_8 < 0))) __PYX_ERR(0, 133, __pyx_L1_error)
   if (__pyx_t_8) {
 
-    /* "Compute_Similarity_Cython.pyx":136
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":134
  * 
  *         elif similarity == "tversky":
  *             self.tversky_coefficient = True             # <<<<<<<<<<<<<<
@@ -21232,7 +20425,7 @@ static int __pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cython___in
  */
     __pyx_v_self->tversky_coefficient = 1;
 
-    /* "Compute_Similarity_Cython.pyx":137
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":135
  *         elif similarity == "tversky":
  *             self.tversky_coefficient = True
  *             self.normalize = False             # <<<<<<<<<<<<<<
@@ -21241,7 +20434,7 @@ static int __pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cython___in
  */
     __pyx_v_self->normalize = 0;
 
-    /* "Compute_Similarity_Cython.pyx":135
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":133
  *             self.normalize = False
  * 
  *         elif similarity == "tversky":             # <<<<<<<<<<<<<<
@@ -21251,19 +20444,19 @@ static int __pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cython___in
     goto __pyx_L3;
   }
 
-  /* "Compute_Similarity_Cython.pyx":139
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":137
  *             self.normalize = False
  * 
  *         elif similarity == "cosine":             # <<<<<<<<<<<<<<
  *             pass
  *         else:
  */
-  __pyx_t_8 = (__Pyx_PyString_Equals(__pyx_v_similarity, __pyx_n_s_cosine, Py_EQ)); if (unlikely((__pyx_t_8 < 0))) __PYX_ERR(0, 139, __pyx_L1_error)
+  __pyx_t_8 = (__Pyx_PyString_Equals(__pyx_v_similarity, __pyx_n_s_cosine, Py_EQ)); if (unlikely((__pyx_t_8 < 0))) __PYX_ERR(0, 137, __pyx_L1_error)
   if (likely(__pyx_t_8)) {
     goto __pyx_L3;
   }
 
-  /* "Compute_Similarity_Cython.pyx":142
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":140
  *             pass
  *         else:
  *             raise ValueError("Cosine_Similarity: value for parameter 'mode' not recognized."             # <<<<<<<<<<<<<<
@@ -21272,14 +20465,14 @@ static int __pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cython___in
  */
   /*else*/ {
 
-    /* "Compute_Similarity_Cython.pyx":145
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":143
  *                              " Allowed values are: 'cosine', 'pearson', 'adjusted', 'asymmetric', 'jaccard', 'tanimoto',"
  *                              "dice, tversky."
  *                              " Passed value was '{}'".format(similarity))             # <<<<<<<<<<<<<<
  * 
  *         assert topK >=0 and topK <= self.n_columns, "TopK must be between 0 and the number of columns"
  */
-    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_Cosine_Similarity_value_for_para, __pyx_n_s_format); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 145, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_Cosine_Similarity_value_for_para, __pyx_n_s_format); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 143, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __pyx_t_3 = NULL;
     __pyx_t_4 = 0;
@@ -21299,28 +20492,28 @@ static int __pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cython___in
       PyObject *__pyx_callargs[2] = {__pyx_t_3, __pyx_v_similarity};
       __pyx_t_1 = __Pyx_PyObject_FastCall(__pyx_t_2, __pyx_callargs+1-__pyx_t_4, 1+__pyx_t_4);
       __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-      if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 145, __pyx_L1_error)
+      if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 143, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     }
 
-    /* "Compute_Similarity_Cython.pyx":142
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":140
  *             pass
  *         else:
  *             raise ValueError("Cosine_Similarity: value for parameter 'mode' not recognized."             # <<<<<<<<<<<<<<
  *                              " Allowed values are: 'cosine', 'pearson', 'adjusted', 'asymmetric', 'jaccard', 'tanimoto',"
  *                              "dice, tversky."
  */
-    __pyx_t_2 = __Pyx_PyObject_CallOneArg(__pyx_builtin_ValueError, __pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 142, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_CallOneArg(__pyx_builtin_ValueError, __pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 140, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     __Pyx_Raise(__pyx_t_2, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __PYX_ERR(0, 142, __pyx_L1_error)
+    __PYX_ERR(0, 140, __pyx_L1_error)
   }
   __pyx_L3:;
 
-  /* "Compute_Similarity_Cython.pyx":147
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":145
  *                              " Passed value was '{}'".format(similarity))
  * 
  *         assert topK >=0 and topK <= self.n_columns, "TopK must be between 0 and the number of columns"             # <<<<<<<<<<<<<<
@@ -21329,32 +20522,32 @@ static int __pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cython___in
  */
   #ifndef CYTHON_WITHOUT_ASSERTIONS
   if (unlikely(__pyx_assertions_enabled())) {
-    __pyx_t_2 = PyObject_RichCompare(__pyx_v_topK, __pyx_int_0, Py_GE); __Pyx_XGOTREF(__pyx_t_2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 147, __pyx_L1_error)
-    __pyx_t_9 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely((__pyx_t_9 < 0))) __PYX_ERR(0, 147, __pyx_L1_error)
+    __pyx_t_2 = PyObject_RichCompare(__pyx_v_topK, __pyx_int_0, Py_GE); __Pyx_XGOTREF(__pyx_t_2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 145, __pyx_L1_error)
+    __pyx_t_9 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely((__pyx_t_9 < 0))) __PYX_ERR(0, 145, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     if (__pyx_t_9) {
     } else {
       __pyx_t_8 = __pyx_t_9;
       goto __pyx_L6_bool_binop_done;
     }
-    __pyx_t_2 = __Pyx_PyInt_From_long(__pyx_v_self->n_columns); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 147, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyInt_From_long(__pyx_v_self->n_columns); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 145, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_1 = PyObject_RichCompare(__pyx_v_topK, __pyx_t_2, Py_LE); __Pyx_XGOTREF(__pyx_t_1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 147, __pyx_L1_error)
+    __pyx_t_1 = PyObject_RichCompare(__pyx_v_topK, __pyx_t_2, Py_LE); __Pyx_XGOTREF(__pyx_t_1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 145, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __pyx_t_9 = __Pyx_PyObject_IsTrue(__pyx_t_1); if (unlikely((__pyx_t_9 < 0))) __PYX_ERR(0, 147, __pyx_L1_error)
+    __pyx_t_9 = __Pyx_PyObject_IsTrue(__pyx_t_1); if (unlikely((__pyx_t_9 < 0))) __PYX_ERR(0, 145, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     __pyx_t_8 = __pyx_t_9;
     __pyx_L6_bool_binop_done:;
     if (unlikely(!__pyx_t_8)) {
       __Pyx_Raise(__pyx_builtin_AssertionError, __pyx_kp_s_TopK_must_be_between_0_and_the_n, 0, 0);
-      __PYX_ERR(0, 147, __pyx_L1_error)
+      __PYX_ERR(0, 145, __pyx_L1_error)
     }
   }
   #else
-  if ((1)); else __PYX_ERR(0, 147, __pyx_L1_error)
+  if ((1)); else __PYX_ERR(0, 145, __pyx_L1_error)
   #endif
 
-  /* "Compute_Similarity_Cython.pyx":148
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":146
  * 
  *         assert topK >=0 and topK <= self.n_columns, "TopK must be between 0 and the number of columns"
  *         self.topK = min(topK, self.n_columns)             # <<<<<<<<<<<<<<
@@ -21364,14 +20557,14 @@ static int __pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cython___in
   __pyx_t_5 = __pyx_v_self->n_columns;
   __Pyx_INCREF(__pyx_v_topK);
   __pyx_t_1 = __pyx_v_topK;
-  __pyx_t_3 = __Pyx_PyInt_From_long(__pyx_t_5); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 148, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyInt_From_long(__pyx_t_5); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 146, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_10 = PyObject_RichCompare(__pyx_t_3, __pyx_t_1, Py_LT); __Pyx_XGOTREF(__pyx_t_10); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 148, __pyx_L1_error)
+  __pyx_t_10 = PyObject_RichCompare(__pyx_t_3, __pyx_t_1, Py_LT); __Pyx_XGOTREF(__pyx_t_10); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 146, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_8 = __Pyx_PyObject_IsTrue(__pyx_t_10); if (unlikely((__pyx_t_8 < 0))) __PYX_ERR(0, 148, __pyx_L1_error)
+  __pyx_t_8 = __Pyx_PyObject_IsTrue(__pyx_t_10); if (unlikely((__pyx_t_8 < 0))) __PYX_ERR(0, 146, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
   if (__pyx_t_8) {
-    __pyx_t_10 = __Pyx_PyInt_From_long(__pyx_t_5); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 148, __pyx_L1_error)
+    __pyx_t_10 = __Pyx_PyInt_From_long(__pyx_t_5); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 146, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_10);
     __pyx_t_2 = __pyx_t_10;
     __pyx_t_10 = 0;
@@ -21380,141 +20573,141 @@ static int __pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cython___in
     __pyx_t_2 = __pyx_t_1;
   }
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_6 = __Pyx_PyInt_As_int(__pyx_t_2); if (unlikely((__pyx_t_6 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 148, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyInt_As_int(__pyx_t_2); if (unlikely((__pyx_t_6 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 146, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __pyx_v_self->topK = __pyx_t_6;
 
-  /* "Compute_Similarity_Cython.pyx":149
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":147
  *         assert topK >=0 and topK <= self.n_columns, "TopK must be between 0 and the number of columns"
  *         self.topK = min(topK, self.n_columns)
  *         self.use_dense = use_dense             # <<<<<<<<<<<<<<
  *         self.this_item_weights = np.zeros(self.n_columns, dtype=np.float64)
  *         self.this_item_weights_id = np.zeros(self.n_columns, dtype=np.int32)
  */
-  __pyx_t_6 = __Pyx_PyInt_As_int(__pyx_v_use_dense); if (unlikely((__pyx_t_6 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 149, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyInt_As_int(__pyx_v_use_dense); if (unlikely((__pyx_t_6 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 147, __pyx_L1_error)
   __pyx_v_self->use_dense = __pyx_t_6;
 
-  /* "Compute_Similarity_Cython.pyx":150
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":148
  *         self.topK = min(topK, self.n_columns)
  *         self.use_dense = use_dense
  *         self.this_item_weights = np.zeros(self.n_columns, dtype=np.float64)             # <<<<<<<<<<<<<<
  *         self.this_item_weights_id = np.zeros(self.n_columns, dtype=np.int32)
  *         self.this_item_weights_mask = np.zeros(self.n_columns, dtype=np.int32)
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 150, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 148, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_zeros); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 150, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_zeros); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 148, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = __Pyx_PyInt_From_long(__pyx_v_self->n_columns); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 150, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_long(__pyx_v_self->n_columns); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 148, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_10 = PyTuple_New(1); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 150, __pyx_L1_error)
+  __pyx_t_10 = PyTuple_New(1); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 148, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_10);
   __Pyx_GIVEREF(__pyx_t_2);
-  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_10, 0, __pyx_t_2)) __PYX_ERR(0, 150, __pyx_L1_error);
+  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_10, 0, __pyx_t_2)) __PYX_ERR(0, 148, __pyx_L1_error);
   __pyx_t_2 = 0;
-  __pyx_t_2 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 150, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 148, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 150, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 148, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_float64); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 150, __pyx_L1_error)
+  __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_float64); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 148, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_11);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_dtype, __pyx_t_11) < 0) __PYX_ERR(0, 150, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_dtype, __pyx_t_11) < 0) __PYX_ERR(0, 148, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
-  __pyx_t_11 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_t_10, __pyx_t_2); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 150, __pyx_L1_error)
+  __pyx_t_11 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_t_10, __pyx_t_2); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 148, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_11);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_12 = __Pyx_PyObject_to_MemoryviewSlice_ds_double(__pyx_t_11, PyBUF_WRITABLE); if (unlikely(!__pyx_t_12.memview)) __PYX_ERR(0, 150, __pyx_L1_error)
+  __pyx_t_12 = __Pyx_PyObject_to_MemoryviewSlice_ds_double(__pyx_t_11, PyBUF_WRITABLE); if (unlikely(!__pyx_t_12.memview)) __PYX_ERR(0, 148, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
   __PYX_XCLEAR_MEMVIEW(&__pyx_v_self->this_item_weights, 0);
   __pyx_v_self->this_item_weights = __pyx_t_12;
   __pyx_t_12.memview = NULL;
   __pyx_t_12.data = NULL;
 
-  /* "Compute_Similarity_Cython.pyx":151
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":149
  *         self.use_dense = use_dense
  *         self.this_item_weights = np.zeros(self.n_columns, dtype=np.float64)
  *         self.this_item_weights_id = np.zeros(self.n_columns, dtype=np.int32)             # <<<<<<<<<<<<<<
  *         self.this_item_weights_mask = np.zeros(self.n_columns, dtype=np.int32)
  *         self.this_item_weights_counter = 0
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_11, __pyx_n_s_np); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 151, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_11, __pyx_n_s_np); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 149, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_11);
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_11, __pyx_n_s_zeros); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 151, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_11, __pyx_n_s_zeros); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 149, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
-  __pyx_t_11 = __Pyx_PyInt_From_long(__pyx_v_self->n_columns); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 151, __pyx_L1_error)
+  __pyx_t_11 = __Pyx_PyInt_From_long(__pyx_v_self->n_columns); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 149, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_11);
-  __pyx_t_10 = PyTuple_New(1); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 151, __pyx_L1_error)
+  __pyx_t_10 = PyTuple_New(1); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 149, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_10);
   __Pyx_GIVEREF(__pyx_t_11);
-  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_10, 0, __pyx_t_11)) __PYX_ERR(0, 151, __pyx_L1_error);
+  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_10, 0, __pyx_t_11)) __PYX_ERR(0, 149, __pyx_L1_error);
   __pyx_t_11 = 0;
-  __pyx_t_11 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 151, __pyx_L1_error)
+  __pyx_t_11 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 149, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_11);
-  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_np); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 151, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_np); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 149, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_int32); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 151, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_int32); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 149, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  if (PyDict_SetItem(__pyx_t_11, __pyx_n_s_dtype, __pyx_t_3) < 0) __PYX_ERR(0, 151, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_11, __pyx_n_s_dtype, __pyx_t_3) < 0) __PYX_ERR(0, 149, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_t_10, __pyx_t_11); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 151, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_t_10, __pyx_t_11); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 149, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
   __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
-  __pyx_t_13 = __Pyx_PyObject_to_MemoryviewSlice_ds_int(__pyx_t_3, PyBUF_WRITABLE); if (unlikely(!__pyx_t_13.memview)) __PYX_ERR(0, 151, __pyx_L1_error)
+  __pyx_t_13 = __Pyx_PyObject_to_MemoryviewSlice_ds_int(__pyx_t_3, PyBUF_WRITABLE); if (unlikely(!__pyx_t_13.memview)) __PYX_ERR(0, 149, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __PYX_XCLEAR_MEMVIEW(&__pyx_v_self->this_item_weights_id, 0);
   __pyx_v_self->this_item_weights_id = __pyx_t_13;
   __pyx_t_13.memview = NULL;
   __pyx_t_13.data = NULL;
 
-  /* "Compute_Similarity_Cython.pyx":152
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":150
  *         self.this_item_weights = np.zeros(self.n_columns, dtype=np.float64)
  *         self.this_item_weights_id = np.zeros(self.n_columns, dtype=np.int32)
  *         self.this_item_weights_mask = np.zeros(self.n_columns, dtype=np.int32)             # <<<<<<<<<<<<<<
  *         self.this_item_weights_counter = 0
  * 
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 152, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 150, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_zeros); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 152, __pyx_L1_error)
+  __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_zeros); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 150, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_11);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = __Pyx_PyInt_From_long(__pyx_v_self->n_columns); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 152, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyInt_From_long(__pyx_v_self->n_columns); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 150, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_10 = PyTuple_New(1); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 152, __pyx_L1_error)
+  __pyx_t_10 = PyTuple_New(1); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 150, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_10);
   __Pyx_GIVEREF(__pyx_t_3);
-  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_10, 0, __pyx_t_3)) __PYX_ERR(0, 152, __pyx_L1_error);
+  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_10, 0, __pyx_t_3)) __PYX_ERR(0, 150, __pyx_L1_error);
   __pyx_t_3 = 0;
-  __pyx_t_3 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 152, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 150, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 152, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 150, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_int32); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 152, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_int32); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 150, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_dtype, __pyx_t_1) < 0) __PYX_ERR(0, 152, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_dtype, __pyx_t_1) < 0) __PYX_ERR(0, 150, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_t_11, __pyx_t_10, __pyx_t_3); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 152, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_t_11, __pyx_t_10, __pyx_t_3); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 150, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
   __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_13 = __Pyx_PyObject_to_MemoryviewSlice_ds_int(__pyx_t_1, PyBUF_WRITABLE); if (unlikely(!__pyx_t_13.memview)) __PYX_ERR(0, 152, __pyx_L1_error)
+  __pyx_t_13 = __Pyx_PyObject_to_MemoryviewSlice_ds_int(__pyx_t_1, PyBUF_WRITABLE); if (unlikely(!__pyx_t_13.memview)) __PYX_ERR(0, 150, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __PYX_XCLEAR_MEMVIEW(&__pyx_v_self->this_item_weights_mask, 0);
   __pyx_v_self->this_item_weights_mask = __pyx_t_13;
   __pyx_t_13.memview = NULL;
   __pyx_t_13.data = NULL;
 
-  /* "Compute_Similarity_Cython.pyx":153
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":151
  *         self.this_item_weights_id = np.zeros(self.n_columns, dtype=np.int32)
  *         self.this_item_weights_mask = np.zeros(self.n_columns, dtype=np.int32)
  *         self.this_item_weights_counter = 0             # <<<<<<<<<<<<<<
@@ -21523,14 +20716,14 @@ static int __pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cython___in
  */
   __pyx_v_self->this_item_weights_counter = 0;
 
-  /* "Compute_Similarity_Cython.pyx":156
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":154
  * 
  *         # Copy data to avoid altering the original object
  *         dataMatrix = dataMatrix.copy()             # <<<<<<<<<<<<<<
  * 
  * 
  */
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_dataMatrix, __pyx_n_s_copy); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 156, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_dataMatrix, __pyx_n_s_copy); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 154, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __pyx_t_10 = NULL;
   __pyx_t_4 = 0;
@@ -21550,14 +20743,14 @@ static int __pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cython___in
     PyObject *__pyx_callargs[2] = {__pyx_t_10, NULL};
     __pyx_t_1 = __Pyx_PyObject_FastCall(__pyx_t_3, __pyx_callargs+1-__pyx_t_4, 0+__pyx_t_4);
     __Pyx_XDECREF(__pyx_t_10); __pyx_t_10 = 0;
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 156, __pyx_L1_error)
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 154, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   }
   __Pyx_DECREF_SET(__pyx_v_dataMatrix, __pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "Compute_Similarity_Cython.pyx":159
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":157
  * 
  * 
  *         if self.adjusted_cosine:             # <<<<<<<<<<<<<<
@@ -21567,19 +20760,19 @@ static int __pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cython___in
   __pyx_t_8 = (__pyx_v_self->adjusted_cosine != 0);
   if (__pyx_t_8) {
 
-    /* "Compute_Similarity_Cython.pyx":160
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":158
  * 
  *         if self.adjusted_cosine:
  *             dataMatrix = self.applyAdjustedCosine(dataMatrix)             # <<<<<<<<<<<<<<
  *         elif self.pearson_correlation:
  *             dataMatrix = self.applyPearsonCorrelation(dataMatrix)
  */
-    __pyx_t_1 = ((struct __pyx_vtabstruct_25Compute_Similarity_Cython_Compute_Similarity_Cython *)__pyx_v_self->__pyx_vtab)->applyAdjustedCosine(__pyx_v_self, __pyx_v_dataMatrix); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 160, __pyx_L1_error)
+    __pyx_t_1 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython *)__pyx_v_self->__pyx_vtab)->applyAdjustedCosine(__pyx_v_self, __pyx_v_dataMatrix); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 158, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF_SET(__pyx_v_dataMatrix, __pyx_t_1);
     __pyx_t_1 = 0;
 
-    /* "Compute_Similarity_Cython.pyx":159
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":157
  * 
  * 
  *         if self.adjusted_cosine:             # <<<<<<<<<<<<<<
@@ -21589,7 +20782,7 @@ static int __pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cython___in
     goto __pyx_L8;
   }
 
-  /* "Compute_Similarity_Cython.pyx":161
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":159
  *         if self.adjusted_cosine:
  *             dataMatrix = self.applyAdjustedCosine(dataMatrix)
  *         elif self.pearson_correlation:             # <<<<<<<<<<<<<<
@@ -21599,19 +20792,19 @@ static int __pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cython___in
   __pyx_t_8 = (__pyx_v_self->pearson_correlation != 0);
   if (__pyx_t_8) {
 
-    /* "Compute_Similarity_Cython.pyx":162
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":160
  *             dataMatrix = self.applyAdjustedCosine(dataMatrix)
  *         elif self.pearson_correlation:
  *             dataMatrix = self.applyPearsonCorrelation(dataMatrix)             # <<<<<<<<<<<<<<
  *         elif self.tanimoto_coefficient or self.dice_coefficient or self.tversky_coefficient:
  *             dataMatrix = self.useOnlyBooleanInteractions(dataMatrix)
  */
-    __pyx_t_1 = ((struct __pyx_vtabstruct_25Compute_Similarity_Cython_Compute_Similarity_Cython *)__pyx_v_self->__pyx_vtab)->applyPearsonCorrelation(__pyx_v_self, __pyx_v_dataMatrix); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 162, __pyx_L1_error)
+    __pyx_t_1 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython *)__pyx_v_self->__pyx_vtab)->applyPearsonCorrelation(__pyx_v_self, __pyx_v_dataMatrix); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 160, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF_SET(__pyx_v_dataMatrix, __pyx_t_1);
     __pyx_t_1 = 0;
 
-    /* "Compute_Similarity_Cython.pyx":161
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":159
  *         if self.adjusted_cosine:
  *             dataMatrix = self.applyAdjustedCosine(dataMatrix)
  *         elif self.pearson_correlation:             # <<<<<<<<<<<<<<
@@ -21621,7 +20814,7 @@ static int __pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cython___in
     goto __pyx_L8;
   }
 
-  /* "Compute_Similarity_Cython.pyx":163
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":161
  *         elif self.pearson_correlation:
  *             dataMatrix = self.applyPearsonCorrelation(dataMatrix)
  *         elif self.tanimoto_coefficient or self.dice_coefficient or self.tversky_coefficient:             # <<<<<<<<<<<<<<
@@ -21645,19 +20838,19 @@ static int __pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cython___in
   __pyx_L9_bool_binop_done:;
   if (__pyx_t_8) {
 
-    /* "Compute_Similarity_Cython.pyx":164
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":162
  *             dataMatrix = self.applyPearsonCorrelation(dataMatrix)
  *         elif self.tanimoto_coefficient or self.dice_coefficient or self.tversky_coefficient:
  *             dataMatrix = self.useOnlyBooleanInteractions(dataMatrix)             # <<<<<<<<<<<<<<
  * 
  * 
  */
-    __pyx_t_1 = ((struct __pyx_vtabstruct_25Compute_Similarity_Cython_Compute_Similarity_Cython *)__pyx_v_self->__pyx_vtab)->useOnlyBooleanInteractions(__pyx_v_self, __pyx_v_dataMatrix); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 164, __pyx_L1_error)
+    __pyx_t_1 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython *)__pyx_v_self->__pyx_vtab)->useOnlyBooleanInteractions(__pyx_v_self, __pyx_v_dataMatrix); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 162, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF_SET(__pyx_v_dataMatrix, __pyx_t_1);
     __pyx_t_1 = 0;
 
-    /* "Compute_Similarity_Cython.pyx":163
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":161
  *         elif self.pearson_correlation:
  *             dataMatrix = self.applyPearsonCorrelation(dataMatrix)
  *         elif self.tanimoto_coefficient or self.dice_coefficient or self.tversky_coefficient:             # <<<<<<<<<<<<<<
@@ -21667,19 +20860,19 @@ static int __pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cython___in
   }
   __pyx_L8:;
 
-  /* "Compute_Similarity_Cython.pyx":168
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":166
  * 
  *         # Compute sum of squared values to be used in normalization
  *         self.sum_of_squared = np.array(dataMatrix.power(2).sum(axis=0), dtype=np.float64).ravel()             # <<<<<<<<<<<<<<
  * 
  *         # Tanimoto does not require the square root to be applied
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 168, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 166, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_array); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 168, __pyx_L1_error)
+  __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_array); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 166, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_10);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_v_dataMatrix, __pyx_n_s_power); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 168, __pyx_L1_error)
+  __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_v_dataMatrix, __pyx_n_s_power); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 166, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_11);
   __pyx_t_2 = NULL;
   __pyx_t_4 = 0;
@@ -21699,40 +20892,40 @@ static int __pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cython___in
     PyObject *__pyx_callargs[2] = {__pyx_t_2, __pyx_int_2};
     __pyx_t_3 = __Pyx_PyObject_FastCall(__pyx_t_11, __pyx_callargs+1-__pyx_t_4, 1+__pyx_t_4);
     __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
-    if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 168, __pyx_L1_error)
+    if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 166, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
   }
-  __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_sum); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 168, __pyx_L1_error)
+  __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_sum); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 166, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_11);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 168, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 166, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_axis, __pyx_int_0) < 0) __PYX_ERR(0, 168, __pyx_L1_error)
-  __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_11, __pyx_empty_tuple, __pyx_t_3); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 168, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_axis, __pyx_int_0) < 0) __PYX_ERR(0, 166, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_11, __pyx_empty_tuple, __pyx_t_3); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 166, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyTuple_New(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 168, __pyx_L1_error)
+  __pyx_t_3 = PyTuple_New(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 166, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_GIVEREF(__pyx_t_2);
-  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_3, 0, __pyx_t_2)) __PYX_ERR(0, 168, __pyx_L1_error);
+  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_3, 0, __pyx_t_2)) __PYX_ERR(0, 166, __pyx_L1_error);
   __pyx_t_2 = 0;
-  __pyx_t_2 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 168, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 166, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __Pyx_GetModuleGlobalName(__pyx_t_11, __pyx_n_s_np); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 168, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_11, __pyx_n_s_np); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 166, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_11);
-  __pyx_t_14 = __Pyx_PyObject_GetAttrStr(__pyx_t_11, __pyx_n_s_float64); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 168, __pyx_L1_error)
+  __pyx_t_14 = __Pyx_PyObject_GetAttrStr(__pyx_t_11, __pyx_n_s_float64); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 166, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_14);
   __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
-  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_dtype, __pyx_t_14) < 0) __PYX_ERR(0, 168, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_dtype, __pyx_t_14) < 0) __PYX_ERR(0, 166, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
-  __pyx_t_14 = __Pyx_PyObject_Call(__pyx_t_10, __pyx_t_3, __pyx_t_2); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 168, __pyx_L1_error)
+  __pyx_t_14 = __Pyx_PyObject_Call(__pyx_t_10, __pyx_t_3, __pyx_t_2); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 166, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_14);
   __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_14, __pyx_n_s_ravel); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 168, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_14, __pyx_n_s_ravel); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 166, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
   __pyx_t_14 = NULL;
@@ -21753,18 +20946,18 @@ static int __pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cython___in
     PyObject *__pyx_callargs[2] = {__pyx_t_14, NULL};
     __pyx_t_1 = __Pyx_PyObject_FastCall(__pyx_t_2, __pyx_callargs+1-__pyx_t_4, 0+__pyx_t_4);
     __Pyx_XDECREF(__pyx_t_14); __pyx_t_14 = 0;
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 168, __pyx_L1_error)
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 166, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   }
-  __pyx_t_12 = __Pyx_PyObject_to_MemoryviewSlice_ds_double(__pyx_t_1, PyBUF_WRITABLE); if (unlikely(!__pyx_t_12.memview)) __PYX_ERR(0, 168, __pyx_L1_error)
+  __pyx_t_12 = __Pyx_PyObject_to_MemoryviewSlice_ds_double(__pyx_t_1, PyBUF_WRITABLE); if (unlikely(!__pyx_t_12.memview)) __PYX_ERR(0, 166, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __PYX_XCLEAR_MEMVIEW(&__pyx_v_self->sum_of_squared, 0);
   __pyx_v_self->sum_of_squared = __pyx_t_12;
   __pyx_t_12.memview = NULL;
   __pyx_t_12.data = NULL;
 
-  /* "Compute_Similarity_Cython.pyx":171
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":169
  * 
  *         # Tanimoto does not require the square root to be applied
  *         if not (self.tanimoto_coefficient or self.dice_coefficient or self.tversky_coefficient):             # <<<<<<<<<<<<<<
@@ -21789,19 +20982,19 @@ static int __pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cython___in
   __pyx_t_9 = (!__pyx_t_8);
   if (__pyx_t_9) {
 
-    /* "Compute_Similarity_Cython.pyx":172
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":170
  *         # Tanimoto does not require the square root to be applied
  *         if not (self.tanimoto_coefficient or self.dice_coefficient or self.tversky_coefficient):
  *             self.sum_of_squared = np.sqrt(self.sum_of_squared)             # <<<<<<<<<<<<<<
  * 
  *         if self.asymmetric_cosine:
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 172, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 170, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_14 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_sqrt); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 172, __pyx_L1_error)
+    __pyx_t_14 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_sqrt); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 170, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_14);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __pyx_t_2 = __pyx_memoryview_fromslice(__pyx_v_self->sum_of_squared, 1, (PyObject *(*)(char *)) __pyx_memview_get_double, (int (*)(char *, PyObject *)) __pyx_memview_set_double, 0);; if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 172, __pyx_L1_error)
+    __pyx_t_2 = __pyx_memoryview_fromslice(__pyx_v_self->sum_of_squared, 1, (PyObject *(*)(char *)) __pyx_memview_get_double, (int (*)(char *, PyObject *)) __pyx_memview_set_double, 0);; if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 170, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __pyx_t_3 = NULL;
     __pyx_t_4 = 0;
@@ -21822,18 +21015,18 @@ static int __pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cython___in
       __pyx_t_1 = __Pyx_PyObject_FastCall(__pyx_t_14, __pyx_callargs+1-__pyx_t_4, 1+__pyx_t_4);
       __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-      if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 172, __pyx_L1_error)
+      if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 170, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
     }
-    __pyx_t_12 = __Pyx_PyObject_to_MemoryviewSlice_ds_double(__pyx_t_1, PyBUF_WRITABLE); if (unlikely(!__pyx_t_12.memview)) __PYX_ERR(0, 172, __pyx_L1_error)
+    __pyx_t_12 = __Pyx_PyObject_to_MemoryviewSlice_ds_double(__pyx_t_1, PyBUF_WRITABLE); if (unlikely(!__pyx_t_12.memview)) __PYX_ERR(0, 170, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     __PYX_XCLEAR_MEMVIEW(&__pyx_v_self->sum_of_squared, 0);
     __pyx_v_self->sum_of_squared = __pyx_t_12;
     __pyx_t_12.memview = NULL;
     __pyx_t_12.data = NULL;
 
-    /* "Compute_Similarity_Cython.pyx":171
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":169
  * 
  *         # Tanimoto does not require the square root to be applied
  *         if not (self.tanimoto_coefficient or self.dice_coefficient or self.tversky_coefficient):             # <<<<<<<<<<<<<<
@@ -21842,7 +21035,7 @@ static int __pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cython___in
  */
   }
 
-  /* "Compute_Similarity_Cython.pyx":174
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":172
  *             self.sum_of_squared = np.sqrt(self.sum_of_squared)
  * 
  *         if self.asymmetric_cosine:             # <<<<<<<<<<<<<<
@@ -21852,19 +21045,19 @@ static int __pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cython___in
   __pyx_t_9 = (__pyx_v_self->asymmetric_cosine != 0);
   if (__pyx_t_9) {
 
-    /* "Compute_Similarity_Cython.pyx":176
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":174
  *         if self.asymmetric_cosine:
  *             # The power of 1-alpha may be negative so add small value to ensure values are non-zeros
  *             sum_of_squared_np = np.array(self.sum_of_squared) + 1e-6             # <<<<<<<<<<<<<<
  *             self.sum_of_squared_to_alpha = np.power(sum_of_squared_np, 2 * self.asymmetric_alpha)
  *             self.sum_of_squared_to_1_minus_alpha = np.power(sum_of_squared_np, 2 * (1 - self.asymmetric_alpha))
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_14, __pyx_n_s_np); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 176, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_14, __pyx_n_s_np); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 174, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_14);
-    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_14, __pyx_n_s_array); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 176, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_14, __pyx_n_s_array); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 174, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
-    __pyx_t_14 = __pyx_memoryview_fromslice(__pyx_v_self->sum_of_squared, 1, (PyObject *(*)(char *)) __pyx_memview_get_double, (int (*)(char *, PyObject *)) __pyx_memview_set_double, 0);; if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 176, __pyx_L1_error)
+    __pyx_t_14 = __pyx_memoryview_fromslice(__pyx_v_self->sum_of_squared, 1, (PyObject *(*)(char *)) __pyx_memview_get_double, (int (*)(char *, PyObject *)) __pyx_memview_set_double, 0);; if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 174, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_14);
     __pyx_t_3 = NULL;
     __pyx_t_4 = 0;
@@ -21885,29 +21078,29 @@ static int __pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cython___in
       __pyx_t_1 = __Pyx_PyObject_FastCall(__pyx_t_2, __pyx_callargs+1-__pyx_t_4, 1+__pyx_t_4);
       __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
       __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
-      if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 176, __pyx_L1_error)
+      if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 174, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     }
-    __pyx_t_2 = __Pyx_PyFloat_AddObjC(__pyx_t_1, __pyx_float_1eneg_6, 1e-6, 0, 0); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 176, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyFloat_AddObjC(__pyx_t_1, __pyx_float_1eneg_6, 1e-6, 0, 0); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 174, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     __pyx_v_sum_of_squared_np = __pyx_t_2;
     __pyx_t_2 = 0;
 
-    /* "Compute_Similarity_Cython.pyx":177
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":175
  *             # The power of 1-alpha may be negative so add small value to ensure values are non-zeros
  *             sum_of_squared_np = np.array(self.sum_of_squared) + 1e-6
  *             self.sum_of_squared_to_alpha = np.power(sum_of_squared_np, 2 * self.asymmetric_alpha)             # <<<<<<<<<<<<<<
  *             self.sum_of_squared_to_1_minus_alpha = np.power(sum_of_squared_np, 2 * (1 - self.asymmetric_alpha))
  * 
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_np); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 177, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_np); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 175, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
-    __pyx_t_14 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_power); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 177, __pyx_L1_error)
+    __pyx_t_14 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_power); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 175, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_14);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    __pyx_t_1 = PyFloat_FromDouble((2.0 * __pyx_v_self->asymmetric_alpha)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 177, __pyx_L1_error)
+    __pyx_t_1 = PyFloat_FromDouble((2.0 * __pyx_v_self->asymmetric_alpha)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 175, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __pyx_t_3 = NULL;
     __pyx_t_4 = 0;
@@ -21928,30 +21121,30 @@ static int __pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cython___in
       __pyx_t_2 = __Pyx_PyObject_FastCall(__pyx_t_14, __pyx_callargs+1-__pyx_t_4, 2+__pyx_t_4);
       __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 177, __pyx_L1_error)
+      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 175, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
       __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
     }
-    __pyx_t_12 = __Pyx_PyObject_to_MemoryviewSlice_ds_double(__pyx_t_2, PyBUF_WRITABLE); if (unlikely(!__pyx_t_12.memview)) __PYX_ERR(0, 177, __pyx_L1_error)
+    __pyx_t_12 = __Pyx_PyObject_to_MemoryviewSlice_ds_double(__pyx_t_2, PyBUF_WRITABLE); if (unlikely(!__pyx_t_12.memview)) __PYX_ERR(0, 175, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __PYX_XCLEAR_MEMVIEW(&__pyx_v_self->sum_of_squared_to_alpha, 0);
     __pyx_v_self->sum_of_squared_to_alpha = __pyx_t_12;
     __pyx_t_12.memview = NULL;
     __pyx_t_12.data = NULL;
 
-    /* "Compute_Similarity_Cython.pyx":178
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":176
  *             sum_of_squared_np = np.array(self.sum_of_squared) + 1e-6
  *             self.sum_of_squared_to_alpha = np.power(sum_of_squared_np, 2 * self.asymmetric_alpha)
  *             self.sum_of_squared_to_1_minus_alpha = np.power(sum_of_squared_np, 2 * (1 - self.asymmetric_alpha))             # <<<<<<<<<<<<<<
  * 
  *         # Apply weight after sum_of_squared has been computed but before the matrix is
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_14, __pyx_n_s_np); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 178, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_14, __pyx_n_s_np); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 176, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_14);
-    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_14, __pyx_n_s_power); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 178, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_14, __pyx_n_s_power); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 176, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
-    __pyx_t_14 = PyFloat_FromDouble((2.0 * (1.0 - __pyx_v_self->asymmetric_alpha))); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 178, __pyx_L1_error)
+    __pyx_t_14 = PyFloat_FromDouble((2.0 * (1.0 - __pyx_v_self->asymmetric_alpha))); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 176, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_14);
     __pyx_t_3 = NULL;
     __pyx_t_4 = 0;
@@ -21972,18 +21165,18 @@ static int __pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cython___in
       __pyx_t_2 = __Pyx_PyObject_FastCall(__pyx_t_1, __pyx_callargs+1-__pyx_t_4, 2+__pyx_t_4);
       __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
       __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
-      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 178, __pyx_L1_error)
+      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 176, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     }
-    __pyx_t_12 = __Pyx_PyObject_to_MemoryviewSlice_ds_double(__pyx_t_2, PyBUF_WRITABLE); if (unlikely(!__pyx_t_12.memview)) __PYX_ERR(0, 178, __pyx_L1_error)
+    __pyx_t_12 = __Pyx_PyObject_to_MemoryviewSlice_ds_double(__pyx_t_2, PyBUF_WRITABLE); if (unlikely(!__pyx_t_12.memview)) __PYX_ERR(0, 176, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __PYX_XCLEAR_MEMVIEW(&__pyx_v_self->sum_of_squared_to_1_minus_alpha, 0);
     __pyx_v_self->sum_of_squared_to_1_minus_alpha = __pyx_t_12;
     __pyx_t_12.memview = NULL;
     __pyx_t_12.data = NULL;
 
-    /* "Compute_Similarity_Cython.pyx":174
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":172
  *             self.sum_of_squared = np.sqrt(self.sum_of_squared)
  * 
  *         if self.asymmetric_cosine:             # <<<<<<<<<<<<<<
@@ -21992,7 +21185,7 @@ static int __pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cython___in
  */
   }
 
-  /* "Compute_Similarity_Cython.pyx":182
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":180
  *         # Apply weight after sum_of_squared has been computed but before the matrix is
  *         # split in its inner data structures
  *         self.use_row_weights = False             # <<<<<<<<<<<<<<
@@ -22001,7 +21194,7 @@ static int __pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cython___in
  */
   __pyx_v_self->use_row_weights = 0;
 
-  /* "Compute_Similarity_Cython.pyx":184
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":182
  *         self.use_row_weights = False
  * 
  *         if row_weights is not None:             # <<<<<<<<<<<<<<
@@ -22011,43 +21204,43 @@ static int __pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cython___in
   __pyx_t_9 = (__pyx_v_row_weights != Py_None);
   if (__pyx_t_9) {
 
-    /* "Compute_Similarity_Cython.pyx":186
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":184
  *         if row_weights is not None:
  * 
  *             if dataMatrix.shape[0] != len(row_weights):             # <<<<<<<<<<<<<<
  *                 raise ValueError("Cosine_Similarity: provided row_weights and dataMatrix have different number of rows."
  *                                  "Row_weights has {} rows, dataMatrix has {}.".format(len(row_weights), dataMatrix.shape[0]))
  */
-    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_dataMatrix, __pyx_n_s_shape); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 186, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_dataMatrix, __pyx_n_s_shape); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 184, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_1 = __Pyx_GetItemInt(__pyx_t_2, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 186, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_GetItemInt(__pyx_t_2, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 184, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __pyx_t_15 = PyObject_Length(__pyx_v_row_weights); if (unlikely(__pyx_t_15 == ((Py_ssize_t)-1))) __PYX_ERR(0, 186, __pyx_L1_error)
-    __pyx_t_2 = PyInt_FromSsize_t(__pyx_t_15); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 186, __pyx_L1_error)
+    __pyx_t_15 = PyObject_Length(__pyx_v_row_weights); if (unlikely(__pyx_t_15 == ((Py_ssize_t)-1))) __PYX_ERR(0, 184, __pyx_L1_error)
+    __pyx_t_2 = PyInt_FromSsize_t(__pyx_t_15); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 184, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_14 = PyObject_RichCompare(__pyx_t_1, __pyx_t_2, Py_NE); __Pyx_XGOTREF(__pyx_t_14); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 186, __pyx_L1_error)
+    __pyx_t_14 = PyObject_RichCompare(__pyx_t_1, __pyx_t_2, Py_NE); __Pyx_XGOTREF(__pyx_t_14); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 184, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __pyx_t_9 = __Pyx_PyObject_IsTrue(__pyx_t_14); if (unlikely((__pyx_t_9 < 0))) __PYX_ERR(0, 186, __pyx_L1_error)
+    __pyx_t_9 = __Pyx_PyObject_IsTrue(__pyx_t_14); if (unlikely((__pyx_t_9 < 0))) __PYX_ERR(0, 184, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
     if (unlikely(__pyx_t_9)) {
 
-      /* "Compute_Similarity_Cython.pyx":188
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":186
  *             if dataMatrix.shape[0] != len(row_weights):
  *                 raise ValueError("Cosine_Similarity: provided row_weights and dataMatrix have different number of rows."
  *                                  "Row_weights has {} rows, dataMatrix has {}.".format(len(row_weights), dataMatrix.shape[0]))             # <<<<<<<<<<<<<<
  * 
  * 
  */
-      __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_Cosine_Similarity_provided_row_w, __pyx_n_s_format); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 188, __pyx_L1_error)
+      __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_Cosine_Similarity_provided_row_w, __pyx_n_s_format); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 186, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
-      __pyx_t_15 = PyObject_Length(__pyx_v_row_weights); if (unlikely(__pyx_t_15 == ((Py_ssize_t)-1))) __PYX_ERR(0, 188, __pyx_L1_error)
-      __pyx_t_1 = PyInt_FromSsize_t(__pyx_t_15); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 188, __pyx_L1_error)
+      __pyx_t_15 = PyObject_Length(__pyx_v_row_weights); if (unlikely(__pyx_t_15 == ((Py_ssize_t)-1))) __PYX_ERR(0, 186, __pyx_L1_error)
+      __pyx_t_1 = PyInt_FromSsize_t(__pyx_t_15); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 186, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
-      __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_dataMatrix, __pyx_n_s_shape); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 188, __pyx_L1_error)
+      __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_dataMatrix, __pyx_n_s_shape); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 186, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
-      __pyx_t_10 = __Pyx_GetItemInt(__pyx_t_3, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 0); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 188, __pyx_L1_error)
+      __pyx_t_10 = __Pyx_GetItemInt(__pyx_t_3, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 0); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 186, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_10);
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       __pyx_t_3 = NULL;
@@ -22070,26 +21263,26 @@ static int __pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cython___in
         __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
         __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
-        if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 188, __pyx_L1_error)
+        if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 186, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_14);
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
       }
 
-      /* "Compute_Similarity_Cython.pyx":187
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":185
  * 
  *             if dataMatrix.shape[0] != len(row_weights):
  *                 raise ValueError("Cosine_Similarity: provided row_weights and dataMatrix have different number of rows."             # <<<<<<<<<<<<<<
  *                                  "Row_weights has {} rows, dataMatrix has {}.".format(len(row_weights), dataMatrix.shape[0]))
  * 
  */
-      __pyx_t_2 = __Pyx_PyObject_CallOneArg(__pyx_builtin_ValueError, __pyx_t_14); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 187, __pyx_L1_error)
+      __pyx_t_2 = __Pyx_PyObject_CallOneArg(__pyx_builtin_ValueError, __pyx_t_14); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 185, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
       __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
       __Pyx_Raise(__pyx_t_2, 0, 0, 0);
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-      __PYX_ERR(0, 187, __pyx_L1_error)
+      __PYX_ERR(0, 185, __pyx_L1_error)
 
-      /* "Compute_Similarity_Cython.pyx":186
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":184
  *         if row_weights is not None:
  * 
  *             if dataMatrix.shape[0] != len(row_weights):             # <<<<<<<<<<<<<<
@@ -22098,7 +21291,7 @@ static int __pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cython___in
  */
     }
 
-    /* "Compute_Similarity_Cython.pyx":191
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":189
  * 
  * 
  *             self.use_row_weights = True             # <<<<<<<<<<<<<<
@@ -22107,45 +21300,45 @@ static int __pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cython___in
  */
     __pyx_v_self->use_row_weights = 1;
 
-    /* "Compute_Similarity_Cython.pyx":192
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":190
  * 
  *             self.use_row_weights = True
  *             self.row_weights = np.array(row_weights, dtype=np.float64)             # <<<<<<<<<<<<<<
  * 
  * 
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 192, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 190, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_14 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_array); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 192, __pyx_L1_error)
+    __pyx_t_14 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_array); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 190, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_14);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 192, __pyx_L1_error)
+    __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 190, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_INCREF(__pyx_v_row_weights);
     __Pyx_GIVEREF(__pyx_v_row_weights);
-    if (__Pyx_PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_v_row_weights)) __PYX_ERR(0, 192, __pyx_L1_error);
-    __pyx_t_10 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 192, __pyx_L1_error)
+    if (__Pyx_PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_v_row_weights)) __PYX_ERR(0, 190, __pyx_L1_error);
+    __pyx_t_10 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 190, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_10);
-    __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_np); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 192, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_np); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 190, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_float64); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 192, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_float64); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 190, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    if (PyDict_SetItem(__pyx_t_10, __pyx_n_s_dtype, __pyx_t_3) < 0) __PYX_ERR(0, 192, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_10, __pyx_n_s_dtype, __pyx_t_3) < 0) __PYX_ERR(0, 190, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_14, __pyx_t_2, __pyx_t_10); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 192, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_14, __pyx_t_2, __pyx_t_10); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 190, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
-    __pyx_t_12 = __Pyx_PyObject_to_MemoryviewSlice_ds_double(__pyx_t_3, PyBUF_WRITABLE); if (unlikely(!__pyx_t_12.memview)) __PYX_ERR(0, 192, __pyx_L1_error)
+    __pyx_t_12 = __Pyx_PyObject_to_MemoryviewSlice_ds_double(__pyx_t_3, PyBUF_WRITABLE); if (unlikely(!__pyx_t_12.memview)) __PYX_ERR(0, 190, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __PYX_XCLEAR_MEMVIEW(&__pyx_v_self->row_weights, 0);
     __pyx_v_self->row_weights = __pyx_t_12;
     __pyx_t_12.memview = NULL;
     __pyx_t_12.data = NULL;
 
-    /* "Compute_Similarity_Cython.pyx":184
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":182
  *         self.use_row_weights = False
  * 
  *         if row_weights is not None:             # <<<<<<<<<<<<<<
@@ -22154,14 +21347,14 @@ static int __pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cython___in
  */
   }
 
-  /* "Compute_Similarity_Cython.pyx":195
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":193
  * 
  * 
  *         dataMatrix = check_matrix(dataMatrix, 'csr')             # <<<<<<<<<<<<<<
  * 
  *         self.user_to_item_row_ptr = dataMatrix.indptr
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_10, __pyx_n_s_check_matrix); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 195, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_10, __pyx_n_s_check_matrix); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 193, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_10);
   __pyx_t_2 = NULL;
   __pyx_t_4 = 0;
@@ -22181,93 +21374,93 @@ static int __pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cython___in
     PyObject *__pyx_callargs[3] = {__pyx_t_2, __pyx_v_dataMatrix, __pyx_n_s_csr};
     __pyx_t_3 = __Pyx_PyObject_FastCall(__pyx_t_10, __pyx_callargs+1-__pyx_t_4, 2+__pyx_t_4);
     __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
-    if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 195, __pyx_L1_error)
+    if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 193, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
   }
   __Pyx_DECREF_SET(__pyx_v_dataMatrix, __pyx_t_3);
   __pyx_t_3 = 0;
 
-  /* "Compute_Similarity_Cython.pyx":197
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":195
  *         dataMatrix = check_matrix(dataMatrix, 'csr')
  * 
  *         self.user_to_item_row_ptr = dataMatrix.indptr             # <<<<<<<<<<<<<<
  *         self.user_to_item_cols = dataMatrix.indices
  *         self.user_to_item_data = np.array(dataMatrix.data, dtype=np.float64)
  */
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_dataMatrix, __pyx_n_s_indptr); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 197, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_dataMatrix, __pyx_n_s_indptr); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 195, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_13 = __Pyx_PyObject_to_MemoryviewSlice_ds_int(__pyx_t_3, PyBUF_WRITABLE); if (unlikely(!__pyx_t_13.memview)) __PYX_ERR(0, 197, __pyx_L1_error)
+  __pyx_t_13 = __Pyx_PyObject_to_MemoryviewSlice_ds_int(__pyx_t_3, PyBUF_WRITABLE); if (unlikely(!__pyx_t_13.memview)) __PYX_ERR(0, 195, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __PYX_XCLEAR_MEMVIEW(&__pyx_v_self->user_to_item_row_ptr, 0);
   __pyx_v_self->user_to_item_row_ptr = __pyx_t_13;
   __pyx_t_13.memview = NULL;
   __pyx_t_13.data = NULL;
 
-  /* "Compute_Similarity_Cython.pyx":198
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":196
  * 
  *         self.user_to_item_row_ptr = dataMatrix.indptr
  *         self.user_to_item_cols = dataMatrix.indices             # <<<<<<<<<<<<<<
  *         self.user_to_item_data = np.array(dataMatrix.data, dtype=np.float64)
  * 
  */
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_dataMatrix, __pyx_n_s_indices); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 198, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_dataMatrix, __pyx_n_s_indices); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 196, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_13 = __Pyx_PyObject_to_MemoryviewSlice_ds_int(__pyx_t_3, PyBUF_WRITABLE); if (unlikely(!__pyx_t_13.memview)) __PYX_ERR(0, 198, __pyx_L1_error)
+  __pyx_t_13 = __Pyx_PyObject_to_MemoryviewSlice_ds_int(__pyx_t_3, PyBUF_WRITABLE); if (unlikely(!__pyx_t_13.memview)) __PYX_ERR(0, 196, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __PYX_XCLEAR_MEMVIEW(&__pyx_v_self->user_to_item_cols, 0);
   __pyx_v_self->user_to_item_cols = __pyx_t_13;
   __pyx_t_13.memview = NULL;
   __pyx_t_13.data = NULL;
 
-  /* "Compute_Similarity_Cython.pyx":199
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":197
  *         self.user_to_item_row_ptr = dataMatrix.indptr
  *         self.user_to_item_cols = dataMatrix.indices
  *         self.user_to_item_data = np.array(dataMatrix.data, dtype=np.float64)             # <<<<<<<<<<<<<<
  * 
  *         dataMatrix = check_matrix(dataMatrix, 'csc')
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 199, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 197, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_array); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 199, __pyx_L1_error)
+  __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_array); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 197, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_10);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_dataMatrix, __pyx_n_s_data); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 199, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_dataMatrix, __pyx_n_s_data); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 197, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 199, __pyx_L1_error)
+  __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 197, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_GIVEREF(__pyx_t_3);
-  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_t_3)) __PYX_ERR(0, 199, __pyx_L1_error);
+  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_t_3)) __PYX_ERR(0, 197, __pyx_L1_error);
   __pyx_t_3 = 0;
-  __pyx_t_3 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 199, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 197, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __Pyx_GetModuleGlobalName(__pyx_t_14, __pyx_n_s_np); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 199, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_14, __pyx_n_s_np); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 197, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_14);
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_14, __pyx_n_s_float64); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 199, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_14, __pyx_n_s_float64); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 197, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
-  if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_dtype, __pyx_t_1) < 0) __PYX_ERR(0, 199, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_dtype, __pyx_t_1) < 0) __PYX_ERR(0, 197, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_t_10, __pyx_t_2, __pyx_t_3); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 199, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_t_10, __pyx_t_2, __pyx_t_3); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 197, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_12 = __Pyx_PyObject_to_MemoryviewSlice_ds_double(__pyx_t_1, PyBUF_WRITABLE); if (unlikely(!__pyx_t_12.memview)) __PYX_ERR(0, 199, __pyx_L1_error)
+  __pyx_t_12 = __Pyx_PyObject_to_MemoryviewSlice_ds_double(__pyx_t_1, PyBUF_WRITABLE); if (unlikely(!__pyx_t_12.memview)) __PYX_ERR(0, 197, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __PYX_XCLEAR_MEMVIEW(&__pyx_v_self->user_to_item_data, 0);
   __pyx_v_self->user_to_item_data = __pyx_t_12;
   __pyx_t_12.memview = NULL;
   __pyx_t_12.data = NULL;
 
-  /* "Compute_Similarity_Cython.pyx":201
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":199
  *         self.user_to_item_data = np.array(dataMatrix.data, dtype=np.float64)
  * 
  *         dataMatrix = check_matrix(dataMatrix, 'csc')             # <<<<<<<<<<<<<<
  *         self.item_to_user_rows = dataMatrix.indices
  *         self.item_to_user_col_ptr = dataMatrix.indptr
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_check_matrix); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 201, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_check_matrix); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 199, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __pyx_t_2 = NULL;
   __pyx_t_4 = 0;
@@ -22287,86 +21480,86 @@ static int __pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cython___in
     PyObject *__pyx_callargs[3] = {__pyx_t_2, __pyx_v_dataMatrix, __pyx_n_s_csc};
     __pyx_t_1 = __Pyx_PyObject_FastCall(__pyx_t_3, __pyx_callargs+1-__pyx_t_4, 2+__pyx_t_4);
     __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 201, __pyx_L1_error)
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 199, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   }
   __Pyx_DECREF_SET(__pyx_v_dataMatrix, __pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "Compute_Similarity_Cython.pyx":202
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":200
  * 
  *         dataMatrix = check_matrix(dataMatrix, 'csc')
  *         self.item_to_user_rows = dataMatrix.indices             # <<<<<<<<<<<<<<
  *         self.item_to_user_col_ptr = dataMatrix.indptr
  *         self.item_to_user_data = np.array(dataMatrix.data, dtype=np.float64)
  */
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_dataMatrix, __pyx_n_s_indices); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 202, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_dataMatrix, __pyx_n_s_indices); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 200, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_13 = __Pyx_PyObject_to_MemoryviewSlice_ds_int(__pyx_t_1, PyBUF_WRITABLE); if (unlikely(!__pyx_t_13.memview)) __PYX_ERR(0, 202, __pyx_L1_error)
+  __pyx_t_13 = __Pyx_PyObject_to_MemoryviewSlice_ds_int(__pyx_t_1, PyBUF_WRITABLE); if (unlikely(!__pyx_t_13.memview)) __PYX_ERR(0, 200, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __PYX_XCLEAR_MEMVIEW(&__pyx_v_self->item_to_user_rows, 0);
   __pyx_v_self->item_to_user_rows = __pyx_t_13;
   __pyx_t_13.memview = NULL;
   __pyx_t_13.data = NULL;
 
-  /* "Compute_Similarity_Cython.pyx":203
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":201
  *         dataMatrix = check_matrix(dataMatrix, 'csc')
  *         self.item_to_user_rows = dataMatrix.indices
  *         self.item_to_user_col_ptr = dataMatrix.indptr             # <<<<<<<<<<<<<<
  *         self.item_to_user_data = np.array(dataMatrix.data, dtype=np.float64)
  * 
  */
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_dataMatrix, __pyx_n_s_indptr); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 203, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_dataMatrix, __pyx_n_s_indptr); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 201, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_13 = __Pyx_PyObject_to_MemoryviewSlice_ds_int(__pyx_t_1, PyBUF_WRITABLE); if (unlikely(!__pyx_t_13.memview)) __PYX_ERR(0, 203, __pyx_L1_error)
+  __pyx_t_13 = __Pyx_PyObject_to_MemoryviewSlice_ds_int(__pyx_t_1, PyBUF_WRITABLE); if (unlikely(!__pyx_t_13.memview)) __PYX_ERR(0, 201, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __PYX_XCLEAR_MEMVIEW(&__pyx_v_self->item_to_user_col_ptr, 0);
   __pyx_v_self->item_to_user_col_ptr = __pyx_t_13;
   __pyx_t_13.memview = NULL;
   __pyx_t_13.data = NULL;
 
-  /* "Compute_Similarity_Cython.pyx":204
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":202
  *         self.item_to_user_rows = dataMatrix.indices
  *         self.item_to_user_col_ptr = dataMatrix.indptr
  *         self.item_to_user_data = np.array(dataMatrix.data, dtype=np.float64)             # <<<<<<<<<<<<<<
  * 
  * 
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_np); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 204, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_np); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 202, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_array); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 204, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_array); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 202, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_dataMatrix, __pyx_n_s_data); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 204, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_dataMatrix, __pyx_n_s_data); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 202, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 204, __pyx_L1_error)
+  __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 202, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_GIVEREF(__pyx_t_1);
-  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_t_1)) __PYX_ERR(0, 204, __pyx_L1_error);
+  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_t_1)) __PYX_ERR(0, 202, __pyx_L1_error);
   __pyx_t_1 = 0;
-  __pyx_t_1 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 204, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 202, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __Pyx_GetModuleGlobalName(__pyx_t_10, __pyx_n_s_np); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 204, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_10, __pyx_n_s_np); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 202, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_10);
-  __pyx_t_14 = __Pyx_PyObject_GetAttrStr(__pyx_t_10, __pyx_n_s_float64); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 204, __pyx_L1_error)
+  __pyx_t_14 = __Pyx_PyObject_GetAttrStr(__pyx_t_10, __pyx_n_s_float64); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 202, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_14);
   __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
-  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_dtype, __pyx_t_14) < 0) __PYX_ERR(0, 204, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_dtype, __pyx_t_14) < 0) __PYX_ERR(0, 202, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
-  __pyx_t_14 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_t_2, __pyx_t_1); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 204, __pyx_L1_error)
+  __pyx_t_14 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_t_2, __pyx_t_1); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 202, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_14);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_12 = __Pyx_PyObject_to_MemoryviewSlice_ds_double(__pyx_t_14, PyBUF_WRITABLE); if (unlikely(!__pyx_t_12.memview)) __PYX_ERR(0, 204, __pyx_L1_error)
+  __pyx_t_12 = __Pyx_PyObject_to_MemoryviewSlice_ds_double(__pyx_t_14, PyBUF_WRITABLE); if (unlikely(!__pyx_t_12.memview)) __PYX_ERR(0, 202, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
   __PYX_XCLEAR_MEMVIEW(&__pyx_v_self->item_to_user_data, 0);
   __pyx_v_self->item_to_user_data = __pyx_t_12;
   __pyx_t_12.memview = NULL;
   __pyx_t_12.data = NULL;
 
-  /* "Compute_Similarity_Cython.pyx":207
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":205
  * 
  * 
  *         if self.use_dense:             # <<<<<<<<<<<<<<
@@ -22376,28 +21569,28 @@ static int __pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cython___in
   __pyx_t_9 = (__pyx_v_self->use_dense != 0);
   if (__pyx_t_9) {
 
-    /* "Compute_Similarity_Cython.pyx":208
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":206
  * 
  *         if self.use_dense:
  *             self.W_dense = np.zeros((self.n_columns,self.n_columns))             # <<<<<<<<<<<<<<
  * 
  * 
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_np); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 208, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_np); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 206, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
-    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_zeros); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 208, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_zeros); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 206, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    __pyx_t_1 = __Pyx_PyInt_From_long(__pyx_v_self->n_columns); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 208, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyInt_From_long(__pyx_v_self->n_columns); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 206, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
-    __pyx_t_3 = __Pyx_PyInt_From_long(__pyx_v_self->n_columns); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 208, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyInt_From_long(__pyx_v_self->n_columns); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 206, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_10 = PyTuple_New(2); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 208, __pyx_L1_error)
+    __pyx_t_10 = PyTuple_New(2); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 206, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_10);
     __Pyx_GIVEREF(__pyx_t_1);
-    if (__Pyx_PyTuple_SET_ITEM(__pyx_t_10, 0, __pyx_t_1)) __PYX_ERR(0, 208, __pyx_L1_error);
+    if (__Pyx_PyTuple_SET_ITEM(__pyx_t_10, 0, __pyx_t_1)) __PYX_ERR(0, 206, __pyx_L1_error);
     __Pyx_GIVEREF(__pyx_t_3);
-    if (__Pyx_PyTuple_SET_ITEM(__pyx_t_10, 1, __pyx_t_3)) __PYX_ERR(0, 208, __pyx_L1_error);
+    if (__Pyx_PyTuple_SET_ITEM(__pyx_t_10, 1, __pyx_t_3)) __PYX_ERR(0, 206, __pyx_L1_error);
     __pyx_t_1 = 0;
     __pyx_t_3 = 0;
     __pyx_t_3 = NULL;
@@ -22419,18 +21612,18 @@ static int __pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cython___in
       __pyx_t_14 = __Pyx_PyObject_FastCall(__pyx_t_2, __pyx_callargs+1-__pyx_t_4, 1+__pyx_t_4);
       __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
       __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
-      if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 208, __pyx_L1_error)
+      if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 206, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_14);
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     }
-    __pyx_t_16 = __Pyx_PyObject_to_MemoryviewSlice_dsds_double(__pyx_t_14, PyBUF_WRITABLE); if (unlikely(!__pyx_t_16.memview)) __PYX_ERR(0, 208, __pyx_L1_error)
+    __pyx_t_16 = __Pyx_PyObject_to_MemoryviewSlice_dsds_double(__pyx_t_14, PyBUF_WRITABLE); if (unlikely(!__pyx_t_16.memview)) __PYX_ERR(0, 206, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
     __PYX_XCLEAR_MEMVIEW(&__pyx_v_self->W_dense, 0);
     __pyx_v_self->W_dense = __pyx_t_16;
     __pyx_t_16.memview = NULL;
     __pyx_t_16.data = NULL;
 
-    /* "Compute_Similarity_Cython.pyx":207
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":205
  * 
  * 
  *         if self.use_dense:             # <<<<<<<<<<<<<<
@@ -22439,7 +21632,7 @@ static int __pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cython___in
  */
   }
 
-  /* "Compute_Similarity_Cython.pyx":73
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":71
  *     cdef double[:,:] W_dense
  * 
  *     def __init__(self, dataMatrix, topK = 100, shrink=0, normalize = True,             # <<<<<<<<<<<<<<
@@ -22460,7 +21653,7 @@ static int __pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cython___in
   __PYX_XCLEAR_MEMVIEW(&__pyx_t_13, 1);
   __Pyx_XDECREF(__pyx_t_14);
   __PYX_XCLEAR_MEMVIEW(&__pyx_t_16, 1);
-  __Pyx_AddTraceback("Compute_Similarity_Cython.Compute_Similarity_Cython.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.Similarity.Cython.Compute_Similarity_Cython.Compute_Similarity_Cython.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = -1;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_sum_of_squared_np);
@@ -22469,7 +21662,7 @@ static int __pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cython___in
   return __pyx_r;
 }
 
-/* "Compute_Similarity_Cython.pyx":212
+/* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":210
  * 
  * 
  *     cdef useOnlyBooleanInteractions(self, dataMatrix):             # <<<<<<<<<<<<<<
@@ -22477,7 +21670,7 @@ static int __pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cython___in
  *         Set to 1 all data points
  */
 
-static PyObject *__pyx_f_25Compute_Similarity_Cython_25Compute_Similarity_Cython_useOnlyBooleanInteractions(CYTHON_UNUSED struct __pyx_obj_25Compute_Similarity_Cython_Compute_Similarity_Cython *__pyx_v_self, PyObject *__pyx_v_dataMatrix) {
+static PyObject *__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_25Compute_Similarity_Cython_useOnlyBooleanInteractions(CYTHON_UNUSED struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython *__pyx_v_self, PyObject *__pyx_v_dataMatrix) {
   long __pyx_v_index;
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
@@ -22490,35 +21683,35 @@ static PyObject *__pyx_f_25Compute_Similarity_Cython_25Compute_Similarity_Cython
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("useOnlyBooleanInteractions", 1);
 
-  /* "Compute_Similarity_Cython.pyx":220
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":218
  *         cdef long index
  * 
  *         for index in range(len(dataMatrix.data)):             # <<<<<<<<<<<<<<
  *             dataMatrix.data[index] = 1
  * 
  */
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_dataMatrix, __pyx_n_s_data); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 220, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_dataMatrix, __pyx_n_s_data); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 218, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = PyObject_Length(__pyx_t_1); if (unlikely(__pyx_t_2 == ((Py_ssize_t)-1))) __PYX_ERR(0, 220, __pyx_L1_error)
+  __pyx_t_2 = PyObject_Length(__pyx_t_1); if (unlikely(__pyx_t_2 == ((Py_ssize_t)-1))) __PYX_ERR(0, 218, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_t_3 = __pyx_t_2;
   for (__pyx_t_4 = 0; __pyx_t_4 < __pyx_t_3; __pyx_t_4+=1) {
     __pyx_v_index = __pyx_t_4;
 
-    /* "Compute_Similarity_Cython.pyx":221
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":219
  * 
  *         for index in range(len(dataMatrix.data)):
  *             dataMatrix.data[index] = 1             # <<<<<<<<<<<<<<
  * 
  *         return dataMatrix
  */
-    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_dataMatrix, __pyx_n_s_data); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 221, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_dataMatrix, __pyx_n_s_data); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 219, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
-    if (unlikely((__Pyx_SetItemInt(__pyx_t_1, __pyx_v_index, __pyx_int_1, long, 1, __Pyx_PyInt_From_long, 0, 0, 0) < 0))) __PYX_ERR(0, 221, __pyx_L1_error)
+    if (unlikely((__Pyx_SetItemInt(__pyx_t_1, __pyx_v_index, __pyx_int_1, long, 1, __Pyx_PyInt_From_long, 0, 0, 0) < 0))) __PYX_ERR(0, 219, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   }
 
-  /* "Compute_Similarity_Cython.pyx":223
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":221
  *             dataMatrix.data[index] = 1
  * 
  *         return dataMatrix             # <<<<<<<<<<<<<<
@@ -22530,7 +21723,7 @@ static PyObject *__pyx_f_25Compute_Similarity_Cython_25Compute_Similarity_Cython
   __pyx_r = __pyx_v_dataMatrix;
   goto __pyx_L0;
 
-  /* "Compute_Similarity_Cython.pyx":212
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":210
  * 
  * 
  *     cdef useOnlyBooleanInteractions(self, dataMatrix):             # <<<<<<<<<<<<<<
@@ -22541,7 +21734,7 @@ static PyObject *__pyx_f_25Compute_Similarity_Cython_25Compute_Similarity_Cython
   /* function exit code */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_AddTraceback("Compute_Similarity_Cython.Compute_Similarity_Cython.useOnlyBooleanInteractions", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.Similarity.Cython.Compute_Similarity_Cython.Compute_Similarity_Cython.useOnlyBooleanInteractions", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = 0;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -22549,7 +21742,7 @@ static PyObject *__pyx_f_25Compute_Similarity_Cython_25Compute_Similarity_Cython
   return __pyx_r;
 }
 
-/* "Compute_Similarity_Cython.pyx":227
+/* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":225
  * 
  * 
  *     cdef applyPearsonCorrelation(self, dataMatrix):             # <<<<<<<<<<<<<<
@@ -22557,7 +21750,7 @@ static PyObject *__pyx_f_25Compute_Similarity_Cython_25Compute_Similarity_Cython
  *         Remove from every data point the average for the corresponding column
  */
 
-static PyObject *__pyx_f_25Compute_Similarity_Cython_25Compute_Similarity_Cython_applyPearsonCorrelation(struct __pyx_obj_25Compute_Similarity_Cython_Compute_Similarity_Cython *__pyx_v_self, PyObject *__pyx_v_dataMatrix) {
+static PyObject *__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_25Compute_Similarity_Cython_applyPearsonCorrelation(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython *__pyx_v_self, PyObject *__pyx_v_dataMatrix) {
   __Pyx_memviewslice __pyx_v_sumPerCol = { 0, 0, { 0 }, { 0 }, { 0 } };
   __Pyx_memviewslice __pyx_v_interactionsPerCol = { 0, 0, { 0 }, { 0 }, { 0 } };
   long __pyx_v_colIndex;
@@ -22589,14 +21782,14 @@ static PyObject *__pyx_f_25Compute_Similarity_Cython_25Compute_Similarity_Cython
   __Pyx_RefNannySetupContext("applyPearsonCorrelation", 0);
   __Pyx_INCREF(__pyx_v_dataMatrix);
 
-  /* "Compute_Similarity_Cython.pyx":238
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":236
  *         cdef double colAverage
  * 
  *         dataMatrix = check_matrix(dataMatrix, 'csc')             # <<<<<<<<<<<<<<
  * 
  *         sumPerCol = np.array(dataMatrix.sum(axis=0), dtype=np.float64).ravel()
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_check_matrix); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 238, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_check_matrix); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 236, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_3 = NULL;
   __pyx_t_4 = 0;
@@ -22616,54 +21809,54 @@ static PyObject *__pyx_f_25Compute_Similarity_Cython_25Compute_Similarity_Cython
     PyObject *__pyx_callargs[3] = {__pyx_t_3, __pyx_v_dataMatrix, __pyx_n_s_csc};
     __pyx_t_1 = __Pyx_PyObject_FastCall(__pyx_t_2, __pyx_callargs+1-__pyx_t_4, 2+__pyx_t_4);
     __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 238, __pyx_L1_error)
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 236, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   }
   __Pyx_DECREF_SET(__pyx_v_dataMatrix, __pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "Compute_Similarity_Cython.pyx":240
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":238
  *         dataMatrix = check_matrix(dataMatrix, 'csc')
  * 
  *         sumPerCol = np.array(dataMatrix.sum(axis=0), dtype=np.float64).ravel()             # <<<<<<<<<<<<<<
  *         interactionsPerCol = np.diff(dataMatrix.indptr)
  * 
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 240, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 238, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_array); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 240, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_array); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 238, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_dataMatrix, __pyx_n_s_sum); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 240, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_dataMatrix, __pyx_n_s_sum); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 238, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_5 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 240, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 238, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  if (PyDict_SetItem(__pyx_t_5, __pyx_n_s_axis, __pyx_int_0) < 0) __PYX_ERR(0, 240, __pyx_L1_error)
-  __pyx_t_6 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_empty_tuple, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 240, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_5, __pyx_n_s_axis, __pyx_int_0) < 0) __PYX_ERR(0, 238, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_empty_tuple, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 238, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_5 = PyTuple_New(1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 240, __pyx_L1_error)
+  __pyx_t_5 = PyTuple_New(1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 238, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_GIVEREF(__pyx_t_6);
-  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_t_6)) __PYX_ERR(0, 240, __pyx_L1_error);
+  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_t_6)) __PYX_ERR(0, 238, __pyx_L1_error);
   __pyx_t_6 = 0;
-  __pyx_t_6 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 240, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 238, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 240, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 238, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_float64); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 240, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_float64); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 238, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (PyDict_SetItem(__pyx_t_6, __pyx_n_s_dtype, __pyx_t_7) < 0) __PYX_ERR(0, 240, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_6, __pyx_n_s_dtype, __pyx_t_7) < 0) __PYX_ERR(0, 238, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-  __pyx_t_7 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_t_5, __pyx_t_6); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 240, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_t_5, __pyx_t_6); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 238, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-  __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_ravel); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 240, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_ravel); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 238, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
   __pyx_t_7 = NULL;
@@ -22684,29 +21877,29 @@ static PyObject *__pyx_f_25Compute_Similarity_Cython_25Compute_Similarity_Cython
     PyObject *__pyx_callargs[2] = {__pyx_t_7, NULL};
     __pyx_t_1 = __Pyx_PyObject_FastCall(__pyx_t_6, __pyx_callargs+1-__pyx_t_4, 0+__pyx_t_4);
     __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 240, __pyx_L1_error)
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 238, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   }
-  __pyx_t_8 = __Pyx_PyObject_to_MemoryviewSlice_ds_double(__pyx_t_1, PyBUF_WRITABLE); if (unlikely(!__pyx_t_8.memview)) __PYX_ERR(0, 240, __pyx_L1_error)
+  __pyx_t_8 = __Pyx_PyObject_to_MemoryviewSlice_ds_double(__pyx_t_1, PyBUF_WRITABLE); if (unlikely(!__pyx_t_8.memview)) __PYX_ERR(0, 238, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_sumPerCol = __pyx_t_8;
   __pyx_t_8.memview = NULL;
   __pyx_t_8.data = NULL;
 
-  /* "Compute_Similarity_Cython.pyx":241
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":239
  * 
  *         sumPerCol = np.array(dataMatrix.sum(axis=0), dtype=np.float64).ravel()
  *         interactionsPerCol = np.diff(dataMatrix.indptr)             # <<<<<<<<<<<<<<
  * 
  *         #Remove for every row the corresponding average
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_np); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 241, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_np); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 239, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_diff); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 241, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_diff); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 239, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-  __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_dataMatrix, __pyx_n_s_indptr); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 241, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_dataMatrix, __pyx_n_s_indptr); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 239, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __pyx_t_5 = NULL;
   __pyx_t_4 = 0;
@@ -22727,17 +21920,17 @@ static PyObject *__pyx_f_25Compute_Similarity_Cython_25Compute_Similarity_Cython
     __pyx_t_1 = __Pyx_PyObject_FastCall(__pyx_t_7, __pyx_callargs+1-__pyx_t_4, 1+__pyx_t_4);
     __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 241, __pyx_L1_error)
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 239, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
   }
-  __pyx_t_9 = __Pyx_PyObject_to_MemoryviewSlice_ds_int(__pyx_t_1, PyBUF_WRITABLE); if (unlikely(!__pyx_t_9.memview)) __PYX_ERR(0, 241, __pyx_L1_error)
+  __pyx_t_9 = __Pyx_PyObject_to_MemoryviewSlice_ds_int(__pyx_t_1, PyBUF_WRITABLE); if (unlikely(!__pyx_t_9.memview)) __PYX_ERR(0, 239, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_interactionsPerCol = __pyx_t_9;
   __pyx_t_9.memview = NULL;
   __pyx_t_9.data = NULL;
 
-  /* "Compute_Similarity_Cython.pyx":244
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":242
  * 
  *         #Remove for every row the corresponding average
  *         for colIndex in range(self.n_columns):             # <<<<<<<<<<<<<<
@@ -22749,7 +21942,7 @@ static PyObject *__pyx_f_25Compute_Similarity_Cython_25Compute_Similarity_Cython
   for (__pyx_t_12 = 0; __pyx_t_12 < __pyx_t_11; __pyx_t_12+=1) {
     __pyx_v_colIndex = __pyx_t_12;
 
-    /* "Compute_Similarity_Cython.pyx":246
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":244
  *         for colIndex in range(self.n_columns):
  * 
  *             if interactionsPerCol[colIndex]>0:             # <<<<<<<<<<<<<<
@@ -22760,7 +21953,7 @@ static PyObject *__pyx_f_25Compute_Similarity_Cython_25Compute_Similarity_Cython
     __pyx_t_14 = ((*((int *) ( /* dim=0 */ (__pyx_v_interactionsPerCol.data + __pyx_t_13 * __pyx_v_interactionsPerCol.strides[0]) ))) > 0);
     if (__pyx_t_14) {
 
-      /* "Compute_Similarity_Cython.pyx":248
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":246
  *             if interactionsPerCol[colIndex]>0:
  * 
  *                 colAverage = sumPerCol[colIndex] / interactionsPerCol[colIndex]             # <<<<<<<<<<<<<<
@@ -22771,40 +21964,40 @@ static PyObject *__pyx_f_25Compute_Similarity_Cython_25Compute_Similarity_Cython
       __pyx_t_15 = __pyx_v_colIndex;
       __pyx_v_colAverage = ((*((double *) ( /* dim=0 */ (__pyx_v_sumPerCol.data + __pyx_t_13 * __pyx_v_sumPerCol.strides[0]) ))) / ((double)(*((int *) ( /* dim=0 */ (__pyx_v_interactionsPerCol.data + __pyx_t_15 * __pyx_v_interactionsPerCol.strides[0]) )))));
 
-      /* "Compute_Similarity_Cython.pyx":250
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":248
  *                 colAverage = sumPerCol[colIndex] / interactionsPerCol[colIndex]
  * 
  *                 start_pos = dataMatrix.indptr[colIndex]             # <<<<<<<<<<<<<<
  *                 end_pos = dataMatrix.indptr[colIndex+1]
  * 
  */
-      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_dataMatrix, __pyx_n_s_indptr); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 250, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_dataMatrix, __pyx_n_s_indptr); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 248, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
-      __pyx_t_7 = __Pyx_GetItemInt(__pyx_t_1, __pyx_v_colIndex, long, 1, __Pyx_PyInt_From_long, 0, 0, 0); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 250, __pyx_L1_error)
+      __pyx_t_7 = __Pyx_GetItemInt(__pyx_t_1, __pyx_v_colIndex, long, 1, __Pyx_PyInt_From_long, 0, 0, 0); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 248, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-      __pyx_t_16 = __Pyx_PyInt_As_long(__pyx_t_7); if (unlikely((__pyx_t_16 == (long)-1) && PyErr_Occurred())) __PYX_ERR(0, 250, __pyx_L1_error)
+      __pyx_t_16 = __Pyx_PyInt_As_long(__pyx_t_7); if (unlikely((__pyx_t_16 == (long)-1) && PyErr_Occurred())) __PYX_ERR(0, 248, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
       __pyx_v_start_pos = __pyx_t_16;
 
-      /* "Compute_Similarity_Cython.pyx":251
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":249
  * 
  *                 start_pos = dataMatrix.indptr[colIndex]
  *                 end_pos = dataMatrix.indptr[colIndex+1]             # <<<<<<<<<<<<<<
  * 
  *                 innerIndex = start_pos
  */
-      __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_v_dataMatrix, __pyx_n_s_indptr); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 251, __pyx_L1_error)
+      __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_v_dataMatrix, __pyx_n_s_indptr); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 249, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
       __pyx_t_16 = (__pyx_v_colIndex + 1);
-      __pyx_t_1 = __Pyx_GetItemInt(__pyx_t_7, __pyx_t_16, long, 1, __Pyx_PyInt_From_long, 0, 0, 0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 251, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_GetItemInt(__pyx_t_7, __pyx_t_16, long, 1, __Pyx_PyInt_From_long, 0, 0, 0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 249, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-      __pyx_t_16 = __Pyx_PyInt_As_long(__pyx_t_1); if (unlikely((__pyx_t_16 == (long)-1) && PyErr_Occurred())) __PYX_ERR(0, 251, __pyx_L1_error)
+      __pyx_t_16 = __Pyx_PyInt_As_long(__pyx_t_1); if (unlikely((__pyx_t_16 == (long)-1) && PyErr_Occurred())) __PYX_ERR(0, 249, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
       __pyx_v_end_pos = __pyx_t_16;
 
-      /* "Compute_Similarity_Cython.pyx":253
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":251
  *                 end_pos = dataMatrix.indptr[colIndex+1]
  * 
  *                 innerIndex = start_pos             # <<<<<<<<<<<<<<
@@ -22813,7 +22006,7 @@ static PyObject *__pyx_f_25Compute_Similarity_Cython_25Compute_Similarity_Cython
  */
       __pyx_v_innerIndex = __pyx_v_start_pos;
 
-      /* "Compute_Similarity_Cython.pyx":254
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":252
  * 
  *                 innerIndex = start_pos
  *                 while innerIndex < end_pos:             # <<<<<<<<<<<<<<
@@ -22824,29 +22017,29 @@ static PyObject *__pyx_f_25Compute_Similarity_Cython_25Compute_Similarity_Cython
         __pyx_t_14 = (__pyx_v_innerIndex < __pyx_v_end_pos);
         if (!__pyx_t_14) break;
 
-        /* "Compute_Similarity_Cython.pyx":255
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":253
  *                 innerIndex = start_pos
  *                 while innerIndex < end_pos:
  *                     dataMatrix.data[innerIndex] -= colAverage             # <<<<<<<<<<<<<<
  *                     innerIndex+=1
  * 
  */
-        __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_dataMatrix, __pyx_n_s_data); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 255, __pyx_L1_error)
+        __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_dataMatrix, __pyx_n_s_data); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 253, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_1);
         __pyx_t_16 = __pyx_v_innerIndex;
-        __pyx_t_7 = __Pyx_GetItemInt(__pyx_t_1, __pyx_t_16, long, 1, __Pyx_PyInt_From_long, 0, 0, 0); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 255, __pyx_L1_error)
+        __pyx_t_7 = __Pyx_GetItemInt(__pyx_t_1, __pyx_t_16, long, 1, __Pyx_PyInt_From_long, 0, 0, 0); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 253, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_7);
-        __pyx_t_6 = PyFloat_FromDouble(__pyx_v_colAverage); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 255, __pyx_L1_error)
+        __pyx_t_6 = PyFloat_FromDouble(__pyx_v_colAverage); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 253, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_6);
-        __pyx_t_5 = PyNumber_InPlaceSubtract(__pyx_t_7, __pyx_t_6); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 255, __pyx_L1_error)
+        __pyx_t_5 = PyNumber_InPlaceSubtract(__pyx_t_7, __pyx_t_6); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 253, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_5);
         __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
         __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-        if (unlikely((__Pyx_SetItemInt(__pyx_t_1, __pyx_t_16, __pyx_t_5, long, 1, __Pyx_PyInt_From_long, 0, 0, 0) < 0))) __PYX_ERR(0, 255, __pyx_L1_error)
+        if (unlikely((__Pyx_SetItemInt(__pyx_t_1, __pyx_t_16, __pyx_t_5, long, 1, __Pyx_PyInt_From_long, 0, 0, 0) < 0))) __PYX_ERR(0, 253, __pyx_L1_error)
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-        /* "Compute_Similarity_Cython.pyx":256
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":254
  *                 while innerIndex < end_pos:
  *                     dataMatrix.data[innerIndex] -= colAverage
  *                     innerIndex+=1             # <<<<<<<<<<<<<<
@@ -22856,7 +22049,7 @@ static PyObject *__pyx_f_25Compute_Similarity_Cython_25Compute_Similarity_Cython
         __pyx_v_innerIndex = (__pyx_v_innerIndex + 1);
       }
 
-      /* "Compute_Similarity_Cython.pyx":246
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":244
  *         for colIndex in range(self.n_columns):
  * 
  *             if interactionsPerCol[colIndex]>0:             # <<<<<<<<<<<<<<
@@ -22866,7 +22059,7 @@ static PyObject *__pyx_f_25Compute_Similarity_Cython_25Compute_Similarity_Cython
     }
   }
 
-  /* "Compute_Similarity_Cython.pyx":258
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":256
  *                     innerIndex+=1
  * 
  *         return dataMatrix             # <<<<<<<<<<<<<<
@@ -22878,7 +22071,7 @@ static PyObject *__pyx_f_25Compute_Similarity_Cython_25Compute_Similarity_Cython
   __pyx_r = __pyx_v_dataMatrix;
   goto __pyx_L0;
 
-  /* "Compute_Similarity_Cython.pyx":227
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":225
  * 
  * 
  *     cdef applyPearsonCorrelation(self, dataMatrix):             # <<<<<<<<<<<<<<
@@ -22896,7 +22089,7 @@ static PyObject *__pyx_f_25Compute_Similarity_Cython_25Compute_Similarity_Cython
   __Pyx_XDECREF(__pyx_t_7);
   __PYX_XCLEAR_MEMVIEW(&__pyx_t_8, 1);
   __PYX_XCLEAR_MEMVIEW(&__pyx_t_9, 1);
-  __Pyx_AddTraceback("Compute_Similarity_Cython.Compute_Similarity_Cython.applyPearsonCorrelation", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.Similarity.Cython.Compute_Similarity_Cython.Compute_Similarity_Cython.applyPearsonCorrelation", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = 0;
   __pyx_L0:;
   __PYX_XCLEAR_MEMVIEW(&__pyx_v_sumPerCol, 1);
@@ -22907,7 +22100,7 @@ static PyObject *__pyx_f_25Compute_Similarity_Cython_25Compute_Similarity_Cython
   return __pyx_r;
 }
 
-/* "Compute_Similarity_Cython.pyx":261
+/* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":259
  * 
  * 
  *     cdef applyAdjustedCosine(self, dataMatrix):             # <<<<<<<<<<<<<<
@@ -22915,7 +22108,7 @@ static PyObject *__pyx_f_25Compute_Similarity_Cython_25Compute_Similarity_Cython
  *         Remove from every data point the average for the corresponding row
  */
 
-static PyObject *__pyx_f_25Compute_Similarity_Cython_25Compute_Similarity_Cython_applyAdjustedCosine(struct __pyx_obj_25Compute_Similarity_Cython_Compute_Similarity_Cython *__pyx_v_self, PyObject *__pyx_v_dataMatrix) {
+static PyObject *__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_25Compute_Similarity_Cython_applyAdjustedCosine(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython *__pyx_v_self, PyObject *__pyx_v_dataMatrix) {
   __Pyx_memviewslice __pyx_v_sumPerRow = { 0, 0, { 0 }, { 0 }, { 0 } };
   __Pyx_memviewslice __pyx_v_interactionsPerRow = { 0, 0, { 0 }, { 0 }, { 0 } };
   long __pyx_v_rowIndex;
@@ -22947,14 +22140,14 @@ static PyObject *__pyx_f_25Compute_Similarity_Cython_25Compute_Similarity_Cython
   __Pyx_RefNannySetupContext("applyAdjustedCosine", 0);
   __Pyx_INCREF(__pyx_v_dataMatrix);
 
-  /* "Compute_Similarity_Cython.pyx":272
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":270
  *         cdef double rowAverage
  * 
  *         dataMatrix = check_matrix(dataMatrix, 'csr')             # <<<<<<<<<<<<<<
  * 
  *         sumPerRow = np.array(dataMatrix.sum(axis=1), dtype=np.float64).ravel()
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_check_matrix); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 272, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_check_matrix); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 270, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_3 = NULL;
   __pyx_t_4 = 0;
@@ -22974,54 +22167,54 @@ static PyObject *__pyx_f_25Compute_Similarity_Cython_25Compute_Similarity_Cython
     PyObject *__pyx_callargs[3] = {__pyx_t_3, __pyx_v_dataMatrix, __pyx_n_s_csr};
     __pyx_t_1 = __Pyx_PyObject_FastCall(__pyx_t_2, __pyx_callargs+1-__pyx_t_4, 2+__pyx_t_4);
     __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 272, __pyx_L1_error)
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 270, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   }
   __Pyx_DECREF_SET(__pyx_v_dataMatrix, __pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "Compute_Similarity_Cython.pyx":274
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":272
  *         dataMatrix = check_matrix(dataMatrix, 'csr')
  * 
  *         sumPerRow = np.array(dataMatrix.sum(axis=1), dtype=np.float64).ravel()             # <<<<<<<<<<<<<<
  *         interactionsPerRow = np.diff(dataMatrix.indptr)
  * 
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 274, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 272, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_array); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 274, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_array); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 272, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_dataMatrix, __pyx_n_s_sum); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 274, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_dataMatrix, __pyx_n_s_sum); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 272, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_5 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 274, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 272, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  if (PyDict_SetItem(__pyx_t_5, __pyx_n_s_axis, __pyx_int_1) < 0) __PYX_ERR(0, 274, __pyx_L1_error)
-  __pyx_t_6 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_empty_tuple, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 274, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_5, __pyx_n_s_axis, __pyx_int_1) < 0) __PYX_ERR(0, 272, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_empty_tuple, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 272, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_5 = PyTuple_New(1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 274, __pyx_L1_error)
+  __pyx_t_5 = PyTuple_New(1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 272, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_GIVEREF(__pyx_t_6);
-  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_t_6)) __PYX_ERR(0, 274, __pyx_L1_error);
+  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_t_6)) __PYX_ERR(0, 272, __pyx_L1_error);
   __pyx_t_6 = 0;
-  __pyx_t_6 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 274, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 272, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 274, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 272, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_float64); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 274, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_float64); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 272, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (PyDict_SetItem(__pyx_t_6, __pyx_n_s_dtype, __pyx_t_7) < 0) __PYX_ERR(0, 274, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_6, __pyx_n_s_dtype, __pyx_t_7) < 0) __PYX_ERR(0, 272, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-  __pyx_t_7 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_t_5, __pyx_t_6); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 274, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_t_5, __pyx_t_6); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 272, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-  __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_ravel); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 274, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_ravel); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 272, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
   __pyx_t_7 = NULL;
@@ -23042,29 +22235,29 @@ static PyObject *__pyx_f_25Compute_Similarity_Cython_25Compute_Similarity_Cython
     PyObject *__pyx_callargs[2] = {__pyx_t_7, NULL};
     __pyx_t_1 = __Pyx_PyObject_FastCall(__pyx_t_6, __pyx_callargs+1-__pyx_t_4, 0+__pyx_t_4);
     __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 274, __pyx_L1_error)
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 272, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   }
-  __pyx_t_8 = __Pyx_PyObject_to_MemoryviewSlice_ds_double(__pyx_t_1, PyBUF_WRITABLE); if (unlikely(!__pyx_t_8.memview)) __PYX_ERR(0, 274, __pyx_L1_error)
+  __pyx_t_8 = __Pyx_PyObject_to_MemoryviewSlice_ds_double(__pyx_t_1, PyBUF_WRITABLE); if (unlikely(!__pyx_t_8.memview)) __PYX_ERR(0, 272, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_sumPerRow = __pyx_t_8;
   __pyx_t_8.memview = NULL;
   __pyx_t_8.data = NULL;
 
-  /* "Compute_Similarity_Cython.pyx":275
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":273
  * 
  *         sumPerRow = np.array(dataMatrix.sum(axis=1), dtype=np.float64).ravel()
  *         interactionsPerRow = np.diff(dataMatrix.indptr)             # <<<<<<<<<<<<<<
  * 
  *         #Remove for every row the corresponding average
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_np); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 275, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_np); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 273, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_diff); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 275, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_diff); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 273, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-  __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_dataMatrix, __pyx_n_s_indptr); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 275, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_dataMatrix, __pyx_n_s_indptr); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 273, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __pyx_t_5 = NULL;
   __pyx_t_4 = 0;
@@ -23085,17 +22278,17 @@ static PyObject *__pyx_f_25Compute_Similarity_Cython_25Compute_Similarity_Cython
     __pyx_t_1 = __Pyx_PyObject_FastCall(__pyx_t_7, __pyx_callargs+1-__pyx_t_4, 1+__pyx_t_4);
     __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 275, __pyx_L1_error)
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 273, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
   }
-  __pyx_t_9 = __Pyx_PyObject_to_MemoryviewSlice_ds_int(__pyx_t_1, PyBUF_WRITABLE); if (unlikely(!__pyx_t_9.memview)) __PYX_ERR(0, 275, __pyx_L1_error)
+  __pyx_t_9 = __Pyx_PyObject_to_MemoryviewSlice_ds_int(__pyx_t_1, PyBUF_WRITABLE); if (unlikely(!__pyx_t_9.memview)) __PYX_ERR(0, 273, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_interactionsPerRow = __pyx_t_9;
   __pyx_t_9.memview = NULL;
   __pyx_t_9.data = NULL;
 
-  /* "Compute_Similarity_Cython.pyx":278
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":276
  * 
  *         #Remove for every row the corresponding average
  *         for rowIndex in range(self.n_rows):             # <<<<<<<<<<<<<<
@@ -23107,7 +22300,7 @@ static PyObject *__pyx_f_25Compute_Similarity_Cython_25Compute_Similarity_Cython
   for (__pyx_t_12 = 0; __pyx_t_12 < __pyx_t_11; __pyx_t_12+=1) {
     __pyx_v_rowIndex = __pyx_t_12;
 
-    /* "Compute_Similarity_Cython.pyx":280
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":278
  *         for rowIndex in range(self.n_rows):
  * 
  *             if interactionsPerRow[rowIndex]>0:             # <<<<<<<<<<<<<<
@@ -23118,7 +22311,7 @@ static PyObject *__pyx_f_25Compute_Similarity_Cython_25Compute_Similarity_Cython
     __pyx_t_14 = ((*((int *) ( /* dim=0 */ (__pyx_v_interactionsPerRow.data + __pyx_t_13 * __pyx_v_interactionsPerRow.strides[0]) ))) > 0);
     if (__pyx_t_14) {
 
-      /* "Compute_Similarity_Cython.pyx":282
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":280
  *             if interactionsPerRow[rowIndex]>0:
  * 
  *                 rowAverage = sumPerRow[rowIndex] / interactionsPerRow[rowIndex]             # <<<<<<<<<<<<<<
@@ -23129,40 +22322,40 @@ static PyObject *__pyx_f_25Compute_Similarity_Cython_25Compute_Similarity_Cython
       __pyx_t_15 = __pyx_v_rowIndex;
       __pyx_v_rowAverage = ((*((double *) ( /* dim=0 */ (__pyx_v_sumPerRow.data + __pyx_t_13 * __pyx_v_sumPerRow.strides[0]) ))) / ((double)(*((int *) ( /* dim=0 */ (__pyx_v_interactionsPerRow.data + __pyx_t_15 * __pyx_v_interactionsPerRow.strides[0]) )))));
 
-      /* "Compute_Similarity_Cython.pyx":284
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":282
  *                 rowAverage = sumPerRow[rowIndex] / interactionsPerRow[rowIndex]
  * 
  *                 start_pos = dataMatrix.indptr[rowIndex]             # <<<<<<<<<<<<<<
  *                 end_pos = dataMatrix.indptr[rowIndex+1]
  * 
  */
-      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_dataMatrix, __pyx_n_s_indptr); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 284, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_dataMatrix, __pyx_n_s_indptr); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 282, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
-      __pyx_t_7 = __Pyx_GetItemInt(__pyx_t_1, __pyx_v_rowIndex, long, 1, __Pyx_PyInt_From_long, 0, 0, 0); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 284, __pyx_L1_error)
+      __pyx_t_7 = __Pyx_GetItemInt(__pyx_t_1, __pyx_v_rowIndex, long, 1, __Pyx_PyInt_From_long, 0, 0, 0); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 282, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-      __pyx_t_16 = __Pyx_PyInt_As_long(__pyx_t_7); if (unlikely((__pyx_t_16 == (long)-1) && PyErr_Occurred())) __PYX_ERR(0, 284, __pyx_L1_error)
+      __pyx_t_16 = __Pyx_PyInt_As_long(__pyx_t_7); if (unlikely((__pyx_t_16 == (long)-1) && PyErr_Occurred())) __PYX_ERR(0, 282, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
       __pyx_v_start_pos = __pyx_t_16;
 
-      /* "Compute_Similarity_Cython.pyx":285
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":283
  * 
  *                 start_pos = dataMatrix.indptr[rowIndex]
  *                 end_pos = dataMatrix.indptr[rowIndex+1]             # <<<<<<<<<<<<<<
  * 
  *                 innerIndex = start_pos
  */
-      __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_v_dataMatrix, __pyx_n_s_indptr); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 285, __pyx_L1_error)
+      __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_v_dataMatrix, __pyx_n_s_indptr); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 283, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
       __pyx_t_16 = (__pyx_v_rowIndex + 1);
-      __pyx_t_1 = __Pyx_GetItemInt(__pyx_t_7, __pyx_t_16, long, 1, __Pyx_PyInt_From_long, 0, 0, 0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 285, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_GetItemInt(__pyx_t_7, __pyx_t_16, long, 1, __Pyx_PyInt_From_long, 0, 0, 0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 283, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-      __pyx_t_16 = __Pyx_PyInt_As_long(__pyx_t_1); if (unlikely((__pyx_t_16 == (long)-1) && PyErr_Occurred())) __PYX_ERR(0, 285, __pyx_L1_error)
+      __pyx_t_16 = __Pyx_PyInt_As_long(__pyx_t_1); if (unlikely((__pyx_t_16 == (long)-1) && PyErr_Occurred())) __PYX_ERR(0, 283, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
       __pyx_v_end_pos = __pyx_t_16;
 
-      /* "Compute_Similarity_Cython.pyx":287
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":285
  *                 end_pos = dataMatrix.indptr[rowIndex+1]
  * 
  *                 innerIndex = start_pos             # <<<<<<<<<<<<<<
@@ -23171,7 +22364,7 @@ static PyObject *__pyx_f_25Compute_Similarity_Cython_25Compute_Similarity_Cython
  */
       __pyx_v_innerIndex = __pyx_v_start_pos;
 
-      /* "Compute_Similarity_Cython.pyx":288
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":286
  * 
  *                 innerIndex = start_pos
  *                 while innerIndex < end_pos:             # <<<<<<<<<<<<<<
@@ -23182,29 +22375,29 @@ static PyObject *__pyx_f_25Compute_Similarity_Cython_25Compute_Similarity_Cython
         __pyx_t_14 = (__pyx_v_innerIndex < __pyx_v_end_pos);
         if (!__pyx_t_14) break;
 
-        /* "Compute_Similarity_Cython.pyx":289
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":287
  *                 innerIndex = start_pos
  *                 while innerIndex < end_pos:
  *                     dataMatrix.data[innerIndex] -= rowAverage             # <<<<<<<<<<<<<<
  *                     innerIndex+=1
  * 
  */
-        __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_dataMatrix, __pyx_n_s_data); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 289, __pyx_L1_error)
+        __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_dataMatrix, __pyx_n_s_data); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 287, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_1);
         __pyx_t_16 = __pyx_v_innerIndex;
-        __pyx_t_7 = __Pyx_GetItemInt(__pyx_t_1, __pyx_t_16, long, 1, __Pyx_PyInt_From_long, 0, 0, 0); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 289, __pyx_L1_error)
+        __pyx_t_7 = __Pyx_GetItemInt(__pyx_t_1, __pyx_t_16, long, 1, __Pyx_PyInt_From_long, 0, 0, 0); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 287, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_7);
-        __pyx_t_6 = PyFloat_FromDouble(__pyx_v_rowAverage); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 289, __pyx_L1_error)
+        __pyx_t_6 = PyFloat_FromDouble(__pyx_v_rowAverage); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 287, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_6);
-        __pyx_t_5 = PyNumber_InPlaceSubtract(__pyx_t_7, __pyx_t_6); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 289, __pyx_L1_error)
+        __pyx_t_5 = PyNumber_InPlaceSubtract(__pyx_t_7, __pyx_t_6); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 287, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_5);
         __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
         __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-        if (unlikely((__Pyx_SetItemInt(__pyx_t_1, __pyx_t_16, __pyx_t_5, long, 1, __Pyx_PyInt_From_long, 0, 0, 0) < 0))) __PYX_ERR(0, 289, __pyx_L1_error)
+        if (unlikely((__Pyx_SetItemInt(__pyx_t_1, __pyx_t_16, __pyx_t_5, long, 1, __Pyx_PyInt_From_long, 0, 0, 0) < 0))) __PYX_ERR(0, 287, __pyx_L1_error)
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-        /* "Compute_Similarity_Cython.pyx":290
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":288
  *                 while innerIndex < end_pos:
  *                     dataMatrix.data[innerIndex] -= rowAverage
  *                     innerIndex+=1             # <<<<<<<<<<<<<<
@@ -23214,7 +22407,7 @@ static PyObject *__pyx_f_25Compute_Similarity_Cython_25Compute_Similarity_Cython
         __pyx_v_innerIndex = (__pyx_v_innerIndex + 1);
       }
 
-      /* "Compute_Similarity_Cython.pyx":280
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":278
  *         for rowIndex in range(self.n_rows):
  * 
  *             if interactionsPerRow[rowIndex]>0:             # <<<<<<<<<<<<<<
@@ -23224,7 +22417,7 @@ static PyObject *__pyx_f_25Compute_Similarity_Cython_25Compute_Similarity_Cython
     }
   }
 
-  /* "Compute_Similarity_Cython.pyx":292
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":290
  *                     innerIndex+=1
  * 
  *         return dataMatrix             # <<<<<<<<<<<<<<
@@ -23236,7 +22429,7 @@ static PyObject *__pyx_f_25Compute_Similarity_Cython_25Compute_Similarity_Cython
   __pyx_r = __pyx_v_dataMatrix;
   goto __pyx_L0;
 
-  /* "Compute_Similarity_Cython.pyx":261
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":259
  * 
  * 
  *     cdef applyAdjustedCosine(self, dataMatrix):             # <<<<<<<<<<<<<<
@@ -23254,7 +22447,7 @@ static PyObject *__pyx_f_25Compute_Similarity_Cython_25Compute_Similarity_Cython
   __Pyx_XDECREF(__pyx_t_7);
   __PYX_XCLEAR_MEMVIEW(&__pyx_t_8, 1);
   __PYX_XCLEAR_MEMVIEW(&__pyx_t_9, 1);
-  __Pyx_AddTraceback("Compute_Similarity_Cython.Compute_Similarity_Cython.applyAdjustedCosine", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.Similarity.Cython.Compute_Similarity_Cython.Compute_Similarity_Cython.applyAdjustedCosine", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = 0;
   __pyx_L0:;
   __PYX_XCLEAR_MEMVIEW(&__pyx_v_sumPerRow, 1);
@@ -23265,7 +22458,7 @@ static PyObject *__pyx_f_25Compute_Similarity_Cython_25Compute_Similarity_Cython
   return __pyx_r;
 }
 
-/* "Compute_Similarity_Cython.pyx":295
+/* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":293
  * 
  * 
  *     cdef int[:] getUsersThatRatedItem(self, long item_id):             # <<<<<<<<<<<<<<
@@ -23273,7 +22466,7 @@ static PyObject *__pyx_f_25Compute_Similarity_Cython_25Compute_Similarity_Cython
  * 
  */
 
-static __Pyx_memviewslice __pyx_f_25Compute_Similarity_Cython_25Compute_Similarity_Cython_getUsersThatRatedItem(struct __pyx_obj_25Compute_Similarity_Cython_Compute_Similarity_Cython *__pyx_v_self, long __pyx_v_item_id) {
+static __Pyx_memviewslice __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_25Compute_Similarity_Cython_getUsersThatRatedItem(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython *__pyx_v_self, long __pyx_v_item_id) {
   __Pyx_memviewslice __pyx_r = { 0, 0, { 0 }, { 0 }, { 0 } };
   Py_ssize_t __pyx_t_1;
   Py_ssize_t __pyx_t_2;
@@ -23283,7 +22476,7 @@ static __Pyx_memviewslice __pyx_f_25Compute_Similarity_Cython_25Compute_Similari
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
 
-  /* "Compute_Similarity_Cython.pyx":296
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":294
  * 
  *     cdef int[:] getUsersThatRatedItem(self, long item_id):
  *         return self.item_to_user_rows[self.item_to_user_col_ptr[item_id]:self.item_to_user_col_ptr[item_id+1]]             # <<<<<<<<<<<<<<
@@ -23310,7 +22503,7 @@ static __Pyx_memviewslice __pyx_f_25Compute_Similarity_Cython_25Compute_Similari
     0,
     1) < 0))
 {
-    __PYX_ERR(0, 296, __pyx_L1_error)
+    __PYX_ERR(0, 294, __pyx_L1_error)
 }
 
 __pyx_r = __pyx_t_3;
@@ -23318,7 +22511,7 @@ __pyx_r = __pyx_t_3;
   __pyx_t_3.data = NULL;
   goto __pyx_L0;
 
-  /* "Compute_Similarity_Cython.pyx":295
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":293
  * 
  * 
  *     cdef int[:] getUsersThatRatedItem(self, long item_id):             # <<<<<<<<<<<<<<
@@ -23331,7 +22524,7 @@ __pyx_r = __pyx_t_3;
   __PYX_XCLEAR_MEMVIEW(&__pyx_t_3, 1);
   __pyx_r.data = NULL;
   __pyx_r.memview = NULL;
-  __Pyx_AddTraceback("Compute_Similarity_Cython.Compute_Similarity_Cython.getUsersThatRatedItem", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.Similarity.Cython.Compute_Similarity_Cython.Compute_Similarity_Cython.getUsersThatRatedItem", __pyx_clineno, __pyx_lineno, __pyx_filename);
   goto __pyx_L2;
   __pyx_L0:;
   if (unlikely(!__pyx_r.memview)) {
@@ -23341,7 +22534,7 @@ __pyx_r = __pyx_t_3;
   return __pyx_r;
 }
 
-/* "Compute_Similarity_Cython.pyx":298
+/* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":296
  *         return self.item_to_user_rows[self.item_to_user_col_ptr[item_id]:self.item_to_user_col_ptr[item_id+1]]
  * 
  *     cdef int[:] getItemsRatedByUser(self, long user_id):             # <<<<<<<<<<<<<<
@@ -23349,7 +22542,7 @@ __pyx_r = __pyx_t_3;
  * 
  */
 
-static __Pyx_memviewslice __pyx_f_25Compute_Similarity_Cython_25Compute_Similarity_Cython_getItemsRatedByUser(struct __pyx_obj_25Compute_Similarity_Cython_Compute_Similarity_Cython *__pyx_v_self, long __pyx_v_user_id) {
+static __Pyx_memviewslice __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_25Compute_Similarity_Cython_getItemsRatedByUser(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython *__pyx_v_self, long __pyx_v_user_id) {
   __Pyx_memviewslice __pyx_r = { 0, 0, { 0 }, { 0 }, { 0 } };
   Py_ssize_t __pyx_t_1;
   Py_ssize_t __pyx_t_2;
@@ -23359,7 +22552,7 @@ static __Pyx_memviewslice __pyx_f_25Compute_Similarity_Cython_25Compute_Similari
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
 
-  /* "Compute_Similarity_Cython.pyx":299
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":297
  * 
  *     cdef int[:] getItemsRatedByUser(self, long user_id):
  *         return self.user_to_item_cols[self.user_to_item_row_ptr[user_id]:self.user_to_item_row_ptr[user_id+1]]             # <<<<<<<<<<<<<<
@@ -23386,7 +22579,7 @@ static __Pyx_memviewslice __pyx_f_25Compute_Similarity_Cython_25Compute_Similari
     0,
     1) < 0))
 {
-    __PYX_ERR(0, 299, __pyx_L1_error)
+    __PYX_ERR(0, 297, __pyx_L1_error)
 }
 
 __pyx_r = __pyx_t_3;
@@ -23394,7 +22587,7 @@ __pyx_r = __pyx_t_3;
   __pyx_t_3.data = NULL;
   goto __pyx_L0;
 
-  /* "Compute_Similarity_Cython.pyx":298
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":296
  *         return self.item_to_user_rows[self.item_to_user_col_ptr[item_id]:self.item_to_user_col_ptr[item_id+1]]
  * 
  *     cdef int[:] getItemsRatedByUser(self, long user_id):             # <<<<<<<<<<<<<<
@@ -23407,7 +22600,7 @@ __pyx_r = __pyx_t_3;
   __PYX_XCLEAR_MEMVIEW(&__pyx_t_3, 1);
   __pyx_r.data = NULL;
   __pyx_r.memview = NULL;
-  __Pyx_AddTraceback("Compute_Similarity_Cython.Compute_Similarity_Cython.getItemsRatedByUser", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.Similarity.Cython.Compute_Similarity_Cython.Compute_Similarity_Cython.getItemsRatedByUser", __pyx_clineno, __pyx_lineno, __pyx_filename);
   goto __pyx_L2;
   __pyx_L0:;
   if (unlikely(!__pyx_r.memview)) {
@@ -23417,7 +22610,7 @@ __pyx_r = __pyx_t_3;
   return __pyx_r;
 }
 
-/* "Compute_Similarity_Cython.pyx":302
+/* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":300
  * 
  * 
  *     cdef computeItemSimilarities(self, long item_id_input):             # <<<<<<<<<<<<<<
@@ -23425,7 +22618,7 @@ __pyx_r = __pyx_t_3;
  *         For every item the cosine similarity against other items depends on whether they have users in common. The more
  */
 
-static PyObject *__pyx_f_25Compute_Similarity_Cython_25Compute_Similarity_Cython_computeItemSimilarities(struct __pyx_obj_25Compute_Similarity_Cython_Compute_Similarity_Cython *__pyx_v_self, long __pyx_v_item_id_input) {
+static PyObject *__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_25Compute_Similarity_Cython_computeItemSimilarities(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython *__pyx_v_self, long __pyx_v_item_id_input) {
   long __pyx_v_user_index;
   long __pyx_v_user_id;
   long __pyx_v_item_index;
@@ -23455,19 +22648,19 @@ static PyObject *__pyx_f_25Compute_Similarity_Cython_25Compute_Similarity_Cython
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("computeItemSimilarities", 1);
 
-  /* "Compute_Similarity_Cython.pyx":337
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":335
  *         cdef long user_index, user_id, item_index, item_id, item_id_second
  * 
  *         cdef int[:] users_that_rated_item = self.getUsersThatRatedItem(item_id_input)             # <<<<<<<<<<<<<<
  *         cdef int[:] items_rated_by_user
  * 
  */
-  __pyx_t_1 = ((struct __pyx_vtabstruct_25Compute_Similarity_Cython_Compute_Similarity_Cython *)__pyx_v_self->__pyx_vtab)->getUsersThatRatedItem(__pyx_v_self, __pyx_v_item_id_input); if (unlikely(!__pyx_t_1.memview)) __PYX_ERR(0, 337, __pyx_L1_error)
+  __pyx_t_1 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython *)__pyx_v_self->__pyx_vtab)->getUsersThatRatedItem(__pyx_v_self, __pyx_v_item_id_input); if (unlikely(!__pyx_t_1.memview)) __PYX_ERR(0, 335, __pyx_L1_error)
   __pyx_v_users_that_rated_item = __pyx_t_1;
   __pyx_t_1.memview = NULL;
   __pyx_t_1.data = NULL;
 
-  /* "Compute_Similarity_Cython.pyx":343
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":341
  * 
  *         # Clean previous item
  *         for item_index in range(self.this_item_weights_counter):             # <<<<<<<<<<<<<<
@@ -23479,7 +22672,7 @@ static PyObject *__pyx_f_25Compute_Similarity_Cython_25Compute_Similarity_Cython
   for (__pyx_t_4 = 0; __pyx_t_4 < __pyx_t_3; __pyx_t_4+=1) {
     __pyx_v_item_index = __pyx_t_4;
 
-    /* "Compute_Similarity_Cython.pyx":344
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":342
  *         # Clean previous item
  *         for item_index in range(self.this_item_weights_counter):
  *             item_id = self.this_item_weights_id[item_index]             # <<<<<<<<<<<<<<
@@ -23489,7 +22682,7 @@ static PyObject *__pyx_f_25Compute_Similarity_Cython_25Compute_Similarity_Cython
     __pyx_t_5 = __pyx_v_item_index;
     __pyx_v_item_id = (*((int *) ( /* dim=0 */ (__pyx_v_self->this_item_weights_id.data + __pyx_t_5 * __pyx_v_self->this_item_weights_id.strides[0]) )));
 
-    /* "Compute_Similarity_Cython.pyx":345
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":343
  *         for item_index in range(self.this_item_weights_counter):
  *             item_id = self.this_item_weights_id[item_index]
  *             self.this_item_weights_mask[item_id] = False             # <<<<<<<<<<<<<<
@@ -23499,7 +22692,7 @@ static PyObject *__pyx_f_25Compute_Similarity_Cython_25Compute_Similarity_Cython
     __pyx_t_5 = __pyx_v_item_id;
     *((int *) ( /* dim=0 */ (__pyx_v_self->this_item_weights_mask.data + __pyx_t_5 * __pyx_v_self->this_item_weights_mask.strides[0]) )) = 0;
 
-    /* "Compute_Similarity_Cython.pyx":346
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":344
  *             item_id = self.this_item_weights_id[item_index]
  *             self.this_item_weights_mask[item_id] = False
  *             self.this_item_weights[item_id] = 0.0             # <<<<<<<<<<<<<<
@@ -23510,7 +22703,7 @@ static PyObject *__pyx_f_25Compute_Similarity_Cython_25Compute_Similarity_Cython
     *((double *) ( /* dim=0 */ (__pyx_v_self->this_item_weights.data + __pyx_t_5 * __pyx_v_self->this_item_weights.strides[0]) )) = 0.0;
   }
 
-  /* "Compute_Similarity_Cython.pyx":348
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":346
  *             self.this_item_weights[item_id] = 0.0
  * 
  *         self.this_item_weights_counter = 0             # <<<<<<<<<<<<<<
@@ -23519,7 +22712,7 @@ static PyObject *__pyx_f_25Compute_Similarity_Cython_25Compute_Similarity_Cython
  */
   __pyx_v_self->this_item_weights_counter = 0;
 
-  /* "Compute_Similarity_Cython.pyx":352
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":350
  * 
  *         # Get users that rated the items
  *         for user_index in range(len(users_that_rated_item)):             # <<<<<<<<<<<<<<
@@ -23531,7 +22724,7 @@ static PyObject *__pyx_f_25Compute_Similarity_Cython_25Compute_Similarity_Cython
   for (__pyx_t_4 = 0; __pyx_t_4 < __pyx_t_7; __pyx_t_4+=1) {
     __pyx_v_user_index = __pyx_t_4;
 
-    /* "Compute_Similarity_Cython.pyx":354
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":352
  *         for user_index in range(len(users_that_rated_item)):
  * 
  *             user_id = users_that_rated_item[user_index]             # <<<<<<<<<<<<<<
@@ -23541,7 +22734,7 @@ static PyObject *__pyx_f_25Compute_Similarity_Cython_25Compute_Similarity_Cython
     __pyx_t_5 = __pyx_v_user_index;
     __pyx_v_user_id = (*((int *) ( /* dim=0 */ (__pyx_v_users_that_rated_item.data + __pyx_t_5 * __pyx_v_users_that_rated_item.strides[0]) )));
 
-    /* "Compute_Similarity_Cython.pyx":355
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":353
  * 
  *             user_id = users_that_rated_item[user_index]
  *             rating_item_input = self.item_to_user_data[self.item_to_user_col_ptr[item_id_input]+user_index]             # <<<<<<<<<<<<<<
@@ -23552,7 +22745,7 @@ static PyObject *__pyx_f_25Compute_Similarity_Cython_25Compute_Similarity_Cython
     __pyx_t_8 = ((*((int *) ( /* dim=0 */ (__pyx_v_self->item_to_user_col_ptr.data + __pyx_t_5 * __pyx_v_self->item_to_user_col_ptr.strides[0]) ))) + __pyx_v_user_index);
     __pyx_v_rating_item_input = (*((double *) ( /* dim=0 */ (__pyx_v_self->item_to_user_data.data + __pyx_t_8 * __pyx_v_self->item_to_user_data.strides[0]) )));
 
-    /* "Compute_Similarity_Cython.pyx":357
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":355
  *             rating_item_input = self.item_to_user_data[self.item_to_user_col_ptr[item_id_input]+user_index]
  * 
  *             if self.use_row_weights:             # <<<<<<<<<<<<<<
@@ -23562,7 +22755,7 @@ static PyObject *__pyx_f_25Compute_Similarity_Cython_25Compute_Similarity_Cython
     __pyx_t_9 = (__pyx_v_self->use_row_weights != 0);
     if (__pyx_t_9) {
 
-      /* "Compute_Similarity_Cython.pyx":358
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":356
  * 
  *             if self.use_row_weights:
  *                 row_weight = self.row_weights[user_id]             # <<<<<<<<<<<<<<
@@ -23572,7 +22765,7 @@ static PyObject *__pyx_f_25Compute_Similarity_Cython_25Compute_Similarity_Cython
       __pyx_t_5 = __pyx_v_user_id;
       __pyx_v_row_weight = (*((double *) ( /* dim=0 */ (__pyx_v_self->row_weights.data + __pyx_t_5 * __pyx_v_self->row_weights.strides[0]) )));
 
-      /* "Compute_Similarity_Cython.pyx":357
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":355
  *             rating_item_input = self.item_to_user_data[self.item_to_user_col_ptr[item_id_input]+user_index]
  * 
  *             if self.use_row_weights:             # <<<<<<<<<<<<<<
@@ -23582,7 +22775,7 @@ static PyObject *__pyx_f_25Compute_Similarity_Cython_25Compute_Similarity_Cython
       goto __pyx_L7;
     }
 
-    /* "Compute_Similarity_Cython.pyx":360
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":358
  *                 row_weight = self.row_weights[user_id]
  *             else:
  *                 row_weight = 1.0             # <<<<<<<<<<<<<<
@@ -23594,20 +22787,20 @@ static PyObject *__pyx_f_25Compute_Similarity_Cython_25Compute_Similarity_Cython
     }
     __pyx_L7:;
 
-    /* "Compute_Similarity_Cython.pyx":363
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":361
  * 
  *             # Get all items rated by that user
  *             items_rated_by_user = self.getItemsRatedByUser(user_id)             # <<<<<<<<<<<<<<
  * 
  *             for item_index in range(len(items_rated_by_user)):
  */
-    __pyx_t_1 = ((struct __pyx_vtabstruct_25Compute_Similarity_Cython_Compute_Similarity_Cython *)__pyx_v_self->__pyx_vtab)->getItemsRatedByUser(__pyx_v_self, __pyx_v_user_id); if (unlikely(!__pyx_t_1.memview)) __PYX_ERR(0, 363, __pyx_L1_error)
+    __pyx_t_1 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython *)__pyx_v_self->__pyx_vtab)->getItemsRatedByUser(__pyx_v_self, __pyx_v_user_id); if (unlikely(!__pyx_t_1.memview)) __PYX_ERR(0, 361, __pyx_L1_error)
     __PYX_XCLEAR_MEMVIEW(&__pyx_v_items_rated_by_user, 1);
     __pyx_v_items_rated_by_user = __pyx_t_1;
     __pyx_t_1.memview = NULL;
     __pyx_t_1.data = NULL;
 
-    /* "Compute_Similarity_Cython.pyx":365
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":363
  *             items_rated_by_user = self.getItemsRatedByUser(user_id)
  * 
  *             for item_index in range(len(items_rated_by_user)):             # <<<<<<<<<<<<<<
@@ -23619,7 +22812,7 @@ static PyObject *__pyx_f_25Compute_Similarity_Cython_25Compute_Similarity_Cython
     for (__pyx_t_12 = 0; __pyx_t_12 < __pyx_t_11; __pyx_t_12+=1) {
       __pyx_v_item_index = __pyx_t_12;
 
-      /* "Compute_Similarity_Cython.pyx":367
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":365
  *             for item_index in range(len(items_rated_by_user)):
  * 
  *                 item_id_second = items_rated_by_user[item_index]             # <<<<<<<<<<<<<<
@@ -23629,7 +22822,7 @@ static PyObject *__pyx_f_25Compute_Similarity_Cython_25Compute_Similarity_Cython
       __pyx_t_5 = __pyx_v_item_index;
       __pyx_v_item_id_second = (*((int *) ( /* dim=0 */ (__pyx_v_items_rated_by_user.data + __pyx_t_5 * __pyx_v_items_rated_by_user.strides[0]) )));
 
-      /* "Compute_Similarity_Cython.pyx":370
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":368
  * 
  *                 # Do not compute the similarity on the diagonal
  *                 if item_id_second != item_id_input:             # <<<<<<<<<<<<<<
@@ -23639,7 +22832,7 @@ static PyObject *__pyx_f_25Compute_Similarity_Cython_25Compute_Similarity_Cython
       __pyx_t_9 = (__pyx_v_item_id_second != __pyx_v_item_id_input);
       if (__pyx_t_9) {
 
-        /* "Compute_Similarity_Cython.pyx":372
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":370
  *                 if item_id_second != item_id_input:
  *                     # Increment similairty
  *                     rating_item_second = self.user_to_item_data[self.user_to_item_row_ptr[user_id]+item_index]             # <<<<<<<<<<<<<<
@@ -23650,7 +22843,7 @@ static PyObject *__pyx_f_25Compute_Similarity_Cython_25Compute_Similarity_Cython
         __pyx_t_8 = ((*((int *) ( /* dim=0 */ (__pyx_v_self->user_to_item_row_ptr.data + __pyx_t_5 * __pyx_v_self->user_to_item_row_ptr.strides[0]) ))) + __pyx_v_item_index);
         __pyx_v_rating_item_second = (*((double *) ( /* dim=0 */ (__pyx_v_self->user_to_item_data.data + __pyx_t_8 * __pyx_v_self->user_to_item_data.strides[0]) )));
 
-        /* "Compute_Similarity_Cython.pyx":374
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":372
  *                     rating_item_second = self.user_to_item_data[self.user_to_item_row_ptr[user_id]+item_index]
  * 
  *                     self.this_item_weights[item_id_second] += rating_item_input*rating_item_second*row_weight             # <<<<<<<<<<<<<<
@@ -23660,7 +22853,7 @@ static PyObject *__pyx_f_25Compute_Similarity_Cython_25Compute_Similarity_Cython
         __pyx_t_5 = __pyx_v_item_id_second;
         *((double *) ( /* dim=0 */ (__pyx_v_self->this_item_weights.data + __pyx_t_5 * __pyx_v_self->this_item_weights.strides[0]) )) += ((__pyx_v_rating_item_input * __pyx_v_rating_item_second) * __pyx_v_row_weight);
 
-        /* "Compute_Similarity_Cython.pyx":377
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":375
  * 
  *                     # Update global data structure
  *                     if not self.this_item_weights_mask[item_id_second]:             # <<<<<<<<<<<<<<
@@ -23671,7 +22864,7 @@ static PyObject *__pyx_f_25Compute_Similarity_Cython_25Compute_Similarity_Cython
         __pyx_t_9 = (!((*((int *) ( /* dim=0 */ (__pyx_v_self->this_item_weights_mask.data + __pyx_t_5 * __pyx_v_self->this_item_weights_mask.strides[0]) ))) != 0));
         if (__pyx_t_9) {
 
-          /* "Compute_Similarity_Cython.pyx":378
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":376
  *                     # Update global data structure
  *                     if not self.this_item_weights_mask[item_id_second]:
  *                         self.this_item_weights_mask[item_id_second] = True             # <<<<<<<<<<<<<<
@@ -23681,7 +22874,7 @@ static PyObject *__pyx_f_25Compute_Similarity_Cython_25Compute_Similarity_Cython
           __pyx_t_5 = __pyx_v_item_id_second;
           *((int *) ( /* dim=0 */ (__pyx_v_self->this_item_weights_mask.data + __pyx_t_5 * __pyx_v_self->this_item_weights_mask.strides[0]) )) = 1;
 
-          /* "Compute_Similarity_Cython.pyx":379
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":377
  *                     if not self.this_item_weights_mask[item_id_second]:
  *                         self.this_item_weights_mask[item_id_second] = True
  *                         self.this_item_weights_id[self.this_item_weights_counter] = item_id_second             # <<<<<<<<<<<<<<
@@ -23691,7 +22884,7 @@ static PyObject *__pyx_f_25Compute_Similarity_Cython_25Compute_Similarity_Cython
           __pyx_t_5 = __pyx_v_self->this_item_weights_counter;
           *((int *) ( /* dim=0 */ (__pyx_v_self->this_item_weights_id.data + __pyx_t_5 * __pyx_v_self->this_item_weights_id.strides[0]) )) = __pyx_v_item_id_second;
 
-          /* "Compute_Similarity_Cython.pyx":380
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":378
  *                         self.this_item_weights_mask[item_id_second] = True
  *                         self.this_item_weights_id[self.this_item_weights_counter] = item_id_second
  *                         self.this_item_weights_counter += 1             # <<<<<<<<<<<<<<
@@ -23700,7 +22893,7 @@ static PyObject *__pyx_f_25Compute_Similarity_Cython_25Compute_Similarity_Cython
  */
           __pyx_v_self->this_item_weights_counter = (__pyx_v_self->this_item_weights_counter + 1);
 
-          /* "Compute_Similarity_Cython.pyx":377
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":375
  * 
  *                     # Update global data structure
  *                     if not self.this_item_weights_mask[item_id_second]:             # <<<<<<<<<<<<<<
@@ -23709,7 +22902,7 @@ static PyObject *__pyx_f_25Compute_Similarity_Cython_25Compute_Similarity_Cython
  */
         }
 
-        /* "Compute_Similarity_Cython.pyx":370
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":368
  * 
  *                 # Do not compute the similarity on the diagonal
  *                 if item_id_second != item_id_input:             # <<<<<<<<<<<<<<
@@ -23720,7 +22913,7 @@ static PyObject *__pyx_f_25Compute_Similarity_Cython_25Compute_Similarity_Cython
     }
   }
 
-  /* "Compute_Similarity_Cython.pyx":302
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":300
  * 
  * 
  *     cdef computeItemSimilarities(self, long item_id_input):             # <<<<<<<<<<<<<<
@@ -23733,7 +22926,7 @@ static PyObject *__pyx_f_25Compute_Similarity_Cython_25Compute_Similarity_Cython
   goto __pyx_L0;
   __pyx_L1_error:;
   __PYX_XCLEAR_MEMVIEW(&__pyx_t_1, 1);
-  __Pyx_AddTraceback("Compute_Similarity_Cython.Compute_Similarity_Cython.computeItemSimilarities", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.Similarity.Cython.Compute_Similarity_Cython.Compute_Similarity_Cython.computeItemSimilarities", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = 0;
   __pyx_L0:;
   __PYX_XCLEAR_MEMVIEW(&__pyx_v_users_that_rated_item, 1);
@@ -23743,7 +22936,7 @@ static PyObject *__pyx_f_25Compute_Similarity_Cython_25Compute_Similarity_Cython
   return __pyx_r;
 }
 
-/* "Compute_Similarity_Cython.pyx":383
+/* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":381
  * 
  * 
  *     def compute_similarity(self, start_col=None, end_col=None):             # <<<<<<<<<<<<<<
@@ -23752,16 +22945,16 @@ static PyObject *__pyx_f_25Compute_Similarity_Cython_25Compute_Similarity_Cython
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_25Compute_Similarity_Cython_25Compute_Similarity_Cython_3compute_similarity(PyObject *__pyx_v_self, 
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_25Compute_Similarity_Cython_3compute_similarity(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-PyDoc_STRVAR(__pyx_doc_25Compute_Similarity_Cython_25Compute_Similarity_Cython_2compute_similarity, "\n        Compute the similarity for the given dataset\n        :param self:\n        :param start_col: column to begin with\n        :param end_col: column to stop before, end_col is excluded\n        :return:\n        ");
-static PyMethodDef __pyx_mdef_25Compute_Similarity_Cython_25Compute_Similarity_Cython_3compute_similarity = {"compute_similarity", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_25Compute_Similarity_Cython_25Compute_Similarity_Cython_3compute_similarity, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_25Compute_Similarity_Cython_25Compute_Similarity_Cython_2compute_similarity};
-static PyObject *__pyx_pw_25Compute_Similarity_Cython_25Compute_Similarity_Cython_3compute_similarity(PyObject *__pyx_v_self, 
+PyDoc_STRVAR(__pyx_doc_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_25Compute_Similarity_Cython_2compute_similarity, "\n        Compute the similarity for the given dataset\n        :param self:\n        :param start_col: column to begin with\n        :param end_col: column to stop before, end_col is excluded\n        :return:\n        ");
+static PyMethodDef __pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_25Compute_Similarity_Cython_3compute_similarity = {"compute_similarity", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_25Compute_Similarity_Cython_3compute_similarity, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_25Compute_Similarity_Cython_2compute_similarity};
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_25Compute_Similarity_Cython_3compute_similarity(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -23809,19 +23002,19 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
         if (kw_args > 0) {
           PyObject* value = __Pyx_GetKwValue_FASTCALL(__pyx_kwds, __pyx_kwvalues, __pyx_n_s_start_col);
           if (value) { values[0] = __Pyx_Arg_NewRef_FASTCALL(value); kw_args--; }
-          else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 383, __pyx_L3_error)
+          else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 381, __pyx_L3_error)
         }
         CYTHON_FALLTHROUGH;
         case  1:
         if (kw_args > 0) {
           PyObject* value = __Pyx_GetKwValue_FASTCALL(__pyx_kwds, __pyx_kwvalues, __pyx_n_s_end_col);
           if (value) { values[1] = __Pyx_Arg_NewRef_FASTCALL(value); kw_args--; }
-          else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 383, __pyx_L3_error)
+          else if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 381, __pyx_L3_error)
         }
       }
       if (unlikely(kw_args > 0)) {
         const Py_ssize_t kwd_pos_args = __pyx_nargs;
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values + 0, kwd_pos_args, "compute_similarity") < 0)) __PYX_ERR(0, 383, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values + 0, kwd_pos_args, "compute_similarity") < 0)) __PYX_ERR(0, 381, __pyx_L3_error)
       }
     } else {
       switch (__pyx_nargs) {
@@ -23838,7 +23031,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("compute_similarity", 0, 0, 2, __pyx_nargs); __PYX_ERR(0, 383, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("compute_similarity", 0, 0, 2, __pyx_nargs); __PYX_ERR(0, 381, __pyx_L3_error)
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -23848,11 +23041,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("Compute_Similarity_Cython.Compute_Similarity_Cython.compute_similarity", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.Similarity.Cython.Compute_Similarity_Cython.Compute_Similarity_Cython.compute_similarity", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cython_2compute_similarity(((struct __pyx_obj_25Compute_Similarity_Cython_Compute_Similarity_Cython *)__pyx_v_self), __pyx_v_start_col, __pyx_v_end_col);
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_25Compute_Similarity_Cython_2compute_similarity(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython *)__pyx_v_self), __pyx_v_start_col, __pyx_v_end_col);
 
   /* function exit code */
   {
@@ -23865,7 +23058,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cython_2compute_similarity(struct __pyx_obj_25Compute_Similarity_Cython_Compute_Similarity_Cython *__pyx_v_self, PyObject *__pyx_v_start_col, PyObject *__pyx_v_end_col) {
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_25Compute_Similarity_Cython_2compute_similarity(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython *__pyx_v_self, PyObject *__pyx_v_start_col, PyObject *__pyx_v_end_col) {
   int __pyx_v_print_block_size;
   int __pyx_v_item_index;
   int __pyx_v_inner_item_index;
@@ -23938,7 +23131,7 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
   __pyx_pybuffernd_this_item_weights_np.data = NULL;
   __pyx_pybuffernd_this_item_weights_np.rcbuffer = &__pyx_pybuffer_this_item_weights_np;
 
-  /* "Compute_Similarity_Cython.pyx":392
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":390
  *         """
  * 
  *         cdef int print_block_size = 500             # <<<<<<<<<<<<<<
@@ -23947,46 +23140,46 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
  */
   __pyx_v_print_block_size = 0x1F4;
 
-  /* "Compute_Similarity_Cython.pyx":401
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":399
  *         # Declare numpy data type to use vetor indexing and simplify the topK selection code
  *         cdef np.ndarray[LONG_t, ndim=1] relevant_items_partition
  *         cdef np.ndarray[np.float32_t, ndim=1] this_item_weights_np = np.zeros(self.n_columns, dtype=np.float32)             # <<<<<<<<<<<<<<
  * 
  *         cdef long processed_items = 0
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_np); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 401, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_np); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 399, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_zeros); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 401, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_zeros); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 399, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_1 = __Pyx_PyInt_From_long(__pyx_v_self->n_columns); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 401, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyInt_From_long(__pyx_v_self->n_columns); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 399, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_3 = PyTuple_New(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 401, __pyx_L1_error)
+  __pyx_t_3 = PyTuple_New(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 399, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_GIVEREF(__pyx_t_1);
-  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_3, 0, __pyx_t_1)) __PYX_ERR(0, 401, __pyx_L1_error);
+  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_3, 0, __pyx_t_1)) __PYX_ERR(0, 399, __pyx_L1_error);
   __pyx_t_1 = 0;
-  __pyx_t_1 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 401, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 399, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_np); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 401, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_np); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 399, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_float32); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 401, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_float32); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 399, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_dtype, __pyx_t_5) < 0) __PYX_ERR(0, 401, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_dtype, __pyx_t_5) < 0) __PYX_ERR(0, 399, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_t_3, __pyx_t_1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 401, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_t_3, __pyx_t_1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 399, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  if (!(likely(((__pyx_t_5) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_5, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 401, __pyx_L1_error)
+  if (!(likely(((__pyx_t_5) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_5, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 399, __pyx_L1_error)
   __pyx_t_6 = ((PyArrayObject *)__pyx_t_5);
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
     if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_this_item_weights_np.rcbuffer->pybuffer, (PyObject*)__pyx_t_6, &__Pyx_TypeInfo_nn___pyx_t_5numpy_float32_t, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) {
       __pyx_v_this_item_weights_np = ((PyArrayObject *)Py_None); __Pyx_INCREF(Py_None); __pyx_pybuffernd_this_item_weights_np.rcbuffer->pybuffer.buf = NULL;
-      __PYX_ERR(0, 401, __pyx_L1_error)
+      __PYX_ERR(0, 399, __pyx_L1_error)
     } else {__pyx_pybuffernd_this_item_weights_np.diminfo[0].strides = __pyx_pybuffernd_this_item_weights_np.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_this_item_weights_np.diminfo[0].shape = __pyx_pybuffernd_this_item_weights_np.rcbuffer->pybuffer.shape[0];
     }
   }
@@ -23994,7 +23187,7 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
   __pyx_v_this_item_weights_np = ((PyArrayObject *)__pyx_t_5);
   __pyx_t_5 = 0;
 
-  /* "Compute_Similarity_Cython.pyx":403
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":401
  *         cdef np.ndarray[np.float32_t, ndim=1] this_item_weights_np = np.zeros(self.n_columns, dtype=np.float32)
  * 
  *         cdef long processed_items = 0             # <<<<<<<<<<<<<<
@@ -24003,7 +23196,7 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
  */
   __pyx_v_processed_items = 0;
 
-  /* "Compute_Similarity_Cython.pyx":407
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":405
  *         # Data structure to incrementally build sparse matrix
  *         # Preinitialize max possible length
  *         cdef unsigned long long max_cells = <long long> self.n_columns*self.topK             # <<<<<<<<<<<<<<
@@ -24012,19 +23205,19 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
  */
   __pyx_v_max_cells = (((PY_LONG_LONG)__pyx_v_self->n_columns) * __pyx_v_self->topK);
 
-  /* "Compute_Similarity_Cython.pyx":408
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":406
  *         # Preinitialize max possible length
  *         cdef unsigned long long max_cells = <long long> self.n_columns*self.topK
  *         cdef double[:] values = np.zeros((max_cells))             # <<<<<<<<<<<<<<
  *         cdef int[:] rows = np.zeros((max_cells,), dtype=np.int32)
  *         cdef int[:] cols = np.zeros((max_cells,), dtype=np.int32)
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_np); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 408, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_np); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 406, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_zeros); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 408, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_zeros); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 406, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_1 = __Pyx_PyInt_From_unsigned_PY_LONG_LONG(__pyx_v_max_cells); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 408, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyInt_From_unsigned_PY_LONG_LONG(__pyx_v_max_cells); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 406, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_t_2 = NULL;
   __pyx_t_7 = 0;
@@ -24045,105 +23238,105 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
     __pyx_t_5 = __Pyx_PyObject_FastCall(__pyx_t_3, __pyx_callargs+1-__pyx_t_7, 1+__pyx_t_7);
     __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 408, __pyx_L1_error)
+    if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 406, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   }
-  __pyx_t_8 = __Pyx_PyObject_to_MemoryviewSlice_ds_double(__pyx_t_5, PyBUF_WRITABLE); if (unlikely(!__pyx_t_8.memview)) __PYX_ERR(0, 408, __pyx_L1_error)
+  __pyx_t_8 = __Pyx_PyObject_to_MemoryviewSlice_ds_double(__pyx_t_5, PyBUF_WRITABLE); if (unlikely(!__pyx_t_8.memview)) __PYX_ERR(0, 406, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
   __pyx_v_values = __pyx_t_8;
   __pyx_t_8.memview = NULL;
   __pyx_t_8.data = NULL;
 
-  /* "Compute_Similarity_Cython.pyx":409
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":407
  *         cdef unsigned long long max_cells = <long long> self.n_columns*self.topK
  *         cdef double[:] values = np.zeros((max_cells))
  *         cdef int[:] rows = np.zeros((max_cells,), dtype=np.int32)             # <<<<<<<<<<<<<<
  *         cdef int[:] cols = np.zeros((max_cells,), dtype=np.int32)
  *         cdef long sparse_data_pointer = 0
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_np); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 409, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_np); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 407, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_zeros); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 409, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_zeros); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 407, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_5 = __Pyx_PyInt_From_unsigned_PY_LONG_LONG(__pyx_v_max_cells); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 409, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyInt_From_unsigned_PY_LONG_LONG(__pyx_v_max_cells); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 407, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_1 = PyTuple_New(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 409, __pyx_L1_error)
+  __pyx_t_1 = PyTuple_New(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 407, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_GIVEREF(__pyx_t_5);
-  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_t_5)) __PYX_ERR(0, 409, __pyx_L1_error);
+  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_t_5)) __PYX_ERR(0, 407, __pyx_L1_error);
   __pyx_t_5 = 0;
-  __pyx_t_5 = PyTuple_New(1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 409, __pyx_L1_error)
+  __pyx_t_5 = PyTuple_New(1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 407, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_GIVEREF(__pyx_t_1);
-  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_t_1)) __PYX_ERR(0, 409, __pyx_L1_error);
+  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_t_1)) __PYX_ERR(0, 407, __pyx_L1_error);
   __pyx_t_1 = 0;
-  __pyx_t_1 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 409, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 407, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 409, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 407, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_int32); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 409, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_int32); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 407, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_dtype, __pyx_t_4) < 0) __PYX_ERR(0, 409, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_dtype, __pyx_t_4) < 0) __PYX_ERR(0, 407, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_t_5, __pyx_t_1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 409, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_t_5, __pyx_t_1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 407, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_9 = __Pyx_PyObject_to_MemoryviewSlice_ds_int(__pyx_t_4, PyBUF_WRITABLE); if (unlikely(!__pyx_t_9.memview)) __PYX_ERR(0, 409, __pyx_L1_error)
+  __pyx_t_9 = __Pyx_PyObject_to_MemoryviewSlice_ds_int(__pyx_t_4, PyBUF_WRITABLE); if (unlikely(!__pyx_t_9.memview)) __PYX_ERR(0, 407, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   __pyx_v_rows = __pyx_t_9;
   __pyx_t_9.memview = NULL;
   __pyx_t_9.data = NULL;
 
-  /* "Compute_Similarity_Cython.pyx":410
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":408
  *         cdef double[:] values = np.zeros((max_cells))
  *         cdef int[:] rows = np.zeros((max_cells,), dtype=np.int32)
  *         cdef int[:] cols = np.zeros((max_cells,), dtype=np.int32)             # <<<<<<<<<<<<<<
  *         cdef long sparse_data_pointer = 0
  * 
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_np); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 410, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_np); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 408, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_zeros); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 410, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_zeros); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 408, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  __pyx_t_4 = __Pyx_PyInt_From_unsigned_PY_LONG_LONG(__pyx_v_max_cells); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 410, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyInt_From_unsigned_PY_LONG_LONG(__pyx_v_max_cells); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 408, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  __pyx_t_5 = PyTuple_New(1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 410, __pyx_L1_error)
+  __pyx_t_5 = PyTuple_New(1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 408, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_GIVEREF(__pyx_t_4);
-  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_t_4)) __PYX_ERR(0, 410, __pyx_L1_error);
+  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_t_4)) __PYX_ERR(0, 408, __pyx_L1_error);
   __pyx_t_4 = 0;
-  __pyx_t_4 = PyTuple_New(1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 410, __pyx_L1_error)
+  __pyx_t_4 = PyTuple_New(1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 408, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_GIVEREF(__pyx_t_5);
-  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_4, 0, __pyx_t_5)) __PYX_ERR(0, 410, __pyx_L1_error);
+  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_4, 0, __pyx_t_5)) __PYX_ERR(0, 408, __pyx_L1_error);
   __pyx_t_5 = 0;
-  __pyx_t_5 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 410, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 408, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 410, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 408, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int32); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 410, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int32); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 408, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  if (PyDict_SetItem(__pyx_t_5, __pyx_n_s_dtype, __pyx_t_2) < 0) __PYX_ERR(0, 410, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_5, __pyx_n_s_dtype, __pyx_t_2) < 0) __PYX_ERR(0, 408, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_t_4, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 410, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_t_4, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 408, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_9 = __Pyx_PyObject_to_MemoryviewSlice_ds_int(__pyx_t_2, PyBUF_WRITABLE); if (unlikely(!__pyx_t_9.memview)) __PYX_ERR(0, 410, __pyx_L1_error)
+  __pyx_t_9 = __Pyx_PyObject_to_MemoryviewSlice_ds_int(__pyx_t_2, PyBUF_WRITABLE); if (unlikely(!__pyx_t_9.memview)) __PYX_ERR(0, 408, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __pyx_v_cols = __pyx_t_9;
   __pyx_t_9.memview = NULL;
   __pyx_t_9.data = NULL;
 
-  /* "Compute_Similarity_Cython.pyx":411
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":409
  *         cdef int[:] rows = np.zeros((max_cells,), dtype=np.int32)
  *         cdef int[:] cols = np.zeros((max_cells,), dtype=np.int32)
  *         cdef long sparse_data_pointer = 0             # <<<<<<<<<<<<<<
@@ -24152,7 +23345,7 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
  */
   __pyx_v_sparse_data_pointer = 0;
 
-  /* "Compute_Similarity_Cython.pyx":413
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":411
  *         cdef long sparse_data_pointer = 0
  * 
  *         cdef int start_col_local = 0, end_col_local = self.n_columns             # <<<<<<<<<<<<<<
@@ -24163,7 +23356,7 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
   __pyx_t_10 = __pyx_v_self->n_columns;
   __pyx_v_end_col_local = __pyx_t_10;
 
-  /* "Compute_Similarity_Cython.pyx":415
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":413
  *         cdef int start_col_local = 0, end_col_local = self.n_columns
  * 
  *         if start_col is not None and start_col>0 and start_col<self.n_columns:             # <<<<<<<<<<<<<<
@@ -24176,35 +23369,35 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
     __pyx_t_11 = __pyx_t_12;
     goto __pyx_L4_bool_binop_done;
   }
-  __pyx_t_2 = PyObject_RichCompare(__pyx_v_start_col, __pyx_int_0, Py_GT); __Pyx_XGOTREF(__pyx_t_2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 415, __pyx_L1_error)
-  __pyx_t_12 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely((__pyx_t_12 < 0))) __PYX_ERR(0, 415, __pyx_L1_error)
+  __pyx_t_2 = PyObject_RichCompare(__pyx_v_start_col, __pyx_int_0, Py_GT); __Pyx_XGOTREF(__pyx_t_2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 413, __pyx_L1_error)
+  __pyx_t_12 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely((__pyx_t_12 < 0))) __PYX_ERR(0, 413, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   if (__pyx_t_12) {
   } else {
     __pyx_t_11 = __pyx_t_12;
     goto __pyx_L4_bool_binop_done;
   }
-  __pyx_t_2 = __Pyx_PyInt_From_long(__pyx_v_self->n_columns); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 415, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_long(__pyx_v_self->n_columns); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 413, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_5 = PyObject_RichCompare(__pyx_v_start_col, __pyx_t_2, Py_LT); __Pyx_XGOTREF(__pyx_t_5); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 415, __pyx_L1_error)
+  __pyx_t_5 = PyObject_RichCompare(__pyx_v_start_col, __pyx_t_2, Py_LT); __Pyx_XGOTREF(__pyx_t_5); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 413, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_12 = __Pyx_PyObject_IsTrue(__pyx_t_5); if (unlikely((__pyx_t_12 < 0))) __PYX_ERR(0, 415, __pyx_L1_error)
+  __pyx_t_12 = __Pyx_PyObject_IsTrue(__pyx_t_5); if (unlikely((__pyx_t_12 < 0))) __PYX_ERR(0, 413, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
   __pyx_t_11 = __pyx_t_12;
   __pyx_L4_bool_binop_done:;
   if (__pyx_t_11) {
 
-    /* "Compute_Similarity_Cython.pyx":416
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":414
  * 
  *         if start_col is not None and start_col>0 and start_col<self.n_columns:
  *             start_col_local = start_col             # <<<<<<<<<<<<<<
  * 
  *         if end_col is not None and end_col>start_col_local and end_col<self.n_columns:
  */
-    __pyx_t_13 = __Pyx_PyInt_As_int(__pyx_v_start_col); if (unlikely((__pyx_t_13 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 416, __pyx_L1_error)
+    __pyx_t_13 = __Pyx_PyInt_As_int(__pyx_v_start_col); if (unlikely((__pyx_t_13 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 414, __pyx_L1_error)
     __pyx_v_start_col_local = __pyx_t_13;
 
-    /* "Compute_Similarity_Cython.pyx":415
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":413
  *         cdef int start_col_local = 0, end_col_local = self.n_columns
  * 
  *         if start_col is not None and start_col>0 and start_col<self.n_columns:             # <<<<<<<<<<<<<<
@@ -24213,7 +23406,7 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
  */
   }
 
-  /* "Compute_Similarity_Cython.pyx":418
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":416
  *             start_col_local = start_col
  * 
  *         if end_col is not None and end_col>start_col_local and end_col<self.n_columns:             # <<<<<<<<<<<<<<
@@ -24226,38 +23419,38 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
     __pyx_t_11 = __pyx_t_12;
     goto __pyx_L8_bool_binop_done;
   }
-  __pyx_t_5 = __Pyx_PyInt_From_int(__pyx_v_start_col_local); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 418, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyInt_From_int(__pyx_v_start_col_local); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 416, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_2 = PyObject_RichCompare(__pyx_v_end_col, __pyx_t_5, Py_GT); __Pyx_XGOTREF(__pyx_t_2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 418, __pyx_L1_error)
+  __pyx_t_2 = PyObject_RichCompare(__pyx_v_end_col, __pyx_t_5, Py_GT); __Pyx_XGOTREF(__pyx_t_2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 416, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_12 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely((__pyx_t_12 < 0))) __PYX_ERR(0, 418, __pyx_L1_error)
+  __pyx_t_12 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely((__pyx_t_12 < 0))) __PYX_ERR(0, 416, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   if (__pyx_t_12) {
   } else {
     __pyx_t_11 = __pyx_t_12;
     goto __pyx_L8_bool_binop_done;
   }
-  __pyx_t_2 = __Pyx_PyInt_From_long(__pyx_v_self->n_columns); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 418, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_long(__pyx_v_self->n_columns); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 416, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_5 = PyObject_RichCompare(__pyx_v_end_col, __pyx_t_2, Py_LT); __Pyx_XGOTREF(__pyx_t_5); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 418, __pyx_L1_error)
+  __pyx_t_5 = PyObject_RichCompare(__pyx_v_end_col, __pyx_t_2, Py_LT); __Pyx_XGOTREF(__pyx_t_5); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 416, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_12 = __Pyx_PyObject_IsTrue(__pyx_t_5); if (unlikely((__pyx_t_12 < 0))) __PYX_ERR(0, 418, __pyx_L1_error)
+  __pyx_t_12 = __Pyx_PyObject_IsTrue(__pyx_t_5); if (unlikely((__pyx_t_12 < 0))) __PYX_ERR(0, 416, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
   __pyx_t_11 = __pyx_t_12;
   __pyx_L8_bool_binop_done:;
   if (__pyx_t_11) {
 
-    /* "Compute_Similarity_Cython.pyx":419
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":417
  * 
  *         if end_col is not None and end_col>start_col_local and end_col<self.n_columns:
  *             end_col_local = end_col             # <<<<<<<<<<<<<<
  * 
  *         start_time = time.time()
  */
-    __pyx_t_13 = __Pyx_PyInt_As_int(__pyx_v_end_col); if (unlikely((__pyx_t_13 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 419, __pyx_L1_error)
+    __pyx_t_13 = __Pyx_PyInt_As_int(__pyx_v_end_col); if (unlikely((__pyx_t_13 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 417, __pyx_L1_error)
     __pyx_v_end_col_local = __pyx_t_13;
 
-    /* "Compute_Similarity_Cython.pyx":418
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":416
  *             start_col_local = start_col
  * 
  *         if end_col is not None and end_col>start_col_local and end_col<self.n_columns:             # <<<<<<<<<<<<<<
@@ -24266,16 +23459,16 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
  */
   }
 
-  /* "Compute_Similarity_Cython.pyx":421
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":419
  *             end_col_local = end_col
  * 
  *         start_time = time.time()             # <<<<<<<<<<<<<<
  *         last_print_time = start_time
  * 
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_time); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 421, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_time); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 419, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_time); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 421, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_time); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 419, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __pyx_t_2 = NULL;
@@ -24296,14 +23489,14 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
     PyObject *__pyx_callargs[2] = {__pyx_t_2, NULL};
     __pyx_t_5 = __Pyx_PyObject_FastCall(__pyx_t_4, __pyx_callargs+1-__pyx_t_7, 0+__pyx_t_7);
     __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
-    if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 421, __pyx_L1_error)
+    if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 419, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   }
   __pyx_v_start_time = __pyx_t_5;
   __pyx_t_5 = 0;
 
-  /* "Compute_Similarity_Cython.pyx":422
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":420
  * 
  *         start_time = time.time()
  *         last_print_time = start_time             # <<<<<<<<<<<<<<
@@ -24313,7 +23506,7 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
   __Pyx_INCREF(__pyx_v_start_time);
   __pyx_v_last_print_time = __pyx_v_start_time;
 
-  /* "Compute_Similarity_Cython.pyx":424
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":422
  *         last_print_time = start_time
  * 
  *         item_index = start_col_local             # <<<<<<<<<<<<<<
@@ -24322,7 +23515,7 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
  */
   __pyx_v_item_index = __pyx_v_start_col_local;
 
-  /* "Compute_Similarity_Cython.pyx":427
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":425
  * 
  *         # Compute all similarities for each item
  *         while item_index < end_col_local:             # <<<<<<<<<<<<<<
@@ -24333,7 +23526,7 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
     __pyx_t_11 = (__pyx_v_item_index < __pyx_v_end_col_local);
     if (!__pyx_t_11) break;
 
-    /* "Compute_Similarity_Cython.pyx":429
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":427
  *         while item_index < end_col_local:
  * 
  *             processed_items += 1             # <<<<<<<<<<<<<<
@@ -24342,18 +23535,18 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
  */
     __pyx_v_processed_items = (__pyx_v_processed_items + 1);
 
-    /* "Compute_Similarity_Cython.pyx":432
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":430
  * 
  *             # Computed similarities go in self.this_item_weights
  *             self.computeItemSimilarities(item_index)             # <<<<<<<<<<<<<<
  * 
  *             # Apply normalization and shrinkage, ensure denominator != 0
  */
-    __pyx_t_5 = ((struct __pyx_vtabstruct_25Compute_Similarity_Cython_Compute_Similarity_Cython *)__pyx_v_self->__pyx_vtab)->computeItemSimilarities(__pyx_v_self, __pyx_v_item_index); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 432, __pyx_L1_error)
+    __pyx_t_5 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython *)__pyx_v_self->__pyx_vtab)->computeItemSimilarities(__pyx_v_self, __pyx_v_item_index); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 430, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-    /* "Compute_Similarity_Cython.pyx":435
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":433
  * 
  *             # Apply normalization and shrinkage, ensure denominator != 0
  *             if self.normalize:             # <<<<<<<<<<<<<<
@@ -24363,7 +23556,7 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
     __pyx_t_11 = (__pyx_v_self->normalize != 0);
     if (__pyx_t_11) {
 
-      /* "Compute_Similarity_Cython.pyx":436
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":434
  *             # Apply normalization and shrinkage, ensure denominator != 0
  *             if self.normalize:
  *                 for inner_item_index in range(self.n_columns):             # <<<<<<<<<<<<<<
@@ -24375,7 +23568,7 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
       for (__pyx_t_13 = 0; __pyx_t_13 < __pyx_t_14; __pyx_t_13+=1) {
         __pyx_v_inner_item_index = __pyx_t_13;
 
-        /* "Compute_Similarity_Cython.pyx":438
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":436
  *                 for inner_item_index in range(self.n_columns):
  * 
  *                     if self.asymmetric_cosine:             # <<<<<<<<<<<<<<
@@ -24385,7 +23578,7 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
         __pyx_t_11 = (__pyx_v_self->asymmetric_cosine != 0);
         if (__pyx_t_11) {
 
-          /* "Compute_Similarity_Cython.pyx":439
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":437
  * 
  *                     if self.asymmetric_cosine:
  *                         self.this_item_weights[inner_item_index] /= self.sum_of_squared_to_alpha[item_index] * self.sum_of_squared_to_1_minus_alpha[inner_item_index]\             # <<<<<<<<<<<<<<
@@ -24395,7 +23588,7 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
           __pyx_t_15 = __pyx_v_item_index;
           __pyx_t_16 = __pyx_v_inner_item_index;
 
-          /* "Compute_Similarity_Cython.pyx":440
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":438
  *                     if self.asymmetric_cosine:
  *                         self.this_item_weights[inner_item_index] /= self.sum_of_squared_to_alpha[item_index] * self.sum_of_squared_to_1_minus_alpha[inner_item_index]\
  *                                                              + self.shrink + 1e-6             # <<<<<<<<<<<<<<
@@ -24405,7 +23598,7 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
           __pyx_t_17 = __pyx_v_inner_item_index;
           *((double *) ( /* dim=0 */ (__pyx_v_self->this_item_weights.data + __pyx_t_17 * __pyx_v_self->this_item_weights.strides[0]) )) /= ((((*((double *) ( /* dim=0 */ (__pyx_v_self->sum_of_squared_to_alpha.data + __pyx_t_15 * __pyx_v_self->sum_of_squared_to_alpha.strides[0]) ))) * (*((double *) ( /* dim=0 */ (__pyx_v_self->sum_of_squared_to_1_minus_alpha.data + __pyx_t_16 * __pyx_v_self->sum_of_squared_to_1_minus_alpha.strides[0]) )))) + __pyx_v_self->shrink) + 1e-6);
 
-          /* "Compute_Similarity_Cython.pyx":438
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":436
  *                 for inner_item_index in range(self.n_columns):
  * 
  *                     if self.asymmetric_cosine:             # <<<<<<<<<<<<<<
@@ -24415,7 +23608,7 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
           goto __pyx_L16;
         }
 
-        /* "Compute_Similarity_Cython.pyx":443
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":441
  * 
  *                     else:
  *                         self.this_item_weights[inner_item_index] /= self.sum_of_squared[item_index] * self.sum_of_squared[inner_item_index]\             # <<<<<<<<<<<<<<
@@ -24426,7 +23619,7 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
           __pyx_t_16 = __pyx_v_item_index;
           __pyx_t_15 = __pyx_v_inner_item_index;
 
-          /* "Compute_Similarity_Cython.pyx":444
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":442
  *                     else:
  *                         self.this_item_weights[inner_item_index] /= self.sum_of_squared[item_index] * self.sum_of_squared[inner_item_index]\
  *                                                              + self.shrink + 1e-6             # <<<<<<<<<<<<<<
@@ -24439,7 +23632,7 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
         __pyx_L16:;
       }
 
-      /* "Compute_Similarity_Cython.pyx":435
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":433
  * 
  *             # Apply normalization and shrinkage, ensure denominator != 0
  *             if self.normalize:             # <<<<<<<<<<<<<<
@@ -24449,7 +23642,7 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
       goto __pyx_L13;
     }
 
-    /* "Compute_Similarity_Cython.pyx":447
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":445
  * 
  *             # Apply the specific denominator for Tanimoto
  *             elif self.tanimoto_coefficient:             # <<<<<<<<<<<<<<
@@ -24459,7 +23652,7 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
     __pyx_t_11 = (__pyx_v_self->tanimoto_coefficient != 0);
     if (__pyx_t_11) {
 
-      /* "Compute_Similarity_Cython.pyx":448
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":446
  *             # Apply the specific denominator for Tanimoto
  *             elif self.tanimoto_coefficient:
  *                 for inner_item_index in range(self.n_columns):             # <<<<<<<<<<<<<<
@@ -24471,7 +23664,7 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
       for (__pyx_t_13 = 0; __pyx_t_13 < __pyx_t_14; __pyx_t_13+=1) {
         __pyx_v_inner_item_index = __pyx_t_13;
 
-        /* "Compute_Similarity_Cython.pyx":449
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":447
  *             elif self.tanimoto_coefficient:
  *                 for inner_item_index in range(self.n_columns):
  *                     self.this_item_weights[inner_item_index] /= self.sum_of_squared[item_index] + self.sum_of_squared[inner_item_index] -\             # <<<<<<<<<<<<<<
@@ -24481,7 +23674,7 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
         __pyx_t_15 = __pyx_v_item_index;
         __pyx_t_16 = __pyx_v_inner_item_index;
 
-        /* "Compute_Similarity_Cython.pyx":450
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":448
  *                 for inner_item_index in range(self.n_columns):
  *                     self.this_item_weights[inner_item_index] /= self.sum_of_squared[item_index] + self.sum_of_squared[inner_item_index] -\
  *                                                          self.this_item_weights[inner_item_index] + self.shrink + 1e-6             # <<<<<<<<<<<<<<
@@ -24490,7 +23683,7 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
  */
         __pyx_t_17 = __pyx_v_inner_item_index;
 
-        /* "Compute_Similarity_Cython.pyx":449
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":447
  *             elif self.tanimoto_coefficient:
  *                 for inner_item_index in range(self.n_columns):
  *                     self.this_item_weights[inner_item_index] /= self.sum_of_squared[item_index] + self.sum_of_squared[inner_item_index] -\             # <<<<<<<<<<<<<<
@@ -24501,7 +23694,7 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
         *((double *) ( /* dim=0 */ (__pyx_v_self->this_item_weights.data + __pyx_t_18 * __pyx_v_self->this_item_weights.strides[0]) )) /= (((((*((double *) ( /* dim=0 */ (__pyx_v_self->sum_of_squared.data + __pyx_t_15 * __pyx_v_self->sum_of_squared.strides[0]) ))) + (*((double *) ( /* dim=0 */ (__pyx_v_self->sum_of_squared.data + __pyx_t_16 * __pyx_v_self->sum_of_squared.strides[0]) )))) - (*((double *) ( /* dim=0 */ (__pyx_v_self->this_item_weights.data + __pyx_t_17 * __pyx_v_self->this_item_weights.strides[0]) )))) + __pyx_v_self->shrink) + 1e-6);
       }
 
-      /* "Compute_Similarity_Cython.pyx":447
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":445
  * 
  *             # Apply the specific denominator for Tanimoto
  *             elif self.tanimoto_coefficient:             # <<<<<<<<<<<<<<
@@ -24511,7 +23704,7 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
       goto __pyx_L13;
     }
 
-    /* "Compute_Similarity_Cython.pyx":452
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":450
  *                                                          self.this_item_weights[inner_item_index] + self.shrink + 1e-6
  * 
  *             elif self.dice_coefficient:             # <<<<<<<<<<<<<<
@@ -24521,7 +23714,7 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
     __pyx_t_11 = (__pyx_v_self->dice_coefficient != 0);
     if (__pyx_t_11) {
 
-      /* "Compute_Similarity_Cython.pyx":453
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":451
  * 
  *             elif self.dice_coefficient:
  *                 for inner_item_index in range(self.n_columns):             # <<<<<<<<<<<<<<
@@ -24533,7 +23726,7 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
       for (__pyx_t_13 = 0; __pyx_t_13 < __pyx_t_14; __pyx_t_13+=1) {
         __pyx_v_inner_item_index = __pyx_t_13;
 
-        /* "Compute_Similarity_Cython.pyx":454
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":452
  *             elif self.dice_coefficient:
  *                 for inner_item_index in range(self.n_columns):
  *                     self.this_item_weights[inner_item_index] /= self.sum_of_squared[item_index] + self.sum_of_squared[inner_item_index] +\             # <<<<<<<<<<<<<<
@@ -24543,7 +23736,7 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
         __pyx_t_17 = __pyx_v_item_index;
         __pyx_t_16 = __pyx_v_inner_item_index;
 
-        /* "Compute_Similarity_Cython.pyx":455
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":453
  *                 for inner_item_index in range(self.n_columns):
  *                     self.this_item_weights[inner_item_index] /= self.sum_of_squared[item_index] + self.sum_of_squared[inner_item_index] +\
  *                                                          self.shrink + 1e-6             # <<<<<<<<<<<<<<
@@ -24554,7 +23747,7 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
         *((double *) ( /* dim=0 */ (__pyx_v_self->this_item_weights.data + __pyx_t_15 * __pyx_v_self->this_item_weights.strides[0]) )) /= ((((*((double *) ( /* dim=0 */ (__pyx_v_self->sum_of_squared.data + __pyx_t_17 * __pyx_v_self->sum_of_squared.strides[0]) ))) + (*((double *) ( /* dim=0 */ (__pyx_v_self->sum_of_squared.data + __pyx_t_16 * __pyx_v_self->sum_of_squared.strides[0]) )))) + __pyx_v_self->shrink) + 1e-6);
       }
 
-      /* "Compute_Similarity_Cython.pyx":452
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":450
  *                                                          self.this_item_weights[inner_item_index] + self.shrink + 1e-6
  * 
  *             elif self.dice_coefficient:             # <<<<<<<<<<<<<<
@@ -24564,7 +23757,7 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
       goto __pyx_L13;
     }
 
-    /* "Compute_Similarity_Cython.pyx":457
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":455
  *                                                          self.shrink + 1e-6
  * 
  *             elif self.tversky_coefficient:             # <<<<<<<<<<<<<<
@@ -24574,7 +23767,7 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
     __pyx_t_11 = (__pyx_v_self->tversky_coefficient != 0);
     if (__pyx_t_11) {
 
-      /* "Compute_Similarity_Cython.pyx":458
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":456
  * 
  *             elif self.tversky_coefficient:
  *                 for inner_item_index in range(self.n_columns):             # <<<<<<<<<<<<<<
@@ -24586,7 +23779,7 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
       for (__pyx_t_13 = 0; __pyx_t_13 < __pyx_t_14; __pyx_t_13+=1) {
         __pyx_v_inner_item_index = __pyx_t_13;
 
-        /* "Compute_Similarity_Cython.pyx":459
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":457
  *             elif self.tversky_coefficient:
  *                 for inner_item_index in range(self.n_columns):
  *                     self.this_item_weights[inner_item_index] /= self.this_item_weights[inner_item_index] + \             # <<<<<<<<<<<<<<
@@ -24595,7 +23788,7 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
  */
         __pyx_t_16 = __pyx_v_inner_item_index;
 
-        /* "Compute_Similarity_Cython.pyx":460
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":458
  *                 for inner_item_index in range(self.n_columns):
  *                     self.this_item_weights[inner_item_index] /= self.this_item_weights[inner_item_index] + \
  *                                                               (self.sum_of_squared[item_index]-self.this_item_weights[inner_item_index])*self.tversky_alpha + \             # <<<<<<<<<<<<<<
@@ -24605,7 +23798,7 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
         __pyx_t_17 = __pyx_v_item_index;
         __pyx_t_15 = __pyx_v_inner_item_index;
 
-        /* "Compute_Similarity_Cython.pyx":461
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":459
  *                     self.this_item_weights[inner_item_index] /= self.this_item_weights[inner_item_index] + \
  *                                                               (self.sum_of_squared[item_index]-self.this_item_weights[inner_item_index])*self.tversky_alpha + \
  *                                                               (self.sum_of_squared[inner_item_index]-self.this_item_weights[inner_item_index])*self.tversky_beta +\             # <<<<<<<<<<<<<<
@@ -24615,7 +23808,7 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
         __pyx_t_18 = __pyx_v_inner_item_index;
         __pyx_t_19 = __pyx_v_inner_item_index;
 
-        /* "Compute_Similarity_Cython.pyx":459
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":457
  *             elif self.tversky_coefficient:
  *                 for inner_item_index in range(self.n_columns):
  *                     self.this_item_weights[inner_item_index] /= self.this_item_weights[inner_item_index] + \             # <<<<<<<<<<<<<<
@@ -24626,7 +23819,7 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
         *((double *) ( /* dim=0 */ (__pyx_v_self->this_item_weights.data + __pyx_t_20 * __pyx_v_self->this_item_weights.strides[0]) )) /= (((((*((double *) ( /* dim=0 */ (__pyx_v_self->this_item_weights.data + __pyx_t_16 * __pyx_v_self->this_item_weights.strides[0]) ))) + (((*((double *) ( /* dim=0 */ (__pyx_v_self->sum_of_squared.data + __pyx_t_17 * __pyx_v_self->sum_of_squared.strides[0]) ))) - (*((double *) ( /* dim=0 */ (__pyx_v_self->this_item_weights.data + __pyx_t_15 * __pyx_v_self->this_item_weights.strides[0]) )))) * __pyx_v_self->tversky_alpha)) + (((*((double *) ( /* dim=0 */ (__pyx_v_self->sum_of_squared.data + __pyx_t_18 * __pyx_v_self->sum_of_squared.strides[0]) ))) - (*((double *) ( /* dim=0 */ (__pyx_v_self->this_item_weights.data + __pyx_t_19 * __pyx_v_self->this_item_weights.strides[0]) )))) * __pyx_v_self->tversky_beta)) + __pyx_v_self->shrink) + 1e-6);
       }
 
-      /* "Compute_Similarity_Cython.pyx":457
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":455
  *                                                          self.shrink + 1e-6
  * 
  *             elif self.tversky_coefficient:             # <<<<<<<<<<<<<<
@@ -24636,7 +23829,7 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
       goto __pyx_L13;
     }
 
-    /* "Compute_Similarity_Cython.pyx":464
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":462
  *                                                               self.shrink + 1e-6
  * 
  *             elif self.shrink != 0:             # <<<<<<<<<<<<<<
@@ -24646,7 +23839,7 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
     __pyx_t_11 = (__pyx_v_self->shrink != 0);
     if (__pyx_t_11) {
 
-      /* "Compute_Similarity_Cython.pyx":465
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":463
  * 
  *             elif self.shrink != 0:
  *                 for inner_item_index in range(self.n_columns):             # <<<<<<<<<<<<<<
@@ -24658,7 +23851,7 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
       for (__pyx_t_13 = 0; __pyx_t_13 < __pyx_t_14; __pyx_t_13+=1) {
         __pyx_v_inner_item_index = __pyx_t_13;
 
-        /* "Compute_Similarity_Cython.pyx":466
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":464
  *             elif self.shrink != 0:
  *                 for inner_item_index in range(self.n_columns):
  *                     self.this_item_weights[inner_item_index] /= self.shrink             # <<<<<<<<<<<<<<
@@ -24669,7 +23862,7 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
         *((double *) ( /* dim=0 */ (__pyx_v_self->this_item_weights.data + __pyx_t_19 * __pyx_v_self->this_item_weights.strides[0]) )) /= __pyx_v_self->shrink;
       }
 
-      /* "Compute_Similarity_Cython.pyx":464
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":462
  *                                                               self.shrink + 1e-6
  * 
  *             elif self.shrink != 0:             # <<<<<<<<<<<<<<
@@ -24679,7 +23872,7 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
     }
     __pyx_L13:;
 
-    /* "Compute_Similarity_Cython.pyx":469
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":467
  * 
  * 
  *             if self.use_dense:             # <<<<<<<<<<<<<<
@@ -24689,7 +23882,7 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
     __pyx_t_11 = (__pyx_v_self->use_dense != 0);
     if (__pyx_t_11) {
 
-      /* "Compute_Similarity_Cython.pyx":470
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":468
  * 
  *             if self.use_dense:
  *                 for inner_item_index in range(self.n_columns):             # <<<<<<<<<<<<<<
@@ -24701,7 +23894,7 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
       for (__pyx_t_13 = 0; __pyx_t_13 < __pyx_t_14; __pyx_t_13+=1) {
         __pyx_v_inner_item_index = __pyx_t_13;
 
-        /* "Compute_Similarity_Cython.pyx":471
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":469
  *             if self.use_dense:
  *                 for inner_item_index in range(self.n_columns):
  *                     self.W_dense[inner_item_index,item_index] = self.this_item_weights[inner_item_index]             # <<<<<<<<<<<<<<
@@ -24714,7 +23907,7 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
         *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_self->W_dense.data + __pyx_t_18 * __pyx_v_self->W_dense.strides[0]) ) + __pyx_t_15 * __pyx_v_self->W_dense.strides[1]) )) = (*((double *) ( /* dim=0 */ (__pyx_v_self->this_item_weights.data + __pyx_t_19 * __pyx_v_self->this_item_weights.strides[0]) )));
       }
 
-      /* "Compute_Similarity_Cython.pyx":469
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":467
  * 
  * 
  *             if self.use_dense:             # <<<<<<<<<<<<<<
@@ -24724,7 +23917,7 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
       goto __pyx_L25;
     }
 
-    /* "Compute_Similarity_Cython.pyx":476
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":474
  *                 # Sort indices and select topK
  *                 # Using numpy implies some overhead, unfortunately the plain C qsort function is even slower
  *                 for inner_item_index in range(self.n_columns):             # <<<<<<<<<<<<<<
@@ -24737,7 +23930,7 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
       for (__pyx_t_13 = 0; __pyx_t_13 < __pyx_t_14; __pyx_t_13+=1) {
         __pyx_v_inner_item_index = __pyx_t_13;
 
-        /* "Compute_Similarity_Cython.pyx":477
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":475
  *                 # Using numpy implies some overhead, unfortunately the plain C qsort function is even slower
  *                 for inner_item_index in range(self.n_columns):
  *                     this_item_weights_np[inner_item_index] = 0.0             # <<<<<<<<<<<<<<
@@ -24748,7 +23941,7 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
         *__Pyx_BufPtrStrided1d(__pyx_t_5numpy_float32_t *, __pyx_pybuffernd_this_item_weights_np.rcbuffer->pybuffer.buf, __pyx_t_19, __pyx_pybuffernd_this_item_weights_np.diminfo[0].strides) = 0.0;
       }
 
-      /* "Compute_Similarity_Cython.pyx":480
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":478
  * 
  *                 # Add weights in the same ordering as the self.this_item_weights_id data structure
  *                 for inner_item_index in range(self.this_item_weights_counter):             # <<<<<<<<<<<<<<
@@ -24760,7 +23953,7 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
       for (__pyx_t_22 = 0; __pyx_t_22 < __pyx_t_21; __pyx_t_22+=1) {
         __pyx_v_inner_item_index = __pyx_t_22;
 
-        /* "Compute_Similarity_Cython.pyx":481
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":479
  *                 # Add weights in the same ordering as the self.this_item_weights_id data structure
  *                 for inner_item_index in range(self.this_item_weights_counter):
  *                     item_id = self.this_item_weights_id[inner_item_index]             # <<<<<<<<<<<<<<
@@ -24770,7 +23963,7 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
         __pyx_t_19 = __pyx_v_inner_item_index;
         __pyx_v_item_id = (*((int *) ( /* dim=0 */ (__pyx_v_self->this_item_weights_id.data + __pyx_t_19 * __pyx_v_self->this_item_weights_id.strides[0]) )));
 
-        /* "Compute_Similarity_Cython.pyx":482
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":480
  *                 for inner_item_index in range(self.this_item_weights_counter):
  *                     item_id = self.this_item_weights_id[inner_item_index]
  *                     this_item_weights_np[inner_item_index] = - self.this_item_weights[item_id]             # <<<<<<<<<<<<<<
@@ -24782,40 +23975,40 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
         *__Pyx_BufPtrStrided1d(__pyx_t_5numpy_float32_t *, __pyx_pybuffernd_this_item_weights_np.rcbuffer->pybuffer.buf, __pyx_t_15, __pyx_pybuffernd_this_item_weights_np.diminfo[0].strides) = (-(*((double *) ( /* dim=0 */ (__pyx_v_self->this_item_weights.data + __pyx_t_19 * __pyx_v_self->this_item_weights.strides[0]) ))));
       }
 
-      /* "Compute_Similarity_Cython.pyx":485
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":483
  * 
  *                 # Sort indices and select topK, partition the data to extract the set of relevant items
  *                 relevant_items_partition = np.argpartition(this_item_weights_np, self.topK - 1, axis=0)[0:self.topK]             # <<<<<<<<<<<<<<
  * 
  *                 # Incrementally build sparse matrix, do not add zeros
  */
-      __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_np); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 485, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_np); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 483, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_5);
-      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_argpartition); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 485, __pyx_L1_error)
+      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_argpartition); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 483, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-      __pyx_t_5 = __Pyx_PyInt_From_long((__pyx_v_self->topK - 1)); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 485, __pyx_L1_error)
+      __pyx_t_5 = __Pyx_PyInt_From_long((__pyx_v_self->topK - 1)); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 483, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_5);
-      __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 485, __pyx_L1_error)
+      __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 483, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
       __Pyx_INCREF((PyObject *)__pyx_v_this_item_weights_np);
       __Pyx_GIVEREF((PyObject *)__pyx_v_this_item_weights_np);
-      if (__Pyx_PyTuple_SET_ITEM(__pyx_t_2, 0, ((PyObject *)__pyx_v_this_item_weights_np))) __PYX_ERR(0, 485, __pyx_L1_error);
+      if (__Pyx_PyTuple_SET_ITEM(__pyx_t_2, 0, ((PyObject *)__pyx_v_this_item_weights_np))) __PYX_ERR(0, 483, __pyx_L1_error);
       __Pyx_GIVEREF(__pyx_t_5);
-      if (__Pyx_PyTuple_SET_ITEM(__pyx_t_2, 1, __pyx_t_5)) __PYX_ERR(0, 485, __pyx_L1_error);
+      if (__Pyx_PyTuple_SET_ITEM(__pyx_t_2, 1, __pyx_t_5)) __PYX_ERR(0, 483, __pyx_L1_error);
       __pyx_t_5 = 0;
-      __pyx_t_5 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 485, __pyx_L1_error)
+      __pyx_t_5 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 483, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_5);
-      if (PyDict_SetItem(__pyx_t_5, __pyx_n_s_axis, __pyx_int_0) < 0) __PYX_ERR(0, 485, __pyx_L1_error)
-      __pyx_t_1 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 485, __pyx_L1_error)
+      if (PyDict_SetItem(__pyx_t_5, __pyx_n_s_axis, __pyx_int_0) < 0) __PYX_ERR(0, 483, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_2, __pyx_t_5); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 483, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-      __pyx_t_5 = __Pyx_PyObject_GetSlice(__pyx_t_1, 0, __pyx_v_self->topK, NULL, NULL, NULL, 1, 1, 0); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 485, __pyx_L1_error)
+      __pyx_t_5 = __Pyx_PyObject_GetSlice(__pyx_t_1, 0, __pyx_v_self->topK, NULL, NULL, NULL, 1, 1, 0); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 483, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-      if (!(likely(((__pyx_t_5) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_5, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 485, __pyx_L1_error)
+      if (!(likely(((__pyx_t_5) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_5, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 483, __pyx_L1_error)
       __pyx_t_23 = ((PyArrayObject *)__pyx_t_5);
       {
         __Pyx_BufFmt_StackElem __pyx_stack[1];
@@ -24832,25 +24025,25 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
           __pyx_t_24 = __pyx_t_25 = __pyx_t_26 = 0;
         }
         __pyx_pybuffernd_relevant_items_partition.diminfo[0].strides = __pyx_pybuffernd_relevant_items_partition.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_relevant_items_partition.diminfo[0].shape = __pyx_pybuffernd_relevant_items_partition.rcbuffer->pybuffer.shape[0];
-        if (unlikely((__pyx_t_13 < 0))) __PYX_ERR(0, 485, __pyx_L1_error)
+        if (unlikely((__pyx_t_13 < 0))) __PYX_ERR(0, 483, __pyx_L1_error)
       }
       __pyx_t_23 = 0;
       __Pyx_XDECREF_SET(__pyx_v_relevant_items_partition, ((PyArrayObject *)__pyx_t_5));
       __pyx_t_5 = 0;
 
-      /* "Compute_Similarity_Cython.pyx":488
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":486
  * 
  *                 # Incrementally build sparse matrix, do not add zeros
  *                 for inner_item_index in range(len(relevant_items_partition)):             # <<<<<<<<<<<<<<
  * 
  *                     topK_item_index = relevant_items_partition[inner_item_index]
  */
-      __pyx_t_27 = PyObject_Length(((PyObject *)__pyx_v_relevant_items_partition)); if (unlikely(__pyx_t_27 == ((Py_ssize_t)-1))) __PYX_ERR(0, 488, __pyx_L1_error)
+      __pyx_t_27 = PyObject_Length(((PyObject *)__pyx_v_relevant_items_partition)); if (unlikely(__pyx_t_27 == ((Py_ssize_t)-1))) __PYX_ERR(0, 486, __pyx_L1_error)
       __pyx_t_28 = __pyx_t_27;
       for (__pyx_t_13 = 0; __pyx_t_13 < __pyx_t_28; __pyx_t_13+=1) {
         __pyx_v_inner_item_index = __pyx_t_13;
 
-        /* "Compute_Similarity_Cython.pyx":490
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":488
  *                 for inner_item_index in range(len(relevant_items_partition)):
  * 
  *                     topK_item_index = relevant_items_partition[inner_item_index]             # <<<<<<<<<<<<<<
@@ -24860,7 +24053,7 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
         __pyx_t_19 = __pyx_v_inner_item_index;
         __pyx_v_topK_item_index = (*__Pyx_BufPtrStrided1d(PY_LONG_LONG *, __pyx_pybuffernd_relevant_items_partition.rcbuffer->pybuffer.buf, __pyx_t_19, __pyx_pybuffernd_relevant_items_partition.diminfo[0].strides));
 
-        /* "Compute_Similarity_Cython.pyx":492
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":490
  *                     topK_item_index = relevant_items_partition[inner_item_index]
  * 
  *                     item_id = self.this_item_weights_id[topK_item_index]             # <<<<<<<<<<<<<<
@@ -24870,7 +24063,7 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
         __pyx_t_29 = __pyx_v_topK_item_index;
         __pyx_v_item_id = (*((int *) ( /* dim=0 */ (__pyx_v_self->this_item_weights_id.data + __pyx_t_29 * __pyx_v_self->this_item_weights_id.strides[0]) )));
 
-        /* "Compute_Similarity_Cython.pyx":494
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":492
  *                     item_id = self.this_item_weights_id[topK_item_index]
  * 
  *                     if self.this_item_weights[item_id] != 0.0:             # <<<<<<<<<<<<<<
@@ -24881,7 +24074,7 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
         __pyx_t_11 = ((*((double *) ( /* dim=0 */ (__pyx_v_self->this_item_weights.data + __pyx_t_19 * __pyx_v_self->this_item_weights.strides[0]) ))) != 0.0);
         if (__pyx_t_11) {
 
-          /* "Compute_Similarity_Cython.pyx":496
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":494
  *                     if self.this_item_weights[item_id] != 0.0:
  * 
  *                         values[sparse_data_pointer] = self.this_item_weights[item_id]             # <<<<<<<<<<<<<<
@@ -24892,7 +24085,7 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
           __pyx_t_15 = __pyx_v_sparse_data_pointer;
           *((double *) ( /* dim=0 */ (__pyx_v_values.data + __pyx_t_15 * __pyx_v_values.strides[0]) )) = (*((double *) ( /* dim=0 */ (__pyx_v_self->this_item_weights.data + __pyx_t_19 * __pyx_v_self->this_item_weights.strides[0]) )));
 
-          /* "Compute_Similarity_Cython.pyx":497
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":495
  * 
  *                         values[sparse_data_pointer] = self.this_item_weights[item_id]
  *                         rows[sparse_data_pointer] = item_id             # <<<<<<<<<<<<<<
@@ -24902,7 +24095,7 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
           __pyx_t_19 = __pyx_v_sparse_data_pointer;
           *((int *) ( /* dim=0 */ (__pyx_v_rows.data + __pyx_t_19 * __pyx_v_rows.strides[0]) )) = __pyx_v_item_id;
 
-          /* "Compute_Similarity_Cython.pyx":498
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":496
  *                         values[sparse_data_pointer] = self.this_item_weights[item_id]
  *                         rows[sparse_data_pointer] = item_id
  *                         cols[sparse_data_pointer] = item_index             # <<<<<<<<<<<<<<
@@ -24912,7 +24105,7 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
           __pyx_t_19 = __pyx_v_sparse_data_pointer;
           *((int *) ( /* dim=0 */ (__pyx_v_cols.data + __pyx_t_19 * __pyx_v_cols.strides[0]) )) = __pyx_v_item_index;
 
-          /* "Compute_Similarity_Cython.pyx":500
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":498
  *                         cols[sparse_data_pointer] = item_index
  * 
  *                         sparse_data_pointer += 1             # <<<<<<<<<<<<<<
@@ -24921,7 +24114,7 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
  */
           __pyx_v_sparse_data_pointer = (__pyx_v_sparse_data_pointer + 1);
 
-          /* "Compute_Similarity_Cython.pyx":494
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":492
  *                     item_id = self.this_item_weights_id[topK_item_index]
  * 
  *                     if self.this_item_weights[item_id] != 0.0:             # <<<<<<<<<<<<<<
@@ -24933,7 +24126,7 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
     }
     __pyx_L25:;
 
-    /* "Compute_Similarity_Cython.pyx":502
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":500
  *                         sparse_data_pointer += 1
  * 
  *             item_index += 1             # <<<<<<<<<<<<<<
@@ -24942,7 +24135,7 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
  */
     __pyx_v_item_index = (__pyx_v_item_index + 1);
 
-    /* "Compute_Similarity_Cython.pyx":504
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":502
  *             item_index += 1
  * 
  *             if processed_items % print_block_size==0 or processed_items==end_col_local:             # <<<<<<<<<<<<<<
@@ -24960,16 +24153,16 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
     __pyx_L36_bool_binop_done:;
     if (__pyx_t_11) {
 
-      /* "Compute_Similarity_Cython.pyx":506
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":504
  *             if processed_items % print_block_size==0 or processed_items==end_col_local:
  * 
  *                 current_time = time.time()             # <<<<<<<<<<<<<<
  * 
  *                 # Set block size to the number of items necessary in order to print every 300 seconds
  */
-      __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_time); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 506, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_time); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 504, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
-      __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_time); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 506, __pyx_L1_error)
+      __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_time); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 504, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
       __pyx_t_1 = NULL;
@@ -24990,45 +24183,45 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
         PyObject *__pyx_callargs[2] = {__pyx_t_1, NULL};
         __pyx_t_5 = __Pyx_PyObject_FastCall(__pyx_t_2, __pyx_callargs+1-__pyx_t_7, 0+__pyx_t_7);
         __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
-        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 506, __pyx_L1_error)
+        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 504, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_5);
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
       }
       __Pyx_XDECREF_SET(__pyx_v_current_time, __pyx_t_5);
       __pyx_t_5 = 0;
 
-      /* "Compute_Similarity_Cython.pyx":509
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":507
  * 
  *                 # Set block size to the number of items necessary in order to print every 300 seconds
  *                 if current_time - start_time != 0:             # <<<<<<<<<<<<<<
  *                     items_per_sec = processed_items/(current_time - start_time)
  *                 else:
  */
-      __pyx_t_5 = PyNumber_Subtract(__pyx_v_current_time, __pyx_v_start_time); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 509, __pyx_L1_error)
+      __pyx_t_5 = PyNumber_Subtract(__pyx_v_current_time, __pyx_v_start_time); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 507, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_5);
-      __pyx_t_11 = (__Pyx_PyInt_BoolNeObjC(__pyx_t_5, __pyx_int_0, 0, 0)); if (unlikely((__pyx_t_11 < 0))) __PYX_ERR(0, 509, __pyx_L1_error)
+      __pyx_t_11 = (__Pyx_PyInt_BoolNeObjC(__pyx_t_5, __pyx_int_0, 0, 0)); if (unlikely((__pyx_t_11 < 0))) __PYX_ERR(0, 507, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       if (__pyx_t_11) {
 
-        /* "Compute_Similarity_Cython.pyx":510
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":508
  *                 # Set block size to the number of items necessary in order to print every 300 seconds
  *                 if current_time - start_time != 0:
  *                     items_per_sec = processed_items/(current_time - start_time)             # <<<<<<<<<<<<<<
  *                 else:
  *                     items_per_sec = 1
  */
-        __pyx_t_5 = __Pyx_PyInt_From_long(__pyx_v_processed_items); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 510, __pyx_L1_error)
+        __pyx_t_5 = __Pyx_PyInt_From_long(__pyx_v_processed_items); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 508, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_5);
-        __pyx_t_2 = PyNumber_Subtract(__pyx_v_current_time, __pyx_v_start_time); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 510, __pyx_L1_error)
+        __pyx_t_2 = PyNumber_Subtract(__pyx_v_current_time, __pyx_v_start_time); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 508, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_2);
-        __pyx_t_1 = __Pyx_PyNumber_Divide(__pyx_t_5, __pyx_t_2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 510, __pyx_L1_error)
+        __pyx_t_1 = __Pyx_PyNumber_Divide(__pyx_t_5, __pyx_t_2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 508, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_1);
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
         __Pyx_XDECREF_SET(__pyx_v_items_per_sec, __pyx_t_1);
         __pyx_t_1 = 0;
 
-        /* "Compute_Similarity_Cython.pyx":509
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":507
  * 
  *                 # Set block size to the number of items necessary in order to print every 300 seconds
  *                 if current_time - start_time != 0:             # <<<<<<<<<<<<<<
@@ -25038,7 +24231,7 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
         goto __pyx_L38;
       }
 
-      /* "Compute_Similarity_Cython.pyx":512
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":510
  *                     items_per_sec = processed_items/(current_time - start_time)
  *                 else:
  *                     items_per_sec = 1             # <<<<<<<<<<<<<<
@@ -25051,34 +24244,34 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
       }
       __pyx_L38:;
 
-      /* "Compute_Similarity_Cython.pyx":514
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":512
  *                     items_per_sec = 1
  * 
  *                 print_block_size = int(items_per_sec*300)             # <<<<<<<<<<<<<<
  * 
  *                 if current_time - last_print_time > 300  or processed_items==end_col_local:
  */
-      __pyx_t_1 = __Pyx_PyInt_MultiplyObjC(__pyx_v_items_per_sec, __pyx_int_300, 0x12C, 0, 0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 514, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyInt_MultiplyObjC(__pyx_v_items_per_sec, __pyx_int_300, 0x12C, 0, 0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 512, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
-      __pyx_t_2 = __Pyx_PyNumber_Int(__pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 514, __pyx_L1_error)
+      __pyx_t_2 = __Pyx_PyNumber_Int(__pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 512, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-      __pyx_t_13 = __Pyx_PyInt_As_int(__pyx_t_2); if (unlikely((__pyx_t_13 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 514, __pyx_L1_error)
+      __pyx_t_13 = __Pyx_PyInt_As_int(__pyx_t_2); if (unlikely((__pyx_t_13 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 512, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
       __pyx_v_print_block_size = __pyx_t_13;
 
-      /* "Compute_Similarity_Cython.pyx":516
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":514
  *                 print_block_size = int(items_per_sec*300)
  * 
  *                 if current_time - last_print_time > 300  or processed_items==end_col_local:             # <<<<<<<<<<<<<<
  *                     new_time_value, new_time_unit = seconds_to_biggest_unit(time.time() - start_time)
  * 
  */
-      __pyx_t_2 = PyNumber_Subtract(__pyx_v_current_time, __pyx_v_last_print_time); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 516, __pyx_L1_error)
+      __pyx_t_2 = PyNumber_Subtract(__pyx_v_current_time, __pyx_v_last_print_time); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 514, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
-      __pyx_t_1 = PyObject_RichCompare(__pyx_t_2, __pyx_int_300, Py_GT); __Pyx_XGOTREF(__pyx_t_1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 516, __pyx_L1_error)
+      __pyx_t_1 = PyObject_RichCompare(__pyx_t_2, __pyx_int_300, Py_GT); __Pyx_XGOTREF(__pyx_t_1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 514, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-      __pyx_t_12 = __Pyx_PyObject_IsTrue(__pyx_t_1); if (unlikely((__pyx_t_12 < 0))) __PYX_ERR(0, 516, __pyx_L1_error)
+      __pyx_t_12 = __Pyx_PyObject_IsTrue(__pyx_t_1); if (unlikely((__pyx_t_12 < 0))) __PYX_ERR(0, 514, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
       if (!__pyx_t_12) {
       } else {
@@ -25090,18 +24283,18 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
       __pyx_L40_bool_binop_done:;
       if (__pyx_t_11) {
 
-        /* "Compute_Similarity_Cython.pyx":517
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":515
  * 
  *                 if current_time - last_print_time > 300  or processed_items==end_col_local:
  *                     new_time_value, new_time_unit = seconds_to_biggest_unit(time.time() - start_time)             # <<<<<<<<<<<<<<
  * 
  *                     print("Similarity column {} ({:4.1f}%), {:.2f} column/sec. Elapsed time {:.2f} {}".format(
  */
-        __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_seconds_to_biggest_unit); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 517, __pyx_L1_error)
+        __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_seconds_to_biggest_unit); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 515, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_2);
-        __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_time); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 517, __pyx_L1_error)
+        __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_time); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 515, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_4);
-        __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_time); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 517, __pyx_L1_error)
+        __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_time); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 515, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_3);
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
         __pyx_t_4 = NULL;
@@ -25122,11 +24315,11 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
           PyObject *__pyx_callargs[2] = {__pyx_t_4, NULL};
           __pyx_t_5 = __Pyx_PyObject_FastCall(__pyx_t_3, __pyx_callargs+1-__pyx_t_7, 0+__pyx_t_7);
           __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-          if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 517, __pyx_L1_error)
+          if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 515, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_5);
           __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
         }
-        __pyx_t_3 = PyNumber_Subtract(__pyx_t_5, __pyx_v_start_time); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 517, __pyx_L1_error)
+        __pyx_t_3 = PyNumber_Subtract(__pyx_t_5, __pyx_v_start_time); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 515, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_3);
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
         __pyx_t_5 = NULL;
@@ -25148,7 +24341,7 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
           __pyx_t_1 = __Pyx_PyObject_FastCall(__pyx_t_2, __pyx_callargs+1-__pyx_t_7, 1+__pyx_t_7);
           __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
           __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-          if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 517, __pyx_L1_error)
+          if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 515, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_1);
           __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
         }
@@ -25158,7 +24351,7 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
           if (unlikely(size != 2)) {
             if (size > 2) __Pyx_RaiseTooManyValuesError(2);
             else if (size >= 0) __Pyx_RaiseNeedMoreValuesError(size);
-            __PYX_ERR(0, 517, __pyx_L1_error)
+            __PYX_ERR(0, 515, __pyx_L1_error)
           }
           #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
           if (likely(PyTuple_CheckExact(sequence))) {
@@ -25171,15 +24364,15 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
           __Pyx_INCREF(__pyx_t_2);
           __Pyx_INCREF(__pyx_t_3);
           #else
-          __pyx_t_2 = PySequence_ITEM(sequence, 0); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 517, __pyx_L1_error)
+          __pyx_t_2 = PySequence_ITEM(sequence, 0); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 515, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_2);
-          __pyx_t_3 = PySequence_ITEM(sequence, 1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 517, __pyx_L1_error)
+          __pyx_t_3 = PySequence_ITEM(sequence, 1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 515, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_3);
           #endif
           __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
         } else {
           Py_ssize_t index = -1;
-          __pyx_t_5 = PyObject_GetIter(__pyx_t_1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 517, __pyx_L1_error)
+          __pyx_t_5 = PyObject_GetIter(__pyx_t_1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 515, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_5);
           __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
           __pyx_t_30 = __Pyx_PyObject_GetIterNextFunc(__pyx_t_5);
@@ -25187,7 +24380,7 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
           __Pyx_GOTREF(__pyx_t_2);
           index = 1; __pyx_t_3 = __pyx_t_30(__pyx_t_5); if (unlikely(!__pyx_t_3)) goto __pyx_L42_unpacking_failed;
           __Pyx_GOTREF(__pyx_t_3);
-          if (__Pyx_IternextUnpackEndCheck(__pyx_t_30(__pyx_t_5), 2) < 0) __PYX_ERR(0, 517, __pyx_L1_error)
+          if (__Pyx_IternextUnpackEndCheck(__pyx_t_30(__pyx_t_5), 2) < 0) __PYX_ERR(0, 515, __pyx_L1_error)
           __pyx_t_30 = NULL;
           __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
           goto __pyx_L43_unpacking_done;
@@ -25195,7 +24388,7 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
           __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
           __pyx_t_30 = NULL;
           if (__Pyx_IterFinish() == 0) __Pyx_RaiseNeedMoreValuesError(index);
-          __PYX_ERR(0, 517, __pyx_L1_error)
+          __PYX_ERR(0, 515, __pyx_L1_error)
           __pyx_L43_unpacking_done:;
         }
         __Pyx_XDECREF_SET(__pyx_v_new_time_value, __pyx_t_2);
@@ -25203,26 +24396,26 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
         __Pyx_XDECREF_SET(__pyx_v_new_time_unit, __pyx_t_3);
         __pyx_t_3 = 0;
 
-        /* "Compute_Similarity_Cython.pyx":519
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":517
  *                     new_time_value, new_time_unit = seconds_to_biggest_unit(time.time() - start_time)
  * 
  *                     print("Similarity column {} ({:4.1f}%), {:.2f} column/sec. Elapsed time {:.2f} {}".format(             # <<<<<<<<<<<<<<
  *                         processed_items, processed_items*1.0/(end_col_local-start_col_local)*100, items_per_sec, new_time_value, new_time_unit))
  * 
  */
-        __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_Similarity_column_4_1f_2f_column, __pyx_n_s_format); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 519, __pyx_L1_error)
+        __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_Similarity_column_4_1f_2f_column, __pyx_n_s_format); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 517, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_3);
 
-        /* "Compute_Similarity_Cython.pyx":520
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":518
  * 
  *                     print("Similarity column {} ({:4.1f}%), {:.2f} column/sec. Elapsed time {:.2f} {}".format(
  *                         processed_items, processed_items*1.0/(end_col_local-start_col_local)*100, items_per_sec, new_time_value, new_time_unit))             # <<<<<<<<<<<<<<
  * 
  *                     last_print_time = current_time
  */
-        __pyx_t_2 = __Pyx_PyInt_From_long(__pyx_v_processed_items); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 520, __pyx_L1_error)
+        __pyx_t_2 = __Pyx_PyInt_From_long(__pyx_v_processed_items); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 518, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_2);
-        __pyx_t_5 = PyFloat_FromDouble((((__pyx_v_processed_items * 1.0) / ((double)(__pyx_v_end_col_local - __pyx_v_start_col_local))) * 100.0)); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 520, __pyx_L1_error)
+        __pyx_t_5 = PyFloat_FromDouble((((__pyx_v_processed_items * 1.0) / ((double)(__pyx_v_end_col_local - __pyx_v_start_col_local))) * 100.0)); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 518, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_5);
         __pyx_t_4 = NULL;
         __pyx_t_7 = 0;
@@ -25244,24 +24437,24 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
           __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
           __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
           __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-          if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 519, __pyx_L1_error)
+          if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 517, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_1);
           __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
         }
 
-        /* "Compute_Similarity_Cython.pyx":519
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":517
  *                     new_time_value, new_time_unit = seconds_to_biggest_unit(time.time() - start_time)
  * 
  *                     print("Similarity column {} ({:4.1f}%), {:.2f} column/sec. Elapsed time {:.2f} {}".format(             # <<<<<<<<<<<<<<
  *                         processed_items, processed_items*1.0/(end_col_local-start_col_local)*100, items_per_sec, new_time_value, new_time_unit))
  * 
  */
-        __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 519, __pyx_L1_error)
+        __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 517, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_3);
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-        /* "Compute_Similarity_Cython.pyx":522
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":520
  *                         processed_items, processed_items*1.0/(end_col_local-start_col_local)*100, items_per_sec, new_time_value, new_time_unit))
  * 
  *                     last_print_time = current_time             # <<<<<<<<<<<<<<
@@ -25271,19 +24464,19 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
         __Pyx_INCREF(__pyx_v_current_time);
         __Pyx_DECREF_SET(__pyx_v_last_print_time, __pyx_v_current_time);
 
-        /* "Compute_Similarity_Cython.pyx":524
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":522
  *                     last_print_time = current_time
  * 
  *                     sys.stdout.flush()             # <<<<<<<<<<<<<<
  *                     sys.stderr.flush()
  * 
  */
-        __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_sys); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 524, __pyx_L1_error)
+        __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_sys); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 522, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_1);
-        __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_stdout); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 524, __pyx_L1_error)
+        __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_stdout); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 522, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_5);
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-        __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_flush); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 524, __pyx_L1_error)
+        __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_flush); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 522, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_1);
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
         __pyx_t_5 = NULL;
@@ -25304,25 +24497,25 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
           PyObject *__pyx_callargs[2] = {__pyx_t_5, NULL};
           __pyx_t_3 = __Pyx_PyObject_FastCall(__pyx_t_1, __pyx_callargs+1-__pyx_t_7, 0+__pyx_t_7);
           __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
-          if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 524, __pyx_L1_error)
+          if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 522, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_3);
           __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
         }
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-        /* "Compute_Similarity_Cython.pyx":525
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":523
  * 
  *                     sys.stdout.flush()
  *                     sys.stderr.flush()             # <<<<<<<<<<<<<<
  * 
  *         # End while on columns
  */
-        __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_sys); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 525, __pyx_L1_error)
+        __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_sys); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 523, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_1);
-        __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_stderr); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 525, __pyx_L1_error)
+        __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_stderr); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 523, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_5);
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-        __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_flush); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 525, __pyx_L1_error)
+        __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_flush); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 523, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_1);
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
         __pyx_t_5 = NULL;
@@ -25343,13 +24536,13 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
           PyObject *__pyx_callargs[2] = {__pyx_t_5, NULL};
           __pyx_t_3 = __Pyx_PyObject_FastCall(__pyx_t_1, __pyx_callargs+1-__pyx_t_7, 0+__pyx_t_7);
           __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
-          if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 525, __pyx_L1_error)
+          if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 523, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_3);
           __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
         }
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-        /* "Compute_Similarity_Cython.pyx":516
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":514
  *                 print_block_size = int(items_per_sec*300)
  * 
  *                 if current_time - last_print_time > 300  or processed_items==end_col_local:             # <<<<<<<<<<<<<<
@@ -25358,7 +24551,7 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
  */
       }
 
-      /* "Compute_Similarity_Cython.pyx":504
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":502
  *             item_index += 1
  * 
  *             if processed_items % print_block_size==0 or processed_items==end_col_local:             # <<<<<<<<<<<<<<
@@ -25368,7 +24561,7 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
     }
   }
 
-  /* "Compute_Similarity_Cython.pyx":529
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":527
  *         # End while on columns
  * 
  *         if self.use_dense:             # <<<<<<<<<<<<<<
@@ -25378,7 +24571,7 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
   __pyx_t_11 = (__pyx_v_self->use_dense != 0);
   if (__pyx_t_11) {
 
-    /* "Compute_Similarity_Cython.pyx":530
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":528
  * 
  *         if self.use_dense:
  *             return np.array(self.W_dense)             # <<<<<<<<<<<<<<
@@ -25386,12 +24579,12 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
  *         else:
  */
     __Pyx_XDECREF(__pyx_r);
-    __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_np); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 530, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_np); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 528, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
-    __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_array); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 530, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_array); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 528, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    __pyx_t_1 = __pyx_memoryview_fromslice(__pyx_v_self->W_dense, 2, (PyObject *(*)(char *)) __pyx_memview_get_double, (int (*)(char *, PyObject *)) __pyx_memview_set_double, 0);; if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 530, __pyx_L1_error)
+    __pyx_t_1 = __pyx_memoryview_fromslice(__pyx_v_self->W_dense, 2, (PyObject *(*)(char *)) __pyx_memview_get_double, (int (*)(char *, PyObject *)) __pyx_memview_set_double, 0);; if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 528, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __pyx_t_2 = NULL;
     __pyx_t_7 = 0;
@@ -25412,7 +24605,7 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
       __pyx_t_3 = __Pyx_PyObject_FastCall(__pyx_t_5, __pyx_callargs+1-__pyx_t_7, 1+__pyx_t_7);
       __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-      if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 530, __pyx_L1_error)
+      if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 528, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     }
@@ -25420,7 +24613,7 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
     __pyx_t_3 = 0;
     goto __pyx_L0;
 
-    /* "Compute_Similarity_Cython.pyx":529
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":527
  *         # End while on columns
  * 
  *         if self.use_dense:             # <<<<<<<<<<<<<<
@@ -25429,7 +24622,7 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
  */
   }
 
-  /* "Compute_Similarity_Cython.pyx":533
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":531
  * 
  *         else:
  *             values = np.array(values[0:sparse_data_pointer])             # <<<<<<<<<<<<<<
@@ -25437,9 +24630,9 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
  *             cols = np.array(cols[0:sparse_data_pointer])
  */
   /*else*/ {
-    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_np); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 533, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_np); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 531, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
-    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_array); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 533, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_array); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 531, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     __pyx_t_8.data = __pyx_v_values.data;
@@ -25460,13 +24653,147 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
     0,
     1) < 0))
 {
-    __PYX_ERR(0, 533, __pyx_L1_error)
+    __PYX_ERR(0, 531, __pyx_L1_error)
 }
 
-__pyx_t_5 = __pyx_memoryview_fromslice(__pyx_t_8, 1, (PyObject *(*)(char *)) __pyx_memview_get_double, (int (*)(char *, PyObject *)) __pyx_memview_set_double, 0);; if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 533, __pyx_L1_error)
+__pyx_t_5 = __pyx_memoryview_fromslice(__pyx_t_8, 1, (PyObject *(*)(char *)) __pyx_memview_get_double, (int (*)(char *, PyObject *)) __pyx_memview_set_double, 0);; if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 531, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     __PYX_XCLEAR_MEMVIEW(&__pyx_t_8, 1);
     __pyx_t_8.memview = NULL; __pyx_t_8.data = NULL;
+    __pyx_t_2 = NULL;
+    __pyx_t_7 = 0;
+    #if CYTHON_UNPACK_METHODS
+    if (unlikely(PyMethod_Check(__pyx_t_1))) {
+      __pyx_t_2 = PyMethod_GET_SELF(__pyx_t_1);
+      if (likely(__pyx_t_2)) {
+        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_1);
+        __Pyx_INCREF(__pyx_t_2);
+        __Pyx_INCREF(function);
+        __Pyx_DECREF_SET(__pyx_t_1, function);
+        __pyx_t_7 = 1;
+      }
+    }
+    #endif
+    {
+      PyObject *__pyx_callargs[2] = {__pyx_t_2, __pyx_t_5};
+      __pyx_t_3 = __Pyx_PyObject_FastCall(__pyx_t_1, __pyx_callargs+1-__pyx_t_7, 1+__pyx_t_7);
+      __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
+      __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+      if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 531, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_3);
+      __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+    }
+    __pyx_t_8 = __Pyx_PyObject_to_MemoryviewSlice_ds_double(__pyx_t_3, PyBUF_WRITABLE); if (unlikely(!__pyx_t_8.memview)) __PYX_ERR(0, 531, __pyx_L1_error)
+    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+    __PYX_XCLEAR_MEMVIEW(&__pyx_v_values, 1);
+    __pyx_v_values = __pyx_t_8;
+    __pyx_t_8.memview = NULL;
+    __pyx_t_8.data = NULL;
+
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":532
+ *         else:
+ *             values = np.array(values[0:sparse_data_pointer])
+ *             rows = np.array(rows[0:sparse_data_pointer])             # <<<<<<<<<<<<<<
+ *             cols = np.array(cols[0:sparse_data_pointer])
+ * 
+ */
+    __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_np); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 532, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_1);
+    __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_array); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 532, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_5);
+    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+    __pyx_t_9.data = __pyx_v_rows.data;
+    __pyx_t_9.memview = __pyx_v_rows.memview;
+    __PYX_INC_MEMVIEW(&__pyx_t_9, 1);
+    __pyx_t_13 = -1;
+    if (unlikely(__pyx_memoryview_slice_memviewslice(
+    &__pyx_t_9,
+    __pyx_v_rows.shape[0], __pyx_v_rows.strides[0], __pyx_v_rows.suboffsets[0],
+    0,
+    0,
+    &__pyx_t_13,
+    0,
+    __pyx_v_sparse_data_pointer,
+    0,
+    1,
+    1,
+    0,
+    1) < 0))
+{
+    __PYX_ERR(0, 532, __pyx_L1_error)
+}
+
+__pyx_t_1 = __pyx_memoryview_fromslice(__pyx_t_9, 1, (PyObject *(*)(char *)) __pyx_memview_get_int, (int (*)(char *, PyObject *)) __pyx_memview_set_int, 0);; if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 532, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_1);
+    __PYX_XCLEAR_MEMVIEW(&__pyx_t_9, 1);
+    __pyx_t_9.memview = NULL; __pyx_t_9.data = NULL;
+    __pyx_t_2 = NULL;
+    __pyx_t_7 = 0;
+    #if CYTHON_UNPACK_METHODS
+    if (unlikely(PyMethod_Check(__pyx_t_5))) {
+      __pyx_t_2 = PyMethod_GET_SELF(__pyx_t_5);
+      if (likely(__pyx_t_2)) {
+        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_5);
+        __Pyx_INCREF(__pyx_t_2);
+        __Pyx_INCREF(function);
+        __Pyx_DECREF_SET(__pyx_t_5, function);
+        __pyx_t_7 = 1;
+      }
+    }
+    #endif
+    {
+      PyObject *__pyx_callargs[2] = {__pyx_t_2, __pyx_t_1};
+      __pyx_t_3 = __Pyx_PyObject_FastCall(__pyx_t_5, __pyx_callargs+1-__pyx_t_7, 1+__pyx_t_7);
+      __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
+      __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+      if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 532, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_3);
+      __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+    }
+    __pyx_t_9 = __Pyx_PyObject_to_MemoryviewSlice_ds_int(__pyx_t_3, PyBUF_WRITABLE); if (unlikely(!__pyx_t_9.memview)) __PYX_ERR(0, 532, __pyx_L1_error)
+    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+    __PYX_XCLEAR_MEMVIEW(&__pyx_v_rows, 1);
+    __pyx_v_rows = __pyx_t_9;
+    __pyx_t_9.memview = NULL;
+    __pyx_t_9.data = NULL;
+
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":533
+ *             values = np.array(values[0:sparse_data_pointer])
+ *             rows = np.array(rows[0:sparse_data_pointer])
+ *             cols = np.array(cols[0:sparse_data_pointer])             # <<<<<<<<<<<<<<
+ * 
+ *             W_sparse = sps.csr_matrix((values, (rows, cols)),
+ */
+    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_np); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 533, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_5);
+    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_array); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 533, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_1);
+    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+    __pyx_t_9.data = __pyx_v_cols.data;
+    __pyx_t_9.memview = __pyx_v_cols.memview;
+    __PYX_INC_MEMVIEW(&__pyx_t_9, 1);
+    __pyx_t_13 = -1;
+    if (unlikely(__pyx_memoryview_slice_memviewslice(
+    &__pyx_t_9,
+    __pyx_v_cols.shape[0], __pyx_v_cols.strides[0], __pyx_v_cols.suboffsets[0],
+    0,
+    0,
+    &__pyx_t_13,
+    0,
+    __pyx_v_sparse_data_pointer,
+    0,
+    1,
+    1,
+    0,
+    1) < 0))
+{
+    __PYX_ERR(0, 533, __pyx_L1_error)
+}
+
+__pyx_t_5 = __pyx_memoryview_fromslice(__pyx_t_9, 1, (PyObject *(*)(char *)) __pyx_memview_get_int, (int (*)(char *, PyObject *)) __pyx_memview_set_int, 0);; if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 533, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_5);
+    __PYX_XCLEAR_MEMVIEW(&__pyx_t_9, 1);
+    __pyx_t_9.memview = NULL; __pyx_t_9.data = NULL;
     __pyx_t_2 = NULL;
     __pyx_t_7 = 0;
     #if CYTHON_UNPACK_METHODS
@@ -25490,234 +24817,100 @@ __pyx_t_5 = __pyx_memoryview_fromslice(__pyx_t_8, 1, (PyObject *(*)(char *)) __p
       __Pyx_GOTREF(__pyx_t_3);
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     }
-    __pyx_t_8 = __Pyx_PyObject_to_MemoryviewSlice_ds_double(__pyx_t_3, PyBUF_WRITABLE); if (unlikely(!__pyx_t_8.memview)) __PYX_ERR(0, 533, __pyx_L1_error)
-    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __PYX_XCLEAR_MEMVIEW(&__pyx_v_values, 1);
-    __pyx_v_values = __pyx_t_8;
-    __pyx_t_8.memview = NULL;
-    __pyx_t_8.data = NULL;
-
-    /* "Compute_Similarity_Cython.pyx":534
- *         else:
- *             values = np.array(values[0:sparse_data_pointer])
- *             rows = np.array(rows[0:sparse_data_pointer])             # <<<<<<<<<<<<<<
- *             cols = np.array(cols[0:sparse_data_pointer])
- * 
- */
-    __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_np); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 534, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_1);
-    __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_array); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 534, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_5);
-    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    __pyx_t_9.data = __pyx_v_rows.data;
-    __pyx_t_9.memview = __pyx_v_rows.memview;
-    __PYX_INC_MEMVIEW(&__pyx_t_9, 1);
-    __pyx_t_13 = -1;
-    if (unlikely(__pyx_memoryview_slice_memviewslice(
-    &__pyx_t_9,
-    __pyx_v_rows.shape[0], __pyx_v_rows.strides[0], __pyx_v_rows.suboffsets[0],
-    0,
-    0,
-    &__pyx_t_13,
-    0,
-    __pyx_v_sparse_data_pointer,
-    0,
-    1,
-    1,
-    0,
-    1) < 0))
-{
-    __PYX_ERR(0, 534, __pyx_L1_error)
-}
-
-__pyx_t_1 = __pyx_memoryview_fromslice(__pyx_t_9, 1, (PyObject *(*)(char *)) __pyx_memview_get_int, (int (*)(char *, PyObject *)) __pyx_memview_set_int, 0);; if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 534, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_1);
-    __PYX_XCLEAR_MEMVIEW(&__pyx_t_9, 1);
-    __pyx_t_9.memview = NULL; __pyx_t_9.data = NULL;
-    __pyx_t_2 = NULL;
-    __pyx_t_7 = 0;
-    #if CYTHON_UNPACK_METHODS
-    if (unlikely(PyMethod_Check(__pyx_t_5))) {
-      __pyx_t_2 = PyMethod_GET_SELF(__pyx_t_5);
-      if (likely(__pyx_t_2)) {
-        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_5);
-        __Pyx_INCREF(__pyx_t_2);
-        __Pyx_INCREF(function);
-        __Pyx_DECREF_SET(__pyx_t_5, function);
-        __pyx_t_7 = 1;
-      }
-    }
-    #endif
-    {
-      PyObject *__pyx_callargs[2] = {__pyx_t_2, __pyx_t_1};
-      __pyx_t_3 = __Pyx_PyObject_FastCall(__pyx_t_5, __pyx_callargs+1-__pyx_t_7, 1+__pyx_t_7);
-      __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
-      __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-      if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 534, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_3);
-      __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    }
-    __pyx_t_9 = __Pyx_PyObject_to_MemoryviewSlice_ds_int(__pyx_t_3, PyBUF_WRITABLE); if (unlikely(!__pyx_t_9.memview)) __PYX_ERR(0, 534, __pyx_L1_error)
-    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __PYX_XCLEAR_MEMVIEW(&__pyx_v_rows, 1);
-    __pyx_v_rows = __pyx_t_9;
-    __pyx_t_9.memview = NULL;
-    __pyx_t_9.data = NULL;
-
-    /* "Compute_Similarity_Cython.pyx":535
- *             values = np.array(values[0:sparse_data_pointer])
- *             rows = np.array(rows[0:sparse_data_pointer])
- *             cols = np.array(cols[0:sparse_data_pointer])             # <<<<<<<<<<<<<<
- * 
- *             W_sparse = sps.csr_matrix((values, (rows, cols)),
- */
-    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_np); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 535, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_5);
-    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_array); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 535, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_1);
-    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    __pyx_t_9.data = __pyx_v_cols.data;
-    __pyx_t_9.memview = __pyx_v_cols.memview;
-    __PYX_INC_MEMVIEW(&__pyx_t_9, 1);
-    __pyx_t_13 = -1;
-    if (unlikely(__pyx_memoryview_slice_memviewslice(
-    &__pyx_t_9,
-    __pyx_v_cols.shape[0], __pyx_v_cols.strides[0], __pyx_v_cols.suboffsets[0],
-    0,
-    0,
-    &__pyx_t_13,
-    0,
-    __pyx_v_sparse_data_pointer,
-    0,
-    1,
-    1,
-    0,
-    1) < 0))
-{
-    __PYX_ERR(0, 535, __pyx_L1_error)
-}
-
-__pyx_t_5 = __pyx_memoryview_fromslice(__pyx_t_9, 1, (PyObject *(*)(char *)) __pyx_memview_get_int, (int (*)(char *, PyObject *)) __pyx_memview_set_int, 0);; if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 535, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_5);
-    __PYX_XCLEAR_MEMVIEW(&__pyx_t_9, 1);
-    __pyx_t_9.memview = NULL; __pyx_t_9.data = NULL;
-    __pyx_t_2 = NULL;
-    __pyx_t_7 = 0;
-    #if CYTHON_UNPACK_METHODS
-    if (unlikely(PyMethod_Check(__pyx_t_1))) {
-      __pyx_t_2 = PyMethod_GET_SELF(__pyx_t_1);
-      if (likely(__pyx_t_2)) {
-        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_1);
-        __Pyx_INCREF(__pyx_t_2);
-        __Pyx_INCREF(function);
-        __Pyx_DECREF_SET(__pyx_t_1, function);
-        __pyx_t_7 = 1;
-      }
-    }
-    #endif
-    {
-      PyObject *__pyx_callargs[2] = {__pyx_t_2, __pyx_t_5};
-      __pyx_t_3 = __Pyx_PyObject_FastCall(__pyx_t_1, __pyx_callargs+1-__pyx_t_7, 1+__pyx_t_7);
-      __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
-      __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-      if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 535, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_3);
-      __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    }
-    __pyx_t_9 = __Pyx_PyObject_to_MemoryviewSlice_ds_int(__pyx_t_3, PyBUF_WRITABLE); if (unlikely(!__pyx_t_9.memview)) __PYX_ERR(0, 535, __pyx_L1_error)
+    __pyx_t_9 = __Pyx_PyObject_to_MemoryviewSlice_ds_int(__pyx_t_3, PyBUF_WRITABLE); if (unlikely(!__pyx_t_9.memview)) __PYX_ERR(0, 533, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __PYX_XCLEAR_MEMVIEW(&__pyx_v_cols, 1);
     __pyx_v_cols = __pyx_t_9;
     __pyx_t_9.memview = NULL;
     __pyx_t_9.data = NULL;
 
-    /* "Compute_Similarity_Cython.pyx":537
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":535
  *             cols = np.array(cols[0:sparse_data_pointer])
  * 
  *             W_sparse = sps.csr_matrix((values, (rows, cols)),             # <<<<<<<<<<<<<<
  *                                     shape=(self.n_columns, self.n_columns),
  *                                     dtype=np.float32)
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_sps); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 537, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_sps); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 535, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_csr_matrix); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 537, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_csr_matrix); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 535, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __pyx_t_3 = __pyx_memoryview_fromslice(__pyx_v_values, 1, (PyObject *(*)(char *)) __pyx_memview_get_double, (int (*)(char *, PyObject *)) __pyx_memview_set_double, 0);; if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 537, __pyx_L1_error)
+    __pyx_t_3 = __pyx_memoryview_fromslice(__pyx_v_values, 1, (PyObject *(*)(char *)) __pyx_memview_get_double, (int (*)(char *, PyObject *)) __pyx_memview_set_double, 0);; if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 535, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_5 = __pyx_memoryview_fromslice(__pyx_v_rows, 1, (PyObject *(*)(char *)) __pyx_memview_get_int, (int (*)(char *, PyObject *)) __pyx_memview_set_int, 0);; if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 537, __pyx_L1_error)
+    __pyx_t_5 = __pyx_memoryview_fromslice(__pyx_v_rows, 1, (PyObject *(*)(char *)) __pyx_memview_get_int, (int (*)(char *, PyObject *)) __pyx_memview_set_int, 0);; if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 535, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
-    __pyx_t_2 = __pyx_memoryview_fromslice(__pyx_v_cols, 1, (PyObject *(*)(char *)) __pyx_memview_get_int, (int (*)(char *, PyObject *)) __pyx_memview_set_int, 0);; if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 537, __pyx_L1_error)
+    __pyx_t_2 = __pyx_memoryview_fromslice(__pyx_v_cols, 1, (PyObject *(*)(char *)) __pyx_memview_get_int, (int (*)(char *, PyObject *)) __pyx_memview_set_int, 0);; if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 535, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_4 = PyTuple_New(2); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 537, __pyx_L1_error)
+    __pyx_t_4 = PyTuple_New(2); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 535, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_GIVEREF(__pyx_t_5);
-    if (__Pyx_PyTuple_SET_ITEM(__pyx_t_4, 0, __pyx_t_5)) __PYX_ERR(0, 537, __pyx_L1_error);
+    if (__Pyx_PyTuple_SET_ITEM(__pyx_t_4, 0, __pyx_t_5)) __PYX_ERR(0, 535, __pyx_L1_error);
     __Pyx_GIVEREF(__pyx_t_2);
-    if (__Pyx_PyTuple_SET_ITEM(__pyx_t_4, 1, __pyx_t_2)) __PYX_ERR(0, 537, __pyx_L1_error);
+    if (__Pyx_PyTuple_SET_ITEM(__pyx_t_4, 1, __pyx_t_2)) __PYX_ERR(0, 535, __pyx_L1_error);
     __pyx_t_5 = 0;
     __pyx_t_2 = 0;
-    __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 537, __pyx_L1_error)
+    __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 535, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_GIVEREF(__pyx_t_3);
-    if (__Pyx_PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_t_3)) __PYX_ERR(0, 537, __pyx_L1_error);
+    if (__Pyx_PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_t_3)) __PYX_ERR(0, 535, __pyx_L1_error);
     __Pyx_GIVEREF(__pyx_t_4);
-    if (__Pyx_PyTuple_SET_ITEM(__pyx_t_2, 1, __pyx_t_4)) __PYX_ERR(0, 537, __pyx_L1_error);
+    if (__Pyx_PyTuple_SET_ITEM(__pyx_t_2, 1, __pyx_t_4)) __PYX_ERR(0, 535, __pyx_L1_error);
     __pyx_t_3 = 0;
     __pyx_t_4 = 0;
-    __pyx_t_4 = PyTuple_New(1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 537, __pyx_L1_error)
+    __pyx_t_4 = PyTuple_New(1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 535, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_GIVEREF(__pyx_t_2);
-    if (__Pyx_PyTuple_SET_ITEM(__pyx_t_4, 0, __pyx_t_2)) __PYX_ERR(0, 537, __pyx_L1_error);
+    if (__Pyx_PyTuple_SET_ITEM(__pyx_t_4, 0, __pyx_t_2)) __PYX_ERR(0, 535, __pyx_L1_error);
     __pyx_t_2 = 0;
 
-    /* "Compute_Similarity_Cython.pyx":538
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":536
  * 
  *             W_sparse = sps.csr_matrix((values, (rows, cols)),
  *                                     shape=(self.n_columns, self.n_columns),             # <<<<<<<<<<<<<<
  *                                     dtype=np.float32)
  * 
  */
-    __pyx_t_2 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 538, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 536, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_3 = __Pyx_PyInt_From_long(__pyx_v_self->n_columns); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 538, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyInt_From_long(__pyx_v_self->n_columns); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 536, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_5 = __Pyx_PyInt_From_long(__pyx_v_self->n_columns); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 538, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyInt_From_long(__pyx_v_self->n_columns); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 536, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
-    __pyx_t_31 = PyTuple_New(2); if (unlikely(!__pyx_t_31)) __PYX_ERR(0, 538, __pyx_L1_error)
+    __pyx_t_31 = PyTuple_New(2); if (unlikely(!__pyx_t_31)) __PYX_ERR(0, 536, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_31);
     __Pyx_GIVEREF(__pyx_t_3);
-    if (__Pyx_PyTuple_SET_ITEM(__pyx_t_31, 0, __pyx_t_3)) __PYX_ERR(0, 538, __pyx_L1_error);
+    if (__Pyx_PyTuple_SET_ITEM(__pyx_t_31, 0, __pyx_t_3)) __PYX_ERR(0, 536, __pyx_L1_error);
     __Pyx_GIVEREF(__pyx_t_5);
-    if (__Pyx_PyTuple_SET_ITEM(__pyx_t_31, 1, __pyx_t_5)) __PYX_ERR(0, 538, __pyx_L1_error);
+    if (__Pyx_PyTuple_SET_ITEM(__pyx_t_31, 1, __pyx_t_5)) __PYX_ERR(0, 536, __pyx_L1_error);
     __pyx_t_3 = 0;
     __pyx_t_5 = 0;
-    if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_shape, __pyx_t_31) < 0) __PYX_ERR(0, 538, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_shape, __pyx_t_31) < 0) __PYX_ERR(0, 536, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_31); __pyx_t_31 = 0;
 
-    /* "Compute_Similarity_Cython.pyx":539
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":537
  *             W_sparse = sps.csr_matrix((values, (rows, cols)),
  *                                     shape=(self.n_columns, self.n_columns),
  *                                     dtype=np.float32)             # <<<<<<<<<<<<<<
  * 
  *             return W_sparse
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_31, __pyx_n_s_np); if (unlikely(!__pyx_t_31)) __PYX_ERR(0, 539, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_31, __pyx_n_s_np); if (unlikely(!__pyx_t_31)) __PYX_ERR(0, 537, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_31);
-    __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_31, __pyx_n_s_float32); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 539, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_31, __pyx_n_s_float32); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 537, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     __Pyx_DECREF(__pyx_t_31); __pyx_t_31 = 0;
-    if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_dtype, __pyx_t_5) < 0) __PYX_ERR(0, 538, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_dtype, __pyx_t_5) < 0) __PYX_ERR(0, 536, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-    /* "Compute_Similarity_Cython.pyx":537
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":535
  *             cols = np.array(cols[0:sparse_data_pointer])
  * 
  *             W_sparse = sps.csr_matrix((values, (rows, cols)),             # <<<<<<<<<<<<<<
  *                                     shape=(self.n_columns, self.n_columns),
  *                                     dtype=np.float32)
  */
-    __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_t_4, __pyx_t_2); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 537, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_t_4, __pyx_t_2); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 535, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
@@ -25725,7 +24918,7 @@ __pyx_t_5 = __pyx_memoryview_fromslice(__pyx_t_9, 1, (PyObject *(*)(char *)) __p
     __pyx_v_W_sparse = __pyx_t_5;
     __pyx_t_5 = 0;
 
-    /* "Compute_Similarity_Cython.pyx":541
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":539
  *                                     dtype=np.float32)
  * 
  *             return W_sparse             # <<<<<<<<<<<<<<
@@ -25736,7 +24929,7 @@ __pyx_t_5 = __pyx_memoryview_fromslice(__pyx_t_9, 1, (PyObject *(*)(char *)) __p
     goto __pyx_L0;
   }
 
-  /* "Compute_Similarity_Cython.pyx":383
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":381
  * 
  * 
  *     def compute_similarity(self, start_col=None, end_col=None):             # <<<<<<<<<<<<<<
@@ -25761,7 +24954,7 @@ __pyx_t_5 = __pyx_memoryview_fromslice(__pyx_t_9, 1, (PyObject *(*)(char *)) __p
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_relevant_items_partition.rcbuffer->pybuffer);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_this_item_weights_np.rcbuffer->pybuffer);
   __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
-  __Pyx_AddTraceback("Compute_Similarity_Cython.Compute_Similarity_Cython.compute_similarity", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.Similarity.Cython.Compute_Similarity_Cython.Compute_Similarity_Cython.compute_similarity", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   goto __pyx_L2;
   __pyx_L0:;
@@ -25792,15 +24985,15 @@ __pyx_t_5 = __pyx_memoryview_fromslice(__pyx_t_9, 1, (PyObject *(*)(char *)) __p
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_25Compute_Similarity_Cython_25Compute_Similarity_Cython_5__reduce_cython__(PyObject *__pyx_v_self, 
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_25Compute_Similarity_Cython_5__reduce_cython__(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static PyMethodDef __pyx_mdef_25Compute_Similarity_Cython_25Compute_Similarity_Cython_5__reduce_cython__ = {"__reduce_cython__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_25Compute_Similarity_Cython_25Compute_Similarity_Cython_5__reduce_cython__, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_25Compute_Similarity_Cython_25Compute_Similarity_Cython_5__reduce_cython__(PyObject *__pyx_v_self, 
+static PyMethodDef __pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_25Compute_Similarity_Cython_5__reduce_cython__ = {"__reduce_cython__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_25Compute_Similarity_Cython_5__reduce_cython__, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_25Compute_Similarity_Cython_5__reduce_cython__(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -25825,14 +25018,14 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   if (unlikely(__pyx_nargs > 0)) {
     __Pyx_RaiseArgtupleInvalid("__reduce_cython__", 1, 0, 0, __pyx_nargs); return NULL;}
   if (unlikely(__pyx_kwds) && __Pyx_NumKwargs_FASTCALL(__pyx_kwds) && unlikely(!__Pyx_CheckKeywordStrings(__pyx_kwds, "__reduce_cython__", 0))) return NULL;
-  __pyx_r = __pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cython_4__reduce_cython__(((struct __pyx_obj_25Compute_Similarity_Cython_Compute_Similarity_Cython *)__pyx_v_self));
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_25Compute_Similarity_Cython_4__reduce_cython__(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cython_4__reduce_cython__(struct __pyx_obj_25Compute_Similarity_Cython_Compute_Similarity_Cython *__pyx_v_self) {
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_25Compute_Similarity_Cython_4__reduce_cython__(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython *__pyx_v_self) {
   PyObject *__pyx_v_state = 0;
   PyObject *__pyx_v__dict = 0;
   int __pyx_v_use_setstate;
@@ -26243,7 +25436,7 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
   __Pyx_XDECREF(__pyx_t_30);
   __Pyx_XDECREF(__pyx_t_31);
   __Pyx_XDECREF(__pyx_t_32);
-  __Pyx_AddTraceback("Compute_Similarity_Cython.Compute_Similarity_Cython.__reduce_cython__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.Similarity.Cython.Compute_Similarity_Cython.Compute_Similarity_Cython.__reduce_cython__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_state);
@@ -26261,15 +25454,15 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_25Compute_Similarity_Cython_25Compute_Similarity_Cython_7__setstate_cython__(PyObject *__pyx_v_self, 
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_25Compute_Similarity_Cython_7__setstate_cython__(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static PyMethodDef __pyx_mdef_25Compute_Similarity_Cython_25Compute_Similarity_Cython_7__setstate_cython__ = {"__setstate_cython__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_25Compute_Similarity_Cython_25Compute_Similarity_Cython_7__setstate_cython__, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_25Compute_Similarity_Cython_25Compute_Similarity_Cython_7__setstate_cython__(PyObject *__pyx_v_self, 
+static PyMethodDef __pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_25Compute_Similarity_Cython_7__setstate_cython__ = {"__setstate_cython__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_25Compute_Similarity_Cython_7__setstate_cython__, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_25Compute_Similarity_Cython_7__setstate_cython__(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -26339,11 +25532,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("Compute_Similarity_Cython.Compute_Similarity_Cython.__setstate_cython__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.Similarity.Cython.Compute_Similarity_Cython.Compute_Similarity_Cython.__setstate_cython__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cython_6__setstate_cython__(((struct __pyx_obj_25Compute_Similarity_Cython_Compute_Similarity_Cython *)__pyx_v_self), __pyx_v___pyx_state);
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_25Compute_Similarity_Cython_6__setstate_cython__(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython *)__pyx_v_self), __pyx_v___pyx_state);
 
   /* function exit code */
   {
@@ -26356,7 +25549,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cython_6__setstate_cython__(struct __pyx_obj_25Compute_Similarity_Cython_Compute_Similarity_Cython *__pyx_v_self, PyObject *__pyx_v___pyx_state) {
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_25Compute_Similarity_Cython_6__setstate_cython__(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython *__pyx_v_self, PyObject *__pyx_v___pyx_state) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -26371,7 +25564,7 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
  *     __pyx_unpickle_Compute_Similarity_Cython__set_state(self, __pyx_state)             # <<<<<<<<<<<<<<
  */
   if (!(likely(PyTuple_CheckExact(__pyx_v___pyx_state))||((__pyx_v___pyx_state) == Py_None) || __Pyx_RaiseUnexpectedTypeError("tuple", __pyx_v___pyx_state))) __PYX_ERR(1, 17, __pyx_L1_error)
-  __pyx_t_1 = __pyx_f_25Compute_Similarity_Cython___pyx_unpickle_Compute_Similarity_Cython__set_state(__pyx_v_self, ((PyObject*)__pyx_v___pyx_state)); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 17, __pyx_L1_error)
+  __pyx_t_1 = __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython___pyx_unpickle_Compute_Similarity_Cython__set_state(__pyx_v_self, ((PyObject*)__pyx_v___pyx_state)); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 17, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
@@ -26387,7 +25580,7 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
   goto __pyx_L0;
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_AddTraceback("Compute_Similarity_Cython.Compute_Similarity_Cython.__setstate_cython__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.Similarity.Cython.Compute_Similarity_Cython.Compute_Similarity_Cython.__setstate_cython__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -26402,15 +25595,15 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython_25Compute_Similarity_Cytho
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_25Compute_Similarity_Cython_1__pyx_unpickle_Compute_Similarity_Cython(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_1__pyx_unpickle_Compute_Similarity_Cython(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static PyMethodDef __pyx_mdef_25Compute_Similarity_Cython_1__pyx_unpickle_Compute_Similarity_Cython = {"__pyx_unpickle_Compute_Similarity_Cython", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_25Compute_Similarity_Cython_1__pyx_unpickle_Compute_Similarity_Cython, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_25Compute_Similarity_Cython_1__pyx_unpickle_Compute_Similarity_Cython(PyObject *__pyx_self, 
+static PyMethodDef __pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_1__pyx_unpickle_Compute_Similarity_Cython = {"__pyx_unpickle_Compute_Similarity_Cython", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_1__pyx_unpickle_Compute_Similarity_Cython, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_1__pyx_unpickle_Compute_Similarity_Cython(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -26510,11 +25703,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("Compute_Similarity_Cython.__pyx_unpickle_Compute_Similarity_Cython", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.Similarity.Cython.Compute_Similarity_Cython.__pyx_unpickle_Compute_Similarity_Cython", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_25Compute_Similarity_Cython___pyx_unpickle_Compute_Similarity_Cython(__pyx_self, __pyx_v___pyx_type, __pyx_v___pyx_checksum, __pyx_v___pyx_state);
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython___pyx_unpickle_Compute_Similarity_Cython(__pyx_self, __pyx_v___pyx_type, __pyx_v___pyx_checksum, __pyx_v___pyx_state);
 
   /* function exit code */
   {
@@ -26527,7 +25720,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_25Compute_Similarity_Cython___pyx_unpickle_Compute_Similarity_Cython(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v___pyx_type, long __pyx_v___pyx_checksum, PyObject *__pyx_v___pyx_state) {
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython___pyx_unpickle_Compute_Similarity_Cython(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v___pyx_type, long __pyx_v___pyx_checksum, PyObject *__pyx_v___pyx_state) {
   PyObject *__pyx_v___pyx_PickleError = 0;
   PyObject *__pyx_v___pyx_result = 0;
   PyObject *__pyx_r = NULL;
@@ -26609,7 +25802,7 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython___pyx_unpickle_Compute_Sim
  *     if __pyx_state is not None:
  *         __pyx_unpickle_Compute_Similarity_Cython__set_state(<Compute_Similarity_Cython> __pyx_result, __pyx_state)
  */
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_ptype_25Compute_Similarity_Cython_Compute_Similarity_Cython), __pyx_n_s_new); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 7, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython), __pyx_n_s_new); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 7, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __pyx_t_4 = NULL;
   __pyx_t_5 = 0;
@@ -26654,7 +25847,7 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython___pyx_unpickle_Compute_Sim
  * cdef __pyx_unpickle_Compute_Similarity_Cython__set_state(Compute_Similarity_Cython __pyx_result, tuple __pyx_state):
  */
     if (!(likely(PyTuple_CheckExact(__pyx_v___pyx_state))||((__pyx_v___pyx_state) == Py_None) || __Pyx_RaiseUnexpectedTypeError("tuple", __pyx_v___pyx_state))) __PYX_ERR(1, 9, __pyx_L1_error)
-    __pyx_t_1 = __pyx_f_25Compute_Similarity_Cython___pyx_unpickle_Compute_Similarity_Cython__set_state(((struct __pyx_obj_25Compute_Similarity_Cython_Compute_Similarity_Cython *)__pyx_v___pyx_result), ((PyObject*)__pyx_v___pyx_state)); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 9, __pyx_L1_error)
+    __pyx_t_1 = __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython___pyx_unpickle_Compute_Similarity_Cython__set_state(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython *)__pyx_v___pyx_result), ((PyObject*)__pyx_v___pyx_state)); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 9, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
@@ -26690,7 +25883,7 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython___pyx_unpickle_Compute_Sim
   __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
-  __Pyx_AddTraceback("Compute_Similarity_Cython.__pyx_unpickle_Compute_Similarity_Cython", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.Similarity.Cython.Compute_Similarity_Cython.__pyx_unpickle_Compute_Similarity_Cython", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v___pyx_PickleError);
@@ -26708,7 +25901,7 @@ static PyObject *__pyx_pf_25Compute_Similarity_Cython___pyx_unpickle_Compute_Sim
  *     if len(__pyx_state) > 31 and hasattr(__pyx_result, '__dict__'):
  */
 
-static PyObject *__pyx_f_25Compute_Similarity_Cython___pyx_unpickle_Compute_Similarity_Cython__set_state(struct __pyx_obj_25Compute_Similarity_Cython_Compute_Similarity_Cython *__pyx_v___pyx_result, PyObject *__pyx_v___pyx_state) {
+static PyObject *__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython___pyx_unpickle_Compute_Similarity_Cython__set_state(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython *__pyx_v___pyx_result, PyObject *__pyx_v___pyx_state) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -27149,17 +26342,17 @@ static PyObject *__pyx_f_25Compute_Similarity_Cython___pyx_unpickle_Compute_Simi
   __Pyx_XDECREF(__pyx_t_11);
   __Pyx_XDECREF(__pyx_t_12);
   __Pyx_XDECREF(__pyx_t_13);
-  __Pyx_AddTraceback("Compute_Similarity_Cython.__pyx_unpickle_Compute_Similarity_Cython__set_state", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.Similarity.Cython.Compute_Similarity_Cython.__pyx_unpickle_Compute_Similarity_Cython__set_state", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = 0;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
-static struct __pyx_vtabstruct_25Compute_Similarity_Cython_Compute_Similarity_Cython __pyx_vtable_25Compute_Similarity_Cython_Compute_Similarity_Cython;
+static struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython __pyx_vtable_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython;
 
-static PyObject *__pyx_tp_new_25Compute_Similarity_Cython_Compute_Similarity_Cython(PyTypeObject *t, CYTHON_UNUSED PyObject *a, CYTHON_UNUSED PyObject *k) {
-  struct __pyx_obj_25Compute_Similarity_Cython_Compute_Similarity_Cython *p;
+static PyObject *__pyx_tp_new_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython(PyTypeObject *t, CYTHON_UNUSED PyObject *a, CYTHON_UNUSED PyObject *k) {
+  struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython *p;
   PyObject *o;
   #if CYTHON_COMPILING_IN_LIMITED_API
   allocfunc alloc_func = (allocfunc)PyType_GetSlot(t, Py_tp_alloc);
@@ -27172,8 +26365,8 @@ static PyObject *__pyx_tp_new_25Compute_Similarity_Cython_Compute_Similarity_Cyt
   }
   if (unlikely(!o)) return 0;
   #endif
-  p = ((struct __pyx_obj_25Compute_Similarity_Cython_Compute_Similarity_Cython *)o);
-  p->__pyx_vtab = __pyx_vtabptr_25Compute_Similarity_Cython_Compute_Similarity_Cython;
+  p = ((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython *)o);
+  p->__pyx_vtab = __pyx_vtabptr_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython;
   p->this_item_weights.data = NULL;
   p->this_item_weights.memview = NULL;
   p->this_item_weights_mask.data = NULL;
@@ -27205,11 +26398,11 @@ static PyObject *__pyx_tp_new_25Compute_Similarity_Cython_Compute_Similarity_Cyt
   return o;
 }
 
-static void __pyx_tp_dealloc_25Compute_Similarity_Cython_Compute_Similarity_Cython(PyObject *o) {
-  struct __pyx_obj_25Compute_Similarity_Cython_Compute_Similarity_Cython *p = (struct __pyx_obj_25Compute_Similarity_Cython_Compute_Similarity_Cython *)o;
+static void __pyx_tp_dealloc_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython(PyObject *o) {
+  struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython *p = (struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython *)o;
   #if CYTHON_USE_TP_FINALIZE
   if (unlikely((PY_VERSION_HEX >= 0x03080000 || __Pyx_PyType_HasFeature(Py_TYPE(o), Py_TPFLAGS_HAVE_FINALIZE)) && __Pyx_PyObject_GetSlot(o, tp_finalize, destructor)) && (!PyType_IS_GC(Py_TYPE(o)) || !__Pyx_PyObject_GC_IsFinalized(o))) {
-    if (__Pyx_PyObject_GetSlot(o, tp_dealloc, destructor) == __pyx_tp_dealloc_25Compute_Similarity_Cython_Compute_Similarity_Cython) {
+    if (__Pyx_PyObject_GetSlot(o, tp_dealloc, destructor) == __pyx_tp_dealloc_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython) {
       if (PyObject_CallFinalizerFromDealloc(o)) return;
     }
   }
@@ -27252,35 +26445,35 @@ static void __pyx_tp_dealloc_25Compute_Similarity_Cython_Compute_Similarity_Cyth
   #endif
 }
 
-static PyMethodDef __pyx_methods_25Compute_Similarity_Cython_Compute_Similarity_Cython[] = {
-  {"compute_similarity", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_25Compute_Similarity_Cython_25Compute_Similarity_Cython_3compute_similarity, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_25Compute_Similarity_Cython_25Compute_Similarity_Cython_2compute_similarity},
-  {"__reduce_cython__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_25Compute_Similarity_Cython_25Compute_Similarity_Cython_5__reduce_cython__, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
-  {"__setstate_cython__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_25Compute_Similarity_Cython_25Compute_Similarity_Cython_7__setstate_cython__, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
+static PyMethodDef __pyx_methods_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython[] = {
+  {"compute_similarity", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_25Compute_Similarity_Cython_3compute_similarity, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_25Compute_Similarity_Cython_2compute_similarity},
+  {"__reduce_cython__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_25Compute_Similarity_Cython_5__reduce_cython__, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
+  {"__setstate_cython__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_25Compute_Similarity_Cython_7__setstate_cython__, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
   {0, 0, 0, 0}
 };
 #if CYTHON_USE_TYPE_SPECS
-static PyType_Slot __pyx_type_25Compute_Similarity_Cython_Compute_Similarity_Cython_slots[] = {
-  {Py_tp_dealloc, (void *)__pyx_tp_dealloc_25Compute_Similarity_Cython_Compute_Similarity_Cython},
-  {Py_tp_methods, (void *)__pyx_methods_25Compute_Similarity_Cython_Compute_Similarity_Cython},
-  {Py_tp_init, (void *)__pyx_pw_25Compute_Similarity_Cython_25Compute_Similarity_Cython_1__init__},
-  {Py_tp_new, (void *)__pyx_tp_new_25Compute_Similarity_Cython_Compute_Similarity_Cython},
+static PyType_Slot __pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython_slots[] = {
+  {Py_tp_dealloc, (void *)__pyx_tp_dealloc_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython},
+  {Py_tp_methods, (void *)__pyx_methods_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython},
+  {Py_tp_init, (void *)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_25Compute_Similarity_Cython_1__init__},
+  {Py_tp_new, (void *)__pyx_tp_new_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython},
   {0, 0},
 };
-static PyType_Spec __pyx_type_25Compute_Similarity_Cython_Compute_Similarity_Cython_spec = {
-  "Compute_Similarity_Cython.Compute_Similarity_Cython",
-  sizeof(struct __pyx_obj_25Compute_Similarity_Cython_Compute_Similarity_Cython),
+static PyType_Spec __pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython_spec = {
+  "RecSysCompetition2024Polimi.libs.Recommenders.Similarity.Cython.Compute_Similarity_Cython.Compute_Similarity_Cython",
+  sizeof(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython),
   0,
   Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_VERSION_TAG|Py_TPFLAGS_CHECKTYPES|Py_TPFLAGS_HAVE_NEWBUFFER|Py_TPFLAGS_BASETYPE,
-  __pyx_type_25Compute_Similarity_Cython_Compute_Similarity_Cython_slots,
+  __pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython_slots,
 };
 #else
 
-static PyTypeObject __pyx_type_25Compute_Similarity_Cython_Compute_Similarity_Cython = {
+static PyTypeObject __pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython = {
   PyVarObject_HEAD_INIT(0, 0)
-  "Compute_Similarity_Cython.""Compute_Similarity_Cython", /*tp_name*/
-  sizeof(struct __pyx_obj_25Compute_Similarity_Cython_Compute_Similarity_Cython), /*tp_basicsize*/
+  "RecSysCompetition2024Polimi.libs.Recommenders.Similarity.Cython.Compute_Similarity_Cython.""Compute_Similarity_Cython", /*tp_name*/
+  sizeof(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython), /*tp_basicsize*/
   0, /*tp_itemsize*/
-  __pyx_tp_dealloc_25Compute_Similarity_Cython_Compute_Similarity_Cython, /*tp_dealloc*/
+  __pyx_tp_dealloc_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython, /*tp_dealloc*/
   #if PY_VERSION_HEX < 0x030800b4
   0, /*tp_print*/
   #endif
@@ -27313,7 +26506,7 @@ static PyTypeObject __pyx_type_25Compute_Similarity_Cython_Compute_Similarity_Cy
   0, /*tp_weaklistoffset*/
   0, /*tp_iter*/
   0, /*tp_iternext*/
-  __pyx_methods_25Compute_Similarity_Cython_Compute_Similarity_Cython, /*tp_methods*/
+  __pyx_methods_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython, /*tp_methods*/
   0, /*tp_members*/
   0, /*tp_getset*/
   0, /*tp_base*/
@@ -27323,9 +26516,9 @@ static PyTypeObject __pyx_type_25Compute_Similarity_Cython_Compute_Similarity_Cy
   #if !CYTHON_USE_TYPE_SPECS
   0, /*tp_dictoffset*/
   #endif
-  __pyx_pw_25Compute_Similarity_Cython_25Compute_Similarity_Cython_1__init__, /*tp_init*/
+  __pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_25Compute_Similarity_Cython_1__init__, /*tp_init*/
   0, /*tp_alloc*/
-  __pyx_tp_new_25Compute_Similarity_Cython_Compute_Similarity_Cython, /*tp_new*/
+  __pyx_tp_new_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython, /*tp_new*/
   0, /*tp_free*/
   0, /*tp_is_gc*/
   0, /*tp_bases*/
@@ -27497,7 +26690,7 @@ static PyType_Slot __pyx_type___pyx_array_slots[] = {
   {0, 0},
 };
 static PyType_Spec __pyx_type___pyx_array_spec = {
-  "Compute_Similarity_Cython.array",
+  "RecSysCompetition2024Polimi.libs.Recommenders.Similarity.Cython.Compute_Similarity_Cython.array",
   sizeof(struct __pyx_array_obj),
   0,
   Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_VERSION_TAG|Py_TPFLAGS_CHECKTYPES|Py_TPFLAGS_HAVE_NEWBUFFER|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_SEQUENCE,
@@ -27543,7 +26736,7 @@ static PyBufferProcs __pyx_tp_as_buffer_array = {
 
 static PyTypeObject __pyx_type___pyx_array = {
   PyVarObject_HEAD_INIT(0, 0)
-  "Compute_Similarity_Cython.""array", /*tp_name*/
+  "RecSysCompetition2024Polimi.libs.Recommenders.Similarity.Cython.Compute_Similarity_Cython.""array", /*tp_name*/
   sizeof(struct __pyx_array_obj), /*tp_basicsize*/
   0, /*tp_itemsize*/
   __pyx_tp_dealloc_array, /*tp_dealloc*/
@@ -27706,7 +26899,7 @@ static PyType_Slot __pyx_type___pyx_MemviewEnum_slots[] = {
   {0, 0},
 };
 static PyType_Spec __pyx_type___pyx_MemviewEnum_spec = {
-  "Compute_Similarity_Cython.Enum",
+  "RecSysCompetition2024Polimi.libs.Recommenders.Similarity.Cython.Compute_Similarity_Cython.Enum",
   sizeof(struct __pyx_MemviewEnum_obj),
   0,
   Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_VERSION_TAG|Py_TPFLAGS_CHECKTYPES|Py_TPFLAGS_HAVE_NEWBUFFER|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_HAVE_GC,
@@ -27716,7 +26909,7 @@ static PyType_Spec __pyx_type___pyx_MemviewEnum_spec = {
 
 static PyTypeObject __pyx_type___pyx_MemviewEnum = {
   PyVarObject_HEAD_INIT(0, 0)
-  "Compute_Similarity_Cython.""Enum", /*tp_name*/
+  "RecSysCompetition2024Polimi.libs.Recommenders.Similarity.Cython.Compute_Similarity_Cython.""Enum", /*tp_name*/
   sizeof(struct __pyx_MemviewEnum_obj), /*tp_basicsize*/
   0, /*tp_itemsize*/
   __pyx_tp_dealloc_Enum, /*tp_dealloc*/
@@ -28016,7 +27209,7 @@ static PyType_Slot __pyx_type___pyx_memoryview_slots[] = {
   {0, 0},
 };
 static PyType_Spec __pyx_type___pyx_memoryview_spec = {
-  "Compute_Similarity_Cython.memoryview",
+  "RecSysCompetition2024Polimi.libs.Recommenders.Similarity.Cython.Compute_Similarity_Cython.memoryview",
   sizeof(struct __pyx_memoryview_obj),
   0,
   Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_VERSION_TAG|Py_TPFLAGS_CHECKTYPES|Py_TPFLAGS_HAVE_NEWBUFFER|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_HAVE_GC,
@@ -28062,7 +27255,7 @@ static PyBufferProcs __pyx_tp_as_buffer_memoryview = {
 
 static PyTypeObject __pyx_type___pyx_memoryview = {
   PyVarObject_HEAD_INIT(0, 0)
-  "Compute_Similarity_Cython.""memoryview", /*tp_name*/
+  "RecSysCompetition2024Polimi.libs.Recommenders.Similarity.Cython.Compute_Similarity_Cython.""memoryview", /*tp_name*/
   sizeof(struct __pyx_memoryview_obj), /*tp_basicsize*/
   0, /*tp_itemsize*/
   __pyx_tp_dealloc_memoryview, /*tp_dealloc*/
@@ -28217,7 +27410,7 @@ static PyType_Slot __pyx_type___pyx_memoryviewslice_slots[] = {
   {0, 0},
 };
 static PyType_Spec __pyx_type___pyx_memoryviewslice_spec = {
-  "Compute_Similarity_Cython._memoryviewslice",
+  "RecSysCompetition2024Polimi.libs.Recommenders.Similarity.Cython.Compute_Similarity_Cython._memoryviewslice",
   sizeof(struct __pyx_memoryviewslice_obj),
   0,
   Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_VERSION_TAG|Py_TPFLAGS_CHECKTYPES|Py_TPFLAGS_HAVE_NEWBUFFER|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_SEQUENCE,
@@ -28227,7 +27420,7 @@ static PyType_Spec __pyx_type___pyx_memoryviewslice_spec = {
 
 static PyTypeObject __pyx_type___pyx_memoryviewslice = {
   PyVarObject_HEAD_INIT(0, 0)
-  "Compute_Similarity_Cython.""_memoryviewslice", /*tp_name*/
+  "RecSysCompetition2024Polimi.libs.Recommenders.Similarity.Cython.Compute_Similarity_Cython.""_memoryviewslice", /*tp_name*/
   sizeof(struct __pyx_memoryviewslice_obj), /*tp_basicsize*/
   0, /*tp_itemsize*/
   __pyx_tp_dealloc__memoryviewslice, /*tp_dealloc*/
@@ -28368,14 +27561,13 @@ static int __Pyx_CreateStringTabAndInitStrings(void) {
     {&__pyx_n_b_O, __pyx_k_O, sizeof(__pyx_k_O), 0, 0, 0, 1},
     {&__pyx_kp_u_Out_of_bounds_on_buffer_access_a, __pyx_k_Out_of_bounds_on_buffer_access_a, sizeof(__pyx_k_Out_of_bounds_on_buffer_access_a), 0, 1, 0, 0},
     {&__pyx_n_s_PickleError, __pyx_k_PickleError, sizeof(__pyx_k_PickleError), 0, 0, 1, 1},
-    {&__pyx_n_s_Recommenders_Recommender_utils, __pyx_k_Recommenders_Recommender_utils, sizeof(__pyx_k_Recommenders_Recommender_utils), 0, 0, 1, 1},
+    {&__pyx_n_s_RecSysCompetition2024Polimi_libs, __pyx_k_RecSysCompetition2024Polimi_libs, sizeof(__pyx_k_RecSysCompetition2024Polimi_libs), 0, 0, 1, 1},
     {&__pyx_n_s_Sequence, __pyx_k_Sequence, sizeof(__pyx_k_Sequence), 0, 0, 1, 1},
     {&__pyx_kp_s_Similarity_column_4_1f_2f_column, __pyx_k_Similarity_column_4_1f_2f_column, sizeof(__pyx_k_Similarity_column_4_1f_2f_column), 0, 0, 1, 0},
     {&__pyx_kp_s_Step_may_not_be_zero_axis_d, __pyx_k_Step_may_not_be_zero_axis_d, sizeof(__pyx_k_Step_may_not_be_zero_axis_d), 0, 0, 1, 0},
     {&__pyx_kp_s_TopK_must_be_between_0_and_the_n, __pyx_k_TopK_must_be_between_0_and_the_n, sizeof(__pyx_k_TopK_must_be_between_0_and_the_n), 0, 0, 1, 0},
     {&__pyx_n_s_TypeError, __pyx_k_TypeError, sizeof(__pyx_k_TypeError), 0, 0, 1, 1},
     {&__pyx_kp_s_Unable_to_convert_item_to_object, __pyx_k_Unable_to_convert_item_to_object, sizeof(__pyx_k_Unable_to_convert_item_to_object), 0, 0, 1, 0},
-    {&__pyx_n_s_Utils_seconds_to_biggest_unit, __pyx_k_Utils_seconds_to_biggest_unit, sizeof(__pyx_k_Utils_seconds_to_biggest_unit), 0, 0, 1, 1},
     {&__pyx_n_s_ValueError, __pyx_k_ValueError, sizeof(__pyx_k_ValueError), 0, 0, 1, 1},
     {&__pyx_n_s_View_MemoryView, __pyx_k_View_MemoryView, sizeof(__pyx_k_View_MemoryView), 0, 0, 1, 1},
     {&__pyx_n_s_W_sparse, __pyx_k_W_sparse, sizeof(__pyx_k_W_sparse), 0, 0, 1, 1},
@@ -28458,6 +27650,8 @@ static int __Pyx_CreateStringTabAndInitStrings(void) {
     {&__pyx_kp_s_itemsize_0_for_cython_array, __pyx_k_itemsize_0_for_cython_array, sizeof(__pyx_k_itemsize_0_for_cython_array), 0, 0, 1, 0},
     {&__pyx_n_s_jaccard, __pyx_k_jaccard, sizeof(__pyx_k_jaccard), 0, 0, 1, 1},
     {&__pyx_n_s_last_print_time, __pyx_k_last_print_time, sizeof(__pyx_k_last_print_time), 0, 0, 1, 1},
+    {&__pyx_n_s_libs_Recommenders_Recommender_ut, __pyx_k_libs_Recommenders_Recommender_ut, sizeof(__pyx_k_libs_Recommenders_Recommender_ut), 0, 0, 1, 1},
+    {&__pyx_n_s_libs_Utils_seconds_to_biggest_un, __pyx_k_libs_Utils_seconds_to_biggest_un, sizeof(__pyx_k_libs_Utils_seconds_to_biggest_un), 0, 0, 1, 1},
     {&__pyx_n_s_local_topK, __pyx_k_local_topK, sizeof(__pyx_k_local_topK), 0, 0, 1, 1},
     {&__pyx_n_s_main, __pyx_k_main, sizeof(__pyx_k_main), 0, 0, 1, 1},
     {&__pyx_n_s_max_cells, __pyx_k_max_cells, sizeof(__pyx_k_max_cells), 0, 0, 1, 1},
@@ -28557,11 +27751,11 @@ static int __Pyx_CreateStringTabAndInitStrings(void) {
 }
 /* #### Code section: cached_builtins ### */
 static CYTHON_SMALL_CODE int __Pyx_InitCachedBuiltins(void) {
-  __pyx_builtin_super = __Pyx_GetBuiltinName(__pyx_n_s_super); if (!__pyx_builtin_super) __PYX_ERR(0, 103, __pyx_L1_error)
-  __pyx_builtin_ValueError = __Pyx_GetBuiltinName(__pyx_n_s_ValueError); if (!__pyx_builtin_ValueError) __PYX_ERR(0, 142, __pyx_L1_error)
-  __pyx_builtin_AssertionError = __Pyx_GetBuiltinName(__pyx_n_s_AssertionError); if (!__pyx_builtin_AssertionError) __PYX_ERR(0, 147, __pyx_L1_error)
-  __pyx_builtin_range = __Pyx_GetBuiltinName(__pyx_n_s_range); if (!__pyx_builtin_range) __PYX_ERR(0, 220, __pyx_L1_error)
-  __pyx_builtin_print = __Pyx_GetBuiltinName(__pyx_n_s_print); if (!__pyx_builtin_print) __PYX_ERR(0, 519, __pyx_L1_error)
+  __pyx_builtin_super = __Pyx_GetBuiltinName(__pyx_n_s_super); if (!__pyx_builtin_super) __PYX_ERR(0, 101, __pyx_L1_error)
+  __pyx_builtin_ValueError = __Pyx_GetBuiltinName(__pyx_n_s_ValueError); if (!__pyx_builtin_ValueError) __PYX_ERR(0, 140, __pyx_L1_error)
+  __pyx_builtin_AssertionError = __Pyx_GetBuiltinName(__pyx_n_s_AssertionError); if (!__pyx_builtin_AssertionError) __PYX_ERR(0, 145, __pyx_L1_error)
+  __pyx_builtin_range = __Pyx_GetBuiltinName(__pyx_n_s_range); if (!__pyx_builtin_range) __PYX_ERR(0, 218, __pyx_L1_error)
+  __pyx_builtin_print = __Pyx_GetBuiltinName(__pyx_n_s_print); if (!__pyx_builtin_print) __PYX_ERR(0, 517, __pyx_L1_error)
   __pyx_builtin___import__ = __Pyx_GetBuiltinName(__pyx_n_s_import); if (!__pyx_builtin___import__) __PYX_ERR(1, 100, __pyx_L1_error)
   __pyx_builtin_MemoryError = __Pyx_GetBuiltinName(__pyx_n_s_MemoryError); if (!__pyx_builtin_MemoryError) __PYX_ERR(1, 156, __pyx_L1_error)
   __pyx_builtin_enumerate = __Pyx_GetBuiltinName(__pyx_n_s_enumerate); if (!__pyx_builtin_enumerate) __PYX_ERR(1, 159, __pyx_L1_error)
@@ -28569,7 +27763,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedBuiltins(void) {
   __pyx_builtin_Ellipsis = __Pyx_GetBuiltinName(__pyx_n_s_Ellipsis); if (!__pyx_builtin_Ellipsis) __PYX_ERR(1, 408, __pyx_L1_error)
   __pyx_builtin_id = __Pyx_GetBuiltinName(__pyx_n_s_id); if (!__pyx_builtin_id) __PYX_ERR(1, 618, __pyx_L1_error)
   __pyx_builtin_IndexError = __Pyx_GetBuiltinName(__pyx_n_s_IndexError); if (!__pyx_builtin_IndexError) __PYX_ERR(1, 914, __pyx_L1_error)
-  __pyx_builtin_ImportError = __Pyx_GetBuiltinName(__pyx_n_s_ImportError); if (!__pyx_builtin_ImportError) __PYX_ERR(2, 987, __pyx_L1_error)
+  __pyx_builtin_ImportError = __Pyx_GetBuiltinName(__pyx_n_s_ImportError); if (!__pyx_builtin_ImportError) __PYX_ERR(2, 984, __pyx_L1_error)
   return 0;
   __pyx_L1_error:;
   return -1;
@@ -28616,25 +27810,25 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__8);
   __Pyx_GIVEREF(__pyx_tuple__8);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":987
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":984
  *         __pyx_import_array()
  *     except Exception:
  *         raise ImportError("numpy.core.multiarray failed to import")             # <<<<<<<<<<<<<<
  * 
  * cdef inline int import_umath() except -1:
  */
-  __pyx_tuple__9 = PyTuple_Pack(1, __pyx_kp_s_numpy_core_multiarray_failed_to); if (unlikely(!__pyx_tuple__9)) __PYX_ERR(2, 987, __pyx_L1_error)
+  __pyx_tuple__9 = PyTuple_Pack(1, __pyx_kp_s_numpy_core_multiarray_failed_to); if (unlikely(!__pyx_tuple__9)) __PYX_ERR(2, 984, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__9);
   __Pyx_GIVEREF(__pyx_tuple__9);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":993
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":990
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")             # <<<<<<<<<<<<<<
  * 
  * cdef inline int import_ufunc() except -1:
  */
-  __pyx_tuple__10 = PyTuple_Pack(1, __pyx_kp_s_numpy_core_umath_failed_to_impor); if (unlikely(!__pyx_tuple__10)) __PYX_ERR(2, 993, __pyx_L1_error)
+  __pyx_tuple__10 = PyTuple_Pack(1, __pyx_kp_s_numpy_core_umath_failed_to_impor); if (unlikely(!__pyx_tuple__10)) __PYX_ERR(2, 990, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__10);
   __Pyx_GIVEREF(__pyx_tuple__10);
 
@@ -28750,29 +27944,29 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__21);
   __pyx_codeobj__22 = (PyObject*)__Pyx_PyCode_New(3, 0, 0, 5, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__21, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_stringsource, __pyx_n_s_pyx_unpickle_Enum, 1, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__22)) __PYX_ERR(1, 1, __pyx_L1_error)
 
-  /* "Compute_Similarity_Cython.pyx":42
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":40
  * 
  * 
  * import scipy.sparse as sps             # <<<<<<<<<<<<<<
- * from Recommenders.Recommender_utils import check_matrix
- * from Utils.seconds_to_biggest_unit import seconds_to_biggest_unit
+ * from libs.Recommenders.Recommender_utils import check_matrix
+ * from libs.Utils.seconds_to_biggest_unit import seconds_to_biggest_unit
  */
-  __pyx_tuple__23 = PyTuple_Pack(2, __pyx_n_s_scipy, __pyx_n_s_sparse); if (unlikely(!__pyx_tuple__23)) __PYX_ERR(0, 42, __pyx_L1_error)
+  __pyx_tuple__23 = PyTuple_Pack(2, __pyx_n_s_scipy, __pyx_n_s_sparse); if (unlikely(!__pyx_tuple__23)) __PYX_ERR(0, 40, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__23);
   __Pyx_GIVEREF(__pyx_tuple__23);
 
-  /* "Compute_Similarity_Cython.pyx":383
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":381
  * 
  * 
  *     def compute_similarity(self, start_col=None, end_col=None):             # <<<<<<<<<<<<<<
  *         """
  *         Compute the similarity for the given dataset
  */
-  __pyx_tuple__24 = PyTuple_Pack(27, __pyx_n_s_self, __pyx_n_s_start_col, __pyx_n_s_end_col, __pyx_n_s_print_block_size, __pyx_n_s_item_index, __pyx_n_s_inner_item_index, __pyx_n_s_item_id, __pyx_n_s_local_topK, __pyx_n_s_topK_item_index, __pyx_n_s_top_k_idx, __pyx_n_s_relevant_items_partition, __pyx_n_s_this_item_weights_np, __pyx_n_s_processed_items, __pyx_n_s_max_cells, __pyx_n_s_values, __pyx_n_s_rows, __pyx_n_s_cols, __pyx_n_s_sparse_data_pointer, __pyx_n_s_start_col_local, __pyx_n_s_end_col_local, __pyx_n_s_start_time, __pyx_n_s_last_print_time, __pyx_n_s_current_time, __pyx_n_s_items_per_sec, __pyx_n_s_new_time_value, __pyx_n_s_new_time_unit, __pyx_n_s_W_sparse); if (unlikely(!__pyx_tuple__24)) __PYX_ERR(0, 383, __pyx_L1_error)
+  __pyx_tuple__24 = PyTuple_Pack(27, __pyx_n_s_self, __pyx_n_s_start_col, __pyx_n_s_end_col, __pyx_n_s_print_block_size, __pyx_n_s_item_index, __pyx_n_s_inner_item_index, __pyx_n_s_item_id, __pyx_n_s_local_topK, __pyx_n_s_topK_item_index, __pyx_n_s_top_k_idx, __pyx_n_s_relevant_items_partition, __pyx_n_s_this_item_weights_np, __pyx_n_s_processed_items, __pyx_n_s_max_cells, __pyx_n_s_values, __pyx_n_s_rows, __pyx_n_s_cols, __pyx_n_s_sparse_data_pointer, __pyx_n_s_start_col_local, __pyx_n_s_end_col_local, __pyx_n_s_start_time, __pyx_n_s_last_print_time, __pyx_n_s_current_time, __pyx_n_s_items_per_sec, __pyx_n_s_new_time_value, __pyx_n_s_new_time_unit, __pyx_n_s_W_sparse); if (unlikely(!__pyx_tuple__24)) __PYX_ERR(0, 381, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__24);
   __Pyx_GIVEREF(__pyx_tuple__24);
-  __pyx_codeobj__25 = (PyObject*)__Pyx_PyCode_New(3, 0, 0, 27, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__24, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Compute_Similarity_Cython_pyx, __pyx_n_s_compute_similarity, 383, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__25)) __PYX_ERR(0, 383, __pyx_L1_error)
-  __pyx_tuple__26 = PyTuple_Pack(2, Py_None, Py_None); if (unlikely(!__pyx_tuple__26)) __PYX_ERR(0, 383, __pyx_L1_error)
+  __pyx_codeobj__25 = (PyObject*)__Pyx_PyCode_New(3, 0, 0, 27, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__24, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Compute_Similarity_Cython_pyx, __pyx_n_s_compute_similarity, 381, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__25)) __PYX_ERR(0, 381, __pyx_L1_error)
+  __pyx_tuple__26 = PyTuple_Pack(2, Py_None, Py_None); if (unlikely(!__pyx_tuple__26)) __PYX_ERR(0, 381, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__26);
   __Pyx_GIVEREF(__pyx_tuple__26);
 
@@ -28912,49 +28106,49 @@ static int __Pyx_modinit_type_init_code(void) {
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__Pyx_modinit_type_init_code", 0);
   /*--- Type init code ---*/
-  __pyx_vtabptr_25Compute_Similarity_Cython_Compute_Similarity_Cython = &__pyx_vtable_25Compute_Similarity_Cython_Compute_Similarity_Cython;
-  __pyx_vtable_25Compute_Similarity_Cython_Compute_Similarity_Cython.useOnlyBooleanInteractions = (PyObject *(*)(struct __pyx_obj_25Compute_Similarity_Cython_Compute_Similarity_Cython *, PyObject *))__pyx_f_25Compute_Similarity_Cython_25Compute_Similarity_Cython_useOnlyBooleanInteractions;
-  __pyx_vtable_25Compute_Similarity_Cython_Compute_Similarity_Cython.applyPearsonCorrelation = (PyObject *(*)(struct __pyx_obj_25Compute_Similarity_Cython_Compute_Similarity_Cython *, PyObject *))__pyx_f_25Compute_Similarity_Cython_25Compute_Similarity_Cython_applyPearsonCorrelation;
-  __pyx_vtable_25Compute_Similarity_Cython_Compute_Similarity_Cython.applyAdjustedCosine = (PyObject *(*)(struct __pyx_obj_25Compute_Similarity_Cython_Compute_Similarity_Cython *, PyObject *))__pyx_f_25Compute_Similarity_Cython_25Compute_Similarity_Cython_applyAdjustedCosine;
-  __pyx_vtable_25Compute_Similarity_Cython_Compute_Similarity_Cython.getUsersThatRatedItem = (__Pyx_memviewslice (*)(struct __pyx_obj_25Compute_Similarity_Cython_Compute_Similarity_Cython *, long))__pyx_f_25Compute_Similarity_Cython_25Compute_Similarity_Cython_getUsersThatRatedItem;
-  __pyx_vtable_25Compute_Similarity_Cython_Compute_Similarity_Cython.getItemsRatedByUser = (__Pyx_memviewslice (*)(struct __pyx_obj_25Compute_Similarity_Cython_Compute_Similarity_Cython *, long))__pyx_f_25Compute_Similarity_Cython_25Compute_Similarity_Cython_getItemsRatedByUser;
-  __pyx_vtable_25Compute_Similarity_Cython_Compute_Similarity_Cython.computeItemSimilarities = (PyObject *(*)(struct __pyx_obj_25Compute_Similarity_Cython_Compute_Similarity_Cython *, long))__pyx_f_25Compute_Similarity_Cython_25Compute_Similarity_Cython_computeItemSimilarities;
+  __pyx_vtabptr_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython = &__pyx_vtable_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython;
+  __pyx_vtable_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython.useOnlyBooleanInteractions = (PyObject *(*)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython *, PyObject *))__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_25Compute_Similarity_Cython_useOnlyBooleanInteractions;
+  __pyx_vtable_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython.applyPearsonCorrelation = (PyObject *(*)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython *, PyObject *))__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_25Compute_Similarity_Cython_applyPearsonCorrelation;
+  __pyx_vtable_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython.applyAdjustedCosine = (PyObject *(*)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython *, PyObject *))__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_25Compute_Similarity_Cython_applyAdjustedCosine;
+  __pyx_vtable_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython.getUsersThatRatedItem = (__Pyx_memviewslice (*)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython *, long))__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_25Compute_Similarity_Cython_getUsersThatRatedItem;
+  __pyx_vtable_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython.getItemsRatedByUser = (__Pyx_memviewslice (*)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython *, long))__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_25Compute_Similarity_Cython_getItemsRatedByUser;
+  __pyx_vtable_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython.computeItemSimilarities = (PyObject *(*)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython *, long))__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_25Compute_Similarity_Cython_computeItemSimilarities;
   #if CYTHON_USE_TYPE_SPECS
-  __pyx_ptype_25Compute_Similarity_Cython_Compute_Similarity_Cython = (PyTypeObject *) __Pyx_PyType_FromModuleAndSpec(__pyx_m, &__pyx_type_25Compute_Similarity_Cython_Compute_Similarity_Cython_spec, NULL); if (unlikely(!__pyx_ptype_25Compute_Similarity_Cython_Compute_Similarity_Cython)) __PYX_ERR(0, 52, __pyx_L1_error)
-  if (__Pyx_fix_up_extension_type_from_spec(&__pyx_type_25Compute_Similarity_Cython_Compute_Similarity_Cython_spec, __pyx_ptype_25Compute_Similarity_Cython_Compute_Similarity_Cython) < 0) __PYX_ERR(0, 52, __pyx_L1_error)
+  __pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython = (PyTypeObject *) __Pyx_PyType_FromModuleAndSpec(__pyx_m, &__pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython_spec, NULL); if (unlikely(!__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython)) __PYX_ERR(0, 50, __pyx_L1_error)
+  if (__Pyx_fix_up_extension_type_from_spec(&__pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython_spec, __pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython) < 0) __PYX_ERR(0, 50, __pyx_L1_error)
   #else
-  __pyx_ptype_25Compute_Similarity_Cython_Compute_Similarity_Cython = &__pyx_type_25Compute_Similarity_Cython_Compute_Similarity_Cython;
+  __pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython = &__pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython;
   #endif
   #if !CYTHON_COMPILING_IN_LIMITED_API
   #endif
   #if !CYTHON_USE_TYPE_SPECS
-  if (__Pyx_PyType_Ready(__pyx_ptype_25Compute_Similarity_Cython_Compute_Similarity_Cython) < 0) __PYX_ERR(0, 52, __pyx_L1_error)
+  if (__Pyx_PyType_Ready(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython) < 0) __PYX_ERR(0, 50, __pyx_L1_error)
   #endif
   #if PY_MAJOR_VERSION < 3
-  __pyx_ptype_25Compute_Similarity_Cython_Compute_Similarity_Cython->tp_print = 0;
+  __pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython->tp_print = 0;
   #endif
   #if !CYTHON_COMPILING_IN_LIMITED_API
-  if ((CYTHON_USE_TYPE_SLOTS && CYTHON_USE_PYTYPE_LOOKUP) && likely(!__pyx_ptype_25Compute_Similarity_Cython_Compute_Similarity_Cython->tp_dictoffset && __pyx_ptype_25Compute_Similarity_Cython_Compute_Similarity_Cython->tp_getattro == PyObject_GenericGetAttr)) {
-    __pyx_ptype_25Compute_Similarity_Cython_Compute_Similarity_Cython->tp_getattro = __Pyx_PyObject_GenericGetAttr;
+  if ((CYTHON_USE_TYPE_SLOTS && CYTHON_USE_PYTYPE_LOOKUP) && likely(!__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython->tp_dictoffset && __pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython->tp_getattro == PyObject_GenericGetAttr)) {
+    __pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython->tp_getattro = __Pyx_PyObject_GenericGetAttr;
   }
   #endif
   #if CYTHON_UPDATE_DESCRIPTOR_DOC
   {
-    PyObject *wrapper = PyObject_GetAttrString((PyObject *)__pyx_ptype_25Compute_Similarity_Cython_Compute_Similarity_Cython, "__init__"); if (unlikely(!wrapper)) __PYX_ERR(0, 52, __pyx_L1_error)
+    PyObject *wrapper = PyObject_GetAttrString((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython, "__init__"); if (unlikely(!wrapper)) __PYX_ERR(0, 50, __pyx_L1_error)
     if (__Pyx_IS_TYPE(wrapper, &PyWrapperDescr_Type)) {
-      __pyx_wrapperbase_25Compute_Similarity_Cython_25Compute_Similarity_Cython___init__ = *((PyWrapperDescrObject *)wrapper)->d_base;
-      __pyx_wrapperbase_25Compute_Similarity_Cython_25Compute_Similarity_Cython___init__.doc = __pyx_doc_25Compute_Similarity_Cython_25Compute_Similarity_Cython___init__;
-      ((PyWrapperDescrObject *)wrapper)->d_base = &__pyx_wrapperbase_25Compute_Similarity_Cython_25Compute_Similarity_Cython___init__;
+      __pyx_wrapperbase_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_25Compute_Similarity_Cython___init__ = *((PyWrapperDescrObject *)wrapper)->d_base;
+      __pyx_wrapperbase_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_25Compute_Similarity_Cython___init__.doc = __pyx_doc_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_25Compute_Similarity_Cython___init__;
+      ((PyWrapperDescrObject *)wrapper)->d_base = &__pyx_wrapperbase_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_25Compute_Similarity_Cython___init__;
     }
   }
   #endif
-  if (__Pyx_SetVtable(__pyx_ptype_25Compute_Similarity_Cython_Compute_Similarity_Cython, __pyx_vtabptr_25Compute_Similarity_Cython_Compute_Similarity_Cython) < 0) __PYX_ERR(0, 52, __pyx_L1_error)
+  if (__Pyx_SetVtable(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython, __pyx_vtabptr_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython) < 0) __PYX_ERR(0, 50, __pyx_L1_error)
   #if !CYTHON_COMPILING_IN_LIMITED_API
-  if (__Pyx_MergeVtables(__pyx_ptype_25Compute_Similarity_Cython_Compute_Similarity_Cython) < 0) __PYX_ERR(0, 52, __pyx_L1_error)
+  if (__Pyx_MergeVtables(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython) < 0) __PYX_ERR(0, 50, __pyx_L1_error)
   #endif
-  if (PyObject_SetAttr(__pyx_m, __pyx_n_s_Compute_Similarity_Cython, (PyObject *) __pyx_ptype_25Compute_Similarity_Cython_Compute_Similarity_Cython) < 0) __PYX_ERR(0, 52, __pyx_L1_error)
+  if (PyObject_SetAttr(__pyx_m, __pyx_n_s_Compute_Similarity_Cython, (PyObject *) __pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython) < 0) __PYX_ERR(0, 50, __pyx_L1_error)
   #if !CYTHON_COMPILING_IN_LIMITED_API
-  if (__Pyx_setup_reduce((PyObject *) __pyx_ptype_25Compute_Similarity_Cython_Compute_Similarity_Cython) < 0) __PYX_ERR(0, 52, __pyx_L1_error)
+  if (__Pyx_setup_reduce((PyObject *) __pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython) < 0) __PYX_ERR(0, 50, __pyx_L1_error)
   #endif
   __pyx_vtabptr_array = &__pyx_vtable_array;
   __pyx_vtable_array.get_memview = (PyObject *(*)(struct __pyx_array_obj *))__pyx_array_get_memview;
@@ -29112,7 +28306,7 @@ static int __Pyx_modinit_type_import_code(void) {
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__Pyx_modinit_type_import_code", 0);
   /*--- Type import code ---*/
-  __pyx_t_1 = PyImport_ImportModule(__Pyx_BUILTIN_MODULE_NAME); if (unlikely(!__pyx_t_1)) __PYX_ERR(4, 9, __pyx_L1_error)
+  __pyx_t_1 = PyImport_ImportModule(__Pyx_BUILTIN_MODULE_NAME); if (unlikely(!__pyx_t_1)) __PYX_ERR(3, 9, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_ptype_7cpython_4type_type = __Pyx_ImportType_3_0_11(__pyx_t_1, __Pyx_BUILTIN_MODULE_NAME, "type", 
   #if defined(PYPY_VERSION_NUM) && PYPY_VERSION_NUM < 0x050B0000
@@ -29122,29 +28316,25 @@ static int __Pyx_modinit_type_import_code(void) {
   #else
   sizeof(PyHeapTypeObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyHeapTypeObject),
   #endif
-  __Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_7cpython_4type_type) __PYX_ERR(4, 9, __pyx_L1_error)
+  __Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_7cpython_4type_type) __PYX_ERR(3, 9, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_1 = PyImport_ImportModule("numpy"); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 203, __pyx_L1_error)
+  __pyx_t_1 = PyImport_ImportModule("numpy"); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 202, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_ptype_5numpy_dtype = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "dtype", sizeof(PyArray_Descr), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyArray_Descr),__Pyx_ImportType_CheckSize_Ignore_3_0_11); if (!__pyx_ptype_5numpy_dtype) __PYX_ERR(2, 203, __pyx_L1_error)
-  __pyx_ptype_5numpy_flatiter = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "flatiter", sizeof(PyArrayIterObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyArrayIterObject),__Pyx_ImportType_CheckSize_Ignore_3_0_11); if (!__pyx_ptype_5numpy_flatiter) __PYX_ERR(2, 226, __pyx_L1_error)
-  __pyx_ptype_5numpy_broadcast = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "broadcast", sizeof(PyArrayMultiIterObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyArrayMultiIterObject),__Pyx_ImportType_CheckSize_Ignore_3_0_11); if (!__pyx_ptype_5numpy_broadcast) __PYX_ERR(2, 230, __pyx_L1_error)
-  __pyx_ptype_5numpy_ndarray = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "ndarray", sizeof(PyArrayObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyArrayObject),__Pyx_ImportType_CheckSize_Ignore_3_0_11); if (!__pyx_ptype_5numpy_ndarray) __PYX_ERR(2, 239, __pyx_L1_error)
-  __pyx_ptype_5numpy_generic = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "generic", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_generic) __PYX_ERR(2, 813, __pyx_L1_error)
-  __pyx_ptype_5numpy_number = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "number", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_number) __PYX_ERR(2, 815, __pyx_L1_error)
-  __pyx_ptype_5numpy_integer = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "integer", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_integer) __PYX_ERR(2, 817, __pyx_L1_error)
-  __pyx_ptype_5numpy_signedinteger = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "signedinteger", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_signedinteger) __PYX_ERR(2, 819, __pyx_L1_error)
-  __pyx_ptype_5numpy_unsignedinteger = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "unsignedinteger", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_unsignedinteger) __PYX_ERR(2, 821, __pyx_L1_error)
-  __pyx_ptype_5numpy_inexact = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "inexact", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_inexact) __PYX_ERR(2, 823, __pyx_L1_error)
-  __pyx_ptype_5numpy_floating = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "floating", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_floating) __PYX_ERR(2, 825, __pyx_L1_error)
-  __pyx_ptype_5numpy_complexfloating = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "complexfloating", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_complexfloating) __PYX_ERR(2, 827, __pyx_L1_error)
-  __pyx_ptype_5numpy_flexible = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "flexible", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_flexible) __PYX_ERR(2, 829, __pyx_L1_error)
-  __pyx_ptype_5numpy_character = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "character", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_character) __PYX_ERR(2, 831, __pyx_L1_error)
-  __pyx_ptype_5numpy_ufunc = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "ufunc", sizeof(PyUFuncObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyUFuncObject),__Pyx_ImportType_CheckSize_Ignore_3_0_11); if (!__pyx_ptype_5numpy_ufunc) __PYX_ERR(2, 869, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_1 = PyImport_ImportModule("array"); if (unlikely(!__pyx_t_1)) __PYX_ERR(3, 69, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_1);
-  __pyx_ptype_7cpython_5array_array = __Pyx_ImportType_3_0_11(__pyx_t_1, "array", "array", sizeof(arrayobject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(arrayobject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_7cpython_5array_array) __PYX_ERR(3, 69, __pyx_L1_error)
+  __pyx_ptype_5numpy_dtype = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "dtype", sizeof(PyArray_Descr), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyArray_Descr),__Pyx_ImportType_CheckSize_Ignore_3_0_11); if (!__pyx_ptype_5numpy_dtype) __PYX_ERR(2, 202, __pyx_L1_error)
+  __pyx_ptype_5numpy_flatiter = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "flatiter", sizeof(PyArrayIterObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyArrayIterObject),__Pyx_ImportType_CheckSize_Ignore_3_0_11); if (!__pyx_ptype_5numpy_flatiter) __PYX_ERR(2, 225, __pyx_L1_error)
+  __pyx_ptype_5numpy_broadcast = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "broadcast", sizeof(PyArrayMultiIterObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyArrayMultiIterObject),__Pyx_ImportType_CheckSize_Ignore_3_0_11); if (!__pyx_ptype_5numpy_broadcast) __PYX_ERR(2, 229, __pyx_L1_error)
+  __pyx_ptype_5numpy_ndarray = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "ndarray", sizeof(PyArrayObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyArrayObject),__Pyx_ImportType_CheckSize_Ignore_3_0_11); if (!__pyx_ptype_5numpy_ndarray) __PYX_ERR(2, 238, __pyx_L1_error)
+  __pyx_ptype_5numpy_generic = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "generic", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_generic) __PYX_ERR(2, 809, __pyx_L1_error)
+  __pyx_ptype_5numpy_number = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "number", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_number) __PYX_ERR(2, 811, __pyx_L1_error)
+  __pyx_ptype_5numpy_integer = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "integer", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_integer) __PYX_ERR(2, 813, __pyx_L1_error)
+  __pyx_ptype_5numpy_signedinteger = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "signedinteger", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_signedinteger) __PYX_ERR(2, 815, __pyx_L1_error)
+  __pyx_ptype_5numpy_unsignedinteger = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "unsignedinteger", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_unsignedinteger) __PYX_ERR(2, 817, __pyx_L1_error)
+  __pyx_ptype_5numpy_inexact = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "inexact", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_inexact) __PYX_ERR(2, 819, __pyx_L1_error)
+  __pyx_ptype_5numpy_floating = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "floating", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_floating) __PYX_ERR(2, 821, __pyx_L1_error)
+  __pyx_ptype_5numpy_complexfloating = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "complexfloating", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_complexfloating) __PYX_ERR(2, 823, __pyx_L1_error)
+  __pyx_ptype_5numpy_flexible = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "flexible", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_flexible) __PYX_ERR(2, 825, __pyx_L1_error)
+  __pyx_ptype_5numpy_character = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "character", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_character) __PYX_ERR(2, 827, __pyx_L1_error)
+  __pyx_ptype_5numpy_ufunc = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "ufunc", sizeof(PyUFuncObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyUFuncObject),__Pyx_ImportType_CheckSize_Ignore_3_0_11); if (!__pyx_ptype_5numpy_ufunc) __PYX_ERR(2, 866, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_RefNannyFinishContext();
   return 0;
@@ -29426,14 +28616,14 @@ if (!__Pyx_RefNanny) {
   #if PY_MAJOR_VERSION < 3 && (__PYX_DEFAULT_STRING_ENCODING_IS_ASCII || __PYX_DEFAULT_STRING_ENCODING_IS_DEFAULT)
   if (__Pyx_init_sys_getdefaultencoding_params() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   #endif
-  if (__pyx_module_is_main_Compute_Similarity_Cython) {
+  if (__pyx_module_is_main_RecSysCompetition2024Polimi__libs__Recommenders__Similarity__Cython__Compute_Similarity_Cython) {
     if (PyObject_SetAttr(__pyx_m, __pyx_n_s_name_2, __pyx_n_s_main) < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   }
   #if PY_MAJOR_VERSION >= 3
   {
     PyObject *modules = PyImport_GetModuleDict(); if (unlikely(!modules)) __PYX_ERR(0, 1, __pyx_L1_error)
-    if (!PyDict_GetItemString(modules, "Compute_Similarity_Cython")) {
-      if (unlikely((PyDict_SetItemString(modules, "Compute_Similarity_Cython", __pyx_m) < 0))) __PYX_ERR(0, 1, __pyx_L1_error)
+    if (!PyDict_GetItemString(modules, "RecSysCompetition2024Polimi.libs.Recommenders.Similarity.Cython.Compute_Similarity_Cython")) {
+      if (unlikely((PyDict_SetItemString(modules, "RecSysCompetition2024Polimi.libs.Recommenders.Similarity.Cython.Compute_Similarity_Cython", __pyx_m) < 0))) __PYX_ERR(0, 1, __pyx_L1_error)
     }
   }
   #endif
@@ -29967,7 +29157,7 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_pyx_unpickle_Enum, __pyx_t_7) < 0) __PYX_ERR(1, 1, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-  /* "Compute_Similarity_Cython.pyx":30
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":30
  * 
  * 
  * import time, sys             # <<<<<<<<<<<<<<
@@ -29983,7 +29173,7 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_sys, __pyx_t_7) < 0) __PYX_ERR(0, 30, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-  /* "Compute_Similarity_Cython.pyx":32
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":32
  * import time, sys
  * import cython
  * import numpy as np             # <<<<<<<<<<<<<<
@@ -29995,84 +29185,84 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_np, __pyx_t_7) < 0) __PYX_ERR(0, 32, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-  /* "Compute_Similarity_Cython.pyx":42
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":40
  * 
  * 
  * import scipy.sparse as sps             # <<<<<<<<<<<<<<
- * from Recommenders.Recommender_utils import check_matrix
- * from Utils.seconds_to_biggest_unit import seconds_to_biggest_unit
+ * from libs.Recommenders.Recommender_utils import check_matrix
+ * from libs.Utils.seconds_to_biggest_unit import seconds_to_biggest_unit
  */
-  __pyx_t_7 = __Pyx_ImportDottedModule(__pyx_n_s_scipy_sparse, __pyx_tuple__23); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 42, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_ImportDottedModule(__pyx_n_s_scipy_sparse, __pyx_tuple__23); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 40, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_sps, __pyx_t_7) < 0) __PYX_ERR(0, 42, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_sps, __pyx_t_7) < 0) __PYX_ERR(0, 40, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-  /* "Compute_Similarity_Cython.pyx":43
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":41
  * 
  * import scipy.sparse as sps
- * from Recommenders.Recommender_utils import check_matrix             # <<<<<<<<<<<<<<
- * from Utils.seconds_to_biggest_unit import seconds_to_biggest_unit
+ * from libs.Recommenders.Recommender_utils import check_matrix             # <<<<<<<<<<<<<<
+ * from libs.Utils.seconds_to_biggest_unit import seconds_to_biggest_unit
  * 
  */
-  __pyx_t_7 = PyList_New(1); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 43, __pyx_L1_error)
+  __pyx_t_7 = PyList_New(1); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 41, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
   __Pyx_INCREF(__pyx_n_s_check_matrix);
   __Pyx_GIVEREF(__pyx_n_s_check_matrix);
-  if (__Pyx_PyList_SET_ITEM(__pyx_t_7, 0, __pyx_n_s_check_matrix)) __PYX_ERR(0, 43, __pyx_L1_error);
-  __pyx_t_4 = __Pyx_Import(__pyx_n_s_Recommenders_Recommender_utils, __pyx_t_7, 0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 43, __pyx_L1_error)
+  if (__Pyx_PyList_SET_ITEM(__pyx_t_7, 0, __pyx_n_s_check_matrix)) __PYX_ERR(0, 41, __pyx_L1_error);
+  __pyx_t_4 = __Pyx_Import(__pyx_n_s_libs_Recommenders_Recommender_ut, __pyx_t_7, 0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 41, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-  __pyx_t_7 = __Pyx_ImportFrom(__pyx_t_4, __pyx_n_s_check_matrix); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 43, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_ImportFrom(__pyx_t_4, __pyx_n_s_check_matrix); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 41, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_check_matrix, __pyx_t_7) < 0) __PYX_ERR(0, 43, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_check_matrix, __pyx_t_7) < 0) __PYX_ERR(0, 41, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "Compute_Similarity_Cython.pyx":44
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":42
  * import scipy.sparse as sps
- * from Recommenders.Recommender_utils import check_matrix
- * from Utils.seconds_to_biggest_unit import seconds_to_biggest_unit             # <<<<<<<<<<<<<<
+ * from libs.Recommenders.Recommender_utils import check_matrix
+ * from libs.Utils.seconds_to_biggest_unit import seconds_to_biggest_unit             # <<<<<<<<<<<<<<
  * 
  * @cython.boundscheck(False)
  */
-  __pyx_t_4 = PyList_New(1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 44, __pyx_L1_error)
+  __pyx_t_4 = PyList_New(1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 42, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_INCREF(__pyx_n_s_seconds_to_biggest_unit);
   __Pyx_GIVEREF(__pyx_n_s_seconds_to_biggest_unit);
-  if (__Pyx_PyList_SET_ITEM(__pyx_t_4, 0, __pyx_n_s_seconds_to_biggest_unit)) __PYX_ERR(0, 44, __pyx_L1_error);
-  __pyx_t_7 = __Pyx_Import(__pyx_n_s_Utils_seconds_to_biggest_unit, __pyx_t_4, 0); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 44, __pyx_L1_error)
+  if (__Pyx_PyList_SET_ITEM(__pyx_t_4, 0, __pyx_n_s_seconds_to_biggest_unit)) __PYX_ERR(0, 42, __pyx_L1_error);
+  __pyx_t_7 = __Pyx_Import(__pyx_n_s_libs_Utils_seconds_to_biggest_un, __pyx_t_4, 0); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 42, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  __pyx_t_4 = __Pyx_ImportFrom(__pyx_t_7, __pyx_n_s_seconds_to_biggest_unit); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 44, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_ImportFrom(__pyx_t_7, __pyx_n_s_seconds_to_biggest_unit); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 42, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_seconds_to_biggest_unit, __pyx_t_4) < 0) __PYX_ERR(0, 44, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_seconds_to_biggest_unit, __pyx_t_4) < 0) __PYX_ERR(0, 42, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-  /* "Compute_Similarity_Cython.pyx":383
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":381
  * 
  * 
  *     def compute_similarity(self, start_col=None, end_col=None):             # <<<<<<<<<<<<<<
  *         """
  *         Compute the similarity for the given dataset
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_25Compute_Similarity_Cython_25Compute_Similarity_Cython_3compute_similarity, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_Compute_Similarity_Cython_comput, NULL, __pyx_n_s_Compute_Similarity_Cython, __pyx_d, ((PyObject *)__pyx_codeobj__25)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 383, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_25Compute_Similarity_Cython_3compute_similarity, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_Compute_Similarity_Cython_comput, NULL, __pyx_n_s_RecSysCompetition2024Polimi_libs, __pyx_d, ((PyObject *)__pyx_codeobj__25)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 381, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
   __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_7, __pyx_tuple__26);
-  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_25Compute_Similarity_Cython_Compute_Similarity_Cython, __pyx_n_s_compute_similarity, __pyx_t_7) < 0) __PYX_ERR(0, 383, __pyx_L1_error)
+  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython, __pyx_n_s_compute_similarity, __pyx_t_7) < 0) __PYX_ERR(0, 381, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-  PyType_Modified(__pyx_ptype_25Compute_Similarity_Cython_Compute_Similarity_Cython);
+  PyType_Modified(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython);
 
   /* "(tree fragment)":1
  * def __reduce_cython__(self):             # <<<<<<<<<<<<<<
  *     cdef tuple state
  *     cdef object _dict
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_25Compute_Similarity_Cython_25Compute_Similarity_Cython_5__reduce_cython__, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_Compute_Similarity_Cython___redu, NULL, __pyx_n_s_Compute_Similarity_Cython, __pyx_d, ((PyObject *)__pyx_codeobj__28)); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 1, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_25Compute_Similarity_Cython_5__reduce_cython__, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_Compute_Similarity_Cython___redu, NULL, __pyx_n_s_RecSysCompetition2024Polimi_libs, __pyx_d, ((PyObject *)__pyx_codeobj__28)); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 1, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
-  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_25Compute_Similarity_Cython_Compute_Similarity_Cython, __pyx_n_s_reduce_cython, __pyx_t_7) < 0) __PYX_ERR(1, 1, __pyx_L1_error)
+  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython, __pyx_n_s_reduce_cython, __pyx_t_7) < 0) __PYX_ERR(1, 1, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-  PyType_Modified(__pyx_ptype_25Compute_Similarity_Cython_Compute_Similarity_Cython);
+  PyType_Modified(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython);
 
   /* "(tree fragment)":16
  *     else:
@@ -30080,23 +29270,23 @@ if (!__Pyx_RefNanny) {
  * def __setstate_cython__(self, __pyx_state):             # <<<<<<<<<<<<<<
  *     __pyx_unpickle_Compute_Similarity_Cython__set_state(self, __pyx_state)
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_25Compute_Similarity_Cython_25Compute_Similarity_Cython_7__setstate_cython__, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_Compute_Similarity_Cython___sets, NULL, __pyx_n_s_Compute_Similarity_Cython, __pyx_d, ((PyObject *)__pyx_codeobj__30)); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 16, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_25Compute_Similarity_Cython_7__setstate_cython__, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_Compute_Similarity_Cython___sets, NULL, __pyx_n_s_RecSysCompetition2024Polimi_libs, __pyx_d, ((PyObject *)__pyx_codeobj__30)); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 16, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
-  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_25Compute_Similarity_Cython_Compute_Similarity_Cython, __pyx_n_s_setstate_cython, __pyx_t_7) < 0) __PYX_ERR(1, 16, __pyx_L1_error)
+  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython, __pyx_n_s_setstate_cython, __pyx_t_7) < 0) __PYX_ERR(1, 16, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-  PyType_Modified(__pyx_ptype_25Compute_Similarity_Cython_Compute_Similarity_Cython);
+  PyType_Modified(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_Compute_Similarity_Cython);
 
   /* "(tree fragment)":1
  * def __pyx_unpickle_Compute_Similarity_Cython(__pyx_type, long __pyx_checksum, __pyx_state):             # <<<<<<<<<<<<<<
  *     cdef object __pyx_PickleError
  *     cdef object __pyx_result
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_25Compute_Similarity_Cython_1__pyx_unpickle_Compute_Similarity_Cython, 0, __pyx_n_s_pyx_unpickle_Compute_Similarit, NULL, __pyx_n_s_Compute_Similarity_Cython, __pyx_d, ((PyObject *)__pyx_codeobj__31)); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 1, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_10Similarity_6Cython_25Compute_Similarity_Cython_1__pyx_unpickle_Compute_Similarity_Cython, 0, __pyx_n_s_pyx_unpickle_Compute_Similarit, NULL, __pyx_n_s_RecSysCompetition2024Polimi_libs, __pyx_d, ((PyObject *)__pyx_codeobj__31)); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 1, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_pyx_unpickle_Compute_Similarit, __pyx_t_7) < 0) __PYX_ERR(1, 1, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-  /* "Compute_Similarity_Cython.pyx":1
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/Similarity/Cython/Compute_Similarity_Cython.pyx":1
  * """             # <<<<<<<<<<<<<<
  * Created on 23/10/17
  * 
@@ -30115,7 +29305,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_XDECREF(__pyx_t_7);
   if (__pyx_m) {
     if (__pyx_d && stringtab_initialized) {
-      __Pyx_AddTraceback("init Compute_Similarity_Cython", __pyx_clineno, __pyx_lineno, __pyx_filename);
+      __Pyx_AddTraceback("init RecSysCompetition2024Polimi.libs.Recommenders.Similarity.Cython.Compute_Similarity_Cython", __pyx_clineno, __pyx_lineno, __pyx_filename);
     }
     #if !CYTHON_USE_MODULE_STATE
     Py_CLEAR(__pyx_m);
@@ -30129,7 +29319,7 @@ if (!__Pyx_RefNanny) {
     }
     #endif
   } else if (!PyErr_Occurred()) {
-    PyErr_SetString(PyExc_ImportError, "init Compute_Similarity_Cython");
+    PyErr_SetString(PyExc_ImportError, "init RecSysCompetition2024Polimi.libs.Recommenders.Similarity.Cython.Compute_Similarity_Cython");
   }
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();
@@ -35793,7 +34983,6 @@ bad:
 static int __Pyx_GetBuffer(PyObject *obj, Py_buffer *view, int flags) {
     __Pyx_TypeName obj_type_name;
     if (PyObject_CheckBuffer(obj)) return PyObject_GetBuffer(obj, view, flags);
-        if (__Pyx_TypeCheck(obj, __pyx_ptype_7cpython_5array_array)) return __pyx_pw_7cpython_5array_5array_1__getbuffer__(obj, view, flags);
         if (__Pyx_TypeCheck(obj, __pyx_array_type)) return __pyx_array_getbuffer(obj, view, flags);
         if (__Pyx_TypeCheck(obj, __pyx_memoryview_type)) return __pyx_memoryview_getbuffer(obj, view, flags);
     obj_type_name = __Pyx_PyType_GetName(Py_TYPE(obj));
@@ -35811,7 +35000,6 @@ static void __Pyx_ReleaseBuffer(Py_buffer *view) {
         return;
     }
     if ((0)) {}
-        else if (__Pyx_TypeCheck(obj, __pyx_ptype_7cpython_5array_array)) __pyx_pw_7cpython_5array_5array_3__releasebuffer__(obj, view);
     view->obj = NULL;
     Py_DECREF(obj);
 }

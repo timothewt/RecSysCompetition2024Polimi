@@ -305,7 +305,6 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 .cython .cs { color: #3D7B7B; font-style: italic } /* Comment.Special */
 .cython .gd { color: #A00000 } /* Generic.Deleted */
 .cython .ge { font-style: italic } /* Generic.Emph */
-.cython .ges { font-weight: bold; font-style: italic } /* Generic.EmphStrong */
 .cython .gr { color: #E40000 } /* Generic.Error */
 .cython .gh { color: #000080; font-weight: bold } /* Generic.Heading */
 .cython .gi { color: #008400 } /* Generic.Inserted */
@@ -426,7 +425,7 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 </pre><pre class="cython line score-0">&#xA0;<span class="">029</span>: </pre>
 <pre class="cython line score-0">&#xA0;<span class="">030</span>: </pre>
 <pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">031</span>: <span class="k">cdef</span> <span class="k">struct</span> <span class="nf">BPR_sample</span><span class="p">:</span></pre>
-<pre class='cython code score-0 '>struct __pyx_t_22FBSM_Rating_Cython_SGD_BPR_sample {
+<pre class='cython code score-0 '>struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_BPR_sample {
   long user;
   long pos_item;
   long neg_item;
@@ -442,9 +441,9 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 <pre class="cython line score-0">&#xA0;<span class="">038</span>: </pre>
 <pre class="cython line score-0">&#xA0;<span class="">039</span>: </pre>
 <pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">040</span>: <span class="k">cdef</span> <span class="k">class</span> <span class="nf">FBSM_Rating_Cython_SGD</span><span class="p">:</span></pre>
-<pre class='cython code score-0 '>struct __pyx_obj_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD {
+<pre class='cython code score-0 '>struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD {
   PyObject_HEAD
-  struct __pyx_vtabstruct_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *__pyx_vtab;
+  struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *__pyx_vtab;
   __Pyx_memviewslice data_list;
   __Pyx_memviewslice row_list;
   __Pyx_memviewslice col_list;
@@ -492,15 +491,15 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
   double momentum_2;
 };
 /* … */
-struct __pyx_vtabstruct_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD {
-  __Pyx_memviewslice (*get_features_vector)(struct __pyx_obj_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *, long);
-  PyObject *(*get_user_feature_count)(struct __pyx_obj_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *, long);
-  PyObject *(*get_user_feature_count_compute)(struct __pyx_obj_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *, struct __pyx_t_22FBSM_Rating_Cython_SGD_BPR_sample);
-  struct __pyx_t_22FBSM_Rating_Cython_SGD_BPR_sample (*sampleBPR_Cython)(struct __pyx_obj_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *);
-  double (*compute_adaptive_gradient_D)(struct __pyx_obj_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *, int, double);
-  double (*compute_adaptive_gradient_V)(struct __pyx_obj_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *, int, int, double);
+struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD {
+  __Pyx_memviewslice (*get_features_vector)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *, long);
+  PyObject *(*get_user_feature_count)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *, long);
+  PyObject *(*get_user_feature_count_compute)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *, struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_BPR_sample);
+  struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_BPR_sample (*sampleBPR_Cython)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *);
+  double (*compute_adaptive_gradient_D)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *, int, double);
+  double (*compute_adaptive_gradient_V)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *, int, int, double);
 };
-static struct __pyx_vtabstruct_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *__pyx_vtabptr_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD;
+static struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *__pyx_vtabptr_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD;
 
 </pre><pre class="cython line score-0">&#xA0;<span class="">041</span>: </pre>
 <pre class="cython line score-0">&#xA0;<span class="">042</span>:     <span class="k">cdef</span> <span class="kt">double</span>[<span class="p">:]</span> <span class="n">data_list</span></pre>
@@ -541,8 +540,8 @@ static struct __pyx_vtabstruct_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *
 <pre class="cython line score-0">&#xA0;<span class="">077</span>: </pre>
 <pre class="cython line score-26" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">078</span>:     <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">URM</span><span class="p">,</span> <span class="n">ICM</span><span class="p">,</span></pre>
 <pre class='cython code score-26 '>/* Python wrapper */
-static int __pyx_pw_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static int __pyx_pw_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static int __pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static int __pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_URM = 0;
   PyObject *__pyx_v_ICM = 0;
   PyObject *__pyx_v_n_factors = 0;
@@ -588,7 +587,7 @@ static int __pyx_pw_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_1__init__(
   return __pyx_r;
 }
 
-static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(struct __pyx_obj_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *__pyx_v_self, PyObject *__pyx_v_URM, PyObject *__pyx_v_ICM, PyObject *__pyx_v_n_factors, PyObject *__pyx_v_precompute_user_feature_count, PyObject *__pyx_v_learning_rate, PyObject *__pyx_v_l2_reg_D, PyObject *__pyx_v_l2_reg_V, PyObject *__pyx_v_weights_initialization_D, PyObject *__pyx_v_weights_initialization_V, PyObject *__pyx_v_positive_only_D, PyObject *__pyx_v_positive_only_V, PyObject *__pyx_v_verbose, PyObject *__pyx_v_sgd_mode, PyObject *__pyx_v_gamma, PyObject *__pyx_v_beta_1, PyObject *__pyx_v_beta_2, PyObject *__pyx_v_mean_init, PyObject *__pyx_v_std_init) {
+static int __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *__pyx_v_self, PyObject *__pyx_v_URM, PyObject *__pyx_v_ICM, PyObject *__pyx_v_n_factors, PyObject *__pyx_v_precompute_user_feature_count, PyObject *__pyx_v_learning_rate, PyObject *__pyx_v_l2_reg_D, PyObject *__pyx_v_l2_reg_V, PyObject *__pyx_v_weights_initialization_D, PyObject *__pyx_v_weights_initialization_V, PyObject *__pyx_v_positive_only_D, PyObject *__pyx_v_positive_only_V, PyObject *__pyx_v_verbose, PyObject *__pyx_v_sgd_mode, PyObject *__pyx_v_gamma, PyObject *__pyx_v_beta_1, PyObject *__pyx_v_beta_2, PyObject *__pyx_v_mean_init, PyObject *__pyx_v_std_init) {
   PyObject *__pyx_v_user_feature_count = NULL;
   int __pyx_r;
   <span class='pyx_macro_api'>__Pyx_INCREF</span>(__pyx_v_URM);
@@ -608,7 +607,7 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
   __PYX_XCLEAR_MEMVIEW(&amp;__pyx_t_14, 1);
   __PYX_XCLEAR_MEMVIEW(&amp;__pyx_t_15, 1);
   <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_t_16);
-  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("FBSM_Rating_Cython_SGD.FBSM_Rating_Cython_SGD.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.FBSM_Rating_Cython_SGD.FBSM_Rating_Cython_SGD.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = -1;
   __pyx_L0:;
   <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_v_user_feature_count);
@@ -889,11 +888,11 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
       <span class='pyx_c_api'>__Pyx_Arg_XDECREF_VARARGS</span>(values[__pyx_temp]);
     }
   }
-  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("FBSM_Rating_Cython_SGD.FBSM_Rating_Cython_SGD.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.FBSM_Rating_Cython_SGD.FBSM_Rating_Cython_SGD.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   <span class='refnanny'>__Pyx_RefNannyFinishContext</span>();
   return -1;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(((struct __pyx_obj_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *)__pyx_v_self), __pyx_v_URM, __pyx_v_ICM, __pyx_v_n_factors, __pyx_v_precompute_user_feature_count, __pyx_v_learning_rate, __pyx_v_l2_reg_D, __pyx_v_l2_reg_V, __pyx_v_weights_initialization_D, __pyx_v_weights_initialization_V, __pyx_v_positive_only_D, __pyx_v_positive_only_V, __pyx_v_verbose, __pyx_v_sgd_mode, __pyx_v_gamma, __pyx_v_beta_1, __pyx_v_beta_2, __pyx_v_mean_init, __pyx_v_std_init);
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *)__pyx_v_self), __pyx_v_URM, __pyx_v_ICM, __pyx_v_n_factors, __pyx_v_precompute_user_feature_count, __pyx_v_learning_rate, __pyx_v_l2_reg_D, __pyx_v_l2_reg_V, __pyx_v_weights_initialization_D, __pyx_v_weights_initialization_V, __pyx_v_positive_only_D, __pyx_v_positive_only_V, __pyx_v_verbose, __pyx_v_sgd_mode, __pyx_v_gamma, __pyx_v_beta_1, __pyx_v_beta_2, __pyx_v_mean_init, __pyx_v_std_init);
 </pre><pre class="cython line score-0">&#xA0;<span class="">087</span>:                  <span class="n">sgd_mode</span><span class="o">=</span><span class="s">&#39;adagrad&#39;</span><span class="p">,</span></pre>
 <pre class="cython line score-0">&#xA0;<span class="">088</span>:                  <span class="n">gamma</span> <span class="o">=</span> <span class="mf">0.995</span><span class="p">,</span> <span class="n">beta_1</span><span class="o">=</span><span class="mf">0.9</span><span class="p">,</span> <span class="n">beta_2</span><span class="o">=</span><span class="mf">0.999</span><span class="p">,</span> <span class="n">mean_init</span> <span class="o">=</span> <span class="mf">0.0</span><span class="p">,</span> <span class="n">std_init</span> <span class="o">=</span> <span class="mf">0.001</span><span class="p">):</span></pre>
 <pre class="cython line score-0">&#xA0;<span class="">089</span>: </pre>
@@ -2659,15 +2658,15 @@ static int __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD___init__(s
 <pre class="cython line score-0">&#xA0;<span class="">216</span>: </pre>
 <pre class="cython line score-44" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">217</span>:     <span class="k">def</span> <span class="nf">fit</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span></pre>
 <pre class='cython code score-44 '>/* Python wrapper */
-static PyObject *__pyx_pw_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_3fit(PyObject *__pyx_v_self, 
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_3fit(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static PyMethodDef __pyx_mdef_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_3fit = {"fit", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_3fit, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_3fit(PyObject *__pyx_v_self, 
+static PyMethodDef __pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_3fit = {"fit", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_3fit, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_3fit(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -2692,14 +2691,14 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   if (unlikely(__pyx_nargs &gt; 0)) {
     <span class='pyx_c_api'>__Pyx_RaiseArgtupleInvalid</span>("fit", 1, 0, 0, __pyx_nargs); return NULL;}
   if (unlikely(__pyx_kwds) &amp;&amp; <span class='pyx_c_api'>__Pyx_NumKwargs_FASTCALL</span>(__pyx_kwds) &amp;&amp; unlikely(!<span class='pyx_c_api'>__Pyx_CheckKeywordStrings</span>(__pyx_kwds, "fit", 0))) return NULL;
-  __pyx_r = __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit(((struct __pyx_obj_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *)__pyx_v_self));
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *)__pyx_v_self));
 
   /* function exit code */
   <span class='refnanny'>__Pyx_RefNannyFinishContext</span>();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit(struct __pyx_obj_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *__pyx_v_self) {
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *__pyx_v_self) {
   int __pyx_v_num_sample;
   CYTHON_UNUSED int __pyx_v_n_block;
   double __pyx_v_cum_loss;
@@ -2713,7 +2712,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
   int __pyx_v_feature_id;
   int __pyx_v_feature_count;
   int __pyx_v_factor_index;
-  struct __pyx_t_22FBSM_Rating_Cython_SGD_BPR_sample __pyx_v_sample;
+  struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_BPR_sample __pyx_v_sample;
   __Pyx_memviewslice __pyx_v_user_feature_count_u_full_vector = { 0, 0, { 0 }, { 0 }, { 0 } };
   __Pyx_memviewslice __pyx_v_D_update = { 0, 0, { 0 }, { 0 }, { 0 } };
   __Pyx_memviewslice __pyx_v_V_update = { 0, 0, { 0 }, { 0 }, { 0 } };
@@ -2742,7 +2741,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
   <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_t_32);
   <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_t_33);
   <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_t_34);
-  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("FBSM_Rating_Cython_SGD.FBSM_Rating_Cython_SGD.fit", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.FBSM_Rating_Cython_SGD.FBSM_Rating_Cython_SGD.fit", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __PYX_XCLEAR_MEMVIEW(&amp;__pyx_v_feature_i, 1);
@@ -2766,11 +2765,11 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
   <span class='refnanny'>__Pyx_GOTREF</span>(__pyx_tuple__24);
   <span class='refnanny'>__Pyx_GIVEREF</span>(__pyx_tuple__24);
 /* … */
-  __pyx_t_4 = <span class='pyx_c_api'>__Pyx_CyFunction_New</span>(&amp;__pyx_mdef_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_3fit, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_FBSM_Rating_Cython_SGD_fit, NULL, __pyx_n_s_FBSM_Rating_Cython_SGD, __pyx_d, ((PyObject *)__pyx_codeobj__25));<span class='error_goto'> if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 217, __pyx_L1_error)</span>
+  __pyx_t_4 = <span class='pyx_c_api'>__Pyx_CyFunction_New</span>(&amp;__pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_3fit, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_FBSM_Rating_Cython_SGD_fit, NULL, __pyx_n_s_RecSysCompetition2024Polimi_libs, __pyx_d, ((PyObject *)__pyx_codeobj__25));<span class='error_goto'> if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 217, __pyx_L1_error)</span>
   <span class='refnanny'>__Pyx_GOTREF</span>(__pyx_t_4);
-  if (<span class='pyx_c_api'>__Pyx_SetItemOnTypeDict</span>((PyObject *)__pyx_ptype_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD, __pyx_n_s_fit, __pyx_t_4) &lt; 0) <span class='error_goto'>__PYX_ERR(0, 217, __pyx_L1_error)</span>
+  if (<span class='pyx_c_api'>__Pyx_SetItemOnTypeDict</span>((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD, __pyx_n_s_fit, __pyx_t_4) &lt; 0) <span class='error_goto'>__PYX_ERR(0, 217, __pyx_L1_error)</span>
   <span class='pyx_macro_api'>__Pyx_DECREF</span>(__pyx_t_4); __pyx_t_4 = 0;
-  <span class='py_c_api'>PyType_Modified</span>(__pyx_ptype_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD);
+  <span class='py_c_api'>PyType_Modified</span>(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD);
   __pyx_codeobj__25 = (PyObject*)<span class='pyx_c_api'>__Pyx_PyCode_New</span>(1, 0, 0, 28, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__24, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_FBSM_Rating_Cython_SGD_pyx, __pyx_n_s_fit, 217, __pyx_empty_bytes);<span class='error_goto'> if (unlikely(!__pyx_codeobj__25)) __PYX_ERR(0, 217, __pyx_L1_error)</span>
 </pre><pre class="cython line score-0">&#xA0;<span class="">218</span>: </pre>
 <pre class="cython line score-0">&#xA0;<span class="">219</span>: </pre>
@@ -3129,19 +3128,19 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
     __pyx_v_num_sample = __pyx_t_12;
 </pre><pre class="cython line score-0">&#xA0;<span class="">249</span>: </pre>
 <pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">250</span>:             <span class="n">sample</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">sampleBPR_Cython</span><span class="p">()</span></pre>
-<pre class='cython code score-0 '>    __pyx_t_13 = ((struct __pyx_vtabstruct_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *)__pyx_v_self-&gt;__pyx_vtab)-&gt;sampleBPR_Cython(__pyx_v_self);<span class='error_goto'> if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 250, __pyx_L1_error)</span>
+<pre class='cython code score-0 '>    __pyx_t_13 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *)__pyx_v_self-&gt;__pyx_vtab)-&gt;sampleBPR_Cython(__pyx_v_self);<span class='error_goto'> if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 250, __pyx_L1_error)</span>
     __pyx_v_sample = __pyx_t_13;
 </pre><pre class="cython line score-0">&#xA0;<span class="">251</span>: </pre>
 <pre class="cython line score-0">&#xA0;<span class="">252</span>:             <span class="c">#Get features of items i and j and items clicked by user u</span></pre>
 <pre class="cython line score-0">&#xA0;<span class="">253</span>:             <span class="c"># ALL of the following are (1,#features)</span></pre>
 <pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">254</span>:             <span class="n">feature_i</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">get_features_vector</span><span class="p">(</span><span class="n">sample</span><span class="o">.</span><span class="n">pos_item</span><span class="p">)</span></pre>
-<pre class='cython code score-0 '>    __pyx_t_6 = ((struct __pyx_vtabstruct_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *)__pyx_v_self-&gt;__pyx_vtab)-&gt;get_features_vector(__pyx_v_self, __pyx_v_sample.pos_item);<span class='error_goto'> if (unlikely(!__pyx_t_6.memview)) __PYX_ERR(0, 254, __pyx_L1_error)</span>
+<pre class='cython code score-0 '>    __pyx_t_6 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *)__pyx_v_self-&gt;__pyx_vtab)-&gt;get_features_vector(__pyx_v_self, __pyx_v_sample.pos_item);<span class='error_goto'> if (unlikely(!__pyx_t_6.memview)) __PYX_ERR(0, 254, __pyx_L1_error)</span>
     __PYX_XCLEAR_MEMVIEW(&amp;__pyx_v_feature_i, 1);
     __pyx_v_feature_i = __pyx_t_6;
     __pyx_t_6.memview = NULL;
     __pyx_t_6.data = NULL;
 </pre><pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">255</span>:             <span class="n">feature_j</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">get_features_vector</span><span class="p">(</span><span class="n">sample</span><span class="o">.</span><span class="n">neg_item</span><span class="p">)</span></pre>
-<pre class='cython code score-0 '>    __pyx_t_6 = ((struct __pyx_vtabstruct_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *)__pyx_v_self-&gt;__pyx_vtab)-&gt;get_features_vector(__pyx_v_self, __pyx_v_sample.neg_item);<span class='error_goto'> if (unlikely(!__pyx_t_6.memview)) __PYX_ERR(0, 255, __pyx_L1_error)</span>
+<pre class='cython code score-0 '>    __pyx_t_6 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *)__pyx_v_self-&gt;__pyx_vtab)-&gt;get_features_vector(__pyx_v_self, __pyx_v_sample.neg_item);<span class='error_goto'> if (unlikely(!__pyx_t_6.memview)) __PYX_ERR(0, 255, __pyx_L1_error)</span>
     __PYX_XCLEAR_MEMVIEW(&amp;__pyx_v_feature_j, 1);
     __pyx_v_feature_j = __pyx_t_6;
     __pyx_t_6.memview = NULL;
@@ -3154,13 +3153,13 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
       goto __pyx_L5;
     }
 </pre><pre class="cython line score-1" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">258</span>:                 <span class="bp">self</span><span class="o">.</span><span class="n">get_user_feature_count</span><span class="p">(</span><span class="n">sample</span><span class="o">.</span><span class="n">user</span><span class="p">)</span></pre>
-<pre class='cython code score-1 '>      __pyx_t_5 = ((struct __pyx_vtabstruct_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *)__pyx_v_self-&gt;__pyx_vtab)-&gt;get_user_feature_count(__pyx_v_self, __pyx_v_sample.user);<span class='error_goto'> if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 258, __pyx_L1_error)</span>
+<pre class='cython code score-1 '>      __pyx_t_5 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *)__pyx_v_self-&gt;__pyx_vtab)-&gt;get_user_feature_count(__pyx_v_self, __pyx_v_sample.user);<span class='error_goto'> if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 258, __pyx_L1_error)</span>
       <span class='refnanny'>__Pyx_GOTREF</span>(__pyx_t_5);
       <span class='pyx_macro_api'>__Pyx_DECREF</span>(__pyx_t_5); __pyx_t_5 = 0;
 </pre><pre class="cython line score-0">&#xA0;<span class="">259</span>:             <span class="k">else</span><span class="p">:</span></pre>
 <pre class="cython line score-1" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">260</span>:                 <span class="bp">self</span><span class="o">.</span><span class="n">get_user_feature_count_compute</span><span class="p">(</span><span class="n">sample</span><span class="p">)</span></pre>
 <pre class='cython code score-1 '>    /*else*/ {
-      __pyx_t_5 = ((struct __pyx_vtabstruct_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *)__pyx_v_self-&gt;__pyx_vtab)-&gt;get_user_feature_count_compute(__pyx_v_self, __pyx_v_sample);<span class='error_goto'> if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 260, __pyx_L1_error)</span>
+      __pyx_t_5 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *)__pyx_v_self-&gt;__pyx_vtab)-&gt;get_user_feature_count_compute(__pyx_v_self, __pyx_v_sample);<span class='error_goto'> if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 260, __pyx_L1_error)</span>
       <span class='refnanny'>__Pyx_GOTREF</span>(__pyx_t_5);
       <span class='pyx_macro_api'>__Pyx_DECREF</span>(__pyx_t_5); __pyx_t_5 = 0;
     }
@@ -4141,7 +4140,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
         __pyx_v_loss_deriv = (__pyx_v_sigma_deriv * (*((double *) ( /* dim=0 */ (__pyx_v_D_update.data + __pyx_t_18 * __pyx_v_D_update.strides[0]) ))));
 </pre><pre class="cython line score-0">&#xA0;<span class="">439</span>: </pre>
 <pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">440</span>:                     <span class="n">adaptive_gradient</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">compute_adaptive_gradient_D</span><span class="p">(</span><span class="n">feature_id</span><span class="p">,</span> <span class="n">loss_deriv</span><span class="p">)</span></pre>
-<pre class='cython code score-0 '>        __pyx_t_27 = ((struct __pyx_vtabstruct_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *)__pyx_v_self-&gt;__pyx_vtab)-&gt;compute_adaptive_gradient_D(__pyx_v_self, __pyx_v_feature_id, __pyx_v_loss_deriv);<span class='error_goto'> if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 440, __pyx_L1_error)</span>
+<pre class='cython code score-0 '>        __pyx_t_27 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *)__pyx_v_self-&gt;__pyx_vtab)-&gt;compute_adaptive_gradient_D(__pyx_v_self, __pyx_v_feature_id, __pyx_v_loss_deriv);<span class='error_goto'> if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 440, __pyx_L1_error)</span>
         __pyx_v_adaptive_gradient = __pyx_t_27;
 </pre><pre class="cython line score-0">&#xA0;<span class="">441</span>: </pre>
 <pre class="cython line score-14" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">442</span>:                     <span class="bp">self</span><span class="o">.</span><span class="n">D</span><span class="p">[</span><span class="n">feature_id</span><span class="p">]</span> <span class="o">+=</span> <span class="bp">self</span><span class="o">.</span><span class="n">learning_rate</span> <span class="o">*</span> <span class="p">(</span><span class="n">adaptive_gradient</span> <span class="o">-</span> <span class="mf">2</span> <span class="o">*</span> <span class="bp">self</span><span class="o">.</span><span class="n">l2_reg_D</span> <span class="o">*</span> <span class="bp">self</span><span class="o">.</span><span class="n">D</span><span class="p">[</span><span class="n">feature_id</span><span class="p">])</span></pre>
@@ -4656,7 +4655,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
           }
           __pyx_v_loss_deriv = (__pyx_v_sigma_deriv * (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_V_update.data + __pyx_t_18 * __pyx_v_V_update.strides[0]) ) + __pyx_t_20 * __pyx_v_V_update.strides[1]) ))));
 </pre><pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">525</span>:                         <span class="n">adaptive_gradient</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">compute_adaptive_gradient_V</span><span class="p">(</span><span class="n">factor_index</span><span class="p">,</span> <span class="n">feature_id</span><span class="p">,</span> <span class="n">loss_deriv</span><span class="p">)</span></pre>
-<pre class='cython code score-0 '>          __pyx_t_27 = ((struct __pyx_vtabstruct_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *)__pyx_v_self-&gt;__pyx_vtab)-&gt;compute_adaptive_gradient_V(__pyx_v_self, __pyx_v_factor_index, __pyx_v_feature_id, __pyx_v_loss_deriv);<span class='error_goto'> if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 525, __pyx_L1_error)</span>
+<pre class='cython code score-0 '>          __pyx_t_27 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *)__pyx_v_self-&gt;__pyx_vtab)-&gt;compute_adaptive_gradient_V(__pyx_v_self, __pyx_v_factor_index, __pyx_v_feature_id, __pyx_v_loss_deriv);<span class='error_goto'> if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 525, __pyx_L1_error)</span>
           __pyx_v_adaptive_gradient = __pyx_t_27;
 </pre><pre class="cython line score-0">&#xA0;<span class="">526</span>: </pre>
 <pre class="cython line score-0">&#xA0;<span class="">527</span>: </pre>
@@ -4971,15 +4970,15 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_2fit
 <pre class="cython line score-0">&#xA0;<span class="">556</span>: </pre>
 <pre class="cython line score-37" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">557</span>:     <span class="k">def</span> <span class="nf">get_D</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span></pre>
 <pre class='cython code score-37 '>/* Python wrapper */
-static PyObject *__pyx_pw_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_5get_D(PyObject *__pyx_v_self, 
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_5get_D(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static PyMethodDef __pyx_mdef_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_5get_D = {"get_D", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_5get_D, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_5get_D(PyObject *__pyx_v_self, 
+static PyMethodDef __pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_5get_D = {"get_D", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_5get_D, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_5get_D(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -5004,14 +5003,14 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   if (unlikely(__pyx_nargs &gt; 0)) {
     <span class='pyx_c_api'>__Pyx_RaiseArgtupleInvalid</span>("get_D", 1, 0, 0, __pyx_nargs); return NULL;}
   if (unlikely(__pyx_kwds) &amp;&amp; <span class='pyx_c_api'>__Pyx_NumKwargs_FASTCALL</span>(__pyx_kwds) &amp;&amp; unlikely(!<span class='pyx_c_api'>__Pyx_CheckKeywordStrings</span>(__pyx_kwds, "get_D", 0))) return NULL;
-  __pyx_r = __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_4get_D(((struct __pyx_obj_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *)__pyx_v_self));
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_4get_D(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *)__pyx_v_self));
 
   /* function exit code */
   <span class='refnanny'>__Pyx_RefNannyFinishContext</span>();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_4get_D(struct __pyx_obj_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *__pyx_v_self) {
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_4get_D(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *__pyx_v_self) {
   PyObject *__pyx_r = NULL;
 /* … */
   /* function exit code */
@@ -5020,7 +5019,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_4get
   <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_t_2);
   <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_t_3);
   <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_t_4);
-  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("FBSM_Rating_Cython_SGD.FBSM_Rating_Cython_SGD.get_D", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.FBSM_Rating_Cython_SGD.FBSM_Rating_Cython_SGD.get_D", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   <span class='refnanny'>__Pyx_XGIVEREF</span>(__pyx_r);
@@ -5032,11 +5031,11 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_4get
   <span class='refnanny'>__Pyx_GOTREF</span>(__pyx_tuple__26);
   <span class='refnanny'>__Pyx_GIVEREF</span>(__pyx_tuple__26);
 /* … */
-  __pyx_t_4 = <span class='pyx_c_api'>__Pyx_CyFunction_New</span>(&amp;__pyx_mdef_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_5get_D, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_FBSM_Rating_Cython_SGD_get_D, NULL, __pyx_n_s_FBSM_Rating_Cython_SGD, __pyx_d, ((PyObject *)__pyx_codeobj__27));<span class='error_goto'> if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 557, __pyx_L1_error)</span>
+  __pyx_t_4 = <span class='pyx_c_api'>__Pyx_CyFunction_New</span>(&amp;__pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_5get_D, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_FBSM_Rating_Cython_SGD_get_D, NULL, __pyx_n_s_RecSysCompetition2024Polimi_libs, __pyx_d, ((PyObject *)__pyx_codeobj__27));<span class='error_goto'> if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 557, __pyx_L1_error)</span>
   <span class='refnanny'>__Pyx_GOTREF</span>(__pyx_t_4);
-  if (<span class='pyx_c_api'>__Pyx_SetItemOnTypeDict</span>((PyObject *)__pyx_ptype_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD, __pyx_n_s_get_D, __pyx_t_4) &lt; 0) <span class='error_goto'>__PYX_ERR(0, 557, __pyx_L1_error)</span>
+  if (<span class='pyx_c_api'>__Pyx_SetItemOnTypeDict</span>((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD, __pyx_n_s_get_D, __pyx_t_4) &lt; 0) <span class='error_goto'>__PYX_ERR(0, 557, __pyx_L1_error)</span>
   <span class='pyx_macro_api'>__Pyx_DECREF</span>(__pyx_t_4); __pyx_t_4 = 0;
-  <span class='py_c_api'>PyType_Modified</span>(__pyx_ptype_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD);
+  <span class='py_c_api'>PyType_Modified</span>(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD);
   __pyx_codeobj__27 = (PyObject*)<span class='pyx_c_api'>__Pyx_PyCode_New</span>(1, 0, 0, 1, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__26, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_FBSM_Rating_Cython_SGD_pyx, __pyx_n_s_get_D, 557, __pyx_empty_bytes);<span class='error_goto'> if (unlikely(!__pyx_codeobj__27)) __PYX_ERR(0, 557, __pyx_L1_error)</span>
 </pre><pre class="cython line score-26" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">558</span>:         <span class="k">return</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">D</span><span class="p">)</span></pre>
 <pre class='cython code score-26 '>  <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_r);
@@ -5077,15 +5076,15 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_4get
 </pre><pre class="cython line score-0">&#xA0;<span class="">559</span>: </pre>
 <pre class="cython line score-32" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">560</span>:     <span class="k">def</span> <span class="nf">get_V</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span></pre>
 <pre class='cython code score-32 '>/* Python wrapper */
-static PyObject *__pyx_pw_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_7get_V(PyObject *__pyx_v_self, 
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_7get_V(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static PyMethodDef __pyx_mdef_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_7get_V = {"get_V", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_7get_V, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_7get_V(PyObject *__pyx_v_self, 
+static PyMethodDef __pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_7get_V = {"get_V", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_7get_V, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_7get_V(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -5110,14 +5109,14 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   if (unlikely(__pyx_nargs &gt; 0)) {
     <span class='pyx_c_api'>__Pyx_RaiseArgtupleInvalid</span>("get_V", 1, 0, 0, __pyx_nargs); return NULL;}
   if (unlikely(__pyx_kwds) &amp;&amp; <span class='pyx_c_api'>__Pyx_NumKwargs_FASTCALL</span>(__pyx_kwds) &amp;&amp; unlikely(!<span class='pyx_c_api'>__Pyx_CheckKeywordStrings</span>(__pyx_kwds, "get_V", 0))) return NULL;
-  __pyx_r = __pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_6get_V(((struct __pyx_obj_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *)__pyx_v_self));
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_6get_V(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *)__pyx_v_self));
 
   /* function exit code */
   <span class='refnanny'>__Pyx_RefNannyFinishContext</span>();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_6get_V(struct __pyx_obj_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *__pyx_v_self) {
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_6get_V(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *__pyx_v_self) {
   PyObject *__pyx_r = NULL;
 /* … */
   /* function exit code */
@@ -5126,7 +5125,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_6get
   <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_t_2);
   <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_t_3);
   <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_t_4);
-  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("FBSM_Rating_Cython_SGD.FBSM_Rating_Cython_SGD.get_V", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.FBSM_Rating_Cython_SGD.FBSM_Rating_Cython_SGD.get_V", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   <span class='refnanny'>__Pyx_XGIVEREF</span>(__pyx_r);
@@ -5134,11 +5133,11 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_6get
   return __pyx_r;
 }
 /* … */
-  __pyx_t_4 = <span class='pyx_c_api'>__Pyx_CyFunction_New</span>(&amp;__pyx_mdef_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_7get_V, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_FBSM_Rating_Cython_SGD_get_V, NULL, __pyx_n_s_FBSM_Rating_Cython_SGD, __pyx_d, ((PyObject *)__pyx_codeobj__28));<span class='error_goto'> if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 560, __pyx_L1_error)</span>
+  __pyx_t_4 = <span class='pyx_c_api'>__Pyx_CyFunction_New</span>(&amp;__pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_7get_V, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_FBSM_Rating_Cython_SGD_get_V, NULL, __pyx_n_s_RecSysCompetition2024Polimi_libs, __pyx_d, ((PyObject *)__pyx_codeobj__28));<span class='error_goto'> if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 560, __pyx_L1_error)</span>
   <span class='refnanny'>__Pyx_GOTREF</span>(__pyx_t_4);
-  if (<span class='pyx_c_api'>__Pyx_SetItemOnTypeDict</span>((PyObject *)__pyx_ptype_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD, __pyx_n_s_get_V, __pyx_t_4) &lt; 0) <span class='error_goto'>__PYX_ERR(0, 560, __pyx_L1_error)</span>
+  if (<span class='pyx_c_api'>__Pyx_SetItemOnTypeDict</span>((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD, __pyx_n_s_get_V, __pyx_t_4) &lt; 0) <span class='error_goto'>__PYX_ERR(0, 560, __pyx_L1_error)</span>
   <span class='pyx_macro_api'>__Pyx_DECREF</span>(__pyx_t_4); __pyx_t_4 = 0;
-  <span class='py_c_api'>PyType_Modified</span>(__pyx_ptype_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD);
+  <span class='py_c_api'>PyType_Modified</span>(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD);
 /* … */
   __pyx_codeobj__28 = (PyObject*)<span class='pyx_c_api'>__Pyx_PyCode_New</span>(1, 0, 0, 1, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__26, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_FBSM_Rating_Cython_SGD_pyx, __pyx_n_s_get_V, 560, __pyx_empty_bytes);<span class='error_goto'> if (unlikely(!__pyx_codeobj__28)) __PYX_ERR(0, 560, __pyx_L1_error)</span>
 </pre><pre class="cython line score-26" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">561</span>:         <span class="k">return</span>  <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">V</span><span class="p">)</span></pre>
@@ -5182,7 +5181,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_6get
 <pre class="cython line score-0">&#xA0;<span class="">564</span>: </pre>
 <pre class="cython line score-0">&#xA0;<span class="">565</span>:     <span class="c"># Using memoryview instead of the sparse matrix itself allows for much faster access</span></pre>
 <pre class="cython line score-7" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">566</span>:     <span class="k">cdef</span> <span class="kt">int</span>[<span class="p">:]</span> <span class="n">get_features_vector</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="nb">long</span> <span class="n">item_id</span><span class="p">):</span></pre>
-<pre class='cython code score-7 '>static __Pyx_memviewslice __pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_get_features_vector(struct __pyx_obj_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *__pyx_v_self, long __pyx_v_item_id) {
+<pre class='cython code score-7 '>static __Pyx_memviewslice __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_get_features_vector(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *__pyx_v_self, long __pyx_v_item_id) {
   __Pyx_memviewslice __pyx_r = { 0, 0, { 0 }, { 0 }, { 0 } };
 /* … */
   /* function exit code */
@@ -5190,7 +5189,7 @@ static PyObject *__pyx_pf_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_6get
   __PYX_XCLEAR_MEMVIEW(&amp;__pyx_t_4, 1);
   __pyx_r.data = NULL;
   __pyx_r.memview = NULL;
-  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("FBSM_Rating_Cython_SGD.FBSM_Rating_Cython_SGD.get_features_vector", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.FBSM_Rating_Cython_SGD.FBSM_Rating_Cython_SGD.get_features_vector", __pyx_clineno, __pyx_lineno, __pyx_filename);
   goto __pyx_L2;
   __pyx_L0:;
   if (unlikely(!__pyx_r.memview)) {
@@ -5252,7 +5251,7 @@ __pyx_r = __pyx_t_4;
 <pre class="cython line score-0">&#xA0;<span class="">569</span>: </pre>
 <pre class="cython line score-0">&#xA0;<span class="">570</span>: </pre>
 <pre class="cython line score-3" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">571</span>:     <span class="k">cdef</span> <span class="nf">get_user_feature_count</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="nb">long</span> <span class="n">user_id</span><span class="p">):</span></pre>
-<pre class='cython code score-3 '>static PyObject *__pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_get_user_feature_count(struct __pyx_obj_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *__pyx_v_self, long __pyx_v_user_id) {
+<pre class='cython code score-3 '>static PyObject *__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_get_user_feature_count(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *__pyx_v_self, long __pyx_v_user_id) {
   int __pyx_v_start_pos;
   int __pyx_v_end_pos;
   int __pyx_v_feature_index;
@@ -5262,7 +5261,7 @@ __pyx_r = __pyx_t_4;
   __pyx_r = Py_None; <span class='pyx_macro_api'>__Pyx_INCREF</span>(Py_None);
   goto __pyx_L0;
   __pyx_L1_error:;
-  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("FBSM_Rating_Cython_SGD.FBSM_Rating_Cython_SGD.get_user_feature_count", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.FBSM_Rating_Cython_SGD.FBSM_Rating_Cython_SGD.get_user_feature_count", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = 0;
   __pyx_L0:;
   <span class='refnanny'>__Pyx_XGIVEREF</span>(__pyx_r);
@@ -5367,7 +5366,7 @@ __pyx_r = __pyx_t_4;
 <pre class="cython line score-0">&#xA0;<span class="">589</span>: </pre>
 <pre class="cython line score-0">&#xA0;<span class="">590</span>: </pre>
 <pre class="cython line score-3" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">591</span>:     <span class="k">cdef</span> <span class="nf">get_user_feature_count_compute</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">BPR_sample</span> <span class="n">sample</span><span class="p">):</span></pre>
-<pre class='cython code score-3 '>static PyObject *__pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_get_user_feature_count_compute(struct __pyx_obj_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *__pyx_v_self, struct __pyx_t_22FBSM_Rating_Cython_SGD_BPR_sample __pyx_v_sample) {
+<pre class='cython code score-3 '>static PyObject *__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_get_user_feature_count_compute(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *__pyx_v_self, struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_BPR_sample __pyx_v_sample) {
   int __pyx_v_item_index;
   int __pyx_v_item_id;
   int __pyx_v_feature_index;
@@ -5378,7 +5377,7 @@ __pyx_r = __pyx_t_4;
   __pyx_r = Py_None; <span class='pyx_macro_api'>__Pyx_INCREF</span>(Py_None);
   goto __pyx_L0;
   __pyx_L1_error:;
-  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("FBSM_Rating_Cython_SGD.FBSM_Rating_Cython_SGD.get_user_feature_count_compute", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.FBSM_Rating_Cython_SGD.FBSM_Rating_Cython_SGD.get_user_feature_count_compute", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = 0;
   __pyx_L0:;
   <span class='refnanny'>__Pyx_XGIVEREF</span>(__pyx_r);
@@ -5630,16 +5629,16 @@ __pyx_r = __pyx_t_4;
 <pre class="cython line score-0">&#xA0;<span class="">641</span>: </pre>
 <pre class="cython line score-0">&#xA0;<span class="">642</span>: </pre>
 <pre class="cython line score-2" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">643</span>:     <span class="k">cdef</span> <span class="kt">BPR_sample</span> <span class="nf">sampleBPR_Cython</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span></pre>
-<pre class='cython code score-2 '>static struct __pyx_t_22FBSM_Rating_Cython_SGD_BPR_sample __pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_sampleBPR_Cython(struct __pyx_obj_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *__pyx_v_self) {
-  struct __pyx_t_22FBSM_Rating_Cython_SGD_BPR_sample __pyx_v_sample;
+<pre class='cython code score-2 '>static struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_BPR_sample __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_sampleBPR_Cython(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *__pyx_v_self) {
+  struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_BPR_sample __pyx_v_sample;
   long __pyx_v_index;
   int __pyx_v_negItemSelected;
   int __pyx_v_numSeenItems;
-  struct __pyx_t_22FBSM_Rating_Cython_SGD_BPR_sample __pyx_r;
+  struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_BPR_sample __pyx_r;
 /* … */
   /* function exit code */
   __pyx_L1_error:;
-  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("FBSM_Rating_Cython_SGD.FBSM_Rating_Cython_SGD.sampleBPR_Cython", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.FBSM_Rating_Cython_SGD.FBSM_Rating_Cython_SGD.sampleBPR_Cython", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_pretend_to_initialize(&amp;__pyx_r);
   __pyx_L0:;
   return __pyx_r;
@@ -5802,13 +5801,13 @@ __pyx_r = __pyx_t_4;
 <pre class="cython line score-0">&#xA0;<span class="">688</span>: </pre>
 <pre class="cython line score-0">&#xA0;<span class="">689</span>: </pre>
 <pre class="cython line score-2" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">690</span>:     <span class="k">cdef</span> <span class="kt">double</span> <span class="nf">compute_adaptive_gradient_D</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="nb">int</span> <span class="n">feature_id</span><span class="p">,</span> <span class="n">double</span> <span class="n">gradient</span><span class="p">):</span></pre>
-<pre class='cython code score-2 '>static double __pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_compute_adaptive_gradient_D(struct __pyx_obj_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *__pyx_v_self, int __pyx_v_feature_id, double __pyx_v_gradient) {
+<pre class='cython code score-2 '>static double __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_compute_adaptive_gradient_D(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *__pyx_v_self, int __pyx_v_feature_id, double __pyx_v_gradient) {
   double __pyx_v_adaptive_gradient;
   double __pyx_r;
 /* … */
   /* function exit code */
   __pyx_L1_error:;
-  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("FBSM_Rating_Cython_SGD.FBSM_Rating_Cython_SGD.compute_adaptive_gradient_D", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.FBSM_Rating_Cython_SGD.FBSM_Rating_Cython_SGD.compute_adaptive_gradient_D", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = 0;
   __pyx_L0:;
   return __pyx_r;
@@ -6029,13 +6028,13 @@ __pyx_r = __pyx_t_4;
 <pre class="cython line score-0">&#xA0;<span class="">726</span>: </pre>
 <pre class="cython line score-0">&#xA0;<span class="">727</span>: </pre>
 <pre class="cython line score-2" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">728</span>:     <span class="k">cdef</span> <span class="kt">double</span> <span class="nf">compute_adaptive_gradient_V</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="nb">int</span> <span class="n">factor_index</span><span class="p">,</span> <span class="nb">int</span> <span class="n">feature_id</span><span class="p">,</span> <span class="n">double</span> <span class="n">gradient</span><span class="p">):</span></pre>
-<pre class='cython code score-2 '>static double __pyx_f_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_compute_adaptive_gradient_V(struct __pyx_obj_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *__pyx_v_self, int __pyx_v_factor_index, int __pyx_v_feature_id, double __pyx_v_gradient) {
+<pre class='cython code score-2 '>static double __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_22FBSM_Rating_Cython_SGD_compute_adaptive_gradient_V(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_22FBSM_Rating_Cython_SGD_FBSM_Rating_Cython_SGD *__pyx_v_self, int __pyx_v_factor_index, int __pyx_v_feature_id, double __pyx_v_gradient) {
   double __pyx_v_adaptive_gradient;
   double __pyx_r;
 /* … */
   /* function exit code */
   __pyx_L1_error:;
-  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("FBSM_Rating_Cython_SGD.FBSM_Rating_Cython_SGD.compute_adaptive_gradient_V", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.FBSM_Rating_Cython_SGD.FBSM_Rating_Cython_SGD.compute_adaptive_gradient_V", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = 0;
   __pyx_L0:;
   return __pyx_r;

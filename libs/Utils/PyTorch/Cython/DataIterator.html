@@ -305,7 +305,6 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 .cython .cs { color: #3D7B7B; font-style: italic } /* Comment.Special */
 .cython .gd { color: #A00000 } /* Generic.Deleted */
 .cython .ge { font-style: italic } /* Generic.Emph */
-.cython .ges { font-weight: bold; font-style: italic } /* Generic.EmphStrong */
 .cython .gr { color: #E40000 } /* Generic.Error */
 .cython .gh { color: #000080; font-weight: bold } /* Generic.Heading */
 .cython .gi { color: #008400 } /* Generic.Inserted */
@@ -500,7 +499,7 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 <pre class="cython line score-0">&#xA0;<span class="">104</span>: <span class="nd">@cython</span><span class="o">.</span><span class="n">cdivision</span><span class="p">(</span><span class="bp">True</span><span class="p">)</span></pre>
 <pre class="cython line score-0">&#xA0;<span class="">105</span>: <span class="nd">@cython</span><span class="o">.</span><span class="n">overflowcheck</span><span class="p">(</span><span class="bp">False</span><span class="p">)</span></pre>
 <pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">106</span>: <span class="k">cdef</span> <span class="k">class</span> <span class="nf">InteractionIterator</span><span class="p">:</span></pre>
-<pre class='cython code score-0 '>struct __pyx_obj_12DataIterator_InteractionIterator {
+<pre class='cython code score-0 '>struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_InteractionIterator {
   PyObject_HEAD
   int n_users;
   int n_items;
@@ -537,8 +536,8 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 <pre class="cython line score-0">&#xA0;<span class="">122</span>: </pre>
 <pre class="cython line score-87" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">123</span>:     <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">URM_train</span><span class="p">,</span> <span class="n">positive_quota</span><span class="p">,</span> <span class="n">batch_size</span> <span class="o">=</span> <span class="mf">1</span><span class="p">,</span> <span class="n">set_n_samples_to_draw</span> <span class="o">=</span> <span class="bp">None</span><span class="p">):</span></pre>
 <pre class='cython code score-87 '>/* Python wrapper */
-static int __pyx_pw_12DataIterator_19InteractionIterator_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static int __pyx_pw_12DataIterator_19InteractionIterator_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static int __pyx_pw_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_19InteractionIterator_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static int __pyx_pw_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_19InteractionIterator_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_URM_train = 0;
   PyObject *__pyx_v_positive_quota = 0;
   PyObject *__pyx_v_batch_size = 0;
@@ -640,11 +639,11 @@ static int __pyx_pw_12DataIterator_19InteractionIterator_1__init__(PyObject *__p
       <span class='pyx_c_api'>__Pyx_Arg_XDECREF_VARARGS</span>(values[__pyx_temp]);
     }
   }
-  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("DataIterator.InteractionIterator.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("RecSysCompetition2024Polimi.libs.Utils.PyTorch.Cython.DataIterator.InteractionIterator.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   <span class='refnanny'>__Pyx_RefNannyFinishContext</span>();
   return -1;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_12DataIterator_19InteractionIterator___init__(((struct __pyx_obj_12DataIterator_InteractionIterator *)__pyx_v_self), __pyx_v_URM_train, __pyx_v_positive_quota, __pyx_v_batch_size, __pyx_v_set_n_samples_to_draw);
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_19InteractionIterator___init__(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_InteractionIterator *)__pyx_v_self), __pyx_v_URM_train, __pyx_v_positive_quota, __pyx_v_batch_size, __pyx_v_set_n_samples_to_draw);
 
   /* function exit code */
   {
@@ -657,7 +656,7 @@ static int __pyx_pw_12DataIterator_19InteractionIterator_1__init__(PyObject *__p
   return __pyx_r;
 }
 
-static int __pyx_pf_12DataIterator_19InteractionIterator___init__(struct __pyx_obj_12DataIterator_InteractionIterator *__pyx_v_self, PyObject *__pyx_v_URM_train, PyObject *__pyx_v_positive_quota, PyObject *__pyx_v_batch_size, PyObject *__pyx_v_set_n_samples_to_draw) {
+static int __pyx_pf_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_19InteractionIterator___init__(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_InteractionIterator *__pyx_v_self, PyObject *__pyx_v_URM_train, PyObject *__pyx_v_positive_quota, PyObject *__pyx_v_batch_size, PyObject *__pyx_v_set_n_samples_to_draw) {
   int __pyx_r;
   <span class='pyx_macro_api'>__Pyx_INCREF</span>(__pyx_v_URM_train);
 /* … */
@@ -672,7 +671,7 @@ static int __pyx_pf_12DataIterator_19InteractionIterator___init__(struct __pyx_o
   <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_t_11);
   __PYX_XCLEAR_MEMVIEW(&amp;__pyx_t_12, 1);
   __PYX_XCLEAR_MEMVIEW(&amp;__pyx_t_13, 1);
-  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("DataIterator.InteractionIterator.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("RecSysCompetition2024Polimi.libs.Utils.PyTorch.Cython.DataIterator.InteractionIterator.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = -1;
   __pyx_L0:;
   <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_v_URM_train);
@@ -682,9 +681,9 @@ static int __pyx_pf_12DataIterator_19InteractionIterator___init__(struct __pyx_o
 </pre><pre class="cython line score-32" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">124</span>:         <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="n">__init__</span><span class="p">()</span></pre>
 <pre class='cython code score-32 '>  __pyx_t_2 = <span class='py_c_api'>PyTuple_New</span>(2);<span class='error_goto'> if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 124, __pyx_L1_error)</span>
   <span class='refnanny'>__Pyx_GOTREF</span>(__pyx_t_2);
-  <span class='pyx_macro_api'>__Pyx_INCREF</span>((PyObject *)__pyx_ptype_12DataIterator_InteractionIterator);
-  <span class='refnanny'>__Pyx_GIVEREF</span>((PyObject *)__pyx_ptype_12DataIterator_InteractionIterator);
-  if (<span class='pyx_c_api'>__Pyx_PyTuple_SET_ITEM</span>(__pyx_t_2, 0, ((PyObject *)__pyx_ptype_12DataIterator_InteractionIterator))) <span class='error_goto'>__PYX_ERR(0, 124, __pyx_L1_error)</span>;
+  <span class='pyx_macro_api'>__Pyx_INCREF</span>((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_InteractionIterator);
+  <span class='refnanny'>__Pyx_GIVEREF</span>((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_InteractionIterator);
+  if (<span class='pyx_c_api'>__Pyx_PyTuple_SET_ITEM</span>(__pyx_t_2, 0, ((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_InteractionIterator))) <span class='error_goto'>__PYX_ERR(0, 124, __pyx_L1_error)</span>;
   <span class='pyx_macro_api'>__Pyx_INCREF</span>((PyObject *)__pyx_v_self);
   <span class='refnanny'>__Pyx_GIVEREF</span>((PyObject *)__pyx_v_self);
   if (<span class='pyx_c_api'>__Pyx_PyTuple_SET_ITEM</span>(__pyx_t_2, 1, ((PyObject *)__pyx_v_self))) <span class='error_goto'>__PYX_ERR(0, 124, __pyx_L1_error)</span>;
@@ -1154,21 +1153,21 @@ static int __pyx_pf_12DataIterator_19InteractionIterator___init__(struct __pyx_o
 </pre><pre class="cython line score-0">&#xA0;<span class="">147</span>: </pre>
 <pre class="cython line score-8" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">148</span>:     <span class="k">def</span> <span class="nf">__len__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span></pre>
 <pre class='cython code score-8 '>/* Python wrapper */
-static Py_ssize_t __pyx_pw_12DataIterator_19InteractionIterator_3__len__(PyObject *__pyx_v_self); /*proto*/
-static Py_ssize_t __pyx_pw_12DataIterator_19InteractionIterator_3__len__(PyObject *__pyx_v_self) {
+static Py_ssize_t __pyx_pw_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_19InteractionIterator_3__len__(PyObject *__pyx_v_self); /*proto*/
+static Py_ssize_t __pyx_pw_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_19InteractionIterator_3__len__(PyObject *__pyx_v_self) {
   CYTHON_UNUSED PyObject *const *__pyx_kwvalues;
   Py_ssize_t __pyx_r;
   <span class='refnanny'>__Pyx_RefNannyDeclarations</span>
   <span class='refnanny'>__Pyx_RefNannySetupContext</span>("__len__ (wrapper)", 0);
   __pyx_kwvalues = <span class='pyx_c_api'>__Pyx_KwValues_VARARGS</span>(__pyx_args, __pyx_nargs);
-  __pyx_r = __pyx_pf_12DataIterator_19InteractionIterator_2__len__(((struct __pyx_obj_12DataIterator_InteractionIterator *)__pyx_v_self));
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_19InteractionIterator_2__len__(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_InteractionIterator *)__pyx_v_self));
 
   /* function exit code */
   <span class='refnanny'>__Pyx_RefNannyFinishContext</span>();
   return __pyx_r;
 }
 
-static Py_ssize_t __pyx_pf_12DataIterator_19InteractionIterator_2__len__(struct __pyx_obj_12DataIterator_InteractionIterator *__pyx_v_self) {
+static Py_ssize_t __pyx_pf_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_19InteractionIterator_2__len__(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_InteractionIterator *__pyx_v_self) {
   Py_ssize_t __pyx_r;
 /* … */
   /* function exit code */
@@ -1177,7 +1176,7 @@ static Py_ssize_t __pyx_pf_12DataIterator_19InteractionIterator_2__len__(struct 
   <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_t_2);
   <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_t_3);
   <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_t_4);
-  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("DataIterator.InteractionIterator.__len__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("RecSysCompetition2024Polimi.libs.Utils.PyTorch.Cython.DataIterator.InteractionIterator.__len__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = -1;
   __pyx_L0:;
   <span class='refnanny'>__Pyx_RefNannyFinishContext</span>();
@@ -1221,21 +1220,21 @@ static Py_ssize_t __pyx_pf_12DataIterator_19InteractionIterator_2__len__(struct 
 </pre><pre class="cython line score-0">&#xA0;<span class="">150</span>: </pre>
 <pre class="cython line score-2" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">151</span>:     <span class="k">def</span> <span class="nf">__iter__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span></pre>
 <pre class='cython code score-2 '>/* Python wrapper */
-static PyObject *__pyx_pw_12DataIterator_19InteractionIterator_5__iter__(PyObject *__pyx_v_self); /*proto*/
-static PyObject *__pyx_pw_12DataIterator_19InteractionIterator_5__iter__(PyObject *__pyx_v_self) {
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_19InteractionIterator_5__iter__(PyObject *__pyx_v_self); /*proto*/
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_19InteractionIterator_5__iter__(PyObject *__pyx_v_self) {
   CYTHON_UNUSED PyObject *const *__pyx_kwvalues;
   PyObject *__pyx_r = 0;
   <span class='refnanny'>__Pyx_RefNannyDeclarations</span>
   <span class='refnanny'>__Pyx_RefNannySetupContext</span>("__iter__ (wrapper)", 0);
   __pyx_kwvalues = <span class='pyx_c_api'>__Pyx_KwValues_VARARGS</span>(__pyx_args, __pyx_nargs);
-  __pyx_r = __pyx_pf_12DataIterator_19InteractionIterator_4__iter__(((struct __pyx_obj_12DataIterator_InteractionIterator *)__pyx_v_self));
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_19InteractionIterator_4__iter__(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_InteractionIterator *)__pyx_v_self));
 
   /* function exit code */
   <span class='refnanny'>__Pyx_RefNannyFinishContext</span>();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_12DataIterator_19InteractionIterator_4__iter__(struct __pyx_obj_12DataIterator_InteractionIterator *__pyx_v_self) {
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_19InteractionIterator_4__iter__(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_InteractionIterator *__pyx_v_self) {
   PyObject *__pyx_r = NULL;
 /* … */
   /* function exit code */
@@ -1254,21 +1253,21 @@ static PyObject *__pyx_pf_12DataIterator_19InteractionIterator_4__iter__(struct 
 </pre><pre class="cython line score-0">&#xA0;<span class="">154</span>: </pre>
 <pre class="cython line score-13" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">155</span>:     <span class="k">def</span> <span class="nf">__next__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span></pre>
 <pre class='cython code score-13 '>/* Python wrapper */
-static PyObject *__pyx_pw_12DataIterator_19InteractionIterator_7__next__(PyObject *__pyx_v_self); /*proto*/
-static PyObject *__pyx_pw_12DataIterator_19InteractionIterator_7__next__(PyObject *__pyx_v_self) {
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_19InteractionIterator_7__next__(PyObject *__pyx_v_self); /*proto*/
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_19InteractionIterator_7__next__(PyObject *__pyx_v_self) {
   CYTHON_UNUSED PyObject *const *__pyx_kwvalues;
   PyObject *__pyx_r = 0;
   <span class='refnanny'>__Pyx_RefNannyDeclarations</span>
   <span class='refnanny'>__Pyx_RefNannySetupContext</span>("__next__ (wrapper)", 0);
   __pyx_kwvalues = <span class='pyx_c_api'>__Pyx_KwValues_VARARGS</span>(__pyx_args, __pyx_nargs);
-  __pyx_r = __pyx_pf_12DataIterator_19InteractionIterator_6__next__(((struct __pyx_obj_12DataIterator_InteractionIterator *)__pyx_v_self));
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_19InteractionIterator_6__next__(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_InteractionIterator *)__pyx_v_self));
 
   /* function exit code */
   <span class='refnanny'>__Pyx_RefNannyFinishContext</span>();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_12DataIterator_19InteractionIterator_6__next__(struct __pyx_obj_12DataIterator_InteractionIterator *__pyx_v_self) {
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_19InteractionIterator_6__next__(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_InteractionIterator *__pyx_v_self) {
   int __pyx_v_i_batch;
   int __pyx_v_i_data;
   int __pyx_v_index;
@@ -1293,7 +1292,7 @@ static PyObject *__pyx_pf_12DataIterator_19InteractionIterator_6__next__(struct 
   __PYX_XCLEAR_MEMVIEW(&amp;__pyx_t_18, 1);
   <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_t_19);
   if (!__pyx_error_without_exception) {
-    <span class='pyx_c_api'>__Pyx_AddTraceback</span>("DataIterator.InteractionIterator.__next__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+    <span class='pyx_c_api'>__Pyx_AddTraceback</span>("RecSysCompetition2024Polimi.libs.Utils.PyTorch.Cython.DataIterator.InteractionIterator.__next__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   }
   __pyx_r = NULL;
   __pyx_L0:;
@@ -1691,7 +1690,7 @@ __pyx_t_17 = __pyx_memoryview_fromslice(__pyx_t_18, 1, (PyObject *(*)(char *)) _
 <pre class="cython line score-0">&#xA0;<span class="">212</span>: <span class="nd">@cython</span><span class="o">.</span><span class="n">cdivision</span><span class="p">(</span><span class="bp">True</span><span class="p">)</span></pre>
 <pre class="cython line score-0">&#xA0;<span class="">213</span>: <span class="nd">@cython</span><span class="o">.</span><span class="n">overflowcheck</span><span class="p">(</span><span class="bp">False</span><span class="p">)</span></pre>
 <pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">214</span>: <span class="k">cdef</span> <span class="k">class</span> <span class="nf">BPRIterator</span><span class="p">:</span></pre>
-<pre class='cython code score-0 '>struct __pyx_obj_12DataIterator_BPRIterator {
+<pre class='cython code score-0 '>struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_BPRIterator {
   PyObject_HEAD
   int n_users;
   int n_items;
@@ -1728,8 +1727,8 @@ __pyx_t_17 = __pyx_memoryview_fromslice(__pyx_t_18, 1, (PyObject *(*)(char *)) _
 <pre class="cython line score-0">&#xA0;<span class="">230</span>: </pre>
 <pre class="cython line score-87" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">231</span>:     <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">URM_train</span><span class="p">,</span> <span class="n">batch_size</span> <span class="o">=</span> <span class="mf">1</span><span class="p">,</span> <span class="n">set_n_samples_to_draw</span> <span class="o">=</span> <span class="bp">None</span><span class="p">,</span> <span class="n">n_negatives_per_positive</span> <span class="o">=</span> <span class="mf">1</span><span class="p">):</span></pre>
 <pre class='cython code score-87 '>/* Python wrapper */
-static int __pyx_pw_12DataIterator_11BPRIterator_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static int __pyx_pw_12DataIterator_11BPRIterator_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static int __pyx_pw_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_11BPRIterator_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static int __pyx_pw_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_11BPRIterator_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_URM_train = 0;
   PyObject *__pyx_v_batch_size = 0;
   PyObject *__pyx_v_set_n_samples_to_draw = 0;
@@ -1830,11 +1829,11 @@ static int __pyx_pw_12DataIterator_11BPRIterator_1__init__(PyObject *__pyx_v_sel
       <span class='pyx_c_api'>__Pyx_Arg_XDECREF_VARARGS</span>(values[__pyx_temp]);
     }
   }
-  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("DataIterator.BPRIterator.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("RecSysCompetition2024Polimi.libs.Utils.PyTorch.Cython.DataIterator.BPRIterator.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   <span class='refnanny'>__Pyx_RefNannyFinishContext</span>();
   return -1;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_12DataIterator_11BPRIterator___init__(((struct __pyx_obj_12DataIterator_BPRIterator *)__pyx_v_self), __pyx_v_URM_train, __pyx_v_batch_size, __pyx_v_set_n_samples_to_draw, __pyx_v_n_negatives_per_positive);
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_11BPRIterator___init__(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_BPRIterator *)__pyx_v_self), __pyx_v_URM_train, __pyx_v_batch_size, __pyx_v_set_n_samples_to_draw, __pyx_v_n_negatives_per_positive);
 
   /* function exit code */
   {
@@ -1847,7 +1846,7 @@ static int __pyx_pw_12DataIterator_11BPRIterator_1__init__(PyObject *__pyx_v_sel
   return __pyx_r;
 }
 
-static int __pyx_pf_12DataIterator_11BPRIterator___init__(struct __pyx_obj_12DataIterator_BPRIterator *__pyx_v_self, PyObject *__pyx_v_URM_train, PyObject *__pyx_v_batch_size, PyObject *__pyx_v_set_n_samples_to_draw, PyObject *__pyx_v_n_negatives_per_positive) {
+static int __pyx_pf_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_11BPRIterator___init__(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_BPRIterator *__pyx_v_self, PyObject *__pyx_v_URM_train, PyObject *__pyx_v_batch_size, PyObject *__pyx_v_set_n_samples_to_draw, PyObject *__pyx_v_n_negatives_per_positive) {
   int __pyx_r;
   <span class='pyx_macro_api'>__Pyx_INCREF</span>(__pyx_v_URM_train);
 /* … */
@@ -1862,7 +1861,7 @@ static int __pyx_pf_12DataIterator_11BPRIterator___init__(struct __pyx_obj_12Dat
   <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_t_9);
   __PYX_XCLEAR_MEMVIEW(&amp;__pyx_t_10, 1);
   __PYX_XCLEAR_MEMVIEW(&amp;__pyx_t_13, 1);
-  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("DataIterator.BPRIterator.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("RecSysCompetition2024Polimi.libs.Utils.PyTorch.Cython.DataIterator.BPRIterator.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = -1;
   __pyx_L0:;
   <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_v_URM_train);
@@ -1872,9 +1871,9 @@ static int __pyx_pf_12DataIterator_11BPRIterator___init__(struct __pyx_obj_12Dat
 </pre><pre class="cython line score-32" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">232</span>:         <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="n">__init__</span><span class="p">()</span></pre>
 <pre class='cython code score-32 '>  __pyx_t_2 = <span class='py_c_api'>PyTuple_New</span>(2);<span class='error_goto'> if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 232, __pyx_L1_error)</span>
   <span class='refnanny'>__Pyx_GOTREF</span>(__pyx_t_2);
-  <span class='pyx_macro_api'>__Pyx_INCREF</span>((PyObject *)__pyx_ptype_12DataIterator_BPRIterator);
-  <span class='refnanny'>__Pyx_GIVEREF</span>((PyObject *)__pyx_ptype_12DataIterator_BPRIterator);
-  if (<span class='pyx_c_api'>__Pyx_PyTuple_SET_ITEM</span>(__pyx_t_2, 0, ((PyObject *)__pyx_ptype_12DataIterator_BPRIterator))) <span class='error_goto'>__PYX_ERR(0, 232, __pyx_L1_error)</span>;
+  <span class='pyx_macro_api'>__Pyx_INCREF</span>((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_BPRIterator);
+  <span class='refnanny'>__Pyx_GIVEREF</span>((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_BPRIterator);
+  if (<span class='pyx_c_api'>__Pyx_PyTuple_SET_ITEM</span>(__pyx_t_2, 0, ((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_BPRIterator))) <span class='error_goto'>__PYX_ERR(0, 232, __pyx_L1_error)</span>;
   <span class='pyx_macro_api'>__Pyx_INCREF</span>((PyObject *)__pyx_v_self);
   <span class='refnanny'>__Pyx_GIVEREF</span>((PyObject *)__pyx_v_self);
   if (<span class='pyx_c_api'>__Pyx_PyTuple_SET_ITEM</span>(__pyx_t_2, 1, ((PyObject *)__pyx_v_self))) <span class='error_goto'>__PYX_ERR(0, 232, __pyx_L1_error)</span>;
@@ -2337,21 +2336,21 @@ static int __pyx_pf_12DataIterator_11BPRIterator___init__(struct __pyx_obj_12Dat
 </pre><pre class="cython line score-0">&#xA0;<span class="">255</span>: </pre>
 <pre class="cython line score-8" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">256</span>:     <span class="k">def</span> <span class="nf">__len__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span></pre>
 <pre class='cython code score-8 '>/* Python wrapper */
-static Py_ssize_t __pyx_pw_12DataIterator_11BPRIterator_3__len__(PyObject *__pyx_v_self); /*proto*/
-static Py_ssize_t __pyx_pw_12DataIterator_11BPRIterator_3__len__(PyObject *__pyx_v_self) {
+static Py_ssize_t __pyx_pw_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_11BPRIterator_3__len__(PyObject *__pyx_v_self); /*proto*/
+static Py_ssize_t __pyx_pw_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_11BPRIterator_3__len__(PyObject *__pyx_v_self) {
   CYTHON_UNUSED PyObject *const *__pyx_kwvalues;
   Py_ssize_t __pyx_r;
   <span class='refnanny'>__Pyx_RefNannyDeclarations</span>
   <span class='refnanny'>__Pyx_RefNannySetupContext</span>("__len__ (wrapper)", 0);
   __pyx_kwvalues = <span class='pyx_c_api'>__Pyx_KwValues_VARARGS</span>(__pyx_args, __pyx_nargs);
-  __pyx_r = __pyx_pf_12DataIterator_11BPRIterator_2__len__(((struct __pyx_obj_12DataIterator_BPRIterator *)__pyx_v_self));
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_11BPRIterator_2__len__(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_BPRIterator *)__pyx_v_self));
 
   /* function exit code */
   <span class='refnanny'>__Pyx_RefNannyFinishContext</span>();
   return __pyx_r;
 }
 
-static Py_ssize_t __pyx_pf_12DataIterator_11BPRIterator_2__len__(struct __pyx_obj_12DataIterator_BPRIterator *__pyx_v_self) {
+static Py_ssize_t __pyx_pf_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_11BPRIterator_2__len__(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_BPRIterator *__pyx_v_self) {
   Py_ssize_t __pyx_r;
 /* … */
   /* function exit code */
@@ -2360,7 +2359,7 @@ static Py_ssize_t __pyx_pf_12DataIterator_11BPRIterator_2__len__(struct __pyx_ob
   <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_t_2);
   <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_t_3);
   <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_t_4);
-  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("DataIterator.BPRIterator.__len__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("RecSysCompetition2024Polimi.libs.Utils.PyTorch.Cython.DataIterator.BPRIterator.__len__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = -1;
   __pyx_L0:;
   <span class='refnanny'>__Pyx_RefNannyFinishContext</span>();
@@ -2404,21 +2403,21 @@ static Py_ssize_t __pyx_pf_12DataIterator_11BPRIterator_2__len__(struct __pyx_ob
 </pre><pre class="cython line score-0">&#xA0;<span class="">258</span>: </pre>
 <pre class="cython line score-2" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">259</span>:     <span class="k">def</span> <span class="nf">__iter__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span></pre>
 <pre class='cython code score-2 '>/* Python wrapper */
-static PyObject *__pyx_pw_12DataIterator_11BPRIterator_5__iter__(PyObject *__pyx_v_self); /*proto*/
-static PyObject *__pyx_pw_12DataIterator_11BPRIterator_5__iter__(PyObject *__pyx_v_self) {
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_11BPRIterator_5__iter__(PyObject *__pyx_v_self); /*proto*/
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_11BPRIterator_5__iter__(PyObject *__pyx_v_self) {
   CYTHON_UNUSED PyObject *const *__pyx_kwvalues;
   PyObject *__pyx_r = 0;
   <span class='refnanny'>__Pyx_RefNannyDeclarations</span>
   <span class='refnanny'>__Pyx_RefNannySetupContext</span>("__iter__ (wrapper)", 0);
   __pyx_kwvalues = <span class='pyx_c_api'>__Pyx_KwValues_VARARGS</span>(__pyx_args, __pyx_nargs);
-  __pyx_r = __pyx_pf_12DataIterator_11BPRIterator_4__iter__(((struct __pyx_obj_12DataIterator_BPRIterator *)__pyx_v_self));
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_11BPRIterator_4__iter__(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_BPRIterator *)__pyx_v_self));
 
   /* function exit code */
   <span class='refnanny'>__Pyx_RefNannyFinishContext</span>();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_12DataIterator_11BPRIterator_4__iter__(struct __pyx_obj_12DataIterator_BPRIterator *__pyx_v_self) {
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_11BPRIterator_4__iter__(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_BPRIterator *__pyx_v_self) {
   PyObject *__pyx_r = NULL;
 /* … */
   /* function exit code */
@@ -2437,21 +2436,21 @@ static PyObject *__pyx_pf_12DataIterator_11BPRIterator_4__iter__(struct __pyx_ob
 </pre><pre class="cython line score-0">&#xA0;<span class="">262</span>: </pre>
 <pre class="cython line score-13" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">263</span>:     <span class="k">def</span> <span class="nf">__next__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span></pre>
 <pre class='cython code score-13 '>/* Python wrapper */
-static PyObject *__pyx_pw_12DataIterator_11BPRIterator_7__next__(PyObject *__pyx_v_self); /*proto*/
-static PyObject *__pyx_pw_12DataIterator_11BPRIterator_7__next__(PyObject *__pyx_v_self) {
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_11BPRIterator_7__next__(PyObject *__pyx_v_self); /*proto*/
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_11BPRIterator_7__next__(PyObject *__pyx_v_self) {
   CYTHON_UNUSED PyObject *const *__pyx_kwvalues;
   PyObject *__pyx_r = 0;
   <span class='refnanny'>__Pyx_RefNannyDeclarations</span>
   <span class='refnanny'>__Pyx_RefNannySetupContext</span>("__next__ (wrapper)", 0);
   __pyx_kwvalues = <span class='pyx_c_api'>__Pyx_KwValues_VARARGS</span>(__pyx_args, __pyx_nargs);
-  __pyx_r = __pyx_pf_12DataIterator_11BPRIterator_6__next__(((struct __pyx_obj_12DataIterator_BPRIterator *)__pyx_v_self));
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_11BPRIterator_6__next__(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_BPRIterator *)__pyx_v_self));
 
   /* function exit code */
   <span class='refnanny'>__Pyx_RefNannyFinishContext</span>();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_12DataIterator_11BPRIterator_6__next__(struct __pyx_obj_12DataIterator_BPRIterator *__pyx_v_self) {
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_11BPRIterator_6__next__(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_BPRIterator *__pyx_v_self) {
   int __pyx_v_i_batch;
   int __pyx_v_user_id;
   int __pyx_v_index;
@@ -2478,7 +2477,7 @@ static PyObject *__pyx_pf_12DataIterator_11BPRIterator_6__next__(struct __pyx_ob
   <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_t_21);
   __PYX_XCLEAR_MEMVIEW(&amp;__pyx_t_22, 1);
   if (!__pyx_error_without_exception) {
-    <span class='pyx_c_api'>__Pyx_AddTraceback</span>("DataIterator.BPRIterator.__next__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+    <span class='pyx_c_api'>__Pyx_AddTraceback</span>("RecSysCompetition2024Polimi.libs.Utils.PyTorch.Cython.DataIterator.BPRIterator.__next__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   }
   __pyx_r = NULL;
   __pyx_L0:;
@@ -3148,7 +3147,7 @@ __pyx_t_14 = __pyx_memoryview_fromslice(__pyx_t_22, 2, (PyObject *(*)(char *)) _
 <pre class="cython line score-0">&#xA0;<span class="">331</span>: <span class="nd">@cython</span><span class="o">.</span><span class="n">cdivision</span><span class="p">(</span><span class="bp">True</span><span class="p">)</span></pre>
 <pre class="cython line score-0">&#xA0;<span class="">332</span>: <span class="nd">@cython</span><span class="o">.</span><span class="n">overflowcheck</span><span class="p">(</span><span class="bp">False</span><span class="p">)</span></pre>
 <pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">333</span>: <span class="k">cdef</span> <span class="k">class</span> <span class="nf">InteractionAndNegativeIterator</span><span class="p">:</span></pre>
-<pre class='cython code score-0 '>struct __pyx_obj_12DataIterator_InteractionAndNegativeIterator {
+<pre class='cython code score-0 '>struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_InteractionAndNegativeIterator {
   PyObject_HEAD
   int n_users;
   int n_items;
@@ -3193,8 +3192,8 @@ __pyx_t_14 = __pyx_memoryview_fromslice(__pyx_t_22, 2, (PyObject *(*)(char *)) _
 <pre class="cython line score-0">&#xA0;<span class="">356</span>: </pre>
 <pre class="cython line score-87" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">357</span>:     <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">URM_train</span><span class="p">,</span> <span class="n">batch_size</span> <span class="o">=</span> <span class="mf">1</span><span class="p">,</span> <span class="n">set_n_samples_to_draw</span> <span class="o">=</span> <span class="bp">None</span><span class="p">,</span> <span class="n">n_negatives_per_positive</span> <span class="o">=</span> <span class="mf">1</span><span class="p">):</span></pre>
 <pre class='cython code score-87 '>/* Python wrapper */
-static int __pyx_pw_12DataIterator_30InteractionAndNegativeIterator_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static int __pyx_pw_12DataIterator_30InteractionAndNegativeIterator_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static int __pyx_pw_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_30InteractionAndNegativeIterator_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static int __pyx_pw_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_30InteractionAndNegativeIterator_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_URM_train = 0;
   PyObject *__pyx_v_batch_size = 0;
   PyObject *__pyx_v_set_n_samples_to_draw = 0;
@@ -3295,11 +3294,11 @@ static int __pyx_pw_12DataIterator_30InteractionAndNegativeIterator_1__init__(Py
       <span class='pyx_c_api'>__Pyx_Arg_XDECREF_VARARGS</span>(values[__pyx_temp]);
     }
   }
-  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("DataIterator.InteractionAndNegativeIterator.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("RecSysCompetition2024Polimi.libs.Utils.PyTorch.Cython.DataIterator.InteractionAndNegativeIterator.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   <span class='refnanny'>__Pyx_RefNannyFinishContext</span>();
   return -1;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_12DataIterator_30InteractionAndNegativeIterator___init__(((struct __pyx_obj_12DataIterator_InteractionAndNegativeIterator *)__pyx_v_self), __pyx_v_URM_train, __pyx_v_batch_size, __pyx_v_set_n_samples_to_draw, __pyx_v_n_negatives_per_positive);
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_30InteractionAndNegativeIterator___init__(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_InteractionAndNegativeIterator *)__pyx_v_self), __pyx_v_URM_train, __pyx_v_batch_size, __pyx_v_set_n_samples_to_draw, __pyx_v_n_negatives_per_positive);
 
   /* function exit code */
   {
@@ -3312,7 +3311,7 @@ static int __pyx_pw_12DataIterator_30InteractionAndNegativeIterator_1__init__(Py
   return __pyx_r;
 }
 
-static int __pyx_pf_12DataIterator_30InteractionAndNegativeIterator___init__(struct __pyx_obj_12DataIterator_InteractionAndNegativeIterator *__pyx_v_self, PyObject *__pyx_v_URM_train, PyObject *__pyx_v_batch_size, PyObject *__pyx_v_set_n_samples_to_draw, PyObject *__pyx_v_n_negatives_per_positive) {
+static int __pyx_pf_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_30InteractionAndNegativeIterator___init__(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_InteractionAndNegativeIterator *__pyx_v_self, PyObject *__pyx_v_URM_train, PyObject *__pyx_v_batch_size, PyObject *__pyx_v_set_n_samples_to_draw, PyObject *__pyx_v_n_negatives_per_positive) {
   int __pyx_r;
   <span class='pyx_macro_api'>__Pyx_INCREF</span>(__pyx_v_URM_train);
 /* … */
@@ -3327,7 +3326,7 @@ static int __pyx_pf_12DataIterator_30InteractionAndNegativeIterator___init__(str
   <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_t_10);
   __PYX_XCLEAR_MEMVIEW(&amp;__pyx_t_11, 1);
   __PYX_XCLEAR_MEMVIEW(&amp;__pyx_t_12, 1);
-  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("DataIterator.InteractionAndNegativeIterator.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("RecSysCompetition2024Polimi.libs.Utils.PyTorch.Cython.DataIterator.InteractionAndNegativeIterator.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = -1;
   __pyx_L0:;
   <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_v_URM_train);
@@ -3337,9 +3336,9 @@ static int __pyx_pf_12DataIterator_30InteractionAndNegativeIterator___init__(str
 </pre><pre class="cython line score-32" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">358</span>:         <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="n">__init__</span><span class="p">()</span></pre>
 <pre class='cython code score-32 '>  __pyx_t_2 = <span class='py_c_api'>PyTuple_New</span>(2);<span class='error_goto'> if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 358, __pyx_L1_error)</span>
   <span class='refnanny'>__Pyx_GOTREF</span>(__pyx_t_2);
-  <span class='pyx_macro_api'>__Pyx_INCREF</span>((PyObject *)__pyx_ptype_12DataIterator_InteractionAndNegativeIterator);
-  <span class='refnanny'>__Pyx_GIVEREF</span>((PyObject *)__pyx_ptype_12DataIterator_InteractionAndNegativeIterator);
-  if (<span class='pyx_c_api'>__Pyx_PyTuple_SET_ITEM</span>(__pyx_t_2, 0, ((PyObject *)__pyx_ptype_12DataIterator_InteractionAndNegativeIterator))) <span class='error_goto'>__PYX_ERR(0, 358, __pyx_L1_error)</span>;
+  <span class='pyx_macro_api'>__Pyx_INCREF</span>((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_InteractionAndNegativeIterator);
+  <span class='refnanny'>__Pyx_GIVEREF</span>((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_InteractionAndNegativeIterator);
+  if (<span class='pyx_c_api'>__Pyx_PyTuple_SET_ITEM</span>(__pyx_t_2, 0, ((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_InteractionAndNegativeIterator))) <span class='error_goto'>__PYX_ERR(0, 358, __pyx_L1_error)</span>;
   <span class='pyx_macro_api'>__Pyx_INCREF</span>((PyObject *)__pyx_v_self);
   <span class='refnanny'>__Pyx_GIVEREF</span>((PyObject *)__pyx_v_self);
   if (<span class='pyx_c_api'>__Pyx_PyTuple_SET_ITEM</span>(__pyx_t_2, 1, ((PyObject *)__pyx_v_self))) <span class='error_goto'>__PYX_ERR(0, 358, __pyx_L1_error)</span>;
@@ -3830,21 +3829,21 @@ static int __pyx_pf_12DataIterator_30InteractionAndNegativeIterator___init__(str
 </pre><pre class="cython line score-0">&#xA0;<span class="">384</span>: </pre>
 <pre class="cython line score-8" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">385</span>:     <span class="k">def</span> <span class="nf">__len__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span></pre>
 <pre class='cython code score-8 '>/* Python wrapper */
-static Py_ssize_t __pyx_pw_12DataIterator_30InteractionAndNegativeIterator_3__len__(PyObject *__pyx_v_self); /*proto*/
-static Py_ssize_t __pyx_pw_12DataIterator_30InteractionAndNegativeIterator_3__len__(PyObject *__pyx_v_self) {
+static Py_ssize_t __pyx_pw_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_30InteractionAndNegativeIterator_3__len__(PyObject *__pyx_v_self); /*proto*/
+static Py_ssize_t __pyx_pw_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_30InteractionAndNegativeIterator_3__len__(PyObject *__pyx_v_self) {
   CYTHON_UNUSED PyObject *const *__pyx_kwvalues;
   Py_ssize_t __pyx_r;
   <span class='refnanny'>__Pyx_RefNannyDeclarations</span>
   <span class='refnanny'>__Pyx_RefNannySetupContext</span>("__len__ (wrapper)", 0);
   __pyx_kwvalues = <span class='pyx_c_api'>__Pyx_KwValues_VARARGS</span>(__pyx_args, __pyx_nargs);
-  __pyx_r = __pyx_pf_12DataIterator_30InteractionAndNegativeIterator_2__len__(((struct __pyx_obj_12DataIterator_InteractionAndNegativeIterator *)__pyx_v_self));
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_30InteractionAndNegativeIterator_2__len__(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_InteractionAndNegativeIterator *)__pyx_v_self));
 
   /* function exit code */
   <span class='refnanny'>__Pyx_RefNannyFinishContext</span>();
   return __pyx_r;
 }
 
-static Py_ssize_t __pyx_pf_12DataIterator_30InteractionAndNegativeIterator_2__len__(struct __pyx_obj_12DataIterator_InteractionAndNegativeIterator *__pyx_v_self) {
+static Py_ssize_t __pyx_pf_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_30InteractionAndNegativeIterator_2__len__(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_InteractionAndNegativeIterator *__pyx_v_self) {
   Py_ssize_t __pyx_r;
 /* … */
   /* function exit code */
@@ -3853,7 +3852,7 @@ static Py_ssize_t __pyx_pf_12DataIterator_30InteractionAndNegativeIterator_2__le
   <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_t_2);
   <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_t_3);
   <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_t_4);
-  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("DataIterator.InteractionAndNegativeIterator.__len__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("RecSysCompetition2024Polimi.libs.Utils.PyTorch.Cython.DataIterator.InteractionAndNegativeIterator.__len__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = -1;
   __pyx_L0:;
   <span class='refnanny'>__Pyx_RefNannyFinishContext</span>();
@@ -3897,21 +3896,21 @@ static Py_ssize_t __pyx_pf_12DataIterator_30InteractionAndNegativeIterator_2__le
 </pre><pre class="cython line score-0">&#xA0;<span class="">387</span>: </pre>
 <pre class="cython line score-2" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">388</span>:     <span class="k">def</span> <span class="nf">__iter__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span></pre>
 <pre class='cython code score-2 '>/* Python wrapper */
-static PyObject *__pyx_pw_12DataIterator_30InteractionAndNegativeIterator_5__iter__(PyObject *__pyx_v_self); /*proto*/
-static PyObject *__pyx_pw_12DataIterator_30InteractionAndNegativeIterator_5__iter__(PyObject *__pyx_v_self) {
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_30InteractionAndNegativeIterator_5__iter__(PyObject *__pyx_v_self); /*proto*/
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_30InteractionAndNegativeIterator_5__iter__(PyObject *__pyx_v_self) {
   CYTHON_UNUSED PyObject *const *__pyx_kwvalues;
   PyObject *__pyx_r = 0;
   <span class='refnanny'>__Pyx_RefNannyDeclarations</span>
   <span class='refnanny'>__Pyx_RefNannySetupContext</span>("__iter__ (wrapper)", 0);
   __pyx_kwvalues = <span class='pyx_c_api'>__Pyx_KwValues_VARARGS</span>(__pyx_args, __pyx_nargs);
-  __pyx_r = __pyx_pf_12DataIterator_30InteractionAndNegativeIterator_4__iter__(((struct __pyx_obj_12DataIterator_InteractionAndNegativeIterator *)__pyx_v_self));
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_30InteractionAndNegativeIterator_4__iter__(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_InteractionAndNegativeIterator *)__pyx_v_self));
 
   /* function exit code */
   <span class='refnanny'>__Pyx_RefNannyFinishContext</span>();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_12DataIterator_30InteractionAndNegativeIterator_4__iter__(struct __pyx_obj_12DataIterator_InteractionAndNegativeIterator *__pyx_v_self) {
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_30InteractionAndNegativeIterator_4__iter__(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_InteractionAndNegativeIterator *__pyx_v_self) {
   PyObject *__pyx_r = NULL;
 /* … */
   /* function exit code */
@@ -3930,21 +3929,21 @@ static PyObject *__pyx_pf_12DataIterator_30InteractionAndNegativeIterator_4__ite
 </pre><pre class="cython line score-0">&#xA0;<span class="">391</span>: </pre>
 <pre class="cython line score-13" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">392</span>:     <span class="k">def</span> <span class="nf">__next__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span></pre>
 <pre class='cython code score-13 '>/* Python wrapper */
-static PyObject *__pyx_pw_12DataIterator_30InteractionAndNegativeIterator_7__next__(PyObject *__pyx_v_self); /*proto*/
-static PyObject *__pyx_pw_12DataIterator_30InteractionAndNegativeIterator_7__next__(PyObject *__pyx_v_self) {
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_30InteractionAndNegativeIterator_7__next__(PyObject *__pyx_v_self); /*proto*/
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_30InteractionAndNegativeIterator_7__next__(PyObject *__pyx_v_self) {
   CYTHON_UNUSED PyObject *const *__pyx_kwvalues;
   PyObject *__pyx_r = 0;
   <span class='refnanny'>__Pyx_RefNannyDeclarations</span>
   <span class='refnanny'>__Pyx_RefNannySetupContext</span>("__next__ (wrapper)", 0);
   __pyx_kwvalues = <span class='pyx_c_api'>__Pyx_KwValues_VARARGS</span>(__pyx_args, __pyx_nargs);
-  __pyx_r = __pyx_pf_12DataIterator_30InteractionAndNegativeIterator_6__next__(((struct __pyx_obj_12DataIterator_InteractionAndNegativeIterator *)__pyx_v_self));
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_30InteractionAndNegativeIterator_6__next__(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_InteractionAndNegativeIterator *)__pyx_v_self));
 
   /* function exit code */
   <span class='refnanny'>__Pyx_RefNannyFinishContext</span>();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_12DataIterator_30InteractionAndNegativeIterator_6__next__(struct __pyx_obj_12DataIterator_InteractionAndNegativeIterator *__pyx_v_self) {
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_30InteractionAndNegativeIterator_6__next__(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_5Utils_7PyTorch_6Cython_12DataIterator_InteractionAndNegativeIterator *__pyx_v_self) {
   int __pyx_v_i_batch;
   int __pyx_v_user_id;
   int __pyx_v_index;
@@ -3971,7 +3970,7 @@ static PyObject *__pyx_pf_12DataIterator_30InteractionAndNegativeIterator_6__nex
   <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_t_21);
   __PYX_XCLEAR_MEMVIEW(&amp;__pyx_t_22, 1);
   if (!__pyx_error_without_exception) {
-    <span class='pyx_c_api'>__Pyx_AddTraceback</span>("DataIterator.InteractionAndNegativeIterator.__next__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+    <span class='pyx_c_api'>__Pyx_AddTraceback</span>("RecSysCompetition2024Polimi.libs.Utils.PyTorch.Cython.DataIterator.InteractionAndNegativeIterator.__next__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   }
   __pyx_r = NULL;
   __pyx_L0:;

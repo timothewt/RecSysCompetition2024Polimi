@@ -305,7 +305,6 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 .cython .cs { color: #3D7B7B; font-style: italic } /* Comment.Special */
 .cython .gd { color: #A00000 } /* Generic.Deleted */
 .cython .ge { font-style: italic } /* Generic.Emph */
-.cython .ges { font-weight: bold; font-style: italic } /* Generic.EmphStrong */
 .cython .gr { color: #E40000 } /* Generic.Error */
 .cython .gh { color: #000080; font-weight: bold } /* Generic.Heading */
 .cython .gi { color: #008400 } /* Generic.Inserted */
@@ -430,9 +429,9 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 <pre class="cython line score-0">&#xA0;<span class="">042</span>: <span class="c">#################################</span></pre>
 <pre class="cython line score-0">&#xA0;<span class="">043</span>: </pre>
 <pre class="cython line score-0" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">044</span>: <span class="k">cdef</span> <span class="k">class</span> <span class="nf">Triangular_Matrix</span><span class="p">:</span></pre>
-<pre class='cython code score-0 '>struct __pyx_obj_17Triangular_Matrix_Triangular_Matrix {
+<pre class='cython code score-0 '>struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_17Triangular_Matrix_Triangular_Matrix {
   PyObject_HEAD
-  struct __pyx_vtabstruct_17Triangular_Matrix_Triangular_Matrix *__pyx_vtab;
+  struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_17Triangular_Matrix_Triangular_Matrix *__pyx_vtab;
   long num_rows;
   long num_cols;
   int isSymmetric;
@@ -441,12 +440,12 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 
 
 
-struct __pyx_vtabstruct_17Triangular_Matrix_Triangular_Matrix {
-  double (*add_value)(struct __pyx_obj_17Triangular_Matrix_Triangular_Matrix *, long, long, double, int __pyx_skip_dispatch);
-  double (*get_value)(struct __pyx_obj_17Triangular_Matrix_Triangular_Matrix *, long, long, int __pyx_skip_dispatch);
-  PyObject *(*get_scipy_csr)(struct __pyx_obj_17Triangular_Matrix_Triangular_Matrix *, int __pyx_skip_dispatch, struct __pyx_opt_args_17Triangular_Matrix_17Triangular_Matrix_get_scipy_csr *__pyx_optional_args);
+struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_17Triangular_Matrix_Triangular_Matrix {
+  double (*add_value)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_17Triangular_Matrix_Triangular_Matrix *, long, long, double, int __pyx_skip_dispatch);
+  double (*get_value)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_17Triangular_Matrix_Triangular_Matrix *, long, long, int __pyx_skip_dispatch);
+  PyObject *(*get_scipy_csr)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_17Triangular_Matrix_Triangular_Matrix *, int __pyx_skip_dispatch, struct __pyx_opt_args_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_17Triangular_Matrix_17Triangular_Matrix_get_scipy_csr *__pyx_optional_args);
 };
-static struct __pyx_vtabstruct_17Triangular_Matrix_Triangular_Matrix *__pyx_vtabptr_17Triangular_Matrix_Triangular_Matrix;
+static struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_17Triangular_Matrix_Triangular_Matrix *__pyx_vtabptr_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_17Triangular_Matrix_Triangular_Matrix;
 </pre><pre class="cython line score-0">&#xA0;<span class="">045</span>: </pre>
 <pre class="cython line score-0">&#xA0;<span class="">046</span>:     <span class="k">cdef</span> <span class="kt">long</span> <span class="nf">num_rows</span><span class="p">,</span> <span class="nf">num_cols</span></pre>
 <pre class="cython line score-0">&#xA0;<span class="">047</span>:     <span class="k">cdef</span> <span class="kt">int</span> <span class="nf">isSymmetric</span></pre>
@@ -459,8 +458,8 @@ static struct __pyx_vtabstruct_17Triangular_Matrix_Triangular_Matrix *__pyx_vtab
 <pre class="cython line score-0">&#xA0;<span class="">054</span>: </pre>
 <pre class="cython line score-60" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">055</span>:     <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="nb">long</span> <span class="n">num_rows</span><span class="p">,</span> <span class="nb">int</span> <span class="n">isSymmetric</span> <span class="o">=</span> <span class="bp">False</span><span class="p">):</span></pre>
 <pre class='cython code score-60 '>/* Python wrapper */
-static int __pyx_pw_17Triangular_Matrix_17Triangular_Matrix_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static int __pyx_pw_17Triangular_Matrix_17Triangular_Matrix_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static int __pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_17Triangular_Matrix_17Triangular_Matrix_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static int __pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_17Triangular_Matrix_17Triangular_Matrix_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   long __pyx_v_num_rows;
   int __pyx_v_isSymmetric;
   CYTHON_UNUSED Py_ssize_t __pyx_nargs;
@@ -536,11 +535,11 @@ static int __pyx_pw_17Triangular_Matrix_17Triangular_Matrix_1__init__(PyObject *
       <span class='pyx_c_api'>__Pyx_Arg_XDECREF_VARARGS</span>(values[__pyx_temp]);
     }
   }
-  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("Triangular_Matrix.Triangular_Matrix.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.Triangular_Matrix.Triangular_Matrix.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   <span class='refnanny'>__Pyx_RefNannyFinishContext</span>();
   return -1;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_17Triangular_Matrix_17Triangular_Matrix___init__(((struct __pyx_obj_17Triangular_Matrix_Triangular_Matrix *)__pyx_v_self), __pyx_v_num_rows, __pyx_v_isSymmetric);
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_17Triangular_Matrix_17Triangular_Matrix___init__(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_17Triangular_Matrix_Triangular_Matrix *)__pyx_v_self), __pyx_v_num_rows, __pyx_v_isSymmetric);
 
   /* function exit code */
   {
@@ -553,7 +552,7 @@ static int __pyx_pw_17Triangular_Matrix_17Triangular_Matrix_1__init__(PyObject *
   return __pyx_r;
 }
 
-static int __pyx_pf_17Triangular_Matrix_17Triangular_Matrix___init__(struct __pyx_obj_17Triangular_Matrix_Triangular_Matrix *__pyx_v_self, long __pyx_v_num_rows, int __pyx_v_isSymmetric) {
+static int __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_17Triangular_Matrix_17Triangular_Matrix___init__(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_17Triangular_Matrix_Triangular_Matrix *__pyx_v_self, long __pyx_v_num_rows, int __pyx_v_isSymmetric) {
   int __pyx_v_numRow;
   int __pyx_v_numCol;
   int __pyx_r;
@@ -598,14 +597,14 @@ static int __pyx_pf_17Triangular_Matrix_17Triangular_Matrix___init__(struct __py
 </pre><pre class="cython line score-0">&#xA0;<span class="">073</span>: </pre>
 <pre class="cython line score-0">&#xA0;<span class="">074</span>: </pre>
 <pre class="cython line score-169" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">075</span>:     <span class="k">cpdef</span> <span class="kt">double</span> <span class="nf">add_value</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="nb">long</span> <span class="n">row</span><span class="p">,</span> <span class="nb">long</span> <span class="n">col</span><span class="p">,</span> <span class="n">double</span> <span class="n">value</span><span class="p">):</span></pre>
-<pre class='cython code score-169 '>static PyObject *__pyx_pw_17Triangular_Matrix_17Triangular_Matrix_3add_value(PyObject *__pyx_v_self, 
+<pre class='cython code score-169 '>static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_17Triangular_Matrix_17Triangular_Matrix_3add_value(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static double __pyx_f_17Triangular_Matrix_17Triangular_Matrix_add_value(struct __pyx_obj_17Triangular_Matrix_Triangular_Matrix *__pyx_v_self, long __pyx_v_row, long __pyx_v_col, double __pyx_v_value, int __pyx_skip_dispatch) {
+static double __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_17Triangular_Matrix_17Triangular_Matrix_add_value(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_17Triangular_Matrix_Triangular_Matrix *__pyx_v_self, long __pyx_v_row, long __pyx_v_col, double __pyx_v_value, int __pyx_skip_dispatch) {
   double __pyx_r;
   /* Check if called by wrapper */
   if (unlikely(__pyx_skip_dispatch)) ;
@@ -618,7 +617,7 @@ static double __pyx_f_17Triangular_Matrix_17Triangular_Matrix_add_value(struct _
       #endif
       __pyx_t_1 = <span class='pyx_c_api'>__Pyx_PyObject_GetAttrStr</span>(((PyObject *)__pyx_v_self), __pyx_n_s_add_value);<span class='error_goto'> if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 75, __pyx_L1_error)</span>
       <span class='refnanny'>__Pyx_GOTREF</span>(__pyx_t_1);
-      if (!<span class='pyx_c_api'>__Pyx_IsSameCFunction</span>(__pyx_t_1, (void*) __pyx_pw_17Triangular_Matrix_17Triangular_Matrix_3add_value)) {
+      if (!<span class='pyx_c_api'>__Pyx_IsSameCFunction</span>(__pyx_t_1, (void*) __pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_17Triangular_Matrix_17Triangular_Matrix_3add_value)) {
         __pyx_t_3 = <span class='pyx_c_api'>__Pyx_PyInt_From_long</span>(__pyx_v_row);<span class='error_goto'> if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 75, __pyx_L1_error)</span>
         <span class='refnanny'>__Pyx_GOTREF</span>(__pyx_t_3);
         __pyx_t_4 = <span class='pyx_c_api'>__Pyx_PyInt_From_long</span>(__pyx_v_col);<span class='error_goto'> if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 75, __pyx_L1_error)</span>
@@ -679,7 +678,7 @@ static double __pyx_f_17Triangular_Matrix_17Triangular_Matrix_add_value(struct _
   <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_t_5);
   <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_t_6);
   <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_t_7);
-  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("Triangular_Matrix.Triangular_Matrix.add_value", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.Triangular_Matrix.Triangular_Matrix.add_value", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = 0;
   __pyx_L0:;
   <span class='refnanny'>__Pyx_RefNannyFinishContext</span>();
@@ -687,16 +686,16 @@ static double __pyx_f_17Triangular_Matrix_17Triangular_Matrix_add_value(struct _
 }
 
 /* Python wrapper */
-static PyObject *__pyx_pw_17Triangular_Matrix_17Triangular_Matrix_3add_value(PyObject *__pyx_v_self, 
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_17Triangular_Matrix_17Triangular_Matrix_3add_value(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-<span class='py_macro_api'>PyDoc_STRVAR</span>(__pyx_doc_17Triangular_Matrix_17Triangular_Matrix_2add_value, "\n        The function adds a value to the specified cell. A new cell is created if necessary.         \n        \n        :param row: cell coordinates\n        :param col:  cell coordinates\n        :param value: value to add\n        :return double: resulting cell value\n        ");
-static PyMethodDef __pyx_mdef_17Triangular_Matrix_17Triangular_Matrix_3add_value = {"add_value", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_17Triangular_Matrix_17Triangular_Matrix_3add_value, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_17Triangular_Matrix_17Triangular_Matrix_2add_value};
-static PyObject *__pyx_pw_17Triangular_Matrix_17Triangular_Matrix_3add_value(PyObject *__pyx_v_self, 
+<span class='py_macro_api'>PyDoc_STRVAR</span>(__pyx_doc_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_17Triangular_Matrix_17Triangular_Matrix_2add_value, "\n        The function adds a value to the specified cell. A new cell is created if necessary.         \n        \n        :param row: cell coordinates\n        :param col:  cell coordinates\n        :param value: value to add\n        :return double: resulting cell value\n        ");
+static PyMethodDef __pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_17Triangular_Matrix_17Triangular_Matrix_3add_value = {"add_value", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_17Triangular_Matrix_17Triangular_Matrix_3add_value, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_17Triangular_Matrix_17Triangular_Matrix_2add_value};
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_17Triangular_Matrix_17Triangular_Matrix_3add_value(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -793,11 +792,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       <span class='pyx_c_api'>__Pyx_Arg_XDECREF_FASTCALL</span>(values[__pyx_temp]);
     }
   }
-  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("Triangular_Matrix.Triangular_Matrix.add_value", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.Triangular_Matrix.Triangular_Matrix.add_value", __pyx_clineno, __pyx_lineno, __pyx_filename);
   <span class='refnanny'>__Pyx_RefNannyFinishContext</span>();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_17Triangular_Matrix_17Triangular_Matrix_2add_value(((struct __pyx_obj_17Triangular_Matrix_Triangular_Matrix *)__pyx_v_self), __pyx_v_row, __pyx_v_col, __pyx_v_value);
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_17Triangular_Matrix_17Triangular_Matrix_2add_value(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_17Triangular_Matrix_Triangular_Matrix *)__pyx_v_self), __pyx_v_row, __pyx_v_col, __pyx_v_value);
   int __pyx_lineno = 0;
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
@@ -813,10 +812,10 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_17Triangular_Matrix_17Triangular_Matrix_2add_value(struct __pyx_obj_17Triangular_Matrix_Triangular_Matrix *__pyx_v_self, long __pyx_v_row, long __pyx_v_col, double __pyx_v_value) {
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_17Triangular_Matrix_17Triangular_Matrix_2add_value(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_17Triangular_Matrix_Triangular_Matrix *__pyx_v_self, long __pyx_v_row, long __pyx_v_col, double __pyx_v_value) {
   PyObject *__pyx_r = NULL;
   <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_r);
-  __pyx_t_1 = __pyx_f_17Triangular_Matrix_17Triangular_Matrix_add_value(__pyx_v_self, __pyx_v_row, __pyx_v_col, __pyx_v_value, 1);<span class='error_goto'> if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 75, __pyx_L1_error)</span>
+  __pyx_t_1 = __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_17Triangular_Matrix_17Triangular_Matrix_add_value(__pyx_v_self, __pyx_v_row, __pyx_v_col, __pyx_v_value, 1);<span class='error_goto'> if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 75, __pyx_L1_error)</span>
   __pyx_t_2 = <span class='py_c_api'>PyFloat_FromDouble</span>(__pyx_t_1);<span class='error_goto'> if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 75, __pyx_L1_error)</span>
   <span class='refnanny'>__Pyx_GOTREF</span>(__pyx_t_2);
   __pyx_r = __pyx_t_2;
@@ -826,7 +825,7 @@ static PyObject *__pyx_pf_17Triangular_Matrix_17Triangular_Matrix_2add_value(str
   /* function exit code */
   __pyx_L1_error:;
   <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_t_2);
-  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("Triangular_Matrix.Triangular_Matrix.add_value", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.Triangular_Matrix.Triangular_Matrix.add_value", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   <span class='refnanny'>__Pyx_XGIVEREF</span>(__pyx_r);
@@ -838,11 +837,11 @@ static PyObject *__pyx_pf_17Triangular_Matrix_17Triangular_Matrix_2add_value(str
   <span class='refnanny'>__Pyx_GOTREF</span>(__pyx_tuple__6);
   <span class='refnanny'>__Pyx_GIVEREF</span>(__pyx_tuple__6);
 /* … */
-  __pyx_t_2 = <span class='pyx_c_api'>__Pyx_CyFunction_New</span>(&amp;__pyx_mdef_17Triangular_Matrix_17Triangular_Matrix_3add_value, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_Triangular_Matrix_add_value, NULL, __pyx_n_s_Triangular_Matrix, __pyx_d, ((PyObject *)__pyx_codeobj__7));<span class='error_goto'> if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 75, __pyx_L1_error)</span>
+  __pyx_t_2 = <span class='pyx_c_api'>__Pyx_CyFunction_New</span>(&amp;__pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_17Triangular_Matrix_17Triangular_Matrix_3add_value, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_Triangular_Matrix_add_value, NULL, __pyx_n_s_RecSysCompetition2024Polimi_libs, __pyx_d, ((PyObject *)__pyx_codeobj__7));<span class='error_goto'> if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 75, __pyx_L1_error)</span>
   <span class='refnanny'>__Pyx_GOTREF</span>(__pyx_t_2);
-  if (<span class='pyx_c_api'>__Pyx_SetItemOnTypeDict</span>((PyObject *)__pyx_ptype_17Triangular_Matrix_Triangular_Matrix, __pyx_n_s_add_value, __pyx_t_2) &lt; 0) <span class='error_goto'>__PYX_ERR(0, 75, __pyx_L1_error)</span>
+  if (<span class='pyx_c_api'>__Pyx_SetItemOnTypeDict</span>((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_17Triangular_Matrix_Triangular_Matrix, __pyx_n_s_add_value, __pyx_t_2) &lt; 0) <span class='error_goto'>__PYX_ERR(0, 75, __pyx_L1_error)</span>
   <span class='pyx_macro_api'>__Pyx_DECREF</span>(__pyx_t_2); __pyx_t_2 = 0;
-  <span class='py_c_api'>PyType_Modified</span>(__pyx_ptype_17Triangular_Matrix_Triangular_Matrix);
+  <span class='py_c_api'>PyType_Modified</span>(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_17Triangular_Matrix_Triangular_Matrix);
   __pyx_codeobj__7 = (PyObject*)<span class='pyx_c_api'>__Pyx_PyCode_New</span>(4, 0, 0, 4, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__6, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Triangular_Matrix_pyx, __pyx_n_s_add_value, 75, __pyx_empty_bytes);<span class='error_goto'> if (unlikely(!__pyx_codeobj__7)) __PYX_ERR(0, 75, __pyx_L1_error)</span>
 </pre><pre class="cython line score-0">&#xA0;<span class="">076</span>: <span class="w">        </span><span class="sd">&quot;&quot;&quot;</span></pre>
 <pre class="cython line score-0">&#xA0;<span class="">077</span>: <span class="sd">        The function adds a value to the specified cell. A new cell is created if necessary.         </span></pre>
@@ -1003,14 +1002,14 @@ static PyObject *__pyx_pf_17Triangular_Matrix_17Triangular_Matrix_2add_value(str
 <pre class="cython line score-0">&#xA0;<span class="">107</span>: </pre>
 <pre class="cython line score-0">&#xA0;<span class="">108</span>: </pre>
 <pre class="cython line score-138" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">109</span>:     <span class="k">cpdef</span> <span class="kt">double</span> <span class="nf">get_value</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="nb">long</span> <span class="n">row</span><span class="p">,</span> <span class="nb">long</span> <span class="n">col</span><span class="p">):</span></pre>
-<pre class='cython code score-138 '>static PyObject *__pyx_pw_17Triangular_Matrix_17Triangular_Matrix_5get_value(PyObject *__pyx_v_self, 
+<pre class='cython code score-138 '>static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_17Triangular_Matrix_17Triangular_Matrix_5get_value(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static double __pyx_f_17Triangular_Matrix_17Triangular_Matrix_get_value(struct __pyx_obj_17Triangular_Matrix_Triangular_Matrix *__pyx_v_self, long __pyx_v_row, long __pyx_v_col, int __pyx_skip_dispatch) {
+static double __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_17Triangular_Matrix_17Triangular_Matrix_get_value(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_17Triangular_Matrix_Triangular_Matrix *__pyx_v_self, long __pyx_v_row, long __pyx_v_col, int __pyx_skip_dispatch) {
   double __pyx_r;
   /* Check if called by wrapper */
   if (unlikely(__pyx_skip_dispatch)) ;
@@ -1023,7 +1022,7 @@ static double __pyx_f_17Triangular_Matrix_17Triangular_Matrix_get_value(struct _
       #endif
       __pyx_t_1 = <span class='pyx_c_api'>__Pyx_PyObject_GetAttrStr</span>(((PyObject *)__pyx_v_self), __pyx_n_s_get_value);<span class='error_goto'> if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 109, __pyx_L1_error)</span>
       <span class='refnanny'>__Pyx_GOTREF</span>(__pyx_t_1);
-      if (!<span class='pyx_c_api'>__Pyx_IsSameCFunction</span>(__pyx_t_1, (void*) __pyx_pw_17Triangular_Matrix_17Triangular_Matrix_5get_value)) {
+      if (!<span class='pyx_c_api'>__Pyx_IsSameCFunction</span>(__pyx_t_1, (void*) __pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_17Triangular_Matrix_17Triangular_Matrix_5get_value)) {
         __pyx_t_3 = <span class='pyx_c_api'>__Pyx_PyInt_From_long</span>(__pyx_v_row);<span class='error_goto'> if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 109, __pyx_L1_error)</span>
         <span class='refnanny'>__Pyx_GOTREF</span>(__pyx_t_3);
         __pyx_t_4 = <span class='pyx_c_api'>__Pyx_PyInt_From_long</span>(__pyx_v_col);<span class='error_goto'> if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 109, __pyx_L1_error)</span>
@@ -1081,7 +1080,7 @@ static double __pyx_f_17Triangular_Matrix_17Triangular_Matrix_get_value(struct _
   <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_t_5);
   <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_t_6);
   <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_t_11);
-  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("Triangular_Matrix.Triangular_Matrix.get_value", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.Triangular_Matrix.Triangular_Matrix.get_value", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = 0;
   __pyx_L0:;
   <span class='refnanny'>__Pyx_RefNannyFinishContext</span>();
@@ -1089,16 +1088,16 @@ static double __pyx_f_17Triangular_Matrix_17Triangular_Matrix_get_value(struct _
 }
 
 /* Python wrapper */
-static PyObject *__pyx_pw_17Triangular_Matrix_17Triangular_Matrix_5get_value(PyObject *__pyx_v_self, 
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_17Triangular_Matrix_17Triangular_Matrix_5get_value(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-<span class='py_macro_api'>PyDoc_STRVAR</span>(__pyx_doc_17Triangular_Matrix_17Triangular_Matrix_4get_value, "\n        The function returns the value of the specified cell.         \n        \n        :param row: cell coordinates\n        :param col:  cell coordinates\n        :return double: cell value\n        ");
-static PyMethodDef __pyx_mdef_17Triangular_Matrix_17Triangular_Matrix_5get_value = {"get_value", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_17Triangular_Matrix_17Triangular_Matrix_5get_value, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_17Triangular_Matrix_17Triangular_Matrix_4get_value};
-static PyObject *__pyx_pw_17Triangular_Matrix_17Triangular_Matrix_5get_value(PyObject *__pyx_v_self, 
+<span class='py_macro_api'>PyDoc_STRVAR</span>(__pyx_doc_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_17Triangular_Matrix_17Triangular_Matrix_4get_value, "\n        The function returns the value of the specified cell.         \n        \n        :param row: cell coordinates\n        :param col:  cell coordinates\n        :return double: cell value\n        ");
+static PyMethodDef __pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_17Triangular_Matrix_17Triangular_Matrix_5get_value = {"get_value", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_17Triangular_Matrix_17Triangular_Matrix_5get_value, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_17Triangular_Matrix_17Triangular_Matrix_4get_value};
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_17Triangular_Matrix_17Triangular_Matrix_5get_value(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -1180,11 +1179,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       <span class='pyx_c_api'>__Pyx_Arg_XDECREF_FASTCALL</span>(values[__pyx_temp]);
     }
   }
-  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("Triangular_Matrix.Triangular_Matrix.get_value", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.Triangular_Matrix.Triangular_Matrix.get_value", __pyx_clineno, __pyx_lineno, __pyx_filename);
   <span class='refnanny'>__Pyx_RefNannyFinishContext</span>();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_17Triangular_Matrix_17Triangular_Matrix_4get_value(((struct __pyx_obj_17Triangular_Matrix_Triangular_Matrix *)__pyx_v_self), __pyx_v_row, __pyx_v_col);
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_17Triangular_Matrix_17Triangular_Matrix_4get_value(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_17Triangular_Matrix_Triangular_Matrix *)__pyx_v_self), __pyx_v_row, __pyx_v_col);
   int __pyx_lineno = 0;
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
@@ -1200,10 +1199,10 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_17Triangular_Matrix_17Triangular_Matrix_4get_value(struct __pyx_obj_17Triangular_Matrix_Triangular_Matrix *__pyx_v_self, long __pyx_v_row, long __pyx_v_col) {
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_17Triangular_Matrix_17Triangular_Matrix_4get_value(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_17Triangular_Matrix_Triangular_Matrix *__pyx_v_self, long __pyx_v_row, long __pyx_v_col) {
   PyObject *__pyx_r = NULL;
   <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_r);
-  __pyx_t_1 = __pyx_f_17Triangular_Matrix_17Triangular_Matrix_get_value(__pyx_v_self, __pyx_v_row, __pyx_v_col, 1);<span class='error_goto'> if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 109, __pyx_L1_error)</span>
+  __pyx_t_1 = __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_17Triangular_Matrix_17Triangular_Matrix_get_value(__pyx_v_self, __pyx_v_row, __pyx_v_col, 1);<span class='error_goto'> if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 109, __pyx_L1_error)</span>
   __pyx_t_2 = <span class='py_c_api'>PyFloat_FromDouble</span>(__pyx_t_1);<span class='error_goto'> if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 109, __pyx_L1_error)</span>
   <span class='refnanny'>__Pyx_GOTREF</span>(__pyx_t_2);
   __pyx_r = __pyx_t_2;
@@ -1213,7 +1212,7 @@ static PyObject *__pyx_pf_17Triangular_Matrix_17Triangular_Matrix_4get_value(str
   /* function exit code */
   __pyx_L1_error:;
   <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_t_2);
-  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("Triangular_Matrix.Triangular_Matrix.get_value", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.Triangular_Matrix.Triangular_Matrix.get_value", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   <span class='refnanny'>__Pyx_XGIVEREF</span>(__pyx_r);
@@ -1225,11 +1224,11 @@ static PyObject *__pyx_pf_17Triangular_Matrix_17Triangular_Matrix_4get_value(str
   <span class='refnanny'>__Pyx_GOTREF</span>(__pyx_tuple__8);
   <span class='refnanny'>__Pyx_GIVEREF</span>(__pyx_tuple__8);
 /* … */
-  __pyx_t_2 = <span class='pyx_c_api'>__Pyx_CyFunction_New</span>(&amp;__pyx_mdef_17Triangular_Matrix_17Triangular_Matrix_5get_value, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_Triangular_Matrix_get_value, NULL, __pyx_n_s_Triangular_Matrix, __pyx_d, ((PyObject *)__pyx_codeobj__9));<span class='error_goto'> if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 109, __pyx_L1_error)</span>
+  __pyx_t_2 = <span class='pyx_c_api'>__Pyx_CyFunction_New</span>(&amp;__pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_17Triangular_Matrix_17Triangular_Matrix_5get_value, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_Triangular_Matrix_get_value, NULL, __pyx_n_s_RecSysCompetition2024Polimi_libs, __pyx_d, ((PyObject *)__pyx_codeobj__9));<span class='error_goto'> if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 109, __pyx_L1_error)</span>
   <span class='refnanny'>__Pyx_GOTREF</span>(__pyx_t_2);
-  if (<span class='pyx_c_api'>__Pyx_SetItemOnTypeDict</span>((PyObject *)__pyx_ptype_17Triangular_Matrix_Triangular_Matrix, __pyx_n_s_get_value, __pyx_t_2) &lt; 0) <span class='error_goto'>__PYX_ERR(0, 109, __pyx_L1_error)</span>
+  if (<span class='pyx_c_api'>__Pyx_SetItemOnTypeDict</span>((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_17Triangular_Matrix_Triangular_Matrix, __pyx_n_s_get_value, __pyx_t_2) &lt; 0) <span class='error_goto'>__PYX_ERR(0, 109, __pyx_L1_error)</span>
   <span class='pyx_macro_api'>__Pyx_DECREF</span>(__pyx_t_2); __pyx_t_2 = 0;
-  <span class='py_c_api'>PyType_Modified</span>(__pyx_ptype_17Triangular_Matrix_Triangular_Matrix);
+  <span class='py_c_api'>PyType_Modified</span>(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_17Triangular_Matrix_Triangular_Matrix);
   __pyx_codeobj__9 = (PyObject*)<span class='pyx_c_api'>__Pyx_PyCode_New</span>(3, 0, 0, 3, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__8, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Triangular_Matrix_pyx, __pyx_n_s_get_value, 109, __pyx_empty_bytes);<span class='error_goto'> if (unlikely(!__pyx_codeobj__9)) __PYX_ERR(0, 109, __pyx_L1_error)</span>
 </pre><pre class="cython line score-0">&#xA0;<span class="">110</span>: <span class="w">        </span><span class="sd">&quot;&quot;&quot;</span></pre>
 <pre class="cython line score-0">&#xA0;<span class="">111</span>: <span class="sd">        The function returns the value of the specified cell.         </span></pre>
@@ -1380,14 +1379,14 @@ static PyObject *__pyx_pf_17Triangular_Matrix_17Triangular_Matrix_4get_value(str
 <pre class="cython line score-0">&#xA0;<span class="">136</span>: </pre>
 <pre class="cython line score-0">&#xA0;<span class="">137</span>: </pre>
 <pre class="cython line score-127" onclick="(function(s){s.display=s.display==='block'?'none':'block'})(this.nextElementSibling.style)">+<span class="">138</span>:     <span class="k">cpdef</span> <span class="nf">get_scipy_csr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="nb">long</span> <span class="n">TopK</span> <span class="o">=</span> <span class="bp">False</span><span class="p">):</span></pre>
-<pre class='cython code score-127 '>static PyObject *__pyx_pw_17Triangular_Matrix_17Triangular_Matrix_7get_scipy_csr(PyObject *__pyx_v_self, 
+<pre class='cython code score-127 '>static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_17Triangular_Matrix_17Triangular_Matrix_7get_scipy_csr(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static PyObject *__pyx_f_17Triangular_Matrix_17Triangular_Matrix_get_scipy_csr(struct __pyx_obj_17Triangular_Matrix_Triangular_Matrix *__pyx_v_self, int __pyx_skip_dispatch, struct __pyx_opt_args_17Triangular_Matrix_17Triangular_Matrix_get_scipy_csr *__pyx_optional_args) {
+static PyObject *__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_17Triangular_Matrix_17Triangular_Matrix_get_scipy_csr(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_17Triangular_Matrix_Triangular_Matrix *__pyx_v_self, int __pyx_skip_dispatch, struct __pyx_opt_args_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_17Triangular_Matrix_17Triangular_Matrix_get_scipy_csr *__pyx_optional_args) {
   long __pyx_v_TopK = ((long)0);
   long __pyx_v_row;
   long __pyx_v_col;
@@ -1434,7 +1433,7 @@ static PyObject *__pyx_f_17Triangular_Matrix_17Triangular_Matrix_get_scipy_csr(s
       #endif
       __pyx_t_1 = <span class='pyx_c_api'>__Pyx_PyObject_GetAttrStr</span>(((PyObject *)__pyx_v_self), __pyx_n_s_get_scipy_csr);<span class='error_goto'> if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 138, __pyx_L1_error)</span>
       <span class='refnanny'>__Pyx_GOTREF</span>(__pyx_t_1);
-      if (!<span class='pyx_c_api'>__Pyx_IsSameCFunction</span>(__pyx_t_1, (void*) __pyx_pw_17Triangular_Matrix_17Triangular_Matrix_7get_scipy_csr)) {
+      if (!<span class='pyx_c_api'>__Pyx_IsSameCFunction</span>(__pyx_t_1, (void*) __pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_17Triangular_Matrix_17Triangular_Matrix_7get_scipy_csr)) {
         <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_r);
         __pyx_t_3 = <span class='pyx_c_api'>__Pyx_PyInt_From_long</span>(__pyx_v_TopK);<span class='error_goto'> if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 138, __pyx_L1_error)</span>
         <span class='refnanny'>__Pyx_GOTREF</span>(__pyx_t_3);
@@ -1496,7 +1495,7 @@ static PyObject *__pyx_f_17Triangular_Matrix_17Triangular_Matrix_get_scipy_csr(s
     <span class='pyx_c_api'>__Pyx_SafeReleaseBuffer</span>(&amp;__pyx_pybuffernd_currentRowArray_np.rcbuffer-&gt;pybuffer);
     <span class='pyx_c_api'>__Pyx_SafeReleaseBuffer</span>(&amp;__pyx_pybuffernd_template_zero.rcbuffer-&gt;pybuffer);
   <span class='pyx_c_api'>__Pyx_ErrRestore</span>(__pyx_type, __pyx_value, __pyx_tb);}
-  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("Triangular_Matrix.Triangular_Matrix.get_scipy_csr", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.Triangular_Matrix.Triangular_Matrix.get_scipy_csr", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = 0;
   goto __pyx_L2;
   __pyx_L0:;
@@ -1517,16 +1516,16 @@ static PyObject *__pyx_f_17Triangular_Matrix_17Triangular_Matrix_get_scipy_csr(s
 }
 
 /* Python wrapper */
-static PyObject *__pyx_pw_17Triangular_Matrix_17Triangular_Matrix_7get_scipy_csr(PyObject *__pyx_v_self, 
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_17Triangular_Matrix_17Triangular_Matrix_7get_scipy_csr(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-<span class='py_macro_api'>PyDoc_STRVAR</span>(__pyx_doc_17Triangular_Matrix_17Triangular_Matrix_6get_scipy_csr, "\n        The function returns the current sparse matrix as a scipy_csr object         \n   \n        :return double: scipy_csr object\n        ");
-static PyMethodDef __pyx_mdef_17Triangular_Matrix_17Triangular_Matrix_7get_scipy_csr = {"get_scipy_csr", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_17Triangular_Matrix_17Triangular_Matrix_7get_scipy_csr, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_17Triangular_Matrix_17Triangular_Matrix_6get_scipy_csr};
-static PyObject *__pyx_pw_17Triangular_Matrix_17Triangular_Matrix_7get_scipy_csr(PyObject *__pyx_v_self, 
+<span class='py_macro_api'>PyDoc_STRVAR</span>(__pyx_doc_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_17Triangular_Matrix_17Triangular_Matrix_6get_scipy_csr, "\n        The function returns the current sparse matrix as a scipy_csr object         \n   \n        :return double: scipy_csr object\n        ");
+static PyMethodDef __pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_17Triangular_Matrix_17Triangular_Matrix_7get_scipy_csr = {"get_scipy_csr", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_17Triangular_Matrix_17Triangular_Matrix_7get_scipy_csr, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_17Triangular_Matrix_17Triangular_Matrix_6get_scipy_csr};
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_17Triangular_Matrix_17Triangular_Matrix_7get_scipy_csr(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -1599,11 +1598,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       <span class='pyx_c_api'>__Pyx_Arg_XDECREF_FASTCALL</span>(values[__pyx_temp]);
     }
   }
-  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("Triangular_Matrix.Triangular_Matrix.get_scipy_csr", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.Triangular_Matrix.Triangular_Matrix.get_scipy_csr", __pyx_clineno, __pyx_lineno, __pyx_filename);
   <span class='refnanny'>__Pyx_RefNannyFinishContext</span>();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_17Triangular_Matrix_17Triangular_Matrix_6get_scipy_csr(((struct __pyx_obj_17Triangular_Matrix_Triangular_Matrix *)__pyx_v_self), __pyx_v_TopK);
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_17Triangular_Matrix_17Triangular_Matrix_6get_scipy_csr(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_17Triangular_Matrix_Triangular_Matrix *)__pyx_v_self), __pyx_v_TopK);
 
   /* function exit code */
   {
@@ -1616,12 +1615,12 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_17Triangular_Matrix_17Triangular_Matrix_6get_scipy_csr(struct __pyx_obj_17Triangular_Matrix_Triangular_Matrix *__pyx_v_self, long __pyx_v_TopK) {
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_17Triangular_Matrix_17Triangular_Matrix_6get_scipy_csr(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_17Triangular_Matrix_Triangular_Matrix *__pyx_v_self, long __pyx_v_TopK) {
   PyObject *__pyx_r = NULL;
   <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_r);
   __pyx_t_2.__pyx_n = 1;
   __pyx_t_2.TopK = __pyx_v_TopK;
-  __pyx_t_1 = __pyx_vtabptr_17Triangular_Matrix_Triangular_Matrix-&gt;get_scipy_csr(__pyx_v_self, 1, &amp;__pyx_t_2);<span class='error_goto'> if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 138, __pyx_L1_error)</span>
+  __pyx_t_1 = __pyx_vtabptr_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_17Triangular_Matrix_Triangular_Matrix-&gt;get_scipy_csr(__pyx_v_self, 1, &amp;__pyx_t_2);<span class='error_goto'> if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 138, __pyx_L1_error)</span>
   <span class='refnanny'>__Pyx_GOTREF</span>(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
@@ -1630,7 +1629,7 @@ static PyObject *__pyx_pf_17Triangular_Matrix_17Triangular_Matrix_6get_scipy_csr
   /* function exit code */
   __pyx_L1_error:;
   <span class='pyx_macro_api'>__Pyx_XDECREF</span>(__pyx_t_1);
-  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("Triangular_Matrix.Triangular_Matrix.get_scipy_csr", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  <span class='pyx_c_api'>__Pyx_AddTraceback</span>("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.Triangular_Matrix.Triangular_Matrix.get_scipy_csr", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   <span class='refnanny'>__Pyx_XGIVEREF</span>(__pyx_r);
@@ -1643,17 +1642,17 @@ static PyObject *__pyx_pf_17Triangular_Matrix_17Triangular_Matrix_6get_scipy_csr
   <span class='refnanny'>__Pyx_GIVEREF</span>(__pyx_tuple__10);
   __pyx_codeobj__11 = (PyObject*)<span class='pyx_c_api'>__Pyx_PyCode_New</span>(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__10, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Triangular_Matrix_pyx, __pyx_n_s_get_scipy_csr, 138, __pyx_empty_bytes);<span class='error_goto'> if (unlikely(!__pyx_codeobj__11)) __PYX_ERR(0, 138, __pyx_L1_error)</span>
 /* … */
-  __pyx_t_2 = <span class='pyx_c_api'>__Pyx_CyFunction_New</span>(&amp;__pyx_mdef_17Triangular_Matrix_17Triangular_Matrix_7get_scipy_csr, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_Triangular_Matrix_get_scipy_csr, NULL, __pyx_n_s_Triangular_Matrix, __pyx_d, ((PyObject *)__pyx_codeobj__11));<span class='error_goto'> if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 138, __pyx_L1_error)</span>
+  __pyx_t_2 = <span class='pyx_c_api'>__Pyx_CyFunction_New</span>(&amp;__pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_17Triangular_Matrix_17Triangular_Matrix_7get_scipy_csr, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_Triangular_Matrix_get_scipy_csr, NULL, __pyx_n_s_RecSysCompetition2024Polimi_libs, __pyx_d, ((PyObject *)__pyx_codeobj__11));<span class='error_goto'> if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 138, __pyx_L1_error)</span>
   <span class='refnanny'>__Pyx_GOTREF</span>(__pyx_t_2);
   <span class='pyx_c_api'>__Pyx_CyFunction_SetDefaultsTuple</span>(__pyx_t_2, __pyx_tuple__12);
-  if (<span class='pyx_c_api'>__Pyx_SetItemOnTypeDict</span>((PyObject *)__pyx_ptype_17Triangular_Matrix_Triangular_Matrix, __pyx_n_s_get_scipy_csr, __pyx_t_2) &lt; 0) <span class='error_goto'>__PYX_ERR(0, 138, __pyx_L1_error)</span>
+  if (<span class='pyx_c_api'>__Pyx_SetItemOnTypeDict</span>((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_17Triangular_Matrix_Triangular_Matrix, __pyx_n_s_get_scipy_csr, __pyx_t_2) &lt; 0) <span class='error_goto'>__PYX_ERR(0, 138, __pyx_L1_error)</span>
   <span class='pyx_macro_api'>__Pyx_DECREF</span>(__pyx_t_2); __pyx_t_2 = 0;
-  <span class='py_c_api'>PyType_Modified</span>(__pyx_ptype_17Triangular_Matrix_Triangular_Matrix);
+  <span class='py_c_api'>PyType_Modified</span>(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_17Triangular_Matrix_Triangular_Matrix);
   __pyx_tuple__12 = <span class='py_c_api'>PyTuple_Pack</span>(1, Py_False);<span class='error_goto'> if (unlikely(!__pyx_tuple__12)) __PYX_ERR(0, 138, __pyx_L1_error)</span>
   <span class='refnanny'>__Pyx_GOTREF</span>(__pyx_tuple__12);
   <span class='refnanny'>__Pyx_GIVEREF</span>(__pyx_tuple__12);
 /* … */
-struct __pyx_opt_args_17Triangular_Matrix_17Triangular_Matrix_get_scipy_csr {
+struct __pyx_opt_args_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_17Triangular_Matrix_17Triangular_Matrix_get_scipy_csr {
   int __pyx_n;
   long TopK;
 };

@@ -1216,8 +1216,8 @@ static CYTHON_INLINE float __PYX_NAN() {
   #endif
 #endif
 
-#define __PYX_HAVE__SLIM_BPR_Cython_Epoch
-#define __PYX_HAVE_API__SLIM_BPR_Cython_Epoch
+#define __PYX_HAVE__RecSysCompetition2024Polimi__libs__Recommenders__SLIM__Cython__SLIM_BPR_Cython_Epoch
+#define __PYX_HAVE_API__RecSysCompetition2024Polimi__libs__Recommenders__SLIM__Cython__SLIM_BPR_Cython_Epoch
 /* Early includes */
 #include <string.h>
 #include <stdio.h>
@@ -1662,7 +1662,7 @@ typedef struct {
 
 /* #### Code section: numeric_typedefs ### */
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":732
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":730
  * # in Cython to enable them only on the right systems.
  * 
  * ctypedef npy_int8       int8_t             # <<<<<<<<<<<<<<
@@ -1671,7 +1671,7 @@ typedef struct {
  */
 typedef npy_int8 __pyx_t_5numpy_int8_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":733
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":731
  * 
  * ctypedef npy_int8       int8_t
  * ctypedef npy_int16      int16_t             # <<<<<<<<<<<<<<
@@ -1680,7 +1680,7 @@ typedef npy_int8 __pyx_t_5numpy_int8_t;
  */
 typedef npy_int16 __pyx_t_5numpy_int16_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":734
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":732
  * ctypedef npy_int8       int8_t
  * ctypedef npy_int16      int16_t
  * ctypedef npy_int32      int32_t             # <<<<<<<<<<<<<<
@@ -1689,7 +1689,7 @@ typedef npy_int16 __pyx_t_5numpy_int16_t;
  */
 typedef npy_int32 __pyx_t_5numpy_int32_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":735
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":733
  * ctypedef npy_int16      int16_t
  * ctypedef npy_int32      int32_t
  * ctypedef npy_int64      int64_t             # <<<<<<<<<<<<<<
@@ -1698,7 +1698,7 @@ typedef npy_int32 __pyx_t_5numpy_int32_t;
  */
 typedef npy_int64 __pyx_t_5numpy_int64_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":739
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":737
  * #ctypedef npy_int128     int128_t
  * 
  * ctypedef npy_uint8      uint8_t             # <<<<<<<<<<<<<<
@@ -1707,7 +1707,7 @@ typedef npy_int64 __pyx_t_5numpy_int64_t;
  */
 typedef npy_uint8 __pyx_t_5numpy_uint8_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":740
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":738
  * 
  * ctypedef npy_uint8      uint8_t
  * ctypedef npy_uint16     uint16_t             # <<<<<<<<<<<<<<
@@ -1716,7 +1716,7 @@ typedef npy_uint8 __pyx_t_5numpy_uint8_t;
  */
 typedef npy_uint16 __pyx_t_5numpy_uint16_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":741
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":739
  * ctypedef npy_uint8      uint8_t
  * ctypedef npy_uint16     uint16_t
  * ctypedef npy_uint32     uint32_t             # <<<<<<<<<<<<<<
@@ -1725,7 +1725,7 @@ typedef npy_uint16 __pyx_t_5numpy_uint16_t;
  */
 typedef npy_uint32 __pyx_t_5numpy_uint32_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":742
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":740
  * ctypedef npy_uint16     uint16_t
  * ctypedef npy_uint32     uint32_t
  * ctypedef npy_uint64     uint64_t             # <<<<<<<<<<<<<<
@@ -1734,7 +1734,7 @@ typedef npy_uint32 __pyx_t_5numpy_uint32_t;
  */
 typedef npy_uint64 __pyx_t_5numpy_uint64_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":746
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":744
  * #ctypedef npy_uint128    uint128_t
  * 
  * ctypedef npy_float32    float32_t             # <<<<<<<<<<<<<<
@@ -1743,7 +1743,7 @@ typedef npy_uint64 __pyx_t_5numpy_uint64_t;
  */
 typedef npy_float32 __pyx_t_5numpy_float32_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":747
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":745
  * 
  * ctypedef npy_float32    float32_t
  * ctypedef npy_float64    float64_t             # <<<<<<<<<<<<<<
@@ -1752,61 +1752,43 @@ typedef npy_float32 __pyx_t_5numpy_float32_t;
  */
 typedef npy_float64 __pyx_t_5numpy_float64_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":756
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":754
  * # The int types are mapped a bit surprising --
  * # numpy.int corresponds to 'l' and numpy.long to 'q'
  * ctypedef npy_long       int_t             # <<<<<<<<<<<<<<
- * ctypedef npy_longlong   long_t
- * ctypedef npy_longlong   longlong_t
- */
-typedef npy_long __pyx_t_5numpy_int_t;
-
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":757
- * # numpy.int corresponds to 'l' and numpy.long to 'q'
- * ctypedef npy_long       int_t
- * ctypedef npy_longlong   long_t             # <<<<<<<<<<<<<<
  * ctypedef npy_longlong   longlong_t
  * 
  */
-typedef npy_longlong __pyx_t_5numpy_long_t;
+typedef npy_long __pyx_t_5numpy_int_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":758
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":755
+ * # numpy.int corresponds to 'l' and numpy.long to 'q'
  * ctypedef npy_long       int_t
- * ctypedef npy_longlong   long_t
  * ctypedef npy_longlong   longlong_t             # <<<<<<<<<<<<<<
  * 
  * ctypedef npy_ulong      uint_t
  */
 typedef npy_longlong __pyx_t_5numpy_longlong_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":760
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":757
  * ctypedef npy_longlong   longlong_t
  * 
  * ctypedef npy_ulong      uint_t             # <<<<<<<<<<<<<<
- * ctypedef npy_ulonglong  ulong_t
  * ctypedef npy_ulonglong  ulonglong_t
+ * 
  */
 typedef npy_ulong __pyx_t_5numpy_uint_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":761
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":758
  * 
  * ctypedef npy_ulong      uint_t
- * ctypedef npy_ulonglong  ulong_t             # <<<<<<<<<<<<<<
- * ctypedef npy_ulonglong  ulonglong_t
- * 
- */
-typedef npy_ulonglong __pyx_t_5numpy_ulong_t;
-
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":762
- * ctypedef npy_ulong      uint_t
- * ctypedef npy_ulonglong  ulong_t
  * ctypedef npy_ulonglong  ulonglong_t             # <<<<<<<<<<<<<<
  * 
  * ctypedef npy_intp       intp_t
  */
 typedef npy_ulonglong __pyx_t_5numpy_ulonglong_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":764
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":760
  * ctypedef npy_ulonglong  ulonglong_t
  * 
  * ctypedef npy_intp       intp_t             # <<<<<<<<<<<<<<
@@ -1815,7 +1797,7 @@ typedef npy_ulonglong __pyx_t_5numpy_ulonglong_t;
  */
 typedef npy_intp __pyx_t_5numpy_intp_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":765
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":761
  * 
  * ctypedef npy_intp       intp_t
  * ctypedef npy_uintp      uintp_t             # <<<<<<<<<<<<<<
@@ -1824,7 +1806,7 @@ typedef npy_intp __pyx_t_5numpy_intp_t;
  */
 typedef npy_uintp __pyx_t_5numpy_uintp_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":767
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":763
  * ctypedef npy_uintp      uintp_t
  * 
  * ctypedef npy_double     float_t             # <<<<<<<<<<<<<<
@@ -1833,7 +1815,7 @@ typedef npy_uintp __pyx_t_5numpy_uintp_t;
  */
 typedef npy_double __pyx_t_5numpy_float_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":768
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":764
  * 
  * ctypedef npy_double     float_t
  * ctypedef npy_double     double_t             # <<<<<<<<<<<<<<
@@ -1842,7 +1824,7 @@ typedef npy_double __pyx_t_5numpy_float_t;
  */
 typedef npy_double __pyx_t_5numpy_double_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":769
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":765
  * ctypedef npy_double     float_t
  * ctypedef npy_double     double_t
  * ctypedef npy_longdouble longdouble_t             # <<<<<<<<<<<<<<
@@ -1882,15 +1864,15 @@ static CYTHON_INLINE __pyx_t_double_complex __pyx_t_double_complex_from_parts(do
 struct arrayobject;
 typedef struct arrayobject arrayobject;
 #endif
-struct __pyx_obj_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch;
-struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR;
-struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Triangular_Matrix;
+struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch;
+struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR;
+struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix;
 struct __pyx_array_obj;
 struct __pyx_MemviewEnum_obj;
 struct __pyx_memoryview_obj;
 struct __pyx_memoryviewslice_obj;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":771
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":767
  * ctypedef npy_longdouble longdouble_t
  * 
  * ctypedef npy_cfloat      cfloat_t             # <<<<<<<<<<<<<<
@@ -1899,7 +1881,7 @@ struct __pyx_memoryviewslice_obj;
  */
 typedef npy_cfloat __pyx_t_5numpy_cfloat_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":772
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":768
  * 
  * ctypedef npy_cfloat      cfloat_t
  * ctypedef npy_cdouble     cdouble_t             # <<<<<<<<<<<<<<
@@ -1908,7 +1890,7 @@ typedef npy_cfloat __pyx_t_5numpy_cfloat_t;
  */
 typedef npy_cdouble __pyx_t_5numpy_cdouble_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":773
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":769
  * ctypedef npy_cfloat      cfloat_t
  * ctypedef npy_cdouble     cdouble_t
  * ctypedef npy_clongdouble clongdouble_t             # <<<<<<<<<<<<<<
@@ -1917,7 +1899,7 @@ typedef npy_cdouble __pyx_t_5numpy_cdouble_t;
  */
 typedef npy_clongdouble __pyx_t_5numpy_clongdouble_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":775
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":771
  * ctypedef npy_clongdouble clongdouble_t
  * 
  * ctypedef npy_cdouble     complex_t             # <<<<<<<<<<<<<<
@@ -1925,23 +1907,23 @@ typedef npy_clongdouble __pyx_t_5numpy_clongdouble_t;
  * cdef inline object PyArray_MultiIterNew1(a):
  */
 typedef npy_cdouble __pyx_t_5numpy_complex_t;
-struct __pyx_t_21SLIM_BPR_Cython_Epoch_BPR_sample;
-struct __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s;
-typedef struct __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s;
-struct __pyx_t_21SLIM_BPR_Cython_Epoch_head_pointer_tree_s;
-typedef struct __pyx_t_21SLIM_BPR_Cython_Epoch_head_pointer_tree_s __pyx_t_21SLIM_BPR_Cython_Epoch_head_pointer_tree_s;
-struct __pyx_opt_args_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_get_scipy_csr;
-struct __pyx_opt_args_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_rebalance_tree;
-struct __pyx_opt_args_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_get_scipy_csr;
+struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_BPR_sample;
+struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s;
+typedef struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s;
+struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_head_pointer_tree_s;
+typedef struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_head_pointer_tree_s __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_head_pointer_tree_s;
+struct __pyx_opt_args_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_get_scipy_csr;
+struct __pyx_opt_args_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_rebalance_tree;
+struct __pyx_opt_args_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_get_scipy_csr;
 
-/* "SLIM_BPR_Cython_Epoch.pyx":46
+/* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":46
  * 
  * 
  * cdef struct BPR_sample:             # <<<<<<<<<<<<<<
  *     long user
  *     long pos_item
  */
-struct __pyx_t_21SLIM_BPR_Cython_Epoch_BPR_sample {
+struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_BPR_sample {
   long user;
   long pos_item;
   long neg_item;
@@ -1949,77 +1931,77 @@ struct __pyx_t_21SLIM_BPR_Cython_Epoch_BPR_sample {
   long seen_items_end_pos;
 };
 
-/* "SLIM_BPR_Cython_Epoch.pyx":508
+/* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":508
  * 
  * # Node struct
  * ctypedef struct matrix_element_tree_s:             # <<<<<<<<<<<<<<
  *     long column
  *     float data
  */
-struct __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s {
+struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s {
   long column;
   float data;
-  __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *higher;
-  __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *lower;
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *higher;
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *lower;
 };
 
-/* "SLIM_BPR_Cython_Epoch.pyx":514
+/* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":514
  *     matrix_element_tree_s *lower
  * 
  * ctypedef struct head_pointer_tree_s:             # <<<<<<<<<<<<<<
  *     matrix_element_tree_s *head
  * 
  */
-struct __pyx_t_21SLIM_BPR_Cython_Epoch_head_pointer_tree_s {
-  __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *head;
+struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_head_pointer_tree_s {
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *head;
 };
 
-/* "SLIM_BPR_Cython_Epoch.pyx":736
+/* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":736
  * 
  * 
  *     cdef get_scipy_csr(self, long TopK = False):             # <<<<<<<<<<<<<<
  *         """
  *         The function returns the current sparse matrix as a scipy_csr object
  */
-struct __pyx_opt_args_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_get_scipy_csr {
+struct __pyx_opt_args_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_get_scipy_csr {
   int __pyx_n;
   long TopK;
 };
 
-/* "SLIM_BPR_Cython_Epoch.pyx":781
+/* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":781
  * 
  * 
  *     cdef rebalance_tree(self, long TopK = False):             # <<<<<<<<<<<<<<
  *         """
  *         The function builds a balanced binary tree from the current one, for all matrix rows
  */
-struct __pyx_opt_args_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_rebalance_tree {
+struct __pyx_opt_args_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_rebalance_tree {
   int __pyx_n;
   long TopK;
 };
 
-/* "SLIM_BPR_Cython_Epoch.pyx":1342
+/* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1342
  * 
  * 
  *     cdef get_scipy_csr(self, long TopK = False):             # <<<<<<<<<<<<<<
  *         """
  *         The function returns the current sparse matrix as a scipy_csr object
  */
-struct __pyx_opt_args_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_get_scipy_csr {
+struct __pyx_opt_args_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_get_scipy_csr {
   int __pyx_n;
   long TopK;
 };
 
-/* "SLIM_BPR_Cython_Epoch.pyx":60
+/* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":60
  * @cython.cdivision(True)
  * @cython.overflowcheck(False)
  * cdef class SLIM_BPR_Cython_Epoch:             # <<<<<<<<<<<<<<
  * 
  *     cdef int n_users, n_items
  */
-struct __pyx_obj_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch {
+struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch {
   PyObject_HEAD
-  struct __pyx_vtabstruct_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *__pyx_vtab;
+  struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *__pyx_vtab;
   int n_users;
   int n_items;
   int topK;
@@ -2031,8 +2013,8 @@ struct __pyx_obj_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch {
   float lj_reg;
   __Pyx_memviewslice URM_mask_indices;
   __Pyx_memviewslice URM_mask_indptr;
-  struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *S_sparse;
-  struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *S_symmetric;
+  struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *S_sparse;
+  struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *S_symmetric;
   __Pyx_memviewslice S_dense;
   int useAdaGrad;
   int useRmsprop;
@@ -2051,32 +2033,32 @@ struct __pyx_obj_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch {
 };
 
 
-/* "SLIM_BPR_Cython_Epoch.pyx":578
+/* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":578
  * @cython.cdivision(True)
  * @cython.overflowcheck(False)
  * cdef class Sparse_Matrix_Tree_CSR:             # <<<<<<<<<<<<<<
  * 
  *     cdef long num_rows, num_cols
  */
-struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR {
+struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR {
   PyObject_HEAD
-  struct __pyx_vtabstruct_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *__pyx_vtab;
+  struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *__pyx_vtab;
   long num_rows;
   long num_cols;
-  __pyx_t_21SLIM_BPR_Cython_Epoch_head_pointer_tree_s *row_pointer;
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_head_pointer_tree_s *row_pointer;
 };
 
 
-/* "SLIM_BPR_Cython_Epoch.pyx":1222
+/* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1222
  * @cython.cdivision(True)
  * @cython.overflowcheck(False)
  * cdef class Triangular_Matrix:             # <<<<<<<<<<<<<<
  * 
  *     cdef long num_rows, num_cols
  */
-struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Triangular_Matrix {
+struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix {
   PyObject_HEAD
-  struct __pyx_vtabstruct_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *__pyx_vtab;
+  struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *__pyx_vtab;
   long num_rows;
   long num_cols;
   int isSymmetric;
@@ -2161,7 +2143,7 @@ struct __pyx_memoryviewslice_obj {
 
 
 
-/* "SLIM_BPR_Cython_Epoch.pyx":60
+/* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":60
  * @cython.cdivision(True)
  * @cython.overflowcheck(False)
  * cdef class SLIM_BPR_Cython_Epoch:             # <<<<<<<<<<<<<<
@@ -2169,14 +2151,14 @@ struct __pyx_memoryviewslice_obj {
  *     cdef int n_users, n_items
  */
 
-struct __pyx_vtabstruct_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch {
-  float (*adaptive_gradient)(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *, float, long, __Pyx_memviewslice, __Pyx_memviewslice, __Pyx_memviewslice);
-  struct __pyx_t_21SLIM_BPR_Cython_Epoch_BPR_sample (*sampleBPR_Cython)(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *);
+struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch {
+  float (*adaptive_gradient)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *, float, long, __Pyx_memviewslice, __Pyx_memviewslice, __Pyx_memviewslice);
+  struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_BPR_sample (*sampleBPR_Cython)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *);
 };
-static struct __pyx_vtabstruct_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *__pyx_vtabptr_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch;
+static struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *__pyx_vtabptr_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch;
 
 
-/* "SLIM_BPR_Cython_Epoch.pyx":578
+/* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":578
  * @cython.cdivision(True)
  * @cython.overflowcheck(False)
  * cdef class Sparse_Matrix_Tree_CSR:             # <<<<<<<<<<<<<<
@@ -2184,24 +2166,24 @@ static struct __pyx_vtabstruct_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *__
  *     cdef long num_rows, num_cols
  */
 
-struct __pyx_vtabstruct_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR {
-  float (*add_value)(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *, long, long, float);
-  float (*get_value)(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *, long, long);
-  PyObject *(*get_scipy_csr)(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *, struct __pyx_opt_args_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_get_scipy_csr *__pyx_optional_args);
-  PyObject *(*rebalance_tree)(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *, struct __pyx_opt_args_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_rebalance_tree *__pyx_optional_args);
-  __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *(*subtree_to_list_flat)(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *, __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *);
-  PyObject *(*from_linked_list_to_python_list)(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *, __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *);
-  PyObject *(*subtree_free_memory)(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *, __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *);
-  PyObject *(*list_free_memory)(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *, __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *);
-  __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *(*build_tree_from_list_flat)(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *, __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *);
-  __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *(*topK_selection_from_list)(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *, __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *, long);
-  PyObject *(*test_list_tee_conversion)(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *, long, int __pyx_skip_dispatch);
-  PyObject *(*test_topK_from_list_selection)(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *, long, long, int __pyx_skip_dispatch);
+struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR {
+  float (*add_value)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *, long, long, float);
+  float (*get_value)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *, long, long);
+  PyObject *(*get_scipy_csr)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *, struct __pyx_opt_args_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_get_scipy_csr *__pyx_optional_args);
+  PyObject *(*rebalance_tree)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *, struct __pyx_opt_args_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_rebalance_tree *__pyx_optional_args);
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *(*subtree_to_list_flat)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *, __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *);
+  PyObject *(*from_linked_list_to_python_list)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *, __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *);
+  PyObject *(*subtree_free_memory)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *, __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *);
+  PyObject *(*list_free_memory)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *, __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *);
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *(*build_tree_from_list_flat)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *, __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *);
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *(*topK_selection_from_list)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *, __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *, long);
+  PyObject *(*test_list_tee_conversion)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *, long, int __pyx_skip_dispatch);
+  PyObject *(*test_topK_from_list_selection)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *, long, long, int __pyx_skip_dispatch);
 };
-static struct __pyx_vtabstruct_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *__pyx_vtabptr_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR;
+static struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *__pyx_vtabptr_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR;
 
 
-/* "SLIM_BPR_Cython_Epoch.pyx":1222
+/* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1222
  * @cython.cdivision(True)
  * @cython.overflowcheck(False)
  * cdef class Triangular_Matrix:             # <<<<<<<<<<<<<<
@@ -2209,12 +2191,12 @@ static struct __pyx_vtabstruct_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *_
  *     cdef long num_rows, num_cols
  */
 
-struct __pyx_vtabstruct_21SLIM_BPR_Cython_Epoch_Triangular_Matrix {
-  float (*add_value)(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *, long, long, float);
-  float (*get_value)(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *, long, long);
-  PyObject *(*get_scipy_csr)(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *, struct __pyx_opt_args_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_get_scipy_csr *__pyx_optional_args);
+struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix {
+  float (*add_value)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *, long, long, float);
+  float (*get_value)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *, long, long);
+  PyObject *(*get_scipy_csr)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *, struct __pyx_opt_args_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_get_scipy_csr *__pyx_optional_args);
 };
-static struct __pyx_vtabstruct_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *__pyx_vtabptr_21SLIM_BPR_Cython_Epoch_Triangular_Matrix;
+static struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *__pyx_vtabptr_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix;
 
 
 /* "View.MemoryView":114
@@ -3543,23 +3525,23 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_5shape_shape(PyArrayObjec
 static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_7strides_strides(PyArrayObject *__pyx_v_self); /* proto*/
 static CYTHON_INLINE npy_intp __pyx_f_5numpy_7ndarray_4size_size(PyArrayObject *__pyx_v_self); /* proto*/
 static CYTHON_INLINE char *__pyx_f_5numpy_7ndarray_4data_data(PyArrayObject *__pyx_v_self); /* proto*/
-static float __pyx_f_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_adaptive_gradient(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *__pyx_v_self, float __pyx_v_gradient, long __pyx_v_user_or_item_id, __Pyx_memviewslice __pyx_v_sgd_cache, __Pyx_memviewslice __pyx_v_sgd_cache_momentum_1, __Pyx_memviewslice __pyx_v_sgd_cache_momentum_2); /* proto*/
-static struct __pyx_t_21SLIM_BPR_Cython_Epoch_BPR_sample __pyx_f_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_sampleBPR_Cython(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *__pyx_v_self); /* proto*/
-static float __pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_add_value(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_row, long __pyx_v_col, float __pyx_v_value); /* proto*/
-static float __pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_get_value(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_row, long __pyx_v_col); /* proto*/
-static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_get_scipy_csr(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *__pyx_v_self, struct __pyx_opt_args_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_get_scipy_csr *__pyx_optional_args); /* proto*/
-static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_rebalance_tree(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *__pyx_v_self, struct __pyx_opt_args_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_rebalance_tree *__pyx_optional_args); /* proto*/
-static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_subtree_to_list_flat(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *__pyx_v_self, __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_v_root); /* proto*/
-static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_from_linked_list_to_python_list(CYTHON_UNUSED struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *__pyx_v_self, __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_v_head); /* proto*/
-static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_subtree_free_memory(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *__pyx_v_self, __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_v_root); /* proto*/
-static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_list_free_memory(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *__pyx_v_self, __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_v_head); /* proto*/
-static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_build_tree_from_list_flat(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *__pyx_v_self, __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_v_flat_list_head); /* proto*/
-static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_topK_selection_from_list(CYTHON_UNUSED struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *__pyx_v_self, __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_v_head, long __pyx_v_TopK); /* proto*/
-static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_list_tee_conversion(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_row, int __pyx_skip_dispatch); /* proto*/
-static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_topK_from_list_selection(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_row, long __pyx_v_topK, int __pyx_skip_dispatch); /* proto*/
-static float __pyx_f_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_add_value(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *__pyx_v_self, long __pyx_v_row, long __pyx_v_col, float __pyx_v_value); /* proto*/
-static float __pyx_f_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_get_value(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *__pyx_v_self, long __pyx_v_row, long __pyx_v_col); /* proto*/
-static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_get_scipy_csr(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *__pyx_v_self, struct __pyx_opt_args_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_get_scipy_csr *__pyx_optional_args); /* proto*/
+static float __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_adaptive_gradient(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *__pyx_v_self, float __pyx_v_gradient, long __pyx_v_user_or_item_id, __Pyx_memviewslice __pyx_v_sgd_cache, __Pyx_memviewslice __pyx_v_sgd_cache_momentum_1, __Pyx_memviewslice __pyx_v_sgd_cache_momentum_2); /* proto*/
+static struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_BPR_sample __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_sampleBPR_Cython(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *__pyx_v_self); /* proto*/
+static float __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_add_value(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_row, long __pyx_v_col, float __pyx_v_value); /* proto*/
+static float __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_get_value(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_row, long __pyx_v_col); /* proto*/
+static PyObject *__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_get_scipy_csr(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *__pyx_v_self, struct __pyx_opt_args_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_get_scipy_csr *__pyx_optional_args); /* proto*/
+static PyObject *__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_rebalance_tree(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *__pyx_v_self, struct __pyx_opt_args_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_rebalance_tree *__pyx_optional_args); /* proto*/
+static __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_subtree_to_list_flat(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *__pyx_v_self, __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_v_root); /* proto*/
+static PyObject *__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_from_linked_list_to_python_list(CYTHON_UNUSED struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *__pyx_v_self, __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_v_head); /* proto*/
+static PyObject *__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_subtree_free_memory(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *__pyx_v_self, __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_v_root); /* proto*/
+static PyObject *__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_list_free_memory(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *__pyx_v_self, __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_v_head); /* proto*/
+static __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_build_tree_from_list_flat(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *__pyx_v_self, __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_v_flat_list_head); /* proto*/
+static __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_topK_selection_from_list(CYTHON_UNUSED struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *__pyx_v_self, __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_v_head, long __pyx_v_TopK); /* proto*/
+static PyObject *__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_list_tee_conversion(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_row, int __pyx_skip_dispatch); /* proto*/
+static PyObject *__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_topK_from_list_selection(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_row, long __pyx_v_topK, int __pyx_skip_dispatch); /* proto*/
+static float __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_add_value(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *__pyx_v_self, long __pyx_v_row, long __pyx_v_col, float __pyx_v_value); /* proto*/
+static float __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_get_value(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *__pyx_v_self, long __pyx_v_row, long __pyx_v_col); /* proto*/
+static PyObject *__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_get_scipy_csr(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *__pyx_v_self, struct __pyx_opt_args_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_get_scipy_csr *__pyx_optional_args); /* proto*/
 
 /* Module declarations from "cython.view" */
 
@@ -3599,7 +3581,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_get_scipy_c
 static CYTHON_INLINE arrayobject *__pyx_f_7cpython_5array_clone(arrayobject *, Py_ssize_t, int); /*proto*/
 static CYTHON_INLINE int __pyx_f_7cpython_5array_extend_buffer(arrayobject *, char *, Py_ssize_t); /*proto*/
 
-/* Module declarations from "SLIM_BPR_Cython_Epoch" */
+/* Module declarations from "RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.SLIM_BPR_Cython_Epoch" */
 static PyObject *__pyx_collections_abc_Sequence = 0;
 static PyObject *generic = 0;
 static PyObject *strided = 0;
@@ -3608,10 +3590,10 @@ static PyObject *contiguous = 0;
 static PyObject *indirect_contiguous = 0;
 static int __pyx_memoryview_thread_locks_used;
 static PyThread_type_lock __pyx_memoryview_thread_locks[8];
-static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR_Cython_Epoch_pointer_new_matrix_element_tree_s(long, float, __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *, __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *); /*proto*/
-static int __pyx_f_21SLIM_BPR_Cython_Epoch_compare_struct_on_column(void const *, void const *); /*proto*/
-static int __pyx_f_21SLIM_BPR_Cython_Epoch_compare_struct_on_data(void const *, void const *); /*proto*/
-static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch___pyx_unpickle_SLIM_BPR_Cython_Epoch__set_state(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *, PyObject *); /*proto*/
+static __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_pointer_new_matrix_element_tree_s(long, float, __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *, __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *); /*proto*/
+static int __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_compare_struct_on_column(void const *, void const *); /*proto*/
+static int __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_compare_struct_on_data(void const *, void const *); /*proto*/
+static PyObject *__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch___pyx_unpickle_SLIM_BPR_Cython_Epoch__set_state(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *, PyObject *); /*proto*/
 static int __pyx_array_allocate_buffer(struct __pyx_array_obj *); /*proto*/
 static struct __pyx_array_obj *__pyx_array_new(PyObject *, Py_ssize_t, char *, char *, char *); /*proto*/
 static PyObject *__pyx_memoryview_new(PyObject *, int, int, __Pyx_TypeInfo *); /*proto*/
@@ -3652,11 +3634,11 @@ static __Pyx_TypeInfo __Pyx_TypeInfo_nn___pyx_t_5numpy_float32_t = { "float32_t"
 static __Pyx_TypeInfo __Pyx_TypeInfo_PY_LONG_LONG = { "long long", NULL, sizeof(PY_LONG_LONG), { 0 }, 0, __PYX_IS_UNSIGNED(PY_LONG_LONG) ? 'U' : 'I', __PYX_IS_UNSIGNED(PY_LONG_LONG), 0 };
 static __Pyx_TypeInfo __Pyx_TypeInfo_int = { "int", NULL, sizeof(int), { 0 }, 0, __PYX_IS_UNSIGNED(int) ? 'U' : 'I', __PYX_IS_UNSIGNED(int), 0 };
 /* #### Code section: before_global_var ### */
-#define __Pyx_MODULE_NAME "SLIM_BPR_Cython_Epoch"
-extern int __pyx_module_is_main_SLIM_BPR_Cython_Epoch;
-int __pyx_module_is_main_SLIM_BPR_Cython_Epoch = 0;
+#define __Pyx_MODULE_NAME "RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.SLIM_BPR_Cython_Epoch"
+extern int __pyx_module_is_main_RecSysCompetition2024Polimi__libs__Recommenders__SLIM__Cython__SLIM_BPR_Cython_Epoch;
+int __pyx_module_is_main_RecSysCompetition2024Polimi__libs__Recommenders__SLIM__Cython__SLIM_BPR_Cython_Epoch = 0;
 
-/* Implementation of "SLIM_BPR_Cython_Epoch" */
+/* Implementation of "RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.SLIM_BPR_Cython_Epoch" */
 /* #### Code section: global_var ### */
 static PyObject *__pyx_builtin_super;
 static PyObject *__pyx_builtin_print;
@@ -3866,7 +3848,6 @@ static const char __pyx_k_itemsize_0_for_cython_array[] = "itemsize <= 0 for cyt
 static const char __pyx_k_TopK_extracted_length_Passed[] = "TopK extracted length - Passed";
 static const char __pyx_k_init_adaptive_gradient_cache[] = "_init_adaptive_gradient_cache";
 static const char __pyx_k_TopK_extracted_content_Passed[] = "TopK extracted content - Passed";
-static const char __pyx_k_Utils_seconds_to_biggest_unit[] = "Utils.seconds_to_biggest_unit";
 static const char __pyx_k_test_topK_from_list_selection[] = "test_topK_from_list_selection";
 static const char __pyx_k_unable_to_allocate_array_data[] = "unable to allocate array data.";
 static const char __pyx_k_Bidirectional_list_link_Passed[] = "Bidirectional list link - Passed";
@@ -3903,6 +3884,7 @@ static const char __pyx_k_Indirect_dimensions_not_supporte[] = "Indirect dimensi
 static const char __pyx_k_Invalid_mode_expected_c_or_fortr[] = "Invalid mode, expected 'c' or 'fortran', got ";
 static const char __pyx_k_Out_of_bounds_on_buffer_access_a[] = "Out of bounds on buffer access (axis ";
 static const char __pyx_k_Processed_4_1f_in_2f_BPR_loss_is[] = "Processed {} ({:4.1f}%) in {:.2f} {}. BPR loss is {:.2E}. Sample per second: {:.0f}";
+static const char __pyx_k_RecSysCompetition2024Polimi_libs[] = "RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.SLIM_BPR_Cython_Epoch";
 static const char __pyx_k_SLIM_BPR_Cython_Epoch___reduce_c[] = "SLIM_BPR_Cython_Epoch.__reduce_cython__";
 static const char __pyx_k_SLIM_BPR_Cython_Epoch___setstate[] = "SLIM_BPR_Cython_Epoch.__setstate_cython__";
 static const char __pyx_k_SLIM_BPR_Cython_Epoch__init_adap[] = "SLIM_BPR_Cython_Epoch._init_adaptive_gradient_cache";
@@ -3916,6 +3898,7 @@ static const char __pyx_k_Triangular_Matrix___reduce_cytho[] = "Triangular_Matri
 static const char __pyx_k_Triangular_Matrix___setstate_cyt[] = "Triangular_Matrix.__setstate_cython__";
 static const char __pyx_k_Unable_to_convert_item_to_object[] = "Unable to convert item to object";
 static const char __pyx_k_got_differing_extents_in_dimensi[] = "got differing extents in dimension ";
+static const char __pyx_k_libs_Utils_seconds_to_biggest_un[] = "libs.Utils.seconds_to_biggest_unit";
 static const char __pyx_k_no_default___reduce___due_to_non[] = "no default __reduce__ due to non-trivial __cinit__";
 static const char __pyx_k_numpy_core_umath_failed_to_impor[] = "numpy.core.umath failed to import";
 static const char __pyx_k_self_row_pointer_cannot_be_conve[] = "self.row_pointer cannot be converted to a Python object for pickling";
@@ -3968,28 +3951,28 @@ static PyObject *__pyx_pf___pyx_memoryviewslice_2__setstate_cython__(CYTHON_UNUS
 static PyObject *__pyx_pf_15View_dot_MemoryView___pyx_unpickle_Enum(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v___pyx_type, long __pyx_v___pyx_checksum, PyObject *__pyx_v___pyx_state); /* proto */
 static int __pyx_pf_7cpython_5array_5array___getbuffer__(arrayobject *__pyx_v_self, Py_buffer *__pyx_v_info, CYTHON_UNUSED int __pyx_v_flags); /* proto */
 static void __pyx_pf_7cpython_5array_5array_2__releasebuffer__(CYTHON_UNUSED arrayobject *__pyx_v_self, Py_buffer *__pyx_v_info); /* proto */
-static int __pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch___init__(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *__pyx_v_self, PyObject *__pyx_v_URM_mask, PyObject *__pyx_v_train_with_sparse_weights, PyObject *__pyx_v_final_model_sparse_weights, PyObject *__pyx_v_learning_rate, PyObject *__pyx_v_li_reg, PyObject *__pyx_v_lj_reg, PyObject *__pyx_v_topK, PyObject *__pyx_v_symmetric, PyObject *__pyx_v_verbose, PyObject *__pyx_v_random_seed, PyObject *__pyx_v_sgd_mode, PyObject *__pyx_v_gamma, PyObject *__pyx_v_beta_1, PyObject *__pyx_v_beta_2); /* proto */
-static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_2_init_adaptive_gradient_cache(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *__pyx_v_self, PyObject *__pyx_v_sgd_mode, PyObject *__pyx_v_gamma, PyObject *__pyx_v_beta_1, PyObject *__pyx_v_beta_2); /* proto */
-static void __pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_4__dealloc__(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_6_dealloc(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_8epochIteration_Cython(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_10get_S(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_12__reduce_cython__(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_14__setstate_cython__(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *__pyx_v_self, PyObject *__pyx_v___pyx_state); /* proto */
-static int __pyx_pf_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR___init__(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_num_rows, long __pyx_v_num_cols); /* proto */
-static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_2dealloc(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_4test_list_tee_conversion(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_row); /* proto */
-static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_6test_topK_from_list_selection(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_row, long __pyx_v_topK); /* proto */
-static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_8__reduce_cython__(CYTHON_UNUSED struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_10__setstate_cython__(CYTHON_UNUSED struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *__pyx_v_self, CYTHON_UNUSED PyObject *__pyx_v___pyx_state); /* proto */
-static int __pyx_pf_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix___init__(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *__pyx_v_self, long __pyx_v_num_rows, int __pyx_v_isSymmetric); /* proto */
-static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_2dealloc(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_4__reduce_cython__(CYTHON_UNUSED struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_6__setstate_cython__(CYTHON_UNUSED struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *__pyx_v_self, CYTHON_UNUSED PyObject *__pyx_v___pyx_state); /* proto */
-static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch___pyx_unpickle_SLIM_BPR_Cython_Epoch(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v___pyx_type, long __pyx_v___pyx_checksum, PyObject *__pyx_v___pyx_state); /* proto */
-static PyObject *__pyx_tp_new_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
-static PyObject *__pyx_tp_new_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
-static PyObject *__pyx_tp_new_21SLIM_BPR_Cython_Epoch_Triangular_Matrix(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
+static int __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch___init__(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *__pyx_v_self, PyObject *__pyx_v_URM_mask, PyObject *__pyx_v_train_with_sparse_weights, PyObject *__pyx_v_final_model_sparse_weights, PyObject *__pyx_v_learning_rate, PyObject *__pyx_v_li_reg, PyObject *__pyx_v_lj_reg, PyObject *__pyx_v_topK, PyObject *__pyx_v_symmetric, PyObject *__pyx_v_verbose, PyObject *__pyx_v_random_seed, PyObject *__pyx_v_sgd_mode, PyObject *__pyx_v_gamma, PyObject *__pyx_v_beta_1, PyObject *__pyx_v_beta_2); /* proto */
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_2_init_adaptive_gradient_cache(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *__pyx_v_self, PyObject *__pyx_v_sgd_mode, PyObject *__pyx_v_gamma, PyObject *__pyx_v_beta_1, PyObject *__pyx_v_beta_2); /* proto */
+static void __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_4__dealloc__(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_6_dealloc(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_8epochIteration_Cython(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_10get_S(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_12__reduce_cython__(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_14__setstate_cython__(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *__pyx_v_self, PyObject *__pyx_v___pyx_state); /* proto */
+static int __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR___init__(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_num_rows, long __pyx_v_num_cols); /* proto */
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_2dealloc(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_4test_list_tee_conversion(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_row); /* proto */
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_6test_topK_from_list_selection(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_row, long __pyx_v_topK); /* proto */
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_8__reduce_cython__(CYTHON_UNUSED struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_10__setstate_cython__(CYTHON_UNUSED struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *__pyx_v_self, CYTHON_UNUSED PyObject *__pyx_v___pyx_state); /* proto */
+static int __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix___init__(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *__pyx_v_self, long __pyx_v_num_rows, int __pyx_v_isSymmetric); /* proto */
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_2dealloc(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_4__reduce_cython__(CYTHON_UNUSED struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_6__setstate_cython__(CYTHON_UNUSED struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *__pyx_v_self, CYTHON_UNUSED PyObject *__pyx_v___pyx_state); /* proto */
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch___pyx_unpickle_SLIM_BPR_Cython_Epoch(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v___pyx_type, long __pyx_v___pyx_checksum, PyObject *__pyx_v___pyx_state); /* proto */
+static PyObject *__pyx_tp_new_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
+static PyObject *__pyx_tp_new_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
+static PyObject *__pyx_tp_new_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
 static PyObject *__pyx_tp_new_array(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
 static PyObject *__pyx_tp_new_Enum(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
 static PyObject *__pyx_tp_new_memoryview(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
@@ -4075,17 +4058,17 @@ typedef struct {
   #endif
   PyTypeObject *__pyx_ptype_7cpython_5array_array;
   #if CYTHON_USE_MODULE_STATE
-  PyObject *__pyx_type_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch;
-  PyObject *__pyx_type_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR;
-  PyObject *__pyx_type_21SLIM_BPR_Cython_Epoch_Triangular_Matrix;
+  PyObject *__pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch;
+  PyObject *__pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR;
+  PyObject *__pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix;
   PyObject *__pyx_type___pyx_array;
   PyObject *__pyx_type___pyx_MemviewEnum;
   PyObject *__pyx_type___pyx_memoryview;
   PyObject *__pyx_type___pyx_memoryviewslice;
   #endif
-  PyTypeObject *__pyx_ptype_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch;
-  PyTypeObject *__pyx_ptype_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR;
-  PyTypeObject *__pyx_ptype_21SLIM_BPR_Cython_Epoch_Triangular_Matrix;
+  PyTypeObject *__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch;
+  PyTypeObject *__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR;
+  PyTypeObject *__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix;
   PyTypeObject *__pyx_array_type;
   PyTypeObject *__pyx_MemviewEnum_type;
   PyTypeObject *__pyx_memoryview_type;
@@ -4133,6 +4116,7 @@ typedef struct {
   PyObject *__pyx_kp_u_Out_of_bounds_on_buffer_access_a;
   PyObject *__pyx_n_s_PickleError;
   PyObject *__pyx_kp_s_Processed_4_1f_in_2f_BPR_loss_is;
+  PyObject *__pyx_n_s_RecSysCompetition2024Polimi_libs;
   PyObject *__pyx_n_s_Recommenders_Recommender_utils;
   PyObject *__pyx_n_s_SLIM_BPR_Cython_Epoch;
   PyObject *__pyx_n_s_SLIM_BPR_Cython_Epoch___reduce_c;
@@ -4165,7 +4149,6 @@ typedef struct {
   PyObject *__pyx_n_s_TypeError;
   PyObject *__pyx_n_s_URM_mask;
   PyObject *__pyx_kp_s_Unable_to_convert_item_to_object;
-  PyObject *__pyx_n_s_Utils_seconds_to_biggest_unit;
   PyObject *__pyx_n_s_ValueError;
   PyObject *__pyx_n_s_View_MemoryView;
   PyObject *__pyx_kp_u__2;
@@ -4246,6 +4229,7 @@ typedef struct {
   PyObject *__pyx_n_s_k;
   PyObject *__pyx_n_s_learning_rate;
   PyObject *__pyx_n_s_li_reg;
+  PyObject *__pyx_n_s_libs_Utils_seconds_to_biggest_un;
   PyObject *__pyx_n_s_lj_reg;
   PyObject *__pyx_n_s_local_gradient_i;
   PyObject *__pyx_n_s_local_gradient_j;
@@ -4468,12 +4452,12 @@ static int __pyx_m_clear(PyObject *m) {
   Py_CLEAR(clear_module_state->__pyx_ptype_5numpy_character);
   Py_CLEAR(clear_module_state->__pyx_ptype_5numpy_ufunc);
   Py_CLEAR(clear_module_state->__pyx_ptype_7cpython_5array_array);
-  Py_CLEAR(clear_module_state->__pyx_ptype_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch);
-  Py_CLEAR(clear_module_state->__pyx_type_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch);
-  Py_CLEAR(clear_module_state->__pyx_ptype_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR);
-  Py_CLEAR(clear_module_state->__pyx_type_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR);
-  Py_CLEAR(clear_module_state->__pyx_ptype_21SLIM_BPR_Cython_Epoch_Triangular_Matrix);
-  Py_CLEAR(clear_module_state->__pyx_type_21SLIM_BPR_Cython_Epoch_Triangular_Matrix);
+  Py_CLEAR(clear_module_state->__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch);
+  Py_CLEAR(clear_module_state->__pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch);
+  Py_CLEAR(clear_module_state->__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR);
+  Py_CLEAR(clear_module_state->__pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR);
+  Py_CLEAR(clear_module_state->__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix);
+  Py_CLEAR(clear_module_state->__pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix);
   Py_CLEAR(clear_module_state->__pyx_array_type);
   Py_CLEAR(clear_module_state->__pyx_type___pyx_array);
   Py_CLEAR(clear_module_state->__pyx_MemviewEnum_type);
@@ -4525,6 +4509,7 @@ static int __pyx_m_clear(PyObject *m) {
   Py_CLEAR(clear_module_state->__pyx_kp_u_Out_of_bounds_on_buffer_access_a);
   Py_CLEAR(clear_module_state->__pyx_n_s_PickleError);
   Py_CLEAR(clear_module_state->__pyx_kp_s_Processed_4_1f_in_2f_BPR_loss_is);
+  Py_CLEAR(clear_module_state->__pyx_n_s_RecSysCompetition2024Polimi_libs);
   Py_CLEAR(clear_module_state->__pyx_n_s_Recommenders_Recommender_utils);
   Py_CLEAR(clear_module_state->__pyx_n_s_SLIM_BPR_Cython_Epoch);
   Py_CLEAR(clear_module_state->__pyx_n_s_SLIM_BPR_Cython_Epoch___reduce_c);
@@ -4557,7 +4542,6 @@ static int __pyx_m_clear(PyObject *m) {
   Py_CLEAR(clear_module_state->__pyx_n_s_TypeError);
   Py_CLEAR(clear_module_state->__pyx_n_s_URM_mask);
   Py_CLEAR(clear_module_state->__pyx_kp_s_Unable_to_convert_item_to_object);
-  Py_CLEAR(clear_module_state->__pyx_n_s_Utils_seconds_to_biggest_unit);
   Py_CLEAR(clear_module_state->__pyx_n_s_ValueError);
   Py_CLEAR(clear_module_state->__pyx_n_s_View_MemoryView);
   Py_CLEAR(clear_module_state->__pyx_kp_u__2);
@@ -4638,6 +4622,7 @@ static int __pyx_m_clear(PyObject *m) {
   Py_CLEAR(clear_module_state->__pyx_n_s_k);
   Py_CLEAR(clear_module_state->__pyx_n_s_learning_rate);
   Py_CLEAR(clear_module_state->__pyx_n_s_li_reg);
+  Py_CLEAR(clear_module_state->__pyx_n_s_libs_Utils_seconds_to_biggest_un);
   Py_CLEAR(clear_module_state->__pyx_n_s_lj_reg);
   Py_CLEAR(clear_module_state->__pyx_n_s_local_gradient_i);
   Py_CLEAR(clear_module_state->__pyx_n_s_local_gradient_j);
@@ -4838,12 +4823,12 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
   Py_VISIT(traverse_module_state->__pyx_ptype_5numpy_character);
   Py_VISIT(traverse_module_state->__pyx_ptype_5numpy_ufunc);
   Py_VISIT(traverse_module_state->__pyx_ptype_7cpython_5array_array);
-  Py_VISIT(traverse_module_state->__pyx_ptype_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch);
-  Py_VISIT(traverse_module_state->__pyx_type_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch);
-  Py_VISIT(traverse_module_state->__pyx_ptype_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR);
-  Py_VISIT(traverse_module_state->__pyx_type_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR);
-  Py_VISIT(traverse_module_state->__pyx_ptype_21SLIM_BPR_Cython_Epoch_Triangular_Matrix);
-  Py_VISIT(traverse_module_state->__pyx_type_21SLIM_BPR_Cython_Epoch_Triangular_Matrix);
+  Py_VISIT(traverse_module_state->__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch);
+  Py_VISIT(traverse_module_state->__pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch);
+  Py_VISIT(traverse_module_state->__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR);
+  Py_VISIT(traverse_module_state->__pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR);
+  Py_VISIT(traverse_module_state->__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix);
+  Py_VISIT(traverse_module_state->__pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix);
   Py_VISIT(traverse_module_state->__pyx_array_type);
   Py_VISIT(traverse_module_state->__pyx_type___pyx_array);
   Py_VISIT(traverse_module_state->__pyx_MemviewEnum_type);
@@ -4895,6 +4880,7 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
   Py_VISIT(traverse_module_state->__pyx_kp_u_Out_of_bounds_on_buffer_access_a);
   Py_VISIT(traverse_module_state->__pyx_n_s_PickleError);
   Py_VISIT(traverse_module_state->__pyx_kp_s_Processed_4_1f_in_2f_BPR_loss_is);
+  Py_VISIT(traverse_module_state->__pyx_n_s_RecSysCompetition2024Polimi_libs);
   Py_VISIT(traverse_module_state->__pyx_n_s_Recommenders_Recommender_utils);
   Py_VISIT(traverse_module_state->__pyx_n_s_SLIM_BPR_Cython_Epoch);
   Py_VISIT(traverse_module_state->__pyx_n_s_SLIM_BPR_Cython_Epoch___reduce_c);
@@ -4927,7 +4913,6 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
   Py_VISIT(traverse_module_state->__pyx_n_s_TypeError);
   Py_VISIT(traverse_module_state->__pyx_n_s_URM_mask);
   Py_VISIT(traverse_module_state->__pyx_kp_s_Unable_to_convert_item_to_object);
-  Py_VISIT(traverse_module_state->__pyx_n_s_Utils_seconds_to_biggest_unit);
   Py_VISIT(traverse_module_state->__pyx_n_s_ValueError);
   Py_VISIT(traverse_module_state->__pyx_n_s_View_MemoryView);
   Py_VISIT(traverse_module_state->__pyx_kp_u__2);
@@ -5008,6 +4993,7 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
   Py_VISIT(traverse_module_state->__pyx_n_s_k);
   Py_VISIT(traverse_module_state->__pyx_n_s_learning_rate);
   Py_VISIT(traverse_module_state->__pyx_n_s_li_reg);
+  Py_VISIT(traverse_module_state->__pyx_n_s_libs_Utils_seconds_to_biggest_un);
   Py_VISIT(traverse_module_state->__pyx_n_s_lj_reg);
   Py_VISIT(traverse_module_state->__pyx_n_s_local_gradient_i);
   Py_VISIT(traverse_module_state->__pyx_n_s_local_gradient_j);
@@ -5253,17 +5239,17 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #endif
 #define __pyx_ptype_7cpython_5array_array __pyx_mstate_global->__pyx_ptype_7cpython_5array_array
 #if CYTHON_USE_MODULE_STATE
-#define __pyx_type_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch __pyx_mstate_global->__pyx_type_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch
-#define __pyx_type_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR __pyx_mstate_global->__pyx_type_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR
-#define __pyx_type_21SLIM_BPR_Cython_Epoch_Triangular_Matrix __pyx_mstate_global->__pyx_type_21SLIM_BPR_Cython_Epoch_Triangular_Matrix
+#define __pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch __pyx_mstate_global->__pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch
+#define __pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR __pyx_mstate_global->__pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR
+#define __pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix __pyx_mstate_global->__pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix
 #define __pyx_type___pyx_array __pyx_mstate_global->__pyx_type___pyx_array
 #define __pyx_type___pyx_MemviewEnum __pyx_mstate_global->__pyx_type___pyx_MemviewEnum
 #define __pyx_type___pyx_memoryview __pyx_mstate_global->__pyx_type___pyx_memoryview
 #define __pyx_type___pyx_memoryviewslice __pyx_mstate_global->__pyx_type___pyx_memoryviewslice
 #endif
-#define __pyx_ptype_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch __pyx_mstate_global->__pyx_ptype_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch
-#define __pyx_ptype_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR __pyx_mstate_global->__pyx_ptype_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR
-#define __pyx_ptype_21SLIM_BPR_Cython_Epoch_Triangular_Matrix __pyx_mstate_global->__pyx_ptype_21SLIM_BPR_Cython_Epoch_Triangular_Matrix
+#define __pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch __pyx_mstate_global->__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch
+#define __pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR __pyx_mstate_global->__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR
+#define __pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix __pyx_mstate_global->__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix
 #define __pyx_array_type __pyx_mstate_global->__pyx_array_type
 #define __pyx_MemviewEnum_type __pyx_mstate_global->__pyx_MemviewEnum_type
 #define __pyx_memoryview_type __pyx_mstate_global->__pyx_memoryview_type
@@ -5311,6 +5297,7 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #define __pyx_kp_u_Out_of_bounds_on_buffer_access_a __pyx_mstate_global->__pyx_kp_u_Out_of_bounds_on_buffer_access_a
 #define __pyx_n_s_PickleError __pyx_mstate_global->__pyx_n_s_PickleError
 #define __pyx_kp_s_Processed_4_1f_in_2f_BPR_loss_is __pyx_mstate_global->__pyx_kp_s_Processed_4_1f_in_2f_BPR_loss_is
+#define __pyx_n_s_RecSysCompetition2024Polimi_libs __pyx_mstate_global->__pyx_n_s_RecSysCompetition2024Polimi_libs
 #define __pyx_n_s_Recommenders_Recommender_utils __pyx_mstate_global->__pyx_n_s_Recommenders_Recommender_utils
 #define __pyx_n_s_SLIM_BPR_Cython_Epoch __pyx_mstate_global->__pyx_n_s_SLIM_BPR_Cython_Epoch
 #define __pyx_n_s_SLIM_BPR_Cython_Epoch___reduce_c __pyx_mstate_global->__pyx_n_s_SLIM_BPR_Cython_Epoch___reduce_c
@@ -5343,7 +5330,6 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #define __pyx_n_s_TypeError __pyx_mstate_global->__pyx_n_s_TypeError
 #define __pyx_n_s_URM_mask __pyx_mstate_global->__pyx_n_s_URM_mask
 #define __pyx_kp_s_Unable_to_convert_item_to_object __pyx_mstate_global->__pyx_kp_s_Unable_to_convert_item_to_object
-#define __pyx_n_s_Utils_seconds_to_biggest_unit __pyx_mstate_global->__pyx_n_s_Utils_seconds_to_biggest_unit
 #define __pyx_n_s_ValueError __pyx_mstate_global->__pyx_n_s_ValueError
 #define __pyx_n_s_View_MemoryView __pyx_mstate_global->__pyx_n_s_View_MemoryView
 #define __pyx_kp_u__2 __pyx_mstate_global->__pyx_kp_u__2
@@ -5424,6 +5410,7 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #define __pyx_n_s_k __pyx_mstate_global->__pyx_n_s_k
 #define __pyx_n_s_learning_rate __pyx_mstate_global->__pyx_n_s_learning_rate
 #define __pyx_n_s_li_reg __pyx_mstate_global->__pyx_n_s_li_reg
+#define __pyx_n_s_libs_Utils_seconds_to_biggest_un __pyx_mstate_global->__pyx_n_s_libs_Utils_seconds_to_biggest_un
 #define __pyx_n_s_lj_reg __pyx_mstate_global->__pyx_n_s_lj_reg
 #define __pyx_n_s_local_gradient_i __pyx_mstate_global->__pyx_n_s_local_gradient_i
 #define __pyx_n_s_local_gradient_j __pyx_mstate_global->__pyx_n_s_local_gradient_j
@@ -19217,7 +19204,7 @@ static PyObject *__pyx_unpickle_Enum__set_state(struct __pyx_MemviewEnum_obj *__
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":246
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":245
  * 
  *         @property
  *         cdef inline PyObject* base(self) nogil:             # <<<<<<<<<<<<<<
@@ -19228,7 +19215,7 @@ static PyObject *__pyx_unpickle_Enum__set_state(struct __pyx_MemviewEnum_obj *__
 static CYTHON_INLINE PyObject *__pyx_f_5numpy_7ndarray_4base_base(PyArrayObject *__pyx_v_self) {
   PyObject *__pyx_r;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":249
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":248
  *             """Returns a borrowed reference to the object owning the data/memory.
  *             """
  *             return PyArray_BASE(self)             # <<<<<<<<<<<<<<
@@ -19238,7 +19225,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_7ndarray_4base_base(PyArrayObject 
   __pyx_r = PyArray_BASE(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":246
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":245
  * 
  *         @property
  *         cdef inline PyObject* base(self) nogil:             # <<<<<<<<<<<<<<
@@ -19251,7 +19238,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_7ndarray_4base_base(PyArrayObject 
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":252
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":251
  * 
  *         @property
  *         cdef inline dtype descr(self):             # <<<<<<<<<<<<<<
@@ -19265,7 +19252,7 @@ static CYTHON_INLINE PyArray_Descr *__pyx_f_5numpy_7ndarray_5descr_descr(PyArray
   PyArray_Descr *__pyx_t_1;
   __Pyx_RefNannySetupContext("descr", 1);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":255
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":254
  *             """Returns an owned reference to the dtype of the array.
  *             """
  *             return <dtype>PyArray_DESCR(self)             # <<<<<<<<<<<<<<
@@ -19278,7 +19265,7 @@ static CYTHON_INLINE PyArray_Descr *__pyx_f_5numpy_7ndarray_5descr_descr(PyArray
   __pyx_r = ((PyArray_Descr *)__pyx_t_1);
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":252
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":251
  * 
  *         @property
  *         cdef inline dtype descr(self):             # <<<<<<<<<<<<<<
@@ -19293,7 +19280,7 @@ static CYTHON_INLINE PyArray_Descr *__pyx_f_5numpy_7ndarray_5descr_descr(PyArray
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":258
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":257
  * 
  *         @property
  *         cdef inline int ndim(self) nogil:             # <<<<<<<<<<<<<<
@@ -19304,7 +19291,7 @@ static CYTHON_INLINE PyArray_Descr *__pyx_f_5numpy_7ndarray_5descr_descr(PyArray
 static CYTHON_INLINE int __pyx_f_5numpy_7ndarray_4ndim_ndim(PyArrayObject *__pyx_v_self) {
   int __pyx_r;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":261
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":260
  *             """Returns the number of dimensions in the array.
  *             """
  *             return PyArray_NDIM(self)             # <<<<<<<<<<<<<<
@@ -19314,7 +19301,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_7ndarray_4ndim_ndim(PyArrayObject *__pyx
   __pyx_r = PyArray_NDIM(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":258
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":257
  * 
  *         @property
  *         cdef inline int ndim(self) nogil:             # <<<<<<<<<<<<<<
@@ -19327,7 +19314,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_7ndarray_4ndim_ndim(PyArrayObject *__pyx
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":264
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":263
  * 
  *         @property
  *         cdef inline npy_intp *shape(self) nogil:             # <<<<<<<<<<<<<<
@@ -19338,7 +19325,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_7ndarray_4ndim_ndim(PyArrayObject *__pyx
 static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_5shape_shape(PyArrayObject *__pyx_v_self) {
   npy_intp *__pyx_r;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":269
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":268
  *             Can return NULL for 0-dimensional arrays.
  *             """
  *             return PyArray_DIMS(self)             # <<<<<<<<<<<<<<
@@ -19348,7 +19335,7 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_5shape_shape(PyArrayObjec
   __pyx_r = PyArray_DIMS(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":264
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":263
  * 
  *         @property
  *         cdef inline npy_intp *shape(self) nogil:             # <<<<<<<<<<<<<<
@@ -19361,7 +19348,7 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_5shape_shape(PyArrayObjec
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":272
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":271
  * 
  *         @property
  *         cdef inline npy_intp *strides(self) nogil:             # <<<<<<<<<<<<<<
@@ -19372,7 +19359,7 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_5shape_shape(PyArrayObjec
 static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_7strides_strides(PyArrayObject *__pyx_v_self) {
   npy_intp *__pyx_r;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":276
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":275
  *             The number of elements matches the number of dimensions of the array (ndim).
  *             """
  *             return PyArray_STRIDES(self)             # <<<<<<<<<<<<<<
@@ -19382,7 +19369,7 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_7strides_strides(PyArrayO
   __pyx_r = PyArray_STRIDES(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":272
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":271
  * 
  *         @property
  *         cdef inline npy_intp *strides(self) nogil:             # <<<<<<<<<<<<<<
@@ -19395,7 +19382,7 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_7strides_strides(PyArrayO
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":279
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":278
  * 
  *         @property
  *         cdef inline npy_intp size(self) nogil:             # <<<<<<<<<<<<<<
@@ -19406,7 +19393,7 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_7strides_strides(PyArrayO
 static CYTHON_INLINE npy_intp __pyx_f_5numpy_7ndarray_4size_size(PyArrayObject *__pyx_v_self) {
   npy_intp __pyx_r;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":282
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":281
  *             """Returns the total size (in number of elements) of the array.
  *             """
  *             return PyArray_SIZE(self)             # <<<<<<<<<<<<<<
@@ -19416,7 +19403,7 @@ static CYTHON_INLINE npy_intp __pyx_f_5numpy_7ndarray_4size_size(PyArrayObject *
   __pyx_r = PyArray_SIZE(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":279
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":278
  * 
  *         @property
  *         cdef inline npy_intp size(self) nogil:             # <<<<<<<<<<<<<<
@@ -19429,7 +19416,7 @@ static CYTHON_INLINE npy_intp __pyx_f_5numpy_7ndarray_4size_size(PyArrayObject *
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":285
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":284
  * 
  *         @property
  *         cdef inline char* data(self) nogil:             # <<<<<<<<<<<<<<
@@ -19440,7 +19427,7 @@ static CYTHON_INLINE npy_intp __pyx_f_5numpy_7ndarray_4size_size(PyArrayObject *
 static CYTHON_INLINE char *__pyx_f_5numpy_7ndarray_4data_data(PyArrayObject *__pyx_v_self) {
   char *__pyx_r;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":291
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":290
  *             of `PyArray_DATA()` instead, which returns a 'void*'.
  *             """
  *             return PyArray_BYTES(self)             # <<<<<<<<<<<<<<
@@ -19450,7 +19437,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy_7ndarray_4data_data(PyArrayObject *__p
   __pyx_r = PyArray_BYTES(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":285
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":284
  * 
  *         @property
  *         cdef inline char* data(self) nogil:             # <<<<<<<<<<<<<<
@@ -19463,7 +19450,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy_7ndarray_4data_data(PyArrayObject *__p
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":777
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":773
  * ctypedef npy_cdouble     complex_t
  * 
  * cdef inline object PyArray_MultiIterNew1(a):             # <<<<<<<<<<<<<<
@@ -19480,7 +19467,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew1", 1);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":778
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":774
  * 
  * cdef inline object PyArray_MultiIterNew1(a):
  *     return PyArray_MultiIterNew(1, <void*>a)             # <<<<<<<<<<<<<<
@@ -19488,13 +19475,13 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
  * cdef inline object PyArray_MultiIterNew2(a, b):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = PyArray_MultiIterNew(1, ((void *)__pyx_v_a)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 778, __pyx_L1_error)
+  __pyx_t_1 = PyArray_MultiIterNew(1, ((void *)__pyx_v_a)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 774, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":777
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":773
  * ctypedef npy_cdouble     complex_t
  * 
  * cdef inline object PyArray_MultiIterNew1(a):             # <<<<<<<<<<<<<<
@@ -19513,7 +19500,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":780
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":776
  *     return PyArray_MultiIterNew(1, <void*>a)
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):             # <<<<<<<<<<<<<<
@@ -19530,7 +19517,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew2", 1);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":781
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":777
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)             # <<<<<<<<<<<<<<
@@ -19538,13 +19525,13 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
  * cdef inline object PyArray_MultiIterNew3(a, b, c):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = PyArray_MultiIterNew(2, ((void *)__pyx_v_a), ((void *)__pyx_v_b)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 781, __pyx_L1_error)
+  __pyx_t_1 = PyArray_MultiIterNew(2, ((void *)__pyx_v_a), ((void *)__pyx_v_b)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 777, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":780
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":776
  *     return PyArray_MultiIterNew(1, <void*>a)
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):             # <<<<<<<<<<<<<<
@@ -19563,7 +19550,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":783
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":779
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):             # <<<<<<<<<<<<<<
@@ -19580,7 +19567,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew3", 1);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":784
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":780
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)             # <<<<<<<<<<<<<<
@@ -19588,13 +19575,13 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = PyArray_MultiIterNew(3, ((void *)__pyx_v_a), ((void *)__pyx_v_b), ((void *)__pyx_v_c)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 784, __pyx_L1_error)
+  __pyx_t_1 = PyArray_MultiIterNew(3, ((void *)__pyx_v_a), ((void *)__pyx_v_b), ((void *)__pyx_v_c)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 780, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":783
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":779
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):             # <<<<<<<<<<<<<<
@@ -19613,7 +19600,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":786
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":782
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):             # <<<<<<<<<<<<<<
@@ -19630,7 +19617,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew4", 1);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":787
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":783
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)             # <<<<<<<<<<<<<<
@@ -19638,13 +19625,13 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = PyArray_MultiIterNew(4, ((void *)__pyx_v_a), ((void *)__pyx_v_b), ((void *)__pyx_v_c), ((void *)__pyx_v_d)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 787, __pyx_L1_error)
+  __pyx_t_1 = PyArray_MultiIterNew(4, ((void *)__pyx_v_a), ((void *)__pyx_v_b), ((void *)__pyx_v_c), ((void *)__pyx_v_d)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 783, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":786
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":782
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):             # <<<<<<<<<<<<<<
@@ -19663,7 +19650,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":789
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":785
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):             # <<<<<<<<<<<<<<
@@ -19680,7 +19667,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew5", 1);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":790
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":786
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)             # <<<<<<<<<<<<<<
@@ -19688,13 +19675,13 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = PyArray_MultiIterNew(5, ((void *)__pyx_v_a), ((void *)__pyx_v_b), ((void *)__pyx_v_c), ((void *)__pyx_v_d), ((void *)__pyx_v_e)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 790, __pyx_L1_error)
+  __pyx_t_1 = PyArray_MultiIterNew(5, ((void *)__pyx_v_a), ((void *)__pyx_v_b), ((void *)__pyx_v_c), ((void *)__pyx_v_d), ((void *)__pyx_v_e)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 786, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":789
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":785
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):             # <<<<<<<<<<<<<<
@@ -19713,7 +19700,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":792
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":788
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):             # <<<<<<<<<<<<<<
@@ -19727,7 +19714,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
   int __pyx_t_1;
   __Pyx_RefNannySetupContext("PyDataType_SHAPE", 1);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":793
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":789
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):             # <<<<<<<<<<<<<<
@@ -19737,7 +19724,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
   __pyx_t_1 = PyDataType_HASSUBARRAY(__pyx_v_d);
   if (__pyx_t_1) {
 
-    /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":794
+    /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":790
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):
  *         return <tuple>d.subarray.shape             # <<<<<<<<<<<<<<
@@ -19749,7 +19736,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
     __pyx_r = ((PyObject*)__pyx_v_d->subarray->shape);
     goto __pyx_L0;
 
-    /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":793
+    /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":789
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):             # <<<<<<<<<<<<<<
@@ -19758,7 +19745,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
  */
   }
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":796
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":792
  *         return <tuple>d.subarray.shape
  *     else:
  *         return ()             # <<<<<<<<<<<<<<
@@ -19772,7 +19759,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
     goto __pyx_L0;
   }
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":792
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":788
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):             # <<<<<<<<<<<<<<
@@ -19787,7 +19774,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":971
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":968
  *     int _import_umath() except -1
  * 
  * cdef inline void set_array_base(ndarray arr, object base):             # <<<<<<<<<<<<<<
@@ -19796,8 +19783,12 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
  */
 
 static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_arr, PyObject *__pyx_v_base) {
+  int __pyx_t_1;
+  int __pyx_lineno = 0;
+  const char *__pyx_filename = NULL;
+  int __pyx_clineno = 0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":972
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":969
  * 
  * cdef inline void set_array_base(ndarray arr, object base):
  *     Py_INCREF(base) # important to do this before stealing the reference below!             # <<<<<<<<<<<<<<
@@ -19806,16 +19797,16 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
  */
   Py_INCREF(__pyx_v_base);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":973
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":970
  * cdef inline void set_array_base(ndarray arr, object base):
  *     Py_INCREF(base) # important to do this before stealing the reference below!
  *     PyArray_SetBaseObject(arr, base)             # <<<<<<<<<<<<<<
  * 
  * cdef inline object get_array_base(ndarray arr):
  */
-  (void)(PyArray_SetBaseObject(__pyx_v_arr, __pyx_v_base));
+  __pyx_t_1 = PyArray_SetBaseObject(__pyx_v_arr, __pyx_v_base); if (unlikely(__pyx_t_1 == ((int)-1))) __PYX_ERR(2, 970, __pyx_L1_error)
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":971
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":968
  *     int _import_umath() except -1
  * 
  * cdef inline void set_array_base(ndarray arr, object base):             # <<<<<<<<<<<<<<
@@ -19824,9 +19815,13 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
  */
 
   /* function exit code */
+  goto __pyx_L0;
+  __pyx_L1_error:;
+  __Pyx_AddTraceback("numpy.set_array_base", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __pyx_L0:;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":975
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":972
  *     PyArray_SetBaseObject(arr, base)
  * 
  * cdef inline object get_array_base(ndarray arr):             # <<<<<<<<<<<<<<
@@ -19841,7 +19836,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   int __pyx_t_1;
   __Pyx_RefNannySetupContext("get_array_base", 1);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":976
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":973
  * 
  * cdef inline object get_array_base(ndarray arr):
  *     base = PyArray_BASE(arr)             # <<<<<<<<<<<<<<
@@ -19850,7 +19845,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
  */
   __pyx_v_base = PyArray_BASE(__pyx_v_arr);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":977
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":974
  * cdef inline object get_array_base(ndarray arr):
  *     base = PyArray_BASE(arr)
  *     if base is NULL:             # <<<<<<<<<<<<<<
@@ -19860,7 +19855,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   __pyx_t_1 = (__pyx_v_base == NULL);
   if (__pyx_t_1) {
 
-    /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":978
+    /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":975
  *     base = PyArray_BASE(arr)
  *     if base is NULL:
  *         return None             # <<<<<<<<<<<<<<
@@ -19871,7 +19866,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
     __pyx_r = Py_None; __Pyx_INCREF(Py_None);
     goto __pyx_L0;
 
-    /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":977
+    /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":974
  * cdef inline object get_array_base(ndarray arr):
  *     base = PyArray_BASE(arr)
  *     if base is NULL:             # <<<<<<<<<<<<<<
@@ -19880,7 +19875,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
  */
   }
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":979
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":976
  *     if base is NULL:
  *         return None
  *     return <object>base             # <<<<<<<<<<<<<<
@@ -19892,7 +19887,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   __pyx_r = ((PyObject *)__pyx_v_base);
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":975
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":972
  *     PyArray_SetBaseObject(arr, base)
  * 
  * cdef inline object get_array_base(ndarray arr):             # <<<<<<<<<<<<<<
@@ -19907,7 +19902,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":983
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":980
  * # Versions of the import_* functions which are more suitable for
  * # Cython code.
  * cdef inline int import_array() except -1:             # <<<<<<<<<<<<<<
@@ -19931,7 +19926,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("import_array", 1);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":984
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":981
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -19947,16 +19942,16 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":985
+      /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":982
  * cdef inline int import_array() except -1:
  *     try:
  *         __pyx_import_array()             # <<<<<<<<<<<<<<
  *     except Exception:
  *         raise ImportError("numpy.core.multiarray failed to import")
  */
-      __pyx_t_4 = _import_array(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(2, 985, __pyx_L3_error)
+      __pyx_t_4 = _import_array(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(2, 982, __pyx_L3_error)
 
-      /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":984
+      /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":981
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -19970,7 +19965,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     goto __pyx_L8_try_end;
     __pyx_L3_error:;
 
-    /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":986
+    /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":983
  *     try:
  *         __pyx_import_array()
  *     except Exception:             # <<<<<<<<<<<<<<
@@ -19980,27 +19975,27 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     __pyx_t_4 = __Pyx_PyErr_ExceptionMatches(((PyObject *)(&((PyTypeObject*)PyExc_Exception)[0])));
     if (__pyx_t_4) {
       __Pyx_AddTraceback("numpy.import_array", __pyx_clineno, __pyx_lineno, __pyx_filename);
-      if (__Pyx_GetException(&__pyx_t_5, &__pyx_t_6, &__pyx_t_7) < 0) __PYX_ERR(2, 986, __pyx_L5_except_error)
+      if (__Pyx_GetException(&__pyx_t_5, &__pyx_t_6, &__pyx_t_7) < 0) __PYX_ERR(2, 983, __pyx_L5_except_error)
       __Pyx_XGOTREF(__pyx_t_5);
       __Pyx_XGOTREF(__pyx_t_6);
       __Pyx_XGOTREF(__pyx_t_7);
 
-      /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":987
+      /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":984
  *         __pyx_import_array()
  *     except Exception:
  *         raise ImportError("numpy.core.multiarray failed to import")             # <<<<<<<<<<<<<<
  * 
  * cdef inline int import_umath() except -1:
  */
-      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__9, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(2, 987, __pyx_L5_except_error)
+      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__9, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(2, 984, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_8);
       __Pyx_Raise(__pyx_t_8, 0, 0, 0);
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-      __PYX_ERR(2, 987, __pyx_L5_except_error)
+      __PYX_ERR(2, 984, __pyx_L5_except_error)
     }
     goto __pyx_L5_except_error;
 
-    /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":984
+    /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":981
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -20016,7 +20011,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     __pyx_L8_try_end:;
   }
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":983
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":980
  * # Versions of the import_* functions which are more suitable for
  * # Cython code.
  * cdef inline int import_array() except -1:             # <<<<<<<<<<<<<<
@@ -20039,7 +20034,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":989
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":986
  *         raise ImportError("numpy.core.multiarray failed to import")
  * 
  * cdef inline int import_umath() except -1:             # <<<<<<<<<<<<<<
@@ -20063,7 +20058,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("import_umath", 1);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":990
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":987
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -20079,16 +20074,16 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":991
+      /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":988
  * cdef inline int import_umath() except -1:
  *     try:
  *         _import_umath()             # <<<<<<<<<<<<<<
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")
  */
-      __pyx_t_4 = _import_umath(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(2, 991, __pyx_L3_error)
+      __pyx_t_4 = _import_umath(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(2, 988, __pyx_L3_error)
 
-      /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":990
+      /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":987
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -20102,7 +20097,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     goto __pyx_L8_try_end;
     __pyx_L3_error:;
 
-    /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":992
+    /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":989
  *     try:
  *         _import_umath()
  *     except Exception:             # <<<<<<<<<<<<<<
@@ -20112,27 +20107,27 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     __pyx_t_4 = __Pyx_PyErr_ExceptionMatches(((PyObject *)(&((PyTypeObject*)PyExc_Exception)[0])));
     if (__pyx_t_4) {
       __Pyx_AddTraceback("numpy.import_umath", __pyx_clineno, __pyx_lineno, __pyx_filename);
-      if (__Pyx_GetException(&__pyx_t_5, &__pyx_t_6, &__pyx_t_7) < 0) __PYX_ERR(2, 992, __pyx_L5_except_error)
+      if (__Pyx_GetException(&__pyx_t_5, &__pyx_t_6, &__pyx_t_7) < 0) __PYX_ERR(2, 989, __pyx_L5_except_error)
       __Pyx_XGOTREF(__pyx_t_5);
       __Pyx_XGOTREF(__pyx_t_6);
       __Pyx_XGOTREF(__pyx_t_7);
 
-      /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":993
+      /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":990
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")             # <<<<<<<<<<<<<<
  * 
  * cdef inline int import_ufunc() except -1:
  */
-      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__10, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(2, 993, __pyx_L5_except_error)
+      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__10, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(2, 990, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_8);
       __Pyx_Raise(__pyx_t_8, 0, 0, 0);
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-      __PYX_ERR(2, 993, __pyx_L5_except_error)
+      __PYX_ERR(2, 990, __pyx_L5_except_error)
     }
     goto __pyx_L5_except_error;
 
-    /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":990
+    /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":987
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -20148,7 +20143,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     __pyx_L8_try_end:;
   }
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":989
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":986
  *         raise ImportError("numpy.core.multiarray failed to import")
  * 
  * cdef inline int import_umath() except -1:             # <<<<<<<<<<<<<<
@@ -20171,7 +20166,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":995
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":992
  *         raise ImportError("numpy.core.umath failed to import")
  * 
  * cdef inline int import_ufunc() except -1:             # <<<<<<<<<<<<<<
@@ -20195,7 +20190,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("import_ufunc", 1);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":996
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":993
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -20211,16 +20206,16 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":997
+      /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":994
  * cdef inline int import_ufunc() except -1:
  *     try:
  *         _import_umath()             # <<<<<<<<<<<<<<
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")
  */
-      __pyx_t_4 = _import_umath(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(2, 997, __pyx_L3_error)
+      __pyx_t_4 = _import_umath(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(2, 994, __pyx_L3_error)
 
-      /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":996
+      /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":993
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -20234,7 +20229,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     goto __pyx_L8_try_end;
     __pyx_L3_error:;
 
-    /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":998
+    /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":995
  *     try:
  *         _import_umath()
  *     except Exception:             # <<<<<<<<<<<<<<
@@ -20244,27 +20239,27 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     __pyx_t_4 = __Pyx_PyErr_ExceptionMatches(((PyObject *)(&((PyTypeObject*)PyExc_Exception)[0])));
     if (__pyx_t_4) {
       __Pyx_AddTraceback("numpy.import_ufunc", __pyx_clineno, __pyx_lineno, __pyx_filename);
-      if (__Pyx_GetException(&__pyx_t_5, &__pyx_t_6, &__pyx_t_7) < 0) __PYX_ERR(2, 998, __pyx_L5_except_error)
+      if (__Pyx_GetException(&__pyx_t_5, &__pyx_t_6, &__pyx_t_7) < 0) __PYX_ERR(2, 995, __pyx_L5_except_error)
       __Pyx_XGOTREF(__pyx_t_5);
       __Pyx_XGOTREF(__pyx_t_6);
       __Pyx_XGOTREF(__pyx_t_7);
 
-      /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":999
+      /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":996
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")             # <<<<<<<<<<<<<<
  * 
  * 
  */
-      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__10, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(2, 999, __pyx_L5_except_error)
+      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__10, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(2, 996, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_8);
       __Pyx_Raise(__pyx_t_8, 0, 0, 0);
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-      __PYX_ERR(2, 999, __pyx_L5_except_error)
+      __PYX_ERR(2, 996, __pyx_L5_except_error)
     }
     goto __pyx_L5_except_error;
 
-    /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":996
+    /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":993
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -20280,7 +20275,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     __pyx_L8_try_end:;
   }
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":995
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":992
  *         raise ImportError("numpy.core.umath failed to import")
  * 
  * cdef inline int import_ufunc() except -1:             # <<<<<<<<<<<<<<
@@ -20303,7 +20298,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1002
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":999
  * 
  * 
  * cdef inline bint is_timedelta64_object(object obj):             # <<<<<<<<<<<<<<
@@ -20314,7 +20309,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
 static CYTHON_INLINE int __pyx_f_5numpy_is_timedelta64_object(PyObject *__pyx_v_obj) {
   int __pyx_r;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1014
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1011
  *     bool
  *     """
  *     return PyObject_TypeCheck(obj, &PyTimedeltaArrType_Type)             # <<<<<<<<<<<<<<
@@ -20324,7 +20319,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_timedelta64_object(PyObject *__pyx_v_
   __pyx_r = PyObject_TypeCheck(__pyx_v_obj, (&PyTimedeltaArrType_Type));
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1002
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":999
  * 
  * 
  * cdef inline bint is_timedelta64_object(object obj):             # <<<<<<<<<<<<<<
@@ -20337,7 +20332,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_timedelta64_object(PyObject *__pyx_v_
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1017
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1014
  * 
  * 
  * cdef inline bint is_datetime64_object(object obj):             # <<<<<<<<<<<<<<
@@ -20348,7 +20343,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_timedelta64_object(PyObject *__pyx_v_
 static CYTHON_INLINE int __pyx_f_5numpy_is_datetime64_object(PyObject *__pyx_v_obj) {
   int __pyx_r;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1029
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1026
  *     bool
  *     """
  *     return PyObject_TypeCheck(obj, &PyDatetimeArrType_Type)             # <<<<<<<<<<<<<<
@@ -20358,7 +20353,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_datetime64_object(PyObject *__pyx_v_o
   __pyx_r = PyObject_TypeCheck(__pyx_v_obj, (&PyDatetimeArrType_Type));
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1017
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1014
  * 
  * 
  * cdef inline bint is_datetime64_object(object obj):             # <<<<<<<<<<<<<<
@@ -20371,7 +20366,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_datetime64_object(PyObject *__pyx_v_o
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1032
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1029
  * 
  * 
  * cdef inline npy_datetime get_datetime64_value(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -20382,7 +20377,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_datetime64_object(PyObject *__pyx_v_o
 static CYTHON_INLINE npy_datetime __pyx_f_5numpy_get_datetime64_value(PyObject *__pyx_v_obj) {
   npy_datetime __pyx_r;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1039
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1036
  *     also needed.  That can be found using `get_datetime64_unit`.
  *     """
  *     return (<PyDatetimeScalarObject*>obj).obval             # <<<<<<<<<<<<<<
@@ -20392,7 +20387,7 @@ static CYTHON_INLINE npy_datetime __pyx_f_5numpy_get_datetime64_value(PyObject *
   __pyx_r = ((PyDatetimeScalarObject *)__pyx_v_obj)->obval;
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1032
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1029
  * 
  * 
  * cdef inline npy_datetime get_datetime64_value(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -20405,7 +20400,7 @@ static CYTHON_INLINE npy_datetime __pyx_f_5numpy_get_datetime64_value(PyObject *
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1042
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1039
  * 
  * 
  * cdef inline npy_timedelta get_timedelta64_value(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -20416,7 +20411,7 @@ static CYTHON_INLINE npy_datetime __pyx_f_5numpy_get_datetime64_value(PyObject *
 static CYTHON_INLINE npy_timedelta __pyx_f_5numpy_get_timedelta64_value(PyObject *__pyx_v_obj) {
   npy_timedelta __pyx_r;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1046
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1043
  *     returns the int64 value underlying scalar numpy timedelta64 object
  *     """
  *     return (<PyTimedeltaScalarObject*>obj).obval             # <<<<<<<<<<<<<<
@@ -20426,7 +20421,7 @@ static CYTHON_INLINE npy_timedelta __pyx_f_5numpy_get_timedelta64_value(PyObject
   __pyx_r = ((PyTimedeltaScalarObject *)__pyx_v_obj)->obval;
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1042
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1039
  * 
  * 
  * cdef inline npy_timedelta get_timedelta64_value(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -20439,7 +20434,7 @@ static CYTHON_INLINE npy_timedelta __pyx_f_5numpy_get_timedelta64_value(PyObject
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1049
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1046
  * 
  * 
  * cdef inline NPY_DATETIMEUNIT get_datetime64_unit(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -20450,7 +20445,7 @@ static CYTHON_INLINE npy_timedelta __pyx_f_5numpy_get_timedelta64_value(PyObject
 static CYTHON_INLINE NPY_DATETIMEUNIT __pyx_f_5numpy_get_datetime64_unit(PyObject *__pyx_v_obj) {
   NPY_DATETIMEUNIT __pyx_r;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1053
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1050
  *     returns the unit part of the dtype for a numpy datetime64 object.
  *     """
  *     return <NPY_DATETIMEUNIT>(<PyDatetimeScalarObject*>obj).obmeta.base             # <<<<<<<<<<<<<<
@@ -20458,7 +20453,7 @@ static CYTHON_INLINE NPY_DATETIMEUNIT __pyx_f_5numpy_get_datetime64_unit(PyObjec
   __pyx_r = ((NPY_DATETIMEUNIT)((PyDatetimeScalarObject *)__pyx_v_obj)->obmeta.base);
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1049
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1046
  * 
  * 
  * cdef inline NPY_DATETIMEUNIT get_datetime64_unit(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -21112,7 +21107,7 @@ static CYTHON_INLINE void __pyx_f_7cpython_5array_zero(arrayobject *__pyx_v_self
   /* function exit code */
 }
 
-/* "SLIM_BPR_Cython_Epoch.pyx":87
+/* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":87
  * 
  * 
  *     def __init__(self, URM_mask,             # <<<<<<<<<<<<<<
@@ -21121,8 +21116,8 @@ static CYTHON_INLINE void __pyx_f_7cpython_5array_zero(arrayobject *__pyx_v_self
  */
 
 /* Python wrapper */
-static int __pyx_pw_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static int __pyx_pw_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static int __pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static int __pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_URM_mask = 0;
   PyObject *__pyx_v_train_with_sparse_weights = 0;
   PyObject *__pyx_v_final_model_sparse_weights = 0;
@@ -21155,7 +21150,7 @@ static int __pyx_pw_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_1__init__(Py
   {
     PyObject **__pyx_pyargnames[] = {&__pyx_n_s_URM_mask,&__pyx_n_s_train_with_sparse_weights,&__pyx_n_s_final_model_sparse_weights,&__pyx_n_s_learning_rate,&__pyx_n_s_li_reg,&__pyx_n_s_lj_reg,&__pyx_n_s_topK,&__pyx_n_s_symmetric,&__pyx_n_s_verbose,&__pyx_n_s_random_seed,&__pyx_n_s_sgd_mode,&__pyx_n_s_gamma,&__pyx_n_s_beta_1,&__pyx_n_s_beta_2,0};
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":88
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":88
  * 
  *     def __init__(self, URM_mask,
  *                  train_with_sparse_weights = False,             # <<<<<<<<<<<<<<
@@ -21164,7 +21159,7 @@ static int __pyx_pw_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_1__init__(Py
  */
     values[1] = __Pyx_Arg_NewRef_VARARGS(((PyObject *)Py_False));
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":89
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":89
  *     def __init__(self, URM_mask,
  *                  train_with_sparse_weights = False,
  *                  final_model_sparse_weights = True,             # <<<<<<<<<<<<<<
@@ -21177,7 +21172,7 @@ static int __pyx_pw_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_1__init__(Py
     values[5] = __Pyx_Arg_NewRef_VARARGS(((PyObject *)__pyx_float_0_0));
     values[6] = __Pyx_Arg_NewRef_VARARGS(((PyObject *)__pyx_int_150));
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":91
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":91
  *                  final_model_sparse_weights = True,
  *                  learning_rate = 0.01, li_reg = 0.0, lj_reg = 0.0,
  *                  topK = 150, symmetric = True,             # <<<<<<<<<<<<<<
@@ -21186,7 +21181,7 @@ static int __pyx_pw_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_1__init__(Py
  */
     values[7] = __Pyx_Arg_NewRef_VARARGS(((PyObject *)Py_True));
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":92
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":92
  *                  learning_rate = 0.01, li_reg = 0.0, lj_reg = 0.0,
  *                  topK = 150, symmetric = True,
  *                  verbose = False, random_seed = None,             # <<<<<<<<<<<<<<
@@ -21398,13 +21393,13 @@ static int __pyx_pw_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_1__init__(Py
       __Pyx_Arg_XDECREF_VARARGS(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("SLIM_BPR_Cython_Epoch.SLIM_BPR_Cython_Epoch.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.SLIM_BPR_Cython_Epoch.SLIM_BPR_Cython_Epoch.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return -1;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch___init__(((struct __pyx_obj_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *)__pyx_v_self), __pyx_v_URM_mask, __pyx_v_train_with_sparse_weights, __pyx_v_final_model_sparse_weights, __pyx_v_learning_rate, __pyx_v_li_reg, __pyx_v_lj_reg, __pyx_v_topK, __pyx_v_symmetric, __pyx_v_verbose, __pyx_v_random_seed, __pyx_v_sgd_mode, __pyx_v_gamma, __pyx_v_beta_1, __pyx_v_beta_2);
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch___init__(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *)__pyx_v_self), __pyx_v_URM_mask, __pyx_v_train_with_sparse_weights, __pyx_v_final_model_sparse_weights, __pyx_v_learning_rate, __pyx_v_li_reg, __pyx_v_lj_reg, __pyx_v_topK, __pyx_v_symmetric, __pyx_v_verbose, __pyx_v_random_seed, __pyx_v_sgd_mode, __pyx_v_gamma, __pyx_v_beta_1, __pyx_v_beta_2);
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":87
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":87
  * 
  * 
  *     def __init__(self, URM_mask,             # <<<<<<<<<<<<<<
@@ -21423,7 +21418,7 @@ static int __pyx_pw_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_1__init__(Py
   return __pyx_r;
 }
 
-static int __pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch___init__(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *__pyx_v_self, PyObject *__pyx_v_URM_mask, PyObject *__pyx_v_train_with_sparse_weights, PyObject *__pyx_v_final_model_sparse_weights, PyObject *__pyx_v_learning_rate, PyObject *__pyx_v_li_reg, PyObject *__pyx_v_lj_reg, PyObject *__pyx_v_topK, PyObject *__pyx_v_symmetric, PyObject *__pyx_v_verbose, PyObject *__pyx_v_random_seed, PyObject *__pyx_v_sgd_mode, PyObject *__pyx_v_gamma, PyObject *__pyx_v_beta_1, PyObject *__pyx_v_beta_2) {
+static int __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch___init__(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *__pyx_v_self, PyObject *__pyx_v_URM_mask, PyObject *__pyx_v_train_with_sparse_weights, PyObject *__pyx_v_final_model_sparse_weights, PyObject *__pyx_v_learning_rate, PyObject *__pyx_v_li_reg, PyObject *__pyx_v_lj_reg, PyObject *__pyx_v_topK, PyObject *__pyx_v_symmetric, PyObject *__pyx_v_verbose, PyObject *__pyx_v_random_seed, PyObject *__pyx_v_sgd_mode, PyObject *__pyx_v_gamma, PyObject *__pyx_v_beta_1, PyObject *__pyx_v_beta_2) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -21446,7 +21441,7 @@ static int __pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch___init__(str
   __Pyx_INCREF(__pyx_v_URM_mask);
   __Pyx_INCREF(__pyx_v_symmetric);
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":95
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":95
  *                  sgd_mode='adam', gamma=0.995, beta_1=0.9, beta_2=0.999):
  * 
  *         super(SLIM_BPR_Cython_Epoch, self).__init__()             # <<<<<<<<<<<<<<
@@ -21455,9 +21450,9 @@ static int __pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch___init__(str
  */
   __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 95, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __Pyx_INCREF((PyObject *)__pyx_ptype_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch);
-  __Pyx_GIVEREF((PyObject *)__pyx_ptype_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch);
-  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_2, 0, ((PyObject *)__pyx_ptype_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch))) __PYX_ERR(0, 95, __pyx_L1_error);
+  __Pyx_INCREF((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch);
+  __Pyx_GIVEREF((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch);
+  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_2, 0, ((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch))) __PYX_ERR(0, 95, __pyx_L1_error);
   __Pyx_INCREF((PyObject *)__pyx_v_self);
   __Pyx_GIVEREF((PyObject *)__pyx_v_self);
   if (__Pyx_PyTuple_SET_ITEM(__pyx_t_2, 1, ((PyObject *)__pyx_v_self))) __PYX_ERR(0, 95, __pyx_L1_error);
@@ -21491,7 +21486,7 @@ static int __pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch___init__(str
   }
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":99
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":99
  *         # Create copy of URM_train in csr format
  *         # make sure indices are sorted
  *         URM_mask = check_matrix(URM_mask, 'csr')             # <<<<<<<<<<<<<<
@@ -21525,7 +21520,7 @@ static int __pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch___init__(str
   __Pyx_DECREF_SET(__pyx_v_URM_mask, __pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":100
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":100
  *         # make sure indices are sorted
  *         URM_mask = check_matrix(URM_mask, 'csr')
  *         URM_mask = URM_mask.sorted_indices()             # <<<<<<<<<<<<<<
@@ -21559,7 +21554,7 @@ static int __pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch___init__(str
   __Pyx_DECREF_SET(__pyx_v_URM_mask, __pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":102
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":102
  *         URM_mask = URM_mask.sorted_indices()
  * 
  *         self.n_users, self.n_items = URM_mask.shape             # <<<<<<<<<<<<<<
@@ -21621,7 +21616,7 @@ static int __pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch___init__(str
   __pyx_v_self->n_users = __pyx_t_7;
   __pyx_v_self->n_items = __pyx_t_8;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":103
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":103
  * 
  *         self.n_users, self.n_items = URM_mask.shape
  *         self.topK = min(topK, self.n_items)             # <<<<<<<<<<<<<<
@@ -21651,7 +21646,7 @@ static int __pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch___init__(str
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_v_self->topK = __pyx_t_8;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":104
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":104
  *         self.n_users, self.n_items = URM_mask.shape
  *         self.topK = min(topK, self.n_items)
  *         self.learning_rate = learning_rate             # <<<<<<<<<<<<<<
@@ -21661,7 +21656,7 @@ static int __pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch___init__(str
   __pyx_t_10 = __pyx_PyFloat_AsFloat(__pyx_v_learning_rate); if (unlikely((__pyx_t_10 == (float)-1) && PyErr_Occurred())) __PYX_ERR(0, 104, __pyx_L1_error)
   __pyx_v_self->learning_rate = __pyx_t_10;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":105
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":105
  *         self.topK = min(topK, self.n_items)
  *         self.learning_rate = learning_rate
  *         self.li_reg = li_reg             # <<<<<<<<<<<<<<
@@ -21671,7 +21666,7 @@ static int __pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch___init__(str
   __pyx_t_10 = __pyx_PyFloat_AsFloat(__pyx_v_li_reg); if (unlikely((__pyx_t_10 == (float)-1) && PyErr_Occurred())) __PYX_ERR(0, 105, __pyx_L1_error)
   __pyx_v_self->li_reg = __pyx_t_10;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":106
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":106
  *         self.learning_rate = learning_rate
  *         self.li_reg = li_reg
  *         self.lj_reg = lj_reg             # <<<<<<<<<<<<<<
@@ -21681,7 +21676,7 @@ static int __pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch___init__(str
   __pyx_t_10 = __pyx_PyFloat_AsFloat(__pyx_v_lj_reg); if (unlikely((__pyx_t_10 == (float)-1) && PyErr_Occurred())) __PYX_ERR(0, 106, __pyx_L1_error)
   __pyx_v_self->lj_reg = __pyx_t_10;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":107
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":107
  *         self.li_reg = li_reg
  *         self.lj_reg = lj_reg
  *         self.verbose = verbose             # <<<<<<<<<<<<<<
@@ -21691,7 +21686,7 @@ static int __pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch___init__(str
   __pyx_t_8 = __Pyx_PyInt_As_int(__pyx_v_verbose); if (unlikely((__pyx_t_8 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 107, __pyx_L1_error)
   __pyx_v_self->verbose = __pyx_t_8;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":110
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":110
  * 
  * 
  *         if train_with_sparse_weights:             # <<<<<<<<<<<<<<
@@ -21701,7 +21696,7 @@ static int __pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch___init__(str
   __pyx_t_9 = __Pyx_PyObject_IsTrue(__pyx_v_train_with_sparse_weights); if (unlikely((__pyx_t_9 < 0))) __PYX_ERR(0, 110, __pyx_L1_error)
   if (__pyx_t_9) {
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":111
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":111
  * 
  *         if train_with_sparse_weights:
  *             symmetric = False             # <<<<<<<<<<<<<<
@@ -21711,7 +21706,7 @@ static int __pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch___init__(str
     __Pyx_INCREF(Py_False);
     __Pyx_DECREF_SET(__pyx_v_symmetric, Py_False);
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":110
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":110
  * 
  * 
  *         if train_with_sparse_weights:             # <<<<<<<<<<<<<<
@@ -21720,7 +21715,7 @@ static int __pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch___init__(str
  */
   }
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":113
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":113
  *             symmetric = False
  * 
  *         self.train_with_sparse_weights = train_with_sparse_weights             # <<<<<<<<<<<<<<
@@ -21730,7 +21725,7 @@ static int __pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch___init__(str
   __pyx_t_8 = __Pyx_PyInt_As_int(__pyx_v_train_with_sparse_weights); if (unlikely((__pyx_t_8 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 113, __pyx_L1_error)
   __pyx_v_self->train_with_sparse_weights = __pyx_t_8;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":114
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":114
  * 
  *         self.train_with_sparse_weights = train_with_sparse_weights
  *         self.final_model_sparse_weights = final_model_sparse_weights             # <<<<<<<<<<<<<<
@@ -21740,7 +21735,7 @@ static int __pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch___init__(str
   __pyx_t_8 = __Pyx_PyInt_As_int(__pyx_v_final_model_sparse_weights); if (unlikely((__pyx_t_8 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 114, __pyx_L1_error)
   __pyx_v_self->final_model_sparse_weights = __pyx_t_8;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":115
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":115
  *         self.train_with_sparse_weights = train_with_sparse_weights
  *         self.final_model_sparse_weights = final_model_sparse_weights
  *         self.symmetric = symmetric             # <<<<<<<<<<<<<<
@@ -21750,7 +21745,7 @@ static int __pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch___init__(str
   __pyx_t_8 = __Pyx_PyInt_As_int(__pyx_v_symmetric); if (unlikely((__pyx_t_8 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 115, __pyx_L1_error)
   __pyx_v_self->symmetric = __pyx_t_8;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":117
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":117
  *         self.symmetric = symmetric
  * 
  *         self.URM_mask_indices = np.array(URM_mask.indices, dtype=np.int32)             # <<<<<<<<<<<<<<
@@ -21790,7 +21785,7 @@ static int __pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch___init__(str
   __pyx_t_12.memview = NULL;
   __pyx_t_12.data = NULL;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":118
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":118
  * 
  *         self.URM_mask_indices = np.array(URM_mask.indices, dtype=np.int32)
  *         self.URM_mask_indptr = np.array(URM_mask.indptr, dtype=np.int32)             # <<<<<<<<<<<<<<
@@ -21830,7 +21825,7 @@ static int __pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch___init__(str
   __pyx_t_12.memview = NULL;
   __pyx_t_12.data = NULL;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":121
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":121
  * 
  * 
  *         if self.train_with_sparse_weights:             # <<<<<<<<<<<<<<
@@ -21840,7 +21835,7 @@ static int __pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch___init__(str
   __pyx_t_9 = (__pyx_v_self->train_with_sparse_weights != 0);
   if (__pyx_t_9) {
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":122
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":122
  * 
  *         if self.train_with_sparse_weights:
  *             self.S_sparse = Sparse_Matrix_Tree_CSR(self.n_items, self.n_items)             # <<<<<<<<<<<<<<
@@ -21859,16 +21854,16 @@ static int __pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch___init__(str
     if (__Pyx_PyTuple_SET_ITEM(__pyx_t_5, 1, __pyx_t_11)) __PYX_ERR(0, 122, __pyx_L1_error);
     __pyx_t_2 = 0;
     __pyx_t_11 = 0;
-    __pyx_t_11 = __Pyx_PyObject_Call(((PyObject *)__pyx_ptype_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR), __pyx_t_5, NULL); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 122, __pyx_L1_error)
+    __pyx_t_11 = __Pyx_PyObject_Call(((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR), __pyx_t_5, NULL); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 122, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_11);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     __Pyx_GIVEREF(__pyx_t_11);
     __Pyx_GOTREF((PyObject *)__pyx_v_self->S_sparse);
     __Pyx_DECREF((PyObject *)__pyx_v_self->S_sparse);
-    __pyx_v_self->S_sparse = ((struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_t_11);
+    __pyx_v_self->S_sparse = ((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_t_11);
     __pyx_t_11 = 0;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":121
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":121
  * 
  * 
  *         if self.train_with_sparse_weights:             # <<<<<<<<<<<<<<
@@ -21878,7 +21873,7 @@ static int __pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch___init__(str
     goto __pyx_L6;
   }
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":124
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":124
  *             self.S_sparse = Sparse_Matrix_Tree_CSR(self.n_items, self.n_items)
  * 
  *         elif self.symmetric:             # <<<<<<<<<<<<<<
@@ -21888,7 +21883,7 @@ static int __pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch___init__(str
   __pyx_t_9 = (__pyx_v_self->symmetric != 0);
   if (__pyx_t_9) {
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":125
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":125
  * 
  *         elif self.symmetric:
  *             self.S_symmetric = Triangular_Matrix(self.n_items, isSymmetric = True)             # <<<<<<<<<<<<<<
@@ -21905,17 +21900,17 @@ static int __pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch___init__(str
     __pyx_t_11 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 125, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_11);
     if (PyDict_SetItem(__pyx_t_11, __pyx_n_s_isSymmetric, Py_True) < 0) __PYX_ERR(0, 125, __pyx_L1_error)
-    __pyx_t_2 = __Pyx_PyObject_Call(((PyObject *)__pyx_ptype_21SLIM_BPR_Cython_Epoch_Triangular_Matrix), __pyx_t_5, __pyx_t_11); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 125, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_Call(((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix), __pyx_t_5, __pyx_t_11); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 125, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
     __Pyx_GIVEREF(__pyx_t_2);
     __Pyx_GOTREF((PyObject *)__pyx_v_self->S_symmetric);
     __Pyx_DECREF((PyObject *)__pyx_v_self->S_symmetric);
-    __pyx_v_self->S_symmetric = ((struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *)__pyx_t_2);
+    __pyx_v_self->S_symmetric = ((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *)__pyx_t_2);
     __pyx_t_2 = 0;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":124
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":124
  *             self.S_sparse = Sparse_Matrix_Tree_CSR(self.n_items, self.n_items)
  * 
  *         elif self.symmetric:             # <<<<<<<<<<<<<<
@@ -21925,7 +21920,7 @@ static int __pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch___init__(str
     goto __pyx_L6;
   }
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":127
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":127
  *             self.S_symmetric = Triangular_Matrix(self.n_items, isSymmetric = True)
  *         else:
  *             self.S_dense = np.zeros((self.n_items, self.n_items), dtype=np.float32)             # <<<<<<<<<<<<<<
@@ -21978,7 +21973,7 @@ static int __pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch___init__(str
   }
   __pyx_L6:;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":129
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":129
  *             self.S_dense = np.zeros((self.n_items, self.n_items), dtype=np.float32)
  * 
  *         if random_seed is not None:             # <<<<<<<<<<<<<<
@@ -21988,7 +21983,7 @@ static int __pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch___init__(str
   __pyx_t_9 = (__pyx_v_random_seed != Py_None);
   if (__pyx_t_9) {
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":130
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":130
  * 
  *         if random_seed is not None:
  *             srand(<unsigned> random_seed)             # <<<<<<<<<<<<<<
@@ -21998,7 +21993,7 @@ static int __pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch___init__(str
     __pyx_t_4 = __Pyx_PyInt_As_unsigned_int(__pyx_v_random_seed); if (unlikely((__pyx_t_4 == (unsigned int)-1) && PyErr_Occurred())) __PYX_ERR(0, 130, __pyx_L1_error)
     srand(((unsigned int)__pyx_t_4));
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":129
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":129
  *             self.S_dense = np.zeros((self.n_items, self.n_items), dtype=np.float32)
  * 
  *         if random_seed is not None:             # <<<<<<<<<<<<<<
@@ -22007,7 +22002,7 @@ static int __pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch___init__(str
  */
   }
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":133
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":133
  * 
  * 
  *         self._init_adaptive_gradient_cache(sgd_mode, gamma, beta_1, beta_2)             # <<<<<<<<<<<<<<
@@ -22040,7 +22035,7 @@ static int __pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch___init__(str
   }
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":87
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":87
  * 
  * 
  *     def __init__(self, URM_mask,             # <<<<<<<<<<<<<<
@@ -22059,7 +22054,7 @@ static int __pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch___init__(str
   __Pyx_XDECREF(__pyx_t_11);
   __PYX_XCLEAR_MEMVIEW(&__pyx_t_12, 1);
   __PYX_XCLEAR_MEMVIEW(&__pyx_t_13, 1);
-  __Pyx_AddTraceback("SLIM_BPR_Cython_Epoch.SLIM_BPR_Cython_Epoch.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.SLIM_BPR_Cython_Epoch.SLIM_BPR_Cython_Epoch.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = -1;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_URM_mask);
@@ -22068,7 +22063,7 @@ static int __pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch___init__(str
   return __pyx_r;
 }
 
-/* "SLIM_BPR_Cython_Epoch.pyx":138
+/* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":138
  * 
  * 
  *     def _init_adaptive_gradient_cache(self, sgd_mode, gamma, beta_1, beta_2):             # <<<<<<<<<<<<<<
@@ -22077,15 +22072,15 @@ static int __pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch___init__(str
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_3_init_adaptive_gradient_cache(PyObject *__pyx_v_self, 
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_3_init_adaptive_gradient_cache(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static PyMethodDef __pyx_mdef_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_3_init_adaptive_gradient_cache = {"_init_adaptive_gradient_cache", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_3_init_adaptive_gradient_cache, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_3_init_adaptive_gradient_cache(PyObject *__pyx_v_self, 
+static PyMethodDef __pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_3_init_adaptive_gradient_cache = {"_init_adaptive_gradient_cache", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_3_init_adaptive_gradient_cache, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_3_init_adaptive_gradient_cache(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -22200,11 +22195,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("SLIM_BPR_Cython_Epoch.SLIM_BPR_Cython_Epoch._init_adaptive_gradient_cache", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.SLIM_BPR_Cython_Epoch.SLIM_BPR_Cython_Epoch._init_adaptive_gradient_cache", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_2_init_adaptive_gradient_cache(((struct __pyx_obj_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *)__pyx_v_self), __pyx_v_sgd_mode, __pyx_v_gamma, __pyx_v_beta_1, __pyx_v_beta_2);
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_2_init_adaptive_gradient_cache(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *)__pyx_v_self), __pyx_v_sgd_mode, __pyx_v_gamma, __pyx_v_beta_1, __pyx_v_beta_2);
 
   /* function exit code */
   {
@@ -22217,7 +22212,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_2_init_adaptive_gradient_cache(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *__pyx_v_self, PyObject *__pyx_v_sgd_mode, PyObject *__pyx_v_gamma, PyObject *__pyx_v_beta_1, PyObject *__pyx_v_beta_2) {
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_2_init_adaptive_gradient_cache(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *__pyx_v_self, PyObject *__pyx_v_sgd_mode, PyObject *__pyx_v_gamma, PyObject *__pyx_v_beta_1, PyObject *__pyx_v_beta_2) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   int __pyx_t_1;
@@ -22233,7 +22228,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_2_init
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("_init_adaptive_gradient_cache", 1);
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":140
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":140
  *     def _init_adaptive_gradient_cache(self, sgd_mode, gamma, beta_1, beta_2):
  * 
  *         self.useAdaGrad = False             # <<<<<<<<<<<<<<
@@ -22242,7 +22237,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_2_init
  */
   __pyx_v_self->useAdaGrad = 0;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":141
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":141
  * 
  *         self.useAdaGrad = False
  *         self.useRmsprop = False             # <<<<<<<<<<<<<<
@@ -22251,7 +22246,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_2_init
  */
   __pyx_v_self->useRmsprop = 0;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":142
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":142
  *         self.useAdaGrad = False
  *         self.useRmsprop = False
  *         self.useAdam = False             # <<<<<<<<<<<<<<
@@ -22260,7 +22255,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_2_init
  */
   __pyx_v_self->useAdam = 0;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":144
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":144
  *         self.useAdam = False
  * 
  *         if sgd_mode=='adagrad':             # <<<<<<<<<<<<<<
@@ -22270,7 +22265,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_2_init
   __pyx_t_1 = (__Pyx_PyString_Equals(__pyx_v_sgd_mode, __pyx_n_s_adagrad, Py_EQ)); if (unlikely((__pyx_t_1 < 0))) __PYX_ERR(0, 144, __pyx_L1_error)
   if (__pyx_t_1) {
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":145
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":145
  * 
  *         if sgd_mode=='adagrad':
  *             self.useAdaGrad = True             # <<<<<<<<<<<<<<
@@ -22279,7 +22274,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_2_init
  */
     __pyx_v_self->useAdaGrad = 1;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":144
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":144
  *         self.useAdam = False
  * 
  *         if sgd_mode=='adagrad':             # <<<<<<<<<<<<<<
@@ -22289,7 +22284,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_2_init
     goto __pyx_L3;
   }
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":147
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":147
  *             self.useAdaGrad = True
  * 
  *         elif sgd_mode=='rmsprop':             # <<<<<<<<<<<<<<
@@ -22299,7 +22294,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_2_init
   __pyx_t_1 = (__Pyx_PyString_Equals(__pyx_v_sgd_mode, __pyx_n_s_rmsprop, Py_EQ)); if (unlikely((__pyx_t_1 < 0))) __PYX_ERR(0, 147, __pyx_L1_error)
   if (__pyx_t_1) {
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":148
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":148
  * 
  *         elif sgd_mode=='rmsprop':
  *             self.useRmsprop = True             # <<<<<<<<<<<<<<
@@ -22308,7 +22303,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_2_init
  */
     __pyx_v_self->useRmsprop = 1;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":152
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":152
  *             # Gamma default value suggested by Hinton
  *             # self.gamma = 0.9
  *             self.gamma = gamma             # <<<<<<<<<<<<<<
@@ -22318,7 +22313,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_2_init
     __pyx_t_2 = __pyx_PyFloat_AsFloat(__pyx_v_gamma); if (unlikely((__pyx_t_2 == (float)-1) && PyErr_Occurred())) __PYX_ERR(0, 152, __pyx_L1_error)
     __pyx_v_self->gamma = __pyx_t_2;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":147
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":147
  *             self.useAdaGrad = True
  * 
  *         elif sgd_mode=='rmsprop':             # <<<<<<<<<<<<<<
@@ -22328,7 +22323,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_2_init
     goto __pyx_L3;
   }
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":154
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":154
  *             self.gamma = gamma
  * 
  *         elif sgd_mode=='adam':             # <<<<<<<<<<<<<<
@@ -22338,7 +22333,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_2_init
   __pyx_t_1 = (__Pyx_PyString_Equals(__pyx_v_sgd_mode, __pyx_n_s_adam, Py_EQ)); if (unlikely((__pyx_t_1 < 0))) __PYX_ERR(0, 154, __pyx_L1_error)
   if (__pyx_t_1) {
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":155
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":155
  * 
  *         elif sgd_mode=='adam':
  *             self.useAdam = True             # <<<<<<<<<<<<<<
@@ -22347,7 +22342,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_2_init
  */
     __pyx_v_self->useAdam = 1;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":159
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":159
  *             # Default value suggested by the original paper
  *             # beta_1=0.9, beta_2=0.999
  *             self.beta_1 = beta_1             # <<<<<<<<<<<<<<
@@ -22357,7 +22352,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_2_init
     __pyx_t_2 = __pyx_PyFloat_AsFloat(__pyx_v_beta_1); if (unlikely((__pyx_t_2 == (float)-1) && PyErr_Occurred())) __PYX_ERR(0, 159, __pyx_L1_error)
     __pyx_v_self->beta_1 = __pyx_t_2;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":160
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":160
  *             # beta_1=0.9, beta_2=0.999
  *             self.beta_1 = beta_1
  *             self.beta_2 = beta_2             # <<<<<<<<<<<<<<
@@ -22367,7 +22362,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_2_init
     __pyx_t_2 = __pyx_PyFloat_AsFloat(__pyx_v_beta_2); if (unlikely((__pyx_t_2 == (float)-1) && PyErr_Occurred())) __PYX_ERR(0, 160, __pyx_L1_error)
     __pyx_v_self->beta_2 = __pyx_t_2;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":161
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":161
  *             self.beta_1 = beta_1
  *             self.beta_2 = beta_2
  *             self.beta_1_power_t = beta_1             # <<<<<<<<<<<<<<
@@ -22377,7 +22372,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_2_init
     __pyx_t_2 = __pyx_PyFloat_AsFloat(__pyx_v_beta_1); if (unlikely((__pyx_t_2 == (float)-1) && PyErr_Occurred())) __PYX_ERR(0, 161, __pyx_L1_error)
     __pyx_v_self->beta_1_power_t = __pyx_t_2;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":162
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":162
  *             self.beta_2 = beta_2
  *             self.beta_1_power_t = beta_1
  *             self.beta_2_power_t = beta_2             # <<<<<<<<<<<<<<
@@ -22387,7 +22382,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_2_init
     __pyx_t_2 = __pyx_PyFloat_AsFloat(__pyx_v_beta_2); if (unlikely((__pyx_t_2 == (float)-1) && PyErr_Occurred())) __PYX_ERR(0, 162, __pyx_L1_error)
     __pyx_v_self->beta_2_power_t = __pyx_t_2;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":154
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":154
  *             self.gamma = gamma
  * 
  *         elif sgd_mode=='adam':             # <<<<<<<<<<<<<<
@@ -22397,7 +22392,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_2_init
   }
   __pyx_L3:;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":166
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":166
  * 
  * 
  *         if sgd_mode=='sgd':             # <<<<<<<<<<<<<<
@@ -22407,7 +22402,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_2_init
   __pyx_t_1 = (__Pyx_PyString_Equals(__pyx_v_sgd_mode, __pyx_n_s_sgd, Py_EQ)); if (unlikely((__pyx_t_1 < 0))) __PYX_ERR(0, 166, __pyx_L1_error)
   if (__pyx_t_1) {
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":167
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":167
  * 
  *         if sgd_mode=='sgd':
  *             self.sgd_cache_I = None             # <<<<<<<<<<<<<<
@@ -22420,7 +22415,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_2_init
     __pyx_t_3.memview = NULL;
     __pyx_t_3.data = NULL;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":169
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":169
  *             self.sgd_cache_I = None
  * 
  *             self.sgd_cache_I_momentum_1 = None             # <<<<<<<<<<<<<<
@@ -22433,7 +22428,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_2_init
     __pyx_t_3.memview = NULL;
     __pyx_t_3.data = NULL;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":170
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":170
  * 
  *             self.sgd_cache_I_momentum_1 = None
  *             self.sgd_cache_I_momentum_2 = None             # <<<<<<<<<<<<<<
@@ -22446,7 +22441,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_2_init
     __pyx_t_3.memview = NULL;
     __pyx_t_3.data = NULL;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":166
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":166
  * 
  * 
  *         if sgd_mode=='sgd':             # <<<<<<<<<<<<<<
@@ -22456,7 +22451,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_2_init
     goto __pyx_L4;
   }
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":175
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":175
  * 
  *             # Adagrad and RMSProp
  *             self.sgd_cache_I = np.zeros((self.n_items), dtype=np.float32)             # <<<<<<<<<<<<<<
@@ -22497,7 +22492,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_2_init
     __pyx_t_3.memview = NULL;
     __pyx_t_3.data = NULL;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":178
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":178
  * 
  *             # Adam
  *             self.sgd_cache_I_momentum_1 = np.zeros((self.n_items), dtype=np.float32)             # <<<<<<<<<<<<<<
@@ -22537,7 +22532,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_2_init
     __pyx_t_3.memview = NULL;
     __pyx_t_3.data = NULL;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":179
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":179
  *             # Adam
  *             self.sgd_cache_I_momentum_1 = np.zeros((self.n_items), dtype=np.float32)
  *             self.sgd_cache_I_momentum_2 = np.zeros((self.n_items), dtype=np.float32)             # <<<<<<<<<<<<<<
@@ -22579,7 +22574,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_2_init
   }
   __pyx_L4:;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":138
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":138
  * 
  * 
  *     def _init_adaptive_gradient_cache(self, sgd_mode, gamma, beta_1, beta_2):             # <<<<<<<<<<<<<<
@@ -22597,7 +22592,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_2_init
   __Pyx_XDECREF(__pyx_t_6);
   __Pyx_XDECREF(__pyx_t_7);
   __Pyx_XDECREF(__pyx_t_8);
-  __Pyx_AddTraceback("SLIM_BPR_Cython_Epoch.SLIM_BPR_Cython_Epoch._init_adaptive_gradient_cache", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.SLIM_BPR_Cython_Epoch.SLIM_BPR_Cython_Epoch._init_adaptive_gradient_cache", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -22605,7 +22600,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_2_init
   return __pyx_r;
 }
 
-/* "SLIM_BPR_Cython_Epoch.pyx":184
+/* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":184
  * 
  * 
  *     def __dealloc__(self):             # <<<<<<<<<<<<<<
@@ -22614,19 +22609,19 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_2_init
  */
 
 /* Python wrapper */
-static void __pyx_pw_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_5__dealloc__(PyObject *__pyx_v_self); /*proto*/
-static void __pyx_pw_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_5__dealloc__(PyObject *__pyx_v_self) {
+static void __pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_5__dealloc__(PyObject *__pyx_v_self); /*proto*/
+static void __pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_5__dealloc__(PyObject *__pyx_v_self) {
   CYTHON_UNUSED PyObject *const *__pyx_kwvalues;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__dealloc__ (wrapper)", 0);
   __pyx_kwvalues = __Pyx_KwValues_VARARGS(__pyx_args, __pyx_nargs);
-  __pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_4__dealloc__(((struct __pyx_obj_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *)__pyx_v_self));
+  __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_4__dealloc__(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
 }
 
-static void __pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_4__dealloc__(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *__pyx_v_self) {
+static void __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_4__dealloc__(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *__pyx_v_self) {
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
   PyObject *__pyx_t_2 = NULL;
@@ -22637,7 +22632,7 @@ static void __pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_4__dealloc_
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__dealloc__", 1);
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":190
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":190
  *         """
  * 
  *         self._dealloc()             # <<<<<<<<<<<<<<
@@ -22670,7 +22665,7 @@ static void __pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_4__dealloc_
   }
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":184
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":184
  * 
  * 
  *     def __dealloc__(self):             # <<<<<<<<<<<<<<
@@ -22684,12 +22679,12 @@ static void __pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_4__dealloc_
   __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
-  __Pyx_WriteUnraisable("SLIM_BPR_Cython_Epoch.SLIM_BPR_Cython_Epoch.__dealloc__", __pyx_clineno, __pyx_lineno, __pyx_filename, 1, 0);
+  __Pyx_WriteUnraisable("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.SLIM_BPR_Cython_Epoch.SLIM_BPR_Cython_Epoch.__dealloc__", __pyx_clineno, __pyx_lineno, __pyx_filename, 1, 0);
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();
 }
 
-/* "SLIM_BPR_Cython_Epoch.pyx":193
+/* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":193
  * 
  * 
  *     def _dealloc(self):             # <<<<<<<<<<<<<<
@@ -22698,15 +22693,15 @@ static void __pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_4__dealloc_
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_7_dealloc(PyObject *__pyx_v_self, 
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_7_dealloc(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static PyMethodDef __pyx_mdef_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_7_dealloc = {"_dealloc", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_7_dealloc, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_7_dealloc(PyObject *__pyx_v_self, 
+static PyMethodDef __pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_7_dealloc = {"_dealloc", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_7_dealloc, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_7_dealloc(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -22731,14 +22726,14 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   if (unlikely(__pyx_nargs > 0)) {
     __Pyx_RaiseArgtupleInvalid("_dealloc", 1, 0, 0, __pyx_nargs); return NULL;}
   if (unlikely(__pyx_kwds) && __Pyx_NumKwargs_FASTCALL(__pyx_kwds) && unlikely(!__Pyx_CheckKeywordStrings(__pyx_kwds, "_dealloc", 0))) return NULL;
-  __pyx_r = __pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_6_dealloc(((struct __pyx_obj_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *)__pyx_v_self));
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_6_dealloc(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_6_dealloc(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *__pyx_v_self) {
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_6_dealloc(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *__pyx_v_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -22751,7 +22746,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_6_deal
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("_dealloc", 1);
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":195
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":195
  *     def _dealloc(self):
  * 
  *         print("Deallocating Cython objects")             # <<<<<<<<<<<<<<
@@ -22762,7 +22757,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_6_deal
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":197
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":197
  *         print("Deallocating Cython objects")
  * 
  *         if self.S_sparse is not None:             # <<<<<<<<<<<<<<
@@ -22772,7 +22767,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_6_deal
   __pyx_t_2 = (((PyObject *)__pyx_v_self->S_sparse) != Py_None);
   if (__pyx_t_2) {
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":198
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":198
  * 
  *         if self.S_sparse is not None:
  *             self.S_sparse.dealloc()             # <<<<<<<<<<<<<<
@@ -22805,7 +22800,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_6_deal
     }
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":199
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":199
  *         if self.S_sparse is not None:
  *             self.S_sparse.dealloc()
  *             self.S_sparse = None             # <<<<<<<<<<<<<<
@@ -22816,9 +22811,9 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_6_deal
     __Pyx_GIVEREF(Py_None);
     __Pyx_GOTREF((PyObject *)__pyx_v_self->S_sparse);
     __Pyx_DECREF((PyObject *)__pyx_v_self->S_sparse);
-    __pyx_v_self->S_sparse = ((struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)Py_None);
+    __pyx_v_self->S_sparse = ((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)Py_None);
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":197
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":197
  *         print("Deallocating Cython objects")
  * 
  *         if self.S_sparse is not None:             # <<<<<<<<<<<<<<
@@ -22827,7 +22822,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_6_deal
  */
   }
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":201
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":201
  *             self.S_sparse = None
  * 
  *         if self.S_symmetric is not None:             # <<<<<<<<<<<<<<
@@ -22837,7 +22832,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_6_deal
   __pyx_t_2 = (((PyObject *)__pyx_v_self->S_symmetric) != Py_None);
   if (__pyx_t_2) {
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":202
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":202
  * 
  *         if self.S_symmetric is not None:
  *             self.S_symmetric.dealloc()             # <<<<<<<<<<<<<<
@@ -22870,7 +22865,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_6_deal
     }
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":203
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":203
  *         if self.S_symmetric is not None:
  *             self.S_symmetric.dealloc()
  *             self.S_symmetric = None             # <<<<<<<<<<<<<<
@@ -22881,9 +22876,9 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_6_deal
     __Pyx_GIVEREF(Py_None);
     __Pyx_GOTREF((PyObject *)__pyx_v_self->S_symmetric);
     __Pyx_DECREF((PyObject *)__pyx_v_self->S_symmetric);
-    __pyx_v_self->S_symmetric = ((struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *)Py_None);
+    __pyx_v_self->S_symmetric = ((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *)Py_None);
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":201
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":201
  *             self.S_sparse = None
  * 
  *         if self.S_symmetric is not None:             # <<<<<<<<<<<<<<
@@ -22892,7 +22887,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_6_deal
  */
   }
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":193
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":193
  * 
  * 
  *     def _dealloc(self):             # <<<<<<<<<<<<<<
@@ -22907,7 +22902,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_6_deal
   __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
-  __Pyx_AddTraceback("SLIM_BPR_Cython_Epoch.SLIM_BPR_Cython_Epoch._dealloc", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.SLIM_BPR_Cython_Epoch.SLIM_BPR_Cython_Epoch._dealloc", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -22915,7 +22910,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_6_deal
   return __pyx_r;
 }
 
-/* "SLIM_BPR_Cython_Epoch.pyx":210
+/* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":210
  * 
  * 
  *     def epochIteration_Cython(self):             # <<<<<<<<<<<<<<
@@ -22924,15 +22919,15 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_6_deal
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_9epochIteration_Cython(PyObject *__pyx_v_self, 
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_9epochIteration_Cython(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static PyMethodDef __pyx_mdef_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_9epochIteration_Cython = {"epochIteration_Cython", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_9epochIteration_Cython, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_9epochIteration_Cython(PyObject *__pyx_v_self, 
+static PyMethodDef __pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_9epochIteration_Cython = {"epochIteration_Cython", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_9epochIteration_Cython, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_9epochIteration_Cython(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -22957,17 +22952,17 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   if (unlikely(__pyx_nargs > 0)) {
     __Pyx_RaiseArgtupleInvalid("epochIteration_Cython", 1, 0, 0, __pyx_nargs); return NULL;}
   if (unlikely(__pyx_kwds) && __Pyx_NumKwargs_FASTCALL(__pyx_kwds) && unlikely(!__Pyx_CheckKeywordStrings(__pyx_kwds, "epochIteration_Cython", 0))) return NULL;
-  __pyx_r = __pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_8epochIteration_Cython(((struct __pyx_obj_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *)__pyx_v_self));
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_8epochIteration_Cython(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_8epochIteration_Cython(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *__pyx_v_self) {
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_8epochIteration_Cython(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *__pyx_v_self) {
   long __pyx_v_start_time_epoch;
   CYTHON_UNUSED long __pyx_v_start_time_batch;
-  struct __pyx_t_21SLIM_BPR_Cython_Epoch_BPR_sample __pyx_v_sample;
+  struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_BPR_sample __pyx_v_sample;
   long __pyx_v_i;
   long __pyx_v_j;
   long __pyx_v_index;
@@ -22991,7 +22986,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_8epoch
   int __pyx_t_6;
   int __pyx_t_7;
   int __pyx_t_8;
-  struct __pyx_t_21SLIM_BPR_Cython_Epoch_BPR_sample __pyx_t_9;
+  struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_BPR_sample __pyx_t_9;
   long __pyx_t_10;
   Py_ssize_t __pyx_t_11;
   float __pyx_t_12;
@@ -23000,7 +22995,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_8epoch
   Py_ssize_t __pyx_t_15;
   Py_ssize_t __pyx_t_16;
   int __pyx_t_17;
-  struct __pyx_opt_args_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_rebalance_tree __pyx_t_18;
+  struct __pyx_opt_args_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_rebalance_tree __pyx_t_18;
   PyObject *__pyx_t_19 = NULL;
   PyObject *__pyx_t_20 = NULL;
   PyObject *(*__pyx_t_21)(PyObject *);
@@ -23013,7 +23008,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_8epoch
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("epochIteration_Cython", 1);
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":212
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":212
  *     def epochIteration_Cython(self):
  * 
  *         cdef long start_time_epoch = time.time()             # <<<<<<<<<<<<<<
@@ -23051,7 +23046,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_8epoch
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_start_time_epoch = __pyx_t_5;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":213
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":213
  * 
  *         cdef long start_time_epoch = time.time()
  *         cdef long start_time_batch = time.time()             # <<<<<<<<<<<<<<
@@ -23089,7 +23084,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_8epoch
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_start_time_batch = __pyx_t_5;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":218
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":218
  *         cdef long i, j
  *         cdef long index, seen_item, n_current_sample
  *         cdef float x_uij, gradient, loss = 0.0             # <<<<<<<<<<<<<<
@@ -23098,7 +23093,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_8epoch
  */
   __pyx_v_loss = 0.0;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":223
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":223
  *         cdef int print_step
  * 
  *         if self.train_with_sparse_weights:             # <<<<<<<<<<<<<<
@@ -23108,7 +23103,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_8epoch
   __pyx_t_6 = (__pyx_v_self->train_with_sparse_weights != 0);
   if (__pyx_t_6) {
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":224
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":224
  * 
  *         if self.train_with_sparse_weights:
  *             print_step = 500000             # <<<<<<<<<<<<<<
@@ -23117,7 +23112,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_8epoch
  */
     __pyx_v_print_step = 0x7A120;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":223
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":223
  *         cdef int print_step
  * 
  *         if self.train_with_sparse_weights:             # <<<<<<<<<<<<<<
@@ -23127,7 +23122,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_8epoch
     goto __pyx_L3;
   }
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":226
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":226
  *             print_step = 500000
  *         else:
  *             print_step = 5000000             # <<<<<<<<<<<<<<
@@ -23139,7 +23134,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_8epoch
   }
   __pyx_L3:;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":230
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":230
  * 
  *         # Uniform user sampling without replacement
  *         for n_current_sample in range(self.n_users):             # <<<<<<<<<<<<<<
@@ -23151,17 +23146,17 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_8epoch
   for (__pyx_t_5 = 0; __pyx_t_5 < __pyx_t_8; __pyx_t_5+=1) {
     __pyx_v_n_current_sample = __pyx_t_5;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":232
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":232
  *         for n_current_sample in range(self.n_users):
  * 
  *             sample = self.sampleBPR_Cython()             # <<<<<<<<<<<<<<
  * 
  *             i = sample.pos_item
  */
-    __pyx_t_9 = ((struct __pyx_vtabstruct_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *)__pyx_v_self->__pyx_vtab)->sampleBPR_Cython(__pyx_v_self); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 232, __pyx_L1_error)
+    __pyx_t_9 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *)__pyx_v_self->__pyx_vtab)->sampleBPR_Cython(__pyx_v_self); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 232, __pyx_L1_error)
     __pyx_v_sample = __pyx_t_9;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":234
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":234
  *             sample = self.sampleBPR_Cython()
  * 
  *             i = sample.pos_item             # <<<<<<<<<<<<<<
@@ -23171,7 +23166,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_8epoch
     __pyx_t_10 = __pyx_v_sample.pos_item;
     __pyx_v_i = __pyx_t_10;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":235
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":235
  * 
  *             i = sample.pos_item
  *             j = sample.neg_item             # <<<<<<<<<<<<<<
@@ -23181,7 +23176,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_8epoch
     __pyx_t_10 = __pyx_v_sample.neg_item;
     __pyx_v_j = __pyx_t_10;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":237
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":237
  *             j = sample.neg_item
  * 
  *             x_uij = 0.0             # <<<<<<<<<<<<<<
@@ -23190,7 +23185,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_8epoch
  */
     __pyx_v_x_uij = 0.0;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":241
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":241
  *             # The difference is computed on the user_seen items
  * 
  *             index = 0             # <<<<<<<<<<<<<<
@@ -23199,7 +23194,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_8epoch
  */
     __pyx_v_index = 0;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":242
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":242
  * 
  *             index = 0
  *             while index <  sample.seen_items_end_pos - sample.seen_items_start_pos:             # <<<<<<<<<<<<<<
@@ -23210,7 +23205,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_8epoch
       __pyx_t_6 = (__pyx_v_index < (__pyx_v_sample.seen_items_end_pos - __pyx_v_sample.seen_items_start_pos));
       if (!__pyx_t_6) break;
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":244
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":244
  *             while index <  sample.seen_items_end_pos - sample.seen_items_start_pos:
  * 
  *                 seen_item = self.URM_mask_indices[sample.seen_items_start_pos + index]             # <<<<<<<<<<<<<<
@@ -23220,7 +23215,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_8epoch
       __pyx_t_11 = (__pyx_v_sample.seen_items_start_pos + __pyx_v_index);
       __pyx_v_seen_item = (*((int *) ( /* dim=0 */ (__pyx_v_self->URM_mask_indices.data + __pyx_t_11 * __pyx_v_self->URM_mask_indices.strides[0]) )));
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":245
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":245
  * 
  *                 seen_item = self.URM_mask_indices[sample.seen_items_start_pos + index]
  *                 index +=1             # <<<<<<<<<<<<<<
@@ -23229,7 +23224,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_8epoch
  */
       __pyx_v_index = (__pyx_v_index + 1);
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":247
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":247
  *                 index +=1
  * 
  *                 if self.train_with_sparse_weights:             # <<<<<<<<<<<<<<
@@ -23239,18 +23234,18 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_8epoch
       __pyx_t_6 = (__pyx_v_self->train_with_sparse_weights != 0);
       if (__pyx_t_6) {
 
-        /* "SLIM_BPR_Cython_Epoch.pyx":248
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":248
  * 
  *                 if self.train_with_sparse_weights:
  *                    x_uij += self.S_sparse.get_value(i, seen_item) - self.S_sparse.get_value(j, seen_item)             # <<<<<<<<<<<<<<
  * 
  *                 elif self.symmetric:
  */
-        __pyx_t_12 = ((struct __pyx_vtabstruct_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self->S_sparse->__pyx_vtab)->get_value(__pyx_v_self->S_sparse, __pyx_v_i, __pyx_v_seen_item); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 248, __pyx_L1_error)
-        __pyx_t_13 = ((struct __pyx_vtabstruct_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self->S_sparse->__pyx_vtab)->get_value(__pyx_v_self->S_sparse, __pyx_v_j, __pyx_v_seen_item); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 248, __pyx_L1_error)
+        __pyx_t_12 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self->S_sparse->__pyx_vtab)->get_value(__pyx_v_self->S_sparse, __pyx_v_i, __pyx_v_seen_item); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 248, __pyx_L1_error)
+        __pyx_t_13 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self->S_sparse->__pyx_vtab)->get_value(__pyx_v_self->S_sparse, __pyx_v_j, __pyx_v_seen_item); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 248, __pyx_L1_error)
         __pyx_v_x_uij = (__pyx_v_x_uij + (__pyx_t_12 - __pyx_t_13));
 
-        /* "SLIM_BPR_Cython_Epoch.pyx":247
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":247
  *                 index +=1
  * 
  *                 if self.train_with_sparse_weights:             # <<<<<<<<<<<<<<
@@ -23260,7 +23255,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_8epoch
         goto __pyx_L8;
       }
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":250
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":250
  *                    x_uij += self.S_sparse.get_value(i, seen_item) - self.S_sparse.get_value(j, seen_item)
  * 
  *                 elif self.symmetric:             # <<<<<<<<<<<<<<
@@ -23270,18 +23265,18 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_8epoch
       __pyx_t_6 = (__pyx_v_self->symmetric != 0);
       if (__pyx_t_6) {
 
-        /* "SLIM_BPR_Cython_Epoch.pyx":251
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":251
  * 
  *                 elif self.symmetric:
  *                     x_uij += self.S_symmetric.get_value(i, seen_item) - self.S_symmetric.get_value(j, seen_item)             # <<<<<<<<<<<<<<
  * 
  *                 else:
  */
-        __pyx_t_13 = ((struct __pyx_vtabstruct_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *)__pyx_v_self->S_symmetric->__pyx_vtab)->get_value(__pyx_v_self->S_symmetric, __pyx_v_i, __pyx_v_seen_item); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 251, __pyx_L1_error)
-        __pyx_t_12 = ((struct __pyx_vtabstruct_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *)__pyx_v_self->S_symmetric->__pyx_vtab)->get_value(__pyx_v_self->S_symmetric, __pyx_v_j, __pyx_v_seen_item); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 251, __pyx_L1_error)
+        __pyx_t_13 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *)__pyx_v_self->S_symmetric->__pyx_vtab)->get_value(__pyx_v_self->S_symmetric, __pyx_v_i, __pyx_v_seen_item); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 251, __pyx_L1_error)
+        __pyx_t_12 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *)__pyx_v_self->S_symmetric->__pyx_vtab)->get_value(__pyx_v_self->S_symmetric, __pyx_v_j, __pyx_v_seen_item); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 251, __pyx_L1_error)
         __pyx_v_x_uij = (__pyx_v_x_uij + (__pyx_t_13 - __pyx_t_12));
 
-        /* "SLIM_BPR_Cython_Epoch.pyx":250
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":250
  *                    x_uij += self.S_sparse.get_value(i, seen_item) - self.S_sparse.get_value(j, seen_item)
  * 
  *                 elif self.symmetric:             # <<<<<<<<<<<<<<
@@ -23291,7 +23286,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_8epoch
         goto __pyx_L8;
       }
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":254
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":254
  * 
  *                 else:
  *                     x_uij += self.S_dense[i, seen_item] - self.S_dense[j, seen_item]             # <<<<<<<<<<<<<<
@@ -23308,7 +23303,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_8epoch
       __pyx_L8:;
     }
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":257
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":257
  * 
  * 
  *             gradient = 1 / (1 + exp(x_uij))             # <<<<<<<<<<<<<<
@@ -23317,7 +23312,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_8epoch
  */
     __pyx_v_gradient = (1.0 / (1.0 + exp(__pyx_v_x_uij)));
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":258
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":258
  * 
  *             gradient = 1 / (1 + exp(x_uij))
  *             loss += x_uij**2             # <<<<<<<<<<<<<<
@@ -23326,27 +23321,27 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_8epoch
  */
     __pyx_v_loss = (__pyx_v_loss + powf(__pyx_v_x_uij, 2.0));
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":261
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":261
  * 
  * 
  *             local_gradient_i = self.adaptive_gradient(gradient, i, self.sgd_cache_I, self.sgd_cache_I_momentum_1, self.sgd_cache_I_momentum_2)             # <<<<<<<<<<<<<<
  *             local_gradient_j = self.adaptive_gradient(gradient, j, self.sgd_cache_I, self.sgd_cache_I_momentum_1, self.sgd_cache_I_momentum_2)
  * 
  */
-    __pyx_t_12 = ((struct __pyx_vtabstruct_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *)__pyx_v_self->__pyx_vtab)->adaptive_gradient(__pyx_v_self, __pyx_v_gradient, __pyx_v_i, __pyx_v_self->sgd_cache_I, __pyx_v_self->sgd_cache_I_momentum_1, __pyx_v_self->sgd_cache_I_momentum_2); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 261, __pyx_L1_error)
+    __pyx_t_12 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *)__pyx_v_self->__pyx_vtab)->adaptive_gradient(__pyx_v_self, __pyx_v_gradient, __pyx_v_i, __pyx_v_self->sgd_cache_I, __pyx_v_self->sgd_cache_I_momentum_1, __pyx_v_self->sgd_cache_I_momentum_2); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 261, __pyx_L1_error)
     __pyx_v_local_gradient_i = __pyx_t_12;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":262
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":262
  * 
  *             local_gradient_i = self.adaptive_gradient(gradient, i, self.sgd_cache_I, self.sgd_cache_I_momentum_1, self.sgd_cache_I_momentum_2)
  *             local_gradient_j = self.adaptive_gradient(gradient, j, self.sgd_cache_I, self.sgd_cache_I_momentum_1, self.sgd_cache_I_momentum_2)             # <<<<<<<<<<<<<<
  * 
  * 
  */
-    __pyx_t_12 = ((struct __pyx_vtabstruct_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *)__pyx_v_self->__pyx_vtab)->adaptive_gradient(__pyx_v_self, __pyx_v_gradient, __pyx_v_j, __pyx_v_self->sgd_cache_I, __pyx_v_self->sgd_cache_I_momentum_1, __pyx_v_self->sgd_cache_I_momentum_2); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 262, __pyx_L1_error)
+    __pyx_t_12 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *)__pyx_v_self->__pyx_vtab)->adaptive_gradient(__pyx_v_self, __pyx_v_gradient, __pyx_v_j, __pyx_v_self->sgd_cache_I, __pyx_v_self->sgd_cache_I_momentum_1, __pyx_v_self->sgd_cache_I_momentum_2); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 262, __pyx_L1_error)
     __pyx_v_local_gradient_j = __pyx_t_12;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":265
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":265
  * 
  * 
  *             index = 0             # <<<<<<<<<<<<<<
@@ -23355,7 +23350,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_8epoch
  */
     __pyx_v_index = 0;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":266
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":266
  * 
  *             index = 0
  *             while index < sample.seen_items_end_pos - sample.seen_items_start_pos:             # <<<<<<<<<<<<<<
@@ -23366,7 +23361,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_8epoch
       __pyx_t_6 = (__pyx_v_index < (__pyx_v_sample.seen_items_end_pos - __pyx_v_sample.seen_items_start_pos));
       if (!__pyx_t_6) break;
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":268
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":268
  *             while index < sample.seen_items_end_pos - sample.seen_items_start_pos:
  * 
  *                 seen_item = self.URM_mask_indices[sample.seen_items_start_pos + index]             # <<<<<<<<<<<<<<
@@ -23376,7 +23371,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_8epoch
       __pyx_t_16 = (__pyx_v_sample.seen_items_start_pos + __pyx_v_index);
       __pyx_v_seen_item = (*((int *) ( /* dim=0 */ (__pyx_v_self->URM_mask_indices.data + __pyx_t_16 * __pyx_v_self->URM_mask_indices.strides[0]) )));
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":269
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":269
  * 
  *                 seen_item = self.URM_mask_indices[sample.seen_items_start_pos + index]
  *                 index +=1             # <<<<<<<<<<<<<<
@@ -23385,7 +23380,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_8epoch
  */
       __pyx_v_index = (__pyx_v_index + 1);
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":271
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":271
  *                 index +=1
  * 
  *                 if self.train_with_sparse_weights:             # <<<<<<<<<<<<<<
@@ -23395,7 +23390,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_8epoch
       __pyx_t_6 = (__pyx_v_self->train_with_sparse_weights != 0);
       if (__pyx_t_6) {
 
-        /* "SLIM_BPR_Cython_Epoch.pyx":275
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":275
  *                     # If no reg is required, avoid accessing it
  * 
  *                     if seen_item != i:             # <<<<<<<<<<<<<<
@@ -23405,7 +23400,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_8epoch
         __pyx_t_6 = (__pyx_v_seen_item != __pyx_v_i);
         if (__pyx_t_6) {
 
-          /* "SLIM_BPR_Cython_Epoch.pyx":276
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":276
  * 
  *                     if seen_item != i:
  *                         if self.li_reg!= 0.0:             # <<<<<<<<<<<<<<
@@ -23415,17 +23410,17 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_8epoch
           __pyx_t_6 = (__pyx_v_self->li_reg != 0.0);
           if (__pyx_t_6) {
 
-            /* "SLIM_BPR_Cython_Epoch.pyx":277
+            /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":277
  *                     if seen_item != i:
  *                         if self.li_reg!= 0.0:
  *                             self.S_sparse.add_value(i, seen_item, self.learning_rate * (local_gradient_i - self.li_reg * self.S_sparse.get_value(i, seen_item)))             # <<<<<<<<<<<<<<
  *                         else:
  *                             self.S_sparse.add_value(i, seen_item, self.learning_rate * local_gradient_i)
  */
-            __pyx_t_12 = ((struct __pyx_vtabstruct_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self->S_sparse->__pyx_vtab)->get_value(__pyx_v_self->S_sparse, __pyx_v_i, __pyx_v_seen_item); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 277, __pyx_L1_error)
-            ((struct __pyx_vtabstruct_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self->S_sparse->__pyx_vtab)->add_value(__pyx_v_self->S_sparse, __pyx_v_i, __pyx_v_seen_item, (__pyx_v_self->learning_rate * (__pyx_v_local_gradient_i - (__pyx_v_self->li_reg * __pyx_t_12)))); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 277, __pyx_L1_error)
+            __pyx_t_12 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self->S_sparse->__pyx_vtab)->get_value(__pyx_v_self->S_sparse, __pyx_v_i, __pyx_v_seen_item); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 277, __pyx_L1_error)
+            ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self->S_sparse->__pyx_vtab)->add_value(__pyx_v_self->S_sparse, __pyx_v_i, __pyx_v_seen_item, (__pyx_v_self->learning_rate * (__pyx_v_local_gradient_i - (__pyx_v_self->li_reg * __pyx_t_12)))); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 277, __pyx_L1_error)
 
-            /* "SLIM_BPR_Cython_Epoch.pyx":276
+            /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":276
  * 
  *                     if seen_item != i:
  *                         if self.li_reg!= 0.0:             # <<<<<<<<<<<<<<
@@ -23435,7 +23430,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_8epoch
             goto __pyx_L13;
           }
 
-          /* "SLIM_BPR_Cython_Epoch.pyx":279
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":279
  *                             self.S_sparse.add_value(i, seen_item, self.learning_rate * (local_gradient_i - self.li_reg * self.S_sparse.get_value(i, seen_item)))
  *                         else:
  *                             self.S_sparse.add_value(i, seen_item, self.learning_rate * local_gradient_i)             # <<<<<<<<<<<<<<
@@ -23443,11 +23438,11 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_8epoch
  * 
  */
           /*else*/ {
-            ((struct __pyx_vtabstruct_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self->S_sparse->__pyx_vtab)->add_value(__pyx_v_self->S_sparse, __pyx_v_i, __pyx_v_seen_item, (__pyx_v_self->learning_rate * __pyx_v_local_gradient_i)); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 279, __pyx_L1_error)
+            ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self->S_sparse->__pyx_vtab)->add_value(__pyx_v_self->S_sparse, __pyx_v_i, __pyx_v_seen_item, (__pyx_v_self->learning_rate * __pyx_v_local_gradient_i)); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 279, __pyx_L1_error)
           }
           __pyx_L13:;
 
-          /* "SLIM_BPR_Cython_Epoch.pyx":275
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":275
  *                     # If no reg is required, avoid accessing it
  * 
  *                     if seen_item != i:             # <<<<<<<<<<<<<<
@@ -23456,7 +23451,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_8epoch
  */
         }
 
-        /* "SLIM_BPR_Cython_Epoch.pyx":282
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":282
  * 
  * 
  *                     if seen_item != j:             # <<<<<<<<<<<<<<
@@ -23466,7 +23461,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_8epoch
         __pyx_t_6 = (__pyx_v_seen_item != __pyx_v_j);
         if (__pyx_t_6) {
 
-          /* "SLIM_BPR_Cython_Epoch.pyx":283
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":283
  * 
  *                     if seen_item != j:
  *                         if self.lj_reg!= 0.0:             # <<<<<<<<<<<<<<
@@ -23476,17 +23471,17 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_8epoch
           __pyx_t_6 = (__pyx_v_self->lj_reg != 0.0);
           if (__pyx_t_6) {
 
-            /* "SLIM_BPR_Cython_Epoch.pyx":284
+            /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":284
  *                     if seen_item != j:
  *                         if self.lj_reg!= 0.0:
  *                             self.S_sparse.add_value(j, seen_item, -self.learning_rate * (local_gradient_j - self.lj_reg * self.S_sparse.get_value(j, seen_item)))             # <<<<<<<<<<<<<<
  *                         else:
  *                             self.S_sparse.add_value(j, seen_item, -self.learning_rate * local_gradient_j)
  */
-            __pyx_t_12 = ((struct __pyx_vtabstruct_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self->S_sparse->__pyx_vtab)->get_value(__pyx_v_self->S_sparse, __pyx_v_j, __pyx_v_seen_item); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 284, __pyx_L1_error)
-            ((struct __pyx_vtabstruct_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self->S_sparse->__pyx_vtab)->add_value(__pyx_v_self->S_sparse, __pyx_v_j, __pyx_v_seen_item, ((-__pyx_v_self->learning_rate) * (__pyx_v_local_gradient_j - (__pyx_v_self->lj_reg * __pyx_t_12)))); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 284, __pyx_L1_error)
+            __pyx_t_12 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self->S_sparse->__pyx_vtab)->get_value(__pyx_v_self->S_sparse, __pyx_v_j, __pyx_v_seen_item); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 284, __pyx_L1_error)
+            ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self->S_sparse->__pyx_vtab)->add_value(__pyx_v_self->S_sparse, __pyx_v_j, __pyx_v_seen_item, ((-__pyx_v_self->learning_rate) * (__pyx_v_local_gradient_j - (__pyx_v_self->lj_reg * __pyx_t_12)))); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 284, __pyx_L1_error)
 
-            /* "SLIM_BPR_Cython_Epoch.pyx":283
+            /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":283
  * 
  *                     if seen_item != j:
  *                         if self.lj_reg!= 0.0:             # <<<<<<<<<<<<<<
@@ -23496,7 +23491,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_8epoch
             goto __pyx_L15;
           }
 
-          /* "SLIM_BPR_Cython_Epoch.pyx":286
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":286
  *                             self.S_sparse.add_value(j, seen_item, -self.learning_rate * (local_gradient_j - self.lj_reg * self.S_sparse.get_value(j, seen_item)))
  *                         else:
  *                             self.S_sparse.add_value(j, seen_item, -self.learning_rate * local_gradient_j)             # <<<<<<<<<<<<<<
@@ -23504,11 +23499,11 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_8epoch
  * 
  */
           /*else*/ {
-            ((struct __pyx_vtabstruct_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self->S_sparse->__pyx_vtab)->add_value(__pyx_v_self->S_sparse, __pyx_v_j, __pyx_v_seen_item, ((-__pyx_v_self->learning_rate) * __pyx_v_local_gradient_j)); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 286, __pyx_L1_error)
+            ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self->S_sparse->__pyx_vtab)->add_value(__pyx_v_self->S_sparse, __pyx_v_j, __pyx_v_seen_item, ((-__pyx_v_self->learning_rate) * __pyx_v_local_gradient_j)); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 286, __pyx_L1_error)
           }
           __pyx_L15:;
 
-          /* "SLIM_BPR_Cython_Epoch.pyx":282
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":282
  * 
  * 
  *                     if seen_item != j:             # <<<<<<<<<<<<<<
@@ -23517,7 +23512,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_8epoch
  */
         }
 
-        /* "SLIM_BPR_Cython_Epoch.pyx":271
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":271
  *                 index +=1
  * 
  *                 if self.train_with_sparse_weights:             # <<<<<<<<<<<<<<
@@ -23527,7 +23522,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_8epoch
         goto __pyx_L11;
       }
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":289
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":289
  * 
  * 
  *                 elif self.symmetric:             # <<<<<<<<<<<<<<
@@ -23537,7 +23532,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_8epoch
       __pyx_t_6 = (__pyx_v_self->symmetric != 0);
       if (__pyx_t_6) {
 
-        /* "SLIM_BPR_Cython_Epoch.pyx":291
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":291
  *                 elif self.symmetric:
  * 
  *                     if seen_item != i:             # <<<<<<<<<<<<<<
@@ -23547,17 +23542,17 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_8epoch
         __pyx_t_6 = (__pyx_v_seen_item != __pyx_v_i);
         if (__pyx_t_6) {
 
-          /* "SLIM_BPR_Cython_Epoch.pyx":292
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":292
  * 
  *                     if seen_item != i:
  *                         self.S_symmetric.add_value(i, seen_item, self.learning_rate * (local_gradient_i - self.li_reg * self.S_symmetric.get_value(i, seen_item)))             # <<<<<<<<<<<<<<
  * 
  *                     if seen_item != j:
  */
-          __pyx_t_12 = ((struct __pyx_vtabstruct_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *)__pyx_v_self->S_symmetric->__pyx_vtab)->get_value(__pyx_v_self->S_symmetric, __pyx_v_i, __pyx_v_seen_item); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 292, __pyx_L1_error)
-          ((struct __pyx_vtabstruct_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *)__pyx_v_self->S_symmetric->__pyx_vtab)->add_value(__pyx_v_self->S_symmetric, __pyx_v_i, __pyx_v_seen_item, (__pyx_v_self->learning_rate * (__pyx_v_local_gradient_i - (__pyx_v_self->li_reg * __pyx_t_12)))); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 292, __pyx_L1_error)
+          __pyx_t_12 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *)__pyx_v_self->S_symmetric->__pyx_vtab)->get_value(__pyx_v_self->S_symmetric, __pyx_v_i, __pyx_v_seen_item); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 292, __pyx_L1_error)
+          ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *)__pyx_v_self->S_symmetric->__pyx_vtab)->add_value(__pyx_v_self->S_symmetric, __pyx_v_i, __pyx_v_seen_item, (__pyx_v_self->learning_rate * (__pyx_v_local_gradient_i - (__pyx_v_self->li_reg * __pyx_t_12)))); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 292, __pyx_L1_error)
 
-          /* "SLIM_BPR_Cython_Epoch.pyx":291
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":291
  *                 elif self.symmetric:
  * 
  *                     if seen_item != i:             # <<<<<<<<<<<<<<
@@ -23566,7 +23561,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_8epoch
  */
         }
 
-        /* "SLIM_BPR_Cython_Epoch.pyx":294
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":294
  *                         self.S_symmetric.add_value(i, seen_item, self.learning_rate * (local_gradient_i - self.li_reg * self.S_symmetric.get_value(i, seen_item)))
  * 
  *                     if seen_item != j:             # <<<<<<<<<<<<<<
@@ -23576,17 +23571,17 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_8epoch
         __pyx_t_6 = (__pyx_v_seen_item != __pyx_v_j);
         if (__pyx_t_6) {
 
-          /* "SLIM_BPR_Cython_Epoch.pyx":295
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":295
  * 
  *                     if seen_item != j:
  *                         self.S_symmetric.add_value(j, seen_item, -self.learning_rate * (local_gradient_j - self.lj_reg * self.S_symmetric.get_value(j, seen_item)))             # <<<<<<<<<<<<<<
  * 
  *                 else:
  */
-          __pyx_t_12 = ((struct __pyx_vtabstruct_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *)__pyx_v_self->S_symmetric->__pyx_vtab)->get_value(__pyx_v_self->S_symmetric, __pyx_v_j, __pyx_v_seen_item); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 295, __pyx_L1_error)
-          ((struct __pyx_vtabstruct_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *)__pyx_v_self->S_symmetric->__pyx_vtab)->add_value(__pyx_v_self->S_symmetric, __pyx_v_j, __pyx_v_seen_item, ((-__pyx_v_self->learning_rate) * (__pyx_v_local_gradient_j - (__pyx_v_self->lj_reg * __pyx_t_12)))); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 295, __pyx_L1_error)
+          __pyx_t_12 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *)__pyx_v_self->S_symmetric->__pyx_vtab)->get_value(__pyx_v_self->S_symmetric, __pyx_v_j, __pyx_v_seen_item); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 295, __pyx_L1_error)
+          ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *)__pyx_v_self->S_symmetric->__pyx_vtab)->add_value(__pyx_v_self->S_symmetric, __pyx_v_j, __pyx_v_seen_item, ((-__pyx_v_self->learning_rate) * (__pyx_v_local_gradient_j - (__pyx_v_self->lj_reg * __pyx_t_12)))); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 295, __pyx_L1_error)
 
-          /* "SLIM_BPR_Cython_Epoch.pyx":294
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":294
  *                         self.S_symmetric.add_value(i, seen_item, self.learning_rate * (local_gradient_i - self.li_reg * self.S_symmetric.get_value(i, seen_item)))
  * 
  *                     if seen_item != j:             # <<<<<<<<<<<<<<
@@ -23595,7 +23590,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_8epoch
  */
         }
 
-        /* "SLIM_BPR_Cython_Epoch.pyx":289
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":289
  * 
  * 
  *                 elif self.symmetric:             # <<<<<<<<<<<<<<
@@ -23605,7 +23600,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_8epoch
         goto __pyx_L11;
       }
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":299
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":299
  *                 else:
  * 
  *                     if seen_item != i:             # <<<<<<<<<<<<<<
@@ -23616,7 +23611,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_8epoch
         __pyx_t_6 = (__pyx_v_seen_item != __pyx_v_i);
         if (__pyx_t_6) {
 
-          /* "SLIM_BPR_Cython_Epoch.pyx":300
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":300
  * 
  *                     if seen_item != i:
  *                         self.S_dense[i, seen_item] += self.learning_rate * (local_gradient_i - self.li_reg * self.S_dense[i, seen_item])             # <<<<<<<<<<<<<<
@@ -23629,7 +23624,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_8epoch
           __pyx_t_11 = __pyx_v_seen_item;
           *((float *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_self->S_dense.data + __pyx_t_14 * __pyx_v_self->S_dense.strides[0]) ) + __pyx_t_11 * __pyx_v_self->S_dense.strides[1]) )) += (__pyx_v_self->learning_rate * (__pyx_v_local_gradient_i - (__pyx_v_self->li_reg * (*((float *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_self->S_dense.data + __pyx_t_16 * __pyx_v_self->S_dense.strides[0]) ) + __pyx_t_15 * __pyx_v_self->S_dense.strides[1]) ))))));
 
-          /* "SLIM_BPR_Cython_Epoch.pyx":299
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":299
  *                 else:
  * 
  *                     if seen_item != i:             # <<<<<<<<<<<<<<
@@ -23638,7 +23633,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_8epoch
  */
         }
 
-        /* "SLIM_BPR_Cython_Epoch.pyx":302
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":302
  *                         self.S_dense[i, seen_item] += self.learning_rate * (local_gradient_i - self.li_reg * self.S_dense[i, seen_item])
  * 
  *                     if seen_item != j:             # <<<<<<<<<<<<<<
@@ -23648,7 +23643,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_8epoch
         __pyx_t_6 = (__pyx_v_seen_item != __pyx_v_j);
         if (__pyx_t_6) {
 
-          /* "SLIM_BPR_Cython_Epoch.pyx":303
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":303
  * 
  *                     if seen_item != j:
  *                         self.S_dense[j, seen_item] -= self.learning_rate * (local_gradient_j - self.lj_reg * self.S_dense[j, seen_item])             # <<<<<<<<<<<<<<
@@ -23661,7 +23656,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_8epoch
           __pyx_t_14 = __pyx_v_seen_item;
           *((float *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_self->S_dense.data + __pyx_t_11 * __pyx_v_self->S_dense.strides[0]) ) + __pyx_t_14 * __pyx_v_self->S_dense.strides[1]) )) -= (__pyx_v_self->learning_rate * (__pyx_v_local_gradient_j - (__pyx_v_self->lj_reg * (*((float *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_self->S_dense.data + __pyx_t_15 * __pyx_v_self->S_dense.strides[0]) ) + __pyx_t_16 * __pyx_v_self->S_dense.strides[1]) ))))));
 
-          /* "SLIM_BPR_Cython_Epoch.pyx":302
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":302
  *                         self.S_dense[i, seen_item] += self.learning_rate * (local_gradient_i - self.li_reg * self.S_dense[i, seen_item])
  * 
  *                     if seen_item != j:             # <<<<<<<<<<<<<<
@@ -23673,7 +23668,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_8epoch
       __pyx_L11:;
     }
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":308
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":308
  * 
  *             # Exponentiation of beta at the end of each sample
  *             if self.useAdam:             # <<<<<<<<<<<<<<
@@ -23683,7 +23678,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_8epoch
     __pyx_t_6 = (__pyx_v_self->useAdam != 0);
     if (__pyx_t_6) {
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":310
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":310
  *             if self.useAdam:
  * 
  *                 self.beta_1_power_t *= self.beta_1             # <<<<<<<<<<<<<<
@@ -23692,7 +23687,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_8epoch
  */
       __pyx_v_self->beta_1_power_t = (__pyx_v_self->beta_1_power_t * __pyx_v_self->beta_1);
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":311
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":311
  * 
  *                 self.beta_1_power_t *= self.beta_1
  *                 self.beta_2_power_t *= self.beta_2             # <<<<<<<<<<<<<<
@@ -23701,7 +23696,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_8epoch
  */
       __pyx_v_self->beta_2_power_t = (__pyx_v_self->beta_2_power_t * __pyx_v_self->beta_2);
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":308
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":308
  * 
  *             # Exponentiation of beta at the end of each sample
  *             if self.useAdam:             # <<<<<<<<<<<<<<
@@ -23710,7 +23705,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_8epoch
  */
     }
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":317
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":317
  *             # If I have reached at least 20% of the total number of batches or samples
  *             # This allows to limit the memory occupancy of the sparse matrix
  *             if self.train_with_sparse_weights and n_current_sample % (self.n_users/5) == 0 and n_current_sample!=0:             # <<<<<<<<<<<<<<
@@ -23734,7 +23729,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_8epoch
     __pyx_L22_bool_binop_done:;
     if (__pyx_t_6) {
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":318
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":318
  *             # This allows to limit the memory occupancy of the sparse matrix
  *             if self.train_with_sparse_weights and n_current_sample % (self.n_users/5) == 0 and n_current_sample!=0:
  *                 self.S_sparse.rebalance_tree(TopK=self.topK)             # <<<<<<<<<<<<<<
@@ -23743,11 +23738,11 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_8epoch
  */
       __pyx_t_18.__pyx_n = 1;
       __pyx_t_18.TopK = __pyx_v_self->topK;
-      __pyx_t_1 = ((struct __pyx_vtabstruct_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self->S_sparse->__pyx_vtab)->rebalance_tree(__pyx_v_self->S_sparse, &__pyx_t_18); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 318, __pyx_L1_error)
+      __pyx_t_1 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self->S_sparse->__pyx_vtab)->rebalance_tree(__pyx_v_self->S_sparse, &__pyx_t_18); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 318, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":317
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":317
  *             # If I have reached at least 20% of the total number of batches or samples
  *             # This allows to limit the memory occupancy of the sparse matrix
  *             if self.train_with_sparse_weights and n_current_sample % (self.n_users/5) == 0 and n_current_sample!=0:             # <<<<<<<<<<<<<<
@@ -23756,7 +23751,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_8epoch
  */
     }
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":321
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":321
  * 
  * 
  *             if self.verbose and ((n_current_sample+1) % print_step==0 or n_current_sample==self.n_users-1):             # <<<<<<<<<<<<<<
@@ -23780,7 +23775,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_8epoch
     __pyx_L26_bool_binop_done:;
     if (__pyx_t_6) {
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":322
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":322
  * 
  *             if self.verbose and ((n_current_sample+1) % print_step==0 or n_current_sample==self.n_users-1):
  *                 new_time_value, new_time_unit = seconds_to_biggest_unit(time.time() - start_time_epoch)             # <<<<<<<<<<<<<<
@@ -23896,7 +23891,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_8epoch
       __Pyx_XDECREF_SET(__pyx_v_new_time_unit, __pyx_t_19);
       __pyx_t_19 = 0;
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":324
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":324
  *                 new_time_value, new_time_unit = seconds_to_biggest_unit(time.time() - start_time_epoch)
  * 
  *                 print("Processed {} ({:4.1f}%) in {:.2f} {}. BPR loss is {:.2E}. Sample per second: {:.0f}".format(             # <<<<<<<<<<<<<<
@@ -23906,7 +23901,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_8epoch
       __pyx_t_19 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_Processed_4_1f_in_2f_BPR_loss_is, __pyx_n_s_format); if (unlikely(!__pyx_t_19)) __PYX_ERR(0, 324, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_19);
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":325
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":325
  * 
  *                 print("Processed {} ({:4.1f}%) in {:.2f} {}. BPR loss is {:.2E}. Sample per second: {:.0f}".format(
  *                     n_current_sample+1,             # <<<<<<<<<<<<<<
@@ -23916,7 +23911,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_8epoch
       __pyx_t_2 = __Pyx_PyInt_From_long((__pyx_v_n_current_sample + 1)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 325, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":326
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":326
  *                 print("Processed {} ({:4.1f}%) in {:.2f} {}. BPR loss is {:.2E}. Sample per second: {:.0f}".format(
  *                     n_current_sample+1,
  *                     100.0* float(n_current_sample+1)/self.n_users,             # <<<<<<<<<<<<<<
@@ -23926,7 +23921,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_8epoch
       __pyx_t_20 = PyFloat_FromDouble(((100.0 * ((double)(__pyx_v_n_current_sample + 1))) / ((double)__pyx_v_self->n_users))); if (unlikely(!__pyx_t_20)) __PYX_ERR(0, 326, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_20);
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":328
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":328
  *                     100.0* float(n_current_sample+1)/self.n_users,
  *                     new_time_value, new_time_unit,
  *                     loss/(n_current_sample+1),             # <<<<<<<<<<<<<<
@@ -23936,7 +23931,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_8epoch
       __pyx_t_3 = PyFloat_FromDouble((__pyx_v_loss / ((float)(__pyx_v_n_current_sample + 1)))); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 328, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":329
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":329
  *                     new_time_value, new_time_unit,
  *                     loss/(n_current_sample+1),
  *                     float(n_current_sample+1) / (time.time() - start_time_epoch)))             # <<<<<<<<<<<<<<
@@ -24009,7 +24004,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_8epoch
         __Pyx_DECREF(__pyx_t_19); __pyx_t_19 = 0;
       }
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":324
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":324
  *                 new_time_value, new_time_unit = seconds_to_biggest_unit(time.time() - start_time_epoch)
  * 
  *                 print("Processed {} ({:4.1f}%) in {:.2f} {}. BPR loss is {:.2E}. Sample per second: {:.0f}".format(             # <<<<<<<<<<<<<<
@@ -24021,7 +24016,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_8epoch
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
       __Pyx_DECREF(__pyx_t_19); __pyx_t_19 = 0;
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":331
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":331
  *                     float(n_current_sample+1) / (time.time() - start_time_epoch)))
  * 
  *                 sys.stdout.flush()             # <<<<<<<<<<<<<<
@@ -24060,7 +24055,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_8epoch
       }
       __Pyx_DECREF(__pyx_t_19); __pyx_t_19 = 0;
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":332
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":332
  * 
  *                 sys.stdout.flush()
  *                 sys.stderr.flush()             # <<<<<<<<<<<<<<
@@ -24099,7 +24094,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_8epoch
       }
       __Pyx_DECREF(__pyx_t_19); __pyx_t_19 = 0;
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":334
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":334
  *                 sys.stderr.flush()
  * 
  *                 start_time_batch = time.time()             # <<<<<<<<<<<<<<
@@ -24137,7 +24132,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_8epoch
       __Pyx_DECREF(__pyx_t_19); __pyx_t_19 = 0;
       __pyx_v_start_time_batch = __pyx_t_10;
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":321
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":321
  * 
  * 
  *             if self.verbose and ((n_current_sample+1) % print_step==0 or n_current_sample==self.n_users-1):             # <<<<<<<<<<<<<<
@@ -24147,7 +24142,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_8epoch
     }
   }
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":210
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":210
  * 
  * 
  *     def epochIteration_Cython(self):             # <<<<<<<<<<<<<<
@@ -24168,7 +24163,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_8epoch
   __Pyx_XDECREF(__pyx_t_23);
   __Pyx_XDECREF(__pyx_t_24);
   __Pyx_XDECREF(__pyx_t_25);
-  __Pyx_AddTraceback("SLIM_BPR_Cython_Epoch.SLIM_BPR_Cython_Epoch.epochIteration_Cython", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.SLIM_BPR_Cython_Epoch.SLIM_BPR_Cython_Epoch.epochIteration_Cython", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_new_time_value);
@@ -24178,7 +24173,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_8epoch
   return __pyx_r;
 }
 
-/* "SLIM_BPR_Cython_Epoch.pyx":339
+/* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":339
  * 
  * 
  *     def get_S(self):             # <<<<<<<<<<<<<<
@@ -24187,15 +24182,15 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_8epoch
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_11get_S(PyObject *__pyx_v_self, 
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_11get_S(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static PyMethodDef __pyx_mdef_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_11get_S = {"get_S", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_11get_S, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_11get_S(PyObject *__pyx_v_self, 
+static PyMethodDef __pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_11get_S = {"get_S", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_11get_S, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_11get_S(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -24220,14 +24215,14 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   if (unlikely(__pyx_nargs > 0)) {
     __Pyx_RaiseArgtupleInvalid("get_S", 1, 0, 0, __pyx_nargs); return NULL;}
   if (unlikely(__pyx_kwds) && __Pyx_NumKwargs_FASTCALL(__pyx_kwds) && unlikely(!__Pyx_CheckKeywordStrings(__pyx_kwds, "get_S", 0))) return NULL;
-  __pyx_r = __pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_10get_S(((struct __pyx_obj_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *)__pyx_v_self));
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_10get_S(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_10get_S(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *__pyx_v_self) {
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_10get_S(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *__pyx_v_self) {
   int __pyx_v_index;
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
@@ -24236,8 +24231,8 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_10get_
   Py_ssize_t __pyx_t_3;
   Py_ssize_t __pyx_t_4;
   PyObject *__pyx_t_5 = NULL;
-  struct __pyx_opt_args_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_get_scipy_csr __pyx_t_6;
-  struct __pyx_opt_args_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_get_scipy_csr __pyx_t_7;
+  struct __pyx_opt_args_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_get_scipy_csr __pyx_t_6;
+  struct __pyx_opt_args_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_get_scipy_csr __pyx_t_7;
   PyObject *__pyx_t_8 = NULL;
   PyObject *__pyx_t_9 = NULL;
   PyObject *__pyx_t_10 = NULL;
@@ -24249,7 +24244,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_10get_
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("get_S", 1);
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":342
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":342
  * 
  *         # FIll diagonal with zeros
  *         cdef int index = 0             # <<<<<<<<<<<<<<
@@ -24258,7 +24253,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_10get_
  */
   __pyx_v_index = 0;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":344
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":344
  *         cdef int index = 0
  * 
  *         while index < self.n_items:             # <<<<<<<<<<<<<<
@@ -24269,7 +24264,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_10get_
     __pyx_t_1 = (__pyx_v_index < __pyx_v_self->n_items);
     if (!__pyx_t_1) break;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":346
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":346
  *         while index < self.n_items:
  * 
  *             if self.train_with_sparse_weights:             # <<<<<<<<<<<<<<
@@ -24279,17 +24274,17 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_10get_
     __pyx_t_1 = (__pyx_v_self->train_with_sparse_weights != 0);
     if (__pyx_t_1) {
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":347
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":347
  * 
  *             if self.train_with_sparse_weights:
  *                 self.S_sparse.add_value(index, index, -self.S_sparse.get_value(index, index))             # <<<<<<<<<<<<<<
  * 
  *             elif self.symmetric:
  */
-      __pyx_t_2 = ((struct __pyx_vtabstruct_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self->S_sparse->__pyx_vtab)->get_value(__pyx_v_self->S_sparse, __pyx_v_index, __pyx_v_index); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 347, __pyx_L1_error)
-      ((struct __pyx_vtabstruct_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self->S_sparse->__pyx_vtab)->add_value(__pyx_v_self->S_sparse, __pyx_v_index, __pyx_v_index, (-__pyx_t_2)); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 347, __pyx_L1_error)
+      __pyx_t_2 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self->S_sparse->__pyx_vtab)->get_value(__pyx_v_self->S_sparse, __pyx_v_index, __pyx_v_index); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 347, __pyx_L1_error)
+      ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self->S_sparse->__pyx_vtab)->add_value(__pyx_v_self->S_sparse, __pyx_v_index, __pyx_v_index, (-__pyx_t_2)); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 347, __pyx_L1_error)
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":346
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":346
  *         while index < self.n_items:
  * 
  *             if self.train_with_sparse_weights:             # <<<<<<<<<<<<<<
@@ -24299,7 +24294,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_10get_
       goto __pyx_L5;
     }
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":349
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":349
  *                 self.S_sparse.add_value(index, index, -self.S_sparse.get_value(index, index))
  * 
  *             elif self.symmetric:             # <<<<<<<<<<<<<<
@@ -24309,17 +24304,17 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_10get_
     __pyx_t_1 = (__pyx_v_self->symmetric != 0);
     if (__pyx_t_1) {
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":350
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":350
  * 
  *             elif self.symmetric:
  *                 self.S_symmetric.add_value(index, index, -self.S_symmetric.get_value(index, index))             # <<<<<<<<<<<<<<
  * 
  *             else:
  */
-      __pyx_t_2 = ((struct __pyx_vtabstruct_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *)__pyx_v_self->S_symmetric->__pyx_vtab)->get_value(__pyx_v_self->S_symmetric, __pyx_v_index, __pyx_v_index); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 350, __pyx_L1_error)
-      ((struct __pyx_vtabstruct_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *)__pyx_v_self->S_symmetric->__pyx_vtab)->add_value(__pyx_v_self->S_symmetric, __pyx_v_index, __pyx_v_index, (-__pyx_t_2)); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 350, __pyx_L1_error)
+      __pyx_t_2 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *)__pyx_v_self->S_symmetric->__pyx_vtab)->get_value(__pyx_v_self->S_symmetric, __pyx_v_index, __pyx_v_index); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 350, __pyx_L1_error)
+      ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *)__pyx_v_self->S_symmetric->__pyx_vtab)->add_value(__pyx_v_self->S_symmetric, __pyx_v_index, __pyx_v_index, (-__pyx_t_2)); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 350, __pyx_L1_error)
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":349
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":349
  *                 self.S_sparse.add_value(index, index, -self.S_sparse.get_value(index, index))
  * 
  *             elif self.symmetric:             # <<<<<<<<<<<<<<
@@ -24329,7 +24324,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_10get_
       goto __pyx_L5;
     }
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":353
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":353
  * 
  *             else:
  *                 self.S_dense[index, index] = 0.0             # <<<<<<<<<<<<<<
@@ -24343,7 +24338,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_10get_
     }
     __pyx_L5:;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":355
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":355
  *                 self.S_dense[index, index] = 0.0
  * 
  *             index+=1             # <<<<<<<<<<<<<<
@@ -24353,7 +24348,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_10get_
     __pyx_v_index = (__pyx_v_index + 1);
   }
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":359
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":359
  * 
  * 
  *         if self.topK == False:             # <<<<<<<<<<<<<<
@@ -24363,7 +24358,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_10get_
   __pyx_t_1 = (__pyx_v_self->topK == 0);
   if (__pyx_t_1) {
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":361
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":361
  *         if self.topK == False:
  * 
  *             if self.train_with_sparse_weights:             # <<<<<<<<<<<<<<
@@ -24373,7 +24368,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_10get_
     __pyx_t_1 = (__pyx_v_self->train_with_sparse_weights != 0);
     if (__pyx_t_1) {
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":362
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":362
  * 
  *             if self.train_with_sparse_weights:
  *                 return self.S_sparse.get_scipy_csr(TopK = False)             # <<<<<<<<<<<<<<
@@ -24383,13 +24378,13 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_10get_
       __Pyx_XDECREF(__pyx_r);
       __pyx_t_6.__pyx_n = 1;
       __pyx_t_6.TopK = 0;
-      __pyx_t_5 = ((struct __pyx_vtabstruct_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self->S_sparse->__pyx_vtab)->get_scipy_csr(__pyx_v_self->S_sparse, &__pyx_t_6); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 362, __pyx_L1_error)
+      __pyx_t_5 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self->S_sparse->__pyx_vtab)->get_scipy_csr(__pyx_v_self->S_sparse, &__pyx_t_6); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 362, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_5);
       __pyx_r = __pyx_t_5;
       __pyx_t_5 = 0;
       goto __pyx_L0;
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":361
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":361
  *         if self.topK == False:
  * 
  *             if self.train_with_sparse_weights:             # <<<<<<<<<<<<<<
@@ -24398,7 +24393,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_10get_
  */
     }
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":364
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":364
  *                 return self.S_sparse.get_scipy_csr(TopK = False)
  * 
  *             elif self.symmetric:             # <<<<<<<<<<<<<<
@@ -24408,7 +24403,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_10get_
     __pyx_t_1 = (__pyx_v_self->symmetric != 0);
     if (__pyx_t_1) {
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":365
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":365
  * 
  *             elif self.symmetric:
  *                 return self.S_symmetric.get_scipy_csr(TopK = False)             # <<<<<<<<<<<<<<
@@ -24418,13 +24413,13 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_10get_
       __Pyx_XDECREF(__pyx_r);
       __pyx_t_7.__pyx_n = 1;
       __pyx_t_7.TopK = 0;
-      __pyx_t_5 = ((struct __pyx_vtabstruct_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *)__pyx_v_self->S_symmetric->__pyx_vtab)->get_scipy_csr(__pyx_v_self->S_symmetric, &__pyx_t_7); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 365, __pyx_L1_error)
+      __pyx_t_5 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *)__pyx_v_self->S_symmetric->__pyx_vtab)->get_scipy_csr(__pyx_v_self->S_symmetric, &__pyx_t_7); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 365, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_5);
       __pyx_r = __pyx_t_5;
       __pyx_t_5 = 0;
       goto __pyx_L0;
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":364
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":364
  *                 return self.S_sparse.get_scipy_csr(TopK = False)
  * 
  *             elif self.symmetric:             # <<<<<<<<<<<<<<
@@ -24433,7 +24428,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_10get_
  */
     }
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":369
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":369
  *             else:
  * 
  *                 if self.final_model_sparse_weights:             # <<<<<<<<<<<<<<
@@ -24444,7 +24439,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_10get_
       __pyx_t_1 = (__pyx_v_self->final_model_sparse_weights != 0);
       if (__pyx_t_1) {
 
-        /* "SLIM_BPR_Cython_Epoch.pyx":370
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":370
  * 
  *                 if self.final_model_sparse_weights:
  *                     return similarityMatrixTopK(np.array(self.S_dense.T), k=self.topK).T             # <<<<<<<<<<<<<<
@@ -24512,7 +24507,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_10get_
         __pyx_t_8 = 0;
         goto __pyx_L0;
 
-        /* "SLIM_BPR_Cython_Epoch.pyx":369
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":369
  *             else:
  * 
  *                 if self.final_model_sparse_weights:             # <<<<<<<<<<<<<<
@@ -24521,7 +24516,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_10get_
  */
       }
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":372
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":372
  *                     return similarityMatrixTopK(np.array(self.S_dense.T), k=self.topK).T
  *                 else:
  *                     return np.array(self.S_dense, dtype=np.float32)             # <<<<<<<<<<<<<<
@@ -24562,7 +24557,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_10get_
       }
     }
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":359
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":359
  * 
  * 
  *         if self.topK == False:             # <<<<<<<<<<<<<<
@@ -24571,7 +24566,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_10get_
  */
   }
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":377
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":377
  *         else:
  * 
  *             if self.train_with_sparse_weights:             # <<<<<<<<<<<<<<
@@ -24582,7 +24577,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_10get_
     __pyx_t_1 = (__pyx_v_self->train_with_sparse_weights != 0);
     if (__pyx_t_1) {
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":378
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":378
  * 
  *             if self.train_with_sparse_weights:
  *                 return self.S_sparse.get_scipy_csr(TopK=self.topK)             # <<<<<<<<<<<<<<
@@ -24592,13 +24587,13 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_10get_
       __Pyx_XDECREF(__pyx_r);
       __pyx_t_6.__pyx_n = 1;
       __pyx_t_6.TopK = __pyx_v_self->topK;
-      __pyx_t_12 = ((struct __pyx_vtabstruct_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self->S_sparse->__pyx_vtab)->get_scipy_csr(__pyx_v_self->S_sparse, &__pyx_t_6); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 378, __pyx_L1_error)
+      __pyx_t_12 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self->S_sparse->__pyx_vtab)->get_scipy_csr(__pyx_v_self->S_sparse, &__pyx_t_6); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 378, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_12);
       __pyx_r = __pyx_t_12;
       __pyx_t_12 = 0;
       goto __pyx_L0;
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":377
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":377
  *         else:
  * 
  *             if self.train_with_sparse_weights:             # <<<<<<<<<<<<<<
@@ -24607,7 +24602,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_10get_
  */
     }
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":380
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":380
  *                 return self.S_sparse.get_scipy_csr(TopK=self.topK)
  * 
  *             elif self.symmetric:             # <<<<<<<<<<<<<<
@@ -24617,7 +24612,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_10get_
     __pyx_t_1 = (__pyx_v_self->symmetric != 0);
     if (__pyx_t_1) {
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":381
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":381
  * 
  *             elif self.symmetric:
  *                 return self.S_symmetric.get_scipy_csr(TopK=self.topK)             # <<<<<<<<<<<<<<
@@ -24627,13 +24622,13 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_10get_
       __Pyx_XDECREF(__pyx_r);
       __pyx_t_7.__pyx_n = 1;
       __pyx_t_7.TopK = __pyx_v_self->topK;
-      __pyx_t_12 = ((struct __pyx_vtabstruct_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *)__pyx_v_self->S_symmetric->__pyx_vtab)->get_scipy_csr(__pyx_v_self->S_symmetric, &__pyx_t_7); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 381, __pyx_L1_error)
+      __pyx_t_12 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *)__pyx_v_self->S_symmetric->__pyx_vtab)->get_scipy_csr(__pyx_v_self->S_symmetric, &__pyx_t_7); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 381, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_12);
       __pyx_r = __pyx_t_12;
       __pyx_t_12 = 0;
       goto __pyx_L0;
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":380
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":380
  *                 return self.S_sparse.get_scipy_csr(TopK=self.topK)
  * 
  *             elif self.symmetric:             # <<<<<<<<<<<<<<
@@ -24642,7 +24637,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_10get_
  */
     }
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":384
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":384
  * 
  *             else:
  *                 if self.final_model_sparse_weights:             # <<<<<<<<<<<<<<
@@ -24653,7 +24648,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_10get_
       __pyx_t_1 = (__pyx_v_self->final_model_sparse_weights != 0);
       if (__pyx_t_1) {
 
-        /* "SLIM_BPR_Cython_Epoch.pyx":385
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":385
  *             else:
  *                 if self.final_model_sparse_weights:
  *                     return similarityMatrixTopK(np.array(self.S_dense.T), k=self.topK).T             # <<<<<<<<<<<<<<
@@ -24721,7 +24716,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_10get_
         __pyx_t_8 = 0;
         goto __pyx_L0;
 
-        /* "SLIM_BPR_Cython_Epoch.pyx":384
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":384
  * 
  *             else:
  *                 if self.final_model_sparse_weights:             # <<<<<<<<<<<<<<
@@ -24730,7 +24725,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_10get_
  */
       }
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":387
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":387
  *                     return similarityMatrixTopK(np.array(self.S_dense.T), k=self.topK).T
  *                 else:
  *                     return np.array(self.S_dense, dtype=np.float32)             # <<<<<<<<<<<<<<
@@ -24772,7 +24767,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_10get_
     }
   }
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":339
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":339
  * 
  * 
  *     def get_S(self):             # <<<<<<<<<<<<<<
@@ -24788,7 +24783,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_10get_
   __Pyx_XDECREF(__pyx_t_10);
   __PYX_XCLEAR_MEMVIEW(&__pyx_t_11, 1);
   __Pyx_XDECREF(__pyx_t_12);
-  __Pyx_AddTraceback("SLIM_BPR_Cython_Epoch.SLIM_BPR_Cython_Epoch.get_S", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.SLIM_BPR_Cython_Epoch.SLIM_BPR_Cython_Epoch.get_S", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -24796,7 +24791,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_10get_
   return __pyx_r;
 }
 
-/* "SLIM_BPR_Cython_Epoch.pyx":394
+/* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":394
  * 
  * 
  *     cdef float adaptive_gradient(self, float gradient, long user_or_item_id, float[:] sgd_cache, float[:] sgd_cache_momentum_1, float[:] sgd_cache_momentum_2):             # <<<<<<<<<<<<<<
@@ -24804,14 +24799,14 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_10get_
  * 
  */
 
-static float __pyx_f_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_adaptive_gradient(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *__pyx_v_self, float __pyx_v_gradient, long __pyx_v_user_or_item_id, __Pyx_memviewslice __pyx_v_sgd_cache, __Pyx_memviewslice __pyx_v_sgd_cache_momentum_1, __Pyx_memviewslice __pyx_v_sgd_cache_momentum_2) {
+static float __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_adaptive_gradient(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *__pyx_v_self, float __pyx_v_gradient, long __pyx_v_user_or_item_id, __Pyx_memviewslice __pyx_v_sgd_cache, __Pyx_memviewslice __pyx_v_sgd_cache_momentum_1, __Pyx_memviewslice __pyx_v_sgd_cache_momentum_2) {
   float __pyx_v_gradient_update;
   float __pyx_r;
   int __pyx_t_1;
   Py_ssize_t __pyx_t_2;
   Py_ssize_t __pyx_t_3;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":399
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":399
  *         cdef float gradient_update
  * 
  *         if self.useAdaGrad:             # <<<<<<<<<<<<<<
@@ -24821,7 +24816,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_adaptive_gr
   __pyx_t_1 = (__pyx_v_self->useAdaGrad != 0);
   if (__pyx_t_1) {
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":400
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":400
  * 
  *         if self.useAdaGrad:
  *             sgd_cache[user_or_item_id] += gradient ** 2             # <<<<<<<<<<<<<<
@@ -24831,7 +24826,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_adaptive_gr
     __pyx_t_2 = __pyx_v_user_or_item_id;
     *((float *) ( /* dim=0 */ (__pyx_v_sgd_cache.data + __pyx_t_2 * __pyx_v_sgd_cache.strides[0]) )) += powf(__pyx_v_gradient, 2.0);
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":402
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":402
  *             sgd_cache[user_or_item_id] += gradient ** 2
  * 
  *             gradient_update = gradient / (sqrt(sgd_cache[user_or_item_id]) + 1e-8)             # <<<<<<<<<<<<<<
@@ -24841,7 +24836,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_adaptive_gr
     __pyx_t_2 = __pyx_v_user_or_item_id;
     __pyx_v_gradient_update = (((double)__pyx_v_gradient) / (sqrt((*((float *) ( /* dim=0 */ (__pyx_v_sgd_cache.data + __pyx_t_2 * __pyx_v_sgd_cache.strides[0]) )))) + 1e-8));
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":399
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":399
  *         cdef float gradient_update
  * 
  *         if self.useAdaGrad:             # <<<<<<<<<<<<<<
@@ -24851,7 +24846,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_adaptive_gr
     goto __pyx_L3;
   }
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":405
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":405
  * 
  * 
  *         elif self.useRmsprop:             # <<<<<<<<<<<<<<
@@ -24861,7 +24856,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_adaptive_gr
   __pyx_t_1 = (__pyx_v_self->useRmsprop != 0);
   if (__pyx_t_1) {
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":406
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":406
  * 
  *         elif self.useRmsprop:
  *             sgd_cache[user_or_item_id] = sgd_cache[user_or_item_id] * self.gamma + (1 - self.gamma) * gradient ** 2             # <<<<<<<<<<<<<<
@@ -24872,7 +24867,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_adaptive_gr
     __pyx_t_3 = __pyx_v_user_or_item_id;
     *((float *) ( /* dim=0 */ (__pyx_v_sgd_cache.data + __pyx_t_3 * __pyx_v_sgd_cache.strides[0]) )) = (((*((float *) ( /* dim=0 */ (__pyx_v_sgd_cache.data + __pyx_t_2 * __pyx_v_sgd_cache.strides[0]) ))) * __pyx_v_self->gamma) + ((1.0 - __pyx_v_self->gamma) * powf(__pyx_v_gradient, 2.0)));
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":408
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":408
  *             sgd_cache[user_or_item_id] = sgd_cache[user_or_item_id] * self.gamma + (1 - self.gamma) * gradient ** 2
  * 
  *             gradient_update = gradient / (sqrt(sgd_cache[user_or_item_id]) + 1e-8)             # <<<<<<<<<<<<<<
@@ -24882,7 +24877,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_adaptive_gr
     __pyx_t_2 = __pyx_v_user_or_item_id;
     __pyx_v_gradient_update = (((double)__pyx_v_gradient) / (sqrt((*((float *) ( /* dim=0 */ (__pyx_v_sgd_cache.data + __pyx_t_2 * __pyx_v_sgd_cache.strides[0]) )))) + 1e-8));
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":405
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":405
  * 
  * 
  *         elif self.useRmsprop:             # <<<<<<<<<<<<<<
@@ -24892,7 +24887,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_adaptive_gr
     goto __pyx_L3;
   }
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":411
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":411
  * 
  * 
  *         elif self.useAdam:             # <<<<<<<<<<<<<<
@@ -24902,7 +24897,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_adaptive_gr
   __pyx_t_1 = (__pyx_v_self->useAdam != 0);
   if (__pyx_t_1) {
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":414
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":414
  * 
  *             sgd_cache_momentum_1[user_or_item_id] = \
  *                 sgd_cache_momentum_1[user_or_item_id] * self.beta_1 + (1 - self.beta_1) * gradient             # <<<<<<<<<<<<<<
@@ -24911,7 +24906,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_adaptive_gr
  */
     __pyx_t_2 = __pyx_v_user_or_item_id;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":413
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":413
  *         elif self.useAdam:
  * 
  *             sgd_cache_momentum_1[user_or_item_id] = \             # <<<<<<<<<<<<<<
@@ -24921,7 +24916,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_adaptive_gr
     __pyx_t_3 = __pyx_v_user_or_item_id;
     *((float *) ( /* dim=0 */ (__pyx_v_sgd_cache_momentum_1.data + __pyx_t_3 * __pyx_v_sgd_cache_momentum_1.strides[0]) )) = (((*((float *) ( /* dim=0 */ (__pyx_v_sgd_cache_momentum_1.data + __pyx_t_2 * __pyx_v_sgd_cache_momentum_1.strides[0]) ))) * __pyx_v_self->beta_1) + ((1.0 - __pyx_v_self->beta_1) * __pyx_v_gradient));
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":417
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":417
  * 
  *             sgd_cache_momentum_2[user_or_item_id] = \
  *                 sgd_cache_momentum_2[user_or_item_id] * self.beta_2 + (1 - self.beta_2) * gradient**2             # <<<<<<<<<<<<<<
@@ -24930,7 +24925,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_adaptive_gr
  */
     __pyx_t_2 = __pyx_v_user_or_item_id;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":416
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":416
  *                 sgd_cache_momentum_1[user_or_item_id] * self.beta_1 + (1 - self.beta_1) * gradient
  * 
  *             sgd_cache_momentum_2[user_or_item_id] = \             # <<<<<<<<<<<<<<
@@ -24940,7 +24935,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_adaptive_gr
     __pyx_t_3 = __pyx_v_user_or_item_id;
     *((float *) ( /* dim=0 */ (__pyx_v_sgd_cache_momentum_2.data + __pyx_t_3 * __pyx_v_sgd_cache_momentum_2.strides[0]) )) = (((*((float *) ( /* dim=0 */ (__pyx_v_sgd_cache_momentum_2.data + __pyx_t_2 * __pyx_v_sgd_cache_momentum_2.strides[0]) ))) * __pyx_v_self->beta_2) + ((1.0 - __pyx_v_self->beta_2) * powf(__pyx_v_gradient, 2.0)));
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":420
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":420
  * 
  * 
  *             self.momentum_1 = sgd_cache_momentum_1[user_or_item_id]/ (1 - self.beta_1_power_t)             # <<<<<<<<<<<<<<
@@ -24950,7 +24945,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_adaptive_gr
     __pyx_t_2 = __pyx_v_user_or_item_id;
     __pyx_v_self->momentum_1 = ((*((float *) ( /* dim=0 */ (__pyx_v_sgd_cache_momentum_1.data + __pyx_t_2 * __pyx_v_sgd_cache_momentum_1.strides[0]) ))) / (1.0 - __pyx_v_self->beta_1_power_t));
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":421
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":421
  * 
  *             self.momentum_1 = sgd_cache_momentum_1[user_or_item_id]/ (1 - self.beta_1_power_t)
  *             self.momentum_2 = sgd_cache_momentum_2[user_or_item_id]/ (1 - self.beta_2_power_t)             # <<<<<<<<<<<<<<
@@ -24960,7 +24955,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_adaptive_gr
     __pyx_t_2 = __pyx_v_user_or_item_id;
     __pyx_v_self->momentum_2 = ((*((float *) ( /* dim=0 */ (__pyx_v_sgd_cache_momentum_2.data + __pyx_t_2 * __pyx_v_sgd_cache_momentum_2.strides[0]) ))) / (1.0 - __pyx_v_self->beta_2_power_t));
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":423
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":423
  *             self.momentum_2 = sgd_cache_momentum_2[user_or_item_id]/ (1 - self.beta_2_power_t)
  * 
  *             gradient_update = self.momentum_1/ (sqrt(self.momentum_2) + 1e-8)             # <<<<<<<<<<<<<<
@@ -24969,7 +24964,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_adaptive_gr
  */
     __pyx_v_gradient_update = (((double)__pyx_v_self->momentum_1) / (sqrt(__pyx_v_self->momentum_2) + 1e-8));
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":411
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":411
  * 
  * 
  *         elif self.useAdam:             # <<<<<<<<<<<<<<
@@ -24979,7 +24974,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_adaptive_gr
     goto __pyx_L3;
   }
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":428
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":428
  *         else:
  * 
  *             gradient_update = gradient             # <<<<<<<<<<<<<<
@@ -24991,7 +24986,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_adaptive_gr
   }
   __pyx_L3:;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":432
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":432
  * 
  * 
  *         return gradient_update             # <<<<<<<<<<<<<<
@@ -25001,7 +24996,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_adaptive_gr
   __pyx_r = __pyx_v_gradient_update;
   goto __pyx_L0;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":394
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":394
  * 
  * 
  *     cdef float adaptive_gradient(self, float gradient, long user_or_item_id, float[:] sgd_cache, float[:] sgd_cache_momentum_1, float[:] sgd_cache_momentum_2):             # <<<<<<<<<<<<<<
@@ -25014,7 +25009,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_adaptive_gr
   return __pyx_r;
 }
 
-/* "SLIM_BPR_Cython_Epoch.pyx":435
+/* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":435
  * 
  * 
  *     cdef BPR_sample sampleBPR_Cython(self):             # <<<<<<<<<<<<<<
@@ -25022,18 +25017,18 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_adaptive_gr
  *         cdef BPR_sample sample = BPR_sample(-1,-1,-1,-1,-1)
  */
 
-static struct __pyx_t_21SLIM_BPR_Cython_Epoch_BPR_sample __pyx_f_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_sampleBPR_Cython(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *__pyx_v_self) {
-  struct __pyx_t_21SLIM_BPR_Cython_Epoch_BPR_sample __pyx_v_sample;
+static struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_BPR_sample __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_sampleBPR_Cython(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *__pyx_v_self) {
+  struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_BPR_sample __pyx_v_sample;
   long __pyx_v_index;
   int __pyx_v_neg_item_selected;
   int __pyx_v_n_seen_items;
-  struct __pyx_t_21SLIM_BPR_Cython_Epoch_BPR_sample __pyx_r;
-  struct __pyx_t_21SLIM_BPR_Cython_Epoch_BPR_sample __pyx_t_1;
+  struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_BPR_sample __pyx_r;
+  struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_BPR_sample __pyx_t_1;
   int __pyx_t_2;
   int __pyx_t_3;
   Py_ssize_t __pyx_t_4;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":437
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":437
  *     cdef BPR_sample sampleBPR_Cython(self):
  * 
  *         cdef BPR_sample sample = BPR_sample(-1,-1,-1,-1,-1)             # <<<<<<<<<<<<<<
@@ -25047,7 +25042,7 @@ static struct __pyx_t_21SLIM_BPR_Cython_Epoch_BPR_sample __pyx_f_21SLIM_BPR_Cyth
   __pyx_t_1.seen_items_end_pos = -1L;
   __pyx_v_sample = __pyx_t_1;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":441
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":441
  *         cdef long index
  * 
  *         cdef int neg_item_selected, n_seen_items = 0             # <<<<<<<<<<<<<<
@@ -25056,7 +25051,7 @@ static struct __pyx_t_21SLIM_BPR_Cython_Epoch_BPR_sample __pyx_f_21SLIM_BPR_Cyth
  */
   __pyx_v_n_seen_items = 0;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":445
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":445
  * 
  *         # Skip users with no interactions or with no negative items
  *         while n_seen_items == 0 or n_seen_items == self.n_items:             # <<<<<<<<<<<<<<
@@ -25075,7 +25070,7 @@ static struct __pyx_t_21SLIM_BPR_Cython_Epoch_BPR_sample __pyx_f_21SLIM_BPR_Cyth
     __pyx_L5_bool_binop_done:;
     if (!__pyx_t_2) break;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":447
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":447
  *         while n_seen_items == 0 or n_seen_items == self.n_items:
  * 
  *             sample.user = rand() % self.n_users             # <<<<<<<<<<<<<<
@@ -25084,7 +25079,7 @@ static struct __pyx_t_21SLIM_BPR_Cython_Epoch_BPR_sample __pyx_f_21SLIM_BPR_Cyth
  */
     __pyx_v_sample.user = (rand() % __pyx_v_self->n_users);
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":449
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":449
  *             sample.user = rand() % self.n_users
  * 
  *             sample.seen_items_start_pos = self.URM_mask_indptr[sample.user]             # <<<<<<<<<<<<<<
@@ -25094,7 +25089,7 @@ static struct __pyx_t_21SLIM_BPR_Cython_Epoch_BPR_sample __pyx_f_21SLIM_BPR_Cyth
     __pyx_t_4 = __pyx_v_sample.user;
     __pyx_v_sample.seen_items_start_pos = (*((int *) ( /* dim=0 */ (__pyx_v_self->URM_mask_indptr.data + __pyx_t_4 * __pyx_v_self->URM_mask_indptr.strides[0]) )));
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":450
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":450
  * 
  *             sample.seen_items_start_pos = self.URM_mask_indptr[sample.user]
  *             sample.seen_items_end_pos = self.URM_mask_indptr[sample.user + 1]             # <<<<<<<<<<<<<<
@@ -25104,7 +25099,7 @@ static struct __pyx_t_21SLIM_BPR_Cython_Epoch_BPR_sample __pyx_f_21SLIM_BPR_Cyth
     __pyx_t_4 = (__pyx_v_sample.user + 1);
     __pyx_v_sample.seen_items_end_pos = (*((int *) ( /* dim=0 */ (__pyx_v_self->URM_mask_indptr.data + __pyx_t_4 * __pyx_v_self->URM_mask_indptr.strides[0]) )));
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":452
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":452
  *             sample.seen_items_end_pos = self.URM_mask_indptr[sample.user + 1]
  * 
  *             n_seen_items = sample.seen_items_end_pos - sample.seen_items_start_pos             # <<<<<<<<<<<<<<
@@ -25114,7 +25109,7 @@ static struct __pyx_t_21SLIM_BPR_Cython_Epoch_BPR_sample __pyx_f_21SLIM_BPR_Cyth
     __pyx_v_n_seen_items = (__pyx_v_sample.seen_items_end_pos - __pyx_v_sample.seen_items_start_pos);
   }
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":455
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":455
  * 
  * 
  *         index = rand() % n_seen_items             # <<<<<<<<<<<<<<
@@ -25123,7 +25118,7 @@ static struct __pyx_t_21SLIM_BPR_Cython_Epoch_BPR_sample __pyx_f_21SLIM_BPR_Cyth
  */
   __pyx_v_index = (rand() % __pyx_v_n_seen_items);
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":457
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":457
  *         index = rand() % n_seen_items
  * 
  *         sample.pos_item = self.URM_mask_indices[sample.seen_items_start_pos + index]             # <<<<<<<<<<<<<<
@@ -25133,7 +25128,7 @@ static struct __pyx_t_21SLIM_BPR_Cython_Epoch_BPR_sample __pyx_f_21SLIM_BPR_Cyth
   __pyx_t_4 = (__pyx_v_sample.seen_items_start_pos + __pyx_v_index);
   __pyx_v_sample.pos_item = (*((int *) ( /* dim=0 */ (__pyx_v_self->URM_mask_indices.data + __pyx_t_4 * __pyx_v_self->URM_mask_indices.strides[0]) )));
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":460
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":460
  * 
  * 
  *         neg_item_selected = False             # <<<<<<<<<<<<<<
@@ -25142,7 +25137,7 @@ static struct __pyx_t_21SLIM_BPR_Cython_Epoch_BPR_sample __pyx_f_21SLIM_BPR_Cyth
  */
   __pyx_v_neg_item_selected = 0;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":464
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":464
  *         # It's faster to just try again then to build a mapping of the non-seen items
  *         # for every user
  *         while not neg_item_selected:             # <<<<<<<<<<<<<<
@@ -25153,7 +25148,7 @@ static struct __pyx_t_21SLIM_BPR_Cython_Epoch_BPR_sample __pyx_f_21SLIM_BPR_Cyth
     __pyx_t_2 = (!(__pyx_v_neg_item_selected != 0));
     if (!__pyx_t_2) break;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":466
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":466
  *         while not neg_item_selected:
  * 
  *             sample.neg_item = rand() % self.n_items             # <<<<<<<<<<<<<<
@@ -25162,7 +25157,7 @@ static struct __pyx_t_21SLIM_BPR_Cython_Epoch_BPR_sample __pyx_f_21SLIM_BPR_Cyth
  */
     __pyx_v_sample.neg_item = (rand() % __pyx_v_self->n_items);
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":468
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":468
  *             sample.neg_item = rand() % self.n_items
  * 
  *             index = 0             # <<<<<<<<<<<<<<
@@ -25171,7 +25166,7 @@ static struct __pyx_t_21SLIM_BPR_Cython_Epoch_BPR_sample __pyx_f_21SLIM_BPR_Cyth
  */
     __pyx_v_index = 0;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":470
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":470
  *             index = 0
  *             # Indices data is sorted, so I don't need to go to the end of the current row
  *             while index < n_seen_items and self.URM_mask_indices[sample.seen_items_start_pos + index] < sample.neg_item:             # <<<<<<<<<<<<<<
@@ -25191,7 +25186,7 @@ static struct __pyx_t_21SLIM_BPR_Cython_Epoch_BPR_sample __pyx_f_21SLIM_BPR_Cyth
       __pyx_L11_bool_binop_done:;
       if (!__pyx_t_2) break;
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":471
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":471
  *             # Indices data is sorted, so I don't need to go to the end of the current row
  *             while index < n_seen_items and self.URM_mask_indices[sample.seen_items_start_pos + index] < sample.neg_item:
  *                 index+=1             # <<<<<<<<<<<<<<
@@ -25201,7 +25196,7 @@ static struct __pyx_t_21SLIM_BPR_Cython_Epoch_BPR_sample __pyx_f_21SLIM_BPR_Cyth
       __pyx_v_index = (__pyx_v_index + 1);
     }
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":475
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":475
  *             # If the positive item in position 'index' is == sample.neg_item, negative not selected
  *             # If the positive item in position 'index' is > sample.neg_item or index == n_seen_items, negative selected
  *             if index == n_seen_items or self.URM_mask_indices[sample.seen_items_start_pos + index] > sample.neg_item:             # <<<<<<<<<<<<<<
@@ -25220,7 +25215,7 @@ static struct __pyx_t_21SLIM_BPR_Cython_Epoch_BPR_sample __pyx_f_21SLIM_BPR_Cyth
     __pyx_L14_bool_binop_done:;
     if (__pyx_t_2) {
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":476
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":476
  *             # If the positive item in position 'index' is > sample.neg_item or index == n_seen_items, negative selected
  *             if index == n_seen_items or self.URM_mask_indices[sample.seen_items_start_pos + index] > sample.neg_item:
  *                 neg_item_selected = True             # <<<<<<<<<<<<<<
@@ -25229,7 +25224,7 @@ static struct __pyx_t_21SLIM_BPR_Cython_Epoch_BPR_sample __pyx_f_21SLIM_BPR_Cyth
  */
       __pyx_v_neg_item_selected = 1;
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":475
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":475
  *             # If the positive item in position 'index' is == sample.neg_item, negative not selected
  *             # If the positive item in position 'index' is > sample.neg_item or index == n_seen_items, negative selected
  *             if index == n_seen_items or self.URM_mask_indices[sample.seen_items_start_pos + index] > sample.neg_item:             # <<<<<<<<<<<<<<
@@ -25239,7 +25234,7 @@ static struct __pyx_t_21SLIM_BPR_Cython_Epoch_BPR_sample __pyx_f_21SLIM_BPR_Cyth
     }
   }
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":479
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":479
  * 
  * 
  *         return sample             # <<<<<<<<<<<<<<
@@ -25249,7 +25244,7 @@ static struct __pyx_t_21SLIM_BPR_Cython_Epoch_BPR_sample __pyx_f_21SLIM_BPR_Cyth
   __pyx_r = __pyx_v_sample;
   goto __pyx_L0;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":435
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":435
  * 
  * 
  *     cdef BPR_sample sampleBPR_Cython(self):             # <<<<<<<<<<<<<<
@@ -25269,15 +25264,15 @@ static struct __pyx_t_21SLIM_BPR_Cython_Epoch_BPR_sample __pyx_f_21SLIM_BPR_Cyth
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_13__reduce_cython__(PyObject *__pyx_v_self, 
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_13__reduce_cython__(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static PyMethodDef __pyx_mdef_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_13__reduce_cython__ = {"__reduce_cython__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_13__reduce_cython__, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_13__reduce_cython__(PyObject *__pyx_v_self, 
+static PyMethodDef __pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_13__reduce_cython__ = {"__reduce_cython__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_13__reduce_cython__, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_13__reduce_cython__(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -25302,14 +25297,14 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   if (unlikely(__pyx_nargs > 0)) {
     __Pyx_RaiseArgtupleInvalid("__reduce_cython__", 1, 0, 0, __pyx_nargs); return NULL;}
   if (unlikely(__pyx_kwds) && __Pyx_NumKwargs_FASTCALL(__pyx_kwds) && unlikely(!__Pyx_CheckKeywordStrings(__pyx_kwds, "__reduce_cython__", 0))) return NULL;
-  __pyx_r = __pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_12__reduce_cython__(((struct __pyx_obj_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *)__pyx_v_self));
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_12__reduce_cython__(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_12__reduce_cython__(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *__pyx_v_self) {
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_12__reduce_cython__(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *__pyx_v_self) {
   PyObject *__pyx_v_state = 0;
   PyObject *__pyx_v__dict = 0;
   int __pyx_v_use_setstate;
@@ -25701,7 +25696,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_12__re
   __Pyx_XDECREF(__pyx_t_25);
   __Pyx_XDECREF(__pyx_t_26);
   __Pyx_XDECREF(__pyx_t_27);
-  __Pyx_AddTraceback("SLIM_BPR_Cython_Epoch.SLIM_BPR_Cython_Epoch.__reduce_cython__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.SLIM_BPR_Cython_Epoch.SLIM_BPR_Cython_Epoch.__reduce_cython__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_state);
@@ -25719,15 +25714,15 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_12__re
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_15__setstate_cython__(PyObject *__pyx_v_self, 
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_15__setstate_cython__(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static PyMethodDef __pyx_mdef_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_15__setstate_cython__ = {"__setstate_cython__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_15__setstate_cython__, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_15__setstate_cython__(PyObject *__pyx_v_self, 
+static PyMethodDef __pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_15__setstate_cython__ = {"__setstate_cython__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_15__setstate_cython__, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_15__setstate_cython__(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -25797,11 +25792,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("SLIM_BPR_Cython_Epoch.SLIM_BPR_Cython_Epoch.__setstate_cython__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.SLIM_BPR_Cython_Epoch.SLIM_BPR_Cython_Epoch.__setstate_cython__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_14__setstate_cython__(((struct __pyx_obj_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *)__pyx_v_self), __pyx_v___pyx_state);
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_14__setstate_cython__(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *)__pyx_v_self), __pyx_v___pyx_state);
 
   /* function exit code */
   {
@@ -25814,7 +25809,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_14__setstate_cython__(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *__pyx_v_self, PyObject *__pyx_v___pyx_state) {
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_14__setstate_cython__(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *__pyx_v_self, PyObject *__pyx_v___pyx_state) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -25829,7 +25824,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_14__se
  *     __pyx_unpickle_SLIM_BPR_Cython_Epoch__set_state(self, __pyx_state)             # <<<<<<<<<<<<<<
  */
   if (!(likely(PyTuple_CheckExact(__pyx_v___pyx_state))||((__pyx_v___pyx_state) == Py_None) || __Pyx_RaiseUnexpectedTypeError("tuple", __pyx_v___pyx_state))) __PYX_ERR(1, 17, __pyx_L1_error)
-  __pyx_t_1 = __pyx_f_21SLIM_BPR_Cython_Epoch___pyx_unpickle_SLIM_BPR_Cython_Epoch__set_state(__pyx_v_self, ((PyObject*)__pyx_v___pyx_state)); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 17, __pyx_L1_error)
+  __pyx_t_1 = __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch___pyx_unpickle_SLIM_BPR_Cython_Epoch__set_state(__pyx_v_self, ((PyObject*)__pyx_v___pyx_state)); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 17, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
@@ -25845,7 +25840,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_14__se
   goto __pyx_L0;
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_AddTraceback("SLIM_BPR_Cython_Epoch.SLIM_BPR_Cython_Epoch.__setstate_cython__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.SLIM_BPR_Cython_Epoch.SLIM_BPR_Cython_Epoch.__setstate_cython__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -25853,7 +25848,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_14__se
   return __pyx_r;
 }
 
-/* "SLIM_BPR_Cython_Epoch.pyx":519
+/* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":519
  * 
  * # Function to allocate a new node
  * cdef matrix_element_tree_s * pointer_new_matrix_element_tree_s(long column, float data, matrix_element_tree_s *higher,  matrix_element_tree_s *lower):             # <<<<<<<<<<<<<<
@@ -25861,20 +25856,20 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_14__se
  *     cdef matrix_element_tree_s * new_element
  */
 
-static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR_Cython_Epoch_pointer_new_matrix_element_tree_s(long __pyx_v_column, float __pyx_v_data, __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_v_higher, __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_v_lower) {
-  __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_v_new_element;
-  __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_r;
+static __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_pointer_new_matrix_element_tree_s(long __pyx_v_column, float __pyx_v_data, __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_v_higher, __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_v_lower) {
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_v_new_element;
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_r;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":523
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":523
  *     cdef matrix_element_tree_s * new_element
  * 
  *     new_element = < matrix_element_tree_s * > PyMem_Malloc(sizeof(matrix_element_tree_s))             # <<<<<<<<<<<<<<
  *     new_element.column = column
  *     new_element.data = data
  */
-  __pyx_v_new_element = ((__pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *)PyMem_Malloc((sizeof(__pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s))));
+  __pyx_v_new_element = ((__pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *)PyMem_Malloc((sizeof(__pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s))));
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":524
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":524
  * 
  *     new_element = < matrix_element_tree_s * > PyMem_Malloc(sizeof(matrix_element_tree_s))
  *     new_element.column = column             # <<<<<<<<<<<<<<
@@ -25883,7 +25878,7 @@ static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR
  */
   __pyx_v_new_element->column = __pyx_v_column;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":525
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":525
  *     new_element = < matrix_element_tree_s * > PyMem_Malloc(sizeof(matrix_element_tree_s))
  *     new_element.column = column
  *     new_element.data = data             # <<<<<<<<<<<<<<
@@ -25892,7 +25887,7 @@ static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR
  */
   __pyx_v_new_element->data = __pyx_v_data;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":526
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":526
  *     new_element.column = column
  *     new_element.data = data
  *     new_element.higher = higher             # <<<<<<<<<<<<<<
@@ -25901,7 +25896,7 @@ static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR
  */
   __pyx_v_new_element->higher = __pyx_v_higher;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":527
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":527
  *     new_element.data = data
  *     new_element.higher = higher
  *     new_element.lower = lower             # <<<<<<<<<<<<<<
@@ -25910,7 +25905,7 @@ static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR
  */
   __pyx_v_new_element->lower = __pyx_v_lower;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":529
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":529
  *     new_element.lower = lower
  * 
  *     return new_element             # <<<<<<<<<<<<<<
@@ -25920,7 +25915,7 @@ static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR
   __pyx_r = __pyx_v_new_element;
   goto __pyx_L0;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":519
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":519
  * 
  * # Function to allocate a new node
  * cdef matrix_element_tree_s * pointer_new_matrix_element_tree_s(long column, float data, matrix_element_tree_s *higher,  matrix_element_tree_s *lower):             # <<<<<<<<<<<<<<
@@ -25933,7 +25928,7 @@ static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR
   return __pyx_r;
 }
 
-/* "SLIM_BPR_Cython_Epoch.pyx":533
+/* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":533
  * 
  * # Functions to compare structs to be used in C qsort
  * cdef int compare_struct_on_column(const void *a_input, const void *b_input) noexcept:             # <<<<<<<<<<<<<<
@@ -25941,30 +25936,30 @@ static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR
  *     The function compares the column contained in the two struct passed.
  */
 
-static int __pyx_f_21SLIM_BPR_Cython_Epoch_compare_struct_on_column(void const *__pyx_v_a_input, void const *__pyx_v_b_input) {
-  __pyx_t_21SLIM_BPR_Cython_Epoch_head_pointer_tree_s *__pyx_v_a_casted;
-  __pyx_t_21SLIM_BPR_Cython_Epoch_head_pointer_tree_s *__pyx_v_b_casted;
+static int __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_compare_struct_on_column(void const *__pyx_v_a_input, void const *__pyx_v_b_input) {
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_head_pointer_tree_s *__pyx_v_a_casted;
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_head_pointer_tree_s *__pyx_v_b_casted;
   int __pyx_r;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":542
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":542
  *     """
  * 
  *     cdef head_pointer_tree_s *a_casted = <head_pointer_tree_s *> a_input             # <<<<<<<<<<<<<<
  *     cdef head_pointer_tree_s *b_casted = <head_pointer_tree_s *> b_input
  * 
  */
-  __pyx_v_a_casted = ((__pyx_t_21SLIM_BPR_Cython_Epoch_head_pointer_tree_s *)__pyx_v_a_input);
+  __pyx_v_a_casted = ((__pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_head_pointer_tree_s *)__pyx_v_a_input);
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":543
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":543
  * 
  *     cdef head_pointer_tree_s *a_casted = <head_pointer_tree_s *> a_input
  *     cdef head_pointer_tree_s *b_casted = <head_pointer_tree_s *> b_input             # <<<<<<<<<<<<<<
  * 
  *     return a_casted.head.column  - b_casted.head.column
  */
-  __pyx_v_b_casted = ((__pyx_t_21SLIM_BPR_Cython_Epoch_head_pointer_tree_s *)__pyx_v_b_input);
+  __pyx_v_b_casted = ((__pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_head_pointer_tree_s *)__pyx_v_b_input);
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":545
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":545
  *     cdef head_pointer_tree_s *b_casted = <head_pointer_tree_s *> b_input
  * 
  *     return a_casted.head.column  - b_casted.head.column             # <<<<<<<<<<<<<<
@@ -25974,7 +25969,7 @@ static int __pyx_f_21SLIM_BPR_Cython_Epoch_compare_struct_on_column(void const *
   __pyx_r = (__pyx_v_a_casted->head->column - __pyx_v_b_casted->head->column);
   goto __pyx_L0;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":533
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":533
  * 
  * # Functions to compare structs to be used in C qsort
  * cdef int compare_struct_on_column(const void *a_input, const void *b_input) noexcept:             # <<<<<<<<<<<<<<
@@ -25987,7 +25982,7 @@ static int __pyx_f_21SLIM_BPR_Cython_Epoch_compare_struct_on_column(void const *
   return __pyx_r;
 }
 
-/* "SLIM_BPR_Cython_Epoch.pyx":549
+/* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":549
  * 
  * 
  * cdef int compare_struct_on_data(const void * a_input, const void * b_input) noexcept:             # <<<<<<<<<<<<<<
@@ -25995,31 +25990,31 @@ static int __pyx_f_21SLIM_BPR_Cython_Epoch_compare_struct_on_column(void const *
  *     The function compares the data contained in the two struct passed.
  */
 
-static int __pyx_f_21SLIM_BPR_Cython_Epoch_compare_struct_on_data(void const *__pyx_v_a_input, void const *__pyx_v_b_input) {
-  __pyx_t_21SLIM_BPR_Cython_Epoch_head_pointer_tree_s *__pyx_v_a_casted;
-  __pyx_t_21SLIM_BPR_Cython_Epoch_head_pointer_tree_s *__pyx_v_b_casted;
+static int __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_compare_struct_on_data(void const *__pyx_v_a_input, void const *__pyx_v_b_input) {
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_head_pointer_tree_s *__pyx_v_a_casted;
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_head_pointer_tree_s *__pyx_v_b_casted;
   int __pyx_r;
   int __pyx_t_1;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":558
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":558
  *     """
  * 
  *     cdef head_pointer_tree_s * a_casted = <head_pointer_tree_s *> a_input             # <<<<<<<<<<<<<<
  *     cdef head_pointer_tree_s * b_casted = <head_pointer_tree_s *> b_input
  * 
  */
-  __pyx_v_a_casted = ((__pyx_t_21SLIM_BPR_Cython_Epoch_head_pointer_tree_s *)__pyx_v_a_input);
+  __pyx_v_a_casted = ((__pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_head_pointer_tree_s *)__pyx_v_a_input);
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":559
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":559
  * 
  *     cdef head_pointer_tree_s * a_casted = <head_pointer_tree_s *> a_input
  *     cdef head_pointer_tree_s * b_casted = <head_pointer_tree_s *> b_input             # <<<<<<<<<<<<<<
  * 
  *     if (a_casted.head.data - b_casted.head.data) > 0.0:
  */
-  __pyx_v_b_casted = ((__pyx_t_21SLIM_BPR_Cython_Epoch_head_pointer_tree_s *)__pyx_v_b_input);
+  __pyx_v_b_casted = ((__pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_head_pointer_tree_s *)__pyx_v_b_input);
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":561
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":561
  *     cdef head_pointer_tree_s * b_casted = <head_pointer_tree_s *> b_input
  * 
  *     if (a_casted.head.data - b_casted.head.data) > 0.0:             # <<<<<<<<<<<<<<
@@ -26029,7 +26024,7 @@ static int __pyx_f_21SLIM_BPR_Cython_Epoch_compare_struct_on_data(void const *__
   __pyx_t_1 = ((__pyx_v_a_casted->head->data - __pyx_v_b_casted->head->data) > 0.0);
   if (__pyx_t_1) {
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":562
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":562
  * 
  *     if (a_casted.head.data - b_casted.head.data) > 0.0:
  *         return +1             # <<<<<<<<<<<<<<
@@ -26039,7 +26034,7 @@ static int __pyx_f_21SLIM_BPR_Cython_Epoch_compare_struct_on_data(void const *__
     __pyx_r = 1;
     goto __pyx_L0;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":561
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":561
  *     cdef head_pointer_tree_s * b_casted = <head_pointer_tree_s *> b_input
  * 
  *     if (a_casted.head.data - b_casted.head.data) > 0.0:             # <<<<<<<<<<<<<<
@@ -26048,7 +26043,7 @@ static int __pyx_f_21SLIM_BPR_Cython_Epoch_compare_struct_on_data(void const *__
  */
   }
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":564
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":564
  *         return +1
  *     else:
  *         return -1             # <<<<<<<<<<<<<<
@@ -26060,7 +26055,7 @@ static int __pyx_f_21SLIM_BPR_Cython_Epoch_compare_struct_on_data(void const *__
     goto __pyx_L0;
   }
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":549
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":549
  * 
  * 
  * cdef int compare_struct_on_data(const void * a_input, const void * b_input) noexcept:             # <<<<<<<<<<<<<<
@@ -26073,7 +26068,7 @@ static int __pyx_f_21SLIM_BPR_Cython_Epoch_compare_struct_on_data(void const *__
   return __pyx_r;
 }
 
-/* "SLIM_BPR_Cython_Epoch.pyx":586
+/* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":586
  * 
  * 
  *     def __init__(self, long num_rows, long num_cols):             # <<<<<<<<<<<<<<
@@ -26082,8 +26077,8 @@ static int __pyx_f_21SLIM_BPR_Cython_Epoch_compare_struct_on_data(void const *__
  */
 
 /* Python wrapper */
-static int __pyx_pw_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static int __pyx_pw_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static int __pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static int __pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   long __pyx_v_num_rows;
   long __pyx_v_num_cols;
   CYTHON_UNUSED Py_ssize_t __pyx_nargs;
@@ -26158,11 +26153,11 @@ static int __pyx_pw_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_1__init__(P
       __Pyx_Arg_XDECREF_VARARGS(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("SLIM_BPR_Cython_Epoch.Sparse_Matrix_Tree_CSR.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.SLIM_BPR_Cython_Epoch.Sparse_Matrix_Tree_CSR.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return -1;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR___init__(((struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self), __pyx_v_num_rows, __pyx_v_num_cols);
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR___init__(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self), __pyx_v_num_rows, __pyx_v_num_cols);
 
   /* function exit code */
   {
@@ -26175,14 +26170,14 @@ static int __pyx_pw_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_1__init__(P
   return __pyx_r;
 }
 
-static int __pyx_pf_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR___init__(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_num_rows, long __pyx_v_num_cols) {
+static int __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR___init__(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_num_rows, long __pyx_v_num_cols) {
   long __pyx_v_index;
   int __pyx_r;
   long __pyx_t_1;
   long __pyx_t_2;
   long __pyx_t_3;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":588
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":588
  *     def __init__(self, long num_rows, long num_cols):
  * 
  *         self.num_rows = num_rows             # <<<<<<<<<<<<<<
@@ -26191,7 +26186,7 @@ static int __pyx_pf_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR___init__(st
  */
   __pyx_v_self->num_rows = __pyx_v_num_rows;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":589
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":589
  * 
  *         self.num_rows = num_rows
  *         self.num_cols = num_cols             # <<<<<<<<<<<<<<
@@ -26200,16 +26195,16 @@ static int __pyx_pf_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR___init__(st
  */
   __pyx_v_self->num_cols = __pyx_v_num_cols;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":591
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":591
  *         self.num_cols = num_cols
  * 
  *         self.row_pointer = < head_pointer_tree_s *> PyMem_Malloc(self.num_rows * sizeof(head_pointer_tree_s))             # <<<<<<<<<<<<<<
  * 
  *         # Initialize all rows to empty
  */
-  __pyx_v_self->row_pointer = ((__pyx_t_21SLIM_BPR_Cython_Epoch_head_pointer_tree_s *)PyMem_Malloc((__pyx_v_self->num_rows * (sizeof(__pyx_t_21SLIM_BPR_Cython_Epoch_head_pointer_tree_s)))));
+  __pyx_v_self->row_pointer = ((__pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_head_pointer_tree_s *)PyMem_Malloc((__pyx_v_self->num_rows * (sizeof(__pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_head_pointer_tree_s)))));
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":594
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":594
  * 
  *         # Initialize all rows to empty
  *         for index in range(self.num_rows):             # <<<<<<<<<<<<<<
@@ -26221,7 +26216,7 @@ static int __pyx_pf_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR___init__(st
   for (__pyx_t_3 = 0; __pyx_t_3 < __pyx_t_2; __pyx_t_3+=1) {
     __pyx_v_index = __pyx_t_3;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":595
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":595
  *         # Initialize all rows to empty
  *         for index in range(self.num_rows):
  *             self.row_pointer[index].head = NULL             # <<<<<<<<<<<<<<
@@ -26231,7 +26226,7 @@ static int __pyx_pf_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR___init__(st
     (__pyx_v_self->row_pointer[__pyx_v_index]).head = NULL;
   }
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":586
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":586
  * 
  * 
  *     def __init__(self, long num_rows, long num_cols):             # <<<<<<<<<<<<<<
@@ -26244,7 +26239,7 @@ static int __pyx_pf_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR___init__(st
   return __pyx_r;
 }
 
-/* "SLIM_BPR_Cython_Epoch.pyx":599
+/* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":599
  * 
  * 
  *     def dealloc(self):             # <<<<<<<<<<<<<<
@@ -26253,16 +26248,16 @@ static int __pyx_pf_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR___init__(st
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_3dealloc(PyObject *__pyx_v_self, 
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_3dealloc(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-PyDoc_STRVAR(__pyx_doc_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_2dealloc, "\n        Remove all PyMalloc allocaded memory\n        :return:\n        ");
-static PyMethodDef __pyx_mdef_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_3dealloc = {"dealloc", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_3dealloc, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_2dealloc};
-static PyObject *__pyx_pw_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_3dealloc(PyObject *__pyx_v_self, 
+PyDoc_STRVAR(__pyx_doc_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_2dealloc, "\n        Remove all PyMalloc allocaded memory\n        :return:\n        ");
+static PyMethodDef __pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_3dealloc = {"dealloc", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_3dealloc, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_2dealloc};
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_3dealloc(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -26287,14 +26282,14 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   if (unlikely(__pyx_nargs > 0)) {
     __Pyx_RaiseArgtupleInvalid("dealloc", 1, 0, 0, __pyx_nargs); return NULL;}
   if (unlikely(__pyx_kwds) && __Pyx_NumKwargs_FASTCALL(__pyx_kwds) && unlikely(!__Pyx_CheckKeywordStrings(__pyx_kwds, "dealloc", 0))) return NULL;
-  __pyx_r = __pyx_pf_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_2dealloc(((struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self));
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_2dealloc(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_2dealloc(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *__pyx_v_self) {
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_2dealloc(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *__pyx_v_self) {
   int __pyx_v_numRow;
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
@@ -26307,7 +26302,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_2deal
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("dealloc", 1);
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":608
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":608
  * 
  *         # Free all rows memory
  *         for numRow in range(self.num_rows):             # <<<<<<<<<<<<<<
@@ -26319,19 +26314,19 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_2deal
   for (__pyx_t_3 = 0; __pyx_t_3 < __pyx_t_2; __pyx_t_3+=1) {
     __pyx_v_numRow = __pyx_t_3;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":609
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":609
  *         # Free all rows memory
  *         for numRow in range(self.num_rows):
  *             self.subtree_free_memory(self.row_pointer[numRow].head)             # <<<<<<<<<<<<<<
  * 
  *         PyMem_Free(self.row_pointer)
  */
-    __pyx_t_4 = ((struct __pyx_vtabstruct_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->subtree_free_memory(__pyx_v_self, (__pyx_v_self->row_pointer[__pyx_v_numRow]).head); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 609, __pyx_L1_error)
+    __pyx_t_4 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->subtree_free_memory(__pyx_v_self, (__pyx_v_self->row_pointer[__pyx_v_numRow]).head); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 609, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   }
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":611
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":611
  *             self.subtree_free_memory(self.row_pointer[numRow].head)
  * 
  *         PyMem_Free(self.row_pointer)             # <<<<<<<<<<<<<<
@@ -26340,7 +26335,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_2deal
  */
   PyMem_Free(__pyx_v_self->row_pointer);
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":599
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":599
  * 
  * 
  *     def dealloc(self):             # <<<<<<<<<<<<<<
@@ -26353,7 +26348,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_2deal
   goto __pyx_L0;
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_4);
-  __Pyx_AddTraceback("SLIM_BPR_Cython_Epoch.Sparse_Matrix_Tree_CSR.dealloc", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.SLIM_BPR_Cython_Epoch.Sparse_Matrix_Tree_CSR.dealloc", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -26361,7 +26356,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_2deal
   return __pyx_r;
 }
 
-/* "SLIM_BPR_Cython_Epoch.pyx":618
+/* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":618
  * 
  * 
  *     cdef float add_value(self, long row, long col, float value):             # <<<<<<<<<<<<<<
@@ -26369,8 +26364,8 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_2deal
  *         The function adds a value to the specified cell. A new cell is created if necessary.
  */
 
-static float __pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_add_value(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_row, long __pyx_v_col, float __pyx_v_value) {
-  __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_v_current_element;
+static float __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_add_value(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_row, long __pyx_v_col, float __pyx_v_value) {
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_v_current_element;
   int __pyx_v_stopSearch;
   float __pyx_r;
   __Pyx_RefNannyDeclarations
@@ -26384,13 +26379,13 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_add_value(
   PyObject *__pyx_t_8 = NULL;
   PyObject *__pyx_t_9 = NULL;
   unsigned int __pyx_t_10;
-  __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_t_11;
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_t_11;
   int __pyx_lineno = 0;
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("add_value", 1);
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":628
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":628
  *         """
  * 
  *         if row >= self.num_rows or col >= self.num_cols or row < 0 or col < 0:             # <<<<<<<<<<<<<<
@@ -26420,7 +26415,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_add_value(
   __pyx_L4_bool_binop_done:;
   if (unlikely(__pyx_t_1)) {
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":629
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":629
  * 
  *         if row >= self.num_rows or col >= self.num_cols or row < 0 or col < 0:
  *             raise ValueError("Cell is outside matrix. Matrix shape is ({},{}), coordinates given are ({},{})".format(             # <<<<<<<<<<<<<<
@@ -26430,7 +26425,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_add_value(
     __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_Cell_is_outside_matrix_Matrix_sh, __pyx_n_s_format); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 629, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":630
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":630
  *         if row >= self.num_rows or col >= self.num_cols or row < 0 or col < 0:
  *             raise ValueError("Cell is outside matrix. Matrix shape is ({},{}), coordinates given are ({},{})".format(
  *                 self.num_rows, self.num_cols, row, col))             # <<<<<<<<<<<<<<
@@ -26472,7 +26467,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_add_value(
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     }
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":629
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":629
  * 
  *         if row >= self.num_rows or col >= self.num_cols or row < 0 or col < 0:
  *             raise ValueError("Cell is outside matrix. Matrix shape is ({},{}), coordinates given are ({},{})".format(             # <<<<<<<<<<<<<<
@@ -26486,7 +26481,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_add_value(
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     __PYX_ERR(0, 629, __pyx_L1_error)
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":628
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":628
  *         """
  * 
  *         if row >= self.num_rows or col >= self.num_cols or row < 0 or col < 0:             # <<<<<<<<<<<<<<
@@ -26495,7 +26490,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_add_value(
  */
   }
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":633
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":633
  * 
  *         cdef matrix_element_tree_s* current_element, new_element, * old_element
  *         cdef int stopSearch = False             # <<<<<<<<<<<<<<
@@ -26504,7 +26499,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_add_value(
  */
   __pyx_v_stopSearch = 0;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":637
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":637
  * 
  *         # If the row is empty, create a new element
  *         if self.row_pointer[row].head == NULL:             # <<<<<<<<<<<<<<
@@ -26514,17 +26509,17 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_add_value(
   __pyx_t_1 = ((__pyx_v_self->row_pointer[__pyx_v_row]).head == NULL);
   if (__pyx_t_1) {
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":640
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":640
  * 
  *             # row_pointer is a python object, so I need the object itself and not the address
  *             self.row_pointer[row].head = pointer_new_matrix_element_tree_s(col, value, NULL, NULL)             # <<<<<<<<<<<<<<
  * 
  *             return value
  */
-    __pyx_t_11 = __pyx_f_21SLIM_BPR_Cython_Epoch_pointer_new_matrix_element_tree_s(__pyx_v_col, __pyx_v_value, NULL, NULL); if (unlikely(__pyx_t_11 == ((__pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *)NULL) && PyErr_Occurred())) __PYX_ERR(0, 640, __pyx_L1_error)
+    __pyx_t_11 = __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_pointer_new_matrix_element_tree_s(__pyx_v_col, __pyx_v_value, NULL, NULL); if (unlikely(__pyx_t_11 == ((__pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *)NULL) && PyErr_Occurred())) __PYX_ERR(0, 640, __pyx_L1_error)
     (__pyx_v_self->row_pointer[__pyx_v_row]).head = __pyx_t_11;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":642
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":642
  *             self.row_pointer[row].head = pointer_new_matrix_element_tree_s(col, value, NULL, NULL)
  * 
  *             return value             # <<<<<<<<<<<<<<
@@ -26534,7 +26529,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_add_value(
     __pyx_r = __pyx_v_value;
     goto __pyx_L0;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":637
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":637
  * 
  *         # If the row is empty, create a new element
  *         if self.row_pointer[row].head == NULL:             # <<<<<<<<<<<<<<
@@ -26543,7 +26538,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_add_value(
  */
   }
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":647
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":647
  *         # If the row is not empty, look for the cell
  *         # row_pointer contains the struct itself, but I just want its address
  *         current_element = self.row_pointer[row].head             # <<<<<<<<<<<<<<
@@ -26553,7 +26548,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_add_value(
   __pyx_t_11 = (__pyx_v_self->row_pointer[__pyx_v_row]).head;
   __pyx_v_current_element = __pyx_t_11;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":650
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":650
  * 
  *         # Follow the tree structure
  *         while not stopSearch:             # <<<<<<<<<<<<<<
@@ -26564,7 +26559,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_add_value(
     __pyx_t_1 = (!(__pyx_v_stopSearch != 0));
     if (!__pyx_t_1) break;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":652
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":652
  *         while not stopSearch:
  * 
  *             if current_element.column < col and current_element.higher != NULL:             # <<<<<<<<<<<<<<
@@ -26582,7 +26577,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_add_value(
     __pyx_L12_bool_binop_done:;
     if (__pyx_t_1) {
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":653
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":653
  * 
  *             if current_element.column < col and current_element.higher != NULL:
  *                 current_element = current_element.higher             # <<<<<<<<<<<<<<
@@ -26592,7 +26587,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_add_value(
       __pyx_t_11 = __pyx_v_current_element->higher;
       __pyx_v_current_element = __pyx_t_11;
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":652
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":652
  *         while not stopSearch:
  * 
  *             if current_element.column < col and current_element.higher != NULL:             # <<<<<<<<<<<<<<
@@ -26602,7 +26597,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_add_value(
       goto __pyx_L11;
     }
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":655
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":655
  *                 current_element = current_element.higher
  * 
  *             elif current_element.column > col and current_element.lower != NULL:             # <<<<<<<<<<<<<<
@@ -26620,7 +26615,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_add_value(
     __pyx_L14_bool_binop_done:;
     if (__pyx_t_1) {
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":656
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":656
  * 
  *             elif current_element.column > col and current_element.lower != NULL:
  *                 current_element = current_element.lower             # <<<<<<<<<<<<<<
@@ -26630,7 +26625,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_add_value(
       __pyx_t_11 = __pyx_v_current_element->lower;
       __pyx_v_current_element = __pyx_t_11;
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":655
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":655
  *                 current_element = current_element.higher
  * 
  *             elif current_element.column > col and current_element.lower != NULL:             # <<<<<<<<<<<<<<
@@ -26640,7 +26635,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_add_value(
       goto __pyx_L11;
     }
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":659
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":659
  * 
  *             else:
  *                 stopSearch = True             # <<<<<<<<<<<<<<
@@ -26653,7 +26648,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_add_value(
     __pyx_L11:;
   }
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":662
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":662
  * 
  *         # If the cell exist, update its value
  *         if current_element.column == col:             # <<<<<<<<<<<<<<
@@ -26663,7 +26658,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_add_value(
   __pyx_t_1 = (__pyx_v_current_element->column == __pyx_v_col);
   if (__pyx_t_1) {
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":663
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":663
  *         # If the cell exist, update its value
  *         if current_element.column == col:
  *             current_element.data += value             # <<<<<<<<<<<<<<
@@ -26672,7 +26667,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_add_value(
  */
     __pyx_v_current_element->data = (__pyx_v_current_element->data + __pyx_v_value);
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":665
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":665
  *             current_element.data += value
  * 
  *             return current_element.data             # <<<<<<<<<<<<<<
@@ -26682,7 +26677,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_add_value(
     __pyx_r = __pyx_v_current_element->data;
     goto __pyx_L0;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":662
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":662
  * 
  *         # If the cell exist, update its value
  *         if current_element.column == col:             # <<<<<<<<<<<<<<
@@ -26691,7 +26686,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_add_value(
  */
   }
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":669
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":669
  * 
  *         # The cell is not found, create new Higher element
  *         elif current_element.column < col and current_element.higher == NULL:             # <<<<<<<<<<<<<<
@@ -26709,17 +26704,17 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_add_value(
   __pyx_L17_bool_binop_done:;
   if (__pyx_t_1) {
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":670
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":670
  *         # The cell is not found, create new Higher element
  *         elif current_element.column < col and current_element.higher == NULL:
  *             current_element.higher = pointer_new_matrix_element_tree_s(col, value, NULL, NULL)             # <<<<<<<<<<<<<<
  *             return value
  * 
  */
-    __pyx_t_11 = __pyx_f_21SLIM_BPR_Cython_Epoch_pointer_new_matrix_element_tree_s(__pyx_v_col, __pyx_v_value, NULL, NULL); if (unlikely(__pyx_t_11 == ((__pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *)NULL) && PyErr_Occurred())) __PYX_ERR(0, 670, __pyx_L1_error)
+    __pyx_t_11 = __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_pointer_new_matrix_element_tree_s(__pyx_v_col, __pyx_v_value, NULL, NULL); if (unlikely(__pyx_t_11 == ((__pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *)NULL) && PyErr_Occurred())) __PYX_ERR(0, 670, __pyx_L1_error)
     __pyx_v_current_element->higher = __pyx_t_11;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":671
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":671
  *         elif current_element.column < col and current_element.higher == NULL:
  *             current_element.higher = pointer_new_matrix_element_tree_s(col, value, NULL, NULL)
  *             return value             # <<<<<<<<<<<<<<
@@ -26729,7 +26724,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_add_value(
     __pyx_r = __pyx_v_value;
     goto __pyx_L0;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":669
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":669
  * 
  *         # The cell is not found, create new Higher element
  *         elif current_element.column < col and current_element.higher == NULL:             # <<<<<<<<<<<<<<
@@ -26738,7 +26733,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_add_value(
  */
   }
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":674
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":674
  * 
  *         # The cell is not found, create new Lower element
  *         elif current_element.column > col and current_element.lower == NULL:             # <<<<<<<<<<<<<<
@@ -26756,17 +26751,17 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_add_value(
   __pyx_L19_bool_binop_done:;
   if (__pyx_t_1) {
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":675
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":675
  *         # The cell is not found, create new Lower element
  *         elif current_element.column > col and current_element.lower == NULL:
  *             current_element.lower = pointer_new_matrix_element_tree_s(col, value, NULL, NULL)             # <<<<<<<<<<<<<<
  *             return value
  * 
  */
-    __pyx_t_11 = __pyx_f_21SLIM_BPR_Cython_Epoch_pointer_new_matrix_element_tree_s(__pyx_v_col, __pyx_v_value, NULL, NULL); if (unlikely(__pyx_t_11 == ((__pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *)NULL) && PyErr_Occurred())) __PYX_ERR(0, 675, __pyx_L1_error)
+    __pyx_t_11 = __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_pointer_new_matrix_element_tree_s(__pyx_v_col, __pyx_v_value, NULL, NULL); if (unlikely(__pyx_t_11 == ((__pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *)NULL) && PyErr_Occurred())) __PYX_ERR(0, 675, __pyx_L1_error)
     __pyx_v_current_element->lower = __pyx_t_11;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":676
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":676
  *         elif current_element.column > col and current_element.lower == NULL:
  *             current_element.lower = pointer_new_matrix_element_tree_s(col, value, NULL, NULL)
  *             return value             # <<<<<<<<<<<<<<
@@ -26776,7 +26771,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_add_value(
     __pyx_r = __pyx_v_value;
     goto __pyx_L0;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":674
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":674
  * 
  *         # The cell is not found, create new Lower element
  *         elif current_element.column > col and current_element.lower == NULL:             # <<<<<<<<<<<<<<
@@ -26785,7 +26780,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_add_value(
  */
   }
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":679
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":679
  * 
  *         else:
  *             assert False, 'ERROR - Current insert operation is not implemented'             # <<<<<<<<<<<<<<
@@ -26805,7 +26800,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_add_value(
     #endif
   }
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":618
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":618
  * 
  * 
  *     cdef float add_value(self, long row, long col, float value):             # <<<<<<<<<<<<<<
@@ -26824,14 +26819,14 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_add_value(
   __Pyx_XDECREF(__pyx_t_7);
   __Pyx_XDECREF(__pyx_t_8);
   __Pyx_XDECREF(__pyx_t_9);
-  __Pyx_AddTraceback("SLIM_BPR_Cython_Epoch.Sparse_Matrix_Tree_CSR.add_value", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.SLIM_BPR_Cython_Epoch.Sparse_Matrix_Tree_CSR.add_value", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = 0;
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-/* "SLIM_BPR_Cython_Epoch.pyx":684
+/* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":684
  * 
  * 
  *     cdef float get_value(self, long row, long col):             # <<<<<<<<<<<<<<
@@ -26839,8 +26834,8 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_add_value(
  *         The function returns the value of the specified cell.
  */
 
-static float __pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_get_value(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_row, long __pyx_v_col) {
-  __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_v_current_element;
+static float __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_get_value(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_row, long __pyx_v_col) {
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_v_current_element;
   int __pyx_v_stopSearch;
   float __pyx_r;
   __Pyx_RefNannyDeclarations
@@ -26854,13 +26849,13 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_get_value(
   PyObject *__pyx_t_8 = NULL;
   PyObject *__pyx_t_9 = NULL;
   unsigned int __pyx_t_10;
-  __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_t_11;
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_t_11;
   int __pyx_lineno = 0;
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("get_value", 1);
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":694
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":694
  * 
  * 
  *         if row >= self.num_rows or col >= self.num_cols or row < 0 or col < 0:             # <<<<<<<<<<<<<<
@@ -26890,7 +26885,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_get_value(
   __pyx_L4_bool_binop_done:;
   if (unlikely(__pyx_t_1)) {
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":696
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":696
  *         if row >= self.num_rows or col >= self.num_cols or row < 0 or col < 0:
  *             raise ValueError(
  *                 "Cell is outside matrix. Matrix shape is ({},{}), coordinates given are ({},{})".format(             # <<<<<<<<<<<<<<
@@ -26900,7 +26895,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_get_value(
     __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_Cell_is_outside_matrix_Matrix_sh, __pyx_n_s_format); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 696, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":697
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":697
  *             raise ValueError(
  *                 "Cell is outside matrix. Matrix shape is ({},{}), coordinates given are ({},{})".format(
  *                     self.num_rows, self.num_cols, row, col))             # <<<<<<<<<<<<<<
@@ -26942,7 +26937,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_get_value(
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     }
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":695
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":695
  * 
  *         if row >= self.num_rows or col >= self.num_cols or row < 0 or col < 0:
  *             raise ValueError(             # <<<<<<<<<<<<<<
@@ -26956,7 +26951,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_get_value(
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     __PYX_ERR(0, 695, __pyx_L1_error)
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":694
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":694
  * 
  * 
  *         if row >= self.num_rows or col >= self.num_cols or row < 0 or col < 0:             # <<<<<<<<<<<<<<
@@ -26965,7 +26960,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_get_value(
  */
   }
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":701
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":701
  * 
  *         cdef matrix_element_tree_s* current_element
  *         cdef int stopSearch = False             # <<<<<<<<<<<<<<
@@ -26974,7 +26969,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_get_value(
  */
   __pyx_v_stopSearch = 0;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":704
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":704
  * 
  *         # If the row is empty, return default
  *         if self.row_pointer[row].head == NULL:             # <<<<<<<<<<<<<<
@@ -26984,7 +26979,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_get_value(
   __pyx_t_1 = ((__pyx_v_self->row_pointer[__pyx_v_row]).head == NULL);
   if (__pyx_t_1) {
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":705
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":705
  *         # If the row is empty, return default
  *         if self.row_pointer[row].head == NULL:
  *             return 0.0             # <<<<<<<<<<<<<<
@@ -26994,7 +26989,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_get_value(
     __pyx_r = 0.0;
     goto __pyx_L0;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":704
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":704
  * 
  *         # If the row is empty, return default
  *         if self.row_pointer[row].head == NULL:             # <<<<<<<<<<<<<<
@@ -27003,7 +26998,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_get_value(
  */
   }
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":710
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":710
  *         # If the row is not empty, look for the cell
  *         # row_pointer contains the struct itself, but I just want its address
  *         current_element = self.row_pointer[row].head             # <<<<<<<<<<<<<<
@@ -27013,7 +27008,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_get_value(
   __pyx_t_11 = (__pyx_v_self->row_pointer[__pyx_v_row]).head;
   __pyx_v_current_element = __pyx_t_11;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":713
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":713
  * 
  *         # Follow the tree structure
  *         while not stopSearch:             # <<<<<<<<<<<<<<
@@ -27024,7 +27019,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_get_value(
     __pyx_t_1 = (!(__pyx_v_stopSearch != 0));
     if (!__pyx_t_1) break;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":715
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":715
  *         while not stopSearch:
  * 
  *             if current_element.column < col and current_element.higher != NULL:             # <<<<<<<<<<<<<<
@@ -27042,7 +27037,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_get_value(
     __pyx_L12_bool_binop_done:;
     if (__pyx_t_1) {
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":716
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":716
  * 
  *             if current_element.column < col and current_element.higher != NULL:
  *                 current_element = current_element.higher             # <<<<<<<<<<<<<<
@@ -27052,7 +27047,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_get_value(
       __pyx_t_11 = __pyx_v_current_element->higher;
       __pyx_v_current_element = __pyx_t_11;
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":715
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":715
  *         while not stopSearch:
  * 
  *             if current_element.column < col and current_element.higher != NULL:             # <<<<<<<<<<<<<<
@@ -27062,7 +27057,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_get_value(
       goto __pyx_L11;
     }
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":718
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":718
  *                 current_element = current_element.higher
  * 
  *             elif current_element.column > col and current_element.lower != NULL:             # <<<<<<<<<<<<<<
@@ -27080,7 +27075,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_get_value(
     __pyx_L14_bool_binop_done:;
     if (__pyx_t_1) {
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":719
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":719
  * 
  *             elif current_element.column > col and current_element.lower != NULL:
  *                 current_element = current_element.lower             # <<<<<<<<<<<<<<
@@ -27090,7 +27085,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_get_value(
       __pyx_t_11 = __pyx_v_current_element->lower;
       __pyx_v_current_element = __pyx_t_11;
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":718
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":718
  *                 current_element = current_element.higher
  * 
  *             elif current_element.column > col and current_element.lower != NULL:             # <<<<<<<<<<<<<<
@@ -27100,7 +27095,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_get_value(
       goto __pyx_L11;
     }
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":722
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":722
  * 
  *             else:
  *                 stopSearch = True             # <<<<<<<<<<<<<<
@@ -27113,7 +27108,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_get_value(
     __pyx_L11:;
   }
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":726
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":726
  * 
  *         # If the cell exist, return its value
  *         if current_element.column == col:             # <<<<<<<<<<<<<<
@@ -27123,7 +27118,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_get_value(
   __pyx_t_1 = (__pyx_v_current_element->column == __pyx_v_col);
   if (__pyx_t_1) {
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":727
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":727
  *         # If the cell exist, return its value
  *         if current_element.column == col:
  *             return current_element.data             # <<<<<<<<<<<<<<
@@ -27133,7 +27128,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_get_value(
     __pyx_r = __pyx_v_current_element->data;
     goto __pyx_L0;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":726
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":726
  * 
  *         # If the cell exist, return its value
  *         if current_element.column == col:             # <<<<<<<<<<<<<<
@@ -27142,7 +27137,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_get_value(
  */
   }
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":731
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":731
  *         # The cell is not found, return default
  *         else:
  *             return 0.0             # <<<<<<<<<<<<<<
@@ -27154,7 +27149,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_get_value(
     goto __pyx_L0;
   }
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":684
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":684
  * 
  * 
  *     cdef float get_value(self, long row, long col):             # <<<<<<<<<<<<<<
@@ -27171,14 +27166,14 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_get_value(
   __Pyx_XDECREF(__pyx_t_7);
   __Pyx_XDECREF(__pyx_t_8);
   __Pyx_XDECREF(__pyx_t_9);
-  __Pyx_AddTraceback("SLIM_BPR_Cython_Epoch.Sparse_Matrix_Tree_CSR.get_value", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.SLIM_BPR_Cython_Epoch.Sparse_Matrix_Tree_CSR.get_value", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = 0;
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-/* "SLIM_BPR_Cython_Epoch.pyx":736
+/* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":736
  * 
  * 
  *     cdef get_scipy_csr(self, long TopK = False):             # <<<<<<<<<<<<<<
@@ -27186,7 +27181,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_get_value(
  *         The function returns the current sparse matrix as a scipy_csr object
  */
 
-static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_get_scipy_csr(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *__pyx_v_self, struct __pyx_opt_args_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_get_scipy_csr *__pyx_optional_args) {
+static PyObject *__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_get_scipy_csr(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *__pyx_v_self, struct __pyx_opt_args_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_get_scipy_csr *__pyx_optional_args) {
   long __pyx_v_TopK = ((long)0);
   long __pyx_v_row;
   PyObject *__pyx_v_data = NULL;
@@ -27203,7 +27198,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_get_sc
   Py_ssize_t __pyx_t_5;
   int __pyx_t_6;
   int __pyx_t_7;
-  __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_t_8;
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_t_8;
   PyObject *__pyx_t_9 = NULL;
   PyObject *__pyx_t_10 = NULL;
   PyObject *__pyx_t_11 = NULL;
@@ -27220,7 +27215,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_get_sc
     }
   }
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":745
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":745
  *         cdef long row
  * 
  *         data = []             # <<<<<<<<<<<<<<
@@ -27232,7 +27227,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_get_sc
   __pyx_v_data = ((PyObject*)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":746
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":746
  * 
  *         data = []
  *         indices = []             # <<<<<<<<<<<<<<
@@ -27244,7 +27239,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_get_sc
   __pyx_v_indices = ((PyObject*)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":747
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":747
  *         data = []
  *         indices = []
  *         indptr = []             # <<<<<<<<<<<<<<
@@ -27256,7 +27251,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_get_sc
   __pyx_v_indptr = ((PyObject*)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":750
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":750
  * 
  *         # Loop the rows
  *         for row in range(self.num_rows):             # <<<<<<<<<<<<<<
@@ -27268,7 +27263,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_get_sc
   for (__pyx_t_4 = 0; __pyx_t_4 < __pyx_t_3; __pyx_t_4+=1) {
     __pyx_v_row = __pyx_t_4;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":753
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":753
  * 
  *             #Always set indptr
  *             indptr.append(len(data))             # <<<<<<<<<<<<<<
@@ -27281,7 +27276,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_get_sc
     __pyx_t_6 = __Pyx_PyList_Append(__pyx_v_indptr, __pyx_t_1); if (unlikely(__pyx_t_6 == ((int)-1))) __PYX_ERR(0, 753, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":756
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":756
  * 
  *             # row contains data
  *             if self.row_pointer[row].head != NULL:             # <<<<<<<<<<<<<<
@@ -27291,17 +27286,17 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_get_sc
     __pyx_t_7 = ((__pyx_v_self->row_pointer[__pyx_v_row]).head != NULL);
     if (__pyx_t_7) {
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":759
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":759
  * 
  *                 # Flatten the data structure
  *                 self.row_pointer[row].head = self.subtree_to_list_flat(self.row_pointer[row].head)             # <<<<<<<<<<<<<<
  * 
  *                 if TopK:
  */
-      __pyx_t_8 = ((struct __pyx_vtabstruct_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->subtree_to_list_flat(__pyx_v_self, (__pyx_v_self->row_pointer[__pyx_v_row]).head); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 759, __pyx_L1_error)
+      __pyx_t_8 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->subtree_to_list_flat(__pyx_v_self, (__pyx_v_self->row_pointer[__pyx_v_row]).head); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 759, __pyx_L1_error)
       (__pyx_v_self->row_pointer[__pyx_v_row]).head = __pyx_t_8;
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":761
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":761
  *                 self.row_pointer[row].head = self.subtree_to_list_flat(self.row_pointer[row].head)
  * 
  *                 if TopK:             # <<<<<<<<<<<<<<
@@ -27311,17 +27306,17 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_get_sc
       __pyx_t_7 = (__pyx_v_TopK != 0);
       if (__pyx_t_7) {
 
-        /* "SLIM_BPR_Cython_Epoch.pyx":762
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":762
  * 
  *                 if TopK:
  *                     self.row_pointer[row].head = self.topK_selection_from_list(self.row_pointer[row].head, TopK)             # <<<<<<<<<<<<<<
  * 
  * 
  */
-        __pyx_t_8 = ((struct __pyx_vtabstruct_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->topK_selection_from_list(__pyx_v_self, (__pyx_v_self->row_pointer[__pyx_v_row]).head, __pyx_v_TopK); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 762, __pyx_L1_error)
+        __pyx_t_8 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->topK_selection_from_list(__pyx_v_self, (__pyx_v_self->row_pointer[__pyx_v_row]).head, __pyx_v_TopK); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 762, __pyx_L1_error)
         (__pyx_v_self->row_pointer[__pyx_v_row]).head = __pyx_t_8;
 
-        /* "SLIM_BPR_Cython_Epoch.pyx":761
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":761
  *                 self.row_pointer[row].head = self.subtree_to_list_flat(self.row_pointer[row].head)
  * 
  *                 if TopK:             # <<<<<<<<<<<<<<
@@ -27330,14 +27325,14 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_get_sc
  */
       }
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":766
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":766
  * 
  *                 # Flatten the tree data
  *                 subtree_column, subtree_data = self.from_linked_list_to_python_list(self.row_pointer[row].head)             # <<<<<<<<<<<<<<
  *                 data.extend(subtree_data)
  *                 indices.extend(subtree_column)
  */
-      __pyx_t_1 = ((struct __pyx_vtabstruct_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->from_linked_list_to_python_list(__pyx_v_self, (__pyx_v_self->row_pointer[__pyx_v_row]).head); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 766, __pyx_L1_error)
+      __pyx_t_1 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->from_linked_list_to_python_list(__pyx_v_self, (__pyx_v_self->row_pointer[__pyx_v_row]).head); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 766, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       if ((likely(PyTuple_CheckExact(__pyx_t_1))) || (PyList_CheckExact(__pyx_t_1))) {
         PyObject* sequence = __pyx_t_1;
@@ -27390,7 +27385,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_get_sc
       __Pyx_XDECREF_SET(__pyx_v_subtree_data, __pyx_t_10);
       __pyx_t_10 = 0;
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":767
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":767
  *                 # Flatten the tree data
  *                 subtree_column, subtree_data = self.from_linked_list_to_python_list(self.row_pointer[row].head)
  *                 data.extend(subtree_data)             # <<<<<<<<<<<<<<
@@ -27399,7 +27394,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_get_sc
  */
       __pyx_t_6 = __Pyx_PyList_Extend(__pyx_v_data, __pyx_v_subtree_data); if (unlikely(__pyx_t_6 == ((int)-1))) __PYX_ERR(0, 767, __pyx_L1_error)
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":768
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":768
  *                 subtree_column, subtree_data = self.from_linked_list_to_python_list(self.row_pointer[row].head)
  *                 data.extend(subtree_data)
  *                 indices.extend(subtree_column)             # <<<<<<<<<<<<<<
@@ -27408,17 +27403,17 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_get_sc
  */
       __pyx_t_6 = __Pyx_PyList_Extend(__pyx_v_indices, __pyx_v_subtree_column); if (unlikely(__pyx_t_6 == ((int)-1))) __PYX_ERR(0, 768, __pyx_L1_error)
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":771
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":771
  * 
  *                 # Rebuild the tree
  *                 self.row_pointer[row].head = self.build_tree_from_list_flat(self.row_pointer[row].head)             # <<<<<<<<<<<<<<
  * 
  * 
  */
-      __pyx_t_8 = ((struct __pyx_vtabstruct_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->build_tree_from_list_flat(__pyx_v_self, (__pyx_v_self->row_pointer[__pyx_v_row]).head); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 771, __pyx_L1_error)
+      __pyx_t_8 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->build_tree_from_list_flat(__pyx_v_self, (__pyx_v_self->row_pointer[__pyx_v_row]).head); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 771, __pyx_L1_error)
       (__pyx_v_self->row_pointer[__pyx_v_row]).head = __pyx_t_8;
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":756
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":756
  * 
  *             # row contains data
  *             if self.row_pointer[row].head != NULL:             # <<<<<<<<<<<<<<
@@ -27428,7 +27423,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_get_sc
     }
   }
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":775
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":775
  * 
  *         #Set terminal indptr
  *         indptr.append(len(data))             # <<<<<<<<<<<<<<
@@ -27441,7 +27436,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_get_sc
   __pyx_t_6 = __Pyx_PyList_Append(__pyx_v_indptr, __pyx_t_1); if (unlikely(__pyx_t_6 == ((int)-1))) __PYX_ERR(0, 775, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":777
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":777
  *         indptr.append(len(data))
  * 
  *         return sps.csr_matrix((data, indices, indptr), shape=(self.num_rows, self.num_cols))             # <<<<<<<<<<<<<<
@@ -27495,7 +27490,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_get_sc
   __pyx_t_14 = 0;
   goto __pyx_L0;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":736
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":736
  * 
  * 
  *     cdef get_scipy_csr(self, long TopK = False):             # <<<<<<<<<<<<<<
@@ -27511,7 +27506,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_get_sc
   __Pyx_XDECREF(__pyx_t_11);
   __Pyx_XDECREF(__pyx_t_13);
   __Pyx_XDECREF(__pyx_t_14);
-  __Pyx_AddTraceback("SLIM_BPR_Cython_Epoch.Sparse_Matrix_Tree_CSR.get_scipy_csr", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.SLIM_BPR_Cython_Epoch.Sparse_Matrix_Tree_CSR.get_scipy_csr", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = 0;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_data);
@@ -27524,7 +27519,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_get_sc
   return __pyx_r;
 }
 
-/* "SLIM_BPR_Cython_Epoch.pyx":781
+/* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":781
  * 
  * 
  *     cdef rebalance_tree(self, long TopK = False):             # <<<<<<<<<<<<<<
@@ -27532,7 +27527,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_get_sc
  *         The function builds a balanced binary tree from the current one, for all matrix rows
  */
 
-static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_rebalance_tree(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *__pyx_v_self, struct __pyx_opt_args_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_rebalance_tree *__pyx_optional_args) {
+static PyObject *__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_rebalance_tree(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *__pyx_v_self, struct __pyx_opt_args_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_rebalance_tree *__pyx_optional_args) {
   long __pyx_v_TopK = ((long)0);
   long __pyx_v_row;
   PyObject *__pyx_r = NULL;
@@ -27541,7 +27536,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_rebala
   long __pyx_t_2;
   long __pyx_t_3;
   int __pyx_t_4;
-  __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_t_5;
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_t_5;
   int __pyx_lineno = 0;
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
@@ -27552,7 +27547,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_rebala
     }
   }
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":790
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":790
  *         cdef long row
  * 
  *         for row in range(self.num_rows):             # <<<<<<<<<<<<<<
@@ -27564,7 +27559,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_rebala
   for (__pyx_t_3 = 0; __pyx_t_3 < __pyx_t_2; __pyx_t_3+=1) {
     __pyx_v_row = __pyx_t_3;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":792
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":792
  *         for row in range(self.num_rows):
  * 
  *             if self.row_pointer[row].head != NULL:             # <<<<<<<<<<<<<<
@@ -27574,17 +27569,17 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_rebala
     __pyx_t_4 = ((__pyx_v_self->row_pointer[__pyx_v_row]).head != NULL);
     if (__pyx_t_4) {
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":795
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":795
  * 
  *                 # Flatten the data structure
  *                 self.row_pointer[row].head = self.subtree_to_list_flat(self.row_pointer[row].head)             # <<<<<<<<<<<<<<
  * 
  *                 if TopK:
  */
-      __pyx_t_5 = ((struct __pyx_vtabstruct_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->subtree_to_list_flat(__pyx_v_self, (__pyx_v_self->row_pointer[__pyx_v_row]).head); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 795, __pyx_L1_error)
+      __pyx_t_5 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->subtree_to_list_flat(__pyx_v_self, (__pyx_v_self->row_pointer[__pyx_v_row]).head); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 795, __pyx_L1_error)
       (__pyx_v_self->row_pointer[__pyx_v_row]).head = __pyx_t_5;
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":797
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":797
  *                 self.row_pointer[row].head = self.subtree_to_list_flat(self.row_pointer[row].head)
  * 
  *                 if TopK:             # <<<<<<<<<<<<<<
@@ -27594,17 +27589,17 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_rebala
       __pyx_t_4 = (__pyx_v_TopK != 0);
       if (__pyx_t_4) {
 
-        /* "SLIM_BPR_Cython_Epoch.pyx":798
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":798
  * 
  *                 if TopK:
  *                     self.row_pointer[row].head = self.topK_selection_from_list(self.row_pointer[row].head, TopK)             # <<<<<<<<<<<<<<
  * 
  *                 # Rebuild the tree
  */
-        __pyx_t_5 = ((struct __pyx_vtabstruct_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->topK_selection_from_list(__pyx_v_self, (__pyx_v_self->row_pointer[__pyx_v_row]).head, __pyx_v_TopK); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 798, __pyx_L1_error)
+        __pyx_t_5 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->topK_selection_from_list(__pyx_v_self, (__pyx_v_self->row_pointer[__pyx_v_row]).head, __pyx_v_TopK); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 798, __pyx_L1_error)
         (__pyx_v_self->row_pointer[__pyx_v_row]).head = __pyx_t_5;
 
-        /* "SLIM_BPR_Cython_Epoch.pyx":797
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":797
  *                 self.row_pointer[row].head = self.subtree_to_list_flat(self.row_pointer[row].head)
  * 
  *                 if TopK:             # <<<<<<<<<<<<<<
@@ -27613,17 +27608,17 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_rebala
  */
       }
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":801
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":801
  * 
  *                 # Rebuild the tree
  *                 self.row_pointer[row].head = self.build_tree_from_list_flat(self.row_pointer[row].head)             # <<<<<<<<<<<<<<
  * 
  * 
  */
-      __pyx_t_5 = ((struct __pyx_vtabstruct_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->build_tree_from_list_flat(__pyx_v_self, (__pyx_v_self->row_pointer[__pyx_v_row]).head); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 801, __pyx_L1_error)
+      __pyx_t_5 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->build_tree_from_list_flat(__pyx_v_self, (__pyx_v_self->row_pointer[__pyx_v_row]).head); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 801, __pyx_L1_error)
       (__pyx_v_self->row_pointer[__pyx_v_row]).head = __pyx_t_5;
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":792
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":792
  *         for row in range(self.num_rows):
  * 
  *             if self.row_pointer[row].head != NULL:             # <<<<<<<<<<<<<<
@@ -27633,7 +27628,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_rebala
     }
   }
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":781
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":781
  * 
  * 
  *     cdef rebalance_tree(self, long TopK = False):             # <<<<<<<<<<<<<<
@@ -27645,7 +27640,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_rebala
   __pyx_r = Py_None; __Pyx_INCREF(Py_None);
   goto __pyx_L0;
   __pyx_L1_error:;
-  __Pyx_AddTraceback("SLIM_BPR_Cython_Epoch.Sparse_Matrix_Tree_CSR.rebalance_tree", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.SLIM_BPR_Cython_Epoch.Sparse_Matrix_Tree_CSR.rebalance_tree", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = 0;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -27653,7 +27648,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_rebala
   return __pyx_r;
 }
 
-/* "SLIM_BPR_Cython_Epoch.pyx":804
+/* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":804
  * 
  * 
  *     cdef matrix_element_tree_s * subtree_to_list_flat(self, matrix_element_tree_s * root):             # <<<<<<<<<<<<<<
@@ -27661,17 +27656,17 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_rebala
  *         The function flatten the structure of the subtree whose root is passed as a parameter
  */
 
-static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_subtree_to_list_flat(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *__pyx_v_self, __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_v_root) {
-  __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_v_flat_list_head;
-  __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_v_current_element;
-  __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_r;
+static __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_subtree_to_list_flat(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *__pyx_v_self, __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_v_root) {
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_v_flat_list_head;
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_v_current_element;
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_r;
   int __pyx_t_1;
-  __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_t_2;
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_t_2;
   int __pyx_lineno = 0;
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":814
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":814
  *         """
  * 
  *         if root == NULL:             # <<<<<<<<<<<<<<
@@ -27681,7 +27676,7 @@ static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR
   __pyx_t_1 = (__pyx_v_root == NULL);
   if (__pyx_t_1) {
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":815
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":815
  * 
  *         if root == NULL:
  *             return NULL             # <<<<<<<<<<<<<<
@@ -27691,7 +27686,7 @@ static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR
     __pyx_r = NULL;
     goto __pyx_L0;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":814
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":814
  *         """
  * 
  *         if root == NULL:             # <<<<<<<<<<<<<<
@@ -27700,17 +27695,17 @@ static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR
  */
   }
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":820
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":820
  * 
  *         # Flatten lower subtree
  *         flat_list_head = self.subtree_to_list_flat(root.lower)             # <<<<<<<<<<<<<<
  * 
  *         # If no lower elements exist, the head is the current element
  */
-  __pyx_t_2 = ((struct __pyx_vtabstruct_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->subtree_to_list_flat(__pyx_v_self, __pyx_v_root->lower); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 820, __pyx_L1_error)
+  __pyx_t_2 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->subtree_to_list_flat(__pyx_v_self, __pyx_v_root->lower); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 820, __pyx_L1_error)
   __pyx_v_flat_list_head = __pyx_t_2;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":823
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":823
  * 
  *         # If no lower elements exist, the head is the current element
  *         if flat_list_head == NULL:             # <<<<<<<<<<<<<<
@@ -27720,7 +27715,7 @@ static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR
   __pyx_t_1 = (__pyx_v_flat_list_head == NULL);
   if (__pyx_t_1) {
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":824
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":824
  *         # If no lower elements exist, the head is the current element
  *         if flat_list_head == NULL:
  *             flat_list_head = root             # <<<<<<<<<<<<<<
@@ -27729,7 +27724,7 @@ static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR
  */
     __pyx_v_flat_list_head = __pyx_v_root;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":825
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":825
  *         if flat_list_head == NULL:
  *             flat_list_head = root
  *             root.lower = NULL             # <<<<<<<<<<<<<<
@@ -27738,7 +27733,7 @@ static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR
  */
     __pyx_v_root->lower = NULL;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":823
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":823
  * 
  *         # If no lower elements exist, the head is the current element
  *         if flat_list_head == NULL:             # <<<<<<<<<<<<<<
@@ -27748,7 +27743,7 @@ static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR
     goto __pyx_L4;
   }
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":829
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":829
  *         # Else move to the tail and add the subtree root
  *         else:
  *             current_element = flat_list_head             # <<<<<<<<<<<<<<
@@ -27758,7 +27753,7 @@ static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR
   /*else*/ {
     __pyx_v_current_element = __pyx_v_flat_list_head;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":830
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":830
  *         else:
  *             current_element = flat_list_head
  *             while current_element.higher != NULL:             # <<<<<<<<<<<<<<
@@ -27769,7 +27764,7 @@ static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR
       __pyx_t_1 = (__pyx_v_current_element->higher != NULL);
       if (!__pyx_t_1) break;
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":831
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":831
  *             current_element = flat_list_head
  *             while current_element.higher != NULL:
  *                 current_element = current_element.higher             # <<<<<<<<<<<<<<
@@ -27780,7 +27775,7 @@ static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR
       __pyx_v_current_element = __pyx_t_2;
     }
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":834
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":834
  * 
  *             # Attach the element with the bidirectional pointers
  *             current_element.higher = root             # <<<<<<<<<<<<<<
@@ -27789,7 +27784,7 @@ static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR
  */
     __pyx_v_current_element->higher = __pyx_v_root;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":835
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":835
  *             # Attach the element with the bidirectional pointers
  *             current_element.higher = root
  *             root.lower = current_element             # <<<<<<<<<<<<<<
@@ -27800,17 +27795,17 @@ static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR
   }
   __pyx_L4:;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":838
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":838
  * 
  *         # Flatten higher subtree and attach it to the tail of the flat list
  *         root.higher = self.subtree_to_list_flat(root.higher)             # <<<<<<<<<<<<<<
  * 
  *         # Attach the element with the bidirectional pointers
  */
-  __pyx_t_2 = ((struct __pyx_vtabstruct_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->subtree_to_list_flat(__pyx_v_self, __pyx_v_root->higher); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 838, __pyx_L1_error)
+  __pyx_t_2 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->subtree_to_list_flat(__pyx_v_self, __pyx_v_root->higher); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 838, __pyx_L1_error)
   __pyx_v_root->higher = __pyx_t_2;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":841
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":841
  * 
  *         # Attach the element with the bidirectional pointers
  *         if root.higher != NULL:             # <<<<<<<<<<<<<<
@@ -27820,7 +27815,7 @@ static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR
   __pyx_t_1 = (__pyx_v_root->higher != NULL);
   if (__pyx_t_1) {
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":842
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":842
  *         # Attach the element with the bidirectional pointers
  *         if root.higher != NULL:
  *             root.higher.lower = root             # <<<<<<<<<<<<<<
@@ -27829,7 +27824,7 @@ static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR
  */
     __pyx_v_root->higher->lower = __pyx_v_root;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":841
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":841
  * 
  *         # Attach the element with the bidirectional pointers
  *         if root.higher != NULL:             # <<<<<<<<<<<<<<
@@ -27838,7 +27833,7 @@ static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR
  */
   }
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":844
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":844
  *             root.higher.lower = root
  * 
  *         return flat_list_head             # <<<<<<<<<<<<<<
@@ -27848,7 +27843,7 @@ static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR
   __pyx_r = __pyx_v_flat_list_head;
   goto __pyx_L0;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":804
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":804
  * 
  * 
  *     cdef matrix_element_tree_s * subtree_to_list_flat(self, matrix_element_tree_s * root):             # <<<<<<<<<<<<<<
@@ -27858,13 +27853,13 @@ static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR
 
   /* function exit code */
   __pyx_L1_error:;
-  __Pyx_AddTraceback("SLIM_BPR_Cython_Epoch.Sparse_Matrix_Tree_CSR.subtree_to_list_flat", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.SLIM_BPR_Cython_Epoch.Sparse_Matrix_Tree_CSR.subtree_to_list_flat", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = 0;
   __pyx_L0:;
   return __pyx_r;
 }
 
-/* "SLIM_BPR_Cython_Epoch.pyx":848
+/* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":848
  * 
  * 
  *     cdef from_linked_list_to_python_list(self, matrix_element_tree_s * head):             # <<<<<<<<<<<<<<
@@ -27872,7 +27867,7 @@ static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR
  *         data = []
  */
 
-static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_from_linked_list_to_python_list(CYTHON_UNUSED struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *__pyx_v_self, __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_v_head) {
+static PyObject *__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_from_linked_list_to_python_list(CYTHON_UNUSED struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *__pyx_v_self, __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_v_head) {
   PyObject *__pyx_v_data = NULL;
   PyObject *__pyx_v_column = NULL;
   PyObject *__pyx_r = NULL;
@@ -27880,13 +27875,13 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_from_l
   PyObject *__pyx_t_1 = NULL;
   int __pyx_t_2;
   int __pyx_t_3;
-  __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_t_4;
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_t_4;
   int __pyx_lineno = 0;
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("from_linked_list_to_python_list", 1);
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":850
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":850
  *     cdef from_linked_list_to_python_list(self, matrix_element_tree_s * head):
  * 
  *         data = []             # <<<<<<<<<<<<<<
@@ -27898,7 +27893,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_from_l
   __pyx_v_data = ((PyObject*)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":851
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":851
  * 
  *         data = []
  *         column = []             # <<<<<<<<<<<<<<
@@ -27910,7 +27905,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_from_l
   __pyx_v_column = ((PyObject*)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":853
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":853
  *         column = []
  * 
  *         while head != NULL:             # <<<<<<<<<<<<<<
@@ -27921,7 +27916,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_from_l
     __pyx_t_2 = (__pyx_v_head != NULL);
     if (!__pyx_t_2) break;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":855
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":855
  *         while head != NULL:
  * 
  *             if head.data != 0.0:             # <<<<<<<<<<<<<<
@@ -27931,7 +27926,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_from_l
     __pyx_t_2 = (__pyx_v_head->data != 0.0);
     if (__pyx_t_2) {
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":856
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":856
  * 
  *             if head.data != 0.0:
  *                 data.append(head.data)             # <<<<<<<<<<<<<<
@@ -27943,7 +27938,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_from_l
       __pyx_t_3 = __Pyx_PyList_Append(__pyx_v_data, __pyx_t_1); if (unlikely(__pyx_t_3 == ((int)-1))) __PYX_ERR(0, 856, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":857
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":857
  *             if head.data != 0.0:
  *                 data.append(head.data)
  *                 column.append(head.column)             # <<<<<<<<<<<<<<
@@ -27955,7 +27950,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_from_l
       __pyx_t_3 = __Pyx_PyList_Append(__pyx_v_column, __pyx_t_1); if (unlikely(__pyx_t_3 == ((int)-1))) __PYX_ERR(0, 857, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":855
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":855
  *         while head != NULL:
  * 
  *             if head.data != 0.0:             # <<<<<<<<<<<<<<
@@ -27964,7 +27959,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_from_l
  */
     }
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":859
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":859
  *                 column.append(head.column)
  * 
  *             head = head.higher             # <<<<<<<<<<<<<<
@@ -27975,7 +27970,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_from_l
     __pyx_v_head = __pyx_t_4;
   }
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":861
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":861
  *             head = head.higher
  * 
  *         return column, data             # <<<<<<<<<<<<<<
@@ -27995,7 +27990,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_from_l
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":848
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":848
  * 
  * 
  *     cdef from_linked_list_to_python_list(self, matrix_element_tree_s * head):             # <<<<<<<<<<<<<<
@@ -28006,7 +28001,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_from_l
   /* function exit code */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_AddTraceback("SLIM_BPR_Cython_Epoch.Sparse_Matrix_Tree_CSR.from_linked_list_to_python_list", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.SLIM_BPR_Cython_Epoch.Sparse_Matrix_Tree_CSR.from_linked_list_to_python_list", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = 0;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_data);
@@ -28016,7 +28011,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_from_l
   return __pyx_r;
 }
 
-/* "SLIM_BPR_Cython_Epoch.pyx":865
+/* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":865
  * 
  * 
  *     cdef subtree_free_memory(self, matrix_element_tree_s* root):             # <<<<<<<<<<<<<<
@@ -28024,7 +28019,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_from_l
  *         The function frees all struct in the subtree whose root is passed as a parameter, root included
  */
 
-static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_subtree_free_memory(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *__pyx_v_self, __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_v_root) {
+static PyObject *__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_subtree_free_memory(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *__pyx_v_self, __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_v_root) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   int __pyx_t_1;
@@ -28034,7 +28029,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_subtre
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("subtree_free_memory", 1);
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":872
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":872
  *         """
  * 
  *         if root != NULL:             # <<<<<<<<<<<<<<
@@ -28044,29 +28039,29 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_subtre
   __pyx_t_1 = (__pyx_v_root != NULL);
   if (__pyx_t_1) {
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":874
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":874
  *         if root != NULL:
  *             # If the root exists, open recursion
  *             self.subtree_free_memory(root.higher)             # <<<<<<<<<<<<<<
  *             self.subtree_free_memory(root.lower)
  * 
  */
-    __pyx_t_2 = ((struct __pyx_vtabstruct_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->subtree_free_memory(__pyx_v_self, __pyx_v_root->higher); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 874, __pyx_L1_error)
+    __pyx_t_2 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->subtree_free_memory(__pyx_v_self, __pyx_v_root->higher); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 874, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":875
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":875
  *             # If the root exists, open recursion
  *             self.subtree_free_memory(root.higher)
  *             self.subtree_free_memory(root.lower)             # <<<<<<<<<<<<<<
  * 
  *             # Once the lower elements have been reached, start freeing from the bottom
  */
-    __pyx_t_2 = ((struct __pyx_vtabstruct_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->subtree_free_memory(__pyx_v_self, __pyx_v_root->lower); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 875, __pyx_L1_error)
+    __pyx_t_2 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->subtree_free_memory(__pyx_v_self, __pyx_v_root->lower); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 875, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":878
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":878
  * 
  *             # Once the lower elements have been reached, start freeing from the bottom
  *             PyMem_Free(root)             # <<<<<<<<<<<<<<
@@ -28075,7 +28070,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_subtre
  */
     PyMem_Free(__pyx_v_root);
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":872
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":872
  *         """
  * 
  *         if root != NULL:             # <<<<<<<<<<<<<<
@@ -28084,7 +28079,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_subtre
  */
   }
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":865
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":865
  * 
  * 
  *     cdef subtree_free_memory(self, matrix_element_tree_s* root):             # <<<<<<<<<<<<<<
@@ -28097,7 +28092,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_subtre
   goto __pyx_L0;
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_2);
-  __Pyx_AddTraceback("SLIM_BPR_Cython_Epoch.Sparse_Matrix_Tree_CSR.subtree_free_memory", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.SLIM_BPR_Cython_Epoch.Sparse_Matrix_Tree_CSR.subtree_free_memory", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = 0;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -28105,7 +28100,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_subtre
   return __pyx_r;
 }
 
-/* "SLIM_BPR_Cython_Epoch.pyx":882
+/* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":882
  * 
  * 
  *     cdef list_free_memory(self, matrix_element_tree_s * head):             # <<<<<<<<<<<<<<
@@ -28113,7 +28108,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_subtre
  *         The function frees all struct in the list whose head is passed as a parameter, head included
  */
 
-static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_list_free_memory(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *__pyx_v_self, __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_v_head) {
+static PyObject *__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_list_free_memory(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *__pyx_v_self, __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_v_head) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   int __pyx_t_1;
@@ -28123,7 +28118,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_list_f
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("list_free_memory", 1);
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":889
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":889
  *         """
  * 
  *         if head != NULL:             # <<<<<<<<<<<<<<
@@ -28133,18 +28128,18 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_list_f
   __pyx_t_1 = (__pyx_v_head != NULL);
   if (__pyx_t_1) {
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":891
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":891
  *         if head != NULL:
  *             # If the root exists, open recursion
  *             self.subtree_free_memory(head.higher)             # <<<<<<<<<<<<<<
  * 
  *             # Once the tail element have been reached, start freeing from them
  */
-    __pyx_t_2 = ((struct __pyx_vtabstruct_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->subtree_free_memory(__pyx_v_self, __pyx_v_head->higher); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 891, __pyx_L1_error)
+    __pyx_t_2 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->subtree_free_memory(__pyx_v_self, __pyx_v_head->higher); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 891, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":894
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":894
  * 
  *             # Once the tail element have been reached, start freeing from them
  *             PyMem_Free(head)             # <<<<<<<<<<<<<<
@@ -28153,7 +28148,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_list_f
  */
     PyMem_Free(__pyx_v_head);
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":889
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":889
  *         """
  * 
  *         if head != NULL:             # <<<<<<<<<<<<<<
@@ -28162,7 +28157,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_list_f
  */
   }
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":882
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":882
  * 
  * 
  *     cdef list_free_memory(self, matrix_element_tree_s * head):             # <<<<<<<<<<<<<<
@@ -28175,7 +28170,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_list_f
   goto __pyx_L0;
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_2);
-  __Pyx_AddTraceback("SLIM_BPR_Cython_Epoch.Sparse_Matrix_Tree_CSR.list_free_memory", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.SLIM_BPR_Cython_Epoch.Sparse_Matrix_Tree_CSR.list_free_memory", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = 0;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -28183,7 +28178,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_list_f
   return __pyx_r;
 }
 
-/* "SLIM_BPR_Cython_Epoch.pyx":898
+/* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":898
  * 
  * 
  *     cdef matrix_element_tree_s* build_tree_from_list_flat(self, matrix_element_tree_s* flat_list_head):             # <<<<<<<<<<<<<<
@@ -28191,20 +28186,20 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_list_f
  *         The function builds a tree containing the passed data. This is the recursive function, the
  */
 
-static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_build_tree_from_list_flat(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *__pyx_v_self, __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_v_flat_list_head) {
+static __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_build_tree_from_list_flat(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *__pyx_v_self, __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_v_flat_list_head) {
   long __pyx_v_list_length;
   long __pyx_v_middle_element_step;
-  __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_v_current_element;
-  __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_v_middleElement;
-  __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_v_tree_root;
-  __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_r;
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_v_current_element;
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_v_middleElement;
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_v_tree_root;
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_r;
   int __pyx_t_1;
-  __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_t_2;
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_t_2;
   int __pyx_lineno = 0;
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":909
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":909
  *         """
  * 
  *         if flat_list_head == NULL:             # <<<<<<<<<<<<<<
@@ -28214,7 +28209,7 @@ static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR
   __pyx_t_1 = (__pyx_v_flat_list_head == NULL);
   if (__pyx_t_1) {
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":910
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":910
  * 
  *         if flat_list_head == NULL:
  *             return NULL             # <<<<<<<<<<<<<<
@@ -28224,7 +28219,7 @@ static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR
     __pyx_r = NULL;
     goto __pyx_L0;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":909
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":909
  *         """
  * 
  *         if flat_list_head == NULL:             # <<<<<<<<<<<<<<
@@ -28233,7 +28228,7 @@ static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR
  */
   }
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":913
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":913
  * 
  * 
  *         cdef long list_length = 0             # <<<<<<<<<<<<<<
@@ -28242,7 +28237,7 @@ static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR
  */
   __pyx_v_list_length = 0;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":914
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":914
  * 
  *         cdef long list_length = 0
  *         cdef long middle_element_step = 0             # <<<<<<<<<<<<<<
@@ -28251,7 +28246,7 @@ static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR
  */
   __pyx_v_middle_element_step = 0;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":918
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":918
  *         cdef matrix_element_tree_s *current_element, *middleElement, *tree_root
  * 
  *         current_element = flat_list_head             # <<<<<<<<<<<<<<
@@ -28260,7 +28255,7 @@ static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR
  */
   __pyx_v_current_element = __pyx_v_flat_list_head;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":919
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":919
  * 
  *         current_element = flat_list_head
  *         middleElement = flat_list_head             # <<<<<<<<<<<<<<
@@ -28269,7 +28264,7 @@ static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR
  */
   __pyx_v_middleElement = __pyx_v_flat_list_head;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":922
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":922
  * 
  *         # Explore the flat list moving the middle elment every tho jumps
  *         while current_element != NULL:             # <<<<<<<<<<<<<<
@@ -28280,7 +28275,7 @@ static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR
     __pyx_t_1 = (__pyx_v_current_element != NULL);
     if (!__pyx_t_1) break;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":923
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":923
  *         # Explore the flat list moving the middle elment every tho jumps
  *         while current_element != NULL:
  *             current_element = current_element.higher             # <<<<<<<<<<<<<<
@@ -28290,7 +28285,7 @@ static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR
     __pyx_t_2 = __pyx_v_current_element->higher;
     __pyx_v_current_element = __pyx_t_2;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":924
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":924
  *         while current_element != NULL:
  *             current_element = current_element.higher
  *             list_length += 1             # <<<<<<<<<<<<<<
@@ -28299,7 +28294,7 @@ static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR
  */
     __pyx_v_list_length = (__pyx_v_list_length + 1);
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":925
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":925
  *             current_element = current_element.higher
  *             list_length += 1
  *             middle_element_step += 1             # <<<<<<<<<<<<<<
@@ -28308,7 +28303,7 @@ static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR
  */
     __pyx_v_middle_element_step = (__pyx_v_middle_element_step + 1);
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":927
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":927
  *             middle_element_step += 1
  * 
  *             if middle_element_step == 2:             # <<<<<<<<<<<<<<
@@ -28318,7 +28313,7 @@ static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR
     __pyx_t_1 = (__pyx_v_middle_element_step == 2);
     if (__pyx_t_1) {
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":928
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":928
  * 
  *             if middle_element_step == 2:
  *                 middleElement = middleElement.higher             # <<<<<<<<<<<<<<
@@ -28328,7 +28323,7 @@ static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR
       __pyx_t_2 = __pyx_v_middleElement->higher;
       __pyx_v_middleElement = __pyx_t_2;
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":929
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":929
  *             if middle_element_step == 2:
  *                 middleElement = middleElement.higher
  *                 middle_element_step = 0             # <<<<<<<<<<<<<<
@@ -28337,7 +28332,7 @@ static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR
  */
       __pyx_v_middle_element_step = 0;
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":927
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":927
  *             middle_element_step += 1
  * 
  *             if middle_element_step == 2:             # <<<<<<<<<<<<<<
@@ -28347,7 +28342,7 @@ static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR
     }
   }
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":931
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":931
  *                 middle_element_step = 0
  * 
  *         tree_root = middleElement             # <<<<<<<<<<<<<<
@@ -28356,7 +28351,7 @@ static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR
  */
   __pyx_v_tree_root = __pyx_v_middleElement;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":935
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":935
  *         # To execute the recursion it is necessary to cut the flat list
  *         # The last of the lower elements will have to be a tail
  *         if middleElement.lower != NULL:             # <<<<<<<<<<<<<<
@@ -28366,7 +28361,7 @@ static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR
   __pyx_t_1 = (__pyx_v_middleElement->lower != NULL);
   if (__pyx_t_1) {
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":936
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":936
  *         # The last of the lower elements will have to be a tail
  *         if middleElement.lower != NULL:
  *             middleElement.lower.higher = NULL             # <<<<<<<<<<<<<<
@@ -28375,17 +28370,17 @@ static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR
  */
     __pyx_v_middleElement->lower->higher = NULL;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":938
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":938
  *             middleElement.lower.higher = NULL
  * 
  *             tree_root.lower = self.build_tree_from_list_flat(flat_list_head)             # <<<<<<<<<<<<<<
  * 
  * 
  */
-    __pyx_t_2 = ((struct __pyx_vtabstruct_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->build_tree_from_list_flat(__pyx_v_self, __pyx_v_flat_list_head); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 938, __pyx_L1_error)
+    __pyx_t_2 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->build_tree_from_list_flat(__pyx_v_self, __pyx_v_flat_list_head); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 938, __pyx_L1_error)
     __pyx_v_tree_root->lower = __pyx_t_2;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":935
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":935
  *         # To execute the recursion it is necessary to cut the flat list
  *         # The last of the lower elements will have to be a tail
  *         if middleElement.lower != NULL:             # <<<<<<<<<<<<<<
@@ -28394,7 +28389,7 @@ static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR
  */
   }
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":942
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":942
  * 
  *         # The first of the higher elements will have to be a head
  *         if middleElement.higher != NULL:             # <<<<<<<<<<<<<<
@@ -28404,7 +28399,7 @@ static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR
   __pyx_t_1 = (__pyx_v_middleElement->higher != NULL);
   if (__pyx_t_1) {
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":943
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":943
  *         # The first of the higher elements will have to be a head
  *         if middleElement.higher != NULL:
  *             middleElement.higher.lower = NULL             # <<<<<<<<<<<<<<
@@ -28413,17 +28408,17 @@ static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR
  */
     __pyx_v_middleElement->higher->lower = NULL;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":945
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":945
  *             middleElement.higher.lower = NULL
  * 
  *             tree_root.higher = self.build_tree_from_list_flat(middleElement.higher)             # <<<<<<<<<<<<<<
  * 
  * 
  */
-    __pyx_t_2 = ((struct __pyx_vtabstruct_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->build_tree_from_list_flat(__pyx_v_self, __pyx_v_middleElement->higher); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 945, __pyx_L1_error)
+    __pyx_t_2 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->build_tree_from_list_flat(__pyx_v_self, __pyx_v_middleElement->higher); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 945, __pyx_L1_error)
     __pyx_v_tree_root->higher = __pyx_t_2;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":942
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":942
  * 
  *         # The first of the higher elements will have to be a head
  *         if middleElement.higher != NULL:             # <<<<<<<<<<<<<<
@@ -28432,7 +28427,7 @@ static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR
  */
   }
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":948
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":948
  * 
  * 
  *         return tree_root             # <<<<<<<<<<<<<<
@@ -28442,7 +28437,7 @@ static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR
   __pyx_r = __pyx_v_tree_root;
   goto __pyx_L0;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":898
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":898
  * 
  * 
  *     cdef matrix_element_tree_s* build_tree_from_list_flat(self, matrix_element_tree_s* flat_list_head):             # <<<<<<<<<<<<<<
@@ -28452,13 +28447,13 @@ static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR
 
   /* function exit code */
   __pyx_L1_error:;
-  __Pyx_AddTraceback("SLIM_BPR_Cython_Epoch.Sparse_Matrix_Tree_CSR.build_tree_from_list_flat", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.SLIM_BPR_Cython_Epoch.Sparse_Matrix_Tree_CSR.build_tree_from_list_flat", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = 0;
   __pyx_L0:;
   return __pyx_r;
 }
 
-/* "SLIM_BPR_Cython_Epoch.pyx":953
+/* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":953
  * 
  * 
  *     cdef matrix_element_tree_s* topK_selection_from_list(self, matrix_element_tree_s* head, long TopK):             # <<<<<<<<<<<<<<
@@ -28466,19 +28461,19 @@ static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR
  *         The function selects the topK highest elements in the given list
  */
 
-static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_topK_selection_from_list(CYTHON_UNUSED struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *__pyx_v_self, __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_v_head, long __pyx_v_TopK) {
-  __pyx_t_21SLIM_BPR_Cython_Epoch_head_pointer_tree_s *__pyx_v_vector_pointer_to_list_elements;
-  __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_v_current_element;
+static __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_topK_selection_from_list(CYTHON_UNUSED struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *__pyx_v_self, __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_v_head, long __pyx_v_TopK) {
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_head_pointer_tree_s *__pyx_v_vector_pointer_to_list_elements;
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_v_current_element;
   long __pyx_v_list_length;
   long __pyx_v_index;
-  __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_r;
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_r;
   int __pyx_t_1;
-  __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_t_2;
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_t_2;
   long __pyx_t_3;
   long __pyx_t_4;
   long __pyx_t_5;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":967
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":967
  * 
  *         # Get list size
  *         current_element = head             # <<<<<<<<<<<<<<
@@ -28487,7 +28482,7 @@ static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR
  */
   __pyx_v_current_element = __pyx_v_head;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":968
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":968
  *         # Get list size
  *         current_element = head
  *         list_length = 0             # <<<<<<<<<<<<<<
@@ -28496,7 +28491,7 @@ static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR
  */
   __pyx_v_list_length = 0;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":970
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":970
  *         list_length = 0
  * 
  *         while current_element != NULL:             # <<<<<<<<<<<<<<
@@ -28507,7 +28502,7 @@ static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR
     __pyx_t_1 = (__pyx_v_current_element != NULL);
     if (!__pyx_t_1) break;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":971
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":971
  * 
  *         while current_element != NULL:
  *             list_length += 1             # <<<<<<<<<<<<<<
@@ -28516,7 +28511,7 @@ static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR
  */
     __pyx_v_list_length = (__pyx_v_list_length + 1);
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":972
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":972
  *         while current_element != NULL:
  *             list_length += 1
  *             current_element = current_element.higher             # <<<<<<<<<<<<<<
@@ -28527,7 +28522,7 @@ static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR
     __pyx_v_current_element = __pyx_t_2;
   }
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":976
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":976
  * 
  *         # If list elements are not enough to perform a selection, return
  *         if list_length < TopK:             # <<<<<<<<<<<<<<
@@ -28537,7 +28532,7 @@ static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR
   __pyx_t_1 = (__pyx_v_list_length < __pyx_v_TopK);
   if (__pyx_t_1) {
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":977
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":977
  *         # If list elements are not enough to perform a selection, return
  *         if list_length < TopK:
  *             return head             # <<<<<<<<<<<<<<
@@ -28547,7 +28542,7 @@ static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR
     __pyx_r = __pyx_v_head;
     goto __pyx_L0;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":976
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":976
  * 
  *         # If list elements are not enough to perform a selection, return
  *         if list_length < TopK:             # <<<<<<<<<<<<<<
@@ -28556,16 +28551,16 @@ static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR
  */
   }
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":980
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":980
  * 
  *         # Allocate vector that will be used for sorting
  *         vector_pointer_to_list_elements = < head_pointer_tree_s *> PyMem_Malloc(list_length * sizeof(head_pointer_tree_s))             # <<<<<<<<<<<<<<
  * 
  *         # Fill vector wit pointers to list elements
  */
-  __pyx_v_vector_pointer_to_list_elements = ((__pyx_t_21SLIM_BPR_Cython_Epoch_head_pointer_tree_s *)PyMem_Malloc((__pyx_v_list_length * (sizeof(__pyx_t_21SLIM_BPR_Cython_Epoch_head_pointer_tree_s)))));
+  __pyx_v_vector_pointer_to_list_elements = ((__pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_head_pointer_tree_s *)PyMem_Malloc((__pyx_v_list_length * (sizeof(__pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_head_pointer_tree_s)))));
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":983
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":983
  * 
  *         # Fill vector wit pointers to list elements
  *         current_element = head             # <<<<<<<<<<<<<<
@@ -28574,7 +28569,7 @@ static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR
  */
   __pyx_v_current_element = __pyx_v_head;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":984
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":984
  *         # Fill vector wit pointers to list elements
  *         current_element = head
  *         for index in range(list_length):             # <<<<<<<<<<<<<<
@@ -28586,7 +28581,7 @@ static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR
   for (__pyx_t_5 = 0; __pyx_t_5 < __pyx_t_4; __pyx_t_5+=1) {
     __pyx_v_index = __pyx_t_5;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":985
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":985
  *         current_element = head
  *         for index in range(list_length):
  *             vector_pointer_to_list_elements[index].head = current_element             # <<<<<<<<<<<<<<
@@ -28595,7 +28590,7 @@ static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR
  */
     (__pyx_v_vector_pointer_to_list_elements[__pyx_v_index]).head = __pyx_v_current_element;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":986
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":986
  *         for index in range(list_length):
  *             vector_pointer_to_list_elements[index].head = current_element
  *             current_element = current_element.higher             # <<<<<<<<<<<<<<
@@ -28606,25 +28601,25 @@ static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR
     __pyx_v_current_element = __pyx_t_2;
   }
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":990
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":990
  * 
  *         # Sort array elements on their data field
  *         qsort(vector_pointer_to_list_elements, list_length, sizeof(head_pointer_tree_s), compare_struct_on_data)             # <<<<<<<<<<<<<<
  * 
  *         # Sort only the TopK according to their column field
  */
-  qsort(__pyx_v_vector_pointer_to_list_elements, __pyx_v_list_length, (sizeof(__pyx_t_21SLIM_BPR_Cython_Epoch_head_pointer_tree_s)), __pyx_f_21SLIM_BPR_Cython_Epoch_compare_struct_on_data);
+  qsort(__pyx_v_vector_pointer_to_list_elements, __pyx_v_list_length, (sizeof(__pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_head_pointer_tree_s)), __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_compare_struct_on_data);
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":994
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":994
  *         # Sort only the TopK according to their column field
  *         # Sort is from lower to higher, therefore the elements to be considered are from len-topK to len
  *         qsort(&vector_pointer_to_list_elements[list_length-TopK], TopK, sizeof(head_pointer_tree_s), compare_struct_on_column)             # <<<<<<<<<<<<<<
  * 
  * 
  */
-  qsort((&(__pyx_v_vector_pointer_to_list_elements[(__pyx_v_list_length - __pyx_v_TopK)])), __pyx_v_TopK, (sizeof(__pyx_t_21SLIM_BPR_Cython_Epoch_head_pointer_tree_s)), __pyx_f_21SLIM_BPR_Cython_Epoch_compare_struct_on_column);
+  qsort((&(__pyx_v_vector_pointer_to_list_elements[(__pyx_v_list_length - __pyx_v_TopK)])), __pyx_v_TopK, (sizeof(__pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_head_pointer_tree_s)), __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_compare_struct_on_column);
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":998
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":998
  * 
  *         # Rebuild list attaching the consecutive elements
  *         index = list_length-TopK             # <<<<<<<<<<<<<<
@@ -28633,7 +28628,7 @@ static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR
  */
   __pyx_v_index = (__pyx_v_list_length - __pyx_v_TopK);
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1001
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1001
  * 
  *         # Detach last TopK element from previous ones
  *         vector_pointer_to_list_elements[index].head.lower = NULL             # <<<<<<<<<<<<<<
@@ -28642,7 +28637,7 @@ static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR
  */
   (__pyx_v_vector_pointer_to_list_elements[__pyx_v_index]).head->lower = NULL;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1003
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1003
  *         vector_pointer_to_list_elements[index].head.lower = NULL
  * 
  *         while index<list_length-1:             # <<<<<<<<<<<<<<
@@ -28653,7 +28648,7 @@ static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR
     __pyx_t_1 = (__pyx_v_index < (__pyx_v_list_length - 1));
     if (!__pyx_t_1) break;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":1005
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1005
  *         while index<list_length-1:
  *             # Rearrange bidirectional pointers
  *             vector_pointer_to_list_elements[index+1].head.lower = vector_pointer_to_list_elements[index].head             # <<<<<<<<<<<<<<
@@ -28663,7 +28658,7 @@ static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR
     __pyx_t_2 = (__pyx_v_vector_pointer_to_list_elements[__pyx_v_index]).head;
     (__pyx_v_vector_pointer_to_list_elements[(__pyx_v_index + 1)]).head->lower = __pyx_t_2;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":1006
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1006
  *             # Rearrange bidirectional pointers
  *             vector_pointer_to_list_elements[index+1].head.lower = vector_pointer_to_list_elements[index].head
  *             vector_pointer_to_list_elements[index].head.higher = vector_pointer_to_list_elements[index+1].head             # <<<<<<<<<<<<<<
@@ -28673,7 +28668,7 @@ static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR
     __pyx_t_2 = (__pyx_v_vector_pointer_to_list_elements[(__pyx_v_index + 1)]).head;
     (__pyx_v_vector_pointer_to_list_elements[__pyx_v_index]).head->higher = __pyx_t_2;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":1008
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1008
  *             vector_pointer_to_list_elements[index].head.higher = vector_pointer_to_list_elements[index+1].head
  * 
  *             index += 1             # <<<<<<<<<<<<<<
@@ -28683,7 +28678,7 @@ static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR
     __pyx_v_index = (__pyx_v_index + 1);
   }
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1011
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1011
  * 
  *         # Last element in vector will be the hew head
  *         vector_pointer_to_list_elements[list_length - 1].head.higher = NULL             # <<<<<<<<<<<<<<
@@ -28692,7 +28687,7 @@ static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR
  */
   (__pyx_v_vector_pointer_to_list_elements[(__pyx_v_list_length - 1)]).head->higher = NULL;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1014
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1014
  * 
  *         # Get hew list head
  *         current_element = vector_pointer_to_list_elements[list_length-TopK].head             # <<<<<<<<<<<<<<
@@ -28702,7 +28697,7 @@ static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR
   __pyx_t_2 = (__pyx_v_vector_pointer_to_list_elements[(__pyx_v_list_length - __pyx_v_TopK)]).head;
   __pyx_v_current_element = __pyx_t_2;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1018
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1018
  *         # If there are exactly enough elements to reach TopK, index == 0 will be the tail
  *         # Else, index will be the tail and the other elements will be removed
  *         index = list_length - TopK - 1             # <<<<<<<<<<<<<<
@@ -28711,7 +28706,7 @@ static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR
  */
   __pyx_v_index = ((__pyx_v_list_length - __pyx_v_TopK) - 1);
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1019
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1019
  *         # Else, index will be the tail and the other elements will be removed
  *         index = list_length - TopK - 1
  *         if index > 0:             # <<<<<<<<<<<<<<
@@ -28721,7 +28716,7 @@ static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR
   __pyx_t_1 = (__pyx_v_index > 0);
   if (__pyx_t_1) {
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":1021
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1021
  *         if index > 0:
  * 
  *             index -= 1             # <<<<<<<<<<<<<<
@@ -28730,7 +28725,7 @@ static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR
  */
     __pyx_v_index = (__pyx_v_index - 1);
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":1022
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1022
  * 
  *             index -= 1
  *             while index >= 0:             # <<<<<<<<<<<<<<
@@ -28741,7 +28736,7 @@ static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR
       __pyx_t_1 = (__pyx_v_index >= 0);
       if (!__pyx_t_1) break;
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":1023
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1023
  *             index -= 1
  *             while index >= 0:
  *                 PyMem_Free(vector_pointer_to_list_elements[index].head)             # <<<<<<<<<<<<<<
@@ -28750,7 +28745,7 @@ static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR
  */
       PyMem_Free((__pyx_v_vector_pointer_to_list_elements[__pyx_v_index]).head);
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":1024
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1024
  *             while index >= 0:
  *                 PyMem_Free(vector_pointer_to_list_elements[index].head)
  *                 index -= 1             # <<<<<<<<<<<<<<
@@ -28760,7 +28755,7 @@ static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR
       __pyx_v_index = (__pyx_v_index - 1);
     }
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":1019
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1019
  *         # Else, index will be the tail and the other elements will be removed
  *         index = list_length - TopK - 1
  *         if index > 0:             # <<<<<<<<<<<<<<
@@ -28769,7 +28764,7 @@ static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR
  */
   }
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1027
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1027
  * 
  *         # Free array
  *         PyMem_Free(vector_pointer_to_list_elements)             # <<<<<<<<<<<<<<
@@ -28778,7 +28773,7 @@ static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR
  */
   PyMem_Free(__pyx_v_vector_pointer_to_list_elements);
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1030
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1030
  * 
  * 
  *         return current_element             # <<<<<<<<<<<<<<
@@ -28788,7 +28783,7 @@ static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR
   __pyx_r = __pyx_v_current_element;
   goto __pyx_L0;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":953
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":953
  * 
  * 
  *     cdef matrix_element_tree_s* topK_selection_from_list(self, matrix_element_tree_s* head, long TopK):             # <<<<<<<<<<<<<<
@@ -28801,7 +28796,7 @@ static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR
   return __pyx_r;
 }
 
-/* "SLIM_BPR_Cython_Epoch.pyx":1044
+/* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1044
  * 
  * 
  *     cpdef test_list_tee_conversion(self, long row):             # <<<<<<<<<<<<<<
@@ -28809,18 +28804,18 @@ static __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_f_21SLIM_BPR
  *         The function tests the inner data structure conversion from tree to C linked list and back to tree
  */
 
-static PyObject *__pyx_pw_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_5test_list_tee_conversion(PyObject *__pyx_v_self, 
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_5test_list_tee_conversion(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_list_tee_conversion(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_row, int __pyx_skip_dispatch) {
-  __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_v_head;
-  __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_v_tree_root;
-  __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_v_current_element;
-  __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_v_previous_element;
+static PyObject *__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_list_tee_conversion(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_row, int __pyx_skip_dispatch) {
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_v_head;
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_v_tree_root;
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_v_current_element;
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_v_previous_element;
   PyObject *__pyx_v_numElements_higher = 0;
   PyObject *__pyx_v_numElements_lower = 0;
   PyObject *__pyx_v_column_original = NULL;
@@ -28838,7 +28833,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_l
   PyObject *__pyx_t_4 = NULL;
   PyObject *__pyx_t_5 = NULL;
   unsigned int __pyx_t_6;
-  __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_t_7;
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_t_7;
   int __pyx_t_8;
   PyObject *(*__pyx_t_9)(PyObject *);
   Py_ssize_t __pyx_t_10;
@@ -28859,7 +28854,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_l
       #endif
       __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_test_list_tee_conversion); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1044, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
-      if (!__Pyx_IsSameCFunction(__pyx_t_1, (void*) __pyx_pw_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_5test_list_tee_conversion)) {
+      if (!__Pyx_IsSameCFunction(__pyx_t_1, (void*) __pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_5test_list_tee_conversion)) {
         __Pyx_XDECREF(__pyx_r);
         __pyx_t_3 = __Pyx_PyInt_From_long(__pyx_v_row); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1044, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_3);
@@ -28905,17 +28900,17 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_l
     #endif
   }
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1054
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1054
  *         cdef matrix_element_tree_s *current_element, *previous_element
  * 
  *         head = self.subtree_to_list_flat(self.row_pointer[row].head)             # <<<<<<<<<<<<<<
  *         current_element = head
  * 
  */
-  __pyx_t_7 = ((struct __pyx_vtabstruct_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->subtree_to_list_flat(__pyx_v_self, (__pyx_v_self->row_pointer[__pyx_v_row]).head); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 1054, __pyx_L1_error)
+  __pyx_t_7 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->subtree_to_list_flat(__pyx_v_self, (__pyx_v_self->row_pointer[__pyx_v_row]).head); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 1054, __pyx_L1_error)
   __pyx_v_head = __pyx_t_7;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1055
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1055
  * 
  *         head = self.subtree_to_list_flat(self.row_pointer[row].head)
  *         current_element = head             # <<<<<<<<<<<<<<
@@ -28924,7 +28919,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_l
  */
   __pyx_v_current_element = __pyx_v_head;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1057
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1057
  *         current_element = head
  * 
  *         cdef numElements_higher = 0             # <<<<<<<<<<<<<<
@@ -28934,7 +28929,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_l
   __Pyx_INCREF(__pyx_int_0);
   __pyx_v_numElements_higher = __pyx_int_0;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1058
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1058
  * 
  *         cdef numElements_higher = 0
  *         cdef numElements_lower = 0             # <<<<<<<<<<<<<<
@@ -28944,7 +28939,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_l
   __Pyx_INCREF(__pyx_int_0);
   __pyx_v_numElements_lower = __pyx_int_0;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1060
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1060
  *         cdef numElements_lower = 0
  * 
  *         while current_element != NULL:             # <<<<<<<<<<<<<<
@@ -28955,7 +28950,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_l
     __pyx_t_8 = (__pyx_v_current_element != NULL);
     if (!__pyx_t_8) break;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":1061
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1061
  * 
  *         while current_element != NULL:
  *             numElements_higher += 1             # <<<<<<<<<<<<<<
@@ -28967,7 +28962,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_l
     __Pyx_DECREF_SET(__pyx_v_numElements_higher, __pyx_t_1);
     __pyx_t_1 = 0;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":1062
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1062
  *         while current_element != NULL:
  *             numElements_higher += 1
  *             previous_element = current_element             # <<<<<<<<<<<<<<
@@ -28976,7 +28971,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_l
  */
     __pyx_v_previous_element = __pyx_v_current_element;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":1063
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1063
  *             numElements_higher += 1
  *             previous_element = current_element
  *             current_element = current_element.higher             # <<<<<<<<<<<<<<
@@ -28987,7 +28982,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_l
     __pyx_v_current_element = __pyx_t_7;
   }
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1065
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1065
  *             current_element = current_element.higher
  * 
  *         current_element = previous_element             # <<<<<<<<<<<<<<
@@ -28996,7 +28991,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_l
  */
   __pyx_v_current_element = __pyx_v_previous_element;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1066
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1066
  * 
  *         current_element = previous_element
  *         while current_element != NULL:             # <<<<<<<<<<<<<<
@@ -29007,7 +29002,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_l
     __pyx_t_8 = (__pyx_v_current_element != NULL);
     if (!__pyx_t_8) break;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":1067
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1067
  *         current_element = previous_element
  *         while current_element != NULL:
  *             numElements_lower += 1             # <<<<<<<<<<<<<<
@@ -29019,7 +29014,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_l
     __Pyx_DECREF_SET(__pyx_v_numElements_lower, __pyx_t_1);
     __pyx_t_1 = 0;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":1068
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1068
  *         while current_element != NULL:
  *             numElements_lower += 1
  *             current_element = current_element.lower             # <<<<<<<<<<<<<<
@@ -29030,7 +29025,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_l
     __pyx_v_current_element = __pyx_t_7;
   }
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1070
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1070
  *             current_element = current_element.lower
  * 
  *         assert numElements_higher == numElements_lower, 'Bidirectional linked list not consistent.' \             # <<<<<<<<<<<<<<
@@ -29044,7 +29039,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_l
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     if (unlikely(!__pyx_t_8)) {
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":1071
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1071
  * 
  *         assert numElements_higher == numElements_lower, 'Bidirectional linked list not consistent.' \
  *                                                         ' From head to tail element count is {}, from tail to head is {}'.format(             # <<<<<<<<<<<<<<
@@ -29054,7 +29049,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_l
       __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_Bidirectional_linked_list_not_co, __pyx_n_s_format); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1071, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":1072
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1072
  *         assert numElements_higher == numElements_lower, 'Bidirectional linked list not consistent.' \
  *                                                         ' From head to tail element count is {}, from tail to head is {}'.format(
  *                                                         numElements_higher, numElements_lower)             # <<<<<<<<<<<<<<
@@ -29084,7 +29079,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_l
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
       }
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":1071
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1071
  * 
  *         assert numElements_higher == numElements_lower, 'Bidirectional linked list not consistent.' \
  *                                                         ' From head to tail element count is {}, from tail to head is {}'.format(             # <<<<<<<<<<<<<<
@@ -29103,7 +29098,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_l
   if ((1)); else __PYX_ERR(0, 1070, __pyx_L1_error)
   #endif
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1074
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1074
  *                                                         numElements_higher, numElements_lower)
  * 
  *         print("Bidirectional list link - Passed")             # <<<<<<<<<<<<<<
@@ -29114,14 +29109,14 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_l
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1076
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1076
  *         print("Bidirectional list link - Passed")
  * 
  *         column_original, data_original = self.from_linked_list_to_python_list(head)             # <<<<<<<<<<<<<<
  * 
  *         assert numElements_higher == len(column_original), \
  */
-  __pyx_t_2 = ((struct __pyx_vtabstruct_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->from_linked_list_to_python_list(__pyx_v_self, __pyx_v_head); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1076, __pyx_L1_error)
+  __pyx_t_2 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->from_linked_list_to_python_list(__pyx_v_self, __pyx_v_head); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1076, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   if ((likely(PyTuple_CheckExact(__pyx_t_2))) || (PyList_CheckExact(__pyx_t_2))) {
     PyObject* sequence = __pyx_t_2;
@@ -29174,7 +29169,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_l
   __pyx_v_data_original = __pyx_t_4;
   __pyx_t_4 = 0;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1078
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1078
  *         column_original, data_original = self.from_linked_list_to_python_list(head)
  * 
  *         assert numElements_higher == len(column_original), \             # <<<<<<<<<<<<<<
@@ -29192,7 +29187,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_l
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     if (unlikely(!__pyx_t_8)) {
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":1079
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1079
  * 
  *         assert numElements_higher == len(column_original), \
  *             'Data structure size inconsistent. LinkedList is {}, Python list is {}'.format(numElements_higher, len(column_original))             # <<<<<<<<<<<<<<
@@ -29239,7 +29234,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_l
   if ((1)); else __PYX_ERR(0, 1078, __pyx_L1_error)
   #endif
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1081
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1081
  *             'Data structure size inconsistent. LinkedList is {}, Python list is {}'.format(numElements_higher, len(column_original))
  * 
  *         for index in range(len(column_original)-1):             # <<<<<<<<<<<<<<
@@ -29308,7 +29303,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_l
     __Pyx_XDECREF_SET(__pyx_v_index, __pyx_t_4);
     __pyx_t_4 = 0;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":1082
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1082
  * 
  *         for index in range(len(column_original)-1):
  *             assert column_original[index] < column_original[index+1],\             # <<<<<<<<<<<<<<
@@ -29338,7 +29333,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_l
     if ((1)); else __PYX_ERR(0, 1082, __pyx_L1_error)
     #endif
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":1081
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1081
  *             'Data structure size inconsistent. LinkedList is {}, Python list is {}'.format(numElements_higher, len(column_original))
  * 
  *         for index in range(len(column_original)-1):             # <<<<<<<<<<<<<<
@@ -29348,7 +29343,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_l
   }
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1085
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1085
  *                 'Columns not ordered correctly. Tree not flattened properly'
  * 
  *         print("Bidirectional list ordering - Passed")             # <<<<<<<<<<<<<<
@@ -29359,27 +29354,27 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_l
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1088
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1088
  * 
  *         # Transform list into tree and back into list, as it is easy to test
  *         tree_root = self.build_tree_from_list_flat(head)             # <<<<<<<<<<<<<<
  *         head = self.subtree_to_list_flat(tree_root)
  * 
  */
-  __pyx_t_7 = ((struct __pyx_vtabstruct_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->build_tree_from_list_flat(__pyx_v_self, __pyx_v_head); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 1088, __pyx_L1_error)
+  __pyx_t_7 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->build_tree_from_list_flat(__pyx_v_self, __pyx_v_head); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 1088, __pyx_L1_error)
   __pyx_v_tree_root = __pyx_t_7;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1089
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1089
  *         # Transform list into tree and back into list, as it is easy to test
  *         tree_root = self.build_tree_from_list_flat(head)
  *         head = self.subtree_to_list_flat(tree_root)             # <<<<<<<<<<<<<<
  * 
  *         cdef numElements_higher_after = 0
  */
-  __pyx_t_7 = ((struct __pyx_vtabstruct_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->subtree_to_list_flat(__pyx_v_self, __pyx_v_tree_root); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 1089, __pyx_L1_error)
+  __pyx_t_7 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->subtree_to_list_flat(__pyx_v_self, __pyx_v_tree_root); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 1089, __pyx_L1_error)
   __pyx_v_head = __pyx_t_7;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1091
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1091
  *         head = self.subtree_to_list_flat(tree_root)
  * 
  *         cdef numElements_higher_after = 0             # <<<<<<<<<<<<<<
@@ -29389,7 +29384,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_l
   __Pyx_INCREF(__pyx_int_0);
   __pyx_v_numElements_higher_after = __pyx_int_0;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1092
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1092
  * 
  *         cdef numElements_higher_after = 0
  *         cdef numElements_lower_after = 0             # <<<<<<<<<<<<<<
@@ -29399,7 +29394,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_l
   __Pyx_INCREF(__pyx_int_0);
   __pyx_v_numElements_lower_after = __pyx_int_0;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1094
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1094
  *         cdef numElements_lower_after = 0
  * 
  *         current_element = head             # <<<<<<<<<<<<<<
@@ -29408,7 +29403,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_l
  */
   __pyx_v_current_element = __pyx_v_head;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1096
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1096
  *         current_element = head
  * 
  *         while current_element != NULL:             # <<<<<<<<<<<<<<
@@ -29419,7 +29414,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_l
     __pyx_t_8 = (__pyx_v_current_element != NULL);
     if (!__pyx_t_8) break;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":1097
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1097
  * 
  *         while current_element != NULL:
  *             numElements_higher_after += 1             # <<<<<<<<<<<<<<
@@ -29431,7 +29426,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_l
     __Pyx_DECREF_SET(__pyx_v_numElements_higher_after, __pyx_t_2);
     __pyx_t_2 = 0;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":1098
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1098
  *         while current_element != NULL:
  *             numElements_higher_after += 1
  *             previous_element = current_element             # <<<<<<<<<<<<<<
@@ -29440,7 +29435,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_l
  */
     __pyx_v_previous_element = __pyx_v_current_element;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":1099
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1099
  *             numElements_higher_after += 1
  *             previous_element = current_element
  *             current_element = current_element.higher             # <<<<<<<<<<<<<<
@@ -29451,7 +29446,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_l
     __pyx_v_current_element = __pyx_t_7;
   }
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1101
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1101
  *             current_element = current_element.higher
  * 
  *         current_element = previous_element             # <<<<<<<<<<<<<<
@@ -29460,7 +29455,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_l
  */
   __pyx_v_current_element = __pyx_v_previous_element;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1102
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1102
  * 
  *         current_element = previous_element
  *         while current_element != NULL:             # <<<<<<<<<<<<<<
@@ -29471,7 +29466,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_l
     __pyx_t_8 = (__pyx_v_current_element != NULL);
     if (!__pyx_t_8) break;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":1103
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1103
  *         current_element = previous_element
  *         while current_element != NULL:
  *             numElements_lower_after += 1             # <<<<<<<<<<<<<<
@@ -29483,7 +29478,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_l
     __Pyx_DECREF_SET(__pyx_v_numElements_lower_after, __pyx_t_2);
     __pyx_t_2 = 0;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":1104
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1104
  *         while current_element != NULL:
  *             numElements_lower_after += 1
  *             current_element = current_element.lower             # <<<<<<<<<<<<<<
@@ -29494,7 +29489,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_l
     __pyx_v_current_element = __pyx_t_7;
   }
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1106
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1106
  *             current_element = current_element.lower
  * 
  *         print("Bidirectional list from tree link - Passed")             # <<<<<<<<<<<<<<
@@ -29505,7 +29500,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_l
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1108
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1108
  *         print("Bidirectional list from tree link - Passed")
  * 
  *         assert numElements_higher_after == numElements_lower_after, \             # <<<<<<<<<<<<<<
@@ -29519,7 +29514,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_l
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     if (unlikely(!__pyx_t_8)) {
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":1110
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1110
  *         assert numElements_higher_after == numElements_lower_after, \
  *             'Bidirectional linked list after tree construction not consistent. ' \
  *             'From head to tail element count is {}, from tail to head is {}'.format(             # <<<<<<<<<<<<<<
@@ -29529,7 +29524,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_l
       __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_Bidirectional_linked_list_after, __pyx_n_s_format); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1110, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":1111
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1111
  *             'Bidirectional linked list after tree construction not consistent. ' \
  *             'From head to tail element count is {}, from tail to head is {}'.format(
  *             numElements_higher_after, numElements_lower_after)             # <<<<<<<<<<<<<<
@@ -29559,7 +29554,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_l
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
       }
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":1110
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1110
  *         assert numElements_higher_after == numElements_lower_after, \
  *             'Bidirectional linked list after tree construction not consistent. ' \
  *             'From head to tail element count is {}, from tail to head is {}'.format(             # <<<<<<<<<<<<<<
@@ -29578,7 +29573,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_l
   if ((1)); else __PYX_ERR(0, 1108, __pyx_L1_error)
   #endif
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1113
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1113
  *             numElements_higher_after, numElements_lower_after)
  * 
  *         assert numElements_higher == numElements_higher_after, \             # <<<<<<<<<<<<<<
@@ -29592,7 +29587,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_l
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     if (unlikely(!__pyx_t_8)) {
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":1114
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1114
  * 
  *         assert numElements_higher == numElements_higher_after, \
  *             'Data structure size inconsistent. Original length is {}, after tree conversion is {}'.format(             # <<<<<<<<<<<<<<
@@ -29602,7 +29597,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_l
       __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_Data_structure_size_inconsistent_2, __pyx_n_s_format); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1114, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":1115
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1115
  *         assert numElements_higher == numElements_higher_after, \
  *             'Data structure size inconsistent. Original length is {}, after tree conversion is {}'.format(
  *                 numElements_higher, numElements_higher_after)             # <<<<<<<<<<<<<<
@@ -29632,7 +29627,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_l
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
       }
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":1114
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1114
  * 
  *         assert numElements_higher == numElements_higher_after, \
  *             'Data structure size inconsistent. Original length is {}, after tree conversion is {}'.format(             # <<<<<<<<<<<<<<
@@ -29651,14 +29646,14 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_l
   if ((1)); else __PYX_ERR(0, 1113, __pyx_L1_error)
   #endif
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1117
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1117
  *                 numElements_higher, numElements_higher_after)
  * 
  *         column_after_tree, data_after_tree = self.from_linked_list_to_python_list(head)             # <<<<<<<<<<<<<<
  * 
  *         assert len(column_original) == len(column_after_tree), \
  */
-  __pyx_t_2 = ((struct __pyx_vtabstruct_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->from_linked_list_to_python_list(__pyx_v_self, __pyx_v_head); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1117, __pyx_L1_error)
+  __pyx_t_2 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->from_linked_list_to_python_list(__pyx_v_self, __pyx_v_head); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1117, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   if ((likely(PyTuple_CheckExact(__pyx_t_2))) || (PyList_CheckExact(__pyx_t_2))) {
     PyObject* sequence = __pyx_t_2;
@@ -29711,7 +29706,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_l
   __pyx_v_data_after_tree = __pyx_t_3;
   __pyx_t_3 = 0;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1119
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1119
  *         column_after_tree, data_after_tree = self.from_linked_list_to_python_list(head)
  * 
  *         assert len(column_original) == len(column_after_tree), \             # <<<<<<<<<<<<<<
@@ -29725,7 +29720,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_l
     __pyx_t_8 = (__pyx_t_10 == __pyx_t_12);
     if (unlikely(!__pyx_t_8)) {
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":1120
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1120
  * 
  *         assert len(column_original) == len(column_after_tree), \
  *             'Data structure size inconsistent. Original length is {}, after tree conversion is {}'.format(             # <<<<<<<<<<<<<<
@@ -29735,7 +29730,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_l
       __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_Data_structure_size_inconsistent_2, __pyx_n_s_format); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1120, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":1121
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1121
  *         assert len(column_original) == len(column_after_tree), \
  *             'Data structure size inconsistent. Original length is {}, after tree conversion is {}'.format(
  *                 len(column_original), len(column_after_tree))             # <<<<<<<<<<<<<<
@@ -29773,7 +29768,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_l
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       }
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":1120
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1120
  * 
  *         assert len(column_original) == len(column_after_tree), \
  *             'Data structure size inconsistent. Original length is {}, after tree conversion is {}'.format(             # <<<<<<<<<<<<<<
@@ -29792,7 +29787,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_l
   if ((1)); else __PYX_ERR(0, 1119, __pyx_L1_error)
   #endif
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1123
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1123
  *                 len(column_original), len(column_after_tree))
  * 
  *         for index in range(len(column_original)):             # <<<<<<<<<<<<<<
@@ -29861,7 +29856,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_l
     __Pyx_XDECREF_SET(__pyx_v_index, __pyx_t_2);
     __pyx_t_2 = 0;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":1124
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1124
  * 
  *         for index in range(len(column_original)):
  *             assert column_original[index] == column_after_tree[index],\             # <<<<<<<<<<<<<<
@@ -29888,7 +29883,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_l
     if ((1)); else __PYX_ERR(0, 1124, __pyx_L1_error)
     #endif
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":1126
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1126
  *             assert column_original[index] == column_after_tree[index],\
  *                 'After tree construction columns are not ordered properly'
  *             assert data_original[index] == data_after_tree[index],\             # <<<<<<<<<<<<<<
@@ -29915,7 +29910,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_l
     if ((1)); else __PYX_ERR(0, 1126, __pyx_L1_error)
     #endif
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":1123
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1123
  *                 len(column_original), len(column_after_tree))
  * 
  *         for index in range(len(column_original)):             # <<<<<<<<<<<<<<
@@ -29925,7 +29920,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_l
   }
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1129
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1129
  *                 'After tree construction data content is changed'
  * 
  *         print("Bidirectional list from tree ordering - Passed")             # <<<<<<<<<<<<<<
@@ -29936,7 +29931,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_l
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1044
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1044
  * 
  * 
  *     cpdef test_list_tee_conversion(self, long row):             # <<<<<<<<<<<<<<
@@ -29953,7 +29948,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_l
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
   __Pyx_XDECREF(__pyx_t_5);
-  __Pyx_AddTraceback("SLIM_BPR_Cython_Epoch.Sparse_Matrix_Tree_CSR.test_list_tee_conversion", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.SLIM_BPR_Cython_Epoch.Sparse_Matrix_Tree_CSR.test_list_tee_conversion", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = 0;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_numElements_higher);
@@ -29971,16 +29966,16 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_l
 }
 
 /* Python wrapper */
-static PyObject *__pyx_pw_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_5test_list_tee_conversion(PyObject *__pyx_v_self, 
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_5test_list_tee_conversion(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-PyDoc_STRVAR(__pyx_doc_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_4test_list_tee_conversion, "\n        The function tests the inner data structure conversion from tree to C linked list and back to tree\n        \n        :param row: row to use for testing\n        ");
-static PyMethodDef __pyx_mdef_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_5test_list_tee_conversion = {"test_list_tee_conversion", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_5test_list_tee_conversion, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_4test_list_tee_conversion};
-static PyObject *__pyx_pw_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_5test_list_tee_conversion(PyObject *__pyx_v_self, 
+PyDoc_STRVAR(__pyx_doc_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_4test_list_tee_conversion, "\n        The function tests the inner data structure conversion from tree to C linked list and back to tree\n        \n        :param row: row to use for testing\n        ");
+static PyMethodDef __pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_5test_list_tee_conversion = {"test_list_tee_conversion", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_5test_list_tee_conversion, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_4test_list_tee_conversion};
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_5test_list_tee_conversion(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -30050,11 +30045,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("SLIM_BPR_Cython_Epoch.Sparse_Matrix_Tree_CSR.test_list_tee_conversion", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.SLIM_BPR_Cython_Epoch.Sparse_Matrix_Tree_CSR.test_list_tee_conversion", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_4test_list_tee_conversion(((struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self), __pyx_v_row);
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_4test_list_tee_conversion(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self), __pyx_v_row);
 
   /* function exit code */
   {
@@ -30067,7 +30062,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_4test_list_tee_conversion(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_row) {
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_4test_list_tee_conversion(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_row) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -30076,7 +30071,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_4test
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("test_list_tee_conversion", 1);
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_list_tee_conversion(__pyx_v_self, __pyx_v_row, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1044, __pyx_L1_error)
+  __pyx_t_1 = __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_list_tee_conversion(__pyx_v_self, __pyx_v_row, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1044, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
@@ -30085,7 +30080,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_4test
   /* function exit code */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_AddTraceback("SLIM_BPR_Cython_Epoch.Sparse_Matrix_Tree_CSR.test_list_tee_conversion", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.SLIM_BPR_Cython_Epoch.Sparse_Matrix_Tree_CSR.test_list_tee_conversion", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -30093,7 +30088,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_4test
   return __pyx_r;
 }
 
-/* "SLIM_BPR_Cython_Epoch.pyx":1133
+/* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1133
  * 
  * 
  *     cpdef test_topK_from_list_selection(self, long row, long topK):             # <<<<<<<<<<<<<<
@@ -30101,15 +30096,15 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_4test
  *         The function tests the topK selection from list
  */
 
-static PyObject *__pyx_pw_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_7test_topK_from_list_selection(PyObject *__pyx_v_self, 
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_7test_topK_from_list_selection(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_topK_from_list_selection(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_row, long __pyx_v_topK, int __pyx_skip_dispatch) {
-  __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_v_head;
+static PyObject *__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_topK_from_list_selection(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_row, long __pyx_v_topK, int __pyx_skip_dispatch) {
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_v_head;
   PyObject *__pyx_v_column_original = NULL;
   PyObject *__pyx_v_data_original = NULL;
   PyObject *__pyx_v_column_topK = NULL;
@@ -30128,7 +30123,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_t
   PyObject *__pyx_t_5 = NULL;
   PyObject *__pyx_t_6 = NULL;
   unsigned int __pyx_t_7;
-  __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_t_8;
+  __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *__pyx_t_8;
   PyObject *(*__pyx_t_9)(PyObject *);
   Py_ssize_t __pyx_t_10;
   Py_ssize_t __pyx_t_11;
@@ -30149,7 +30144,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_t
       #endif
       __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_test_topK_from_list_selection); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1133, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
-      if (!__Pyx_IsSameCFunction(__pyx_t_1, (void*) __pyx_pw_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_7test_topK_from_list_selection)) {
+      if (!__Pyx_IsSameCFunction(__pyx_t_1, (void*) __pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_7test_topK_from_list_selection)) {
         __Pyx_XDECREF(__pyx_r);
         __pyx_t_3 = __Pyx_PyInt_From_long(__pyx_v_row); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1133, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_3);
@@ -30198,24 +30193,24 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_t
     #endif
   }
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1142
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1142
  *         cdef matrix_element_tree_s *head
  * 
  *         head = self.subtree_to_list_flat(self.row_pointer[row].head)             # <<<<<<<<<<<<<<
  * 
  *         column_original, data_original = self.from_linked_list_to_python_list(head)
  */
-  __pyx_t_8 = ((struct __pyx_vtabstruct_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->subtree_to_list_flat(__pyx_v_self, (__pyx_v_self->row_pointer[__pyx_v_row]).head); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 1142, __pyx_L1_error)
+  __pyx_t_8 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->subtree_to_list_flat(__pyx_v_self, (__pyx_v_self->row_pointer[__pyx_v_row]).head); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 1142, __pyx_L1_error)
   __pyx_v_head = __pyx_t_8;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1144
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1144
  *         head = self.subtree_to_list_flat(self.row_pointer[row].head)
  * 
  *         column_original, data_original = self.from_linked_list_to_python_list(head)             # <<<<<<<<<<<<<<
  * 
  *         head = self.topK_selection_from_list(head, topK)
  */
-  __pyx_t_1 = ((struct __pyx_vtabstruct_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->from_linked_list_to_python_list(__pyx_v_self, __pyx_v_head); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1144, __pyx_L1_error)
+  __pyx_t_1 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->from_linked_list_to_python_list(__pyx_v_self, __pyx_v_head); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1144, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if ((likely(PyTuple_CheckExact(__pyx_t_1))) || (PyList_CheckExact(__pyx_t_1))) {
     PyObject* sequence = __pyx_t_1;
@@ -30268,24 +30263,24 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_t
   __pyx_v_data_original = __pyx_t_5;
   __pyx_t_5 = 0;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1146
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1146
  *         column_original, data_original = self.from_linked_list_to_python_list(head)
  * 
  *         head = self.topK_selection_from_list(head, topK)             # <<<<<<<<<<<<<<
  * 
  *         column_topK, data_topK = self.from_linked_list_to_python_list(head)
  */
-  __pyx_t_8 = ((struct __pyx_vtabstruct_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->topK_selection_from_list(__pyx_v_self, __pyx_v_head, __pyx_v_topK); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 1146, __pyx_L1_error)
+  __pyx_t_8 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->topK_selection_from_list(__pyx_v_self, __pyx_v_head, __pyx_v_topK); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 1146, __pyx_L1_error)
   __pyx_v_head = __pyx_t_8;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1148
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1148
  *         head = self.topK_selection_from_list(head, topK)
  * 
  *         column_topK, data_topK = self.from_linked_list_to_python_list(head)             # <<<<<<<<<<<<<<
  * 
  *         assert len(column_topK) == len(data_topK),\
  */
-  __pyx_t_1 = ((struct __pyx_vtabstruct_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->from_linked_list_to_python_list(__pyx_v_self, __pyx_v_head); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1148, __pyx_L1_error)
+  __pyx_t_1 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self->__pyx_vtab)->from_linked_list_to_python_list(__pyx_v_self, __pyx_v_head); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1148, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if ((likely(PyTuple_CheckExact(__pyx_t_1))) || (PyList_CheckExact(__pyx_t_1))) {
     PyObject* sequence = __pyx_t_1;
@@ -30338,7 +30333,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_t
   __pyx_v_data_topK = __pyx_t_2;
   __pyx_t_2 = 0;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1150
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1150
  *         column_topK, data_topK = self.from_linked_list_to_python_list(head)
  * 
  *         assert len(column_topK) == len(data_topK),\             # <<<<<<<<<<<<<<
@@ -30352,7 +30347,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_t
     __pyx_t_12 = (__pyx_t_10 == __pyx_t_11);
     if (unlikely(!__pyx_t_12)) {
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":1151
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1151
  * 
  *         assert len(column_topK) == len(data_topK),\
  *             "TopK data and column lists have different length. Columns length is {}, data is {}".format(len(column_topK), len(data_topK))             # <<<<<<<<<<<<<<
@@ -30403,7 +30398,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_t
   if ((1)); else __PYX_ERR(0, 1150, __pyx_L1_error)
   #endif
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1152
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1152
  *         assert len(column_topK) == len(data_topK),\
  *             "TopK data and column lists have different length. Columns length is {}, data is {}".format(len(column_topK), len(data_topK))
  *         assert len(column_topK) <= topK,\             # <<<<<<<<<<<<<<
@@ -30416,7 +30411,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_t
     __pyx_t_12 = (__pyx_t_11 <= __pyx_v_topK);
     if (unlikely(!__pyx_t_12)) {
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":1153
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1153
  *             "TopK data and column lists have different length. Columns length is {}, data is {}".format(len(column_topK), len(data_topK))
  *         assert len(column_topK) <= topK,\
  *             "TopK extracted list is longer than desired value. Desired is {}, while list is {}".format(topK, len(column_topK))             # <<<<<<<<<<<<<<
@@ -30466,7 +30461,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_t
   if ((1)); else __PYX_ERR(0, 1152, __pyx_L1_error)
   #endif
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1155
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1155
  *             "TopK extracted list is longer than desired value. Desired is {}, while list is {}".format(topK, len(column_topK))
  * 
  *         print("TopK extracted length - Passed")             # <<<<<<<<<<<<<<
@@ -30477,7 +30472,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_t
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1158
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1158
  * 
  *         # Sort with respect to the content to select topK
  *         idx_sorted = np.argsort(data_original)             # <<<<<<<<<<<<<<
@@ -30514,7 +30509,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_t
   __pyx_v_idx_sorted = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1159
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1159
  *         # Sort with respect to the content to select topK
  *         idx_sorted = np.argsort(data_original)
  *         idx_sorted = np.flip(idx_sorted, axis=0)             # <<<<<<<<<<<<<<
@@ -30542,7 +30537,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_t
   __Pyx_DECREF_SET(__pyx_v_idx_sorted, __pyx_t_4);
   __pyx_t_4 = 0;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1160
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1160
  *         idx_sorted = np.argsort(data_original)
  *         idx_sorted = np.flip(idx_sorted, axis=0)
  *         top_k_idx = idx_sorted[0:topK]             # <<<<<<<<<<<<<<
@@ -30554,7 +30549,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_t
   __pyx_v_top_k_idx = __pyx_t_4;
   __pyx_t_4 = 0;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1162
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1162
  *         top_k_idx = idx_sorted[0:topK]
  * 
  *         column_topK_numpy = np.array(column_original)[top_k_idx]             # <<<<<<<<<<<<<<
@@ -30594,7 +30589,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_t
   __pyx_v_column_topK_numpy = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1163
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1163
  * 
  *         column_topK_numpy = np.array(column_original)[top_k_idx]
  *         data_topK_numpy = np.array(data_original)[top_k_idx]             # <<<<<<<<<<<<<<
@@ -30634,7 +30629,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_t
   __pyx_v_data_topK_numpy = __pyx_t_2;
   __pyx_t_2 = 0;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1166
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1166
  * 
  *         # Sort with respect to the column to ensure it is ordered as the tree flattened list
  *         idx_sorted = np.argsort(column_topK_numpy)             # <<<<<<<<<<<<<<
@@ -30671,7 +30666,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_t
   __Pyx_DECREF_SET(__pyx_v_idx_sorted, __pyx_t_2);
   __pyx_t_2 = 0;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1167
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1167
  *         # Sort with respect to the column to ensure it is ordered as the tree flattened list
  *         idx_sorted = np.argsort(column_topK_numpy)
  *         column_topK_numpy = column_topK_numpy[idx_sorted]             # <<<<<<<<<<<<<<
@@ -30683,7 +30678,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_t
   __Pyx_DECREF_SET(__pyx_v_column_topK_numpy, __pyx_t_2);
   __pyx_t_2 = 0;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1168
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1168
  *         idx_sorted = np.argsort(column_topK_numpy)
  *         column_topK_numpy = column_topK_numpy[idx_sorted]
  *         data_topK_numpy = data_topK_numpy[idx_sorted]             # <<<<<<<<<<<<<<
@@ -30695,7 +30690,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_t
   __Pyx_DECREF_SET(__pyx_v_data_topK_numpy, __pyx_t_2);
   __pyx_t_2 = 0;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1171
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1171
  * 
  * 
  *         assert len(column_topK_numpy) <= len(column_topK),\             # <<<<<<<<<<<<<<
@@ -30709,7 +30704,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_t
     __pyx_t_12 = (__pyx_t_11 <= __pyx_t_10);
     if (unlikely(!__pyx_t_12)) {
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":1172
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1172
  * 
  *         assert len(column_topK_numpy) <= len(column_topK),\
  *             "TopK extracted list and numpy one have different length. Extracted list lenght is {}, while numpy is {}".format(             # <<<<<<<<<<<<<<
@@ -30719,7 +30714,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_t
       __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_TopK_extracted_list_and_numpy_on, __pyx_n_s_format); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1172, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":1173
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1173
  *         assert len(column_topK_numpy) <= len(column_topK),\
  *             "TopK extracted list and numpy one have different length. Extracted list lenght is {}, while numpy is {}".format(
  *                 len(column_topK_numpy), len(column_topK))             # <<<<<<<<<<<<<<
@@ -30757,7 +30752,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_t
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       }
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":1172
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1172
  * 
  *         assert len(column_topK_numpy) <= len(column_topK),\
  *             "TopK extracted list and numpy one have different length. Extracted list lenght is {}, while numpy is {}".format(             # <<<<<<<<<<<<<<
@@ -30776,7 +30771,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_t
   if ((1)); else __PYX_ERR(0, 1171, __pyx_L1_error)
   #endif
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1176
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1176
  * 
  * 
  *         for index in range(len(column_topK)):             # <<<<<<<<<<<<<<
@@ -30788,7 +30783,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_t
   for (__pyx_t_13 = 0; __pyx_t_13 < __pyx_t_11; __pyx_t_13+=1) {
     __pyx_v_index = __pyx_t_13;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":1178
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1178
  *         for index in range(len(column_topK)):
  * 
  *             assert column_topK[index] == column_topK_numpy[index], \             # <<<<<<<<<<<<<<
@@ -30808,7 +30803,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_t
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       if (unlikely(!__pyx_t_12)) {
 
-        /* "SLIM_BPR_Cython_Epoch.pyx":1180
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1180
  *             assert column_topK[index] == column_topK_numpy[index], \
  *                 "TopK extracted list and numpy one have different content at index {} as column value." \
  *                 " Extracted list lenght is {}, while numpy is {}".format(index, column_topK[index], column_topK_numpy[index])             # <<<<<<<<<<<<<<
@@ -30860,7 +30855,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_t
     if ((1)); else __PYX_ERR(0, 1178, __pyx_L1_error)
     #endif
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":1182
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1182
  *                 " Extracted list lenght is {}, while numpy is {}".format(index, column_topK[index], column_topK_numpy[index])
  * 
  *             assert data_topK[index] == data_topK_numpy[index], \             # <<<<<<<<<<<<<<
@@ -30880,7 +30875,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_t
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       if (unlikely(!__pyx_t_12)) {
 
-        /* "SLIM_BPR_Cython_Epoch.pyx":1184
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1184
  *             assert data_topK[index] == data_topK_numpy[index], \
  *                 "TopK extracted list and numpy one have different content at index {} as data value." \
  *                 " Extracted list lenght is {}, while numpy is {}".format(index, data_topK[index], data_topK_numpy[index])             # <<<<<<<<<<<<<<
@@ -30933,7 +30928,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_t
     #endif
   }
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1186
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1186
  *                 " Extracted list lenght is {}, while numpy is {}".format(index, data_topK[index], data_topK_numpy[index])
  * 
  *         print("TopK extracted content - Passed")             # <<<<<<<<<<<<<<
@@ -30944,7 +30939,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_t
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1133
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1133
  * 
  * 
  *     cpdef test_topK_from_list_selection(self, long row, long topK):             # <<<<<<<<<<<<<<
@@ -30962,7 +30957,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_t
   __Pyx_XDECREF(__pyx_t_4);
   __Pyx_XDECREF(__pyx_t_5);
   __Pyx_XDECREF(__pyx_t_6);
-  __Pyx_AddTraceback("SLIM_BPR_Cython_Epoch.Sparse_Matrix_Tree_CSR.test_topK_from_list_selection", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.SLIM_BPR_Cython_Epoch.Sparse_Matrix_Tree_CSR.test_topK_from_list_selection", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = 0;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_column_original);
@@ -30979,16 +30974,16 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_t
 }
 
 /* Python wrapper */
-static PyObject *__pyx_pw_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_7test_topK_from_list_selection(PyObject *__pyx_v_self, 
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_7test_topK_from_list_selection(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-PyDoc_STRVAR(__pyx_doc_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_6test_topK_from_list_selection, "\n        The function tests the topK selection from list\n        \n        :param row: row to use for testing\n        ");
-static PyMethodDef __pyx_mdef_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_7test_topK_from_list_selection = {"test_topK_from_list_selection", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_7test_topK_from_list_selection, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_6test_topK_from_list_selection};
-static PyObject *__pyx_pw_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_7test_topK_from_list_selection(PyObject *__pyx_v_self, 
+PyDoc_STRVAR(__pyx_doc_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_6test_topK_from_list_selection, "\n        The function tests the topK selection from list\n        \n        :param row: row to use for testing\n        ");
+static PyMethodDef __pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_7test_topK_from_list_selection = {"test_topK_from_list_selection", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_7test_topK_from_list_selection, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_6test_topK_from_list_selection};
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_7test_topK_from_list_selection(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -31073,11 +31068,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("SLIM_BPR_Cython_Epoch.Sparse_Matrix_Tree_CSR.test_topK_from_list_selection", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.SLIM_BPR_Cython_Epoch.Sparse_Matrix_Tree_CSR.test_topK_from_list_selection", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_6test_topK_from_list_selection(((struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self), __pyx_v_row, __pyx_v_topK);
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_6test_topK_from_list_selection(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self), __pyx_v_row, __pyx_v_topK);
 
   /* function exit code */
   {
@@ -31090,7 +31085,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_6test_topK_from_list_selection(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_row, long __pyx_v_topK) {
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_6test_topK_from_list_selection(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *__pyx_v_self, long __pyx_v_row, long __pyx_v_topK) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -31099,7 +31094,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_6test
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("test_topK_from_list_selection", 1);
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_topK_from_list_selection(__pyx_v_self, __pyx_v_row, __pyx_v_topK, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1133, __pyx_L1_error)
+  __pyx_t_1 = __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_topK_from_list_selection(__pyx_v_self, __pyx_v_row, __pyx_v_topK, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1133, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
@@ -31108,7 +31103,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_6test
   /* function exit code */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_AddTraceback("SLIM_BPR_Cython_Epoch.Sparse_Matrix_Tree_CSR.test_topK_from_list_selection", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.SLIM_BPR_Cython_Epoch.Sparse_Matrix_Tree_CSR.test_topK_from_list_selection", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -31123,15 +31118,15 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_6test
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_9__reduce_cython__(PyObject *__pyx_v_self, 
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_9__reduce_cython__(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static PyMethodDef __pyx_mdef_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_9__reduce_cython__ = {"__reduce_cython__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_9__reduce_cython__, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_9__reduce_cython__(PyObject *__pyx_v_self, 
+static PyMethodDef __pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_9__reduce_cython__ = {"__reduce_cython__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_9__reduce_cython__, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_9__reduce_cython__(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -31156,14 +31151,14 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   if (unlikely(__pyx_nargs > 0)) {
     __Pyx_RaiseArgtupleInvalid("__reduce_cython__", 1, 0, 0, __pyx_nargs); return NULL;}
   if (unlikely(__pyx_kwds) && __Pyx_NumKwargs_FASTCALL(__pyx_kwds) && unlikely(!__Pyx_CheckKeywordStrings(__pyx_kwds, "__reduce_cython__", 0))) return NULL;
-  __pyx_r = __pyx_pf_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_8__reduce_cython__(((struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self));
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_8__reduce_cython__(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_8__reduce_cython__(CYTHON_UNUSED struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *__pyx_v_self) {
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_8__reduce_cython__(CYTHON_UNUSED struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *__pyx_v_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   int __pyx_lineno = 0;
@@ -31188,7 +31183,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_8__re
 
   /* function exit code */
   __pyx_L1_error:;
-  __Pyx_AddTraceback("SLIM_BPR_Cython_Epoch.Sparse_Matrix_Tree_CSR.__reduce_cython__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.SLIM_BPR_Cython_Epoch.Sparse_Matrix_Tree_CSR.__reduce_cython__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __Pyx_XGIVEREF(__pyx_r);
   __Pyx_RefNannyFinishContext();
@@ -31203,15 +31198,15 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_8__re
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_11__setstate_cython__(PyObject *__pyx_v_self, 
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_11__setstate_cython__(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static PyMethodDef __pyx_mdef_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_11__setstate_cython__ = {"__setstate_cython__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_11__setstate_cython__, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_11__setstate_cython__(PyObject *__pyx_v_self, 
+static PyMethodDef __pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_11__setstate_cython__ = {"__setstate_cython__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_11__setstate_cython__, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_11__setstate_cython__(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -31281,11 +31276,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("SLIM_BPR_Cython_Epoch.Sparse_Matrix_Tree_CSR.__setstate_cython__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.SLIM_BPR_Cython_Epoch.Sparse_Matrix_Tree_CSR.__setstate_cython__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_10__setstate_cython__(((struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self), __pyx_v___pyx_state);
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_10__setstate_cython__(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_v_self), __pyx_v___pyx_state);
 
   /* function exit code */
   {
@@ -31298,7 +31293,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_10__setstate_cython__(CYTHON_UNUSED struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *__pyx_v_self, CYTHON_UNUSED PyObject *__pyx_v___pyx_state) {
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_10__setstate_cython__(CYTHON_UNUSED struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *__pyx_v_self, CYTHON_UNUSED PyObject *__pyx_v___pyx_state) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   int __pyx_lineno = 0;
@@ -31323,14 +31318,14 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_10__s
 
   /* function exit code */
   __pyx_L1_error:;
-  __Pyx_AddTraceback("SLIM_BPR_Cython_Epoch.Sparse_Matrix_Tree_CSR.__setstate_cython__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.SLIM_BPR_Cython_Epoch.Sparse_Matrix_Tree_CSR.__setstate_cython__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __Pyx_XGIVEREF(__pyx_r);
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-/* "SLIM_BPR_Cython_Epoch.pyx":1233
+/* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1233
  * 
  * 
  *     def __init__(self, long num_rows, int isSymmetric = False):             # <<<<<<<<<<<<<<
@@ -31339,8 +31334,8 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_10__s
  */
 
 /* Python wrapper */
-static int __pyx_pw_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static int __pyx_pw_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static int __pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static int __pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   long __pyx_v_num_rows;
   int __pyx_v_isSymmetric;
   CYTHON_UNUSED Py_ssize_t __pyx_nargs;
@@ -31419,11 +31414,11 @@ static int __pyx_pw_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_1__init__(PyObje
       __Pyx_Arg_XDECREF_VARARGS(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("SLIM_BPR_Cython_Epoch.Triangular_Matrix.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.SLIM_BPR_Cython_Epoch.Triangular_Matrix.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return -1;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix___init__(((struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *)__pyx_v_self), __pyx_v_num_rows, __pyx_v_isSymmetric);
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix___init__(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *)__pyx_v_self), __pyx_v_num_rows, __pyx_v_isSymmetric);
 
   /* function exit code */
   {
@@ -31436,7 +31431,7 @@ static int __pyx_pw_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_1__init__(PyObje
   return __pyx_r;
 }
 
-static int __pyx_pf_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix___init__(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *__pyx_v_self, long __pyx_v_num_rows, int __pyx_v_isSymmetric) {
+static int __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix___init__(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *__pyx_v_self, long __pyx_v_num_rows, int __pyx_v_isSymmetric) {
   int __pyx_v_numRow;
   int __pyx_v_numCol;
   int __pyx_r;
@@ -31457,7 +31452,7 @@ static int __pyx_pf_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix___init__(struct 
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__init__", 1);
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1237
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1237
  *         cdef int numRow, numCol
  * 
  *         self.num_rows = num_rows             # <<<<<<<<<<<<<<
@@ -31466,7 +31461,7 @@ static int __pyx_pf_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix___init__(struct 
  */
   __pyx_v_self->num_rows = __pyx_v_num_rows;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1238
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1238
  * 
  *         self.num_rows = num_rows
  *         self.num_cols = num_rows             # <<<<<<<<<<<<<<
@@ -31475,7 +31470,7 @@ static int __pyx_pf_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix___init__(struct 
  */
   __pyx_v_self->num_cols = __pyx_v_num_rows;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1239
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1239
  *         self.num_rows = num_rows
  *         self.num_cols = num_rows
  *         self.isSymmetric = isSymmetric             # <<<<<<<<<<<<<<
@@ -31484,7 +31479,7 @@ static int __pyx_pf_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix___init__(struct 
  */
   __pyx_v_self->isSymmetric = __pyx_v_isSymmetric;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1241
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1241
  *         self.isSymmetric = isSymmetric
  * 
  *         self.row_pointer = <float **> PyMem_Malloc(self.num_rows * sizeof(float*))             # <<<<<<<<<<<<<<
@@ -31493,7 +31488,7 @@ static int __pyx_pf_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix___init__(struct 
  */
   __pyx_v_self->row_pointer = ((float **)PyMem_Malloc((__pyx_v_self->num_rows * (sizeof(float *)))));
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1242
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1242
  * 
  *         self.row_pointer = <float **> PyMem_Malloc(self.num_rows * sizeof(float*))
  *         if self.row_pointer == NULL:             # <<<<<<<<<<<<<<
@@ -31503,7 +31498,7 @@ static int __pyx_pf_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix___init__(struct 
   __pyx_t_1 = (__pyx_v_self->row_pointer == NULL);
   if (unlikely(__pyx_t_1)) {
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":1243
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1243
  *         self.row_pointer = <float **> PyMem_Malloc(self.num_rows * sizeof(float*))
  *         if self.row_pointer == NULL:
  *             raise MemoryError             # <<<<<<<<<<<<<<
@@ -31512,7 +31507,7 @@ static int __pyx_pf_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix___init__(struct 
  */
     PyErr_NoMemory(); __PYX_ERR(0, 1243, __pyx_L1_error)
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":1242
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1242
  * 
  *         self.row_pointer = <float **> PyMem_Malloc(self.num_rows * sizeof(float*))
  *         if self.row_pointer == NULL:             # <<<<<<<<<<<<<<
@@ -31521,7 +31516,7 @@ static int __pyx_pf_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix___init__(struct 
  */
   }
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1246
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1246
  * 
  *         # Initialize all rows to empty
  *         for numRow in range(self.num_rows):             # <<<<<<<<<<<<<<
@@ -31533,7 +31528,7 @@ static int __pyx_pf_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix___init__(struct 
   for (__pyx_t_4 = 0; __pyx_t_4 < __pyx_t_3; __pyx_t_4+=1) {
     __pyx_v_numRow = __pyx_t_4;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":1247
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1247
  *         # Initialize all rows to empty
  *         for numRow in range(self.num_rows):
  *             self.row_pointer[numRow] = NULL             # <<<<<<<<<<<<<<
@@ -31543,7 +31538,7 @@ static int __pyx_pf_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix___init__(struct 
     (__pyx_v_self->row_pointer[__pyx_v_numRow]) = NULL;
   }
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1249
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1249
  *             self.row_pointer[numRow] = NULL
  * 
  *         for numRow in range(self.num_rows):             # <<<<<<<<<<<<<<
@@ -31555,7 +31550,7 @@ static int __pyx_pf_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix___init__(struct 
   for (__pyx_t_4 = 0; __pyx_t_4 < __pyx_t_3; __pyx_t_4+=1) {
     __pyx_v_numRow = __pyx_t_4;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":1250
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1250
  * 
  *         for numRow in range(self.num_rows):
  *             self.row_pointer[numRow] = < float *> PyMem_Malloc((numRow+1) * sizeof(float))             # <<<<<<<<<<<<<<
@@ -31564,7 +31559,7 @@ static int __pyx_pf_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix___init__(struct 
  */
     (__pyx_v_self->row_pointer[__pyx_v_numRow]) = ((float *)PyMem_Malloc(((__pyx_v_numRow + 1) * (sizeof(float)))));
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":1252
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1252
  *             self.row_pointer[numRow] = < float *> PyMem_Malloc((numRow+1) * sizeof(float))
  * 
  *             if self.row_pointer[numRow] == NULL:             # <<<<<<<<<<<<<<
@@ -31574,7 +31569,7 @@ static int __pyx_pf_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix___init__(struct 
     __pyx_t_1 = ((__pyx_v_self->row_pointer[__pyx_v_numRow]) == NULL);
     if (unlikely(__pyx_t_1)) {
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":1253
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1253
  * 
  *             if self.row_pointer[numRow] == NULL:
  *                 self.dealloc()             # <<<<<<<<<<<<<<
@@ -31607,7 +31602,7 @@ static int __pyx_pf_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix___init__(struct 
       }
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":1254
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1254
  *             if self.row_pointer[numRow] == NULL:
  *                 self.dealloc()
  *                 raise MemoryError             # <<<<<<<<<<<<<<
@@ -31616,7 +31611,7 @@ static int __pyx_pf_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix___init__(struct 
  */
       PyErr_NoMemory(); __PYX_ERR(0, 1254, __pyx_L1_error)
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":1252
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1252
  *             self.row_pointer[numRow] = < float *> PyMem_Malloc((numRow+1) * sizeof(float))
  * 
  *             if self.row_pointer[numRow] == NULL:             # <<<<<<<<<<<<<<
@@ -31625,7 +31620,7 @@ static int __pyx_pf_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix___init__(struct 
  */
     }
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":1256
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1256
  *                 raise MemoryError
  * 
  *             for numCol in range(numRow+1):             # <<<<<<<<<<<<<<
@@ -31637,7 +31632,7 @@ static int __pyx_pf_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix___init__(struct 
     for (__pyx_t_11 = 0; __pyx_t_11 < __pyx_t_10; __pyx_t_11+=1) {
       __pyx_v_numCol = __pyx_t_11;
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":1257
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1257
  * 
  *             for numCol in range(numRow+1):
  *                 self.row_pointer[numRow][numCol] = 0.0             # <<<<<<<<<<<<<<
@@ -31648,7 +31643,7 @@ static int __pyx_pf_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix___init__(struct 
     }
   }
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1233
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1233
  * 
  * 
  *     def __init__(self, long num_rows, int isSymmetric = False):             # <<<<<<<<<<<<<<
@@ -31663,14 +31658,14 @@ static int __pyx_pf_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix___init__(struct 
   __Pyx_XDECREF(__pyx_t_5);
   __Pyx_XDECREF(__pyx_t_6);
   __Pyx_XDECREF(__pyx_t_7);
-  __Pyx_AddTraceback("SLIM_BPR_Cython_Epoch.Triangular_Matrix.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.SLIM_BPR_Cython_Epoch.Triangular_Matrix.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = -1;
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-/* "SLIM_BPR_Cython_Epoch.pyx":1261
+/* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1261
  * 
  * 
  *     def dealloc(self):             # <<<<<<<<<<<<<<
@@ -31679,16 +31674,16 @@ static int __pyx_pf_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix___init__(struct 
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_3dealloc(PyObject *__pyx_v_self, 
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_3dealloc(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-PyDoc_STRVAR(__pyx_doc_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_2dealloc, "\n        Remove all PyMalloc allocaded memory\n        :return:\n        ");
-static PyMethodDef __pyx_mdef_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_3dealloc = {"dealloc", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_3dealloc, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_2dealloc};
-static PyObject *__pyx_pw_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_3dealloc(PyObject *__pyx_v_self, 
+PyDoc_STRVAR(__pyx_doc_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_2dealloc, "\n        Remove all PyMalloc allocaded memory\n        :return:\n        ");
+static PyMethodDef __pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_3dealloc = {"dealloc", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_3dealloc, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_2dealloc};
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_3dealloc(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -31713,14 +31708,14 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   if (unlikely(__pyx_nargs > 0)) {
     __Pyx_RaiseArgtupleInvalid("dealloc", 1, 0, 0, __pyx_nargs); return NULL;}
   if (unlikely(__pyx_kwds) && __Pyx_NumKwargs_FASTCALL(__pyx_kwds) && unlikely(!__Pyx_CheckKeywordStrings(__pyx_kwds, "dealloc", 0))) return NULL;
-  __pyx_r = __pyx_pf_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_2dealloc(((struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *)__pyx_v_self));
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_2dealloc(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_2dealloc(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *__pyx_v_self) {
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_2dealloc(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *__pyx_v_self) {
   int __pyx_v_numRow;
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
@@ -31730,7 +31725,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_2dealloc(s
   int __pyx_t_4;
   __Pyx_RefNannySetupContext("dealloc", 1);
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1270
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1270
  * 
  *         # Free all rows memory
  *         for numRow in range(self.num_rows):             # <<<<<<<<<<<<<<
@@ -31742,7 +31737,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_2dealloc(s
   for (__pyx_t_3 = 0; __pyx_t_3 < __pyx_t_2; __pyx_t_3+=1) {
     __pyx_v_numRow = __pyx_t_3;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":1271
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1271
  *         # Free all rows memory
  *         for numRow in range(self.num_rows):
  *             if self.row_pointer[numRow] != NULL:             # <<<<<<<<<<<<<<
@@ -31752,7 +31747,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_2dealloc(s
     __pyx_t_4 = ((__pyx_v_self->row_pointer[__pyx_v_numRow]) != NULL);
     if (__pyx_t_4) {
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":1272
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1272
  *         for numRow in range(self.num_rows):
  *             if self.row_pointer[numRow] != NULL:
  *                 PyMem_Free(self.row_pointer[numRow])             # <<<<<<<<<<<<<<
@@ -31761,7 +31756,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_2dealloc(s
  */
       PyMem_Free((__pyx_v_self->row_pointer[__pyx_v_numRow]));
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":1271
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1271
  *         # Free all rows memory
  *         for numRow in range(self.num_rows):
  *             if self.row_pointer[numRow] != NULL:             # <<<<<<<<<<<<<<
@@ -31771,7 +31766,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_2dealloc(s
     }
   }
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1274
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1274
  *                 PyMem_Free(self.row_pointer[numRow])
  * 
  *         PyMem_Free(self.row_pointer)             # <<<<<<<<<<<<<<
@@ -31780,7 +31775,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_2dealloc(s
  */
   PyMem_Free(__pyx_v_self->row_pointer);
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1261
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1261
  * 
  * 
  *     def dealloc(self):             # <<<<<<<<<<<<<<
@@ -31795,7 +31790,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_2dealloc(s
   return __pyx_r;
 }
 
-/* "SLIM_BPR_Cython_Epoch.pyx":1279
+/* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1279
  * 
  * 
  *     cdef float add_value(self, long row, long col, float value):             # <<<<<<<<<<<<<<
@@ -31803,7 +31798,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_2dealloc(s
  *         The function adds a value to the specified cell. A new cell is created if necessary.
  */
 
-static float __pyx_f_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_add_value(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *__pyx_v_self, long __pyx_v_row, long __pyx_v_col, float __pyx_v_value) {
+static float __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_add_value(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *__pyx_v_self, long __pyx_v_row, long __pyx_v_col, float __pyx_v_value) {
   float __pyx_r;
   __Pyx_RefNannyDeclarations
   int __pyx_t_1;
@@ -31823,7 +31818,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_add_value(struc
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("add_value", 1);
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1289
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1289
  *         """
  * 
  *         if row >= self.num_rows or col >= self.num_cols or row < 0 or col < 0:             # <<<<<<<<<<<<<<
@@ -31853,7 +31848,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_add_value(struc
   __pyx_L4_bool_binop_done:;
   if (unlikely(__pyx_t_1)) {
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":1291
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1291
  *         if row >= self.num_rows or col >= self.num_cols or row < 0 or col < 0:
  *             raise ValueError("Cell is outside matrix. Matrix shape is ({},{}),"
  *                              " coordinates given are ({},{})".format(             # <<<<<<<<<<<<<<
@@ -31863,7 +31858,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_add_value(struc
     __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_Cell_is_outside_matrix_Matrix_sh, __pyx_n_s_format); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1291, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":1292
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1292
  *             raise ValueError("Cell is outside matrix. Matrix shape is ({},{}),"
  *                              " coordinates given are ({},{})".format(
  *                              self.num_rows, self.num_cols, row, col))             # <<<<<<<<<<<<<<
@@ -31905,7 +31900,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_add_value(struc
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     }
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":1290
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1290
  * 
  *         if row >= self.num_rows or col >= self.num_cols or row < 0 or col < 0:
  *             raise ValueError("Cell is outside matrix. Matrix shape is ({},{}),"             # <<<<<<<<<<<<<<
@@ -31919,7 +31914,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_add_value(struc
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     __PYX_ERR(0, 1290, __pyx_L1_error)
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":1289
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1289
  *         """
  * 
  *         if row >= self.num_rows or col >= self.num_cols or row < 0 or col < 0:             # <<<<<<<<<<<<<<
@@ -31928,7 +31923,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_add_value(struc
  */
   }
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1294
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1294
  *                              self.num_rows, self.num_cols, row, col))
  * 
  *         elif col > row:             # <<<<<<<<<<<<<<
@@ -31938,7 +31933,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_add_value(struc
   __pyx_t_1 = (__pyx_v_col > __pyx_v_row);
   if (__pyx_t_1) {
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":1296
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1296
  *         elif col > row:
  * 
  *             if self.isSymmetric:             # <<<<<<<<<<<<<<
@@ -31948,7 +31943,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_add_value(struc
     __pyx_t_1 = (__pyx_v_self->isSymmetric != 0);
     if (likely(__pyx_t_1)) {
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":1297
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1297
  * 
  *             if self.isSymmetric:
  *                 self.row_pointer[col][row] += value             # <<<<<<<<<<<<<<
@@ -31959,7 +31954,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_add_value(struc
       __pyx_t_12 = __pyx_v_row;
       ((__pyx_v_self->row_pointer[__pyx_t_11])[__pyx_t_12]) = (((__pyx_v_self->row_pointer[__pyx_t_11])[__pyx_t_12]) + __pyx_v_value);
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":1299
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1299
  *                 self.row_pointer[col][row] += value
  * 
  *                 return self.row_pointer[col][row]             # <<<<<<<<<<<<<<
@@ -31969,7 +31964,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_add_value(struc
       __pyx_r = ((__pyx_v_self->row_pointer[__pyx_v_col])[__pyx_v_row]);
       goto __pyx_L0;
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":1296
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1296
  *         elif col > row:
  * 
  *             if self.isSymmetric:             # <<<<<<<<<<<<<<
@@ -31978,7 +31973,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_add_value(struc
  */
     }
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":1302
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1302
  * 
  *             else:
  *                 raise ValueError("Cell is in the upper triangular of the matrix,"             # <<<<<<<<<<<<<<
@@ -31987,7 +31982,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_add_value(struc
  */
     /*else*/ {
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":1304
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1304
  *                 raise ValueError("Cell is in the upper triangular of the matrix,"
  *                                  " current matrix is lower triangular."
  *                                  " Coordinates given are ({},{})".format(row, col))             # <<<<<<<<<<<<<<
@@ -32025,7 +32020,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_add_value(struc
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       }
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":1302
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1302
  * 
  *             else:
  *                 raise ValueError("Cell is in the upper triangular of the matrix,"             # <<<<<<<<<<<<<<
@@ -32040,7 +32035,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_add_value(struc
       __PYX_ERR(0, 1302, __pyx_L1_error)
     }
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":1294
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1294
  *                              self.num_rows, self.num_cols, row, col))
  * 
  *         elif col > row:             # <<<<<<<<<<<<<<
@@ -32049,7 +32044,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_add_value(struc
  */
   }
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1307
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1307
  *         else:
  * 
  *             self.row_pointer[row][col] += value             # <<<<<<<<<<<<<<
@@ -32061,7 +32056,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_add_value(struc
     __pyx_t_12 = __pyx_v_col;
     ((__pyx_v_self->row_pointer[__pyx_t_11])[__pyx_t_12]) = (((__pyx_v_self->row_pointer[__pyx_t_11])[__pyx_t_12]) + __pyx_v_value);
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":1309
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1309
  *             self.row_pointer[row][col] += value
  * 
  *             return self.row_pointer[row][col]             # <<<<<<<<<<<<<<
@@ -32072,7 +32067,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_add_value(struc
     goto __pyx_L0;
   }
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1279
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1279
  * 
  * 
  *     cdef float add_value(self, long row, long col, float value):             # <<<<<<<<<<<<<<
@@ -32089,14 +32084,14 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_add_value(struc
   __Pyx_XDECREF(__pyx_t_7);
   __Pyx_XDECREF(__pyx_t_8);
   __Pyx_XDECREF(__pyx_t_9);
-  __Pyx_AddTraceback("SLIM_BPR_Cython_Epoch.Triangular_Matrix.add_value", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.SLIM_BPR_Cython_Epoch.Triangular_Matrix.add_value", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = 0;
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-/* "SLIM_BPR_Cython_Epoch.pyx":1313
+/* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1313
  * 
  * 
  *     cdef float get_value(self, long row, long col):             # <<<<<<<<<<<<<<
@@ -32104,7 +32099,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_add_value(struc
  *         The function returns the value of the specified cell.
  */
 
-static float __pyx_f_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_get_value(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *__pyx_v_self, long __pyx_v_row, long __pyx_v_col) {
+static float __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_get_value(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *__pyx_v_self, long __pyx_v_row, long __pyx_v_col) {
   float __pyx_r;
   __Pyx_RefNannyDeclarations
   int __pyx_t_1;
@@ -32122,7 +32117,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_get_value(struc
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("get_value", 1);
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1322
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1322
  *         """
  * 
  *         if row >= self.num_rows or col >= self.num_cols or row < 0 or col < 0:             # <<<<<<<<<<<<<<
@@ -32152,7 +32147,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_get_value(struc
   __pyx_L4_bool_binop_done:;
   if (unlikely(__pyx_t_1)) {
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":1323
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1323
  * 
  *         if row >= self.num_rows or col >= self.num_cols or row < 0 or col < 0:
  *             raise ValueError("Cell is outside matrix. Matrix shape is ({},{}), coordinates given are ({},{})".format(             # <<<<<<<<<<<<<<
@@ -32162,7 +32157,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_get_value(struc
     __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_Cell_is_outside_matrix_Matrix_sh, __pyx_n_s_format); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1323, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":1324
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1324
  *         if row >= self.num_rows or col >= self.num_cols or row < 0 or col < 0:
  *             raise ValueError("Cell is outside matrix. Matrix shape is ({},{}), coordinates given are ({},{})".format(
  *                 self.num_rows, self.num_cols, row, col))             # <<<<<<<<<<<<<<
@@ -32204,7 +32199,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_get_value(struc
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     }
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":1323
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1323
  * 
  *         if row >= self.num_rows or col >= self.num_cols or row < 0 or col < 0:
  *             raise ValueError("Cell is outside matrix. Matrix shape is ({},{}), coordinates given are ({},{})".format(             # <<<<<<<<<<<<<<
@@ -32218,7 +32213,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_get_value(struc
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     __PYX_ERR(0, 1323, __pyx_L1_error)
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":1322
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1322
  *         """
  * 
  *         if row >= self.num_rows or col >= self.num_cols or row < 0 or col < 0:             # <<<<<<<<<<<<<<
@@ -32227,7 +32222,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_get_value(struc
  */
   }
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1326
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1326
  *                 self.num_rows, self.num_cols, row, col))
  * 
  *         elif col > row:             # <<<<<<<<<<<<<<
@@ -32237,7 +32232,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_get_value(struc
   __pyx_t_1 = (__pyx_v_col > __pyx_v_row);
   if (__pyx_t_1) {
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":1328
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1328
  *         elif col > row:
  * 
  *             if self.isSymmetric:             # <<<<<<<<<<<<<<
@@ -32247,7 +32242,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_get_value(struc
     __pyx_t_1 = (__pyx_v_self->isSymmetric != 0);
     if (likely(__pyx_t_1)) {
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":1329
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1329
  * 
  *             if self.isSymmetric:
  *                 return self.row_pointer[col][row]             # <<<<<<<<<<<<<<
@@ -32257,7 +32252,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_get_value(struc
       __pyx_r = ((__pyx_v_self->row_pointer[__pyx_v_col])[__pyx_v_row]);
       goto __pyx_L0;
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":1328
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1328
  *         elif col > row:
  * 
  *             if self.isSymmetric:             # <<<<<<<<<<<<<<
@@ -32266,7 +32261,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_get_value(struc
  */
     }
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":1332
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1332
  * 
  *             else:
  *                 raise ValueError("Cell is in the upper triangular of the matrix,"             # <<<<<<<<<<<<<<
@@ -32275,7 +32270,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_get_value(struc
  */
     /*else*/ {
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":1334
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1334
  *                 raise ValueError("Cell is in the upper triangular of the matrix,"
  *                                  " current matrix is lower triangular."
  *                                  " Coordinates given are ({},{})".format(row, col))             # <<<<<<<<<<<<<<
@@ -32313,7 +32308,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_get_value(struc
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       }
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":1332
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1332
  * 
  *             else:
  *                 raise ValueError("Cell is in the upper triangular of the matrix,"             # <<<<<<<<<<<<<<
@@ -32328,7 +32323,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_get_value(struc
       __PYX_ERR(0, 1332, __pyx_L1_error)
     }
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":1326
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1326
  *                 self.num_rows, self.num_cols, row, col))
  * 
  *         elif col > row:             # <<<<<<<<<<<<<<
@@ -32337,7 +32332,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_get_value(struc
  */
   }
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1337
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1337
  *         else:
  * 
  *             return self.row_pointer[row][col]             # <<<<<<<<<<<<<<
@@ -32349,7 +32344,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_get_value(struc
     goto __pyx_L0;
   }
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1313
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1313
  * 
  * 
  *     cdef float get_value(self, long row, long col):             # <<<<<<<<<<<<<<
@@ -32366,14 +32361,14 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_get_value(struc
   __Pyx_XDECREF(__pyx_t_7);
   __Pyx_XDECREF(__pyx_t_8);
   __Pyx_XDECREF(__pyx_t_9);
-  __Pyx_AddTraceback("SLIM_BPR_Cython_Epoch.Triangular_Matrix.get_value", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.SLIM_BPR_Cython_Epoch.Triangular_Matrix.get_value", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = 0;
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-/* "SLIM_BPR_Cython_Epoch.pyx":1342
+/* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1342
  * 
  * 
  *     cdef get_scipy_csr(self, long TopK = False):             # <<<<<<<<<<<<<<
@@ -32381,7 +32376,7 @@ static float __pyx_f_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_get_value(struc
  *         The function returns the current sparse matrix as a scipy_csr object
  */
 
-static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_get_scipy_csr(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *__pyx_v_self, struct __pyx_opt_args_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_get_scipy_csr *__pyx_optional_args) {
+static PyObject *__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_get_scipy_csr(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *__pyx_v_self, struct __pyx_opt_args_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_get_scipy_csr *__pyx_optional_args) {
   long __pyx_v_TopK = ((long)0);
   long __pyx_v_row;
   long __pyx_v_col;
@@ -32453,7 +32448,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_get_scipy_c
   __pyx_pybuffernd_currentRowArray_np.data = NULL;
   __pyx_pybuffernd_currentRowArray_np.rcbuffer = &__pyx_pybuffer_currentRowArray_np;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1351
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1351
  *         cdef long row, col, index
  * 
  *         cdef array[float] template_zero = array('f')             # <<<<<<<<<<<<<<
@@ -32473,7 +32468,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_get_scipy_c
   __pyx_v_template_zero = ((arrayobject *)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1352
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1352
  * 
  *         cdef array[float] template_zero = array('f')
  *         cdef array[float] currentRowArray = clone(template_zero, self.num_cols, zero=True)             # <<<<<<<<<<<<<<
@@ -32493,7 +32488,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_get_scipy_c
   __pyx_v_currentRowArray = ((arrayobject *)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1359
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1359
  * 
  * 
  *         data = []             # <<<<<<<<<<<<<<
@@ -32505,7 +32500,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_get_scipy_c
   __pyx_v_data = ((PyObject*)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1360
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1360
  * 
  *         data = []
  *         indices = []             # <<<<<<<<<<<<<<
@@ -32517,7 +32512,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_get_scipy_c
   __pyx_v_indices = ((PyObject*)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1361
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1361
  *         data = []
  *         indices = []
  *         indptr = []             # <<<<<<<<<<<<<<
@@ -32529,7 +32524,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_get_scipy_c
   __pyx_v_indptr = ((PyObject*)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1364
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1364
  * 
  *         # Loop the rows
  *         for row in range(self.num_rows):             # <<<<<<<<<<<<<<
@@ -32541,7 +32536,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_get_scipy_c
   for (__pyx_t_4 = 0; __pyx_t_4 < __pyx_t_3; __pyx_t_4+=1) {
     __pyx_v_row = __pyx_t_4;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":1367
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1367
  * 
  *             #Always set indptr
  *             indptr.append(len(data))             # <<<<<<<<<<<<<<
@@ -32554,7 +32549,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_get_scipy_c
     __pyx_t_6 = __Pyx_PyList_Append(__pyx_v_indptr, __pyx_t_1); if (unlikely(__pyx_t_6 == ((int)-1))) __PYX_ERR(0, 1367, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":1370
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1370
  * 
  *             # Fill RowArray
  *             for col in range(self.num_cols):             # <<<<<<<<<<<<<<
@@ -32566,7 +32561,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_get_scipy_c
     for (__pyx_t_9 = 0; __pyx_t_9 < __pyx_t_8; __pyx_t_9+=1) {
       __pyx_v_col = __pyx_t_9;
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":1372
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1372
  *             for col in range(self.num_cols):
  * 
  *                 if col <= row:             # <<<<<<<<<<<<<<
@@ -32576,7 +32571,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_get_scipy_c
       __pyx_t_10 = (__pyx_v_col <= __pyx_v_row);
       if (__pyx_t_10) {
 
-        /* "SLIM_BPR_Cython_Epoch.pyx":1373
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1373
  * 
  *                 if col <= row:
  *                     currentRowArray[col] = self.row_pointer[row][col]             # <<<<<<<<<<<<<<
@@ -32586,7 +32581,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_get_scipy_c
         __pyx_t_11 = __pyx_v_col;
         *__Pyx_BufPtrFull1d(float *, __pyx_pybuffernd_currentRowArray.rcbuffer->pybuffer.buf, __pyx_t_11, __pyx_pybuffernd_currentRowArray.diminfo[0].strides, __pyx_pybuffernd_currentRowArray.diminfo[0].suboffsets) = ((__pyx_v_self->row_pointer[__pyx_v_row])[__pyx_v_col]);
 
-        /* "SLIM_BPR_Cython_Epoch.pyx":1372
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1372
  *             for col in range(self.num_cols):
  * 
  *                 if col <= row:             # <<<<<<<<<<<<<<
@@ -32596,7 +32591,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_get_scipy_c
         goto __pyx_L7;
       }
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":1375
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1375
  *                     currentRowArray[col] = self.row_pointer[row][col]
  *                 else:
  *                     if self.isSymmetric:             # <<<<<<<<<<<<<<
@@ -32607,7 +32602,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_get_scipy_c
         __pyx_t_10 = (__pyx_v_self->isSymmetric != 0);
         if (__pyx_t_10) {
 
-          /* "SLIM_BPR_Cython_Epoch.pyx":1376
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1376
  *                 else:
  *                     if self.isSymmetric:
  *                         currentRowArray[col] = self.row_pointer[col][row]             # <<<<<<<<<<<<<<
@@ -32617,7 +32612,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_get_scipy_c
           __pyx_t_11 = __pyx_v_col;
           *__Pyx_BufPtrFull1d(float *, __pyx_pybuffernd_currentRowArray.rcbuffer->pybuffer.buf, __pyx_t_11, __pyx_pybuffernd_currentRowArray.diminfo[0].strides, __pyx_pybuffernd_currentRowArray.diminfo[0].suboffsets) = ((__pyx_v_self->row_pointer[__pyx_v_col])[__pyx_v_row]);
 
-          /* "SLIM_BPR_Cython_Epoch.pyx":1375
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1375
  *                     currentRowArray[col] = self.row_pointer[row][col]
  *                 else:
  *                     if self.isSymmetric:             # <<<<<<<<<<<<<<
@@ -32627,7 +32622,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_get_scipy_c
           goto __pyx_L8;
         }
 
-        /* "SLIM_BPR_Cython_Epoch.pyx":1378
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1378
  *                         currentRowArray[col] = self.row_pointer[col][row]
  *                     else:
  *                         currentRowArray[col] = 0.0             # <<<<<<<<<<<<<<
@@ -32643,7 +32638,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_get_scipy_c
       __pyx_L7:;
     }
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":1381
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1381
  * 
  * 
  *             if TopK:             # <<<<<<<<<<<<<<
@@ -32653,7 +32648,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_get_scipy_c
     __pyx_t_10 = (__pyx_v_TopK != 0);
     if (__pyx_t_10) {
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":1384
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1384
  * 
  *                 # Sort indices and select TopK
  *                 currentRowArray_np = - np.array(currentRowArray)             # <<<<<<<<<<<<<<
@@ -32713,7 +32708,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_get_scipy_c
       __Pyx_XDECREF_SET(__pyx_v_currentRowArray_np, ((PyArrayObject *)__pyx_t_13));
       __pyx_t_13 = 0;
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":1387
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1387
  * 
  *                 # Sort indices and select topK, partition the data to extract the set of relevant items
  *                 relevant_items_partition = np.argpartition(currentRowArray_np, TopK - 1, axis=0)[0:TopK]             # <<<<<<<<<<<<<<
@@ -32769,7 +32764,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_get_scipy_c
       __Pyx_XDECREF_SET(__pyx_v_relevant_items_partition, ((PyArrayObject *)__pyx_t_13));
       __pyx_t_13 = 0;
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":1389
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1389
  *                 relevant_items_partition = np.argpartition(currentRowArray_np, TopK - 1, axis=0)[0:TopK]
  * 
  *                 for index in range(len(relevant_items_partition)):             # <<<<<<<<<<<<<<
@@ -32781,7 +32776,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_get_scipy_c
       for (__pyx_t_7 = 0; __pyx_t_7 < __pyx_t_22; __pyx_t_7+=1) {
         __pyx_v_index = __pyx_t_7;
 
-        /* "SLIM_BPR_Cython_Epoch.pyx":1391
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1391
  *                 for index in range(len(relevant_items_partition)):
  * 
  *                     col = relevant_items_partition[index]             # <<<<<<<<<<<<<<
@@ -32791,7 +32786,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_get_scipy_c
         __pyx_t_11 = __pyx_v_index;
         __pyx_v_col = (*__Pyx_BufPtrStrided1d(PY_LONG_LONG *, __pyx_pybuffernd_relevant_items_partition.rcbuffer->pybuffer.buf, __pyx_t_11, __pyx_pybuffernd_relevant_items_partition.diminfo[0].strides));
 
-        /* "SLIM_BPR_Cython_Epoch.pyx":1393
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1393
  *                     col = relevant_items_partition[index]
  * 
  *                     if currentRowArray[col] != 0.0:             # <<<<<<<<<<<<<<
@@ -32802,7 +32797,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_get_scipy_c
         __pyx_t_10 = ((*__Pyx_BufPtrFull1d(float *, __pyx_pybuffernd_currentRowArray.rcbuffer->pybuffer.buf, __pyx_t_11, __pyx_pybuffernd_currentRowArray.diminfo[0].strides, __pyx_pybuffernd_currentRowArray.diminfo[0].suboffsets)) != 0.0);
         if (__pyx_t_10) {
 
-          /* "SLIM_BPR_Cython_Epoch.pyx":1394
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1394
  * 
  *                     if currentRowArray[col] != 0.0:
  *                         indices.append(col)             # <<<<<<<<<<<<<<
@@ -32814,7 +32809,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_get_scipy_c
           __pyx_t_6 = __Pyx_PyList_Append(__pyx_v_indices, __pyx_t_13); if (unlikely(__pyx_t_6 == ((int)-1))) __PYX_ERR(0, 1394, __pyx_L1_error)
           __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
 
-          /* "SLIM_BPR_Cython_Epoch.pyx":1395
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1395
  *                     if currentRowArray[col] != 0.0:
  *                         indices.append(col)
  *                         data.append(currentRowArray[col])             # <<<<<<<<<<<<<<
@@ -32827,7 +32822,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_get_scipy_c
           __pyx_t_6 = __Pyx_PyList_Append(__pyx_v_data, __pyx_t_13); if (unlikely(__pyx_t_6 == ((int)-1))) __PYX_ERR(0, 1395, __pyx_L1_error)
           __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
 
-          /* "SLIM_BPR_Cython_Epoch.pyx":1393
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1393
  *                     col = relevant_items_partition[index]
  * 
  *                     if currentRowArray[col] != 0.0:             # <<<<<<<<<<<<<<
@@ -32837,7 +32832,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_get_scipy_c
         }
       }
 
-      /* "SLIM_BPR_Cython_Epoch.pyx":1381
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1381
  * 
  * 
  *             if TopK:             # <<<<<<<<<<<<<<
@@ -32847,7 +32842,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_get_scipy_c
       goto __pyx_L9;
     }
 
-    /* "SLIM_BPR_Cython_Epoch.pyx":1399
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1399
  *             else:
  * 
  *                 for index in range(self.num_cols):             # <<<<<<<<<<<<<<
@@ -32860,7 +32855,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_get_scipy_c
       for (__pyx_t_9 = 0; __pyx_t_9 < __pyx_t_8; __pyx_t_9+=1) {
         __pyx_v_index = __pyx_t_9;
 
-        /* "SLIM_BPR_Cython_Epoch.pyx":1401
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1401
  *                 for index in range(self.num_cols):
  * 
  *                     if currentRowArray[index] != 0.0:             # <<<<<<<<<<<<<<
@@ -32871,7 +32866,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_get_scipy_c
         __pyx_t_10 = ((*__Pyx_BufPtrFull1d(float *, __pyx_pybuffernd_currentRowArray.rcbuffer->pybuffer.buf, __pyx_t_11, __pyx_pybuffernd_currentRowArray.diminfo[0].strides, __pyx_pybuffernd_currentRowArray.diminfo[0].suboffsets)) != 0.0);
         if (__pyx_t_10) {
 
-          /* "SLIM_BPR_Cython_Epoch.pyx":1402
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1402
  * 
  *                     if currentRowArray[index] != 0.0:
  *                         indices.append(index)             # <<<<<<<<<<<<<<
@@ -32883,7 +32878,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_get_scipy_c
           __pyx_t_6 = __Pyx_PyList_Append(__pyx_v_indices, __pyx_t_13); if (unlikely(__pyx_t_6 == ((int)-1))) __PYX_ERR(0, 1402, __pyx_L1_error)
           __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
 
-          /* "SLIM_BPR_Cython_Epoch.pyx":1403
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1403
  *                     if currentRowArray[index] != 0.0:
  *                         indices.append(index)
  *                         data.append(currentRowArray[index])             # <<<<<<<<<<<<<<
@@ -32896,7 +32891,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_get_scipy_c
           __pyx_t_6 = __Pyx_PyList_Append(__pyx_v_data, __pyx_t_13); if (unlikely(__pyx_t_6 == ((int)-1))) __PYX_ERR(0, 1403, __pyx_L1_error)
           __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
 
-          /* "SLIM_BPR_Cython_Epoch.pyx":1401
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1401
  *                 for index in range(self.num_cols):
  * 
  *                     if currentRowArray[index] != 0.0:             # <<<<<<<<<<<<<<
@@ -32909,7 +32904,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_get_scipy_c
     __pyx_L9:;
   }
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1407
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1407
  * 
  *         #Set terminal indptr
  *         indptr.append(len(data))             # <<<<<<<<<<<<<<
@@ -32922,7 +32917,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_get_scipy_c
   __pyx_t_6 = __Pyx_PyList_Append(__pyx_v_indptr, __pyx_t_13); if (unlikely(__pyx_t_6 == ((int)-1))) __PYX_ERR(0, 1407, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1409
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1409
  *         indptr.append(len(data))
  * 
  *         return sps.csr_matrix((data, indices, indptr), shape=(self.num_rows, self.num_cols), dtype=np.float32)             # <<<<<<<<<<<<<<
@@ -32983,7 +32978,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_get_scipy_c
   __pyx_t_23 = 0;
   goto __pyx_L0;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1342
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1342
  * 
  * 
  *     cdef get_scipy_csr(self, long TopK = False):             # <<<<<<<<<<<<<<
@@ -33008,7 +33003,7 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_get_scipy_c
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_relevant_items_partition.rcbuffer->pybuffer);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_template_zero.rcbuffer->pybuffer);
   __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
-  __Pyx_AddTraceback("SLIM_BPR_Cython_Epoch.Triangular_Matrix.get_scipy_csr", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.SLIM_BPR_Cython_Epoch.Triangular_Matrix.get_scipy_csr", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = 0;
   goto __pyx_L2;
   __pyx_L0:;
@@ -33036,15 +33031,15 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_get_scipy_c
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_5__reduce_cython__(PyObject *__pyx_v_self, 
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_5__reduce_cython__(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static PyMethodDef __pyx_mdef_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_5__reduce_cython__ = {"__reduce_cython__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_5__reduce_cython__, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_5__reduce_cython__(PyObject *__pyx_v_self, 
+static PyMethodDef __pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_5__reduce_cython__ = {"__reduce_cython__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_5__reduce_cython__, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_5__reduce_cython__(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -33069,14 +33064,14 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   if (unlikely(__pyx_nargs > 0)) {
     __Pyx_RaiseArgtupleInvalid("__reduce_cython__", 1, 0, 0, __pyx_nargs); return NULL;}
   if (unlikely(__pyx_kwds) && __Pyx_NumKwargs_FASTCALL(__pyx_kwds) && unlikely(!__Pyx_CheckKeywordStrings(__pyx_kwds, "__reduce_cython__", 0))) return NULL;
-  __pyx_r = __pyx_pf_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_4__reduce_cython__(((struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *)__pyx_v_self));
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_4__reduce_cython__(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_4__reduce_cython__(CYTHON_UNUSED struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *__pyx_v_self) {
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_4__reduce_cython__(CYTHON_UNUSED struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *__pyx_v_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   int __pyx_lineno = 0;
@@ -33101,7 +33096,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_4__reduce_
 
   /* function exit code */
   __pyx_L1_error:;
-  __Pyx_AddTraceback("SLIM_BPR_Cython_Epoch.Triangular_Matrix.__reduce_cython__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.SLIM_BPR_Cython_Epoch.Triangular_Matrix.__reduce_cython__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __Pyx_XGIVEREF(__pyx_r);
   __Pyx_RefNannyFinishContext();
@@ -33116,15 +33111,15 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_4__reduce_
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_7__setstate_cython__(PyObject *__pyx_v_self, 
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_7__setstate_cython__(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static PyMethodDef __pyx_mdef_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_7__setstate_cython__ = {"__setstate_cython__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_7__setstate_cython__, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_7__setstate_cython__(PyObject *__pyx_v_self, 
+static PyMethodDef __pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_7__setstate_cython__ = {"__setstate_cython__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_7__setstate_cython__, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_7__setstate_cython__(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -33194,11 +33189,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("SLIM_BPR_Cython_Epoch.Triangular_Matrix.__setstate_cython__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.SLIM_BPR_Cython_Epoch.Triangular_Matrix.__setstate_cython__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_6__setstate_cython__(((struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *)__pyx_v_self), __pyx_v___pyx_state);
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_6__setstate_cython__(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *)__pyx_v_self), __pyx_v___pyx_state);
 
   /* function exit code */
   {
@@ -33211,7 +33206,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_6__setstate_cython__(CYTHON_UNUSED struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *__pyx_v_self, CYTHON_UNUSED PyObject *__pyx_v___pyx_state) {
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_6__setstate_cython__(CYTHON_UNUSED struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *__pyx_v_self, CYTHON_UNUSED PyObject *__pyx_v___pyx_state) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   int __pyx_lineno = 0;
@@ -33236,7 +33231,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_6__setstat
 
   /* function exit code */
   __pyx_L1_error:;
-  __Pyx_AddTraceback("SLIM_BPR_Cython_Epoch.Triangular_Matrix.__setstate_cython__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.SLIM_BPR_Cython_Epoch.Triangular_Matrix.__setstate_cython__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __Pyx_XGIVEREF(__pyx_r);
   __Pyx_RefNannyFinishContext();
@@ -33250,15 +33245,15 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_6__setstat
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_21SLIM_BPR_Cython_Epoch_1__pyx_unpickle_SLIM_BPR_Cython_Epoch(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_1__pyx_unpickle_SLIM_BPR_Cython_Epoch(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static PyMethodDef __pyx_mdef_21SLIM_BPR_Cython_Epoch_1__pyx_unpickle_SLIM_BPR_Cython_Epoch = {"__pyx_unpickle_SLIM_BPR_Cython_Epoch", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_21SLIM_BPR_Cython_Epoch_1__pyx_unpickle_SLIM_BPR_Cython_Epoch, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_21SLIM_BPR_Cython_Epoch_1__pyx_unpickle_SLIM_BPR_Cython_Epoch(PyObject *__pyx_self, 
+static PyMethodDef __pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_1__pyx_unpickle_SLIM_BPR_Cython_Epoch = {"__pyx_unpickle_SLIM_BPR_Cython_Epoch", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_1__pyx_unpickle_SLIM_BPR_Cython_Epoch, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_1__pyx_unpickle_SLIM_BPR_Cython_Epoch(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -33358,11 +33353,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("SLIM_BPR_Cython_Epoch.__pyx_unpickle_SLIM_BPR_Cython_Epoch", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.SLIM_BPR_Cython_Epoch.__pyx_unpickle_SLIM_BPR_Cython_Epoch", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_21SLIM_BPR_Cython_Epoch___pyx_unpickle_SLIM_BPR_Cython_Epoch(__pyx_self, __pyx_v___pyx_type, __pyx_v___pyx_checksum, __pyx_v___pyx_state);
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch___pyx_unpickle_SLIM_BPR_Cython_Epoch(__pyx_self, __pyx_v___pyx_type, __pyx_v___pyx_checksum, __pyx_v___pyx_state);
 
   /* function exit code */
   {
@@ -33375,7 +33370,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch___pyx_unpickle_SLIM_BPR_Cython_Epoch(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v___pyx_type, long __pyx_v___pyx_checksum, PyObject *__pyx_v___pyx_state) {
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch___pyx_unpickle_SLIM_BPR_Cython_Epoch(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v___pyx_type, long __pyx_v___pyx_checksum, PyObject *__pyx_v___pyx_state) {
   PyObject *__pyx_v___pyx_PickleError = 0;
   PyObject *__pyx_v___pyx_result = 0;
   PyObject *__pyx_r = NULL;
@@ -33457,7 +33452,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch___pyx_unpickle_SLIM_BPR_Cython
  *     if __pyx_state is not None:
  *         __pyx_unpickle_SLIM_BPR_Cython_Epoch__set_state(<SLIM_BPR_Cython_Epoch> __pyx_result, __pyx_state)
  */
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_ptype_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch), __pyx_n_s_new); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 7, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch), __pyx_n_s_new); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 7, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __pyx_t_4 = NULL;
   __pyx_t_5 = 0;
@@ -33502,7 +33497,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch___pyx_unpickle_SLIM_BPR_Cython
  * cdef __pyx_unpickle_SLIM_BPR_Cython_Epoch__set_state(SLIM_BPR_Cython_Epoch __pyx_result, tuple __pyx_state):
  */
     if (!(likely(PyTuple_CheckExact(__pyx_v___pyx_state))||((__pyx_v___pyx_state) == Py_None) || __Pyx_RaiseUnexpectedTypeError("tuple", __pyx_v___pyx_state))) __PYX_ERR(1, 9, __pyx_L1_error)
-    __pyx_t_1 = __pyx_f_21SLIM_BPR_Cython_Epoch___pyx_unpickle_SLIM_BPR_Cython_Epoch__set_state(((struct __pyx_obj_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *)__pyx_v___pyx_result), ((PyObject*)__pyx_v___pyx_state)); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 9, __pyx_L1_error)
+    __pyx_t_1 = __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch___pyx_unpickle_SLIM_BPR_Cython_Epoch__set_state(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *)__pyx_v___pyx_result), ((PyObject*)__pyx_v___pyx_state)); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 9, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
@@ -33538,7 +33533,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch___pyx_unpickle_SLIM_BPR_Cython
   __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
-  __Pyx_AddTraceback("SLIM_BPR_Cython_Epoch.__pyx_unpickle_SLIM_BPR_Cython_Epoch", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.SLIM_BPR_Cython_Epoch.__pyx_unpickle_SLIM_BPR_Cython_Epoch", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v___pyx_PickleError);
@@ -33556,7 +33551,7 @@ static PyObject *__pyx_pf_21SLIM_BPR_Cython_Epoch___pyx_unpickle_SLIM_BPR_Cython
  *     if len(__pyx_state) > 28 and hasattr(__pyx_result, '__dict__'):
  */
 
-static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch___pyx_unpickle_SLIM_BPR_Cython_Epoch__set_state(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *__pyx_v___pyx_result, PyObject *__pyx_v___pyx_state) {
+static PyObject *__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch___pyx_unpickle_SLIM_BPR_Cython_Epoch__set_state(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *__pyx_v___pyx_result, PyObject *__pyx_v___pyx_state) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -33602,11 +33597,11 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch___pyx_unpickle_SLIM_BPR_Cython_
   }
   __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 12, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR))))) __PYX_ERR(1, 12, __pyx_L1_error)
+  if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR))))) __PYX_ERR(1, 12, __pyx_L1_error)
   __Pyx_GIVEREF(__pyx_t_1);
   __Pyx_GOTREF((PyObject *)__pyx_v___pyx_result->S_sparse);
   __Pyx_DECREF((PyObject *)__pyx_v___pyx_result->S_sparse);
-  __pyx_v___pyx_result->S_sparse = ((struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_t_1);
+  __pyx_v___pyx_result->S_sparse = ((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)__pyx_t_1);
   __pyx_t_1 = 0;
   if (unlikely(__pyx_v___pyx_state == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
@@ -33614,11 +33609,11 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch___pyx_unpickle_SLIM_BPR_Cython_
   }
   __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 2, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 12, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_21SLIM_BPR_Cython_Epoch_Triangular_Matrix))))) __PYX_ERR(1, 12, __pyx_L1_error)
+  if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix))))) __PYX_ERR(1, 12, __pyx_L1_error)
   __Pyx_GIVEREF(__pyx_t_1);
   __Pyx_GOTREF((PyObject *)__pyx_v___pyx_result->S_symmetric);
   __Pyx_DECREF((PyObject *)__pyx_v___pyx_result->S_symmetric);
-  __pyx_v___pyx_result->S_symmetric = ((struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *)__pyx_t_1);
+  __pyx_v___pyx_result->S_symmetric = ((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *)__pyx_t_1);
   __pyx_t_1 = 0;
   if (unlikely(__pyx_v___pyx_state == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
@@ -33951,17 +33946,17 @@ static PyObject *__pyx_f_21SLIM_BPR_Cython_Epoch___pyx_unpickle_SLIM_BPR_Cython_
   __Pyx_XDECREF(__pyx_t_10);
   __Pyx_XDECREF(__pyx_t_11);
   __Pyx_XDECREF(__pyx_t_12);
-  __Pyx_AddTraceback("SLIM_BPR_Cython_Epoch.__pyx_unpickle_SLIM_BPR_Cython_Epoch__set_state", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.SLIM_BPR_Cython_Epoch.__pyx_unpickle_SLIM_BPR_Cython_Epoch__set_state", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = 0;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
-static struct __pyx_vtabstruct_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch __pyx_vtable_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch;
+static struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch __pyx_vtable_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch;
 
-static PyObject *__pyx_tp_new_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch(PyTypeObject *t, CYTHON_UNUSED PyObject *a, CYTHON_UNUSED PyObject *k) {
-  struct __pyx_obj_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *p;
+static PyObject *__pyx_tp_new_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch(PyTypeObject *t, CYTHON_UNUSED PyObject *a, CYTHON_UNUSED PyObject *k) {
+  struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *p;
   PyObject *o;
   #if CYTHON_COMPILING_IN_LIMITED_API
   allocfunc alloc_func = (allocfunc)PyType_GetSlot(t, Py_tp_alloc);
@@ -33974,10 +33969,10 @@ static PyObject *__pyx_tp_new_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch(PyTy
   }
   if (unlikely(!o)) return 0;
   #endif
-  p = ((struct __pyx_obj_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *)o);
-  p->__pyx_vtab = __pyx_vtabptr_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch;
-  p->S_sparse = ((struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)Py_None); Py_INCREF(Py_None);
-  p->S_symmetric = ((struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *)Py_None); Py_INCREF(Py_None);
+  p = ((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *)o);
+  p->__pyx_vtab = __pyx_vtabptr_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch;
+  p->S_sparse = ((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)Py_None); Py_INCREF(Py_None);
+  p->S_symmetric = ((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *)Py_None); Py_INCREF(Py_None);
   p->URM_mask_indices.data = NULL;
   p->URM_mask_indices.memview = NULL;
   p->URM_mask_indptr.data = NULL;
@@ -33993,11 +33988,11 @@ static PyObject *__pyx_tp_new_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch(PyTy
   return o;
 }
 
-static void __pyx_tp_dealloc_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch(PyObject *o) {
-  struct __pyx_obj_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *p = (struct __pyx_obj_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *)o;
+static void __pyx_tp_dealloc_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch(PyObject *o) {
+  struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *p = (struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *)o;
   #if CYTHON_USE_TP_FINALIZE
   if (unlikely((PY_VERSION_HEX >= 0x03080000 || __Pyx_PyType_HasFeature(Py_TYPE(o), Py_TPFLAGS_HAVE_FINALIZE)) && __Pyx_PyObject_GetSlot(o, tp_finalize, destructor)) && !__Pyx_PyObject_GC_IsFinalized(o)) {
-    if (__Pyx_PyObject_GetSlot(o, tp_dealloc, destructor) == __pyx_tp_dealloc_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch) {
+    if (__Pyx_PyObject_GetSlot(o, tp_dealloc, destructor) == __pyx_tp_dealloc_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch) {
       if (PyObject_CallFinalizerFromDealloc(o)) return;
     }
   }
@@ -34007,7 +34002,7 @@ static void __pyx_tp_dealloc_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch(PyObj
     PyObject *etype, *eval, *etb;
     PyErr_Fetch(&etype, &eval, &etb);
     __Pyx_SET_REFCNT(o, Py_REFCNT(o) + 1);
-    __pyx_pw_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_5__dealloc__(o);
+    __pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_5__dealloc__(o);
     __Pyx_SET_REFCNT(o, Py_REFCNT(o) - 1);
     PyErr_Restore(etype, eval, etb);
   }
@@ -34035,9 +34030,9 @@ static void __pyx_tp_dealloc_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch(PyObj
   #endif
 }
 
-static int __pyx_tp_traverse_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch(PyObject *o, visitproc v, void *a) {
+static int __pyx_tp_traverse_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch(PyObject *o, visitproc v, void *a) {
   int e;
-  struct __pyx_obj_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *p = (struct __pyx_obj_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *)o;
+  struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *p = (struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *)o;
   if (p->S_sparse) {
     e = (*v)(((PyObject *)p->S_sparse), a); if (e) return e;
   }
@@ -34047,52 +34042,52 @@ static int __pyx_tp_traverse_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch(PyObj
   return 0;
 }
 
-static int __pyx_tp_clear_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch(PyObject *o) {
+static int __pyx_tp_clear_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch(PyObject *o) {
   PyObject* tmp;
-  struct __pyx_obj_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *p = (struct __pyx_obj_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *)o;
+  struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *p = (struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *)o;
   tmp = ((PyObject*)p->S_sparse);
-  p->S_sparse = ((struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)Py_None); Py_INCREF(Py_None);
+  p->S_sparse = ((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)Py_None); Py_INCREF(Py_None);
   Py_XDECREF(tmp);
   tmp = ((PyObject*)p->S_symmetric);
-  p->S_symmetric = ((struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *)Py_None); Py_INCREF(Py_None);
+  p->S_symmetric = ((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *)Py_None); Py_INCREF(Py_None);
   Py_XDECREF(tmp);
   return 0;
 }
 
-static PyMethodDef __pyx_methods_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch[] = {
-  {"_init_adaptive_gradient_cache", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_3_init_adaptive_gradient_cache, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
-  {"_dealloc", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_7_dealloc, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
-  {"epochIteration_Cython", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_9epochIteration_Cython, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
-  {"get_S", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_11get_S, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
-  {"__reduce_cython__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_13__reduce_cython__, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
-  {"__setstate_cython__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_15__setstate_cython__, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
+static PyMethodDef __pyx_methods_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch[] = {
+  {"_init_adaptive_gradient_cache", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_3_init_adaptive_gradient_cache, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
+  {"_dealloc", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_7_dealloc, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
+  {"epochIteration_Cython", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_9epochIteration_Cython, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
+  {"get_S", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_11get_S, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
+  {"__reduce_cython__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_13__reduce_cython__, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
+  {"__setstate_cython__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_15__setstate_cython__, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
   {0, 0, 0, 0}
 };
 #if CYTHON_USE_TYPE_SPECS
-static PyType_Slot __pyx_type_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch_slots[] = {
-  {Py_tp_dealloc, (void *)__pyx_tp_dealloc_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch},
-  {Py_tp_traverse, (void *)__pyx_tp_traverse_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch},
-  {Py_tp_clear, (void *)__pyx_tp_clear_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch},
-  {Py_tp_methods, (void *)__pyx_methods_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch},
-  {Py_tp_init, (void *)__pyx_pw_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_1__init__},
-  {Py_tp_new, (void *)__pyx_tp_new_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch},
+static PyType_Slot __pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch_slots[] = {
+  {Py_tp_dealloc, (void *)__pyx_tp_dealloc_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch},
+  {Py_tp_traverse, (void *)__pyx_tp_traverse_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch},
+  {Py_tp_clear, (void *)__pyx_tp_clear_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch},
+  {Py_tp_methods, (void *)__pyx_methods_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch},
+  {Py_tp_init, (void *)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_1__init__},
+  {Py_tp_new, (void *)__pyx_tp_new_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch},
   {0, 0},
 };
-static PyType_Spec __pyx_type_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch_spec = {
-  "SLIM_BPR_Cython_Epoch.SLIM_BPR_Cython_Epoch",
-  sizeof(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch),
+static PyType_Spec __pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch_spec = {
+  "RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.SLIM_BPR_Cython_Epoch.SLIM_BPR_Cython_Epoch",
+  sizeof(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch),
   0,
   Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_VERSION_TAG|Py_TPFLAGS_CHECKTYPES|Py_TPFLAGS_HAVE_NEWBUFFER|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_HAVE_GC,
-  __pyx_type_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch_slots,
+  __pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch_slots,
 };
 #else
 
-static PyTypeObject __pyx_type_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch = {
+static PyTypeObject __pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch = {
   PyVarObject_HEAD_INIT(0, 0)
-  "SLIM_BPR_Cython_Epoch.""SLIM_BPR_Cython_Epoch", /*tp_name*/
-  sizeof(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch), /*tp_basicsize*/
+  "RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.SLIM_BPR_Cython_Epoch.""SLIM_BPR_Cython_Epoch", /*tp_name*/
+  sizeof(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch), /*tp_basicsize*/
   0, /*tp_itemsize*/
-  __pyx_tp_dealloc_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch, /*tp_dealloc*/
+  __pyx_tp_dealloc_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch, /*tp_dealloc*/
   #if PY_VERSION_HEX < 0x030800b4
   0, /*tp_print*/
   #endif
@@ -34119,13 +34114,13 @@ static PyTypeObject __pyx_type_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch = {
   0, /*tp_as_buffer*/
   Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_VERSION_TAG|Py_TPFLAGS_CHECKTYPES|Py_TPFLAGS_HAVE_NEWBUFFER|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_HAVE_GC, /*tp_flags*/
   0, /*tp_doc*/
-  __pyx_tp_traverse_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch, /*tp_traverse*/
-  __pyx_tp_clear_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch, /*tp_clear*/
+  __pyx_tp_traverse_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch, /*tp_traverse*/
+  __pyx_tp_clear_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch, /*tp_clear*/
   0, /*tp_richcompare*/
   0, /*tp_weaklistoffset*/
   0, /*tp_iter*/
   0, /*tp_iternext*/
-  __pyx_methods_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch, /*tp_methods*/
+  __pyx_methods_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch, /*tp_methods*/
   0, /*tp_members*/
   0, /*tp_getset*/
   0, /*tp_base*/
@@ -34135,9 +34130,9 @@ static PyTypeObject __pyx_type_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch = {
   #if !CYTHON_USE_TYPE_SPECS
   0, /*tp_dictoffset*/
   #endif
-  __pyx_pw_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_1__init__, /*tp_init*/
+  __pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_1__init__, /*tp_init*/
   0, /*tp_alloc*/
-  __pyx_tp_new_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch, /*tp_new*/
+  __pyx_tp_new_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch, /*tp_new*/
   0, /*tp_free*/
   0, /*tp_is_gc*/
   0, /*tp_bases*/
@@ -34171,10 +34166,10 @@ static PyTypeObject __pyx_type_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch = {
   #endif
 };
 #endif
-static struct __pyx_vtabstruct_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR __pyx_vtable_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR;
+static struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR __pyx_vtable_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR;
 
-static PyObject *__pyx_tp_new_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR(PyTypeObject *t, CYTHON_UNUSED PyObject *a, CYTHON_UNUSED PyObject *k) {
-  struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *p;
+static PyObject *__pyx_tp_new_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR(PyTypeObject *t, CYTHON_UNUSED PyObject *a, CYTHON_UNUSED PyObject *k) {
+  struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *p;
   PyObject *o;
   #if CYTHON_COMPILING_IN_LIMITED_API
   allocfunc alloc_func = (allocfunc)PyType_GetSlot(t, Py_tp_alloc);
@@ -34187,15 +34182,15 @@ static PyObject *__pyx_tp_new_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR(PyT
   }
   if (unlikely(!o)) return 0;
   #endif
-  p = ((struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)o);
-  p->__pyx_vtab = __pyx_vtabptr_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR;
+  p = ((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *)o);
+  p->__pyx_vtab = __pyx_vtabptr_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR;
   return o;
 }
 
-static void __pyx_tp_dealloc_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR(PyObject *o) {
+static void __pyx_tp_dealloc_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR(PyObject *o) {
   #if CYTHON_USE_TP_FINALIZE
   if (unlikely((PY_VERSION_HEX >= 0x03080000 || __Pyx_PyType_HasFeature(Py_TYPE(o), Py_TPFLAGS_HAVE_FINALIZE)) && __Pyx_PyObject_GetSlot(o, tp_finalize, destructor)) && (!PyType_IS_GC(Py_TYPE(o)) || !__Pyx_PyObject_GC_IsFinalized(o))) {
-    if (__Pyx_PyObject_GetSlot(o, tp_dealloc, destructor) == __pyx_tp_dealloc_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR) {
+    if (__Pyx_PyObject_GetSlot(o, tp_dealloc, destructor) == __pyx_tp_dealloc_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR) {
       if (PyObject_CallFinalizerFromDealloc(o)) return;
     }
   }
@@ -34210,35 +34205,35 @@ static void __pyx_tp_dealloc_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR(PyOb
   #endif
 }
 
-static PyMethodDef __pyx_methods_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR[] = {
-  {"dealloc", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_3dealloc, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_2dealloc},
-  {"__reduce_cython__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_9__reduce_cython__, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
-  {"__setstate_cython__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_11__setstate_cython__, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
+static PyMethodDef __pyx_methods_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR[] = {
+  {"dealloc", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_3dealloc, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_2dealloc},
+  {"__reduce_cython__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_9__reduce_cython__, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
+  {"__setstate_cython__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_11__setstate_cython__, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
   {0, 0, 0, 0}
 };
 #if CYTHON_USE_TYPE_SPECS
-static PyType_Slot __pyx_type_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR_slots[] = {
-  {Py_tp_dealloc, (void *)__pyx_tp_dealloc_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR},
-  {Py_tp_methods, (void *)__pyx_methods_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR},
-  {Py_tp_init, (void *)__pyx_pw_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_1__init__},
-  {Py_tp_new, (void *)__pyx_tp_new_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR},
+static PyType_Slot __pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR_slots[] = {
+  {Py_tp_dealloc, (void *)__pyx_tp_dealloc_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR},
+  {Py_tp_methods, (void *)__pyx_methods_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR},
+  {Py_tp_init, (void *)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_1__init__},
+  {Py_tp_new, (void *)__pyx_tp_new_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR},
   {0, 0},
 };
-static PyType_Spec __pyx_type_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR_spec = {
-  "SLIM_BPR_Cython_Epoch.Sparse_Matrix_Tree_CSR",
-  sizeof(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR),
+static PyType_Spec __pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR_spec = {
+  "RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.SLIM_BPR_Cython_Epoch.Sparse_Matrix_Tree_CSR",
+  sizeof(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR),
   0,
   Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_VERSION_TAG|Py_TPFLAGS_CHECKTYPES|Py_TPFLAGS_HAVE_NEWBUFFER|Py_TPFLAGS_BASETYPE,
-  __pyx_type_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR_slots,
+  __pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR_slots,
 };
 #else
 
-static PyTypeObject __pyx_type_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR = {
+static PyTypeObject __pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR = {
   PyVarObject_HEAD_INIT(0, 0)
-  "SLIM_BPR_Cython_Epoch.""Sparse_Matrix_Tree_CSR", /*tp_name*/
-  sizeof(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR), /*tp_basicsize*/
+  "RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.SLIM_BPR_Cython_Epoch.""Sparse_Matrix_Tree_CSR", /*tp_name*/
+  sizeof(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR), /*tp_basicsize*/
   0, /*tp_itemsize*/
-  __pyx_tp_dealloc_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR, /*tp_dealloc*/
+  __pyx_tp_dealloc_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR, /*tp_dealloc*/
   #if PY_VERSION_HEX < 0x030800b4
   0, /*tp_print*/
   #endif
@@ -34271,7 +34266,7 @@ static PyTypeObject __pyx_type_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR = 
   0, /*tp_weaklistoffset*/
   0, /*tp_iter*/
   0, /*tp_iternext*/
-  __pyx_methods_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR, /*tp_methods*/
+  __pyx_methods_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR, /*tp_methods*/
   0, /*tp_members*/
   0, /*tp_getset*/
   0, /*tp_base*/
@@ -34281,9 +34276,9 @@ static PyTypeObject __pyx_type_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR = 
   #if !CYTHON_USE_TYPE_SPECS
   0, /*tp_dictoffset*/
   #endif
-  __pyx_pw_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_1__init__, /*tp_init*/
+  __pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_1__init__, /*tp_init*/
   0, /*tp_alloc*/
-  __pyx_tp_new_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR, /*tp_new*/
+  __pyx_tp_new_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR, /*tp_new*/
   0, /*tp_free*/
   0, /*tp_is_gc*/
   0, /*tp_bases*/
@@ -34317,10 +34312,10 @@ static PyTypeObject __pyx_type_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR = 
   #endif
 };
 #endif
-static struct __pyx_vtabstruct_21SLIM_BPR_Cython_Epoch_Triangular_Matrix __pyx_vtable_21SLIM_BPR_Cython_Epoch_Triangular_Matrix;
+static struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix __pyx_vtable_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix;
 
-static PyObject *__pyx_tp_new_21SLIM_BPR_Cython_Epoch_Triangular_Matrix(PyTypeObject *t, CYTHON_UNUSED PyObject *a, CYTHON_UNUSED PyObject *k) {
-  struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *p;
+static PyObject *__pyx_tp_new_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix(PyTypeObject *t, CYTHON_UNUSED PyObject *a, CYTHON_UNUSED PyObject *k) {
+  struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *p;
   PyObject *o;
   #if CYTHON_COMPILING_IN_LIMITED_API
   allocfunc alloc_func = (allocfunc)PyType_GetSlot(t, Py_tp_alloc);
@@ -34333,15 +34328,15 @@ static PyObject *__pyx_tp_new_21SLIM_BPR_Cython_Epoch_Triangular_Matrix(PyTypeOb
   }
   if (unlikely(!o)) return 0;
   #endif
-  p = ((struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *)o);
-  p->__pyx_vtab = __pyx_vtabptr_21SLIM_BPR_Cython_Epoch_Triangular_Matrix;
+  p = ((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *)o);
+  p->__pyx_vtab = __pyx_vtabptr_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix;
   return o;
 }
 
-static void __pyx_tp_dealloc_21SLIM_BPR_Cython_Epoch_Triangular_Matrix(PyObject *o) {
+static void __pyx_tp_dealloc_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix(PyObject *o) {
   #if CYTHON_USE_TP_FINALIZE
   if (unlikely((PY_VERSION_HEX >= 0x03080000 || __Pyx_PyType_HasFeature(Py_TYPE(o), Py_TPFLAGS_HAVE_FINALIZE)) && __Pyx_PyObject_GetSlot(o, tp_finalize, destructor)) && (!PyType_IS_GC(Py_TYPE(o)) || !__Pyx_PyObject_GC_IsFinalized(o))) {
-    if (__Pyx_PyObject_GetSlot(o, tp_dealloc, destructor) == __pyx_tp_dealloc_21SLIM_BPR_Cython_Epoch_Triangular_Matrix) {
+    if (__Pyx_PyObject_GetSlot(o, tp_dealloc, destructor) == __pyx_tp_dealloc_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix) {
       if (PyObject_CallFinalizerFromDealloc(o)) return;
     }
   }
@@ -34356,35 +34351,35 @@ static void __pyx_tp_dealloc_21SLIM_BPR_Cython_Epoch_Triangular_Matrix(PyObject 
   #endif
 }
 
-static PyMethodDef __pyx_methods_21SLIM_BPR_Cython_Epoch_Triangular_Matrix[] = {
-  {"dealloc", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_3dealloc, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_2dealloc},
-  {"__reduce_cython__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_5__reduce_cython__, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
-  {"__setstate_cython__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_7__setstate_cython__, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
+static PyMethodDef __pyx_methods_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix[] = {
+  {"dealloc", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_3dealloc, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_2dealloc},
+  {"__reduce_cython__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_5__reduce_cython__, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
+  {"__setstate_cython__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_7__setstate_cython__, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
   {0, 0, 0, 0}
 };
 #if CYTHON_USE_TYPE_SPECS
-static PyType_Slot __pyx_type_21SLIM_BPR_Cython_Epoch_Triangular_Matrix_slots[] = {
-  {Py_tp_dealloc, (void *)__pyx_tp_dealloc_21SLIM_BPR_Cython_Epoch_Triangular_Matrix},
-  {Py_tp_methods, (void *)__pyx_methods_21SLIM_BPR_Cython_Epoch_Triangular_Matrix},
-  {Py_tp_init, (void *)__pyx_pw_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_1__init__},
-  {Py_tp_new, (void *)__pyx_tp_new_21SLIM_BPR_Cython_Epoch_Triangular_Matrix},
+static PyType_Slot __pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix_slots[] = {
+  {Py_tp_dealloc, (void *)__pyx_tp_dealloc_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix},
+  {Py_tp_methods, (void *)__pyx_methods_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix},
+  {Py_tp_init, (void *)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_1__init__},
+  {Py_tp_new, (void *)__pyx_tp_new_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix},
   {0, 0},
 };
-static PyType_Spec __pyx_type_21SLIM_BPR_Cython_Epoch_Triangular_Matrix_spec = {
-  "SLIM_BPR_Cython_Epoch.Triangular_Matrix",
-  sizeof(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Triangular_Matrix),
+static PyType_Spec __pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix_spec = {
+  "RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.SLIM_BPR_Cython_Epoch.Triangular_Matrix",
+  sizeof(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix),
   0,
   Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_VERSION_TAG|Py_TPFLAGS_CHECKTYPES|Py_TPFLAGS_HAVE_NEWBUFFER|Py_TPFLAGS_BASETYPE,
-  __pyx_type_21SLIM_BPR_Cython_Epoch_Triangular_Matrix_slots,
+  __pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix_slots,
 };
 #else
 
-static PyTypeObject __pyx_type_21SLIM_BPR_Cython_Epoch_Triangular_Matrix = {
+static PyTypeObject __pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix = {
   PyVarObject_HEAD_INIT(0, 0)
-  "SLIM_BPR_Cython_Epoch.""Triangular_Matrix", /*tp_name*/
-  sizeof(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Triangular_Matrix), /*tp_basicsize*/
+  "RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.SLIM_BPR_Cython_Epoch.""Triangular_Matrix", /*tp_name*/
+  sizeof(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix), /*tp_basicsize*/
   0, /*tp_itemsize*/
-  __pyx_tp_dealloc_21SLIM_BPR_Cython_Epoch_Triangular_Matrix, /*tp_dealloc*/
+  __pyx_tp_dealloc_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix, /*tp_dealloc*/
   #if PY_VERSION_HEX < 0x030800b4
   0, /*tp_print*/
   #endif
@@ -34417,7 +34412,7 @@ static PyTypeObject __pyx_type_21SLIM_BPR_Cython_Epoch_Triangular_Matrix = {
   0, /*tp_weaklistoffset*/
   0, /*tp_iter*/
   0, /*tp_iternext*/
-  __pyx_methods_21SLIM_BPR_Cython_Epoch_Triangular_Matrix, /*tp_methods*/
+  __pyx_methods_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix, /*tp_methods*/
   0, /*tp_members*/
   0, /*tp_getset*/
   0, /*tp_base*/
@@ -34427,9 +34422,9 @@ static PyTypeObject __pyx_type_21SLIM_BPR_Cython_Epoch_Triangular_Matrix = {
   #if !CYTHON_USE_TYPE_SPECS
   0, /*tp_dictoffset*/
   #endif
-  __pyx_pw_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_1__init__, /*tp_init*/
+  __pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_1__init__, /*tp_init*/
   0, /*tp_alloc*/
-  __pyx_tp_new_21SLIM_BPR_Cython_Epoch_Triangular_Matrix, /*tp_new*/
+  __pyx_tp_new_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix, /*tp_new*/
   0, /*tp_free*/
   0, /*tp_is_gc*/
   0, /*tp_bases*/
@@ -34601,7 +34596,7 @@ static PyType_Slot __pyx_type___pyx_array_slots[] = {
   {0, 0},
 };
 static PyType_Spec __pyx_type___pyx_array_spec = {
-  "SLIM_BPR_Cython_Epoch.array",
+  "RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.SLIM_BPR_Cython_Epoch.array",
   sizeof(struct __pyx_array_obj),
   0,
   Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_VERSION_TAG|Py_TPFLAGS_CHECKTYPES|Py_TPFLAGS_HAVE_NEWBUFFER|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_SEQUENCE,
@@ -34647,7 +34642,7 @@ static PyBufferProcs __pyx_tp_as_buffer_array = {
 
 static PyTypeObject __pyx_type___pyx_array = {
   PyVarObject_HEAD_INIT(0, 0)
-  "SLIM_BPR_Cython_Epoch.""array", /*tp_name*/
+  "RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.SLIM_BPR_Cython_Epoch.""array", /*tp_name*/
   sizeof(struct __pyx_array_obj), /*tp_basicsize*/
   0, /*tp_itemsize*/
   __pyx_tp_dealloc_array, /*tp_dealloc*/
@@ -34810,7 +34805,7 @@ static PyType_Slot __pyx_type___pyx_MemviewEnum_slots[] = {
   {0, 0},
 };
 static PyType_Spec __pyx_type___pyx_MemviewEnum_spec = {
-  "SLIM_BPR_Cython_Epoch.Enum",
+  "RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.SLIM_BPR_Cython_Epoch.Enum",
   sizeof(struct __pyx_MemviewEnum_obj),
   0,
   Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_VERSION_TAG|Py_TPFLAGS_CHECKTYPES|Py_TPFLAGS_HAVE_NEWBUFFER|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_HAVE_GC,
@@ -34820,7 +34815,7 @@ static PyType_Spec __pyx_type___pyx_MemviewEnum_spec = {
 
 static PyTypeObject __pyx_type___pyx_MemviewEnum = {
   PyVarObject_HEAD_INIT(0, 0)
-  "SLIM_BPR_Cython_Epoch.""Enum", /*tp_name*/
+  "RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.SLIM_BPR_Cython_Epoch.""Enum", /*tp_name*/
   sizeof(struct __pyx_MemviewEnum_obj), /*tp_basicsize*/
   0, /*tp_itemsize*/
   __pyx_tp_dealloc_Enum, /*tp_dealloc*/
@@ -35120,7 +35115,7 @@ static PyType_Slot __pyx_type___pyx_memoryview_slots[] = {
   {0, 0},
 };
 static PyType_Spec __pyx_type___pyx_memoryview_spec = {
-  "SLIM_BPR_Cython_Epoch.memoryview",
+  "RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.SLIM_BPR_Cython_Epoch.memoryview",
   sizeof(struct __pyx_memoryview_obj),
   0,
   Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_VERSION_TAG|Py_TPFLAGS_CHECKTYPES|Py_TPFLAGS_HAVE_NEWBUFFER|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_HAVE_GC,
@@ -35166,7 +35161,7 @@ static PyBufferProcs __pyx_tp_as_buffer_memoryview = {
 
 static PyTypeObject __pyx_type___pyx_memoryview = {
   PyVarObject_HEAD_INIT(0, 0)
-  "SLIM_BPR_Cython_Epoch.""memoryview", /*tp_name*/
+  "RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.SLIM_BPR_Cython_Epoch.""memoryview", /*tp_name*/
   sizeof(struct __pyx_memoryview_obj), /*tp_basicsize*/
   0, /*tp_itemsize*/
   __pyx_tp_dealloc_memoryview, /*tp_dealloc*/
@@ -35321,7 +35316,7 @@ static PyType_Slot __pyx_type___pyx_memoryviewslice_slots[] = {
   {0, 0},
 };
 static PyType_Spec __pyx_type___pyx_memoryviewslice_spec = {
-  "SLIM_BPR_Cython_Epoch._memoryviewslice",
+  "RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.SLIM_BPR_Cython_Epoch._memoryviewslice",
   sizeof(struct __pyx_memoryviewslice_obj),
   0,
   Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_VERSION_TAG|Py_TPFLAGS_CHECKTYPES|Py_TPFLAGS_HAVE_NEWBUFFER|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_SEQUENCE,
@@ -35331,7 +35326,7 @@ static PyType_Spec __pyx_type___pyx_memoryviewslice_spec = {
 
 static PyTypeObject __pyx_type___pyx_memoryviewslice = {
   PyVarObject_HEAD_INIT(0, 0)
-  "SLIM_BPR_Cython_Epoch.""_memoryviewslice", /*tp_name*/
+  "RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.SLIM_BPR_Cython_Epoch.""_memoryviewslice", /*tp_name*/
   sizeof(struct __pyx_memoryviewslice_obj), /*tp_basicsize*/
   0, /*tp_itemsize*/
   __pyx_tp_dealloc__memoryviewslice, /*tp_dealloc*/
@@ -35481,6 +35476,7 @@ static int __Pyx_CreateStringTabAndInitStrings(void) {
     {&__pyx_kp_u_Out_of_bounds_on_buffer_access_a, __pyx_k_Out_of_bounds_on_buffer_access_a, sizeof(__pyx_k_Out_of_bounds_on_buffer_access_a), 0, 1, 0, 0},
     {&__pyx_n_s_PickleError, __pyx_k_PickleError, sizeof(__pyx_k_PickleError), 0, 0, 1, 1},
     {&__pyx_kp_s_Processed_4_1f_in_2f_BPR_loss_is, __pyx_k_Processed_4_1f_in_2f_BPR_loss_is, sizeof(__pyx_k_Processed_4_1f_in_2f_BPR_loss_is), 0, 0, 1, 0},
+    {&__pyx_n_s_RecSysCompetition2024Polimi_libs, __pyx_k_RecSysCompetition2024Polimi_libs, sizeof(__pyx_k_RecSysCompetition2024Polimi_libs), 0, 0, 1, 1},
     {&__pyx_n_s_Recommenders_Recommender_utils, __pyx_k_Recommenders_Recommender_utils, sizeof(__pyx_k_Recommenders_Recommender_utils), 0, 0, 1, 1},
     {&__pyx_n_s_SLIM_BPR_Cython_Epoch, __pyx_k_SLIM_BPR_Cython_Epoch, sizeof(__pyx_k_SLIM_BPR_Cython_Epoch), 0, 0, 1, 1},
     {&__pyx_n_s_SLIM_BPR_Cython_Epoch___reduce_c, __pyx_k_SLIM_BPR_Cython_Epoch___reduce_c, sizeof(__pyx_k_SLIM_BPR_Cython_Epoch___reduce_c), 0, 0, 1, 1},
@@ -35513,7 +35509,6 @@ static int __Pyx_CreateStringTabAndInitStrings(void) {
     {&__pyx_n_s_TypeError, __pyx_k_TypeError, sizeof(__pyx_k_TypeError), 0, 0, 1, 1},
     {&__pyx_n_s_URM_mask, __pyx_k_URM_mask, sizeof(__pyx_k_URM_mask), 0, 0, 1, 1},
     {&__pyx_kp_s_Unable_to_convert_item_to_object, __pyx_k_Unable_to_convert_item_to_object, sizeof(__pyx_k_Unable_to_convert_item_to_object), 0, 0, 1, 0},
-    {&__pyx_n_s_Utils_seconds_to_biggest_unit, __pyx_k_Utils_seconds_to_biggest_unit, sizeof(__pyx_k_Utils_seconds_to_biggest_unit), 0, 0, 1, 1},
     {&__pyx_n_s_ValueError, __pyx_k_ValueError, sizeof(__pyx_k_ValueError), 0, 0, 1, 1},
     {&__pyx_n_s_View_MemoryView, __pyx_k_View_MemoryView, sizeof(__pyx_k_View_MemoryView), 0, 0, 1, 1},
     {&__pyx_kp_u__2, __pyx_k__2, sizeof(__pyx_k__2), 0, 1, 0, 0},
@@ -35594,6 +35589,7 @@ static int __Pyx_CreateStringTabAndInitStrings(void) {
     {&__pyx_n_s_k, __pyx_k_k, sizeof(__pyx_k_k), 0, 0, 1, 1},
     {&__pyx_n_s_learning_rate, __pyx_k_learning_rate, sizeof(__pyx_k_learning_rate), 0, 0, 1, 1},
     {&__pyx_n_s_li_reg, __pyx_k_li_reg, sizeof(__pyx_k_li_reg), 0, 0, 1, 1},
+    {&__pyx_n_s_libs_Utils_seconds_to_biggest_un, __pyx_k_libs_Utils_seconds_to_biggest_un, sizeof(__pyx_k_libs_Utils_seconds_to_biggest_un), 0, 0, 1, 1},
     {&__pyx_n_s_lj_reg, __pyx_k_lj_reg, sizeof(__pyx_k_lj_reg), 0, 0, 1, 1},
     {&__pyx_n_s_local_gradient_i, __pyx_k_local_gradient_i, sizeof(__pyx_k_local_gradient_i), 0, 0, 1, 1},
     {&__pyx_n_s_local_gradient_j, __pyx_k_local_gradient_j, sizeof(__pyx_k_local_gradient_j), 0, 0, 1, 1},
@@ -35709,7 +35705,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedBuiltins(void) {
   __pyx_builtin_Ellipsis = __Pyx_GetBuiltinName(__pyx_n_s_Ellipsis); if (!__pyx_builtin_Ellipsis) __PYX_ERR(1, 408, __pyx_L1_error)
   __pyx_builtin_id = __Pyx_GetBuiltinName(__pyx_n_s_id); if (!__pyx_builtin_id) __PYX_ERR(1, 618, __pyx_L1_error)
   __pyx_builtin_IndexError = __Pyx_GetBuiltinName(__pyx_n_s_IndexError); if (!__pyx_builtin_IndexError) __PYX_ERR(1, 914, __pyx_L1_error)
-  __pyx_builtin_ImportError = __Pyx_GetBuiltinName(__pyx_n_s_ImportError); if (!__pyx_builtin_ImportError) __PYX_ERR(2, 987, __pyx_L1_error)
+  __pyx_builtin_ImportError = __Pyx_GetBuiltinName(__pyx_n_s_ImportError); if (!__pyx_builtin_ImportError) __PYX_ERR(2, 984, __pyx_L1_error)
   return 0;
   __pyx_L1_error:;
   return -1;
@@ -35756,29 +35752,29 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__8);
   __Pyx_GIVEREF(__pyx_tuple__8);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":987
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":984
  *         __pyx_import_array()
  *     except Exception:
  *         raise ImportError("numpy.core.multiarray failed to import")             # <<<<<<<<<<<<<<
  * 
  * cdef inline int import_umath() except -1:
  */
-  __pyx_tuple__9 = PyTuple_Pack(1, __pyx_kp_s_numpy_core_multiarray_failed_to); if (unlikely(!__pyx_tuple__9)) __PYX_ERR(2, 987, __pyx_L1_error)
+  __pyx_tuple__9 = PyTuple_Pack(1, __pyx_kp_s_numpy_core_multiarray_failed_to); if (unlikely(!__pyx_tuple__9)) __PYX_ERR(2, 984, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__9);
   __Pyx_GIVEREF(__pyx_tuple__9);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":993
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":990
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")             # <<<<<<<<<<<<<<
  * 
  * cdef inline int import_ufunc() except -1:
  */
-  __pyx_tuple__10 = PyTuple_Pack(1, __pyx_kp_s_numpy_core_umath_failed_to_impor); if (unlikely(!__pyx_tuple__10)) __PYX_ERR(2, 993, __pyx_L1_error)
+  __pyx_tuple__10 = PyTuple_Pack(1, __pyx_kp_s_numpy_core_umath_failed_to_impor); if (unlikely(!__pyx_tuple__10)) __PYX_ERR(2, 990, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__10);
   __Pyx_GIVEREF(__pyx_tuple__10);
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":195
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":195
  *     def _dealloc(self):
  * 
  *         print("Deallocating Cython objects")             # <<<<<<<<<<<<<<
@@ -35789,7 +35785,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__11);
   __Pyx_GIVEREF(__pyx_tuple__11);
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1074
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1074
  *                                                         numElements_higher, numElements_lower)
  * 
  *         print("Bidirectional list link - Passed")             # <<<<<<<<<<<<<<
@@ -35800,7 +35796,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__12);
   __Pyx_GIVEREF(__pyx_tuple__12);
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1085
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1085
  *                 'Columns not ordered correctly. Tree not flattened properly'
  * 
  *         print("Bidirectional list ordering - Passed")             # <<<<<<<<<<<<<<
@@ -35811,7 +35807,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__13);
   __Pyx_GIVEREF(__pyx_tuple__13);
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1106
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1106
  *             current_element = current_element.lower
  * 
  *         print("Bidirectional list from tree link - Passed")             # <<<<<<<<<<<<<<
@@ -35822,7 +35818,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__14);
   __Pyx_GIVEREF(__pyx_tuple__14);
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1129
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1129
  *                 'After tree construction data content is changed'
  * 
  *         print("Bidirectional list from tree ordering - Passed")             # <<<<<<<<<<<<<<
@@ -35833,7 +35829,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__15);
   __Pyx_GIVEREF(__pyx_tuple__15);
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1155
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1155
  *             "TopK extracted list is longer than desired value. Desired is {}, while list is {}".format(topK, len(column_topK))
  * 
  *         print("TopK extracted length - Passed")             # <<<<<<<<<<<<<<
@@ -35844,7 +35840,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__16);
   __Pyx_GIVEREF(__pyx_tuple__16);
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1186
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1186
  *                 " Extracted list lenght is {}, while numpy is {}".format(index, data_topK[index], data_topK_numpy[index])
  * 
  *         print("TopK extracted content - Passed")             # <<<<<<<<<<<<<<
@@ -35855,7 +35851,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__17);
   __Pyx_GIVEREF(__pyx_tuple__17);
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1351
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1351
  *         cdef long row, col, index
  * 
  *         cdef array[float] template_zero = array('f')             # <<<<<<<<<<<<<<
@@ -35978,7 +35974,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__29);
   __pyx_codeobj__30 = (PyObject*)__Pyx_PyCode_New(3, 0, 0, 5, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__29, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_stringsource, __pyx_n_s_pyx_unpickle_Enum, 1, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__30)) __PYX_ERR(1, 1, __pyx_L1_error)
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":138
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":138
  * 
  * 
  *     def _init_adaptive_gradient_cache(self, sgd_mode, gamma, beta_1, beta_2):             # <<<<<<<<<<<<<<
@@ -35990,7 +35986,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__31);
   __pyx_codeobj__32 = (PyObject*)__Pyx_PyCode_New(5, 0, 0, 5, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__31, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_SLIM_BPR_Cython_Epoch_pyx, __pyx_n_s_init_adaptive_gradient_cache, 138, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__32)) __PYX_ERR(0, 138, __pyx_L1_error)
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":193
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":193
  * 
  * 
  *     def _dealloc(self):             # <<<<<<<<<<<<<<
@@ -36002,7 +35998,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__33);
   __pyx_codeobj__34 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 1, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__33, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_SLIM_BPR_Cython_Epoch_pyx, __pyx_n_s_dealloc, 193, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__34)) __PYX_ERR(0, 193, __pyx_L1_error)
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":210
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":210
  * 
  * 
  *     def epochIteration_Cython(self):             # <<<<<<<<<<<<<<
@@ -36014,7 +36010,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__35);
   __pyx_codeobj__36 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 17, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__35, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_SLIM_BPR_Cython_Epoch_pyx, __pyx_n_s_epochIteration_Cython, 210, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__36)) __PYX_ERR(0, 210, __pyx_L1_error)
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":339
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":339
  * 
  * 
  *     def get_S(self):             # <<<<<<<<<<<<<<
@@ -36047,7 +36043,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__41);
   __pyx_codeobj__42 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__41, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_stringsource, __pyx_n_s_setstate_cython, 16, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__42)) __PYX_ERR(1, 16, __pyx_L1_error)
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":489
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":489
  * ##################################################################################################################
  * 
  * import scipy.sparse as sps             # <<<<<<<<<<<<<<
@@ -36058,7 +36054,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__43);
   __Pyx_GIVEREF(__pyx_tuple__43);
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":599
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":599
  * 
  * 
  *     def dealloc(self):             # <<<<<<<<<<<<<<
@@ -36070,7 +36066,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__44);
   __pyx_codeobj__45 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__44, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_SLIM_BPR_Cython_Epoch_pyx, __pyx_n_s_dealloc_2, 599, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__45)) __PYX_ERR(0, 599, __pyx_L1_error)
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1044
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1044
  * 
  * 
  *     cpdef test_list_tee_conversion(self, long row):             # <<<<<<<<<<<<<<
@@ -36082,7 +36078,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__46);
   __pyx_codeobj__47 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__46, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_SLIM_BPR_Cython_Epoch_pyx, __pyx_n_s_test_list_tee_conversion, 1044, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__47)) __PYX_ERR(0, 1044, __pyx_L1_error)
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1133
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1133
  * 
  * 
  *     cpdef test_topK_from_list_selection(self, long row, long topK):             # <<<<<<<<<<<<<<
@@ -36109,7 +36105,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  */
   __pyx_codeobj__51 = (PyObject*)__Pyx_PyCode_New(2, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__41, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_stringsource, __pyx_n_s_setstate_cython, 3, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__51)) __PYX_ERR(1, 3, __pyx_L1_error)
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1261
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1261
  * 
  * 
  *     def dealloc(self):             # <<<<<<<<<<<<<<
@@ -36248,106 +36244,106 @@ static int __Pyx_modinit_type_init_code(void) {
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__Pyx_modinit_type_init_code", 0);
   /*--- Type init code ---*/
-  __pyx_vtabptr_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch = &__pyx_vtable_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch;
-  __pyx_vtable_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch.adaptive_gradient = (float (*)(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *, float, long, __Pyx_memviewslice, __Pyx_memviewslice, __Pyx_memviewslice))__pyx_f_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_adaptive_gradient;
-  __pyx_vtable_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch.sampleBPR_Cython = (struct __pyx_t_21SLIM_BPR_Cython_Epoch_BPR_sample (*)(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *))__pyx_f_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_sampleBPR_Cython;
+  __pyx_vtabptr_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch = &__pyx_vtable_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch;
+  __pyx_vtable_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch.adaptive_gradient = (float (*)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *, float, long, __Pyx_memviewslice, __Pyx_memviewslice, __Pyx_memviewslice))__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_adaptive_gradient;
+  __pyx_vtable_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch.sampleBPR_Cython = (struct __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_BPR_sample (*)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch *))__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_sampleBPR_Cython;
   #if CYTHON_USE_TYPE_SPECS
-  __pyx_ptype_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch = (PyTypeObject *) __Pyx_PyType_FromModuleAndSpec(__pyx_m, &__pyx_type_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch_spec, NULL); if (unlikely(!__pyx_ptype_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch)) __PYX_ERR(0, 60, __pyx_L1_error)
-  if (__Pyx_fix_up_extension_type_from_spec(&__pyx_type_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch_spec, __pyx_ptype_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch) < 0) __PYX_ERR(0, 60, __pyx_L1_error)
+  __pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch = (PyTypeObject *) __Pyx_PyType_FromModuleAndSpec(__pyx_m, &__pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch_spec, NULL); if (unlikely(!__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch)) __PYX_ERR(0, 60, __pyx_L1_error)
+  if (__Pyx_fix_up_extension_type_from_spec(&__pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch_spec, __pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch) < 0) __PYX_ERR(0, 60, __pyx_L1_error)
   #else
-  __pyx_ptype_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch = &__pyx_type_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch;
+  __pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch = &__pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch;
   #endif
   #if !CYTHON_COMPILING_IN_LIMITED_API
   #endif
   #if !CYTHON_USE_TYPE_SPECS
-  if (__Pyx_PyType_Ready(__pyx_ptype_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch) < 0) __PYX_ERR(0, 60, __pyx_L1_error)
+  if (__Pyx_PyType_Ready(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch) < 0) __PYX_ERR(0, 60, __pyx_L1_error)
   #endif
   #if PY_MAJOR_VERSION < 3
-  __pyx_ptype_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch->tp_print = 0;
+  __pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch->tp_print = 0;
   #endif
   #if !CYTHON_COMPILING_IN_LIMITED_API
-  if ((CYTHON_USE_TYPE_SLOTS && CYTHON_USE_PYTYPE_LOOKUP) && likely(!__pyx_ptype_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch->tp_dictoffset && __pyx_ptype_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch->tp_getattro == PyObject_GenericGetAttr)) {
-    __pyx_ptype_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch->tp_getattro = __Pyx_PyObject_GenericGetAttr;
+  if ((CYTHON_USE_TYPE_SLOTS && CYTHON_USE_PYTYPE_LOOKUP) && likely(!__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch->tp_dictoffset && __pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch->tp_getattro == PyObject_GenericGetAttr)) {
+    __pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch->tp_getattro = __Pyx_PyObject_GenericGetAttr;
   }
   #endif
-  if (__Pyx_SetVtable(__pyx_ptype_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch, __pyx_vtabptr_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch) < 0) __PYX_ERR(0, 60, __pyx_L1_error)
+  if (__Pyx_SetVtable(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch, __pyx_vtabptr_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch) < 0) __PYX_ERR(0, 60, __pyx_L1_error)
   #if !CYTHON_COMPILING_IN_LIMITED_API
-  if (__Pyx_MergeVtables(__pyx_ptype_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch) < 0) __PYX_ERR(0, 60, __pyx_L1_error)
+  if (__Pyx_MergeVtables(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch) < 0) __PYX_ERR(0, 60, __pyx_L1_error)
   #endif
-  if (PyObject_SetAttr(__pyx_m, __pyx_n_s_SLIM_BPR_Cython_Epoch, (PyObject *) __pyx_ptype_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch) < 0) __PYX_ERR(0, 60, __pyx_L1_error)
+  if (PyObject_SetAttr(__pyx_m, __pyx_n_s_SLIM_BPR_Cython_Epoch, (PyObject *) __pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch) < 0) __PYX_ERR(0, 60, __pyx_L1_error)
   #if !CYTHON_COMPILING_IN_LIMITED_API
-  if (__Pyx_setup_reduce((PyObject *) __pyx_ptype_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch) < 0) __PYX_ERR(0, 60, __pyx_L1_error)
+  if (__Pyx_setup_reduce((PyObject *) __pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch) < 0) __PYX_ERR(0, 60, __pyx_L1_error)
   #endif
-  __pyx_vtabptr_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR = &__pyx_vtable_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR;
-  __pyx_vtable_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR.add_value = (float (*)(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *, long, long, float))__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_add_value;
-  __pyx_vtable_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR.get_value = (float (*)(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *, long, long))__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_get_value;
-  __pyx_vtable_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR.get_scipy_csr = (PyObject *(*)(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *, struct __pyx_opt_args_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_get_scipy_csr *__pyx_optional_args))__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_get_scipy_csr;
-  __pyx_vtable_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR.rebalance_tree = (PyObject *(*)(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *, struct __pyx_opt_args_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_rebalance_tree *__pyx_optional_args))__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_rebalance_tree;
-  __pyx_vtable_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR.subtree_to_list_flat = (__pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *(*)(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *, __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *))__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_subtree_to_list_flat;
-  __pyx_vtable_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR.from_linked_list_to_python_list = (PyObject *(*)(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *, __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *))__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_from_linked_list_to_python_list;
-  __pyx_vtable_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR.subtree_free_memory = (PyObject *(*)(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *, __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *))__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_subtree_free_memory;
-  __pyx_vtable_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR.list_free_memory = (PyObject *(*)(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *, __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *))__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_list_free_memory;
-  __pyx_vtable_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR.build_tree_from_list_flat = (__pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *(*)(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *, __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *))__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_build_tree_from_list_flat;
-  __pyx_vtable_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR.topK_selection_from_list = (__pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *(*)(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *, __pyx_t_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *, long))__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_topK_selection_from_list;
-  __pyx_vtable_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR.test_list_tee_conversion = (PyObject *(*)(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *, long, int __pyx_skip_dispatch))__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_list_tee_conversion;
-  __pyx_vtable_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR.test_topK_from_list_selection = (PyObject *(*)(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *, long, long, int __pyx_skip_dispatch))__pyx_f_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_topK_from_list_selection;
+  __pyx_vtabptr_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR = &__pyx_vtable_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR;
+  __pyx_vtable_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR.add_value = (float (*)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *, long, long, float))__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_add_value;
+  __pyx_vtable_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR.get_value = (float (*)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *, long, long))__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_get_value;
+  __pyx_vtable_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR.get_scipy_csr = (PyObject *(*)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *, struct __pyx_opt_args_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_get_scipy_csr *__pyx_optional_args))__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_get_scipy_csr;
+  __pyx_vtable_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR.rebalance_tree = (PyObject *(*)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *, struct __pyx_opt_args_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_rebalance_tree *__pyx_optional_args))__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_rebalance_tree;
+  __pyx_vtable_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR.subtree_to_list_flat = (__pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *(*)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *, __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *))__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_subtree_to_list_flat;
+  __pyx_vtable_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR.from_linked_list_to_python_list = (PyObject *(*)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *, __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *))__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_from_linked_list_to_python_list;
+  __pyx_vtable_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR.subtree_free_memory = (PyObject *(*)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *, __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *))__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_subtree_free_memory;
+  __pyx_vtable_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR.list_free_memory = (PyObject *(*)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *, __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *))__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_list_free_memory;
+  __pyx_vtable_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR.build_tree_from_list_flat = (__pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *(*)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *, __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *))__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_build_tree_from_list_flat;
+  __pyx_vtable_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR.topK_selection_from_list = (__pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *(*)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *, __pyx_t_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_matrix_element_tree_s *, long))__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_topK_selection_from_list;
+  __pyx_vtable_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR.test_list_tee_conversion = (PyObject *(*)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *, long, int __pyx_skip_dispatch))__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_list_tee_conversion;
+  __pyx_vtable_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR.test_topK_from_list_selection = (PyObject *(*)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR *, long, long, int __pyx_skip_dispatch))__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_test_topK_from_list_selection;
   #if CYTHON_USE_TYPE_SPECS
-  __pyx_ptype_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR = (PyTypeObject *) __Pyx_PyType_FromModuleAndSpec(__pyx_m, &__pyx_type_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR_spec, NULL); if (unlikely(!__pyx_ptype_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR)) __PYX_ERR(0, 578, __pyx_L1_error)
-  if (__Pyx_fix_up_extension_type_from_spec(&__pyx_type_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR_spec, __pyx_ptype_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR) < 0) __PYX_ERR(0, 578, __pyx_L1_error)
+  __pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR = (PyTypeObject *) __Pyx_PyType_FromModuleAndSpec(__pyx_m, &__pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR_spec, NULL); if (unlikely(!__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR)) __PYX_ERR(0, 578, __pyx_L1_error)
+  if (__Pyx_fix_up_extension_type_from_spec(&__pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR_spec, __pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR) < 0) __PYX_ERR(0, 578, __pyx_L1_error)
   #else
-  __pyx_ptype_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR = &__pyx_type_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR;
+  __pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR = &__pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR;
   #endif
   #if !CYTHON_COMPILING_IN_LIMITED_API
   #endif
   #if !CYTHON_USE_TYPE_SPECS
-  if (__Pyx_PyType_Ready(__pyx_ptype_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR) < 0) __PYX_ERR(0, 578, __pyx_L1_error)
+  if (__Pyx_PyType_Ready(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR) < 0) __PYX_ERR(0, 578, __pyx_L1_error)
   #endif
   #if PY_MAJOR_VERSION < 3
-  __pyx_ptype_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR->tp_print = 0;
+  __pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR->tp_print = 0;
   #endif
   #if !CYTHON_COMPILING_IN_LIMITED_API
-  if ((CYTHON_USE_TYPE_SLOTS && CYTHON_USE_PYTYPE_LOOKUP) && likely(!__pyx_ptype_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR->tp_dictoffset && __pyx_ptype_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR->tp_getattro == PyObject_GenericGetAttr)) {
-    __pyx_ptype_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR->tp_getattro = __Pyx_PyObject_GenericGetAttr;
+  if ((CYTHON_USE_TYPE_SLOTS && CYTHON_USE_PYTYPE_LOOKUP) && likely(!__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR->tp_dictoffset && __pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR->tp_getattro == PyObject_GenericGetAttr)) {
+    __pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR->tp_getattro = __Pyx_PyObject_GenericGetAttr;
   }
   #endif
-  if (__Pyx_SetVtable(__pyx_ptype_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR, __pyx_vtabptr_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR) < 0) __PYX_ERR(0, 578, __pyx_L1_error)
+  if (__Pyx_SetVtable(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR, __pyx_vtabptr_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR) < 0) __PYX_ERR(0, 578, __pyx_L1_error)
   #if !CYTHON_COMPILING_IN_LIMITED_API
-  if (__Pyx_MergeVtables(__pyx_ptype_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR) < 0) __PYX_ERR(0, 578, __pyx_L1_error)
+  if (__Pyx_MergeVtables(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR) < 0) __PYX_ERR(0, 578, __pyx_L1_error)
   #endif
-  if (PyObject_SetAttr(__pyx_m, __pyx_n_s_Sparse_Matrix_Tree_CSR, (PyObject *) __pyx_ptype_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR) < 0) __PYX_ERR(0, 578, __pyx_L1_error)
+  if (PyObject_SetAttr(__pyx_m, __pyx_n_s_Sparse_Matrix_Tree_CSR, (PyObject *) __pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR) < 0) __PYX_ERR(0, 578, __pyx_L1_error)
   #if !CYTHON_COMPILING_IN_LIMITED_API
-  if (__Pyx_setup_reduce((PyObject *) __pyx_ptype_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR) < 0) __PYX_ERR(0, 578, __pyx_L1_error)
+  if (__Pyx_setup_reduce((PyObject *) __pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR) < 0) __PYX_ERR(0, 578, __pyx_L1_error)
   #endif
-  __pyx_vtabptr_21SLIM_BPR_Cython_Epoch_Triangular_Matrix = &__pyx_vtable_21SLIM_BPR_Cython_Epoch_Triangular_Matrix;
-  __pyx_vtable_21SLIM_BPR_Cython_Epoch_Triangular_Matrix.add_value = (float (*)(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *, long, long, float))__pyx_f_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_add_value;
-  __pyx_vtable_21SLIM_BPR_Cython_Epoch_Triangular_Matrix.get_value = (float (*)(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *, long, long))__pyx_f_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_get_value;
-  __pyx_vtable_21SLIM_BPR_Cython_Epoch_Triangular_Matrix.get_scipy_csr = (PyObject *(*)(struct __pyx_obj_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *, struct __pyx_opt_args_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_get_scipy_csr *__pyx_optional_args))__pyx_f_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_get_scipy_csr;
+  __pyx_vtabptr_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix = &__pyx_vtable_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix;
+  __pyx_vtable_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix.add_value = (float (*)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *, long, long, float))__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_add_value;
+  __pyx_vtable_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix.get_value = (float (*)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *, long, long))__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_get_value;
+  __pyx_vtable_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix.get_scipy_csr = (PyObject *(*)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix *, struct __pyx_opt_args_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_get_scipy_csr *__pyx_optional_args))__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_get_scipy_csr;
   #if CYTHON_USE_TYPE_SPECS
-  __pyx_ptype_21SLIM_BPR_Cython_Epoch_Triangular_Matrix = (PyTypeObject *) __Pyx_PyType_FromModuleAndSpec(__pyx_m, &__pyx_type_21SLIM_BPR_Cython_Epoch_Triangular_Matrix_spec, NULL); if (unlikely(!__pyx_ptype_21SLIM_BPR_Cython_Epoch_Triangular_Matrix)) __PYX_ERR(0, 1222, __pyx_L1_error)
-  if (__Pyx_fix_up_extension_type_from_spec(&__pyx_type_21SLIM_BPR_Cython_Epoch_Triangular_Matrix_spec, __pyx_ptype_21SLIM_BPR_Cython_Epoch_Triangular_Matrix) < 0) __PYX_ERR(0, 1222, __pyx_L1_error)
+  __pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix = (PyTypeObject *) __Pyx_PyType_FromModuleAndSpec(__pyx_m, &__pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix_spec, NULL); if (unlikely(!__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix)) __PYX_ERR(0, 1222, __pyx_L1_error)
+  if (__Pyx_fix_up_extension_type_from_spec(&__pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix_spec, __pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix) < 0) __PYX_ERR(0, 1222, __pyx_L1_error)
   #else
-  __pyx_ptype_21SLIM_BPR_Cython_Epoch_Triangular_Matrix = &__pyx_type_21SLIM_BPR_Cython_Epoch_Triangular_Matrix;
+  __pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix = &__pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix;
   #endif
   #if !CYTHON_COMPILING_IN_LIMITED_API
   #endif
   #if !CYTHON_USE_TYPE_SPECS
-  if (__Pyx_PyType_Ready(__pyx_ptype_21SLIM_BPR_Cython_Epoch_Triangular_Matrix) < 0) __PYX_ERR(0, 1222, __pyx_L1_error)
+  if (__Pyx_PyType_Ready(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix) < 0) __PYX_ERR(0, 1222, __pyx_L1_error)
   #endif
   #if PY_MAJOR_VERSION < 3
-  __pyx_ptype_21SLIM_BPR_Cython_Epoch_Triangular_Matrix->tp_print = 0;
+  __pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix->tp_print = 0;
   #endif
   #if !CYTHON_COMPILING_IN_LIMITED_API
-  if ((CYTHON_USE_TYPE_SLOTS && CYTHON_USE_PYTYPE_LOOKUP) && likely(!__pyx_ptype_21SLIM_BPR_Cython_Epoch_Triangular_Matrix->tp_dictoffset && __pyx_ptype_21SLIM_BPR_Cython_Epoch_Triangular_Matrix->tp_getattro == PyObject_GenericGetAttr)) {
-    __pyx_ptype_21SLIM_BPR_Cython_Epoch_Triangular_Matrix->tp_getattro = __Pyx_PyObject_GenericGetAttr;
+  if ((CYTHON_USE_TYPE_SLOTS && CYTHON_USE_PYTYPE_LOOKUP) && likely(!__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix->tp_dictoffset && __pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix->tp_getattro == PyObject_GenericGetAttr)) {
+    __pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix->tp_getattro = __Pyx_PyObject_GenericGetAttr;
   }
   #endif
-  if (__Pyx_SetVtable(__pyx_ptype_21SLIM_BPR_Cython_Epoch_Triangular_Matrix, __pyx_vtabptr_21SLIM_BPR_Cython_Epoch_Triangular_Matrix) < 0) __PYX_ERR(0, 1222, __pyx_L1_error)
+  if (__Pyx_SetVtable(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix, __pyx_vtabptr_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix) < 0) __PYX_ERR(0, 1222, __pyx_L1_error)
   #if !CYTHON_COMPILING_IN_LIMITED_API
-  if (__Pyx_MergeVtables(__pyx_ptype_21SLIM_BPR_Cython_Epoch_Triangular_Matrix) < 0) __PYX_ERR(0, 1222, __pyx_L1_error)
+  if (__Pyx_MergeVtables(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix) < 0) __PYX_ERR(0, 1222, __pyx_L1_error)
   #endif
-  if (PyObject_SetAttr(__pyx_m, __pyx_n_s_Triangular_Matrix, (PyObject *) __pyx_ptype_21SLIM_BPR_Cython_Epoch_Triangular_Matrix) < 0) __PYX_ERR(0, 1222, __pyx_L1_error)
+  if (PyObject_SetAttr(__pyx_m, __pyx_n_s_Triangular_Matrix, (PyObject *) __pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix) < 0) __PYX_ERR(0, 1222, __pyx_L1_error)
   #if !CYTHON_COMPILING_IN_LIMITED_API
-  if (__Pyx_setup_reduce((PyObject *) __pyx_ptype_21SLIM_BPR_Cython_Epoch_Triangular_Matrix) < 0) __PYX_ERR(0, 1222, __pyx_L1_error)
+  if (__Pyx_setup_reduce((PyObject *) __pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix) < 0) __PYX_ERR(0, 1222, __pyx_L1_error)
   #endif
   __pyx_vtabptr_array = &__pyx_vtable_array;
   __pyx_vtable_array.get_memview = (PyObject *(*)(struct __pyx_array_obj *))__pyx_array_get_memview;
@@ -36517,23 +36513,23 @@ static int __Pyx_modinit_type_import_code(void) {
   #endif
   __Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_7cpython_4type_type) __PYX_ERR(4, 9, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_1 = PyImport_ImportModule("numpy"); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 203, __pyx_L1_error)
+  __pyx_t_1 = PyImport_ImportModule("numpy"); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 202, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_ptype_5numpy_dtype = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "dtype", sizeof(PyArray_Descr), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyArray_Descr),__Pyx_ImportType_CheckSize_Ignore_3_0_11); if (!__pyx_ptype_5numpy_dtype) __PYX_ERR(2, 203, __pyx_L1_error)
-  __pyx_ptype_5numpy_flatiter = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "flatiter", sizeof(PyArrayIterObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyArrayIterObject),__Pyx_ImportType_CheckSize_Ignore_3_0_11); if (!__pyx_ptype_5numpy_flatiter) __PYX_ERR(2, 226, __pyx_L1_error)
-  __pyx_ptype_5numpy_broadcast = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "broadcast", sizeof(PyArrayMultiIterObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyArrayMultiIterObject),__Pyx_ImportType_CheckSize_Ignore_3_0_11); if (!__pyx_ptype_5numpy_broadcast) __PYX_ERR(2, 230, __pyx_L1_error)
-  __pyx_ptype_5numpy_ndarray = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "ndarray", sizeof(PyArrayObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyArrayObject),__Pyx_ImportType_CheckSize_Ignore_3_0_11); if (!__pyx_ptype_5numpy_ndarray) __PYX_ERR(2, 239, __pyx_L1_error)
-  __pyx_ptype_5numpy_generic = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "generic", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_generic) __PYX_ERR(2, 813, __pyx_L1_error)
-  __pyx_ptype_5numpy_number = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "number", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_number) __PYX_ERR(2, 815, __pyx_L1_error)
-  __pyx_ptype_5numpy_integer = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "integer", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_integer) __PYX_ERR(2, 817, __pyx_L1_error)
-  __pyx_ptype_5numpy_signedinteger = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "signedinteger", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_signedinteger) __PYX_ERR(2, 819, __pyx_L1_error)
-  __pyx_ptype_5numpy_unsignedinteger = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "unsignedinteger", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_unsignedinteger) __PYX_ERR(2, 821, __pyx_L1_error)
-  __pyx_ptype_5numpy_inexact = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "inexact", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_inexact) __PYX_ERR(2, 823, __pyx_L1_error)
-  __pyx_ptype_5numpy_floating = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "floating", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_floating) __PYX_ERR(2, 825, __pyx_L1_error)
-  __pyx_ptype_5numpy_complexfloating = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "complexfloating", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_complexfloating) __PYX_ERR(2, 827, __pyx_L1_error)
-  __pyx_ptype_5numpy_flexible = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "flexible", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_flexible) __PYX_ERR(2, 829, __pyx_L1_error)
-  __pyx_ptype_5numpy_character = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "character", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_character) __PYX_ERR(2, 831, __pyx_L1_error)
-  __pyx_ptype_5numpy_ufunc = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "ufunc", sizeof(PyUFuncObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyUFuncObject),__Pyx_ImportType_CheckSize_Ignore_3_0_11); if (!__pyx_ptype_5numpy_ufunc) __PYX_ERR(2, 869, __pyx_L1_error)
+  __pyx_ptype_5numpy_dtype = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "dtype", sizeof(PyArray_Descr), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyArray_Descr),__Pyx_ImportType_CheckSize_Ignore_3_0_11); if (!__pyx_ptype_5numpy_dtype) __PYX_ERR(2, 202, __pyx_L1_error)
+  __pyx_ptype_5numpy_flatiter = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "flatiter", sizeof(PyArrayIterObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyArrayIterObject),__Pyx_ImportType_CheckSize_Ignore_3_0_11); if (!__pyx_ptype_5numpy_flatiter) __PYX_ERR(2, 225, __pyx_L1_error)
+  __pyx_ptype_5numpy_broadcast = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "broadcast", sizeof(PyArrayMultiIterObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyArrayMultiIterObject),__Pyx_ImportType_CheckSize_Ignore_3_0_11); if (!__pyx_ptype_5numpy_broadcast) __PYX_ERR(2, 229, __pyx_L1_error)
+  __pyx_ptype_5numpy_ndarray = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "ndarray", sizeof(PyArrayObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyArrayObject),__Pyx_ImportType_CheckSize_Ignore_3_0_11); if (!__pyx_ptype_5numpy_ndarray) __PYX_ERR(2, 238, __pyx_L1_error)
+  __pyx_ptype_5numpy_generic = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "generic", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_generic) __PYX_ERR(2, 809, __pyx_L1_error)
+  __pyx_ptype_5numpy_number = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "number", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_number) __PYX_ERR(2, 811, __pyx_L1_error)
+  __pyx_ptype_5numpy_integer = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "integer", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_integer) __PYX_ERR(2, 813, __pyx_L1_error)
+  __pyx_ptype_5numpy_signedinteger = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "signedinteger", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_signedinteger) __PYX_ERR(2, 815, __pyx_L1_error)
+  __pyx_ptype_5numpy_unsignedinteger = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "unsignedinteger", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_unsignedinteger) __PYX_ERR(2, 817, __pyx_L1_error)
+  __pyx_ptype_5numpy_inexact = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "inexact", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_inexact) __PYX_ERR(2, 819, __pyx_L1_error)
+  __pyx_ptype_5numpy_floating = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "floating", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_floating) __PYX_ERR(2, 821, __pyx_L1_error)
+  __pyx_ptype_5numpy_complexfloating = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "complexfloating", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_complexfloating) __PYX_ERR(2, 823, __pyx_L1_error)
+  __pyx_ptype_5numpy_flexible = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "flexible", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_flexible) __PYX_ERR(2, 825, __pyx_L1_error)
+  __pyx_ptype_5numpy_character = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "character", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_character) __PYX_ERR(2, 827, __pyx_L1_error)
+  __pyx_ptype_5numpy_ufunc = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "ufunc", sizeof(PyUFuncObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyUFuncObject),__Pyx_ImportType_CheckSize_Ignore_3_0_11); if (!__pyx_ptype_5numpy_ufunc) __PYX_ERR(2, 866, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_t_1 = PyImport_ImportModule("array"); if (unlikely(!__pyx_t_1)) __PYX_ERR(3, 69, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
@@ -36819,14 +36815,14 @@ if (!__Pyx_RefNanny) {
   #if PY_MAJOR_VERSION < 3 && (__PYX_DEFAULT_STRING_ENCODING_IS_ASCII || __PYX_DEFAULT_STRING_ENCODING_IS_DEFAULT)
   if (__Pyx_init_sys_getdefaultencoding_params() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   #endif
-  if (__pyx_module_is_main_SLIM_BPR_Cython_Epoch) {
+  if (__pyx_module_is_main_RecSysCompetition2024Polimi__libs__Recommenders__SLIM__Cython__SLIM_BPR_Cython_Epoch) {
     if (PyObject_SetAttr(__pyx_m, __pyx_n_s_name_2, __pyx_n_s_main) < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   }
   #if PY_MAJOR_VERSION >= 3
   {
     PyObject *modules = PyImport_GetModuleDict(); if (unlikely(!modules)) __PYX_ERR(0, 1, __pyx_L1_error)
-    if (!PyDict_GetItemString(modules, "SLIM_BPR_Cython_Epoch")) {
-      if (unlikely((PyDict_SetItemString(modules, "SLIM_BPR_Cython_Epoch", __pyx_m) < 0))) __PYX_ERR(0, 1, __pyx_L1_error)
+    if (!PyDict_GetItemString(modules, "RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.SLIM_BPR_Cython_Epoch")) {
+      if (unlikely((PyDict_SetItemString(modules, "RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.SLIM_BPR_Cython_Epoch", __pyx_m) < 0))) __PYX_ERR(0, 1, __pyx_L1_error)
     }
   }
   #endif
@@ -37360,11 +37356,11 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_pyx_unpickle_Enum, __pyx_t_7) < 0) __PYX_ERR(1, 1, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":34
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":34
  * 
  * 
  * from Recommenders.Recommender_utils import similarityMatrixTopK, check_matrix             # <<<<<<<<<<<<<<
- * from Utils.seconds_to_biggest_unit import seconds_to_biggest_unit
+ * from libs.Utils.seconds_to_biggest_unit import seconds_to_biggest_unit
  * import numpy as np
  */
   __pyx_t_7 = PyList_New(2); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 34, __pyx_L1_error)
@@ -37388,10 +37384,10 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":35
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":35
  * 
  * from Recommenders.Recommender_utils import similarityMatrixTopK, check_matrix
- * from Utils.seconds_to_biggest_unit import seconds_to_biggest_unit             # <<<<<<<<<<<<<<
+ * from libs.Utils.seconds_to_biggest_unit import seconds_to_biggest_unit             # <<<<<<<<<<<<<<
  * import numpy as np
  * import cython
  */
@@ -37400,7 +37396,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_INCREF(__pyx_n_s_seconds_to_biggest_unit);
   __Pyx_GIVEREF(__pyx_n_s_seconds_to_biggest_unit);
   if (__Pyx_PyList_SET_ITEM(__pyx_t_4, 0, __pyx_n_s_seconds_to_biggest_unit)) __PYX_ERR(0, 35, __pyx_L1_error);
-  __pyx_t_7 = __Pyx_Import(__pyx_n_s_Utils_seconds_to_biggest_unit, __pyx_t_4, 0); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 35, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_Import(__pyx_n_s_libs_Utils_seconds_to_biggest_un, __pyx_t_4, 0); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 35, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   __pyx_t_4 = __Pyx_ImportFrom(__pyx_t_7, __pyx_n_s_seconds_to_biggest_unit); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 35, __pyx_L1_error)
@@ -37409,9 +37405,9 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":36
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":36
  * from Recommenders.Recommender_utils import similarityMatrixTopK, check_matrix
- * from Utils.seconds_to_biggest_unit import seconds_to_biggest_unit
+ * from libs.Utils.seconds_to_biggest_unit import seconds_to_biggest_unit
  * import numpy as np             # <<<<<<<<<<<<<<
  * import cython
  * cimport numpy as np
@@ -37421,7 +37417,7 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_np, __pyx_t_7) < 0) __PYX_ERR(0, 36, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":39
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":39
  * import cython
  * cimport numpy as np
  * import time             # <<<<<<<<<<<<<<
@@ -37433,7 +37429,7 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_time, __pyx_t_7) < 0) __PYX_ERR(0, 39, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":40
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":40
  * cimport numpy as np
  * import time
  * import sys             # <<<<<<<<<<<<<<
@@ -37445,68 +37441,68 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_sys, __pyx_t_7) < 0) __PYX_ERR(0, 40, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":138
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":138
  * 
  * 
  *     def _init_adaptive_gradient_cache(self, sgd_mode, gamma, beta_1, beta_2):             # <<<<<<<<<<<<<<
  * 
  *         self.useAdaGrad = False
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_3_init_adaptive_gradient_cache, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_SLIM_BPR_Cython_Epoch__init_adap, NULL, __pyx_n_s_SLIM_BPR_Cython_Epoch, __pyx_d, ((PyObject *)__pyx_codeobj__32)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 138, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_3_init_adaptive_gradient_cache, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_SLIM_BPR_Cython_Epoch__init_adap, NULL, __pyx_n_s_RecSysCompetition2024Polimi_libs, __pyx_d, ((PyObject *)__pyx_codeobj__32)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 138, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
-  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch, __pyx_n_s_init_adaptive_gradient_cache, __pyx_t_7) < 0) __PYX_ERR(0, 138, __pyx_L1_error)
+  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch, __pyx_n_s_init_adaptive_gradient_cache, __pyx_t_7) < 0) __PYX_ERR(0, 138, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-  PyType_Modified(__pyx_ptype_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch);
+  PyType_Modified(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch);
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":193
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":193
  * 
  * 
  *     def _dealloc(self):             # <<<<<<<<<<<<<<
  * 
  *         print("Deallocating Cython objects")
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_7_dealloc, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_SLIM_BPR_Cython_Epoch__dealloc, NULL, __pyx_n_s_SLIM_BPR_Cython_Epoch, __pyx_d, ((PyObject *)__pyx_codeobj__34)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 193, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_7_dealloc, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_SLIM_BPR_Cython_Epoch__dealloc, NULL, __pyx_n_s_RecSysCompetition2024Polimi_libs, __pyx_d, ((PyObject *)__pyx_codeobj__34)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 193, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
-  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch, __pyx_n_s_dealloc, __pyx_t_7) < 0) __PYX_ERR(0, 193, __pyx_L1_error)
+  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch, __pyx_n_s_dealloc, __pyx_t_7) < 0) __PYX_ERR(0, 193, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-  PyType_Modified(__pyx_ptype_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch);
+  PyType_Modified(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch);
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":210
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":210
  * 
  * 
  *     def epochIteration_Cython(self):             # <<<<<<<<<<<<<<
  * 
  *         cdef long start_time_epoch = time.time()
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_9epochIteration_Cython, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_SLIM_BPR_Cython_Epoch_epochItera, NULL, __pyx_n_s_SLIM_BPR_Cython_Epoch, __pyx_d, ((PyObject *)__pyx_codeobj__36)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 210, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_9epochIteration_Cython, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_SLIM_BPR_Cython_Epoch_epochItera, NULL, __pyx_n_s_RecSysCompetition2024Polimi_libs, __pyx_d, ((PyObject *)__pyx_codeobj__36)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 210, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
-  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch, __pyx_n_s_epochIteration_Cython, __pyx_t_7) < 0) __PYX_ERR(0, 210, __pyx_L1_error)
+  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch, __pyx_n_s_epochIteration_Cython, __pyx_t_7) < 0) __PYX_ERR(0, 210, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-  PyType_Modified(__pyx_ptype_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch);
+  PyType_Modified(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch);
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":339
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":339
  * 
  * 
  *     def get_S(self):             # <<<<<<<<<<<<<<
  * 
  *         # FIll diagonal with zeros
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_11get_S, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_SLIM_BPR_Cython_Epoch_get_S, NULL, __pyx_n_s_SLIM_BPR_Cython_Epoch, __pyx_d, ((PyObject *)__pyx_codeobj__38)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 339, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_11get_S, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_SLIM_BPR_Cython_Epoch_get_S, NULL, __pyx_n_s_RecSysCompetition2024Polimi_libs, __pyx_d, ((PyObject *)__pyx_codeobj__38)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 339, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
-  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch, __pyx_n_s_get_S, __pyx_t_7) < 0) __PYX_ERR(0, 339, __pyx_L1_error)
+  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch, __pyx_n_s_get_S, __pyx_t_7) < 0) __PYX_ERR(0, 339, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-  PyType_Modified(__pyx_ptype_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch);
+  PyType_Modified(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch);
 
   /* "(tree fragment)":1
  * def __reduce_cython__(self):             # <<<<<<<<<<<<<<
  *     cdef tuple state
  *     cdef object _dict
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_13__reduce_cython__, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_SLIM_BPR_Cython_Epoch___reduce_c, NULL, __pyx_n_s_SLIM_BPR_Cython_Epoch, __pyx_d, ((PyObject *)__pyx_codeobj__40)); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 1, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_13__reduce_cython__, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_SLIM_BPR_Cython_Epoch___reduce_c, NULL, __pyx_n_s_RecSysCompetition2024Polimi_libs, __pyx_d, ((PyObject *)__pyx_codeobj__40)); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 1, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
-  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch, __pyx_n_s_reduce_cython, __pyx_t_7) < 0) __PYX_ERR(1, 1, __pyx_L1_error)
+  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch, __pyx_n_s_reduce_cython, __pyx_t_7) < 0) __PYX_ERR(1, 1, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-  PyType_Modified(__pyx_ptype_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch);
+  PyType_Modified(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch);
 
   /* "(tree fragment)":16
  *     else:
@@ -37514,13 +37510,13 @@ if (!__Pyx_RefNanny) {
  * def __setstate_cython__(self, __pyx_state):             # <<<<<<<<<<<<<<
  *     __pyx_unpickle_SLIM_BPR_Cython_Epoch__set_state(self, __pyx_state)
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_15__setstate_cython__, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_SLIM_BPR_Cython_Epoch___setstate, NULL, __pyx_n_s_SLIM_BPR_Cython_Epoch, __pyx_d, ((PyObject *)__pyx_codeobj__42)); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 16, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_21SLIM_BPR_Cython_Epoch_15__setstate_cython__, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_SLIM_BPR_Cython_Epoch___setstate, NULL, __pyx_n_s_RecSysCompetition2024Polimi_libs, __pyx_d, ((PyObject *)__pyx_codeobj__42)); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 16, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
-  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch, __pyx_n_s_setstate_cython, __pyx_t_7) < 0) __PYX_ERR(1, 16, __pyx_L1_error)
+  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch, __pyx_n_s_setstate_cython, __pyx_t_7) < 0) __PYX_ERR(1, 16, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-  PyType_Modified(__pyx_ptype_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch);
+  PyType_Modified(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_SLIM_BPR_Cython_Epoch);
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":489
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":489
  * ##################################################################################################################
  * 
  * import scipy.sparse as sps             # <<<<<<<<<<<<<<
@@ -37532,7 +37528,7 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_sps, __pyx_t_7) < 0) __PYX_ERR(0, 489, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":491
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":491
  * import scipy.sparse as sps
  * 
  * import numpy as np             # <<<<<<<<<<<<<<
@@ -37544,51 +37540,51 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_np, __pyx_t_7) < 0) __PYX_ERR(0, 491, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":599
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":599
  * 
  * 
  *     def dealloc(self):             # <<<<<<<<<<<<<<
  *         """
  *         Remove all PyMalloc allocaded memory
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_3dealloc, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_Sparse_Matrix_Tree_CSR_dealloc, NULL, __pyx_n_s_SLIM_BPR_Cython_Epoch, __pyx_d, ((PyObject *)__pyx_codeobj__45)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 599, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_3dealloc, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_Sparse_Matrix_Tree_CSR_dealloc, NULL, __pyx_n_s_RecSysCompetition2024Polimi_libs, __pyx_d, ((PyObject *)__pyx_codeobj__45)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 599, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
-  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR, __pyx_n_s_dealloc_2, __pyx_t_7) < 0) __PYX_ERR(0, 599, __pyx_L1_error)
+  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR, __pyx_n_s_dealloc_2, __pyx_t_7) < 0) __PYX_ERR(0, 599, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-  PyType_Modified(__pyx_ptype_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR);
+  PyType_Modified(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR);
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1044
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1044
  * 
  * 
  *     cpdef test_list_tee_conversion(self, long row):             # <<<<<<<<<<<<<<
  *         """
  *         The function tests the inner data structure conversion from tree to C linked list and back to tree
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_5test_list_tee_conversion, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_Sparse_Matrix_Tree_CSR_test_list, NULL, __pyx_n_s_SLIM_BPR_Cython_Epoch, __pyx_d, ((PyObject *)__pyx_codeobj__47)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1044, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_5test_list_tee_conversion, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_Sparse_Matrix_Tree_CSR_test_list, NULL, __pyx_n_s_RecSysCompetition2024Polimi_libs, __pyx_d, ((PyObject *)__pyx_codeobj__47)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1044, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
-  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR, __pyx_n_s_test_list_tee_conversion, __pyx_t_7) < 0) __PYX_ERR(0, 1044, __pyx_L1_error)
+  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR, __pyx_n_s_test_list_tee_conversion, __pyx_t_7) < 0) __PYX_ERR(0, 1044, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-  PyType_Modified(__pyx_ptype_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR);
+  PyType_Modified(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR);
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1133
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1133
  * 
  * 
  *     cpdef test_topK_from_list_selection(self, long row, long topK):             # <<<<<<<<<<<<<<
  *         """
  *         The function tests the topK selection from list
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_7test_topK_from_list_selection, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_Sparse_Matrix_Tree_CSR_test_topK, NULL, __pyx_n_s_SLIM_BPR_Cython_Epoch, __pyx_d, ((PyObject *)__pyx_codeobj__49)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1133, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_7test_topK_from_list_selection, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_Sparse_Matrix_Tree_CSR_test_topK, NULL, __pyx_n_s_RecSysCompetition2024Polimi_libs, __pyx_d, ((PyObject *)__pyx_codeobj__49)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1133, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
-  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR, __pyx_n_s_test_topK_from_list_selection, __pyx_t_7) < 0) __PYX_ERR(0, 1133, __pyx_L1_error)
+  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR, __pyx_n_s_test_topK_from_list_selection, __pyx_t_7) < 0) __PYX_ERR(0, 1133, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-  PyType_Modified(__pyx_ptype_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR);
+  PyType_Modified(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Sparse_Matrix_Tree_CSR);
 
   /* "(tree fragment)":1
  * def __reduce_cython__(self):             # <<<<<<<<<<<<<<
  *     raise TypeError, "self.row_pointer cannot be converted to a Python object for pickling"
  * def __setstate_cython__(self, __pyx_state):
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_9__reduce_cython__, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_Sparse_Matrix_Tree_CSR___reduce, NULL, __pyx_n_s_SLIM_BPR_Cython_Epoch, __pyx_d, ((PyObject *)__pyx_codeobj__50)); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 1, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_9__reduce_cython__, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_Sparse_Matrix_Tree_CSR___reduce, NULL, __pyx_n_s_RecSysCompetition2024Polimi_libs, __pyx_d, ((PyObject *)__pyx_codeobj__50)); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 1, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_reduce_cython, __pyx_t_7) < 0) __PYX_ERR(1, 1, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
@@ -37599,12 +37595,12 @@ if (!__Pyx_RefNanny) {
  * def __setstate_cython__(self, __pyx_state):             # <<<<<<<<<<<<<<
  *     raise TypeError, "self.row_pointer cannot be converted to a Python object for pickling"
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_11__setstate_cython__, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_Sparse_Matrix_Tree_CSR___setstat, NULL, __pyx_n_s_SLIM_BPR_Cython_Epoch, __pyx_d, ((PyObject *)__pyx_codeobj__51)); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 3, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_22Sparse_Matrix_Tree_CSR_11__setstate_cython__, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_Sparse_Matrix_Tree_CSR___setstat, NULL, __pyx_n_s_RecSysCompetition2024Polimi_libs, __pyx_d, ((PyObject *)__pyx_codeobj__51)); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 3, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_setstate_cython, __pyx_t_7) < 0) __PYX_ERR(1, 3, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1200
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1200
  * 
  * 
  * import scipy.sparse as sps             # <<<<<<<<<<<<<<
@@ -37616,7 +37612,7 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_sps, __pyx_t_7) < 0) __PYX_ERR(0, 1200, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1202
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1202
  * import scipy.sparse as sps
  * 
  * import numpy as np             # <<<<<<<<<<<<<<
@@ -37628,25 +37624,25 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_np, __pyx_t_7) < 0) __PYX_ERR(0, 1202, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1261
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1261
  * 
  * 
  *     def dealloc(self):             # <<<<<<<<<<<<<<
  *         """
  *         Remove all PyMalloc allocaded memory
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_3dealloc, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_Triangular_Matrix_dealloc, NULL, __pyx_n_s_SLIM_BPR_Cython_Epoch, __pyx_d, ((PyObject *)__pyx_codeobj__52)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1261, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_3dealloc, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_Triangular_Matrix_dealloc, NULL, __pyx_n_s_RecSysCompetition2024Polimi_libs, __pyx_d, ((PyObject *)__pyx_codeobj__52)); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 1261, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
-  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_21SLIM_BPR_Cython_Epoch_Triangular_Matrix, __pyx_n_s_dealloc_2, __pyx_t_7) < 0) __PYX_ERR(0, 1261, __pyx_L1_error)
+  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix, __pyx_n_s_dealloc_2, __pyx_t_7) < 0) __PYX_ERR(0, 1261, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-  PyType_Modified(__pyx_ptype_21SLIM_BPR_Cython_Epoch_Triangular_Matrix);
+  PyType_Modified(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_Triangular_Matrix);
 
   /* "(tree fragment)":1
  * def __reduce_cython__(self):             # <<<<<<<<<<<<<<
  *     raise TypeError, "self.row_pointer cannot be converted to a Python object for pickling"
  * def __setstate_cython__(self, __pyx_state):
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_5__reduce_cython__, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_Triangular_Matrix___reduce_cytho, NULL, __pyx_n_s_SLIM_BPR_Cython_Epoch, __pyx_d, ((PyObject *)__pyx_codeobj__53)); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 1, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_5__reduce_cython__, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_Triangular_Matrix___reduce_cytho, NULL, __pyx_n_s_RecSysCompetition2024Polimi_libs, __pyx_d, ((PyObject *)__pyx_codeobj__53)); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 1, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_reduce_cython, __pyx_t_7) < 0) __PYX_ERR(1, 1, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
@@ -37657,7 +37653,7 @@ if (!__Pyx_RefNanny) {
  * def __setstate_cython__(self, __pyx_state):             # <<<<<<<<<<<<<<
  *     raise TypeError, "self.row_pointer cannot be converted to a Python object for pickling"
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_7__setstate_cython__, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_Triangular_Matrix___setstate_cyt, NULL, __pyx_n_s_SLIM_BPR_Cython_Epoch, __pyx_d, ((PyObject *)__pyx_codeobj__54)); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 3, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_17Triangular_Matrix_7__setstate_cython__, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_Triangular_Matrix___setstate_cyt, NULL, __pyx_n_s_RecSysCompetition2024Polimi_libs, __pyx_d, ((PyObject *)__pyx_codeobj__54)); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 3, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_setstate_cython, __pyx_t_7) < 0) __PYX_ERR(1, 3, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
@@ -37667,12 +37663,12 @@ if (!__Pyx_RefNanny) {
  *     cdef object __pyx_PickleError
  *     cdef object __pyx_result
  */
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_21SLIM_BPR_Cython_Epoch_1__pyx_unpickle_SLIM_BPR_Cython_Epoch, 0, __pyx_n_s_pyx_unpickle_SLIM_BPR_Cython_E, NULL, __pyx_n_s_SLIM_BPR_Cython_Epoch, __pyx_d, ((PyObject *)__pyx_codeobj__55)); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 1, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_4SLIM_6Cython_21SLIM_BPR_Cython_Epoch_1__pyx_unpickle_SLIM_BPR_Cython_Epoch, 0, __pyx_n_s_pyx_unpickle_SLIM_BPR_Cython_E, NULL, __pyx_n_s_RecSysCompetition2024Polimi_libs, __pyx_d, ((PyObject *)__pyx_codeobj__55)); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 1, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_pyx_unpickle_SLIM_BPR_Cython_E, __pyx_t_7) < 0) __PYX_ERR(1, 1, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-  /* "SLIM_BPR_Cython_Epoch.pyx":1
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":1
  * """             # <<<<<<<<<<<<<<
  * Created on 07/09/17
  * 
@@ -37691,7 +37687,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_XDECREF(__pyx_t_7);
   if (__pyx_m) {
     if (__pyx_d && stringtab_initialized) {
-      __Pyx_AddTraceback("init SLIM_BPR_Cython_Epoch", __pyx_clineno, __pyx_lineno, __pyx_filename);
+      __Pyx_AddTraceback("init RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.SLIM_BPR_Cython_Epoch", __pyx_clineno, __pyx_lineno, __pyx_filename);
     }
     #if !CYTHON_USE_MODULE_STATE
     Py_CLEAR(__pyx_m);
@@ -37705,7 +37701,7 @@ if (!__Pyx_RefNanny) {
     }
     #endif
   } else if (!PyErr_Occurred()) {
-    PyErr_SetString(PyExc_ImportError, "init SLIM_BPR_Cython_Epoch");
+    PyErr_SetString(PyExc_ImportError, "init RecSysCompetition2024Polimi.libs.Recommenders.SLIM.Cython.SLIM_BPR_Cython_Epoch");
   }
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();

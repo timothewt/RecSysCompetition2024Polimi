@@ -1216,8 +1216,8 @@ static CYTHON_INLINE float __PYX_NAN() {
   #endif
 #endif
 
-#define __PYX_HAVE__CFW_DVV_Similarity_Cython_SGD
-#define __PYX_HAVE_API__CFW_DVV_Similarity_Cython_SGD
+#define __PYX_HAVE__RecSysCompetition2024Polimi__libs__Recommenders__FeatureWeighting__Cython__CFW_DVV_Similarity_Cython_SGD
+#define __PYX_HAVE_API__RecSysCompetition2024Polimi__libs__Recommenders__FeatureWeighting__Cython__CFW_DVV_Similarity_Cython_SGD
 /* Early includes */
 #include <string.h>
 #include <stdio.h>
@@ -1661,7 +1661,7 @@ typedef struct {
 
 /* #### Code section: numeric_typedefs ### */
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":732
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":730
  * # in Cython to enable them only on the right systems.
  * 
  * ctypedef npy_int8       int8_t             # <<<<<<<<<<<<<<
@@ -1670,7 +1670,7 @@ typedef struct {
  */
 typedef npy_int8 __pyx_t_5numpy_int8_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":733
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":731
  * 
  * ctypedef npy_int8       int8_t
  * ctypedef npy_int16      int16_t             # <<<<<<<<<<<<<<
@@ -1679,7 +1679,7 @@ typedef npy_int8 __pyx_t_5numpy_int8_t;
  */
 typedef npy_int16 __pyx_t_5numpy_int16_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":734
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":732
  * ctypedef npy_int8       int8_t
  * ctypedef npy_int16      int16_t
  * ctypedef npy_int32      int32_t             # <<<<<<<<<<<<<<
@@ -1688,7 +1688,7 @@ typedef npy_int16 __pyx_t_5numpy_int16_t;
  */
 typedef npy_int32 __pyx_t_5numpy_int32_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":735
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":733
  * ctypedef npy_int16      int16_t
  * ctypedef npy_int32      int32_t
  * ctypedef npy_int64      int64_t             # <<<<<<<<<<<<<<
@@ -1697,7 +1697,7 @@ typedef npy_int32 __pyx_t_5numpy_int32_t;
  */
 typedef npy_int64 __pyx_t_5numpy_int64_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":739
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":737
  * #ctypedef npy_int128     int128_t
  * 
  * ctypedef npy_uint8      uint8_t             # <<<<<<<<<<<<<<
@@ -1706,7 +1706,7 @@ typedef npy_int64 __pyx_t_5numpy_int64_t;
  */
 typedef npy_uint8 __pyx_t_5numpy_uint8_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":740
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":738
  * 
  * ctypedef npy_uint8      uint8_t
  * ctypedef npy_uint16     uint16_t             # <<<<<<<<<<<<<<
@@ -1715,7 +1715,7 @@ typedef npy_uint8 __pyx_t_5numpy_uint8_t;
  */
 typedef npy_uint16 __pyx_t_5numpy_uint16_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":741
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":739
  * ctypedef npy_uint8      uint8_t
  * ctypedef npy_uint16     uint16_t
  * ctypedef npy_uint32     uint32_t             # <<<<<<<<<<<<<<
@@ -1724,7 +1724,7 @@ typedef npy_uint16 __pyx_t_5numpy_uint16_t;
  */
 typedef npy_uint32 __pyx_t_5numpy_uint32_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":742
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":740
  * ctypedef npy_uint16     uint16_t
  * ctypedef npy_uint32     uint32_t
  * ctypedef npy_uint64     uint64_t             # <<<<<<<<<<<<<<
@@ -1733,7 +1733,7 @@ typedef npy_uint32 __pyx_t_5numpy_uint32_t;
  */
 typedef npy_uint64 __pyx_t_5numpy_uint64_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":746
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":744
  * #ctypedef npy_uint128    uint128_t
  * 
  * ctypedef npy_float32    float32_t             # <<<<<<<<<<<<<<
@@ -1742,7 +1742,7 @@ typedef npy_uint64 __pyx_t_5numpy_uint64_t;
  */
 typedef npy_float32 __pyx_t_5numpy_float32_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":747
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":745
  * 
  * ctypedef npy_float32    float32_t
  * ctypedef npy_float64    float64_t             # <<<<<<<<<<<<<<
@@ -1751,61 +1751,43 @@ typedef npy_float32 __pyx_t_5numpy_float32_t;
  */
 typedef npy_float64 __pyx_t_5numpy_float64_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":756
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":754
  * # The int types are mapped a bit surprising --
  * # numpy.int corresponds to 'l' and numpy.long to 'q'
  * ctypedef npy_long       int_t             # <<<<<<<<<<<<<<
- * ctypedef npy_longlong   long_t
- * ctypedef npy_longlong   longlong_t
- */
-typedef npy_long __pyx_t_5numpy_int_t;
-
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":757
- * # numpy.int corresponds to 'l' and numpy.long to 'q'
- * ctypedef npy_long       int_t
- * ctypedef npy_longlong   long_t             # <<<<<<<<<<<<<<
  * ctypedef npy_longlong   longlong_t
  * 
  */
-typedef npy_longlong __pyx_t_5numpy_long_t;
+typedef npy_long __pyx_t_5numpy_int_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":758
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":755
+ * # numpy.int corresponds to 'l' and numpy.long to 'q'
  * ctypedef npy_long       int_t
- * ctypedef npy_longlong   long_t
  * ctypedef npy_longlong   longlong_t             # <<<<<<<<<<<<<<
  * 
  * ctypedef npy_ulong      uint_t
  */
 typedef npy_longlong __pyx_t_5numpy_longlong_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":760
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":757
  * ctypedef npy_longlong   longlong_t
  * 
  * ctypedef npy_ulong      uint_t             # <<<<<<<<<<<<<<
- * ctypedef npy_ulonglong  ulong_t
  * ctypedef npy_ulonglong  ulonglong_t
+ * 
  */
 typedef npy_ulong __pyx_t_5numpy_uint_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":761
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":758
  * 
  * ctypedef npy_ulong      uint_t
- * ctypedef npy_ulonglong  ulong_t             # <<<<<<<<<<<<<<
- * ctypedef npy_ulonglong  ulonglong_t
- * 
- */
-typedef npy_ulonglong __pyx_t_5numpy_ulong_t;
-
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":762
- * ctypedef npy_ulong      uint_t
- * ctypedef npy_ulonglong  ulong_t
  * ctypedef npy_ulonglong  ulonglong_t             # <<<<<<<<<<<<<<
  * 
  * ctypedef npy_intp       intp_t
  */
 typedef npy_ulonglong __pyx_t_5numpy_ulonglong_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":764
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":760
  * ctypedef npy_ulonglong  ulonglong_t
  * 
  * ctypedef npy_intp       intp_t             # <<<<<<<<<<<<<<
@@ -1814,7 +1796,7 @@ typedef npy_ulonglong __pyx_t_5numpy_ulonglong_t;
  */
 typedef npy_intp __pyx_t_5numpy_intp_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":765
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":761
  * 
  * ctypedef npy_intp       intp_t
  * ctypedef npy_uintp      uintp_t             # <<<<<<<<<<<<<<
@@ -1823,7 +1805,7 @@ typedef npy_intp __pyx_t_5numpy_intp_t;
  */
 typedef npy_uintp __pyx_t_5numpy_uintp_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":767
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":763
  * ctypedef npy_uintp      uintp_t
  * 
  * ctypedef npy_double     float_t             # <<<<<<<<<<<<<<
@@ -1832,7 +1814,7 @@ typedef npy_uintp __pyx_t_5numpy_uintp_t;
  */
 typedef npy_double __pyx_t_5numpy_float_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":768
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":764
  * 
  * ctypedef npy_double     float_t
  * ctypedef npy_double     double_t             # <<<<<<<<<<<<<<
@@ -1841,7 +1823,7 @@ typedef npy_double __pyx_t_5numpy_float_t;
  */
 typedef npy_double __pyx_t_5numpy_double_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":769
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":765
  * ctypedef npy_double     float_t
  * ctypedef npy_double     double_t
  * ctypedef npy_longdouble longdouble_t             # <<<<<<<<<<<<<<
@@ -1881,13 +1863,13 @@ static CYTHON_INLINE __pyx_t_double_complex __pyx_t_double_complex_from_parts(do
 struct arrayobject;
 typedef struct arrayobject arrayobject;
 #endif
-struct __pyx_obj_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD;
+struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD;
 struct __pyx_array_obj;
 struct __pyx_MemviewEnum_obj;
 struct __pyx_memoryview_obj;
 struct __pyx_memoryviewslice_obj;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":771
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":767
  * ctypedef npy_longdouble longdouble_t
  * 
  * ctypedef npy_cfloat      cfloat_t             # <<<<<<<<<<<<<<
@@ -1896,7 +1878,7 @@ struct __pyx_memoryviewslice_obj;
  */
 typedef npy_cfloat __pyx_t_5numpy_cfloat_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":772
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":768
  * 
  * ctypedef npy_cfloat      cfloat_t
  * ctypedef npy_cdouble     cdouble_t             # <<<<<<<<<<<<<<
@@ -1905,7 +1887,7 @@ typedef npy_cfloat __pyx_t_5numpy_cfloat_t;
  */
 typedef npy_cdouble __pyx_t_5numpy_cdouble_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":773
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":769
  * ctypedef npy_cfloat      cfloat_t
  * ctypedef npy_cdouble     cdouble_t
  * ctypedef npy_clongdouble clongdouble_t             # <<<<<<<<<<<<<<
@@ -1914,7 +1896,7 @@ typedef npy_cdouble __pyx_t_5numpy_cdouble_t;
  */
 typedef npy_clongdouble __pyx_t_5numpy_clongdouble_t;
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":775
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":771
  * ctypedef npy_clongdouble clongdouble_t
  * 
  * ctypedef npy_cdouble     complex_t             # <<<<<<<<<<<<<<
@@ -1923,16 +1905,16 @@ typedef npy_clongdouble __pyx_t_5numpy_clongdouble_t;
  */
 typedef npy_cdouble __pyx_t_5numpy_complex_t;
 
-/* "CFW_DVV_Similarity_Cython_SGD.pyx":30
+/* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":30
  * 
  * 
  * cdef class CFW_DVV_Similarity_Cython_SGD:             # <<<<<<<<<<<<<<
  * 
  *     cdef double[:] data_list
  */
-struct __pyx_obj_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD {
+struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD {
   PyObject_HEAD
-  struct __pyx_vtabstruct_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *__pyx_vtab;
+  struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *__pyx_vtab;
   __Pyx_memviewslice data_list;
   __Pyx_memviewslice row_list;
   __Pyx_memviewslice col_list;
@@ -2055,7 +2037,7 @@ struct __pyx_memoryviewslice_obj {
 
 
 
-/* "CFW_DVV_Similarity_Cython_SGD.pyx":30
+/* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":30
  * 
  * 
  * cdef class CFW_DVV_Similarity_Cython_SGD:             # <<<<<<<<<<<<<<
@@ -2063,17 +2045,17 @@ struct __pyx_memoryviewslice_obj {
  *     cdef double[:] data_list
  */
 
-struct __pyx_vtabstruct_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD {
-  double (*deriv_V)(struct __pyx_obj_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *, int, int, __Pyx_memviewslice, __Pyx_memviewslice);
-  double (*compute_adaptive_gradient_D)(struct __pyx_obj_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *, int, double);
-  double (*compute_adaptive_gradient_V)(struct __pyx_obj_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *, int, int, double);
-  int (*feature_common_precomputed)(struct __pyx_obj_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *, long);
-  __Pyx_memviewslice (*get_features_vector)(struct __pyx_obj_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *, long);
-  __Pyx_memviewslice (*feature_union)(struct __pyx_obj_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *, __Pyx_memviewslice, __Pyx_memviewslice);
-  int (*feature_union_unordered)(struct __pyx_obj_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *, __Pyx_memviewslice, __Pyx_memviewslice);
-  int (*feature_common_unordered)(struct __pyx_obj_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *, __Pyx_memviewslice, __Pyx_memviewslice);
+struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD {
+  double (*deriv_V)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *, int, int, __Pyx_memviewslice, __Pyx_memviewslice);
+  double (*compute_adaptive_gradient_D)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *, int, double);
+  double (*compute_adaptive_gradient_V)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *, int, int, double);
+  int (*feature_common_precomputed)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *, long);
+  __Pyx_memviewslice (*get_features_vector)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *, long);
+  __Pyx_memviewslice (*feature_union)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *, __Pyx_memviewslice, __Pyx_memviewslice);
+  int (*feature_union_unordered)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *, __Pyx_memviewslice, __Pyx_memviewslice);
+  int (*feature_common_unordered)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *, __Pyx_memviewslice, __Pyx_memviewslice);
 };
-static struct __pyx_vtabstruct_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *__pyx_vtabptr_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD;
+static struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *__pyx_vtabptr_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD;
 
 
 /* "View.MemoryView":114
@@ -3340,14 +3322,14 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_5shape_shape(PyArrayObjec
 static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_7strides_strides(PyArrayObject *__pyx_v_self); /* proto*/
 static CYTHON_INLINE npy_intp __pyx_f_5numpy_7ndarray_4size_size(PyArrayObject *__pyx_v_self); /* proto*/
 static CYTHON_INLINE char *__pyx_f_5numpy_7ndarray_4data_data(PyArrayObject *__pyx_v_self); /* proto*/
-static double __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_deriv_V(struct __pyx_obj_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *__pyx_v_self, int __pyx_v_factor_index, int __pyx_v_c, __Pyx_memviewslice __pyx_v_fi, __Pyx_memviewslice __pyx_v_fj); /* proto*/
-static double __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_compute_adaptive_gradient_D(struct __pyx_obj_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *__pyx_v_self, int __pyx_v_feature_id, double __pyx_v_gradient); /* proto*/
-static double __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_compute_adaptive_gradient_V(struct __pyx_obj_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *__pyx_v_self, int __pyx_v_factor_index, int __pyx_v_feature_id, double __pyx_v_gradient); /* proto*/
-static int __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_feature_common_precomputed(struct __pyx_obj_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *__pyx_v_self, long __pyx_v_sample_index); /* proto*/
-static __Pyx_memviewslice __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_get_features_vector(struct __pyx_obj_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *__pyx_v_self, long __pyx_v_index); /* proto*/
-static __Pyx_memviewslice __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_feature_union(CYTHON_UNUSED struct __pyx_obj_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *__pyx_v_self, __Pyx_memviewslice __pyx_v_feature_i, __Pyx_memviewslice __pyx_v_feature_j); /* proto*/
-static int __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_feature_union_unordered(struct __pyx_obj_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *__pyx_v_self, __Pyx_memviewslice __pyx_v_feature_i, __Pyx_memviewslice __pyx_v_feature_j); /* proto*/
-static int __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_feature_common_unordered(struct __pyx_obj_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *__pyx_v_self, __Pyx_memviewslice __pyx_v_feature_i, __Pyx_memviewslice __pyx_v_feature_j); /* proto*/
+static double __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_deriv_V(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *__pyx_v_self, int __pyx_v_factor_index, int __pyx_v_c, __Pyx_memviewslice __pyx_v_fi, __Pyx_memviewslice __pyx_v_fj); /* proto*/
+static double __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_compute_adaptive_gradient_D(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *__pyx_v_self, int __pyx_v_feature_id, double __pyx_v_gradient); /* proto*/
+static double __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_compute_adaptive_gradient_V(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *__pyx_v_self, int __pyx_v_factor_index, int __pyx_v_feature_id, double __pyx_v_gradient); /* proto*/
+static int __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_feature_common_precomputed(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *__pyx_v_self, long __pyx_v_sample_index); /* proto*/
+static __Pyx_memviewslice __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_get_features_vector(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *__pyx_v_self, long __pyx_v_index); /* proto*/
+static __Pyx_memviewslice __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_feature_union(CYTHON_UNUSED struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *__pyx_v_self, __Pyx_memviewslice __pyx_v_feature_i, __Pyx_memviewslice __pyx_v_feature_j); /* proto*/
+static int __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_feature_union_unordered(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *__pyx_v_self, __Pyx_memviewslice __pyx_v_feature_i, __Pyx_memviewslice __pyx_v_feature_j); /* proto*/
+static int __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_feature_common_unordered(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *__pyx_v_self, __Pyx_memviewslice __pyx_v_feature_i, __Pyx_memviewslice __pyx_v_feature_j); /* proto*/
 
 /* Module declarations from "libc.string" */
 
@@ -3379,7 +3361,7 @@ static int __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_S
 static CYTHON_INLINE arrayobject *__pyx_f_7cpython_5array_clone(arrayobject *, Py_ssize_t, int); /*proto*/
 static CYTHON_INLINE int __pyx_f_7cpython_5array_extend_buffer(arrayobject *, char *, Py_ssize_t); /*proto*/
 
-/* Module declarations from "CFW_DVV_Similarity_Cython_SGD" */
+/* Module declarations from "RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.CFW_DVV_Similarity_Cython_SGD" */
 static PyObject *__pyx_collections_abc_Sequence = 0;
 static PyObject *generic = 0;
 static PyObject *strided = 0;
@@ -3388,7 +3370,7 @@ static PyObject *contiguous = 0;
 static PyObject *indirect_contiguous = 0;
 static int __pyx_memoryview_thread_locks_used;
 static PyThread_type_lock __pyx_memoryview_thread_locks[8];
-static PyObject *__pyx_f_29CFW_DVV_Similarity_Cython_SGD___pyx_unpickle_CFW_DVV_Similarity_Cython_SGD__set_state(struct __pyx_obj_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *, PyObject *); /*proto*/
+static PyObject *__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD___pyx_unpickle_CFW_DVV_Similarity_Cython_SGD__set_state(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *, PyObject *); /*proto*/
 static int __pyx_array_allocate_buffer(struct __pyx_array_obj *); /*proto*/
 static struct __pyx_array_obj *__pyx_array_new(PyObject *, Py_ssize_t, char *, char *, char *); /*proto*/
 static PyObject *__pyx_memoryview_new(PyObject *, int, int, __Pyx_TypeInfo *); /*proto*/
@@ -3427,11 +3409,11 @@ static PyObject *__pyx_unpickle_Enum__set_state(struct __pyx_MemviewEnum_obj *, 
 static __Pyx_TypeInfo __Pyx_TypeInfo_int = { "int", NULL, sizeof(int), { 0 }, 0, __PYX_IS_UNSIGNED(int) ? 'U' : 'I', __PYX_IS_UNSIGNED(int), 0 };
 static __Pyx_TypeInfo __Pyx_TypeInfo_double = { "double", NULL, sizeof(double), { 0 }, 0, 'R', 0, 0 };
 /* #### Code section: before_global_var ### */
-#define __Pyx_MODULE_NAME "CFW_DVV_Similarity_Cython_SGD"
-extern int __pyx_module_is_main_CFW_DVV_Similarity_Cython_SGD;
-int __pyx_module_is_main_CFW_DVV_Similarity_Cython_SGD = 0;
+#define __Pyx_MODULE_NAME "RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.CFW_DVV_Similarity_Cython_SGD"
+extern int __pyx_module_is_main_RecSysCompetition2024Polimi__libs__Recommenders__FeatureWeighting__Cython__CFW_DVV_Similarity_Cython_SGD;
+int __pyx_module_is_main_RecSysCompetition2024Polimi__libs__Recommenders__FeatureWeighting__Cython__CFW_DVV_Similarity_Cython_SGD = 0;
 
-/* Implementation of "CFW_DVV_Similarity_Cython_SGD" */
+/* Implementation of "RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.CFW_DVV_Similarity_Cython_SGD" */
 /* #### Code section: global_var ### */
 static PyObject *__pyx_builtin_AssertionError;
 static PyObject *__pyx_builtin_ValueError;
@@ -3678,6 +3660,7 @@ static const char __pyx_k_Incompatible_checksums_0x_x_vs_0[] = "Incompatible che
 static const char __pyx_k_Indirect_dimensions_not_supporte[] = "Indirect dimensions not supported";
 static const char __pyx_k_Invalid_mode_expected_c_or_fortr[] = "Invalid mode, expected 'c' or 'fortran', got ";
 static const char __pyx_k_Out_of_bounds_on_buffer_access_a[] = "Out of bounds on buffer access (axis ";
+static const char __pyx_k_RecSysCompetition2024Polimi_libs[] = "RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.CFW_DVV_Similarity_Cython_SGD";
 static const char __pyx_k_SGD_mode_not_valid_Acceptable_va[] = "SGD_mode not valid. Acceptable values are: 'sgd', 'adagrad', 'rmsprop', 'adam'. Provided value was '{}'";
 static const char __pyx_k_Unable_to_convert_item_to_object[] = "Unable to convert item to object";
 static const char __pyx_k_Union_is_different_F_i_F_j_Union[] = "Union is different. F_i: {}, F_j: {}. Union Numpy: {}, Union Cython: {}";
@@ -3740,18 +3723,18 @@ static PyObject *__pyx_pf___pyx_memoryviewslice_2__setstate_cython__(CYTHON_UNUS
 static PyObject *__pyx_pf_15View_dot_MemoryView___pyx_unpickle_Enum(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v___pyx_type, long __pyx_v___pyx_checksum, PyObject *__pyx_v___pyx_state); /* proto */
 static int __pyx_pf_7cpython_5array_5array___getbuffer__(arrayobject *__pyx_v_self, Py_buffer *__pyx_v_info, CYTHON_UNUSED int __pyx_v_flags); /* proto */
 static void __pyx_pf_7cpython_5array_5array_2__releasebuffer__(CYTHON_UNUSED arrayobject *__pyx_v_self, Py_buffer *__pyx_v_info); /* proto */
-static int __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD___init__(struct __pyx_obj_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *__pyx_v_self, PyObject *__pyx_v_row_list, PyObject *__pyx_v_col_list, PyObject *__pyx_v_data_list, PyObject *__pyx_v_ICM, PyObject *__pyx_v_add_zeros_quota, PyObject *__pyx_v_n_factors, PyObject *__pyx_v_precompute_common_features, PyObject *__pyx_v_weights_initialization_D, PyObject *__pyx_v_weights_initialization_V, PyObject *__pyx_v_positive_only_D, PyObject *__pyx_v_positive_only_V, PyObject *__pyx_v_verbose, PyObject *__pyx_v_learning_rate, PyObject *__pyx_v_l2_reg_D, PyObject *__pyx_v_l2_reg_V, PyObject *__pyx_v_sgd_mode, PyObject *__pyx_v_gamma, PyObject *__pyx_v_beta_1, PyObject *__pyx_v_beta_2, PyObject *__pyx_v_mean_init, PyObject *__pyx_v_std_init); /* proto */
-static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_2precompute_common_features_function(struct __pyx_obj_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_4fit(struct __pyx_obj_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_6get_D(struct __pyx_obj_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_8get_V(struct __pyx_obj_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_10feature_union_test(struct __pyx_obj_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_12feature_common_test(struct __pyx_obj_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_14precompute_common_features_function_test(struct __pyx_obj_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_16__reduce_cython__(struct __pyx_obj_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_18__setstate_cython__(struct __pyx_obj_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *__pyx_v_self, PyObject *__pyx_v___pyx_state); /* proto */
-static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD___pyx_unpickle_CFW_DVV_Similarity_Cython_SGD(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v___pyx_type, long __pyx_v___pyx_checksum, PyObject *__pyx_v___pyx_state); /* proto */
-static PyObject *__pyx_tp_new_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
+static int __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD___init__(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *__pyx_v_self, PyObject *__pyx_v_row_list, PyObject *__pyx_v_col_list, PyObject *__pyx_v_data_list, PyObject *__pyx_v_ICM, PyObject *__pyx_v_add_zeros_quota, PyObject *__pyx_v_n_factors, PyObject *__pyx_v_precompute_common_features, PyObject *__pyx_v_weights_initialization_D, PyObject *__pyx_v_weights_initialization_V, PyObject *__pyx_v_positive_only_D, PyObject *__pyx_v_positive_only_V, PyObject *__pyx_v_verbose, PyObject *__pyx_v_learning_rate, PyObject *__pyx_v_l2_reg_D, PyObject *__pyx_v_l2_reg_V, PyObject *__pyx_v_sgd_mode, PyObject *__pyx_v_gamma, PyObject *__pyx_v_beta_1, PyObject *__pyx_v_beta_2, PyObject *__pyx_v_mean_init, PyObject *__pyx_v_std_init); /* proto */
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_2precompute_common_features_function(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_4fit(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_6get_D(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_8get_V(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_10feature_union_test(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_12feature_common_test(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_14precompute_common_features_function_test(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_16__reduce_cython__(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_18__setstate_cython__(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *__pyx_v_self, PyObject *__pyx_v___pyx_state); /* proto */
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD___pyx_unpickle_CFW_DVV_Similarity_Cython_SGD(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v___pyx_type, long __pyx_v___pyx_checksum, PyObject *__pyx_v___pyx_state); /* proto */
+static PyObject *__pyx_tp_new_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
 static PyObject *__pyx_tp_new_array(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
 static PyObject *__pyx_tp_new_Enum(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
 static PyObject *__pyx_tp_new_memoryview(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
@@ -3829,13 +3812,13 @@ typedef struct {
   #endif
   PyTypeObject *__pyx_ptype_7cpython_5array_array;
   #if CYTHON_USE_MODULE_STATE
-  PyObject *__pyx_type_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD;
+  PyObject *__pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD;
   PyObject *__pyx_type___pyx_array;
   PyObject *__pyx_type___pyx_MemviewEnum;
   PyObject *__pyx_type___pyx_memoryview;
   PyObject *__pyx_type___pyx_memoryviewslice;
   #endif
-  PyTypeObject *__pyx_ptype_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD;
+  PyTypeObject *__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD;
   PyTypeObject *__pyx_array_type;
   PyTypeObject *__pyx_MemviewEnum_type;
   PyTypeObject *__pyx_memoryview_type;
@@ -3889,6 +3872,7 @@ typedef struct {
   PyObject *__pyx_n_b_O;
   PyObject *__pyx_kp_u_Out_of_bounds_on_buffer_access_a;
   PyObject *__pyx_n_s_PickleError;
+  PyObject *__pyx_n_s_RecSysCompetition2024Polimi_libs;
   PyObject *__pyx_n_s_Recommenders_Recommender_utils;
   PyObject *__pyx_kp_s_SGD_mode_not_valid_Acceptable_va;
   PyObject *__pyx_n_s_Sequence;
@@ -4219,8 +4203,8 @@ static int __pyx_m_clear(PyObject *m) {
   Py_CLEAR(clear_module_state->__pyx_ptype_5numpy_character);
   Py_CLEAR(clear_module_state->__pyx_ptype_5numpy_ufunc);
   Py_CLEAR(clear_module_state->__pyx_ptype_7cpython_5array_array);
-  Py_CLEAR(clear_module_state->__pyx_ptype_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD);
-  Py_CLEAR(clear_module_state->__pyx_type_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD);
+  Py_CLEAR(clear_module_state->__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD);
+  Py_CLEAR(clear_module_state->__pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD);
   Py_CLEAR(clear_module_state->__pyx_array_type);
   Py_CLEAR(clear_module_state->__pyx_type___pyx_array);
   Py_CLEAR(clear_module_state->__pyx_MemviewEnum_type);
@@ -4278,6 +4262,7 @@ static int __pyx_m_clear(PyObject *m) {
   Py_CLEAR(clear_module_state->__pyx_n_b_O);
   Py_CLEAR(clear_module_state->__pyx_kp_u_Out_of_bounds_on_buffer_access_a);
   Py_CLEAR(clear_module_state->__pyx_n_s_PickleError);
+  Py_CLEAR(clear_module_state->__pyx_n_s_RecSysCompetition2024Polimi_libs);
   Py_CLEAR(clear_module_state->__pyx_n_s_Recommenders_Recommender_utils);
   Py_CLEAR(clear_module_state->__pyx_kp_s_SGD_mode_not_valid_Acceptable_va);
   Py_CLEAR(clear_module_state->__pyx_n_s_Sequence);
@@ -4586,8 +4571,8 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
   Py_VISIT(traverse_module_state->__pyx_ptype_5numpy_character);
   Py_VISIT(traverse_module_state->__pyx_ptype_5numpy_ufunc);
   Py_VISIT(traverse_module_state->__pyx_ptype_7cpython_5array_array);
-  Py_VISIT(traverse_module_state->__pyx_ptype_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD);
-  Py_VISIT(traverse_module_state->__pyx_type_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD);
+  Py_VISIT(traverse_module_state->__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD);
+  Py_VISIT(traverse_module_state->__pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD);
   Py_VISIT(traverse_module_state->__pyx_array_type);
   Py_VISIT(traverse_module_state->__pyx_type___pyx_array);
   Py_VISIT(traverse_module_state->__pyx_MemviewEnum_type);
@@ -4645,6 +4630,7 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
   Py_VISIT(traverse_module_state->__pyx_n_b_O);
   Py_VISIT(traverse_module_state->__pyx_kp_u_Out_of_bounds_on_buffer_access_a);
   Py_VISIT(traverse_module_state->__pyx_n_s_PickleError);
+  Py_VISIT(traverse_module_state->__pyx_n_s_RecSysCompetition2024Polimi_libs);
   Py_VISIT(traverse_module_state->__pyx_n_s_Recommenders_Recommender_utils);
   Py_VISIT(traverse_module_state->__pyx_kp_s_SGD_mode_not_valid_Acceptable_va);
   Py_VISIT(traverse_module_state->__pyx_n_s_Sequence);
@@ -4990,13 +4976,13 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #endif
 #define __pyx_ptype_7cpython_5array_array __pyx_mstate_global->__pyx_ptype_7cpython_5array_array
 #if CYTHON_USE_MODULE_STATE
-#define __pyx_type_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD __pyx_mstate_global->__pyx_type_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD
+#define __pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD __pyx_mstate_global->__pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD
 #define __pyx_type___pyx_array __pyx_mstate_global->__pyx_type___pyx_array
 #define __pyx_type___pyx_MemviewEnum __pyx_mstate_global->__pyx_type___pyx_MemviewEnum
 #define __pyx_type___pyx_memoryview __pyx_mstate_global->__pyx_type___pyx_memoryview
 #define __pyx_type___pyx_memoryviewslice __pyx_mstate_global->__pyx_type___pyx_memoryviewslice
 #endif
-#define __pyx_ptype_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD __pyx_mstate_global->__pyx_ptype_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD
+#define __pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD __pyx_mstate_global->__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD
 #define __pyx_array_type __pyx_mstate_global->__pyx_array_type
 #define __pyx_MemviewEnum_type __pyx_mstate_global->__pyx_MemviewEnum_type
 #define __pyx_memoryview_type __pyx_mstate_global->__pyx_memoryview_type
@@ -5050,6 +5036,7 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #define __pyx_n_b_O __pyx_mstate_global->__pyx_n_b_O
 #define __pyx_kp_u_Out_of_bounds_on_buffer_access_a __pyx_mstate_global->__pyx_kp_u_Out_of_bounds_on_buffer_access_a
 #define __pyx_n_s_PickleError __pyx_mstate_global->__pyx_n_s_PickleError
+#define __pyx_n_s_RecSysCompetition2024Polimi_libs __pyx_mstate_global->__pyx_n_s_RecSysCompetition2024Polimi_libs
 #define __pyx_n_s_Recommenders_Recommender_utils __pyx_mstate_global->__pyx_n_s_Recommenders_Recommender_utils
 #define __pyx_kp_s_SGD_mode_not_valid_Acceptable_va __pyx_mstate_global->__pyx_kp_s_SGD_mode_not_valid_Acceptable_va
 #define __pyx_n_s_Sequence __pyx_mstate_global->__pyx_n_s_Sequence
@@ -18951,7 +18938,7 @@ static PyObject *__pyx_unpickle_Enum__set_state(struct __pyx_MemviewEnum_obj *__
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":246
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":245
  * 
  *         @property
  *         cdef inline PyObject* base(self) nogil:             # <<<<<<<<<<<<<<
@@ -18962,7 +18949,7 @@ static PyObject *__pyx_unpickle_Enum__set_state(struct __pyx_MemviewEnum_obj *__
 static CYTHON_INLINE PyObject *__pyx_f_5numpy_7ndarray_4base_base(PyArrayObject *__pyx_v_self) {
   PyObject *__pyx_r;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":249
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":248
  *             """Returns a borrowed reference to the object owning the data/memory.
  *             """
  *             return PyArray_BASE(self)             # <<<<<<<<<<<<<<
@@ -18972,7 +18959,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_7ndarray_4base_base(PyArrayObject 
   __pyx_r = PyArray_BASE(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":246
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":245
  * 
  *         @property
  *         cdef inline PyObject* base(self) nogil:             # <<<<<<<<<<<<<<
@@ -18985,7 +18972,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_7ndarray_4base_base(PyArrayObject 
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":252
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":251
  * 
  *         @property
  *         cdef inline dtype descr(self):             # <<<<<<<<<<<<<<
@@ -18999,7 +18986,7 @@ static CYTHON_INLINE PyArray_Descr *__pyx_f_5numpy_7ndarray_5descr_descr(PyArray
   PyArray_Descr *__pyx_t_1;
   __Pyx_RefNannySetupContext("descr", 1);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":255
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":254
  *             """Returns an owned reference to the dtype of the array.
  *             """
  *             return <dtype>PyArray_DESCR(self)             # <<<<<<<<<<<<<<
@@ -19012,7 +18999,7 @@ static CYTHON_INLINE PyArray_Descr *__pyx_f_5numpy_7ndarray_5descr_descr(PyArray
   __pyx_r = ((PyArray_Descr *)__pyx_t_1);
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":252
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":251
  * 
  *         @property
  *         cdef inline dtype descr(self):             # <<<<<<<<<<<<<<
@@ -19027,7 +19014,7 @@ static CYTHON_INLINE PyArray_Descr *__pyx_f_5numpy_7ndarray_5descr_descr(PyArray
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":258
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":257
  * 
  *         @property
  *         cdef inline int ndim(self) nogil:             # <<<<<<<<<<<<<<
@@ -19038,7 +19025,7 @@ static CYTHON_INLINE PyArray_Descr *__pyx_f_5numpy_7ndarray_5descr_descr(PyArray
 static CYTHON_INLINE int __pyx_f_5numpy_7ndarray_4ndim_ndim(PyArrayObject *__pyx_v_self) {
   int __pyx_r;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":261
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":260
  *             """Returns the number of dimensions in the array.
  *             """
  *             return PyArray_NDIM(self)             # <<<<<<<<<<<<<<
@@ -19048,7 +19035,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_7ndarray_4ndim_ndim(PyArrayObject *__pyx
   __pyx_r = PyArray_NDIM(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":258
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":257
  * 
  *         @property
  *         cdef inline int ndim(self) nogil:             # <<<<<<<<<<<<<<
@@ -19061,7 +19048,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_7ndarray_4ndim_ndim(PyArrayObject *__pyx
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":264
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":263
  * 
  *         @property
  *         cdef inline npy_intp *shape(self) nogil:             # <<<<<<<<<<<<<<
@@ -19072,7 +19059,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_7ndarray_4ndim_ndim(PyArrayObject *__pyx
 static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_5shape_shape(PyArrayObject *__pyx_v_self) {
   npy_intp *__pyx_r;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":269
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":268
  *             Can return NULL for 0-dimensional arrays.
  *             """
  *             return PyArray_DIMS(self)             # <<<<<<<<<<<<<<
@@ -19082,7 +19069,7 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_5shape_shape(PyArrayObjec
   __pyx_r = PyArray_DIMS(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":264
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":263
  * 
  *         @property
  *         cdef inline npy_intp *shape(self) nogil:             # <<<<<<<<<<<<<<
@@ -19095,7 +19082,7 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_5shape_shape(PyArrayObjec
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":272
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":271
  * 
  *         @property
  *         cdef inline npy_intp *strides(self) nogil:             # <<<<<<<<<<<<<<
@@ -19106,7 +19093,7 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_5shape_shape(PyArrayObjec
 static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_7strides_strides(PyArrayObject *__pyx_v_self) {
   npy_intp *__pyx_r;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":276
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":275
  *             The number of elements matches the number of dimensions of the array (ndim).
  *             """
  *             return PyArray_STRIDES(self)             # <<<<<<<<<<<<<<
@@ -19116,7 +19103,7 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_7strides_strides(PyArrayO
   __pyx_r = PyArray_STRIDES(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":272
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":271
  * 
  *         @property
  *         cdef inline npy_intp *strides(self) nogil:             # <<<<<<<<<<<<<<
@@ -19129,7 +19116,7 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_7strides_strides(PyArrayO
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":279
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":278
  * 
  *         @property
  *         cdef inline npy_intp size(self) nogil:             # <<<<<<<<<<<<<<
@@ -19140,7 +19127,7 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_7strides_strides(PyArrayO
 static CYTHON_INLINE npy_intp __pyx_f_5numpy_7ndarray_4size_size(PyArrayObject *__pyx_v_self) {
   npy_intp __pyx_r;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":282
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":281
  *             """Returns the total size (in number of elements) of the array.
  *             """
  *             return PyArray_SIZE(self)             # <<<<<<<<<<<<<<
@@ -19150,7 +19137,7 @@ static CYTHON_INLINE npy_intp __pyx_f_5numpy_7ndarray_4size_size(PyArrayObject *
   __pyx_r = PyArray_SIZE(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":279
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":278
  * 
  *         @property
  *         cdef inline npy_intp size(self) nogil:             # <<<<<<<<<<<<<<
@@ -19163,7 +19150,7 @@ static CYTHON_INLINE npy_intp __pyx_f_5numpy_7ndarray_4size_size(PyArrayObject *
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":285
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":284
  * 
  *         @property
  *         cdef inline char* data(self) nogil:             # <<<<<<<<<<<<<<
@@ -19174,7 +19161,7 @@ static CYTHON_INLINE npy_intp __pyx_f_5numpy_7ndarray_4size_size(PyArrayObject *
 static CYTHON_INLINE char *__pyx_f_5numpy_7ndarray_4data_data(PyArrayObject *__pyx_v_self) {
   char *__pyx_r;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":291
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":290
  *             of `PyArray_DATA()` instead, which returns a 'void*'.
  *             """
  *             return PyArray_BYTES(self)             # <<<<<<<<<<<<<<
@@ -19184,7 +19171,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy_7ndarray_4data_data(PyArrayObject *__p
   __pyx_r = PyArray_BYTES(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":285
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":284
  * 
  *         @property
  *         cdef inline char* data(self) nogil:             # <<<<<<<<<<<<<<
@@ -19197,7 +19184,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy_7ndarray_4data_data(PyArrayObject *__p
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":777
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":773
  * ctypedef npy_cdouble     complex_t
  * 
  * cdef inline object PyArray_MultiIterNew1(a):             # <<<<<<<<<<<<<<
@@ -19214,7 +19201,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew1", 1);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":778
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":774
  * 
  * cdef inline object PyArray_MultiIterNew1(a):
  *     return PyArray_MultiIterNew(1, <void*>a)             # <<<<<<<<<<<<<<
@@ -19222,13 +19209,13 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
  * cdef inline object PyArray_MultiIterNew2(a, b):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = PyArray_MultiIterNew(1, ((void *)__pyx_v_a)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 778, __pyx_L1_error)
+  __pyx_t_1 = PyArray_MultiIterNew(1, ((void *)__pyx_v_a)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 774, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":777
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":773
  * ctypedef npy_cdouble     complex_t
  * 
  * cdef inline object PyArray_MultiIterNew1(a):             # <<<<<<<<<<<<<<
@@ -19247,7 +19234,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":780
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":776
  *     return PyArray_MultiIterNew(1, <void*>a)
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):             # <<<<<<<<<<<<<<
@@ -19264,7 +19251,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew2", 1);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":781
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":777
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)             # <<<<<<<<<<<<<<
@@ -19272,13 +19259,13 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
  * cdef inline object PyArray_MultiIterNew3(a, b, c):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = PyArray_MultiIterNew(2, ((void *)__pyx_v_a), ((void *)__pyx_v_b)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 781, __pyx_L1_error)
+  __pyx_t_1 = PyArray_MultiIterNew(2, ((void *)__pyx_v_a), ((void *)__pyx_v_b)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 777, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":780
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":776
  *     return PyArray_MultiIterNew(1, <void*>a)
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):             # <<<<<<<<<<<<<<
@@ -19297,7 +19284,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":783
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":779
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):             # <<<<<<<<<<<<<<
@@ -19314,7 +19301,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew3", 1);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":784
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":780
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)             # <<<<<<<<<<<<<<
@@ -19322,13 +19309,13 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = PyArray_MultiIterNew(3, ((void *)__pyx_v_a), ((void *)__pyx_v_b), ((void *)__pyx_v_c)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 784, __pyx_L1_error)
+  __pyx_t_1 = PyArray_MultiIterNew(3, ((void *)__pyx_v_a), ((void *)__pyx_v_b), ((void *)__pyx_v_c)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 780, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":783
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":779
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):             # <<<<<<<<<<<<<<
@@ -19347,7 +19334,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":786
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":782
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):             # <<<<<<<<<<<<<<
@@ -19364,7 +19351,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew4", 1);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":787
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":783
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)             # <<<<<<<<<<<<<<
@@ -19372,13 +19359,13 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = PyArray_MultiIterNew(4, ((void *)__pyx_v_a), ((void *)__pyx_v_b), ((void *)__pyx_v_c), ((void *)__pyx_v_d)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 787, __pyx_L1_error)
+  __pyx_t_1 = PyArray_MultiIterNew(4, ((void *)__pyx_v_a), ((void *)__pyx_v_b), ((void *)__pyx_v_c), ((void *)__pyx_v_d)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 783, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":786
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":782
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):             # <<<<<<<<<<<<<<
@@ -19397,7 +19384,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":789
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":785
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):             # <<<<<<<<<<<<<<
@@ -19414,7 +19401,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew5", 1);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":790
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":786
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)             # <<<<<<<<<<<<<<
@@ -19422,13 +19409,13 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = PyArray_MultiIterNew(5, ((void *)__pyx_v_a), ((void *)__pyx_v_b), ((void *)__pyx_v_c), ((void *)__pyx_v_d), ((void *)__pyx_v_e)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 790, __pyx_L1_error)
+  __pyx_t_1 = PyArray_MultiIterNew(5, ((void *)__pyx_v_a), ((void *)__pyx_v_b), ((void *)__pyx_v_c), ((void *)__pyx_v_d), ((void *)__pyx_v_e)); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 786, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":789
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":785
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):             # <<<<<<<<<<<<<<
@@ -19447,7 +19434,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":792
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":788
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):             # <<<<<<<<<<<<<<
@@ -19461,7 +19448,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
   int __pyx_t_1;
   __Pyx_RefNannySetupContext("PyDataType_SHAPE", 1);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":793
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":789
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):             # <<<<<<<<<<<<<<
@@ -19471,7 +19458,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
   __pyx_t_1 = PyDataType_HASSUBARRAY(__pyx_v_d);
   if (__pyx_t_1) {
 
-    /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":794
+    /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":790
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):
  *         return <tuple>d.subarray.shape             # <<<<<<<<<<<<<<
@@ -19483,7 +19470,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
     __pyx_r = ((PyObject*)__pyx_v_d->subarray->shape);
     goto __pyx_L0;
 
-    /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":793
+    /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":789
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):             # <<<<<<<<<<<<<<
@@ -19492,7 +19479,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
  */
   }
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":796
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":792
  *         return <tuple>d.subarray.shape
  *     else:
  *         return ()             # <<<<<<<<<<<<<<
@@ -19506,7 +19493,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
     goto __pyx_L0;
   }
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":792
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":788
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):             # <<<<<<<<<<<<<<
@@ -19521,7 +19508,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":971
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":968
  *     int _import_umath() except -1
  * 
  * cdef inline void set_array_base(ndarray arr, object base):             # <<<<<<<<<<<<<<
@@ -19530,8 +19517,12 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
  */
 
 static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_arr, PyObject *__pyx_v_base) {
+  int __pyx_t_1;
+  int __pyx_lineno = 0;
+  const char *__pyx_filename = NULL;
+  int __pyx_clineno = 0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":972
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":969
  * 
  * cdef inline void set_array_base(ndarray arr, object base):
  *     Py_INCREF(base) # important to do this before stealing the reference below!             # <<<<<<<<<<<<<<
@@ -19540,16 +19531,16 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
  */
   Py_INCREF(__pyx_v_base);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":973
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":970
  * cdef inline void set_array_base(ndarray arr, object base):
  *     Py_INCREF(base) # important to do this before stealing the reference below!
  *     PyArray_SetBaseObject(arr, base)             # <<<<<<<<<<<<<<
  * 
  * cdef inline object get_array_base(ndarray arr):
  */
-  (void)(PyArray_SetBaseObject(__pyx_v_arr, __pyx_v_base));
+  __pyx_t_1 = PyArray_SetBaseObject(__pyx_v_arr, __pyx_v_base); if (unlikely(__pyx_t_1 == ((int)-1))) __PYX_ERR(2, 970, __pyx_L1_error)
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":971
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":968
  *     int _import_umath() except -1
  * 
  * cdef inline void set_array_base(ndarray arr, object base):             # <<<<<<<<<<<<<<
@@ -19558,9 +19549,13 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
  */
 
   /* function exit code */
+  goto __pyx_L0;
+  __pyx_L1_error:;
+  __Pyx_AddTraceback("numpy.set_array_base", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __pyx_L0:;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":975
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":972
  *     PyArray_SetBaseObject(arr, base)
  * 
  * cdef inline object get_array_base(ndarray arr):             # <<<<<<<<<<<<<<
@@ -19575,7 +19570,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   int __pyx_t_1;
   __Pyx_RefNannySetupContext("get_array_base", 1);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":976
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":973
  * 
  * cdef inline object get_array_base(ndarray arr):
  *     base = PyArray_BASE(arr)             # <<<<<<<<<<<<<<
@@ -19584,7 +19579,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
  */
   __pyx_v_base = PyArray_BASE(__pyx_v_arr);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":977
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":974
  * cdef inline object get_array_base(ndarray arr):
  *     base = PyArray_BASE(arr)
  *     if base is NULL:             # <<<<<<<<<<<<<<
@@ -19594,7 +19589,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   __pyx_t_1 = (__pyx_v_base == NULL);
   if (__pyx_t_1) {
 
-    /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":978
+    /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":975
  *     base = PyArray_BASE(arr)
  *     if base is NULL:
  *         return None             # <<<<<<<<<<<<<<
@@ -19605,7 +19600,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
     __pyx_r = Py_None; __Pyx_INCREF(Py_None);
     goto __pyx_L0;
 
-    /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":977
+    /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":974
  * cdef inline object get_array_base(ndarray arr):
  *     base = PyArray_BASE(arr)
  *     if base is NULL:             # <<<<<<<<<<<<<<
@@ -19614,7 +19609,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
  */
   }
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":979
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":976
  *     if base is NULL:
  *         return None
  *     return <object>base             # <<<<<<<<<<<<<<
@@ -19626,7 +19621,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   __pyx_r = ((PyObject *)__pyx_v_base);
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":975
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":972
  *     PyArray_SetBaseObject(arr, base)
  * 
  * cdef inline object get_array_base(ndarray arr):             # <<<<<<<<<<<<<<
@@ -19641,7 +19636,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":983
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":980
  * # Versions of the import_* functions which are more suitable for
  * # Cython code.
  * cdef inline int import_array() except -1:             # <<<<<<<<<<<<<<
@@ -19665,7 +19660,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("import_array", 1);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":984
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":981
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -19681,16 +19676,16 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":985
+      /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":982
  * cdef inline int import_array() except -1:
  *     try:
  *         __pyx_import_array()             # <<<<<<<<<<<<<<
  *     except Exception:
  *         raise ImportError("numpy.core.multiarray failed to import")
  */
-      __pyx_t_4 = _import_array(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(2, 985, __pyx_L3_error)
+      __pyx_t_4 = _import_array(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(2, 982, __pyx_L3_error)
 
-      /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":984
+      /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":981
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -19704,7 +19699,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     goto __pyx_L8_try_end;
     __pyx_L3_error:;
 
-    /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":986
+    /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":983
  *     try:
  *         __pyx_import_array()
  *     except Exception:             # <<<<<<<<<<<<<<
@@ -19714,27 +19709,27 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     __pyx_t_4 = __Pyx_PyErr_ExceptionMatches(((PyObject *)(&((PyTypeObject*)PyExc_Exception)[0])));
     if (__pyx_t_4) {
       __Pyx_AddTraceback("numpy.import_array", __pyx_clineno, __pyx_lineno, __pyx_filename);
-      if (__Pyx_GetException(&__pyx_t_5, &__pyx_t_6, &__pyx_t_7) < 0) __PYX_ERR(2, 986, __pyx_L5_except_error)
+      if (__Pyx_GetException(&__pyx_t_5, &__pyx_t_6, &__pyx_t_7) < 0) __PYX_ERR(2, 983, __pyx_L5_except_error)
       __Pyx_XGOTREF(__pyx_t_5);
       __Pyx_XGOTREF(__pyx_t_6);
       __Pyx_XGOTREF(__pyx_t_7);
 
-      /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":987
+      /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":984
  *         __pyx_import_array()
  *     except Exception:
  *         raise ImportError("numpy.core.multiarray failed to import")             # <<<<<<<<<<<<<<
  * 
  * cdef inline int import_umath() except -1:
  */
-      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__9, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(2, 987, __pyx_L5_except_error)
+      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__9, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(2, 984, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_8);
       __Pyx_Raise(__pyx_t_8, 0, 0, 0);
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-      __PYX_ERR(2, 987, __pyx_L5_except_error)
+      __PYX_ERR(2, 984, __pyx_L5_except_error)
     }
     goto __pyx_L5_except_error;
 
-    /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":984
+    /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":981
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -19750,7 +19745,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     __pyx_L8_try_end:;
   }
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":983
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":980
  * # Versions of the import_* functions which are more suitable for
  * # Cython code.
  * cdef inline int import_array() except -1:             # <<<<<<<<<<<<<<
@@ -19773,7 +19768,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":989
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":986
  *         raise ImportError("numpy.core.multiarray failed to import")
  * 
  * cdef inline int import_umath() except -1:             # <<<<<<<<<<<<<<
@@ -19797,7 +19792,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("import_umath", 1);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":990
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":987
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -19813,16 +19808,16 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":991
+      /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":988
  * cdef inline int import_umath() except -1:
  *     try:
  *         _import_umath()             # <<<<<<<<<<<<<<
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")
  */
-      __pyx_t_4 = _import_umath(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(2, 991, __pyx_L3_error)
+      __pyx_t_4 = _import_umath(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(2, 988, __pyx_L3_error)
 
-      /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":990
+      /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":987
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -19836,7 +19831,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     goto __pyx_L8_try_end;
     __pyx_L3_error:;
 
-    /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":992
+    /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":989
  *     try:
  *         _import_umath()
  *     except Exception:             # <<<<<<<<<<<<<<
@@ -19846,27 +19841,27 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     __pyx_t_4 = __Pyx_PyErr_ExceptionMatches(((PyObject *)(&((PyTypeObject*)PyExc_Exception)[0])));
     if (__pyx_t_4) {
       __Pyx_AddTraceback("numpy.import_umath", __pyx_clineno, __pyx_lineno, __pyx_filename);
-      if (__Pyx_GetException(&__pyx_t_5, &__pyx_t_6, &__pyx_t_7) < 0) __PYX_ERR(2, 992, __pyx_L5_except_error)
+      if (__Pyx_GetException(&__pyx_t_5, &__pyx_t_6, &__pyx_t_7) < 0) __PYX_ERR(2, 989, __pyx_L5_except_error)
       __Pyx_XGOTREF(__pyx_t_5);
       __Pyx_XGOTREF(__pyx_t_6);
       __Pyx_XGOTREF(__pyx_t_7);
 
-      /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":993
+      /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":990
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")             # <<<<<<<<<<<<<<
  * 
  * cdef inline int import_ufunc() except -1:
  */
-      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__10, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(2, 993, __pyx_L5_except_error)
+      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__10, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(2, 990, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_8);
       __Pyx_Raise(__pyx_t_8, 0, 0, 0);
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-      __PYX_ERR(2, 993, __pyx_L5_except_error)
+      __PYX_ERR(2, 990, __pyx_L5_except_error)
     }
     goto __pyx_L5_except_error;
 
-    /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":990
+    /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":987
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -19882,7 +19877,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     __pyx_L8_try_end:;
   }
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":989
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":986
  *         raise ImportError("numpy.core.multiarray failed to import")
  * 
  * cdef inline int import_umath() except -1:             # <<<<<<<<<<<<<<
@@ -19905,7 +19900,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":995
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":992
  *         raise ImportError("numpy.core.umath failed to import")
  * 
  * cdef inline int import_ufunc() except -1:             # <<<<<<<<<<<<<<
@@ -19929,7 +19924,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("import_ufunc", 1);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":996
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":993
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -19945,16 +19940,16 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":997
+      /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":994
  * cdef inline int import_ufunc() except -1:
  *     try:
  *         _import_umath()             # <<<<<<<<<<<<<<
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")
  */
-      __pyx_t_4 = _import_umath(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(2, 997, __pyx_L3_error)
+      __pyx_t_4 = _import_umath(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(2, 994, __pyx_L3_error)
 
-      /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":996
+      /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":993
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -19968,7 +19963,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     goto __pyx_L8_try_end;
     __pyx_L3_error:;
 
-    /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":998
+    /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":995
  *     try:
  *         _import_umath()
  *     except Exception:             # <<<<<<<<<<<<<<
@@ -19978,27 +19973,27 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     __pyx_t_4 = __Pyx_PyErr_ExceptionMatches(((PyObject *)(&((PyTypeObject*)PyExc_Exception)[0])));
     if (__pyx_t_4) {
       __Pyx_AddTraceback("numpy.import_ufunc", __pyx_clineno, __pyx_lineno, __pyx_filename);
-      if (__Pyx_GetException(&__pyx_t_5, &__pyx_t_6, &__pyx_t_7) < 0) __PYX_ERR(2, 998, __pyx_L5_except_error)
+      if (__Pyx_GetException(&__pyx_t_5, &__pyx_t_6, &__pyx_t_7) < 0) __PYX_ERR(2, 995, __pyx_L5_except_error)
       __Pyx_XGOTREF(__pyx_t_5);
       __Pyx_XGOTREF(__pyx_t_6);
       __Pyx_XGOTREF(__pyx_t_7);
 
-      /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":999
+      /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":996
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")             # <<<<<<<<<<<<<<
  * 
  * 
  */
-      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__10, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(2, 999, __pyx_L5_except_error)
+      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__10, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(2, 996, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_8);
       __Pyx_Raise(__pyx_t_8, 0, 0, 0);
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-      __PYX_ERR(2, 999, __pyx_L5_except_error)
+      __PYX_ERR(2, 996, __pyx_L5_except_error)
     }
     goto __pyx_L5_except_error;
 
-    /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":996
+    /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":993
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -20014,7 +20009,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     __pyx_L8_try_end:;
   }
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":995
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":992
  *         raise ImportError("numpy.core.umath failed to import")
  * 
  * cdef inline int import_ufunc() except -1:             # <<<<<<<<<<<<<<
@@ -20037,7 +20032,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1002
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":999
  * 
  * 
  * cdef inline bint is_timedelta64_object(object obj):             # <<<<<<<<<<<<<<
@@ -20048,7 +20043,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
 static CYTHON_INLINE int __pyx_f_5numpy_is_timedelta64_object(PyObject *__pyx_v_obj) {
   int __pyx_r;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1014
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1011
  *     bool
  *     """
  *     return PyObject_TypeCheck(obj, &PyTimedeltaArrType_Type)             # <<<<<<<<<<<<<<
@@ -20058,7 +20053,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_timedelta64_object(PyObject *__pyx_v_
   __pyx_r = PyObject_TypeCheck(__pyx_v_obj, (&PyTimedeltaArrType_Type));
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1002
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":999
  * 
  * 
  * cdef inline bint is_timedelta64_object(object obj):             # <<<<<<<<<<<<<<
@@ -20071,7 +20066,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_timedelta64_object(PyObject *__pyx_v_
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1017
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1014
  * 
  * 
  * cdef inline bint is_datetime64_object(object obj):             # <<<<<<<<<<<<<<
@@ -20082,7 +20077,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_timedelta64_object(PyObject *__pyx_v_
 static CYTHON_INLINE int __pyx_f_5numpy_is_datetime64_object(PyObject *__pyx_v_obj) {
   int __pyx_r;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1029
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1026
  *     bool
  *     """
  *     return PyObject_TypeCheck(obj, &PyDatetimeArrType_Type)             # <<<<<<<<<<<<<<
@@ -20092,7 +20087,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_datetime64_object(PyObject *__pyx_v_o
   __pyx_r = PyObject_TypeCheck(__pyx_v_obj, (&PyDatetimeArrType_Type));
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1017
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1014
  * 
  * 
  * cdef inline bint is_datetime64_object(object obj):             # <<<<<<<<<<<<<<
@@ -20105,7 +20100,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_datetime64_object(PyObject *__pyx_v_o
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1032
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1029
  * 
  * 
  * cdef inline npy_datetime get_datetime64_value(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -20116,7 +20111,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_datetime64_object(PyObject *__pyx_v_o
 static CYTHON_INLINE npy_datetime __pyx_f_5numpy_get_datetime64_value(PyObject *__pyx_v_obj) {
   npy_datetime __pyx_r;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1039
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1036
  *     also needed.  That can be found using `get_datetime64_unit`.
  *     """
  *     return (<PyDatetimeScalarObject*>obj).obval             # <<<<<<<<<<<<<<
@@ -20126,7 +20121,7 @@ static CYTHON_INLINE npy_datetime __pyx_f_5numpy_get_datetime64_value(PyObject *
   __pyx_r = ((PyDatetimeScalarObject *)__pyx_v_obj)->obval;
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1032
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1029
  * 
  * 
  * cdef inline npy_datetime get_datetime64_value(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -20139,7 +20134,7 @@ static CYTHON_INLINE npy_datetime __pyx_f_5numpy_get_datetime64_value(PyObject *
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1042
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1039
  * 
  * 
  * cdef inline npy_timedelta get_timedelta64_value(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -20150,7 +20145,7 @@ static CYTHON_INLINE npy_datetime __pyx_f_5numpy_get_datetime64_value(PyObject *
 static CYTHON_INLINE npy_timedelta __pyx_f_5numpy_get_timedelta64_value(PyObject *__pyx_v_obj) {
   npy_timedelta __pyx_r;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1046
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1043
  *     returns the int64 value underlying scalar numpy timedelta64 object
  *     """
  *     return (<PyTimedeltaScalarObject*>obj).obval             # <<<<<<<<<<<<<<
@@ -20160,7 +20155,7 @@ static CYTHON_INLINE npy_timedelta __pyx_f_5numpy_get_timedelta64_value(PyObject
   __pyx_r = ((PyTimedeltaScalarObject *)__pyx_v_obj)->obval;
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1042
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1039
  * 
  * 
  * cdef inline npy_timedelta get_timedelta64_value(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -20173,7 +20168,7 @@ static CYTHON_INLINE npy_timedelta __pyx_f_5numpy_get_timedelta64_value(PyObject
   return __pyx_r;
 }
 
-/* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1049
+/* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1046
  * 
  * 
  * cdef inline NPY_DATETIMEUNIT get_datetime64_unit(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -20184,7 +20179,7 @@ static CYTHON_INLINE npy_timedelta __pyx_f_5numpy_get_timedelta64_value(PyObject
 static CYTHON_INLINE NPY_DATETIMEUNIT __pyx_f_5numpy_get_datetime64_unit(PyObject *__pyx_v_obj) {
   NPY_DATETIMEUNIT __pyx_r;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1053
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1050
  *     returns the unit part of the dtype for a numpy datetime64 object.
  *     """
  *     return <NPY_DATETIMEUNIT>(<PyDatetimeScalarObject*>obj).obmeta.base             # <<<<<<<<<<<<<<
@@ -20192,7 +20187,7 @@ static CYTHON_INLINE NPY_DATETIMEUNIT __pyx_f_5numpy_get_datetime64_unit(PyObjec
   __pyx_r = ((NPY_DATETIMEUNIT)((PyDatetimeScalarObject *)__pyx_v_obj)->obmeta.base);
   goto __pyx_L0;
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":1049
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":1046
  * 
  * 
  * cdef inline NPY_DATETIMEUNIT get_datetime64_unit(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -20846,7 +20841,7 @@ static CYTHON_INLINE void __pyx_f_7cpython_5array_zero(arrayobject *__pyx_v_self
   /* function exit code */
 }
 
-/* "CFW_DVV_Similarity_Cython_SGD.pyx":62
+/* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":62
  * 
  * 
  *     def __init__(self, row_list, col_list, data_list,             # <<<<<<<<<<<<<<
@@ -20855,8 +20850,8 @@ static CYTHON_INLINE void __pyx_f_7cpython_5array_zero(arrayobject *__pyx_v_self
  */
 
 /* Python wrapper */
-static int __pyx_pw_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static int __pyx_pw_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static int __pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static int __pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_row_list = 0;
   PyObject *__pyx_v_col_list = 0;
   PyObject *__pyx_v_data_list = 0;
@@ -20898,7 +20893,7 @@ static int __pyx_pw_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
     values[4] = __Pyx_Arg_NewRef_VARARGS(((PyObject *)__pyx_float_0_0));
     values[5] = __Pyx_Arg_NewRef_VARARGS(((PyObject *)__pyx_int_1));
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":64
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":64
  *     def __init__(self, row_list, col_list, data_list,
  *                  ICM, add_zeros_quota = 0.0, n_factors = 1,
  *                  precompute_common_features = True,             # <<<<<<<<<<<<<<
@@ -20907,7 +20902,7 @@ static int __pyx_pw_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
  */
     values[6] = __Pyx_Arg_NewRef_VARARGS(((PyObject *)Py_True));
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":65
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":65
  *                  ICM, add_zeros_quota = 0.0, n_factors = 1,
  *                  precompute_common_features = True,
  *                  weights_initialization_D = None,             # <<<<<<<<<<<<<<
@@ -20916,7 +20911,7 @@ static int __pyx_pw_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
  */
     values[7] = __Pyx_Arg_NewRef_VARARGS(((PyObject *)Py_None));
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":66
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":66
  *                  precompute_common_features = True,
  *                  weights_initialization_D = None,
  *                  weights_initialization_V = None,             # <<<<<<<<<<<<<<
@@ -20925,7 +20920,7 @@ static int __pyx_pw_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
  */
     values[8] = __Pyx_Arg_NewRef_VARARGS(((PyObject *)Py_None));
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":67
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":67
  *                  weights_initialization_D = None,
  *                  weights_initialization_V = None,
  *                  positive_only_D = True,             # <<<<<<<<<<<<<<
@@ -20934,7 +20929,7 @@ static int __pyx_pw_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
  */
     values[9] = __Pyx_Arg_NewRef_VARARGS(((PyObject *)Py_True));
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":68
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":68
  *                  weights_initialization_V = None,
  *                  positive_only_D = True,
  *                  positive_only_V = True,             # <<<<<<<<<<<<<<
@@ -20943,7 +20938,7 @@ static int __pyx_pw_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
  */
     values[10] = __Pyx_Arg_NewRef_VARARGS(((PyObject *)Py_True));
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":69
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":69
  *                  positive_only_D = True,
  *                  positive_only_V = True,
  *                  verbose = False,             # <<<<<<<<<<<<<<
@@ -21249,13 +21244,13 @@ static int __pyx_pw_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
       __Pyx_Arg_XDECREF_VARARGS(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("CFW_DVV_Similarity_Cython_SGD.CFW_DVV_Similarity_Cython_SGD.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.CFW_DVV_Similarity_Cython_SGD.CFW_DVV_Similarity_Cython_SGD.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return -1;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD___init__(((struct __pyx_obj_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *)__pyx_v_self), __pyx_v_row_list, __pyx_v_col_list, __pyx_v_data_list, __pyx_v_ICM, __pyx_v_add_zeros_quota, __pyx_v_n_factors, __pyx_v_precompute_common_features, __pyx_v_weights_initialization_D, __pyx_v_weights_initialization_V, __pyx_v_positive_only_D, __pyx_v_positive_only_V, __pyx_v_verbose, __pyx_v_learning_rate, __pyx_v_l2_reg_D, __pyx_v_l2_reg_V, __pyx_v_sgd_mode, __pyx_v_gamma, __pyx_v_beta_1, __pyx_v_beta_2, __pyx_v_mean_init, __pyx_v_std_init);
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD___init__(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *)__pyx_v_self), __pyx_v_row_list, __pyx_v_col_list, __pyx_v_data_list, __pyx_v_ICM, __pyx_v_add_zeros_quota, __pyx_v_n_factors, __pyx_v_precompute_common_features, __pyx_v_weights_initialization_D, __pyx_v_weights_initialization_V, __pyx_v_positive_only_D, __pyx_v_positive_only_V, __pyx_v_verbose, __pyx_v_learning_rate, __pyx_v_l2_reg_D, __pyx_v_l2_reg_V, __pyx_v_sgd_mode, __pyx_v_gamma, __pyx_v_beta_1, __pyx_v_beta_2, __pyx_v_mean_init, __pyx_v_std_init);
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":62
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":62
  * 
  * 
  *     def __init__(self, row_list, col_list, data_list,             # <<<<<<<<<<<<<<
@@ -21274,7 +21269,7 @@ static int __pyx_pw_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
   return __pyx_r;
 }
 
-static int __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD___init__(struct __pyx_obj_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *__pyx_v_self, PyObject *__pyx_v_row_list, PyObject *__pyx_v_col_list, PyObject *__pyx_v_data_list, PyObject *__pyx_v_ICM, PyObject *__pyx_v_add_zeros_quota, PyObject *__pyx_v_n_factors, PyObject *__pyx_v_precompute_common_features, PyObject *__pyx_v_weights_initialization_D, PyObject *__pyx_v_weights_initialization_V, PyObject *__pyx_v_positive_only_D, PyObject *__pyx_v_positive_only_V, PyObject *__pyx_v_verbose, PyObject *__pyx_v_learning_rate, PyObject *__pyx_v_l2_reg_D, PyObject *__pyx_v_l2_reg_V, PyObject *__pyx_v_sgd_mode, PyObject *__pyx_v_gamma, PyObject *__pyx_v_beta_1, PyObject *__pyx_v_beta_2, PyObject *__pyx_v_mean_init, PyObject *__pyx_v_std_init) {
+static int __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD___init__(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *__pyx_v_self, PyObject *__pyx_v_row_list, PyObject *__pyx_v_col_list, PyObject *__pyx_v_data_list, PyObject *__pyx_v_ICM, PyObject *__pyx_v_add_zeros_quota, PyObject *__pyx_v_n_factors, PyObject *__pyx_v_precompute_common_features, PyObject *__pyx_v_weights_initialization_D, PyObject *__pyx_v_weights_initialization_V, PyObject *__pyx_v_positive_only_D, PyObject *__pyx_v_positive_only_V, PyObject *__pyx_v_verbose, PyObject *__pyx_v_learning_rate, PyObject *__pyx_v_l2_reg_D, PyObject *__pyx_v_l2_reg_V, PyObject *__pyx_v_sgd_mode, PyObject *__pyx_v_gamma, PyObject *__pyx_v_beta_1, PyObject *__pyx_v_beta_2, PyObject *__pyx_v_mean_init, PyObject *__pyx_v_std_init) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -21296,7 +21291,7 @@ static int __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__init__", 1);
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":74
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":74
  * 
  * 
  *         self.row_list = np.array(row_list, dtype=np.int32)             # <<<<<<<<<<<<<<
@@ -21334,7 +21329,7 @@ static int __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
   __pyx_t_6.memview = NULL;
   __pyx_t_6.data = NULL;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":75
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":75
  * 
  *         self.row_list = np.array(row_list, dtype=np.int32)
  *         self.col_list = np.array(col_list, dtype=np.int32)             # <<<<<<<<<<<<<<
@@ -21372,7 +21367,7 @@ static int __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
   __pyx_t_6.memview = NULL;
   __pyx_t_6.data = NULL;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":76
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":76
  *         self.row_list = np.array(row_list, dtype=np.int32)
  *         self.col_list = np.array(col_list, dtype=np.int32)
  *         self.data_list = np.array(data_list, dtype=np.float64)             # <<<<<<<<<<<<<<
@@ -21410,7 +21405,7 @@ static int __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
   __pyx_t_7.memview = NULL;
   __pyx_t_7.data = NULL;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":78
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":78
  *         self.data_list = np.array(data_list, dtype=np.float64)
  * 
  *         self.n_samples = len(self.row_list)             # <<<<<<<<<<<<<<
@@ -21421,7 +21416,7 @@ static int __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
   __pyx_t_8 = __Pyx_MemoryView_Len(__pyx_v_self->row_list); 
   __pyx_v_self->n_samples = __pyx_t_8;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":80
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":80
  *         self.n_samples = len(self.row_list)
  * 
  *         self.ICM = check_matrix(ICM, 'csr').astype(bool)             # <<<<<<<<<<<<<<
@@ -21483,7 +21478,7 @@ static int __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
   __pyx_v_self->ICM = __pyx_t_2;
   __pyx_t_2 = 0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":83
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":83
  * 
  * 
  *         self.n_items = ICM.shape[0]             # <<<<<<<<<<<<<<
@@ -21499,7 +21494,7 @@ static int __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   __pyx_v_self->n_items = __pyx_t_10;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":84
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":84
  * 
  *         self.n_items = ICM.shape[0]
  *         self.n_features = ICM.shape[1]             # <<<<<<<<<<<<<<
@@ -21515,7 +21510,7 @@ static int __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __pyx_v_self->n_features = __pyx_t_10;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":85
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":85
  *         self.n_items = ICM.shape[0]
  *         self.n_features = ICM.shape[1]
  *         self.n_factors = n_factors             # <<<<<<<<<<<<<<
@@ -21525,7 +21520,7 @@ static int __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
   __pyx_t_10 = __Pyx_PyInt_As_int(__pyx_v_n_factors); if (unlikely((__pyx_t_10 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 85, __pyx_L1_error)
   __pyx_v_self->n_factors = __pyx_t_10;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":86
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":86
  *         self.n_features = ICM.shape[1]
  *         self.n_factors = n_factors
  *         self.learning_rate = learning_rate             # <<<<<<<<<<<<<<
@@ -21535,7 +21530,7 @@ static int __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
   __pyx_t_11 = __pyx_PyFloat_AsDouble(__pyx_v_learning_rate); if (unlikely((__pyx_t_11 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 86, __pyx_L1_error)
   __pyx_v_self->learning_rate = __pyx_t_11;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":87
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":87
  *         self.n_factors = n_factors
  *         self.learning_rate = learning_rate
  *         self.add_zeros_quota = add_zeros_quota             # <<<<<<<<<<<<<<
@@ -21545,7 +21540,7 @@ static int __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
   __pyx_t_11 = __pyx_PyFloat_AsDouble(__pyx_v_add_zeros_quota); if (unlikely((__pyx_t_11 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 87, __pyx_L1_error)
   __pyx_v_self->add_zeros_quota = __pyx_t_11;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":88
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":88
  *         self.learning_rate = learning_rate
  *         self.add_zeros_quota = add_zeros_quota
  *         self.l2_reg_D = l2_reg_D             # <<<<<<<<<<<<<<
@@ -21555,7 +21550,7 @@ static int __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
   __pyx_t_11 = __pyx_PyFloat_AsDouble(__pyx_v_l2_reg_D); if (unlikely((__pyx_t_11 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 88, __pyx_L1_error)
   __pyx_v_self->l2_reg_D = __pyx_t_11;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":89
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":89
  *         self.add_zeros_quota = add_zeros_quota
  *         self.l2_reg_D = l2_reg_D
  *         self.l2_reg_V = l2_reg_V             # <<<<<<<<<<<<<<
@@ -21565,7 +21560,7 @@ static int __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
   __pyx_t_11 = __pyx_PyFloat_AsDouble(__pyx_v_l2_reg_V); if (unlikely((__pyx_t_11 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 89, __pyx_L1_error)
   __pyx_v_self->l2_reg_V = __pyx_t_11;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":90
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":90
  *         self.l2_reg_D = l2_reg_D
  *         self.l2_reg_V = l2_reg_V
  *         self.positive_only_D = positive_only_D             # <<<<<<<<<<<<<<
@@ -21575,7 +21570,7 @@ static int __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
   __pyx_t_10 = __Pyx_PyInt_As_int(__pyx_v_positive_only_D); if (unlikely((__pyx_t_10 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 90, __pyx_L1_error)
   __pyx_v_self->positive_only_D = __pyx_t_10;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":91
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":91
  *         self.l2_reg_V = l2_reg_V
  *         self.positive_only_D = positive_only_D
  *         self.positive_only_V = positive_only_V             # <<<<<<<<<<<<<<
@@ -21585,7 +21580,7 @@ static int __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
   __pyx_t_10 = __Pyx_PyInt_As_int(__pyx_v_positive_only_V); if (unlikely((__pyx_t_10 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 91, __pyx_L1_error)
   __pyx_v_self->positive_only_V = __pyx_t_10;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":92
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":92
  *         self.positive_only_D = positive_only_D
  *         self.positive_only_V = positive_only_V
  *         self.verbose = verbose             # <<<<<<<<<<<<<<
@@ -21595,7 +21590,7 @@ static int __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
   __pyx_t_10 = __Pyx_PyInt_As_int(__pyx_v_verbose); if (unlikely((__pyx_t_10 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 92, __pyx_L1_error)
   __pyx_v_self->verbose = __pyx_t_10;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":94
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":94
  *         self.verbose = verbose
  * 
  *         self.precompute_common_features = precompute_common_features             # <<<<<<<<<<<<<<
@@ -21605,7 +21600,7 @@ static int __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
   __pyx_t_10 = __Pyx_PyInt_As_int(__pyx_v_precompute_common_features); if (unlikely((__pyx_t_10 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 94, __pyx_L1_error)
   __pyx_v_self->precompute_common_features = __pyx_t_10;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":97
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":97
  * 
  * 
  *         if self.precompute_common_features:             # <<<<<<<<<<<<<<
@@ -21615,7 +21610,7 @@ static int __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
   __pyx_t_12 = (__pyx_v_self->precompute_common_features != 0);
   if (__pyx_t_12) {
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":98
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":98
  * 
  *         if self.precompute_common_features:
  *             self.precompute_common_features_function()             # <<<<<<<<<<<<<<
@@ -21648,7 +21643,7 @@ static int __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
     }
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":97
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":97
  * 
  * 
  *         if self.precompute_common_features:             # <<<<<<<<<<<<<<
@@ -21657,7 +21652,7 @@ static int __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
  */
   }
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":101
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":101
  * 
  * 
  *         if weights_initialization_D is not None:             # <<<<<<<<<<<<<<
@@ -21667,7 +21662,7 @@ static int __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
   __pyx_t_12 = (__pyx_v_weights_initialization_D != Py_None);
   if (__pyx_t_12) {
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":102
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":102
  * 
  *         if weights_initialization_D is not None:
  *             assert np.array(weights_initialization_D).ravel().shape == (self.n_features,), \             # <<<<<<<<<<<<<<
@@ -21745,7 +21740,7 @@ static int __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
       if (unlikely(!__pyx_t_12)) {
 
-        /* "CFW_DVV_Similarity_Cython_SGD.pyx":103
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":103
  *         if weights_initialization_D is not None:
  *             assert np.array(weights_initialization_D).ravel().shape == (self.n_features,), \
  *                 "CFW_DVV_Similarity_Cython_SGD: Wrong shape for weights_initialization_D, received was {}, expected was {}.".format(             # <<<<<<<<<<<<<<
@@ -21755,7 +21750,7 @@ static int __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
         __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_CFW_DVV_Similarity_Cython_SGD_Wr, __pyx_n_s_format); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 103, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_4);
 
-        /* "CFW_DVV_Similarity_Cython_SGD.pyx":104
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":104
  *             assert np.array(weights_initialization_D).ravel().shape == (self.n_features,), \
  *                 "CFW_DVV_Similarity_Cython_SGD: Wrong shape for weights_initialization_D, received was {}, expected was {}.".format(
  *                     np.array(weights_initialization_D).ravel().shape, (self.n_features,))             # <<<<<<<<<<<<<<
@@ -21849,7 +21844,7 @@ static int __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
           __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
         }
 
-        /* "CFW_DVV_Similarity_Cython_SGD.pyx":103
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":103
  *         if weights_initialization_D is not None:
  *             assert np.array(weights_initialization_D).ravel().shape == (self.n_features,), \
  *                 "CFW_DVV_Similarity_Cython_SGD: Wrong shape for weights_initialization_D, received was {}, expected was {}.".format(             # <<<<<<<<<<<<<<
@@ -21868,7 +21863,7 @@ static int __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
     if ((1)); else __PYX_ERR(0, 102, __pyx_L1_error)
     #endif
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":106
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":106
  *                     np.array(weights_initialization_D).ravel().shape, (self.n_features,))
  * 
  *             self.D = np.array(weights_initialization_D, dtype=np.float64)             # <<<<<<<<<<<<<<
@@ -21906,7 +21901,7 @@ static int __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
     __pyx_t_7.memview = NULL;
     __pyx_t_7.data = NULL;
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":101
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":101
  * 
  * 
  *         if weights_initialization_D is not None:             # <<<<<<<<<<<<<<
@@ -21916,7 +21911,7 @@ static int __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
     goto __pyx_L4;
   }
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":108
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":108
  *             self.D = np.array(weights_initialization_D, dtype=np.float64)
  *         else:
  *             self.D = np.zeros(self.n_features, dtype=np.float64)             # <<<<<<<<<<<<<<
@@ -21959,7 +21954,7 @@ static int __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
   }
   __pyx_L4:;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":110
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":110
  *             self.D = np.zeros(self.n_features, dtype=np.float64)
  * 
  *         if weights_initialization_V is not None:             # <<<<<<<<<<<<<<
@@ -21969,7 +21964,7 @@ static int __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
   __pyx_t_12 = (__pyx_v_weights_initialization_V != Py_None);
   if (__pyx_t_12) {
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":111
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":111
  * 
  *         if weights_initialization_V is not None:
  *             assert np.array(weights_initialization_V).ravel().shape == (self.n_factors, self.n_features), \             # <<<<<<<<<<<<<<
@@ -22052,7 +22047,7 @@ static int __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
       if (unlikely(!__pyx_t_12)) {
 
-        /* "CFW_DVV_Similarity_Cython_SGD.pyx":112
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":112
  *         if weights_initialization_V is not None:
  *             assert np.array(weights_initialization_V).ravel().shape == (self.n_factors, self.n_features), \
  *                 "CFW_DVV_Similarity_Cython_SGD: Wrong shape for weights_initialization_V, received was {}, expected was {}.".format(             # <<<<<<<<<<<<<<
@@ -22062,7 +22057,7 @@ static int __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
         __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_CFW_DVV_Similarity_Cython_SGD_Wr_2, __pyx_n_s_format); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 112, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_4);
 
-        /* "CFW_DVV_Similarity_Cython_SGD.pyx":113
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":113
  *             assert np.array(weights_initialization_V).ravel().shape == (self.n_factors, self.n_features), \
  *                 "CFW_DVV_Similarity_Cython_SGD: Wrong shape for weights_initialization_V, received was {}, expected was {}.".format(
  *                     np.array(weights_initialization_V).ravel().shape, (self.n_factors, self.n_features))             # <<<<<<<<<<<<<<
@@ -22161,7 +22156,7 @@ static int __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
           __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
         }
 
-        /* "CFW_DVV_Similarity_Cython_SGD.pyx":112
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":112
  *         if weights_initialization_V is not None:
  *             assert np.array(weights_initialization_V).ravel().shape == (self.n_factors, self.n_features), \
  *                 "CFW_DVV_Similarity_Cython_SGD: Wrong shape for weights_initialization_V, received was {}, expected was {}.".format(             # <<<<<<<<<<<<<<
@@ -22180,7 +22175,7 @@ static int __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
     if ((1)); else __PYX_ERR(0, 111, __pyx_L1_error)
     #endif
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":115
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":115
  *                     np.array(weights_initialization_V).ravel().shape, (self.n_factors, self.n_features))
  * 
  *             self.V = np.array(weights_initialization_V, dtype=np.float64)             # <<<<<<<<<<<<<<
@@ -22218,7 +22213,7 @@ static int __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
     __pyx_t_14.memview = NULL;
     __pyx_t_14.data = NULL;
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":110
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":110
  *             self.D = np.zeros(self.n_features, dtype=np.float64)
  * 
  *         if weights_initialization_V is not None:             # <<<<<<<<<<<<<<
@@ -22228,7 +22223,7 @@ static int __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
     goto __pyx_L5;
   }
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":117
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":117
  *             self.V = np.array(weights_initialization_V, dtype=np.float64)
  *         else:
  *             self.V = np.random.normal(mean_init, std_init, (self.n_factors, self.n_features)).astype(np.float64)             # <<<<<<<<<<<<<<
@@ -22319,7 +22314,7 @@ static int __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
   }
   __pyx_L5:;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":122
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":122
  * 
  *         # Init ICM indices
  *         self.icm_indices = self.ICM.indices             # <<<<<<<<<<<<<<
@@ -22335,7 +22330,7 @@ static int __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
   __pyx_t_6.memview = NULL;
   __pyx_t_6.data = NULL;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":123
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":123
  *         # Init ICM indices
  *         self.icm_indices = self.ICM.indices
  *         self.icm_indptr = self.ICM.indptr             # <<<<<<<<<<<<<<
@@ -22351,7 +22346,7 @@ static int __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
   __pyx_t_6.memview = NULL;
   __pyx_t_6.data = NULL;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":126
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":126
  * 
  * 
  *         self.union_features_id = np.zeros((self.n_features), dtype=np.int32)             # <<<<<<<<<<<<<<
@@ -22391,7 +22386,7 @@ static int __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
   __pyx_t_6.memview = NULL;
   __pyx_t_6.data = NULL;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":127
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":127
  * 
  *         self.union_features_id = np.zeros((self.n_features), dtype=np.int32)
  *         self.union_features_flag = np.zeros((self.n_features), dtype=np.int32)             # <<<<<<<<<<<<<<
@@ -22431,7 +22426,7 @@ static int __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
   __pyx_t_6.memview = NULL;
   __pyx_t_6.data = NULL;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":129
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":129
  *         self.union_features_flag = np.zeros((self.n_features), dtype=np.int32)
  * 
  *         self.common_features_id = np.zeros((self.n_features), dtype=np.int32)             # <<<<<<<<<<<<<<
@@ -22471,7 +22466,7 @@ static int __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
   __pyx_t_6.memview = NULL;
   __pyx_t_6.data = NULL;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":130
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":130
  * 
  *         self.common_features_id = np.zeros((self.n_features), dtype=np.int32)
  *         self.common_features_flag = np.zeros((self.n_features), dtype=np.int32)             # <<<<<<<<<<<<<<
@@ -22511,7 +22506,7 @@ static int __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
   __pyx_t_6.memview = NULL;
   __pyx_t_6.data = NULL;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":132
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":132
  *         self.common_features_flag = np.zeros((self.n_features), dtype=np.int32)
  * 
  *         self.feature_union_test()             # <<<<<<<<<<<<<<
@@ -22544,7 +22539,7 @@ static int __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
   }
   __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":133
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":133
  * 
  *         self.feature_union_test()
  *         self.feature_common_test()             # <<<<<<<<<<<<<<
@@ -22577,7 +22572,7 @@ static int __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
   }
   __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":137
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":137
  * 
  * 
  *         self.useAdaGrad = False             # <<<<<<<<<<<<<<
@@ -22586,7 +22581,7 @@ static int __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
  */
   __pyx_v_self->useAdaGrad = 0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":138
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":138
  * 
  *         self.useAdaGrad = False
  *         self.useRmsprop = False             # <<<<<<<<<<<<<<
@@ -22595,7 +22590,7 @@ static int __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
  */
   __pyx_v_self->useRmsprop = 0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":139
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":139
  *         self.useAdaGrad = False
  *         self.useRmsprop = False
  *         self.useAdam = False             # <<<<<<<<<<<<<<
@@ -22604,7 +22599,7 @@ static int __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
  */
   __pyx_v_self->useAdam = 0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":141
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":141
  *         self.useAdam = False
  * 
  *         if sgd_mode=='adagrad':             # <<<<<<<<<<<<<<
@@ -22614,7 +22609,7 @@ static int __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
   __pyx_t_12 = (__Pyx_PyString_Equals(__pyx_v_sgd_mode, __pyx_n_s_adagrad, Py_EQ)); if (unlikely((__pyx_t_12 < 0))) __PYX_ERR(0, 141, __pyx_L1_error)
   if (__pyx_t_12) {
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":142
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":142
  * 
  *         if sgd_mode=='adagrad':
  *             self.useAdaGrad = True             # <<<<<<<<<<<<<<
@@ -22623,7 +22618,7 @@ static int __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
  */
     __pyx_v_self->useAdaGrad = 1;
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":143
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":143
  *         if sgd_mode=='adagrad':
  *             self.useAdaGrad = True
  *             self.sgd_cache_D = np.zeros((self.n_features), dtype=np.float64)             # <<<<<<<<<<<<<<
@@ -22663,7 +22658,7 @@ static int __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
     __pyx_t_7.memview = NULL;
     __pyx_t_7.data = NULL;
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":144
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":144
  *             self.useAdaGrad = True
  *             self.sgd_cache_D = np.zeros((self.n_features), dtype=np.float64)
  *             self.sgd_cache_V = np.zeros((self.n_factors, self.n_features), dtype=np.float64)             # <<<<<<<<<<<<<<
@@ -22713,7 +22708,7 @@ static int __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
     __pyx_t_14.memview = NULL;
     __pyx_t_14.data = NULL;
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":141
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":141
  *         self.useAdam = False
  * 
  *         if sgd_mode=='adagrad':             # <<<<<<<<<<<<<<
@@ -22723,7 +22718,7 @@ static int __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
     goto __pyx_L6;
   }
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":146
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":146
  *             self.sgd_cache_V = np.zeros((self.n_factors, self.n_features), dtype=np.float64)
  * 
  *         elif sgd_mode=='rmsprop':             # <<<<<<<<<<<<<<
@@ -22733,7 +22728,7 @@ static int __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
   __pyx_t_12 = (__Pyx_PyString_Equals(__pyx_v_sgd_mode, __pyx_n_s_rmsprop, Py_EQ)); if (unlikely((__pyx_t_12 < 0))) __PYX_ERR(0, 146, __pyx_L1_error)
   if (__pyx_t_12) {
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":147
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":147
  * 
  *         elif sgd_mode=='rmsprop':
  *             self.useRmsprop = True             # <<<<<<<<<<<<<<
@@ -22742,7 +22737,7 @@ static int __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
  */
     __pyx_v_self->useRmsprop = 1;
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":148
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":148
  *         elif sgd_mode=='rmsprop':
  *             self.useRmsprop = True
  *             self.sgd_cache_D = np.zeros((self.n_features), dtype=np.float64)             # <<<<<<<<<<<<<<
@@ -22782,7 +22777,7 @@ static int __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
     __pyx_t_7.memview = NULL;
     __pyx_t_7.data = NULL;
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":149
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":149
  *             self.useRmsprop = True
  *             self.sgd_cache_D = np.zeros((self.n_features), dtype=np.float64)
  *             self.sgd_cache_V = np.zeros((self.n_factors, self.n_features), dtype=np.float64)             # <<<<<<<<<<<<<<
@@ -22832,7 +22827,7 @@ static int __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
     __pyx_t_14.memview = NULL;
     __pyx_t_14.data = NULL;
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":153
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":153
  *             # Gamma default value suggested by Hinton
  *             # self.gamma = 0.9
  *             self.gamma = gamma             # <<<<<<<<<<<<<<
@@ -22842,7 +22837,7 @@ static int __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
     __pyx_t_11 = __pyx_PyFloat_AsDouble(__pyx_v_gamma); if (unlikely((__pyx_t_11 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 153, __pyx_L1_error)
     __pyx_v_self->gamma = __pyx_t_11;
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":146
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":146
  *             self.sgd_cache_V = np.zeros((self.n_factors, self.n_features), dtype=np.float64)
  * 
  *         elif sgd_mode=='rmsprop':             # <<<<<<<<<<<<<<
@@ -22852,7 +22847,7 @@ static int __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
     goto __pyx_L6;
   }
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":155
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":155
  *             self.gamma = gamma
  * 
  *         elif sgd_mode=='adam':             # <<<<<<<<<<<<<<
@@ -22862,7 +22857,7 @@ static int __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
   __pyx_t_12 = (__Pyx_PyString_Equals(__pyx_v_sgd_mode, __pyx_n_s_adam, Py_EQ)); if (unlikely((__pyx_t_12 < 0))) __PYX_ERR(0, 155, __pyx_L1_error)
   if (__pyx_t_12) {
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":156
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":156
  * 
  *         elif sgd_mode=='adam':
  *             self.useAdam = True             # <<<<<<<<<<<<<<
@@ -22871,7 +22866,7 @@ static int __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
  */
     __pyx_v_self->useAdam = 1;
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":157
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":157
  *         elif sgd_mode=='adam':
  *             self.useAdam = True
  *             self.sgd_cache_D_momentum_1 = np.zeros((self.n_features), dtype=np.float64)             # <<<<<<<<<<<<<<
@@ -22911,7 +22906,7 @@ static int __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
     __pyx_t_7.memview = NULL;
     __pyx_t_7.data = NULL;
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":158
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":158
  *             self.useAdam = True
  *             self.sgd_cache_D_momentum_1 = np.zeros((self.n_features), dtype=np.float64)
  *             self.sgd_cache_D_momentum_2 = np.zeros((self.n_features), dtype=np.float64)             # <<<<<<<<<<<<<<
@@ -22951,7 +22946,7 @@ static int __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
     __pyx_t_7.memview = NULL;
     __pyx_t_7.data = NULL;
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":160
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":160
  *             self.sgd_cache_D_momentum_2 = np.zeros((self.n_features), dtype=np.float64)
  * 
  *             self.sgd_cache_V_momentum_1 = np.zeros((self.n_factors, self.n_features), dtype=np.float64)             # <<<<<<<<<<<<<<
@@ -23001,7 +22996,7 @@ static int __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
     __pyx_t_14.memview = NULL;
     __pyx_t_14.data = NULL;
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":161
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":161
  * 
  *             self.sgd_cache_V_momentum_1 = np.zeros((self.n_factors, self.n_features), dtype=np.float64)
  *             self.sgd_cache_V_momentum_2 = np.zeros((self.n_factors, self.n_features), dtype=np.float64)             # <<<<<<<<<<<<<<
@@ -23051,7 +23046,7 @@ static int __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
     __pyx_t_14.memview = NULL;
     __pyx_t_14.data = NULL;
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":165
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":165
  *             # Default value suggested by the original paper
  *             # beta_1=0.9, beta_2=0.999
  *             self.beta_1 = beta_1             # <<<<<<<<<<<<<<
@@ -23061,7 +23056,7 @@ static int __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
     __pyx_t_11 = __pyx_PyFloat_AsDouble(__pyx_v_beta_1); if (unlikely((__pyx_t_11 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 165, __pyx_L1_error)
     __pyx_v_self->beta_1 = __pyx_t_11;
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":166
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":166
  *             # beta_1=0.9, beta_2=0.999
  *             self.beta_1 = beta_1
  *             self.beta_2 = beta_2             # <<<<<<<<<<<<<<
@@ -23071,7 +23066,7 @@ static int __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
     __pyx_t_11 = __pyx_PyFloat_AsDouble(__pyx_v_beta_2); if (unlikely((__pyx_t_11 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 166, __pyx_L1_error)
     __pyx_v_self->beta_2 = __pyx_t_11;
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":167
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":167
  *             self.beta_1 = beta_1
  *             self.beta_2 = beta_2
  *             self.beta_1_power_t = beta_1             # <<<<<<<<<<<<<<
@@ -23081,7 +23076,7 @@ static int __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
     __pyx_t_11 = __pyx_PyFloat_AsDouble(__pyx_v_beta_1); if (unlikely((__pyx_t_11 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 167, __pyx_L1_error)
     __pyx_v_self->beta_1_power_t = __pyx_t_11;
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":168
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":168
  *             self.beta_2 = beta_2
  *             self.beta_1_power_t = beta_1
  *             self.beta_2_power_t = beta_2             # <<<<<<<<<<<<<<
@@ -23091,7 +23086,7 @@ static int __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
     __pyx_t_11 = __pyx_PyFloat_AsDouble(__pyx_v_beta_2); if (unlikely((__pyx_t_11 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 168, __pyx_L1_error)
     __pyx_v_self->beta_2_power_t = __pyx_t_11;
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":155
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":155
  *             self.gamma = gamma
  * 
  *         elif sgd_mode=='adam':             # <<<<<<<<<<<<<<
@@ -23101,7 +23096,7 @@ static int __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
     goto __pyx_L6;
   }
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":170
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":170
  *             self.beta_2_power_t = beta_2
  * 
  *         elif sgd_mode=='sgd':             # <<<<<<<<<<<<<<
@@ -23113,7 +23108,7 @@ static int __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
     goto __pyx_L6;
   }
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":173
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":173
  *             pass
  *         else:
  *             raise ValueError(             # <<<<<<<<<<<<<<
@@ -23122,7 +23117,7 @@ static int __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
  */
   /*else*/ {
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":174
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":174
  *         else:
  *             raise ValueError(
  *                 "SGD_mode not valid. Acceptable values are: 'sgd', 'adagrad', 'rmsprop', 'adam'. Provided value was '{}'".format(             # <<<<<<<<<<<<<<
@@ -23132,7 +23127,7 @@ static int __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
     __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_SGD_mode_not_valid_Acceptable_va, __pyx_n_s_format); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 174, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":175
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":175
  *             raise ValueError(
  *                 "SGD_mode not valid. Acceptable values are: 'sgd', 'adagrad', 'rmsprop', 'adam'. Provided value was '{}'".format(
  *                     sgd_mode))             # <<<<<<<<<<<<<<
@@ -23162,7 +23157,7 @@ static int __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     }
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":173
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":173
  *             pass
  *         else:
  *             raise ValueError(             # <<<<<<<<<<<<<<
@@ -23178,7 +23173,7 @@ static int __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
   }
   __pyx_L6:;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":62
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":62
  * 
  * 
  *     def __init__(self, row_list, col_list, data_list,             # <<<<<<<<<<<<<<
@@ -23199,14 +23194,14 @@ static int __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
   __PYX_XCLEAR_MEMVIEW(&__pyx_t_7, 1);
   __Pyx_XDECREF(__pyx_t_13);
   __PYX_XCLEAR_MEMVIEW(&__pyx_t_14, 1);
-  __Pyx_AddTraceback("CFW_DVV_Similarity_Cython_SGD.CFW_DVV_Similarity_Cython_SGD.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.CFW_DVV_Similarity_Cython_SGD.CFW_DVV_Similarity_Cython_SGD.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = -1;
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-/* "CFW_DVV_Similarity_Cython_SGD.pyx":180
+/* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":180
  * 
  * 
  *     def precompute_common_features_function(self):             # <<<<<<<<<<<<<<
@@ -23215,15 +23210,15 @@ static int __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_3precompute_common_features_function(PyObject *__pyx_v_self, 
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_3precompute_common_features_function(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static PyMethodDef __pyx_mdef_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_3precompute_common_features_function = {"precompute_common_features_function", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_3precompute_common_features_function, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_3precompute_common_features_function(PyObject *__pyx_v_self, 
+static PyMethodDef __pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_3precompute_common_features_function = {"precompute_common_features_function", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_3precompute_common_features_function, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_3precompute_common_features_function(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -23248,14 +23243,14 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   if (unlikely(__pyx_nargs > 0)) {
     __Pyx_RaiseArgtupleInvalid("precompute_common_features_function", 1, 0, 0, __pyx_nargs); return NULL;}
   if (unlikely(__pyx_kwds) && __Pyx_NumKwargs_FASTCALL(__pyx_kwds) && unlikely(!__Pyx_CheckKeywordStrings(__pyx_kwds, "precompute_common_features_function", 0))) return NULL;
-  __pyx_r = __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_2precompute_common_features_function(((struct __pyx_obj_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *)__pyx_v_self));
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_2precompute_common_features_function(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_2precompute_common_features_function(struct __pyx_obj_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *__pyx_v_self) {
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_2precompute_common_features_function(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *__pyx_v_self) {
   PyObject *__pyx_v_commonFeatures = NULL;
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
@@ -23272,7 +23267,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("precompute_common_features_function", 1);
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":183
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":183
  * 
  *         # Compute common features, to keep memory requirements low process one at a time
  *         commonFeatures = self.ICM[np.array(self.row_list)].multiply(self.ICM[np.array(self.col_list)])             # <<<<<<<<<<<<<<
@@ -23376,7 +23371,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
   __pyx_v_commonFeatures = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":186
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":186
  * 
  *         # Init Common features
  *         self.commonFeatures_indices = commonFeatures.indices             # <<<<<<<<<<<<<<
@@ -23392,7 +23387,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
   __pyx_t_8.memview = NULL;
   __pyx_t_8.data = NULL;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":187
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":187
  *         # Init Common features
  *         self.commonFeatures_indices = commonFeatures.indices
  *         self.commonFeatures_indptr = commonFeatures.indptr             # <<<<<<<<<<<<<<
@@ -23408,7 +23403,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
   __pyx_t_8.memview = NULL;
   __pyx_t_8.data = NULL;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":180
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":180
  * 
  * 
  *     def precompute_common_features_function(self):             # <<<<<<<<<<<<<<
@@ -23427,7 +23422,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
   __Pyx_XDECREF(__pyx_t_5);
   __Pyx_XDECREF(__pyx_t_7);
   __PYX_XCLEAR_MEMVIEW(&__pyx_t_8, 1);
-  __Pyx_AddTraceback("CFW_DVV_Similarity_Cython_SGD.CFW_DVV_Similarity_Cython_SGD.precompute_common_features_function", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.CFW_DVV_Similarity_Cython_SGD.CFW_DVV_Similarity_Cython_SGD.precompute_common_features_function", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_commonFeatures);
@@ -23436,7 +23431,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
   return __pyx_r;
 }
 
-/* "CFW_DVV_Similarity_Cython_SGD.pyx":194
+/* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":194
  * 
  * 
  *     def fit(self):             # <<<<<<<<<<<<<<
@@ -23445,15 +23440,15 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_5fit(PyObject *__pyx_v_self, 
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_5fit(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static PyMethodDef __pyx_mdef_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_5fit = {"fit", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_5fit, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_5fit(PyObject *__pyx_v_self, 
+static PyMethodDef __pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_5fit = {"fit", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_5fit, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_5fit(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -23478,14 +23473,14 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   if (unlikely(__pyx_nargs > 0)) {
     __Pyx_RaiseArgtupleInvalid("fit", 1, 0, 0, __pyx_nargs); return NULL;}
   if (unlikely(__pyx_kwds) && __Pyx_NumKwargs_FASTCALL(__pyx_kwds) && unlikely(!__Pyx_CheckKeywordStrings(__pyx_kwds, "fit", 0))) return NULL;
-  __pyx_r = __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_4fit(((struct __pyx_obj_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *)__pyx_v_self));
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_4fit(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_4fit(struct __pyx_obj_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *__pyx_v_self) {
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_4fit(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *__pyx_v_self) {
   int __pyx_v_index;
   int __pyx_v_feature_id;
   int __pyx_v_feature_index;
@@ -23548,7 +23543,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("fit", 1);
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":198
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":198
  *         cdef int index, feature_id, feature_index, factor_index, num_common_features, num_union_features
  * 
  *         cdef double cum_loss = 0.0, s_ij=0.0, s_ij_hat=0.0, loss=0.0, loss_deriv=0.0, learning_rate_current_feature=0.0, gradient_update = 0.0             # <<<<<<<<<<<<<<
@@ -23563,7 +23558,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
   __pyx_v_learning_rate_current_feature = 0.0;
   __pyx_v_gradient_update = 0.0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":206
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":206
  *         cdef int[:] fi, fj
  * 
  *         cdef int[:] samples = np.arange(self.n_samples).astype(np.intc)             # <<<<<<<<<<<<<<
@@ -23637,7 +23632,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
   __pyx_t_7.memview = NULL;
   __pyx_t_7.data = NULL;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":207
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":207
  * 
  *         cdef int[:] samples = np.arange(self.n_samples).astype(np.intc)
  *         np.random.shuffle(samples)             # <<<<<<<<<<<<<<
@@ -23679,7 +23674,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
   }
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":211
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":211
  *         cdef int sample_index
  * 
  *         start_time = time.time()             # <<<<<<<<<<<<<<
@@ -23716,7 +23711,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
   __pyx_v_start_time = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":214
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":214
  * 
  *         # Start SGD
  *         for index in range(self.n_samples):             # <<<<<<<<<<<<<<
@@ -23728,7 +23723,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
   for (__pyx_t_10 = 0; __pyx_t_10 < __pyx_t_9; __pyx_t_10+=1) {
     __pyx_v_index = __pyx_t_10;
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":219
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":219
  * 
  *             # Initialize samples
  *             sample_index = samples[index]             # <<<<<<<<<<<<<<
@@ -23747,7 +23742,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
     }
     __pyx_v_sample_index = (*((int *) ( /* dim=0 */ (__pyx_v_samples.data + __pyx_t_11 * __pyx_v_samples.strides[0]) )));
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":220
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":220
  *             # Initialize samples
  *             sample_index = samples[index]
  *             s_ij = self.data_list[sample_index]             # <<<<<<<<<<<<<<
@@ -23767,7 +23762,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
     }
     __pyx_v_s_ij = (*((double *) ( /* dim=0 */ (__pyx_v_self->data_list.data + __pyx_t_11 * __pyx_v_self->data_list.strides[0]) )));
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":223
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":223
  * 
  *             # Initialize needed variables
  *             fi = self.get_features_vector(self.row_list[sample_index])             # <<<<<<<<<<<<<<
@@ -23785,13 +23780,13 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
       __Pyx_RaiseBufferIndexError(__pyx_t_12);
       __PYX_ERR(0, 223, __pyx_L1_error)
     }
-    __pyx_t_7 = ((struct __pyx_vtabstruct_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *)__pyx_v_self->__pyx_vtab)->get_features_vector(__pyx_v_self, (*((int *) ( /* dim=0 */ (__pyx_v_self->row_list.data + __pyx_t_11 * __pyx_v_self->row_list.strides[0]) )))); if (unlikely(!__pyx_t_7.memview)) __PYX_ERR(0, 223, __pyx_L1_error)
+    __pyx_t_7 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *)__pyx_v_self->__pyx_vtab)->get_features_vector(__pyx_v_self, (*((int *) ( /* dim=0 */ (__pyx_v_self->row_list.data + __pyx_t_11 * __pyx_v_self->row_list.strides[0]) )))); if (unlikely(!__pyx_t_7.memview)) __PYX_ERR(0, 223, __pyx_L1_error)
     __PYX_XCLEAR_MEMVIEW(&__pyx_v_fi, 1);
     __pyx_v_fi = __pyx_t_7;
     __pyx_t_7.memview = NULL;
     __pyx_t_7.data = NULL;
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":224
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":224
  *             # Initialize needed variables
  *             fi = self.get_features_vector(self.row_list[sample_index])
  *             fj = self.get_features_vector(self.col_list[sample_index])             # <<<<<<<<<<<<<<
@@ -23809,13 +23804,13 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
       __Pyx_RaiseBufferIndexError(__pyx_t_12);
       __PYX_ERR(0, 224, __pyx_L1_error)
     }
-    __pyx_t_7 = ((struct __pyx_vtabstruct_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *)__pyx_v_self->__pyx_vtab)->get_features_vector(__pyx_v_self, (*((int *) ( /* dim=0 */ (__pyx_v_self->col_list.data + __pyx_t_11 * __pyx_v_self->col_list.strides[0]) )))); if (unlikely(!__pyx_t_7.memview)) __PYX_ERR(0, 224, __pyx_L1_error)
+    __pyx_t_7 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *)__pyx_v_self->__pyx_vtab)->get_features_vector(__pyx_v_self, (*((int *) ( /* dim=0 */ (__pyx_v_self->col_list.data + __pyx_t_11 * __pyx_v_self->col_list.strides[0]) )))); if (unlikely(!__pyx_t_7.memview)) __PYX_ERR(0, 224, __pyx_L1_error)
     __PYX_XCLEAR_MEMVIEW(&__pyx_v_fj, 1);
     __pyx_v_fj = __pyx_t_7;
     __pyx_t_7.memview = NULL;
     __pyx_t_7.data = NULL;
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":227
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":227
  * 
  *             # indices of the common features
  *             if self.precompute_common_features:             # <<<<<<<<<<<<<<
@@ -23825,17 +23820,17 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
     __pyx_t_13 = (__pyx_v_self->precompute_common_features != 0);
     if (__pyx_t_13) {
 
-      /* "CFW_DVV_Similarity_Cython_SGD.pyx":228
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":228
  *             # indices of the common features
  *             if self.precompute_common_features:
  *                 num_common_features = self.feature_common_precomputed(sample_index)             # <<<<<<<<<<<<<<
  *             else:
  *                 num_common_features = self.feature_common_unordered(fi, fj)
  */
-      __pyx_t_12 = ((struct __pyx_vtabstruct_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *)__pyx_v_self->__pyx_vtab)->feature_common_precomputed(__pyx_v_self, __pyx_v_sample_index); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 228, __pyx_L1_error)
+      __pyx_t_12 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *)__pyx_v_self->__pyx_vtab)->feature_common_precomputed(__pyx_v_self, __pyx_v_sample_index); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 228, __pyx_L1_error)
       __pyx_v_num_common_features = __pyx_t_12;
 
-      /* "CFW_DVV_Similarity_Cython_SGD.pyx":227
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":227
  * 
  *             # indices of the common features
  *             if self.precompute_common_features:             # <<<<<<<<<<<<<<
@@ -23845,7 +23840,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
       goto __pyx_L5;
     }
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":230
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":230
  *                 num_common_features = self.feature_common_precomputed(sample_index)
  *             else:
  *                 num_common_features = self.feature_common_unordered(fi, fj)             # <<<<<<<<<<<<<<
@@ -23853,22 +23848,22 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
  *             # indices of the features appearing in fi or fj
  */
     /*else*/ {
-      __pyx_t_12 = ((struct __pyx_vtabstruct_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *)__pyx_v_self->__pyx_vtab)->feature_common_unordered(__pyx_v_self, __pyx_v_fi, __pyx_v_fj); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 230, __pyx_L1_error)
+      __pyx_t_12 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *)__pyx_v_self->__pyx_vtab)->feature_common_unordered(__pyx_v_self, __pyx_v_fi, __pyx_v_fj); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 230, __pyx_L1_error)
       __pyx_v_num_common_features = __pyx_t_12;
     }
     __pyx_L5:;
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":233
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":233
  * 
  *             # indices of the features appearing in fi or fj
  *             num_union_features = self.feature_union_unordered(fi, fj)             # <<<<<<<<<<<<<<
  * 
  *             D_hat = 0.0
  */
-    __pyx_t_12 = ((struct __pyx_vtabstruct_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *)__pyx_v_self->__pyx_vtab)->feature_union_unordered(__pyx_v_self, __pyx_v_fi, __pyx_v_fj); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 233, __pyx_L1_error)
+    __pyx_t_12 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *)__pyx_v_self->__pyx_vtab)->feature_union_unordered(__pyx_v_self, __pyx_v_fi, __pyx_v_fj); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 233, __pyx_L1_error)
     __pyx_v_num_union_features = __pyx_t_12;
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":235
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":235
  *             num_union_features = self.feature_union_unordered(fi, fj)
  * 
  *             D_hat = 0.0             # <<<<<<<<<<<<<<
@@ -23877,7 +23872,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
  */
     __pyx_v_D_hat = 0.0;
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":238
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":238
  * 
  *             # Compute predicted similarity (s_ij_hat)
  *             for feature_index in range(num_common_features):             # <<<<<<<<<<<<<<
@@ -23889,7 +23884,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
     for (__pyx_t_15 = 0; __pyx_t_15 < __pyx_t_14; __pyx_t_15+=1) {
       __pyx_v_feature_index = __pyx_t_15;
 
-      /* "CFW_DVV_Similarity_Cython_SGD.pyx":239
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":239
  *             # Compute predicted similarity (s_ij_hat)
  *             for feature_index in range(num_common_features):
  *                 feature_id = self.common_features_id[feature_index]             # <<<<<<<<<<<<<<
@@ -23909,7 +23904,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
       }
       __pyx_v_feature_id = (*((int *) ( /* dim=0 */ (__pyx_v_self->common_features_id.data + __pyx_t_11 * __pyx_v_self->common_features_id.strides[0]) )));
 
-      /* "CFW_DVV_Similarity_Cython_SGD.pyx":240
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":240
  *             for feature_index in range(num_common_features):
  *                 feature_id = self.common_features_id[feature_index]
  *                 D_hat += self.D[feature_id]             # <<<<<<<<<<<<<<
@@ -23930,7 +23925,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
       __pyx_v_D_hat = (__pyx_v_D_hat + (*((double *) ( /* dim=0 */ (__pyx_v_self->D.data + __pyx_t_11 * __pyx_v_self->D.strides[0]) ))));
     }
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":243
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":243
  * 
  * 
  *             V_hat = 0.0             # <<<<<<<<<<<<<<
@@ -23939,7 +23934,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
  */
     __pyx_v_V_hat = 0.0;
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":245
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":245
  *             V_hat = 0.0
  * 
  *             for factor_index in range(self.n_factors):             # <<<<<<<<<<<<<<
@@ -23951,7 +23946,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
     for (__pyx_t_15 = 0; __pyx_t_15 < __pyx_t_14; __pyx_t_15+=1) {
       __pyx_v_factor_index = __pyx_t_15;
 
-      /* "CFW_DVV_Similarity_Cython_SGD.pyx":246
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":246
  * 
  *             for factor_index in range(self.n_factors):
  *                 V_fi_k = 0.0             # <<<<<<<<<<<<<<
@@ -23960,7 +23955,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
  */
       __pyx_v_V_fi_k = 0.0;
 
-      /* "CFW_DVV_Similarity_Cython_SGD.pyx":247
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":247
  *             for factor_index in range(self.n_factors):
  *                 V_fi_k = 0.0
  *                 V_fj_k = 0.0             # <<<<<<<<<<<<<<
@@ -23969,7 +23964,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
  */
       __pyx_v_V_fj_k = 0.0;
 
-      /* "CFW_DVV_Similarity_Cython_SGD.pyx":249
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":249
  *                 V_fj_k = 0.0
  * 
  *                 for feature_index in range(len(fi)):             # <<<<<<<<<<<<<<
@@ -23981,7 +23976,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
       for (__pyx_t_16 = 0; __pyx_t_16 < __pyx_t_18; __pyx_t_16+=1) {
         __pyx_v_feature_index = __pyx_t_16;
 
-        /* "CFW_DVV_Similarity_Cython_SGD.pyx":250
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":250
  * 
  *                 for feature_index in range(len(fi)):
  *                     feature_id = fi[feature_index]             # <<<<<<<<<<<<<<
@@ -24000,7 +23995,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
         }
         __pyx_v_feature_id = (*((int *) ( /* dim=0 */ (__pyx_v_fi.data + __pyx_t_11 * __pyx_v_fi.strides[0]) )));
 
-        /* "CFW_DVV_Similarity_Cython_SGD.pyx":251
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":251
  *                 for feature_index in range(len(fi)):
  *                     feature_id = fi[feature_index]
  *                     V_fi_k += self.V[factor_index, feature_id]             # <<<<<<<<<<<<<<
@@ -24026,7 +24021,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
         __pyx_v_V_fi_k = (__pyx_v_V_fi_k + (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_self->V.data + __pyx_t_11 * __pyx_v_self->V.strides[0]) ) + __pyx_t_20 * __pyx_v_self->V.strides[1]) ))));
       }
 
-      /* "CFW_DVV_Similarity_Cython_SGD.pyx":253
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":253
  *                     V_fi_k += self.V[factor_index, feature_id]
  * 
  *                 for feature_index in range(len(fj)):             # <<<<<<<<<<<<<<
@@ -24038,7 +24033,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
       for (__pyx_t_16 = 0; __pyx_t_16 < __pyx_t_18; __pyx_t_16+=1) {
         __pyx_v_feature_index = __pyx_t_16;
 
-        /* "CFW_DVV_Similarity_Cython_SGD.pyx":254
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":254
  * 
  *                 for feature_index in range(len(fj)):
  *                     feature_id = fj[feature_index]             # <<<<<<<<<<<<<<
@@ -24057,7 +24052,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
         }
         __pyx_v_feature_id = (*((int *) ( /* dim=0 */ (__pyx_v_fj.data + __pyx_t_20 * __pyx_v_fj.strides[0]) )));
 
-        /* "CFW_DVV_Similarity_Cython_SGD.pyx":255
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":255
  *                 for feature_index in range(len(fj)):
  *                     feature_id = fj[feature_index]
  *                     V_fj_k += self.V[factor_index, feature_id]             # <<<<<<<<<<<<<<
@@ -24083,7 +24078,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
         __pyx_v_V_fj_k = (__pyx_v_V_fj_k + (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_self->V.data + __pyx_t_20 * __pyx_v_self->V.strides[0]) ) + __pyx_t_11 * __pyx_v_self->V.strides[1]) ))));
       }
 
-      /* "CFW_DVV_Similarity_Cython_SGD.pyx":257
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":257
  *                     V_fj_k += self.V[factor_index, feature_id]
  * 
  *                 V_hat += V_fi_k*V_fj_k             # <<<<<<<<<<<<<<
@@ -24093,7 +24088,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
       __pyx_v_V_hat = (__pyx_v_V_hat + (__pyx_v_V_fi_k * __pyx_v_V_fj_k));
     }
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":259
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":259
  *                 V_hat += V_fi_k*V_fj_k
  * 
  *             s_ij_hat = D_hat + V_hat             # <<<<<<<<<<<<<<
@@ -24102,7 +24097,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
  */
     __pyx_v_s_ij_hat = (__pyx_v_D_hat + __pyx_v_V_hat);
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":262
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":262
  * 
  *             #Compute loss
  *             loss = 0.5 * (s_ij_hat - s_ij)**2             # <<<<<<<<<<<<<<
@@ -24111,7 +24106,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
  */
     __pyx_v_loss = (0.5 * pow((__pyx_v_s_ij_hat - __pyx_v_s_ij), 2.0));
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":263
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":263
  *             #Compute loss
  *             loss = 0.5 * (s_ij_hat - s_ij)**2
  *             cum_loss += loss             # <<<<<<<<<<<<<<
@@ -24120,7 +24115,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
  */
     __pyx_v_cum_loss = (__pyx_v_cum_loss + __pyx_v_loss);
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":266
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":266
  * 
  *             #Compute derivatives
  *             error = s_ij_hat - s_ij             # <<<<<<<<<<<<<<
@@ -24129,7 +24124,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
  */
     __pyx_v_error = (__pyx_v_s_ij_hat - __pyx_v_s_ij);
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":270
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":270
  * 
  *             # Parameters update for d
  *             for feature_index in range(num_common_features):             # <<<<<<<<<<<<<<
@@ -24141,7 +24136,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
     for (__pyx_t_15 = 0; __pyx_t_15 < __pyx_t_14; __pyx_t_15+=1) {
       __pyx_v_feature_index = __pyx_t_15;
 
-      /* "CFW_DVV_Similarity_Cython_SGD.pyx":272
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":272
  *             for feature_index in range(num_common_features):
  * 
  *                 feature_id = self.common_features_id[feature_index]             # <<<<<<<<<<<<<<
@@ -24161,17 +24156,17 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
       }
       __pyx_v_feature_id = (*((int *) ( /* dim=0 */ (__pyx_v_self->common_features_id.data + __pyx_t_11 * __pyx_v_self->common_features_id.strides[0]) )));
 
-      /* "CFW_DVV_Similarity_Cython_SGD.pyx":274
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":274
  *                 feature_id = self.common_features_id[feature_index]
  * 
  *                 adaptive_gradient = self.compute_adaptive_gradient_D(feature_id, error)             # <<<<<<<<<<<<<<
  *                 self.D[feature_id] -= self.learning_rate * (adaptive_gradient + 2*self.l2_reg_D * self.D[feature_id])
  * 
  */
-      __pyx_t_21 = ((struct __pyx_vtabstruct_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *)__pyx_v_self->__pyx_vtab)->compute_adaptive_gradient_D(__pyx_v_self, __pyx_v_feature_id, __pyx_v_error); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 274, __pyx_L1_error)
+      __pyx_t_21 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *)__pyx_v_self->__pyx_vtab)->compute_adaptive_gradient_D(__pyx_v_self, __pyx_v_feature_id, __pyx_v_error); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 274, __pyx_L1_error)
       __pyx_v_adaptive_gradient = __pyx_t_21;
 
-      /* "CFW_DVV_Similarity_Cython_SGD.pyx":275
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":275
  * 
  *                 adaptive_gradient = self.compute_adaptive_gradient_D(feature_id, error)
  *                 self.D[feature_id] -= self.learning_rate * (adaptive_gradient + 2*self.l2_reg_D * self.D[feature_id])             # <<<<<<<<<<<<<<
@@ -24202,7 +24197,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
       }
       *((double *) ( /* dim=0 */ (__pyx_v_self->D.data + __pyx_t_20 * __pyx_v_self->D.strides[0]) )) -= (__pyx_v_self->learning_rate * (__pyx_v_adaptive_gradient + ((2.0 * __pyx_v_self->l2_reg_D) * (*((double *) ( /* dim=0 */ (__pyx_v_self->D.data + __pyx_t_11 * __pyx_v_self->D.strides[0]) ))))));
 
-      /* "CFW_DVV_Similarity_Cython_SGD.pyx":279
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":279
  * 
  *                 #Limit weights values between 0 and 1
  *                 if self.positive_only_D and self.D[feature_id] < 0.0:             # <<<<<<<<<<<<<<
@@ -24231,7 +24226,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
       __pyx_L17_bool_binop_done:;
       if (__pyx_t_13) {
 
-        /* "CFW_DVV_Similarity_Cython_SGD.pyx":280
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":280
  *                 #Limit weights values between 0 and 1
  *                 if self.positive_only_D and self.D[feature_id] < 0.0:
  *                     self.D[feature_id] = 0.0             # <<<<<<<<<<<<<<
@@ -24251,7 +24246,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
         }
         *((double *) ( /* dim=0 */ (__pyx_v_self->D.data + __pyx_t_11 * __pyx_v_self->D.strides[0]) )) = 0.0;
 
-        /* "CFW_DVV_Similarity_Cython_SGD.pyx":279
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":279
  * 
  *                 #Limit weights values between 0 and 1
  *                 if self.positive_only_D and self.D[feature_id] < 0.0:             # <<<<<<<<<<<<<<
@@ -24261,7 +24256,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
       }
     }
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":284
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":284
  * 
  *             # Parameters update for V
  *             for feature_index in range(num_union_features):             # <<<<<<<<<<<<<<
@@ -24273,7 +24268,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
     for (__pyx_t_15 = 0; __pyx_t_15 < __pyx_t_14; __pyx_t_15+=1) {
       __pyx_v_feature_index = __pyx_t_15;
 
-      /* "CFW_DVV_Similarity_Cython_SGD.pyx":286
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":286
  *             for feature_index in range(num_union_features):
  * 
  *                 feature_id = self.union_features_id[feature_index] # The features that need updates for each factor             # <<<<<<<<<<<<<<
@@ -24293,7 +24288,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
       }
       __pyx_v_feature_id = (*((int *) ( /* dim=0 */ (__pyx_v_self->union_features_id.data + __pyx_t_11 * __pyx_v_self->union_features_id.strides[0]) )));
 
-      /* "CFW_DVV_Similarity_Cython_SGD.pyx":288
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":288
  *                 feature_id = self.union_features_id[feature_index] # The features that need updates for each factor
  * 
  *                 for factor_index in range(self.n_factors):             # <<<<<<<<<<<<<<
@@ -24305,27 +24300,27 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
       for (__pyx_t_23 = 0; __pyx_t_23 < __pyx_t_19; __pyx_t_23+=1) {
         __pyx_v_factor_index = __pyx_t_23;
 
-        /* "CFW_DVV_Similarity_Cython_SGD.pyx":291
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":291
  * 
  *                     #gradient_update = loss_deriv * self.deriv_V(k, c, fi, fj) + self.l1_reg + 2*self.l2_reg * self.V[k,c]
  *                     loss_deriv = error * self.deriv_V(factor_index, feature_id, fi, fj)             # <<<<<<<<<<<<<<
  * 
  *                     adaptive_gradient = self.compute_adaptive_gradient_V(factor_index, feature_id, loss_deriv)
  */
-        __pyx_t_21 = ((struct __pyx_vtabstruct_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *)__pyx_v_self->__pyx_vtab)->deriv_V(__pyx_v_self, __pyx_v_factor_index, __pyx_v_feature_id, __pyx_v_fi, __pyx_v_fj); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 291, __pyx_L1_error)
+        __pyx_t_21 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *)__pyx_v_self->__pyx_vtab)->deriv_V(__pyx_v_self, __pyx_v_factor_index, __pyx_v_feature_id, __pyx_v_fi, __pyx_v_fj); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 291, __pyx_L1_error)
         __pyx_v_loss_deriv = (__pyx_v_error * __pyx_t_21);
 
-        /* "CFW_DVV_Similarity_Cython_SGD.pyx":293
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":293
  *                     loss_deriv = error * self.deriv_V(factor_index, feature_id, fi, fj)
  * 
  *                     adaptive_gradient = self.compute_adaptive_gradient_V(factor_index, feature_id, loss_deriv)             # <<<<<<<<<<<<<<
  *                     self.V[factor_index, feature_id] -= self.learning_rate * (adaptive_gradient + 2 *self.l2_reg_V * self.V[factor_index, feature_id])
  * 
  */
-        __pyx_t_21 = ((struct __pyx_vtabstruct_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *)__pyx_v_self->__pyx_vtab)->compute_adaptive_gradient_V(__pyx_v_self, __pyx_v_factor_index, __pyx_v_feature_id, __pyx_v_loss_deriv); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 293, __pyx_L1_error)
+        __pyx_t_21 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *)__pyx_v_self->__pyx_vtab)->compute_adaptive_gradient_V(__pyx_v_self, __pyx_v_factor_index, __pyx_v_feature_id, __pyx_v_loss_deriv); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 293, __pyx_L1_error)
         __pyx_v_adaptive_gradient = __pyx_t_21;
 
-        /* "CFW_DVV_Similarity_Cython_SGD.pyx":294
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":294
  * 
  *                     adaptive_gradient = self.compute_adaptive_gradient_V(factor_index, feature_id, loss_deriv)
  *                     self.V[factor_index, feature_id] -= self.learning_rate * (adaptive_gradient + 2 *self.l2_reg_V * self.V[factor_index, feature_id])             # <<<<<<<<<<<<<<
@@ -24366,7 +24361,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
         }
         *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_self->V.data + __pyx_t_25 * __pyx_v_self->V.strides[0]) ) + __pyx_t_26 * __pyx_v_self->V.strides[1]) )) -= (__pyx_v_self->learning_rate * (__pyx_v_adaptive_gradient + ((2.0 * __pyx_v_self->l2_reg_V) * (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_self->V.data + __pyx_t_11 * __pyx_v_self->V.strides[0]) ) + __pyx_t_20 * __pyx_v_self->V.strides[1]) ))))));
 
-        /* "CFW_DVV_Similarity_Cython_SGD.pyx":296
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":296
  *                     self.V[factor_index, feature_id] -= self.learning_rate * (adaptive_gradient + 2 *self.l2_reg_V * self.V[factor_index, feature_id])
  * 
  *                     if self.positive_only_V and self.V[factor_index, feature_id] < 0.0:             # <<<<<<<<<<<<<<
@@ -24400,7 +24395,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
         __pyx_L24_bool_binop_done:;
         if (__pyx_t_13) {
 
-          /* "CFW_DVV_Similarity_Cython_SGD.pyx":297
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":297
  * 
  *                     if self.positive_only_V and self.V[factor_index, feature_id] < 0.0:
  *                         self.V[factor_index, feature_id] = 0.0             # <<<<<<<<<<<<<<
@@ -24425,7 +24420,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
           }
           *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_self->V.data + __pyx_t_11 * __pyx_v_self->V.strides[0]) ) + __pyx_t_20 * __pyx_v_self->V.strides[1]) )) = 0.0;
 
-          /* "CFW_DVV_Similarity_Cython_SGD.pyx":296
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":296
  *                     self.V[factor_index, feature_id] -= self.learning_rate * (adaptive_gradient + 2 *self.l2_reg_V * self.V[factor_index, feature_id])
  * 
  *                     if self.positive_only_V and self.V[factor_index, feature_id] < 0.0:             # <<<<<<<<<<<<<<
@@ -24436,7 +24431,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
       }
     }
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":301
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":301
  * 
  *             # Exponentiation of beta at the end of each sample
  *             if self.useAdam:             # <<<<<<<<<<<<<<
@@ -24446,7 +24441,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
     __pyx_t_13 = (__pyx_v_self->useAdam != 0);
     if (__pyx_t_13) {
 
-      /* "CFW_DVV_Similarity_Cython_SGD.pyx":303
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":303
  *             if self.useAdam:
  * 
  *                 self.beta_1_power_t *= self.beta_1             # <<<<<<<<<<<<<<
@@ -24455,7 +24450,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
  */
       __pyx_v_self->beta_1_power_t = (__pyx_v_self->beta_1_power_t * __pyx_v_self->beta_1);
 
-      /* "CFW_DVV_Similarity_Cython_SGD.pyx":304
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":304
  * 
  *                 self.beta_1_power_t *= self.beta_1
  *                 self.beta_2_power_t *= self.beta_2             # <<<<<<<<<<<<<<
@@ -24464,7 +24459,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
  */
       __pyx_v_self->beta_2_power_t = (__pyx_v_self->beta_2_power_t * __pyx_v_self->beta_2);
 
-      /* "CFW_DVV_Similarity_Cython_SGD.pyx":301
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":301
  * 
  *             # Exponentiation of beta at the end of each sample
  *             if self.useAdam:             # <<<<<<<<<<<<<<
@@ -24473,7 +24468,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
  */
     }
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":308
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":308
  * 
  * 
  *             if self.verbose and ((index % 500000 == 0 and index!=0) or index == self.n_samples-1):             # <<<<<<<<<<<<<<
@@ -24503,7 +24498,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
     __pyx_L28_bool_binop_done:;
     if (__pyx_t_13) {
 
-      /* "CFW_DVV_Similarity_Cython_SGD.pyx":309
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":309
  * 
  *             if self.verbose and ((index % 500000 == 0 and index!=0) or index == self.n_samples-1):
  *                 print ("CFW_DVV_Similarity_Cython_SGD: Processed {} out of {} samples ( {:.2f}%). Loss is {:.4E}. Sample per second {:.0f}".format(             # <<<<<<<<<<<<<<
@@ -24513,7 +24508,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
       __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_CFW_DVV_Similarity_Cython_SGD_Pr, __pyx_n_s_format); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 309, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
 
-      /* "CFW_DVV_Similarity_Cython_SGD.pyx":310
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":310
  *             if self.verbose and ((index % 500000 == 0 and index!=0) or index == self.n_samples-1):
  *                 print ("CFW_DVV_Similarity_Cython_SGD: Processed {} out of {} samples ( {:.2f}%). Loss is {:.4E}. Sample per second {:.0f}".format(
  *                     index, self.n_samples, 100*float(index)/self.n_samples, cum_loss/index, float(index)/(time.time() - start_time)))             # <<<<<<<<<<<<<<
@@ -24601,7 +24596,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       }
 
-      /* "CFW_DVV_Similarity_Cython_SGD.pyx":309
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":309
  * 
  *             if self.verbose and ((index % 500000 == 0 and index!=0) or index == self.n_samples-1):
  *                 print ("CFW_DVV_Similarity_Cython_SGD: Processed {} out of {} samples ( {:.2f}%). Loss is {:.4E}. Sample per second {:.0f}".format(             # <<<<<<<<<<<<<<
@@ -24613,7 +24608,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-      /* "CFW_DVV_Similarity_Cython_SGD.pyx":308
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":308
  * 
  * 
  *             if self.verbose and ((index % 500000 == 0 and index!=0) or index == self.n_samples-1):             # <<<<<<<<<<<<<<
@@ -24623,7 +24618,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
     }
   }
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":315
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":315
  * 
  * 
  *         cum_loss /= self.n_samples             # <<<<<<<<<<<<<<
@@ -24636,7 +24631,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
   }
   __pyx_v_cum_loss = (__pyx_v_cum_loss / __pyx_v_self->n_samples);
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":318
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":318
  * 
  * 
  *         return cum_loss             # <<<<<<<<<<<<<<
@@ -24650,7 +24645,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
   __pyx_t_3 = 0;
   goto __pyx_L0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":194
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":194
  * 
  * 
  *     def fit(self):             # <<<<<<<<<<<<<<
@@ -24671,7 +24666,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
   __Pyx_XDECREF(__pyx_t_29);
   __Pyx_XDECREF(__pyx_t_30);
   __Pyx_XDECREF(__pyx_t_31);
-  __Pyx_AddTraceback("CFW_DVV_Similarity_Cython_SGD.CFW_DVV_Similarity_Cython_SGD.fit", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.CFW_DVV_Similarity_Cython_SGD.CFW_DVV_Similarity_Cython_SGD.fit", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __PYX_XCLEAR_MEMVIEW(&__pyx_v_fi, 1);
@@ -24683,7 +24678,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
   return __pyx_r;
 }
 
-/* "CFW_DVV_Similarity_Cython_SGD.pyx":321
+/* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":321
  * 
  * 
  *     def get_D(self):             # <<<<<<<<<<<<<<
@@ -24692,15 +24687,15 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_7get_D(PyObject *__pyx_v_self, 
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_7get_D(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static PyMethodDef __pyx_mdef_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_7get_D = {"get_D", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_7get_D, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_7get_D(PyObject *__pyx_v_self, 
+static PyMethodDef __pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_7get_D = {"get_D", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_7get_D, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_7get_D(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -24725,14 +24720,14 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   if (unlikely(__pyx_nargs > 0)) {
     __Pyx_RaiseArgtupleInvalid("get_D", 1, 0, 0, __pyx_nargs); return NULL;}
   if (unlikely(__pyx_kwds) && __Pyx_NumKwargs_FASTCALL(__pyx_kwds) && unlikely(!__Pyx_CheckKeywordStrings(__pyx_kwds, "get_D", 0))) return NULL;
-  __pyx_r = __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_6get_D(((struct __pyx_obj_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *)__pyx_v_self));
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_6get_D(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_6get_D(struct __pyx_obj_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *__pyx_v_self) {
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_6get_D(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *__pyx_v_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -24746,7 +24741,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("get_D", 1);
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":323
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":323
  *     def get_D(self):
  * 
  *         return np.array(self.D).copy()             # <<<<<<<<<<<<<<
@@ -24814,7 +24809,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":321
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":321
  * 
  * 
  *     def get_D(self):             # <<<<<<<<<<<<<<
@@ -24829,7 +24824,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
   __Pyx_XDECREF(__pyx_t_5);
-  __Pyx_AddTraceback("CFW_DVV_Similarity_Cython_SGD.CFW_DVV_Similarity_Cython_SGD.get_D", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.CFW_DVV_Similarity_Cython_SGD.CFW_DVV_Similarity_Cython_SGD.get_D", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -24837,7 +24832,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
   return __pyx_r;
 }
 
-/* "CFW_DVV_Similarity_Cython_SGD.pyx":325
+/* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":325
  *         return np.array(self.D).copy()
  * 
  *     def get_V(self):             # <<<<<<<<<<<<<<
@@ -24846,15 +24841,15 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_9get_V(PyObject *__pyx_v_self, 
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_9get_V(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static PyMethodDef __pyx_mdef_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_9get_V = {"get_V", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_9get_V, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_9get_V(PyObject *__pyx_v_self, 
+static PyMethodDef __pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_9get_V = {"get_V", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_9get_V, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_9get_V(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -24879,14 +24874,14 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   if (unlikely(__pyx_nargs > 0)) {
     __Pyx_RaiseArgtupleInvalid("get_V", 1, 0, 0, __pyx_nargs); return NULL;}
   if (unlikely(__pyx_kwds) && __Pyx_NumKwargs_FASTCALL(__pyx_kwds) && unlikely(!__Pyx_CheckKeywordStrings(__pyx_kwds, "get_V", 0))) return NULL;
-  __pyx_r = __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_8get_V(((struct __pyx_obj_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *)__pyx_v_self));
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_8get_V(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_8get_V(struct __pyx_obj_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *__pyx_v_self) {
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_8get_V(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *__pyx_v_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -24900,7 +24895,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("get_V", 1);
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":327
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":327
  *     def get_V(self):
  * 
  *         return np.array(self.V).copy()             # <<<<<<<<<<<<<<
@@ -24968,7 +24963,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":325
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":325
  *         return np.array(self.D).copy()
  * 
  *     def get_V(self):             # <<<<<<<<<<<<<<
@@ -24983,7 +24978,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
   __Pyx_XDECREF(__pyx_t_5);
-  __Pyx_AddTraceback("CFW_DVV_Similarity_Cython_SGD.CFW_DVV_Similarity_Cython_SGD.get_V", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.CFW_DVV_Similarity_Cython_SGD.CFW_DVV_Similarity_Cython_SGD.get_V", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -24991,7 +24986,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
   return __pyx_r;
 }
 
-/* "CFW_DVV_Similarity_Cython_SGD.pyx":333
+/* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":333
  * 
  * 
  *     cdef double deriv_V(self, int factor_index, int c, int[:] fi, int[:] fj):             # <<<<<<<<<<<<<<
@@ -24999,7 +24994,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
  *         s_ij_hat partial derivative w.r.t V[k,c]
  */
 
-static double __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_deriv_V(struct __pyx_obj_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *__pyx_v_self, int __pyx_v_factor_index, int __pyx_v_c, __Pyx_memviewslice __pyx_v_fi, __Pyx_memviewslice __pyx_v_fj) {
+static double __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_deriv_V(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *__pyx_v_self, int __pyx_v_factor_index, int __pyx_v_c, __Pyx_memviewslice __pyx_v_fi, __Pyx_memviewslice __pyx_v_fj) {
   int __pyx_v_feature_index;
   int __pyx_v_feature_id;
   double __pyx_v_res;
@@ -25019,7 +25014,7 @@ static double __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cytho
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":339
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":339
  *         """
  *         cdef int feature_index, feature_id
  *         cdef double res = 0.0, res_c_in_fi = 0.0, res_c_in_fj = 0.0             # <<<<<<<<<<<<<<
@@ -25030,7 +25025,7 @@ static double __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cytho
   __pyx_v_res_c_in_fi = 0.0;
   __pyx_v_res_c_in_fj = 0.0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":340
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":340
  *         cdef int feature_index, feature_id
  *         cdef double res = 0.0, res_c_in_fi = 0.0, res_c_in_fj = 0.0
  *         cdef int c_in_fi = False, c_in_fj = False             # <<<<<<<<<<<<<<
@@ -25040,7 +25035,7 @@ static double __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cytho
   __pyx_v_c_in_fi = 0;
   __pyx_v_c_in_fj = 0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":342
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":342
  *         cdef int c_in_fi = False, c_in_fj = False
  * 
  *         for feature_index in range(len(fj)):             # <<<<<<<<<<<<<<
@@ -25052,7 +25047,7 @@ static double __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cytho
   for (__pyx_t_3 = 0; __pyx_t_3 < __pyx_t_2; __pyx_t_3+=1) {
     __pyx_v_feature_index = __pyx_t_3;
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":343
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":343
  * 
  *         for feature_index in range(len(fj)):
  *             feature_id = fj[feature_index]             # <<<<<<<<<<<<<<
@@ -25071,7 +25066,7 @@ static double __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cytho
     }
     __pyx_v_feature_id = (*((int *) ( /* dim=0 */ (__pyx_v_fj.data + __pyx_t_4 * __pyx_v_fj.strides[0]) )));
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":344
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":344
  *         for feature_index in range(len(fj)):
  *             feature_id = fj[feature_index]
  *             res_c_in_fi += self.V[factor_index, feature_id]             # <<<<<<<<<<<<<<
@@ -25096,7 +25091,7 @@ static double __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cytho
     }
     __pyx_v_res_c_in_fi = (__pyx_v_res_c_in_fi + (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_self->V.data + __pyx_t_4 * __pyx_v_self->V.strides[0]) ) + __pyx_t_6 * __pyx_v_self->V.strides[1]) ))));
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":346
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":346
  *             res_c_in_fi += self.V[factor_index, feature_id]
  * 
  *             if feature_id == c:             # <<<<<<<<<<<<<<
@@ -25106,7 +25101,7 @@ static double __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cytho
     __pyx_t_7 = (__pyx_v_feature_id == __pyx_v_c);
     if (__pyx_t_7) {
 
-      /* "CFW_DVV_Similarity_Cython_SGD.pyx":347
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":347
  * 
  *             if feature_id == c:
  *                 c_in_fj = True             # <<<<<<<<<<<<<<
@@ -25115,7 +25110,7 @@ static double __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cytho
  */
       __pyx_v_c_in_fj = 1;
 
-      /* "CFW_DVV_Similarity_Cython_SGD.pyx":346
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":346
  *             res_c_in_fi += self.V[factor_index, feature_id]
  * 
  *             if feature_id == c:             # <<<<<<<<<<<<<<
@@ -25125,7 +25120,7 @@ static double __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cytho
     }
   }
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":350
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":350
  * 
  * 
  *         for feature_index in range(len(fi)):             # <<<<<<<<<<<<<<
@@ -25137,7 +25132,7 @@ static double __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cytho
   for (__pyx_t_3 = 0; __pyx_t_3 < __pyx_t_2; __pyx_t_3+=1) {
     __pyx_v_feature_index = __pyx_t_3;
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":351
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":351
  * 
  *         for feature_index in range(len(fi)):
  *             feature_id = fi[feature_index]             # <<<<<<<<<<<<<<
@@ -25156,7 +25151,7 @@ static double __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cytho
     }
     __pyx_v_feature_id = (*((int *) ( /* dim=0 */ (__pyx_v_fi.data + __pyx_t_6 * __pyx_v_fi.strides[0]) )));
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":352
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":352
  *         for feature_index in range(len(fi)):
  *             feature_id = fi[feature_index]
  *             res_c_in_fj += self.V[factor_index, feature_id]             # <<<<<<<<<<<<<<
@@ -25181,7 +25176,7 @@ static double __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cytho
     }
     __pyx_v_res_c_in_fj = (__pyx_v_res_c_in_fj + (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_self->V.data + __pyx_t_6 * __pyx_v_self->V.strides[0]) ) + __pyx_t_4 * __pyx_v_self->V.strides[1]) ))));
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":354
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":354
  *             res_c_in_fj += self.V[factor_index, feature_id]
  * 
  *             if feature_id == c:             # <<<<<<<<<<<<<<
@@ -25191,7 +25186,7 @@ static double __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cytho
     __pyx_t_7 = (__pyx_v_feature_id == __pyx_v_c);
     if (__pyx_t_7) {
 
-      /* "CFW_DVV_Similarity_Cython_SGD.pyx":355
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":355
  * 
  *             if feature_id == c:
  *                 c_in_fi = True             # <<<<<<<<<<<<<<
@@ -25200,7 +25195,7 @@ static double __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cytho
  */
       __pyx_v_c_in_fi = 1;
 
-      /* "CFW_DVV_Similarity_Cython_SGD.pyx":354
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":354
  *             res_c_in_fj += self.V[factor_index, feature_id]
  * 
  *             if feature_id == c:             # <<<<<<<<<<<<<<
@@ -25210,7 +25205,7 @@ static double __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cytho
     }
   }
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":358
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":358
  * 
  * 
  *         if c_in_fi:             # <<<<<<<<<<<<<<
@@ -25220,7 +25215,7 @@ static double __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cytho
   __pyx_t_7 = (__pyx_v_c_in_fi != 0);
   if (__pyx_t_7) {
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":359
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":359
  * 
  *         if c_in_fi:
  *             res += res_c_in_fi             # <<<<<<<<<<<<<<
@@ -25229,7 +25224,7 @@ static double __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cytho
  */
     __pyx_v_res = (__pyx_v_res + __pyx_v_res_c_in_fi);
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":358
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":358
  * 
  * 
  *         if c_in_fi:             # <<<<<<<<<<<<<<
@@ -25238,7 +25233,7 @@ static double __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cytho
  */
   }
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":361
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":361
  *             res += res_c_in_fi
  * 
  *         if c_in_fj:             # <<<<<<<<<<<<<<
@@ -25248,7 +25243,7 @@ static double __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cytho
   __pyx_t_7 = (__pyx_v_c_in_fj != 0);
   if (__pyx_t_7) {
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":362
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":362
  * 
  *         if c_in_fj:
  *             res += res_c_in_fj             # <<<<<<<<<<<<<<
@@ -25257,7 +25252,7 @@ static double __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cytho
  */
     __pyx_v_res = (__pyx_v_res + __pyx_v_res_c_in_fj);
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":361
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":361
  *             res += res_c_in_fi
  * 
  *         if c_in_fj:             # <<<<<<<<<<<<<<
@@ -25266,7 +25261,7 @@ static double __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cytho
  */
   }
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":364
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":364
  *             res += res_c_in_fj
  * 
  *         return res             # <<<<<<<<<<<<<<
@@ -25276,7 +25271,7 @@ static double __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cytho
   __pyx_r = __pyx_v_res;
   goto __pyx_L0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":333
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":333
  * 
  * 
  *     cdef double deriv_V(self, int factor_index, int c, int[:] fi, int[:] fj):             # <<<<<<<<<<<<<<
@@ -25286,13 +25281,13 @@ static double __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cytho
 
   /* function exit code */
   __pyx_L1_error:;
-  __Pyx_AddTraceback("CFW_DVV_Similarity_Cython_SGD.CFW_DVV_Similarity_Cython_SGD.deriv_V", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.CFW_DVV_Similarity_Cython_SGD.CFW_DVV_Similarity_Cython_SGD.deriv_V", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = 0;
   __pyx_L0:;
   return __pyx_r;
 }
 
-/* "CFW_DVV_Similarity_Cython_SGD.pyx":368
+/* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":368
  * 
  * 
  *     cdef double compute_adaptive_gradient_D(self, int feature_id, double gradient):             # <<<<<<<<<<<<<<
@@ -25300,7 +25295,7 @@ static double __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cytho
  *         cdef double adaptive_gradient
  */
 
-static double __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_compute_adaptive_gradient_D(struct __pyx_obj_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *__pyx_v_self, int __pyx_v_feature_id, double __pyx_v_gradient) {
+static double __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_compute_adaptive_gradient_D(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *__pyx_v_self, int __pyx_v_feature_id, double __pyx_v_gradient) {
   double __pyx_v_adaptive_gradient;
   double __pyx_r;
   int __pyx_t_1;
@@ -25313,7 +25308,7 @@ static double __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cytho
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":372
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":372
  *         cdef double adaptive_gradient
  * 
  *         if self.useAdaGrad:             # <<<<<<<<<<<<<<
@@ -25323,7 +25318,7 @@ static double __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cytho
   __pyx_t_1 = (__pyx_v_self->useAdaGrad != 0);
   if (__pyx_t_1) {
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":373
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":373
  * 
  *         if self.useAdaGrad:
  *             self.sgd_cache_D[feature_id] += gradient ** 2             # <<<<<<<<<<<<<<
@@ -25343,7 +25338,7 @@ static double __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cytho
     }
     *((double *) ( /* dim=0 */ (__pyx_v_self->sgd_cache_D.data + __pyx_t_2 * __pyx_v_self->sgd_cache_D.strides[0]) )) += pow(__pyx_v_gradient, 2.0);
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":374
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":374
  *         if self.useAdaGrad:
  *             self.sgd_cache_D[feature_id] += gradient ** 2
  *             adaptive_gradient = self.learning_rate / (sqrt(self.sgd_cache_D[feature_id]) + 1e-8)             # <<<<<<<<<<<<<<
@@ -25368,7 +25363,7 @@ static double __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cytho
     }
     __pyx_v_adaptive_gradient = (__pyx_v_self->learning_rate / __pyx_t_4);
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":372
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":372
  *         cdef double adaptive_gradient
  * 
  *         if self.useAdaGrad:             # <<<<<<<<<<<<<<
@@ -25378,7 +25373,7 @@ static double __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cytho
     goto __pyx_L3;
   }
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":377
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":377
  * 
  * 
  *         elif self.useRmsprop:             # <<<<<<<<<<<<<<
@@ -25388,7 +25383,7 @@ static double __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cytho
   __pyx_t_1 = (__pyx_v_self->useRmsprop != 0);
   if (__pyx_t_1) {
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":378
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":378
  * 
  *         elif self.useRmsprop:
  *             self.sgd_cache_D[feature_id] = self.sgd_cache_D[feature_id] * self.gamma + (1 - self.gamma) * gradient ** 2             # <<<<<<<<<<<<<<
@@ -25419,7 +25414,7 @@ static double __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cytho
     }
     *((double *) ( /* dim=0 */ (__pyx_v_self->sgd_cache_D.data + __pyx_t_5 * __pyx_v_self->sgd_cache_D.strides[0]) )) = (((*((double *) ( /* dim=0 */ (__pyx_v_self->sgd_cache_D.data + __pyx_t_2 * __pyx_v_self->sgd_cache_D.strides[0]) ))) * __pyx_v_self->gamma) + ((1.0 - __pyx_v_self->gamma) * pow(__pyx_v_gradient, 2.0)));
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":379
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":379
  *         elif self.useRmsprop:
  *             self.sgd_cache_D[feature_id] = self.sgd_cache_D[feature_id] * self.gamma + (1 - self.gamma) * gradient ** 2
  *             adaptive_gradient = self.learning_rate / (sqrt(self.sgd_cache_D[feature_id]) + 1e-8)             # <<<<<<<<<<<<<<
@@ -25444,7 +25439,7 @@ static double __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cytho
     }
     __pyx_v_adaptive_gradient = (__pyx_v_self->learning_rate / __pyx_t_4);
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":377
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":377
  * 
  * 
  *         elif self.useRmsprop:             # <<<<<<<<<<<<<<
@@ -25454,7 +25449,7 @@ static double __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cytho
     goto __pyx_L3;
   }
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":382
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":382
  * 
  * 
  *         elif self.useAdam:             # <<<<<<<<<<<<<<
@@ -25464,7 +25459,7 @@ static double __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cytho
   __pyx_t_1 = (__pyx_v_self->useAdam != 0);
   if (__pyx_t_1) {
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":385
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":385
  * 
  *             self.sgd_cache_D_momentum_1[feature_id] = \
  *                 self.sgd_cache_D_momentum_1[feature_id] * self.beta_1 + (1 - self.beta_1) * gradient             # <<<<<<<<<<<<<<
@@ -25483,7 +25478,7 @@ static double __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cytho
       __PYX_ERR(0, 385, __pyx_L1_error)
     }
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":384
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":384
  *         elif self.useAdam:
  * 
  *             self.sgd_cache_D_momentum_1[feature_id] = \             # <<<<<<<<<<<<<<
@@ -25503,7 +25498,7 @@ static double __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cytho
     }
     *((double *) ( /* dim=0 */ (__pyx_v_self->sgd_cache_D_momentum_1.data + __pyx_t_5 * __pyx_v_self->sgd_cache_D_momentum_1.strides[0]) )) = (((*((double *) ( /* dim=0 */ (__pyx_v_self->sgd_cache_D_momentum_1.data + __pyx_t_2 * __pyx_v_self->sgd_cache_D_momentum_1.strides[0]) ))) * __pyx_v_self->beta_1) + ((1.0 - __pyx_v_self->beta_1) * __pyx_v_gradient));
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":388
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":388
  * 
  *             self.sgd_cache_D_momentum_2[feature_id] = \
  *                 self.sgd_cache_D_momentum_2[feature_id] * self.beta_2 + (1 - self.beta_2) * gradient**2             # <<<<<<<<<<<<<<
@@ -25522,7 +25517,7 @@ static double __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cytho
       __PYX_ERR(0, 388, __pyx_L1_error)
     }
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":387
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":387
  *                 self.sgd_cache_D_momentum_1[feature_id] * self.beta_1 + (1 - self.beta_1) * gradient
  * 
  *             self.sgd_cache_D_momentum_2[feature_id] = \             # <<<<<<<<<<<<<<
@@ -25542,7 +25537,7 @@ static double __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cytho
     }
     *((double *) ( /* dim=0 */ (__pyx_v_self->sgd_cache_D_momentum_2.data + __pyx_t_5 * __pyx_v_self->sgd_cache_D_momentum_2.strides[0]) )) = (((*((double *) ( /* dim=0 */ (__pyx_v_self->sgd_cache_D_momentum_2.data + __pyx_t_2 * __pyx_v_self->sgd_cache_D_momentum_2.strides[0]) ))) * __pyx_v_self->beta_2) + ((1.0 - __pyx_v_self->beta_2) * pow(__pyx_v_gradient, 2.0)));
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":391
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":391
  * 
  * 
  *             self.momentum_1 = self.sgd_cache_D_momentum_1[feature_id]/ (1 - self.beta_1_power_t)             # <<<<<<<<<<<<<<
@@ -25568,7 +25563,7 @@ static double __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cytho
     }
     __pyx_v_self->momentum_1 = (__pyx_t_4 / __pyx_t_6);
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":392
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":392
  * 
  *             self.momentum_1 = self.sgd_cache_D_momentum_1[feature_id]/ (1 - self.beta_1_power_t)
  *             self.momentum_2 = self.sgd_cache_D_momentum_2[feature_id]/ (1 - self.beta_2_power_t)             # <<<<<<<<<<<<<<
@@ -25594,7 +25589,7 @@ static double __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cytho
     }
     __pyx_v_self->momentum_2 = (__pyx_t_6 / __pyx_t_4);
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":394
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":394
  *             self.momentum_2 = self.sgd_cache_D_momentum_2[feature_id]/ (1 - self.beta_2_power_t)
  * 
  *             adaptive_gradient = self.momentum_1/ (sqrt(self.momentum_2) + 1e-8)             # <<<<<<<<<<<<<<
@@ -25608,7 +25603,7 @@ static double __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cytho
     }
     __pyx_v_adaptive_gradient = (__pyx_v_self->momentum_1 / __pyx_t_4);
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":382
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":382
  * 
  * 
  *         elif self.useAdam:             # <<<<<<<<<<<<<<
@@ -25618,7 +25613,7 @@ static double __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cytho
     goto __pyx_L3;
   }
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":398
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":398
  *         else:
  * 
  *             adaptive_gradient = gradient             # <<<<<<<<<<<<<<
@@ -25630,7 +25625,7 @@ static double __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cytho
   }
   __pyx_L3:;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":401
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":401
  * 
  * 
  *         return adaptive_gradient             # <<<<<<<<<<<<<<
@@ -25640,7 +25635,7 @@ static double __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cytho
   __pyx_r = __pyx_v_adaptive_gradient;
   goto __pyx_L0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":368
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":368
  * 
  * 
  *     cdef double compute_adaptive_gradient_D(self, int feature_id, double gradient):             # <<<<<<<<<<<<<<
@@ -25650,13 +25645,13 @@ static double __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cytho
 
   /* function exit code */
   __pyx_L1_error:;
-  __Pyx_AddTraceback("CFW_DVV_Similarity_Cython_SGD.CFW_DVV_Similarity_Cython_SGD.compute_adaptive_gradient_D", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.CFW_DVV_Similarity_Cython_SGD.CFW_DVV_Similarity_Cython_SGD.compute_adaptive_gradient_D", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = 0;
   __pyx_L0:;
   return __pyx_r;
 }
 
-/* "CFW_DVV_Similarity_Cython_SGD.pyx":406
+/* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":406
  * 
  * 
  *     cdef double compute_adaptive_gradient_V(self, int factor_index, int feature_id, double gradient):             # <<<<<<<<<<<<<<
@@ -25664,7 +25659,7 @@ static double __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cytho
  *         cdef double adaptive_gradient
  */
 
-static double __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_compute_adaptive_gradient_V(struct __pyx_obj_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *__pyx_v_self, int __pyx_v_factor_index, int __pyx_v_feature_id, double __pyx_v_gradient) {
+static double __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_compute_adaptive_gradient_V(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *__pyx_v_self, int __pyx_v_factor_index, int __pyx_v_feature_id, double __pyx_v_gradient) {
   double __pyx_v_adaptive_gradient;
   double __pyx_r;
   int __pyx_t_1;
@@ -25679,7 +25674,7 @@ static double __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cytho
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":410
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":410
  *         cdef double adaptive_gradient
  * 
  *         if self.useAdaGrad:             # <<<<<<<<<<<<<<
@@ -25689,7 +25684,7 @@ static double __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cytho
   __pyx_t_1 = (__pyx_v_self->useAdaGrad != 0);
   if (__pyx_t_1) {
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":412
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":412
  *         if self.useAdaGrad:
  * 
  *             self.sgd_cache_V[factor_index, feature_id] += gradient ** 2             # <<<<<<<<<<<<<<
@@ -25714,7 +25709,7 @@ static double __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cytho
     }
     *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_self->sgd_cache_V.data + __pyx_t_2 * __pyx_v_self->sgd_cache_V.strides[0]) ) + __pyx_t_3 * __pyx_v_self->sgd_cache_V.strides[1]) )) += pow(__pyx_v_gradient, 2.0);
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":413
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":413
  * 
  *             self.sgd_cache_V[factor_index, feature_id] += gradient ** 2
  *             adaptive_gradient = self.learning_rate / (sqrt(self.sgd_cache_V[factor_index, feature_id]) + 1e-8)             # <<<<<<<<<<<<<<
@@ -25744,7 +25739,7 @@ static double __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cytho
     }
     __pyx_v_adaptive_gradient = (__pyx_v_self->learning_rate / __pyx_t_5);
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":410
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":410
  *         cdef double adaptive_gradient
  * 
  *         if self.useAdaGrad:             # <<<<<<<<<<<<<<
@@ -25754,7 +25749,7 @@ static double __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cytho
     goto __pyx_L3;
   }
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":415
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":415
  *             adaptive_gradient = self.learning_rate / (sqrt(self.sgd_cache_V[factor_index, feature_id]) + 1e-8)
  * 
  *         elif self.useRmsprop:             # <<<<<<<<<<<<<<
@@ -25764,7 +25759,7 @@ static double __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cytho
   __pyx_t_1 = (__pyx_v_self->useRmsprop != 0);
   if (__pyx_t_1) {
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":416
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":416
  * 
  *         elif self.useRmsprop:
  *             self.sgd_cache_V[factor_index, feature_id] = self.sgd_cache_V[factor_index, feature_id] * self.gamma + (1 - self.gamma) * gradient ** 2             # <<<<<<<<<<<<<<
@@ -25805,7 +25800,7 @@ static double __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cytho
     }
     *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_self->sgd_cache_V.data + __pyx_t_6 * __pyx_v_self->sgd_cache_V.strides[0]) ) + __pyx_t_7 * __pyx_v_self->sgd_cache_V.strides[1]) )) = (((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_self->sgd_cache_V.data + __pyx_t_2 * __pyx_v_self->sgd_cache_V.strides[0]) ) + __pyx_t_3 * __pyx_v_self->sgd_cache_V.strides[1]) ))) * __pyx_v_self->gamma) + ((1.0 - __pyx_v_self->gamma) * pow(__pyx_v_gradient, 2.0)));
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":417
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":417
  *         elif self.useRmsprop:
  *             self.sgd_cache_V[factor_index, feature_id] = self.sgd_cache_V[factor_index, feature_id] * self.gamma + (1 - self.gamma) * gradient ** 2
  *             adaptive_gradient = self.learning_rate / (sqrt(self.sgd_cache_V[factor_index, feature_id]) + 1e-8)             # <<<<<<<<<<<<<<
@@ -25835,7 +25830,7 @@ static double __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cytho
     }
     __pyx_v_adaptive_gradient = (__pyx_v_self->learning_rate / __pyx_t_5);
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":415
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":415
  *             adaptive_gradient = self.learning_rate / (sqrt(self.sgd_cache_V[factor_index, feature_id]) + 1e-8)
  * 
  *         elif self.useRmsprop:             # <<<<<<<<<<<<<<
@@ -25845,7 +25840,7 @@ static double __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cytho
     goto __pyx_L3;
   }
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":419
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":419
  *             adaptive_gradient = self.learning_rate / (sqrt(self.sgd_cache_V[factor_index, feature_id]) + 1e-8)
  * 
  *         elif self.useAdam:             # <<<<<<<<<<<<<<
@@ -25855,7 +25850,7 @@ static double __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cytho
   __pyx_t_1 = (__pyx_v_self->useAdam != 0);
   if (__pyx_t_1) {
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":422
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":422
  * 
  *             self.sgd_cache_V_momentum_1[factor_index, feature_id] = \
  *                 self.sgd_cache_V_momentum_1[factor_index, feature_id] * self.beta_1 + (1 - self.beta_1) * gradient             # <<<<<<<<<<<<<<
@@ -25879,7 +25874,7 @@ static double __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cytho
       __PYX_ERR(0, 422, __pyx_L1_error)
     }
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":421
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":421
  *         elif self.useAdam:
  * 
  *             self.sgd_cache_V_momentum_1[factor_index, feature_id] = \             # <<<<<<<<<<<<<<
@@ -25904,7 +25899,7 @@ static double __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cytho
     }
     *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_self->sgd_cache_V_momentum_1.data + __pyx_t_7 * __pyx_v_self->sgd_cache_V_momentum_1.strides[0]) ) + __pyx_t_6 * __pyx_v_self->sgd_cache_V_momentum_1.strides[1]) )) = (((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_self->sgd_cache_V_momentum_1.data + __pyx_t_2 * __pyx_v_self->sgd_cache_V_momentum_1.strides[0]) ) + __pyx_t_3 * __pyx_v_self->sgd_cache_V_momentum_1.strides[1]) ))) * __pyx_v_self->beta_1) + ((1.0 - __pyx_v_self->beta_1) * __pyx_v_gradient));
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":425
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":425
  * 
  *             self.sgd_cache_V_momentum_2[factor_index, feature_id] = \
  *                 self.sgd_cache_V_momentum_2[factor_index, feature_id] * self.beta_2 + (1 - self.beta_2) * gradient**2             # <<<<<<<<<<<<<<
@@ -25928,7 +25923,7 @@ static double __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cytho
       __PYX_ERR(0, 425, __pyx_L1_error)
     }
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":424
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":424
  *                 self.sgd_cache_V_momentum_1[factor_index, feature_id] * self.beta_1 + (1 - self.beta_1) * gradient
  * 
  *             self.sgd_cache_V_momentum_2[factor_index, feature_id] = \             # <<<<<<<<<<<<<<
@@ -25953,7 +25948,7 @@ static double __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cytho
     }
     *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_self->sgd_cache_V_momentum_2.data + __pyx_t_6 * __pyx_v_self->sgd_cache_V_momentum_2.strides[0]) ) + __pyx_t_7 * __pyx_v_self->sgd_cache_V_momentum_2.strides[1]) )) = (((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_self->sgd_cache_V_momentum_2.data + __pyx_t_3 * __pyx_v_self->sgd_cache_V_momentum_2.strides[0]) ) + __pyx_t_2 * __pyx_v_self->sgd_cache_V_momentum_2.strides[1]) ))) * __pyx_v_self->beta_2) + ((1.0 - __pyx_v_self->beta_2) * pow(__pyx_v_gradient, 2.0)));
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":428
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":428
  * 
  * 
  *             self.momentum_1 = self.sgd_cache_V_momentum_1[factor_index, feature_id]/ (1 - self.beta_1_power_t)             # <<<<<<<<<<<<<<
@@ -25984,7 +25979,7 @@ static double __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cytho
     }
     __pyx_v_self->momentum_1 = (__pyx_t_5 / __pyx_t_8);
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":429
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":429
  * 
  *             self.momentum_1 = self.sgd_cache_V_momentum_1[factor_index, feature_id]/ (1 - self.beta_1_power_t)
  *             self.momentum_2 = self.sgd_cache_V_momentum_2[factor_index, feature_id]/ (1 - self.beta_2_power_t)             # <<<<<<<<<<<<<<
@@ -26015,7 +26010,7 @@ static double __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cytho
     }
     __pyx_v_self->momentum_2 = (__pyx_t_8 / __pyx_t_5);
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":431
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":431
  *             self.momentum_2 = self.sgd_cache_V_momentum_2[factor_index, feature_id]/ (1 - self.beta_2_power_t)
  * 
  *             adaptive_gradient = self.momentum_1/ (sqrt(self.momentum_2) + 1e-8)             # <<<<<<<<<<<<<<
@@ -26029,7 +26024,7 @@ static double __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cytho
     }
     __pyx_v_adaptive_gradient = (__pyx_v_self->momentum_1 / __pyx_t_5);
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":419
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":419
  *             adaptive_gradient = self.learning_rate / (sqrt(self.sgd_cache_V[factor_index, feature_id]) + 1e-8)
  * 
  *         elif self.useAdam:             # <<<<<<<<<<<<<<
@@ -26039,7 +26034,7 @@ static double __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cytho
     goto __pyx_L3;
   }
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":435
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":435
  *         else:
  * 
  *             adaptive_gradient = gradient             # <<<<<<<<<<<<<<
@@ -26051,7 +26046,7 @@ static double __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cytho
   }
   __pyx_L3:;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":438
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":438
  * 
  * 
  *         return adaptive_gradient             # <<<<<<<<<<<<<<
@@ -26061,7 +26056,7 @@ static double __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cytho
   __pyx_r = __pyx_v_adaptive_gradient;
   goto __pyx_L0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":406
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":406
  * 
  * 
  *     cdef double compute_adaptive_gradient_V(self, int factor_index, int feature_id, double gradient):             # <<<<<<<<<<<<<<
@@ -26071,13 +26066,13 @@ static double __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cytho
 
   /* function exit code */
   __pyx_L1_error:;
-  __Pyx_AddTraceback("CFW_DVV_Similarity_Cython_SGD.CFW_DVV_Similarity_Cython_SGD.compute_adaptive_gradient_V", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.CFW_DVV_Similarity_Cython_SGD.CFW_DVV_Similarity_Cython_SGD.compute_adaptive_gradient_V", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = 0;
   __pyx_L0:;
   return __pyx_r;
 }
 
-/* "CFW_DVV_Similarity_Cython_SGD.pyx":451
+/* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":451
  * 
  *     # Using memoryview instead of the sparse matrix itself allows for much faster access
  *     cdef int feature_common_precomputed(self, long sample_index):             # <<<<<<<<<<<<<<
@@ -26085,7 +26080,7 @@ static double __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cytho
  *         self.common_features_id = self.commonFeatures_indices[self.commonFeatures_indptr[sample_index]:self.commonFeatures_indptr[sample_index + 1]]
  */
 
-static int __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_feature_common_precomputed(struct __pyx_obj_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *__pyx_v_self, long __pyx_v_sample_index) {
+static int __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_feature_common_precomputed(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *__pyx_v_self, long __pyx_v_sample_index) {
   int __pyx_r;
   Py_ssize_t __pyx_t_1;
   int __pyx_t_2;
@@ -26096,7 +26091,7 @@ static int __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_S
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":453
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":453
  *     cdef int feature_common_precomputed(self, long sample_index):
  * 
  *         self.common_features_id = self.commonFeatures_indices[self.commonFeatures_indptr[sample_index]:self.commonFeatures_indptr[sample_index + 1]]             # <<<<<<<<<<<<<<
@@ -26152,7 +26147,7 @@ __PYX_XCLEAR_MEMVIEW(&__pyx_v_self->common_features_id, 0);
   __pyx_t_4.memview = NULL;
   __pyx_t_4.data = NULL;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":455
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":455
  *         self.common_features_id = self.commonFeatures_indices[self.commonFeatures_indptr[sample_index]:self.commonFeatures_indptr[sample_index + 1]]
  * 
  *         return len(self.common_features_id)             # <<<<<<<<<<<<<<
@@ -26164,7 +26159,7 @@ __PYX_XCLEAR_MEMVIEW(&__pyx_v_self->common_features_id, 0);
   __pyx_r = __pyx_t_5;
   goto __pyx_L0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":451
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":451
  * 
  *     # Using memoryview instead of the sparse matrix itself allows for much faster access
  *     cdef int feature_common_precomputed(self, long sample_index):             # <<<<<<<<<<<<<<
@@ -26175,13 +26170,13 @@ __PYX_XCLEAR_MEMVIEW(&__pyx_v_self->common_features_id, 0);
   /* function exit code */
   __pyx_L1_error:;
   __PYX_XCLEAR_MEMVIEW(&__pyx_t_4, 1);
-  __Pyx_AddTraceback("CFW_DVV_Similarity_Cython_SGD.CFW_DVV_Similarity_Cython_SGD.feature_common_precomputed", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.CFW_DVV_Similarity_Cython_SGD.CFW_DVV_Similarity_Cython_SGD.feature_common_precomputed", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = 0;
   __pyx_L0:;
   return __pyx_r;
 }
 
-/* "CFW_DVV_Similarity_Cython_SGD.pyx":459
+/* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":459
  * 
  * 
  *     cdef int[:] get_features_vector(self, long index):             # <<<<<<<<<<<<<<
@@ -26189,7 +26184,7 @@ __PYX_XCLEAR_MEMVIEW(&__pyx_v_self->common_features_id, 0);
  * 
  */
 
-static __Pyx_memviewslice __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_get_features_vector(struct __pyx_obj_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *__pyx_v_self, long __pyx_v_index) {
+static __Pyx_memviewslice __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_get_features_vector(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *__pyx_v_self, long __pyx_v_index) {
   __Pyx_memviewslice __pyx_r = { 0, 0, { 0 }, { 0 }, { 0 } };
   Py_ssize_t __pyx_t_1;
   int __pyx_t_2;
@@ -26199,7 +26194,7 @@ static __Pyx_memviewslice __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Simi
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":460
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":460
  * 
  *     cdef int[:] get_features_vector(self, long index):
  *         return self.icm_indices[self.icm_indptr[index]:self.icm_indptr[index + 1]]             # <<<<<<<<<<<<<<
@@ -26255,7 +26250,7 @@ __pyx_r = __pyx_t_4;
   __pyx_t_4.data = NULL;
   goto __pyx_L0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":459
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":459
  * 
  * 
  *     cdef int[:] get_features_vector(self, long index):             # <<<<<<<<<<<<<<
@@ -26268,7 +26263,7 @@ __pyx_r = __pyx_t_4;
   __PYX_XCLEAR_MEMVIEW(&__pyx_t_4, 1);
   __pyx_r.data = NULL;
   __pyx_r.memview = NULL;
-  __Pyx_AddTraceback("CFW_DVV_Similarity_Cython_SGD.CFW_DVV_Similarity_Cython_SGD.get_features_vector", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.CFW_DVV_Similarity_Cython_SGD.CFW_DVV_Similarity_Cython_SGD.get_features_vector", __pyx_clineno, __pyx_lineno, __pyx_filename);
   goto __pyx_L2;
   __pyx_L0:;
   if (unlikely(!__pyx_r.memview)) {
@@ -26278,7 +26273,7 @@ __pyx_r = __pyx_t_4;
   return __pyx_r;
 }
 
-/* "CFW_DVV_Similarity_Cython_SGD.pyx":467
+/* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":467
  * 
  * 
  *     cdef int[:] feature_union(self, int[:] feature_i, int[:] feature_j):             # <<<<<<<<<<<<<<
@@ -26286,7 +26281,7 @@ __pyx_r = __pyx_t_4;
  *         cdef int index_i, index_j, index_result, current_max_value
  */
 
-static __Pyx_memviewslice __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_feature_union(CYTHON_UNUSED struct __pyx_obj_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *__pyx_v_self, __Pyx_memviewslice __pyx_v_feature_i, __Pyx_memviewslice __pyx_v_feature_j) {
+static __Pyx_memviewslice __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_feature_union(CYTHON_UNUSED struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *__pyx_v_self, __Pyx_memviewslice __pyx_v_feature_i, __Pyx_memviewslice __pyx_v_feature_j) {
   int __pyx_v_index_i;
   int __pyx_v_index_j;
   int __pyx_v_index_result;
@@ -26319,7 +26314,7 @@ static __Pyx_memviewslice __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Simi
   __pyx_pybuffernd_template.data = NULL;
   __pyx_pybuffernd_template.rcbuffer = &__pyx_pybuffer_template;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":470
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":470
  * 
  *         cdef int index_i, index_j, index_result, current_max_value
  *         cdef int len_f_i = len(feature_i)             # <<<<<<<<<<<<<<
@@ -26329,7 +26324,7 @@ static __Pyx_memviewslice __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Simi
   __pyx_t_1 = __Pyx_MemoryView_Len(__pyx_v_feature_i); 
   __pyx_v_len_f_i = __pyx_t_1;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":471
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":471
  *         cdef int index_i, index_j, index_result, current_max_value
  *         cdef int len_f_i = len(feature_i)
  *         cdef int len_f_j = len(feature_j)             # <<<<<<<<<<<<<<
@@ -26339,7 +26334,7 @@ static __Pyx_memviewslice __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Simi
   __pyx_t_1 = __Pyx_MemoryView_Len(__pyx_v_feature_j); 
   __pyx_v_len_f_j = __pyx_t_1;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":472
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":472
  *         cdef int len_f_i = len(feature_i)
  *         cdef int len_f_j = len(feature_j)
  *         cdef int terminate = False, add_i_values, add_j_values             # <<<<<<<<<<<<<<
@@ -26348,7 +26343,7 @@ static __Pyx_memviewslice __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Simi
  */
   __pyx_v_terminate = 0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":474
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":474
  *         cdef int terminate = False, add_i_values, add_j_values
  * 
  *         cdef array[int] template = array('i')             # <<<<<<<<<<<<<<
@@ -26368,7 +26363,7 @@ static __Pyx_memviewslice __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Simi
   __pyx_v_template = ((arrayobject *)__pyx_t_2);
   __pyx_t_2 = 0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":476
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":476
  *         cdef array[int] template = array('i')
  * 
  *         cdef int[:] result = clone(template, len_f_i + len_f_j, zero=True)             # <<<<<<<<<<<<<<
@@ -26383,7 +26378,7 @@ static __Pyx_memviewslice __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Simi
   __pyx_t_3.memview = NULL;
   __pyx_t_3.data = NULL;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":478
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":478
  *         cdef int[:] result = clone(template, len_f_i + len_f_j, zero=True)
  * 
  *         index_i = 0             # <<<<<<<<<<<<<<
@@ -26392,7 +26387,7 @@ static __Pyx_memviewslice __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Simi
  */
   __pyx_v_index_i = 0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":479
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":479
  * 
  *         index_i = 0
  *         index_j = 0             # <<<<<<<<<<<<<<
@@ -26401,7 +26396,7 @@ static __Pyx_memviewslice __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Simi
  */
   __pyx_v_index_j = 0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":480
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":480
  *         index_i = 0
  *         index_j = 0
  *         index_result = 0             # <<<<<<<<<<<<<<
@@ -26410,7 +26405,7 @@ static __Pyx_memviewslice __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Simi
  */
   __pyx_v_index_result = 0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":482
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":482
  *         index_result = 0
  * 
  *         while not terminate:             # <<<<<<<<<<<<<<
@@ -26421,7 +26416,7 @@ static __Pyx_memviewslice __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Simi
     __pyx_t_4 = (!(__pyx_v_terminate != 0));
     if (!__pyx_t_4) break;
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":484
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":484
  *         while not terminate:
  * 
  *             add_i_values = True             # <<<<<<<<<<<<<<
@@ -26430,7 +26425,7 @@ static __Pyx_memviewslice __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Simi
  */
     __pyx_v_add_i_values = 1;
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":487
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":487
  *             # Add values from i, keeping ordering intact
  * 
  *             while add_i_values and index_i < len_f_i:             # <<<<<<<<<<<<<<
@@ -26449,7 +26444,7 @@ static __Pyx_memviewslice __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Simi
       __pyx_L7_bool_binop_done:;
       if (!__pyx_t_4) break;
 
-      /* "CFW_DVV_Similarity_Cython_SGD.pyx":490
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":490
  * 
  *                 # If j contains something else, chech for value
  *                 if index_j < len_f_j:             # <<<<<<<<<<<<<<
@@ -26459,7 +26454,7 @@ static __Pyx_memviewslice __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Simi
       __pyx_t_4 = (__pyx_v_index_j < __pyx_v_len_f_j);
       if (__pyx_t_4) {
 
-        /* "CFW_DVV_Similarity_Cython_SGD.pyx":491
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":491
  *                 # If j contains something else, chech for value
  *                 if index_j < len_f_j:
  *                     if feature_i[index_i] == feature_j[index_j]:             # <<<<<<<<<<<<<<
@@ -26489,7 +26484,7 @@ static __Pyx_memviewslice __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Simi
         __pyx_t_4 = ((*((int *) ( /* dim=0 */ (__pyx_v_feature_i.data + __pyx_t_6 * __pyx_v_feature_i.strides[0]) ))) == (*((int *) ( /* dim=0 */ (__pyx_v_feature_j.data + __pyx_t_8 * __pyx_v_feature_j.strides[0]) ))));
         if (__pyx_t_4) {
 
-          /* "CFW_DVV_Similarity_Cython_SGD.pyx":492
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":492
  *                 if index_j < len_f_j:
  *                     if feature_i[index_i] == feature_j[index_j]:
  *                         index_j += 1             # <<<<<<<<<<<<<<
@@ -26498,7 +26493,7 @@ static __Pyx_memviewslice __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Simi
  */
           __pyx_v_index_j = (__pyx_v_index_j + 1);
 
-          /* "CFW_DVV_Similarity_Cython_SGD.pyx":491
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":491
  *                 # If j contains something else, chech for value
  *                 if index_j < len_f_j:
  *                     if feature_i[index_i] == feature_j[index_j]:             # <<<<<<<<<<<<<<
@@ -26508,7 +26503,7 @@ static __Pyx_memviewslice __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Simi
           goto __pyx_L10;
         }
 
-        /* "CFW_DVV_Similarity_Cython_SGD.pyx":494
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":494
  *                         index_j += 1
  * 
  *                     elif feature_i[index_i] > feature_j[index_j]:             # <<<<<<<<<<<<<<
@@ -26538,7 +26533,7 @@ static __Pyx_memviewslice __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Simi
         __pyx_t_4 = ((*((int *) ( /* dim=0 */ (__pyx_v_feature_i.data + __pyx_t_8 * __pyx_v_feature_i.strides[0]) ))) > (*((int *) ( /* dim=0 */ (__pyx_v_feature_j.data + __pyx_t_6 * __pyx_v_feature_j.strides[0]) ))));
         if (__pyx_t_4) {
 
-          /* "CFW_DVV_Similarity_Cython_SGD.pyx":495
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":495
  * 
  *                     elif feature_i[index_i] > feature_j[index_j]:
  *                         add_i_values = False             # <<<<<<<<<<<<<<
@@ -26547,7 +26542,7 @@ static __Pyx_memviewslice __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Simi
  */
           __pyx_v_add_i_values = 0;
 
-          /* "CFW_DVV_Similarity_Cython_SGD.pyx":494
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":494
  *                         index_j += 1
  * 
  *                     elif feature_i[index_i] > feature_j[index_j]:             # <<<<<<<<<<<<<<
@@ -26557,7 +26552,7 @@ static __Pyx_memviewslice __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Simi
         }
         __pyx_L10:;
 
-        /* "CFW_DVV_Similarity_Cython_SGD.pyx":490
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":490
  * 
  *                 # If j contains something else, chech for value
  *                 if index_j < len_f_j:             # <<<<<<<<<<<<<<
@@ -26566,7 +26561,7 @@ static __Pyx_memviewslice __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Simi
  */
       }
 
-      /* "CFW_DVV_Similarity_Cython_SGD.pyx":497
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":497
  *                         add_i_values = False
  * 
  *                 if add_i_values:             # <<<<<<<<<<<<<<
@@ -26576,7 +26571,7 @@ static __Pyx_memviewslice __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Simi
       __pyx_t_4 = (__pyx_v_add_i_values != 0);
       if (__pyx_t_4) {
 
-        /* "CFW_DVV_Similarity_Cython_SGD.pyx":499
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":499
  *                 if add_i_values:
  * 
  *                     if index_result != 0 and current_max_value > feature_i[index_i]:             # <<<<<<<<<<<<<<
@@ -26604,7 +26599,7 @@ static __Pyx_memviewslice __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Simi
         __pyx_L13_bool_binop_done:;
         if (unlikely(__pyx_t_4)) {
 
-          /* "CFW_DVV_Similarity_Cython_SGD.pyx":500
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":500
  * 
  *                     if index_result != 0 and current_max_value > feature_i[index_i]:
  *                         raise ValueError("Array is not sorted! The function return array is undefined")             # <<<<<<<<<<<<<<
@@ -26617,7 +26612,7 @@ static __Pyx_memviewslice __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Simi
           __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
           __PYX_ERR(0, 500, __pyx_L1_error)
 
-          /* "CFW_DVV_Similarity_Cython_SGD.pyx":499
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":499
  *                 if add_i_values:
  * 
  *                     if index_result != 0 and current_max_value > feature_i[index_i]:             # <<<<<<<<<<<<<<
@@ -26626,7 +26621,7 @@ static __Pyx_memviewslice __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Simi
  */
         }
 
-        /* "CFW_DVV_Similarity_Cython_SGD.pyx":502
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":502
  *                         raise ValueError("Array is not sorted! The function return array is undefined")
  * 
  *                     result[index_result] = feature_i[index_i]             # <<<<<<<<<<<<<<
@@ -26655,7 +26650,7 @@ static __Pyx_memviewslice __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Simi
         }
         *((int *) ( /* dim=0 */ (__pyx_v_result.data + __pyx_t_8 * __pyx_v_result.strides[0]) )) = (*((int *) ( /* dim=0 */ (__pyx_v_feature_i.data + __pyx_t_6 * __pyx_v_feature_i.strides[0]) )));
 
-        /* "CFW_DVV_Similarity_Cython_SGD.pyx":503
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":503
  * 
  *                     result[index_result] = feature_i[index_i]
  *                     current_max_value = result[index_result]             # <<<<<<<<<<<<<<
@@ -26674,7 +26669,7 @@ static __Pyx_memviewslice __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Simi
         }
         __pyx_v_current_max_value = (*((int *) ( /* dim=0 */ (__pyx_v_result.data + __pyx_t_6 * __pyx_v_result.strides[0]) )));
 
-        /* "CFW_DVV_Similarity_Cython_SGD.pyx":504
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":504
  *                     result[index_result] = feature_i[index_i]
  *                     current_max_value = result[index_result]
  *                     index_result += 1             # <<<<<<<<<<<<<<
@@ -26683,7 +26678,7 @@ static __Pyx_memviewslice __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Simi
  */
         __pyx_v_index_result = (__pyx_v_index_result + 1);
 
-        /* "CFW_DVV_Similarity_Cython_SGD.pyx":505
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":505
  *                     current_max_value = result[index_result]
  *                     index_result += 1
  *                     index_i += 1             # <<<<<<<<<<<<<<
@@ -26692,7 +26687,7 @@ static __Pyx_memviewslice __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Simi
  */
         __pyx_v_index_i = (__pyx_v_index_i + 1);
 
-        /* "CFW_DVV_Similarity_Cython_SGD.pyx":497
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":497
  *                         add_i_values = False
  * 
  *                 if add_i_values:             # <<<<<<<<<<<<<<
@@ -26702,7 +26697,7 @@ static __Pyx_memviewslice __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Simi
       }
     }
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":513
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":513
  *             # or because the value in i is > of the value in j
  * 
  *             add_j_values = True             # <<<<<<<<<<<<<<
@@ -26711,7 +26706,7 @@ static __Pyx_memviewslice __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Simi
  */
     __pyx_v_add_j_values = 1;
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":516
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":516
  *             # Add values from j, keeping ordering intact
  * 
  *             while add_j_values and index_j < len_f_j:             # <<<<<<<<<<<<<<
@@ -26730,7 +26725,7 @@ static __Pyx_memviewslice __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Simi
       __pyx_L17_bool_binop_done:;
       if (!__pyx_t_4) break;
 
-      /* "CFW_DVV_Similarity_Cython_SGD.pyx":519
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":519
  * 
  *                 # If i contains something else, chech for value
  *                 if index_i < len_f_i:             # <<<<<<<<<<<<<<
@@ -26740,7 +26735,7 @@ static __Pyx_memviewslice __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Simi
       __pyx_t_4 = (__pyx_v_index_i < __pyx_v_len_f_i);
       if (__pyx_t_4) {
 
-        /* "CFW_DVV_Similarity_Cython_SGD.pyx":520
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":520
  *                 # If i contains something else, chech for value
  *                 if index_i < len_f_i:
  *                     if feature_j[index_j] == feature_i[index_i]:             # <<<<<<<<<<<<<<
@@ -26770,7 +26765,7 @@ static __Pyx_memviewslice __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Simi
         __pyx_t_4 = ((*((int *) ( /* dim=0 */ (__pyx_v_feature_j.data + __pyx_t_6 * __pyx_v_feature_j.strides[0]) ))) == (*((int *) ( /* dim=0 */ (__pyx_v_feature_i.data + __pyx_t_8 * __pyx_v_feature_i.strides[0]) ))));
         if (__pyx_t_4) {
 
-          /* "CFW_DVV_Similarity_Cython_SGD.pyx":521
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":521
  *                 if index_i < len_f_i:
  *                     if feature_j[index_j] == feature_i[index_i]:
  *                         index_i += 1             # <<<<<<<<<<<<<<
@@ -26779,7 +26774,7 @@ static __Pyx_memviewslice __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Simi
  */
           __pyx_v_index_i = (__pyx_v_index_i + 1);
 
-          /* "CFW_DVV_Similarity_Cython_SGD.pyx":520
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":520
  *                 # If i contains something else, chech for value
  *                 if index_i < len_f_i:
  *                     if feature_j[index_j] == feature_i[index_i]:             # <<<<<<<<<<<<<<
@@ -26789,7 +26784,7 @@ static __Pyx_memviewslice __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Simi
           goto __pyx_L20;
         }
 
-        /* "CFW_DVV_Similarity_Cython_SGD.pyx":523
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":523
  *                         index_i += 1
  * 
  *                     elif feature_j[index_j] > feature_i[index_i]:             # <<<<<<<<<<<<<<
@@ -26819,7 +26814,7 @@ static __Pyx_memviewslice __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Simi
         __pyx_t_4 = ((*((int *) ( /* dim=0 */ (__pyx_v_feature_j.data + __pyx_t_8 * __pyx_v_feature_j.strides[0]) ))) > (*((int *) ( /* dim=0 */ (__pyx_v_feature_i.data + __pyx_t_6 * __pyx_v_feature_i.strides[0]) ))));
         if (__pyx_t_4) {
 
-          /* "CFW_DVV_Similarity_Cython_SGD.pyx":524
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":524
  * 
  *                     elif feature_j[index_j] > feature_i[index_i]:
  *                         add_j_values = False             # <<<<<<<<<<<<<<
@@ -26828,7 +26823,7 @@ static __Pyx_memviewslice __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Simi
  */
           __pyx_v_add_j_values = 0;
 
-          /* "CFW_DVV_Similarity_Cython_SGD.pyx":523
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":523
  *                         index_i += 1
  * 
  *                     elif feature_j[index_j] > feature_i[index_i]:             # <<<<<<<<<<<<<<
@@ -26838,7 +26833,7 @@ static __Pyx_memviewslice __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Simi
         }
         __pyx_L20:;
 
-        /* "CFW_DVV_Similarity_Cython_SGD.pyx":519
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":519
  * 
  *                 # If i contains something else, chech for value
  *                 if index_i < len_f_i:             # <<<<<<<<<<<<<<
@@ -26847,7 +26842,7 @@ static __Pyx_memviewslice __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Simi
  */
       }
 
-      /* "CFW_DVV_Similarity_Cython_SGD.pyx":526
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":526
  *                         add_j_values = False
  * 
  *                 if add_j_values:             # <<<<<<<<<<<<<<
@@ -26857,7 +26852,7 @@ static __Pyx_memviewslice __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Simi
       __pyx_t_4 = (__pyx_v_add_j_values != 0);
       if (__pyx_t_4) {
 
-        /* "CFW_DVV_Similarity_Cython_SGD.pyx":528
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":528
  *                 if add_j_values:
  * 
  *                     if index_result != 0 and current_max_value > feature_j[index_j]:             # <<<<<<<<<<<<<<
@@ -26885,7 +26880,7 @@ static __Pyx_memviewslice __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Simi
         __pyx_L23_bool_binop_done:;
         if (unlikely(__pyx_t_4)) {
 
-          /* "CFW_DVV_Similarity_Cython_SGD.pyx":529
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":529
  * 
  *                     if index_result != 0 and current_max_value > feature_j[index_j]:
  *                         raise ValueError("Array is not sorted! The function return array is undefined")             # <<<<<<<<<<<<<<
@@ -26898,7 +26893,7 @@ static __Pyx_memviewslice __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Simi
           __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
           __PYX_ERR(0, 529, __pyx_L1_error)
 
-          /* "CFW_DVV_Similarity_Cython_SGD.pyx":528
+          /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":528
  *                 if add_j_values:
  * 
  *                     if index_result != 0 and current_max_value > feature_j[index_j]:             # <<<<<<<<<<<<<<
@@ -26907,7 +26902,7 @@ static __Pyx_memviewslice __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Simi
  */
         }
 
-        /* "CFW_DVV_Similarity_Cython_SGD.pyx":531
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":531
  *                         raise ValueError("Array is not sorted! The function return array is undefined")
  * 
  *                     result[index_result] = feature_j[index_j]             # <<<<<<<<<<<<<<
@@ -26936,7 +26931,7 @@ static __Pyx_memviewslice __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Simi
         }
         *((int *) ( /* dim=0 */ (__pyx_v_result.data + __pyx_t_8 * __pyx_v_result.strides[0]) )) = (*((int *) ( /* dim=0 */ (__pyx_v_feature_j.data + __pyx_t_6 * __pyx_v_feature_j.strides[0]) )));
 
-        /* "CFW_DVV_Similarity_Cython_SGD.pyx":532
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":532
  * 
  *                     result[index_result] = feature_j[index_j]
  *                     current_max_value = result[index_result]             # <<<<<<<<<<<<<<
@@ -26955,7 +26950,7 @@ static __Pyx_memviewslice __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Simi
         }
         __pyx_v_current_max_value = (*((int *) ( /* dim=0 */ (__pyx_v_result.data + __pyx_t_6 * __pyx_v_result.strides[0]) )));
 
-        /* "CFW_DVV_Similarity_Cython_SGD.pyx":533
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":533
  *                     result[index_result] = feature_j[index_j]
  *                     current_max_value = result[index_result]
  *                     index_result += 1             # <<<<<<<<<<<<<<
@@ -26964,7 +26959,7 @@ static __Pyx_memviewslice __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Simi
  */
         __pyx_v_index_result = (__pyx_v_index_result + 1);
 
-        /* "CFW_DVV_Similarity_Cython_SGD.pyx":534
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":534
  *                     current_max_value = result[index_result]
  *                     index_result += 1
  *                     index_j += 1             # <<<<<<<<<<<<<<
@@ -26973,7 +26968,7 @@ static __Pyx_memviewslice __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Simi
  */
         __pyx_v_index_j = (__pyx_v_index_j + 1);
 
-        /* "CFW_DVV_Similarity_Cython_SGD.pyx":526
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":526
  *                         add_j_values = False
  * 
  *                 if add_j_values:             # <<<<<<<<<<<<<<
@@ -26983,7 +26978,7 @@ static __Pyx_memviewslice __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Simi
       }
     }
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":538
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":538
  * 
  * 
  *             if index_j == len_f_j and index_i == len_f_i:             # <<<<<<<<<<<<<<
@@ -27001,7 +26996,7 @@ static __Pyx_memviewslice __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Simi
     __pyx_L26_bool_binop_done:;
     if (__pyx_t_4) {
 
-      /* "CFW_DVV_Similarity_Cython_SGD.pyx":539
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":539
  * 
  *             if index_j == len_f_j and index_i == len_f_i:
  *                 terminate = True             # <<<<<<<<<<<<<<
@@ -27010,7 +27005,7 @@ static __Pyx_memviewslice __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Simi
  */
       __pyx_v_terminate = 1;
 
-      /* "CFW_DVV_Similarity_Cython_SGD.pyx":538
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":538
  * 
  * 
  *             if index_j == len_f_j and index_i == len_f_i:             # <<<<<<<<<<<<<<
@@ -27020,7 +27015,7 @@ static __Pyx_memviewslice __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Simi
     }
   }
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":542
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":542
  * 
  * 
  *         return result[0:index_result]             # <<<<<<<<<<<<<<
@@ -27053,7 +27048,7 @@ __pyx_r = __pyx_t_3;
   __pyx_t_3.data = NULL;
   goto __pyx_L0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":467
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":467
  * 
  * 
  *     cdef int[:] feature_union(self, int[:] feature_i, int[:] feature_j):             # <<<<<<<<<<<<<<
@@ -27073,7 +27068,7 @@ __pyx_r = __pyx_t_3;
   __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
   __pyx_r.data = NULL;
   __pyx_r.memview = NULL;
-  __Pyx_AddTraceback("CFW_DVV_Similarity_Cython_SGD.CFW_DVV_Similarity_Cython_SGD.feature_union", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.CFW_DVV_Similarity_Cython_SGD.CFW_DVV_Similarity_Cython_SGD.feature_union", __pyx_clineno, __pyx_lineno, __pyx_filename);
   goto __pyx_L2;
   __pyx_L0:;
   __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_template.rcbuffer->pybuffer);
@@ -27087,7 +27082,7 @@ __pyx_r = __pyx_t_3;
   return __pyx_r;
 }
 
-/* "CFW_DVV_Similarity_Cython_SGD.pyx":546
+/* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":546
  * 
  * 
  *     cdef int feature_union_unordered(self, int[:] feature_i, int[:] feature_j):             # <<<<<<<<<<<<<<
@@ -27095,7 +27090,7 @@ __pyx_r = __pyx_t_3;
  *         cdef int union_features_count = 0
  */
 
-static int __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_feature_union_unordered(struct __pyx_obj_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *__pyx_v_self, __Pyx_memviewslice __pyx_v_feature_i, __Pyx_memviewslice __pyx_v_feature_j) {
+static int __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_feature_union_unordered(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *__pyx_v_self, __Pyx_memviewslice __pyx_v_feature_i, __Pyx_memviewslice __pyx_v_feature_j) {
   int __pyx_v_union_features_count;
   int __pyx_v_feature_index;
   int __pyx_v_feature_id;
@@ -27112,7 +27107,7 @@ static int __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_S
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":548
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":548
  *     cdef int feature_union_unordered(self, int[:] feature_i, int[:] feature_j):
  * 
  *         cdef int union_features_count = 0             # <<<<<<<<<<<<<<
@@ -27121,7 +27116,7 @@ static int __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_S
  */
   __pyx_v_union_features_count = 0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":551
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":551
  *         cdef int feature_index, feature_id
  * 
  *         for feature_index in range(len(feature_i)):             # <<<<<<<<<<<<<<
@@ -27133,7 +27128,7 @@ static int __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_S
   for (__pyx_t_3 = 0; __pyx_t_3 < __pyx_t_2; __pyx_t_3+=1) {
     __pyx_v_feature_index = __pyx_t_3;
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":553
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":553
  *         for feature_index in range(len(feature_i)):
  * 
  *             feature_id = feature_i[feature_index]             # <<<<<<<<<<<<<<
@@ -27152,7 +27147,7 @@ static int __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_S
     }
     __pyx_v_feature_id = (*((int *) ( /* dim=0 */ (__pyx_v_feature_i.data + __pyx_t_4 * __pyx_v_feature_i.strides[0]) )));
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":555
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":555
  *             feature_id = feature_i[feature_index]
  * 
  *             if not self.union_features_flag[feature_id]:             # <<<<<<<<<<<<<<
@@ -27173,7 +27168,7 @@ static int __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_S
     __pyx_t_6 = (!((*((int *) ( /* dim=0 */ (__pyx_v_self->union_features_flag.data + __pyx_t_4 * __pyx_v_self->union_features_flag.strides[0]) ))) != 0));
     if (__pyx_t_6) {
 
-      /* "CFW_DVV_Similarity_Cython_SGD.pyx":556
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":556
  * 
  *             if not self.union_features_flag[feature_id]:
  *                 self.union_features_flag[feature_id] = True             # <<<<<<<<<<<<<<
@@ -27193,7 +27188,7 @@ static int __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_S
       }
       *((int *) ( /* dim=0 */ (__pyx_v_self->union_features_flag.data + __pyx_t_4 * __pyx_v_self->union_features_flag.strides[0]) )) = 1;
 
-      /* "CFW_DVV_Similarity_Cython_SGD.pyx":557
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":557
  *             if not self.union_features_flag[feature_id]:
  *                 self.union_features_flag[feature_id] = True
  *                 self.union_features_id[union_features_count] = feature_id             # <<<<<<<<<<<<<<
@@ -27213,7 +27208,7 @@ static int __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_S
       }
       *((int *) ( /* dim=0 */ (__pyx_v_self->union_features_id.data + __pyx_t_4 * __pyx_v_self->union_features_id.strides[0]) )) = __pyx_v_feature_id;
 
-      /* "CFW_DVV_Similarity_Cython_SGD.pyx":558
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":558
  *                 self.union_features_flag[feature_id] = True
  *                 self.union_features_id[union_features_count] = feature_id
  *                 union_features_count += 1             # <<<<<<<<<<<<<<
@@ -27222,7 +27217,7 @@ static int __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_S
  */
       __pyx_v_union_features_count = (__pyx_v_union_features_count + 1);
 
-      /* "CFW_DVV_Similarity_Cython_SGD.pyx":555
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":555
  *             feature_id = feature_i[feature_index]
  * 
  *             if not self.union_features_flag[feature_id]:             # <<<<<<<<<<<<<<
@@ -27232,7 +27227,7 @@ static int __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_S
     }
   }
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":561
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":561
  * 
  * 
  *         for feature_index in range(len(feature_j)):             # <<<<<<<<<<<<<<
@@ -27244,7 +27239,7 @@ static int __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_S
   for (__pyx_t_3 = 0; __pyx_t_3 < __pyx_t_2; __pyx_t_3+=1) {
     __pyx_v_feature_index = __pyx_t_3;
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":563
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":563
  *         for feature_index in range(len(feature_j)):
  * 
  *             feature_id = feature_j[feature_index]             # <<<<<<<<<<<<<<
@@ -27263,7 +27258,7 @@ static int __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_S
     }
     __pyx_v_feature_id = (*((int *) ( /* dim=0 */ (__pyx_v_feature_j.data + __pyx_t_4 * __pyx_v_feature_j.strides[0]) )));
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":565
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":565
  *             feature_id = feature_j[feature_index]
  * 
  *             if not self.union_features_flag[feature_id]:             # <<<<<<<<<<<<<<
@@ -27284,7 +27279,7 @@ static int __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_S
     __pyx_t_6 = (!((*((int *) ( /* dim=0 */ (__pyx_v_self->union_features_flag.data + __pyx_t_4 * __pyx_v_self->union_features_flag.strides[0]) ))) != 0));
     if (__pyx_t_6) {
 
-      /* "CFW_DVV_Similarity_Cython_SGD.pyx":566
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":566
  * 
  *             if not self.union_features_flag[feature_id]:
  *                 self.union_features_flag[feature_id] = True             # <<<<<<<<<<<<<<
@@ -27304,7 +27299,7 @@ static int __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_S
       }
       *((int *) ( /* dim=0 */ (__pyx_v_self->union_features_flag.data + __pyx_t_4 * __pyx_v_self->union_features_flag.strides[0]) )) = 1;
 
-      /* "CFW_DVV_Similarity_Cython_SGD.pyx":567
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":567
  *             if not self.union_features_flag[feature_id]:
  *                 self.union_features_flag[feature_id] = True
  *                 self.union_features_id[union_features_count] = feature_id             # <<<<<<<<<<<<<<
@@ -27324,7 +27319,7 @@ static int __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_S
       }
       *((int *) ( /* dim=0 */ (__pyx_v_self->union_features_id.data + __pyx_t_4 * __pyx_v_self->union_features_id.strides[0]) )) = __pyx_v_feature_id;
 
-      /* "CFW_DVV_Similarity_Cython_SGD.pyx":568
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":568
  *                 self.union_features_flag[feature_id] = True
  *                 self.union_features_id[union_features_count] = feature_id
  *                 union_features_count += 1             # <<<<<<<<<<<<<<
@@ -27333,7 +27328,7 @@ static int __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_S
  */
       __pyx_v_union_features_count = (__pyx_v_union_features_count + 1);
 
-      /* "CFW_DVV_Similarity_Cython_SGD.pyx":565
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":565
  *             feature_id = feature_j[feature_index]
  * 
  *             if not self.union_features_flag[feature_id]:             # <<<<<<<<<<<<<<
@@ -27343,7 +27338,7 @@ static int __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_S
     }
   }
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":571
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":571
  * 
  *         # Clear flag data structure
  *         for feature_index in range(union_features_count):             # <<<<<<<<<<<<<<
@@ -27355,7 +27350,7 @@ static int __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_S
   for (__pyx_t_7 = 0; __pyx_t_7 < __pyx_t_5; __pyx_t_7+=1) {
     __pyx_v_feature_index = __pyx_t_7;
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":572
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":572
  *         # Clear flag data structure
  *         for feature_index in range(union_features_count):
  *             feature_id = self.union_features_id[feature_index]             # <<<<<<<<<<<<<<
@@ -27375,7 +27370,7 @@ static int __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_S
     }
     __pyx_v_feature_id = (*((int *) ( /* dim=0 */ (__pyx_v_self->union_features_id.data + __pyx_t_4 * __pyx_v_self->union_features_id.strides[0]) )));
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":573
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":573
  *         for feature_index in range(union_features_count):
  *             feature_id = self.union_features_id[feature_index]
  *             self.union_features_flag[feature_id] = False             # <<<<<<<<<<<<<<
@@ -27396,7 +27391,7 @@ static int __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_S
     *((int *) ( /* dim=0 */ (__pyx_v_self->union_features_flag.data + __pyx_t_4 * __pyx_v_self->union_features_flag.strides[0]) )) = 0;
   }
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":577
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":577
  * 
  * 
  *         return union_features_count             # <<<<<<<<<<<<<<
@@ -27406,7 +27401,7 @@ static int __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_S
   __pyx_r = __pyx_v_union_features_count;
   goto __pyx_L0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":546
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":546
  * 
  * 
  *     cdef int feature_union_unordered(self, int[:] feature_i, int[:] feature_j):             # <<<<<<<<<<<<<<
@@ -27416,13 +27411,13 @@ static int __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_S
 
   /* function exit code */
   __pyx_L1_error:;
-  __Pyx_AddTraceback("CFW_DVV_Similarity_Cython_SGD.CFW_DVV_Similarity_Cython_SGD.feature_union_unordered", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.CFW_DVV_Similarity_Cython_SGD.CFW_DVV_Similarity_Cython_SGD.feature_union_unordered", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = 0;
   __pyx_L0:;
   return __pyx_r;
 }
 
-/* "CFW_DVV_Similarity_Cython_SGD.pyx":582
+/* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":582
  * 
  * 
  *     cdef int feature_common_unordered(self, int[:] feature_i, int[:] feature_j):             # <<<<<<<<<<<<<<
@@ -27430,7 +27425,7 @@ static int __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_S
  *         cdef int common_features_count = 0
  */
 
-static int __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_feature_common_unordered(struct __pyx_obj_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *__pyx_v_self, __Pyx_memviewslice __pyx_v_feature_i, __Pyx_memviewslice __pyx_v_feature_j) {
+static int __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_feature_common_unordered(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *__pyx_v_self, __Pyx_memviewslice __pyx_v_feature_i, __Pyx_memviewslice __pyx_v_feature_j) {
   int __pyx_v_common_features_count;
   int __pyx_v_feature_index;
   int __pyx_v_feature_id;
@@ -27445,7 +27440,7 @@ static int __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_S
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":584
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":584
  *     cdef int feature_common_unordered(self, int[:] feature_i, int[:] feature_j):
  * 
  *         cdef int common_features_count = 0             # <<<<<<<<<<<<<<
@@ -27454,7 +27449,7 @@ static int __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_S
  */
   __pyx_v_common_features_count = 0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":589
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":589
  *         #print("New feature_common_unordered")
  * 
  *         for feature_index in range(len(feature_i)):             # <<<<<<<<<<<<<<
@@ -27466,7 +27461,7 @@ static int __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_S
   for (__pyx_t_3 = 0; __pyx_t_3 < __pyx_t_2; __pyx_t_3+=1) {
     __pyx_v_feature_index = __pyx_t_3;
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":591
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":591
  *         for feature_index in range(len(feature_i)):
  * 
  *             feature_id = feature_i[feature_index]             # <<<<<<<<<<<<<<
@@ -27485,7 +27480,7 @@ static int __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_S
     }
     __pyx_v_feature_id = (*((int *) ( /* dim=0 */ (__pyx_v_feature_i.data + __pyx_t_4 * __pyx_v_feature_i.strides[0]) )));
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":592
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":592
  * 
  *             feature_id = feature_i[feature_index]
  *             self.common_features_flag[feature_id] = True             # <<<<<<<<<<<<<<
@@ -27506,7 +27501,7 @@ static int __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_S
     *((int *) ( /* dim=0 */ (__pyx_v_self->common_features_flag.data + __pyx_t_4 * __pyx_v_self->common_features_flag.strides[0]) )) = 1;
   }
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":594
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":594
  *             self.common_features_flag[feature_id] = True
  * 
  *         for feature_index in range(len(feature_j)):             # <<<<<<<<<<<<<<
@@ -27518,7 +27513,7 @@ static int __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_S
   for (__pyx_t_3 = 0; __pyx_t_3 < __pyx_t_2; __pyx_t_3+=1) {
     __pyx_v_feature_index = __pyx_t_3;
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":596
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":596
  *         for feature_index in range(len(feature_j)):
  * 
  *             feature_id = feature_j[feature_index]             # <<<<<<<<<<<<<<
@@ -27537,7 +27532,7 @@ static int __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_S
     }
     __pyx_v_feature_id = (*((int *) ( /* dim=0 */ (__pyx_v_feature_j.data + __pyx_t_4 * __pyx_v_feature_j.strides[0]) )));
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":598
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":598
  *             feature_id = feature_j[feature_index]
  * 
  *             if self.common_features_flag[feature_id]:             # <<<<<<<<<<<<<<
@@ -27558,7 +27553,7 @@ static int __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_S
     __pyx_t_6 = ((*((int *) ( /* dim=0 */ (__pyx_v_self->common_features_flag.data + __pyx_t_4 * __pyx_v_self->common_features_flag.strides[0]) ))) != 0);
     if (__pyx_t_6) {
 
-      /* "CFW_DVV_Similarity_Cython_SGD.pyx":599
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":599
  * 
  *             if self.common_features_flag[feature_id]:
  *                 self.common_features_id[common_features_count] = feature_id             # <<<<<<<<<<<<<<
@@ -27578,7 +27573,7 @@ static int __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_S
       }
       *((int *) ( /* dim=0 */ (__pyx_v_self->common_features_id.data + __pyx_t_4 * __pyx_v_self->common_features_id.strides[0]) )) = __pyx_v_feature_id;
 
-      /* "CFW_DVV_Similarity_Cython_SGD.pyx":600
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":600
  *             if self.common_features_flag[feature_id]:
  *                 self.common_features_id[common_features_count] = feature_id
  *                 common_features_count += 1             # <<<<<<<<<<<<<<
@@ -27587,7 +27582,7 @@ static int __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_S
  */
       __pyx_v_common_features_count = (__pyx_v_common_features_count + 1);
 
-      /* "CFW_DVV_Similarity_Cython_SGD.pyx":598
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":598
  *             feature_id = feature_j[feature_index]
  * 
  *             if self.common_features_flag[feature_id]:             # <<<<<<<<<<<<<<
@@ -27597,7 +27592,7 @@ static int __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_S
     }
   }
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":603
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":603
  * 
  *         # Clear flag data structure
  *         for feature_index in range(len(feature_i)):             # <<<<<<<<<<<<<<
@@ -27609,7 +27604,7 @@ static int __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_S
   for (__pyx_t_3 = 0; __pyx_t_3 < __pyx_t_2; __pyx_t_3+=1) {
     __pyx_v_feature_index = __pyx_t_3;
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":604
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":604
  *         # Clear flag data structure
  *         for feature_index in range(len(feature_i)):
  *             feature_id = feature_i[feature_index]             # <<<<<<<<<<<<<<
@@ -27628,7 +27623,7 @@ static int __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_S
     }
     __pyx_v_feature_id = (*((int *) ( /* dim=0 */ (__pyx_v_feature_i.data + __pyx_t_4 * __pyx_v_feature_i.strides[0]) )));
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":605
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":605
  *         for feature_index in range(len(feature_i)):
  *             feature_id = feature_i[feature_index]
  *             self.common_features_flag[feature_id] = False             # <<<<<<<<<<<<<<
@@ -27649,7 +27644,7 @@ static int __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_S
     *((int *) ( /* dim=0 */ (__pyx_v_self->common_features_flag.data + __pyx_t_4 * __pyx_v_self->common_features_flag.strides[0]) )) = 0;
   }
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":610
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":610
  * 
  * 
  *         return common_features_count             # <<<<<<<<<<<<<<
@@ -27659,7 +27654,7 @@ static int __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_S
   __pyx_r = __pyx_v_common_features_count;
   goto __pyx_L0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":582
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":582
  * 
  * 
  *     cdef int feature_common_unordered(self, int[:] feature_i, int[:] feature_j):             # <<<<<<<<<<<<<<
@@ -27669,13 +27664,13 @@ static int __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_S
 
   /* function exit code */
   __pyx_L1_error:;
-  __Pyx_AddTraceback("CFW_DVV_Similarity_Cython_SGD.CFW_DVV_Similarity_Cython_SGD.feature_common_unordered", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.CFW_DVV_Similarity_Cython_SGD.CFW_DVV_Similarity_Cython_SGD.feature_common_unordered", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = 0;
   __pyx_L0:;
   return __pyx_r;
 }
 
-/* "CFW_DVV_Similarity_Cython_SGD.pyx":615
+/* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":615
  * 
  * 
  *     def feature_union_test(self):             # <<<<<<<<<<<<<<
@@ -27684,15 +27679,15 @@ static int __pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_S
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_11feature_union_test(PyObject *__pyx_v_self, 
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_11feature_union_test(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static PyMethodDef __pyx_mdef_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_11feature_union_test = {"feature_union_test", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_11feature_union_test, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_11feature_union_test(PyObject *__pyx_v_self, 
+static PyMethodDef __pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_11feature_union_test = {"feature_union_test", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_11feature_union_test, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_11feature_union_test(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -27717,14 +27712,14 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   if (unlikely(__pyx_nargs > 0)) {
     __Pyx_RaiseArgtupleInvalid("feature_union_test", 1, 0, 0, __pyx_nargs); return NULL;}
   if (unlikely(__pyx_kwds) && __Pyx_NumKwargs_FASTCALL(__pyx_kwds) && unlikely(!__Pyx_CheckKeywordStrings(__pyx_kwds, "feature_union_test", 0))) return NULL;
-  __pyx_r = __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_10feature_union_test(((struct __pyx_obj_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *)__pyx_v_self));
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_10feature_union_test(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_10feature_union_test(struct __pyx_obj_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *__pyx_v_self) {
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_10feature_union_test(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *__pyx_v_self) {
   PyObject *__pyx_v_f_i = NULL;
   PyObject *__pyx_v_f_j = NULL;
   PyObject *__pyx_v_union_np = NULL;
@@ -27752,7 +27747,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("feature_union_test", 1);
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":617
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":617
  *     def feature_union_test(self):
  * 
  *         if self.verbose:             # <<<<<<<<<<<<<<
@@ -27762,7 +27757,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
   __pyx_t_1 = (__pyx_v_self->verbose != 0);
   if (__pyx_t_1) {
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":618
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":618
  * 
  *         if self.verbose:
  *             print("CFW_DVV_Similarity_Cython_SGD: feature_union_test")             # <<<<<<<<<<<<<<
@@ -27773,7 +27768,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":617
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":617
  *     def feature_union_test(self):
  * 
  *         if self.verbose:             # <<<<<<<<<<<<<<
@@ -27782,7 +27777,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
  */
   }
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":621
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":621
  * 
  *         # No duplicates
  *         f_i = np.array([0, 5, 8, 10, 19], dtype=np.int32)             # <<<<<<<<<<<<<<
@@ -27833,7 +27828,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
   __pyx_v_f_i = __pyx_t_6;
   __pyx_t_6 = 0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":622
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":622
  *         # No duplicates
  *         f_i = np.array([0, 5, 8, 10, 19], dtype=np.int32)
  *         f_j = np.array([1, 7, 9, 11, 15, 18], dtype=np.int32)             # <<<<<<<<<<<<<<
@@ -27887,7 +27882,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
   __pyx_v_f_j = __pyx_t_5;
   __pyx_t_5 = 0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":624
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":624
  *         f_j = np.array([1, 7, 9, 11, 15, 18], dtype=np.int32)
  * 
  *         union_np = np.union1d(f_i, f_j)             # <<<<<<<<<<<<<<
@@ -27924,7 +27919,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
   __pyx_v_union_np = __pyx_t_5;
   __pyx_t_5 = 0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":625
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":625
  * 
  *         union_np = np.union1d(f_i, f_j)
  *         union_cy = self.feature_union(f_i, f_j)             # <<<<<<<<<<<<<<
@@ -27933,7 +27928,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
  */
   __pyx_t_8 = __Pyx_PyObject_to_MemoryviewSlice_ds_int(__pyx_v_f_i, PyBUF_WRITABLE); if (unlikely(!__pyx_t_8.memview)) __PYX_ERR(0, 625, __pyx_L1_error)
   __pyx_t_9 = __Pyx_PyObject_to_MemoryviewSlice_ds_int(__pyx_v_f_j, PyBUF_WRITABLE); if (unlikely(!__pyx_t_9.memview)) __PYX_ERR(0, 625, __pyx_L1_error)
-  __pyx_t_10 = ((struct __pyx_vtabstruct_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *)__pyx_v_self->__pyx_vtab)->feature_union(__pyx_v_self, __pyx_t_8, __pyx_t_9); if (unlikely(!__pyx_t_10.memview)) __PYX_ERR(0, 625, __pyx_L1_error)
+  __pyx_t_10 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *)__pyx_v_self->__pyx_vtab)->feature_union(__pyx_v_self, __pyx_t_8, __pyx_t_9); if (unlikely(!__pyx_t_10.memview)) __PYX_ERR(0, 625, __pyx_L1_error)
   __PYX_XCLEAR_MEMVIEW(&__pyx_t_8, 1);
   __pyx_t_8.memview = NULL; __pyx_t_8.data = NULL;
   __PYX_XCLEAR_MEMVIEW(&__pyx_t_9, 1);
@@ -27945,7 +27940,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
   __pyx_v_union_cy = __pyx_t_5;
   __pyx_t_5 = 0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":626
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":626
  *         union_np = np.union1d(f_i, f_j)
  *         union_cy = self.feature_union(f_i, f_j)
  *         union_cy = np.array(union_cy)             # <<<<<<<<<<<<<<
@@ -27982,7 +27977,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
   __Pyx_DECREF_SET(__pyx_v_union_cy, __pyx_t_5);
   __pyx_t_5 = 0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":628
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":628
  *         union_cy = np.array(union_cy)
  * 
  *         assert np.array_equal(union_np, union_cy), "Union is different. F_i: {}, F_j: {}. Union Numpy: {}, Union Cython: {}".format(             # <<<<<<<<<<<<<<
@@ -28024,7 +28019,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
       __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_Union_is_different_F_i_F_j_Union, __pyx_n_s_format); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 628, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
 
-      /* "CFW_DVV_Similarity_Cython_SGD.pyx":629
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":629
  * 
  *         assert np.array_equal(union_np, union_cy), "Union is different. F_i: {}, F_j: {}. Union Numpy: {}, Union Cython: {}".format(
  *             f_i, f_j, union_np, union_cy)             # <<<<<<<<<<<<<<
@@ -28054,7 +28049,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       }
 
-      /* "CFW_DVV_Similarity_Cython_SGD.pyx":628
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":628
  *         union_cy = np.array(union_cy)
  * 
  *         assert np.array_equal(union_np, union_cy), "Union is different. F_i: {}, F_j: {}. Union Numpy: {}, Union Cython: {}".format(             # <<<<<<<<<<<<<<
@@ -28073,7 +28068,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
   if ((1)); else __PYX_ERR(0, 628, __pyx_L1_error)
   #endif
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":632
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":632
  * 
  * 
  *         count = self.feature_union_unordered(f_i, f_j)             # <<<<<<<<<<<<<<
@@ -28082,14 +28077,14 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
  */
   __pyx_t_10 = __Pyx_PyObject_to_MemoryviewSlice_ds_int(__pyx_v_f_i, PyBUF_WRITABLE); if (unlikely(!__pyx_t_10.memview)) __PYX_ERR(0, 632, __pyx_L1_error)
   __pyx_t_9 = __Pyx_PyObject_to_MemoryviewSlice_ds_int(__pyx_v_f_j, PyBUF_WRITABLE); if (unlikely(!__pyx_t_9.memview)) __PYX_ERR(0, 632, __pyx_L1_error)
-  __pyx_t_11 = ((struct __pyx_vtabstruct_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *)__pyx_v_self->__pyx_vtab)->feature_union_unordered(__pyx_v_self, __pyx_t_10, __pyx_t_9); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 632, __pyx_L1_error)
+  __pyx_t_11 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *)__pyx_v_self->__pyx_vtab)->feature_union_unordered(__pyx_v_self, __pyx_t_10, __pyx_t_9); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 632, __pyx_L1_error)
   __PYX_XCLEAR_MEMVIEW(&__pyx_t_10, 1);
   __pyx_t_10.memview = NULL; __pyx_t_10.data = NULL;
   __PYX_XCLEAR_MEMVIEW(&__pyx_t_9, 1);
   __pyx_t_9.memview = NULL; __pyx_t_9.data = NULL;
   __pyx_v_count = __pyx_t_11;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":633
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":633
  * 
  *         count = self.feature_union_unordered(f_i, f_j)
  *         union_cy = self.union_features_id[0:count]             # <<<<<<<<<<<<<<
@@ -28125,7 +28120,7 @@ __pyx_t_4 = __pyx_memoryview_fromslice(__pyx_t_9, 1, (PyObject *(*)(char *)) __p
   __Pyx_DECREF_SET(__pyx_v_union_cy, __pyx_t_4);
   __pyx_t_4 = 0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":634
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":634
  *         count = self.feature_union_unordered(f_i, f_j)
  *         union_cy = self.union_features_id[0:count]
  *         union_cy = np.sort(np.array(union_cy))             # <<<<<<<<<<<<<<
@@ -28190,7 +28185,7 @@ __pyx_t_4 = __pyx_memoryview_fromslice(__pyx_t_9, 1, (PyObject *(*)(char *)) __p
   __Pyx_DECREF_SET(__pyx_v_union_cy, __pyx_t_4);
   __pyx_t_4 = 0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":636
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":636
  *         union_cy = np.sort(np.array(union_cy))
  * 
  *         assert np.array_equal(union_np, union_cy), "Union unordered is different. F_i: {}, F_j: {}. Union Numpy: {}, Union Cython: {}".format(             # <<<<<<<<<<<<<<
@@ -28232,7 +28227,7 @@ __pyx_t_4 = __pyx_memoryview_fromslice(__pyx_t_9, 1, (PyObject *(*)(char *)) __p
       __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_Union_unordered_is_different_F_i, __pyx_n_s_format); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 636, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_5);
 
-      /* "CFW_DVV_Similarity_Cython_SGD.pyx":637
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":637
  * 
  *         assert np.array_equal(union_np, union_cy), "Union unordered is different. F_i: {}, F_j: {}. Union Numpy: {}, Union Cython: {}".format(
  *             f_i, f_j, union_np, union_cy)             # <<<<<<<<<<<<<<
@@ -28262,7 +28257,7 @@ __pyx_t_4 = __pyx_memoryview_fromslice(__pyx_t_9, 1, (PyObject *(*)(char *)) __p
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       }
 
-      /* "CFW_DVV_Similarity_Cython_SGD.pyx":636
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":636
  *         union_cy = np.sort(np.array(union_cy))
  * 
  *         assert np.array_equal(union_np, union_cy), "Union unordered is different. F_i: {}, F_j: {}. Union Numpy: {}, Union Cython: {}".format(             # <<<<<<<<<<<<<<
@@ -28281,7 +28276,7 @@ __pyx_t_4 = __pyx_memoryview_fromslice(__pyx_t_9, 1, (PyObject *(*)(char *)) __p
   if ((1)); else __PYX_ERR(0, 636, __pyx_L1_error)
   #endif
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":641
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":641
  * 
  *         # Duplicates
  *         f_i = np.array([0, 5, 8, 10, 19], dtype=np.int32)             # <<<<<<<<<<<<<<
@@ -28332,7 +28327,7 @@ __pyx_t_4 = __pyx_memoryview_fromslice(__pyx_t_9, 1, (PyObject *(*)(char *)) __p
   __Pyx_DECREF_SET(__pyx_v_f_i, __pyx_t_2);
   __pyx_t_2 = 0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":642
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":642
  *         # Duplicates
  *         f_i = np.array([0, 5, 8, 10, 19], dtype=np.int32)
  *         f_j = np.array([1, 10, 11], dtype=np.int32)             # <<<<<<<<<<<<<<
@@ -28377,7 +28372,7 @@ __pyx_t_4 = __pyx_memoryview_fromslice(__pyx_t_9, 1, (PyObject *(*)(char *)) __p
   __Pyx_DECREF_SET(__pyx_v_f_j, __pyx_t_3);
   __pyx_t_3 = 0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":644
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":644
  *         f_j = np.array([1, 10, 11], dtype=np.int32)
  * 
  *         union_np = np.union1d(f_i, f_j)             # <<<<<<<<<<<<<<
@@ -28414,7 +28409,7 @@ __pyx_t_4 = __pyx_memoryview_fromslice(__pyx_t_9, 1, (PyObject *(*)(char *)) __p
   __Pyx_DECREF_SET(__pyx_v_union_np, __pyx_t_3);
   __pyx_t_3 = 0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":645
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":645
  * 
  *         union_np = np.union1d(f_i, f_j)
  *         union_cy = self.feature_union(f_i, f_j)             # <<<<<<<<<<<<<<
@@ -28423,7 +28418,7 @@ __pyx_t_4 = __pyx_memoryview_fromslice(__pyx_t_9, 1, (PyObject *(*)(char *)) __p
  */
   __pyx_t_9 = __Pyx_PyObject_to_MemoryviewSlice_ds_int(__pyx_v_f_i, PyBUF_WRITABLE); if (unlikely(!__pyx_t_9.memview)) __PYX_ERR(0, 645, __pyx_L1_error)
   __pyx_t_10 = __Pyx_PyObject_to_MemoryviewSlice_ds_int(__pyx_v_f_j, PyBUF_WRITABLE); if (unlikely(!__pyx_t_10.memview)) __PYX_ERR(0, 645, __pyx_L1_error)
-  __pyx_t_8 = ((struct __pyx_vtabstruct_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *)__pyx_v_self->__pyx_vtab)->feature_union(__pyx_v_self, __pyx_t_9, __pyx_t_10); if (unlikely(!__pyx_t_8.memview)) __PYX_ERR(0, 645, __pyx_L1_error)
+  __pyx_t_8 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *)__pyx_v_self->__pyx_vtab)->feature_union(__pyx_v_self, __pyx_t_9, __pyx_t_10); if (unlikely(!__pyx_t_8.memview)) __PYX_ERR(0, 645, __pyx_L1_error)
   __PYX_XCLEAR_MEMVIEW(&__pyx_t_9, 1);
   __pyx_t_9.memview = NULL; __pyx_t_9.data = NULL;
   __PYX_XCLEAR_MEMVIEW(&__pyx_t_10, 1);
@@ -28435,7 +28430,7 @@ __pyx_t_4 = __pyx_memoryview_fromslice(__pyx_t_9, 1, (PyObject *(*)(char *)) __p
   __Pyx_DECREF_SET(__pyx_v_union_cy, __pyx_t_3);
   __pyx_t_3 = 0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":646
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":646
  *         union_np = np.union1d(f_i, f_j)
  *         union_cy = self.feature_union(f_i, f_j)
  *         union_cy = np.array(union_cy)             # <<<<<<<<<<<<<<
@@ -28472,7 +28467,7 @@ __pyx_t_4 = __pyx_memoryview_fromslice(__pyx_t_9, 1, (PyObject *(*)(char *)) __p
   __Pyx_DECREF_SET(__pyx_v_union_cy, __pyx_t_3);
   __pyx_t_3 = 0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":648
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":648
  *         union_cy = np.array(union_cy)
  * 
  *         assert np.array_equal(union_np, union_cy), "Union is different. F_i: {}, F_j: {}. Union Numpy: {}, Union Cython: {}".format(             # <<<<<<<<<<<<<<
@@ -28514,7 +28509,7 @@ __pyx_t_4 = __pyx_memoryview_fromslice(__pyx_t_9, 1, (PyObject *(*)(char *)) __p
       __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_Union_is_different_F_i_F_j_Union, __pyx_n_s_format); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 648, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_6);
 
-      /* "CFW_DVV_Similarity_Cython_SGD.pyx":649
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":649
  * 
  *         assert np.array_equal(union_np, union_cy), "Union is different. F_i: {}, F_j: {}. Union Numpy: {}, Union Cython: {}".format(
  *             f_i, f_j, union_np, union_cy)             # <<<<<<<<<<<<<<
@@ -28544,7 +28539,7 @@ __pyx_t_4 = __pyx_memoryview_fromslice(__pyx_t_9, 1, (PyObject *(*)(char *)) __p
         __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
       }
 
-      /* "CFW_DVV_Similarity_Cython_SGD.pyx":648
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":648
  *         union_cy = np.array(union_cy)
  * 
  *         assert np.array_equal(union_np, union_cy), "Union is different. F_i: {}, F_j: {}. Union Numpy: {}, Union Cython: {}".format(             # <<<<<<<<<<<<<<
@@ -28563,7 +28558,7 @@ __pyx_t_4 = __pyx_memoryview_fromslice(__pyx_t_9, 1, (PyObject *(*)(char *)) __p
   if ((1)); else __PYX_ERR(0, 648, __pyx_L1_error)
   #endif
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":652
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":652
  * 
  * 
  *         count = self.feature_union_unordered(f_i, f_j)             # <<<<<<<<<<<<<<
@@ -28572,14 +28567,14 @@ __pyx_t_4 = __pyx_memoryview_fromslice(__pyx_t_9, 1, (PyObject *(*)(char *)) __p
  */
   __pyx_t_8 = __Pyx_PyObject_to_MemoryviewSlice_ds_int(__pyx_v_f_i, PyBUF_WRITABLE); if (unlikely(!__pyx_t_8.memview)) __PYX_ERR(0, 652, __pyx_L1_error)
   __pyx_t_10 = __Pyx_PyObject_to_MemoryviewSlice_ds_int(__pyx_v_f_j, PyBUF_WRITABLE); if (unlikely(!__pyx_t_10.memview)) __PYX_ERR(0, 652, __pyx_L1_error)
-  __pyx_t_11 = ((struct __pyx_vtabstruct_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *)__pyx_v_self->__pyx_vtab)->feature_union_unordered(__pyx_v_self, __pyx_t_8, __pyx_t_10); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 652, __pyx_L1_error)
+  __pyx_t_11 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *)__pyx_v_self->__pyx_vtab)->feature_union_unordered(__pyx_v_self, __pyx_t_8, __pyx_t_10); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 652, __pyx_L1_error)
   __PYX_XCLEAR_MEMVIEW(&__pyx_t_8, 1);
   __pyx_t_8.memview = NULL; __pyx_t_8.data = NULL;
   __PYX_XCLEAR_MEMVIEW(&__pyx_t_10, 1);
   __pyx_t_10.memview = NULL; __pyx_t_10.data = NULL;
   __pyx_v_count = __pyx_t_11;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":653
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":653
  * 
  *         count = self.feature_union_unordered(f_i, f_j)
  *         union_cy = self.union_features_id[0:count]             # <<<<<<<<<<<<<<
@@ -28615,7 +28610,7 @@ __pyx_t_6 = __pyx_memoryview_fromslice(__pyx_t_10, 1, (PyObject *(*)(char *)) __
   __Pyx_DECREF_SET(__pyx_v_union_cy, __pyx_t_6);
   __pyx_t_6 = 0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":654
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":654
  *         count = self.feature_union_unordered(f_i, f_j)
  *         union_cy = self.union_features_id[0:count]
  *         union_cy = np.sort(np.array(union_cy))             # <<<<<<<<<<<<<<
@@ -28680,7 +28675,7 @@ __pyx_t_6 = __pyx_memoryview_fromslice(__pyx_t_10, 1, (PyObject *(*)(char *)) __
   __Pyx_DECREF_SET(__pyx_v_union_cy, __pyx_t_6);
   __pyx_t_6 = 0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":656
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":656
  *         union_cy = np.sort(np.array(union_cy))
  * 
  *         assert np.array_equal(union_np, union_cy), "Union unordered is different. F_i: {}, F_j: {}. Union Numpy: {}, Union Cython: {}".format(             # <<<<<<<<<<<<<<
@@ -28722,7 +28717,7 @@ __pyx_t_6 = __pyx_memoryview_fromslice(__pyx_t_10, 1, (PyObject *(*)(char *)) __
       __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_Union_unordered_is_different_F_i, __pyx_n_s_format); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 656, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
 
-      /* "CFW_DVV_Similarity_Cython_SGD.pyx":657
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":657
  * 
  *         assert np.array_equal(union_np, union_cy), "Union unordered is different. F_i: {}, F_j: {}. Union Numpy: {}, Union Cython: {}".format(
  *             f_i, f_j, union_np, union_cy)             # <<<<<<<<<<<<<<
@@ -28752,7 +28747,7 @@ __pyx_t_6 = __pyx_memoryview_fromslice(__pyx_t_10, 1, (PyObject *(*)(char *)) __
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       }
 
-      /* "CFW_DVV_Similarity_Cython_SGD.pyx":656
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":656
  *         union_cy = np.sort(np.array(union_cy))
  * 
  *         assert np.array_equal(union_np, union_cy), "Union unordered is different. F_i: {}, F_j: {}. Union Numpy: {}, Union Cython: {}".format(             # <<<<<<<<<<<<<<
@@ -28771,7 +28766,7 @@ __pyx_t_6 = __pyx_memoryview_fromslice(__pyx_t_10, 1, (PyObject *(*)(char *)) __
   if ((1)); else __PYX_ERR(0, 656, __pyx_L1_error)
   #endif
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":661
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":661
  * 
  * 
  *         f_i = np.array([0, 5, 8, 10, 19], dtype=np.int32)             # <<<<<<<<<<<<<<
@@ -28822,7 +28817,7 @@ __pyx_t_6 = __pyx_memoryview_fromslice(__pyx_t_10, 1, (PyObject *(*)(char *)) __
   __Pyx_DECREF_SET(__pyx_v_f_i, __pyx_t_5);
   __pyx_t_5 = 0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":662
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":662
  * 
  *         f_i = np.array([0, 5, 8, 10, 19], dtype=np.int32)
  *         f_j = np.array([1, 2, 5, 10, 15], dtype=np.int32)             # <<<<<<<<<<<<<<
@@ -28873,7 +28868,7 @@ __pyx_t_6 = __pyx_memoryview_fromslice(__pyx_t_10, 1, (PyObject *(*)(char *)) __
   __Pyx_DECREF_SET(__pyx_v_f_j, __pyx_t_4);
   __pyx_t_4 = 0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":664
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":664
  *         f_j = np.array([1, 2, 5, 10, 15], dtype=np.int32)
  * 
  *         union_np = np.union1d(f_i, f_j)             # <<<<<<<<<<<<<<
@@ -28910,7 +28905,7 @@ __pyx_t_6 = __pyx_memoryview_fromslice(__pyx_t_10, 1, (PyObject *(*)(char *)) __
   __Pyx_DECREF_SET(__pyx_v_union_np, __pyx_t_4);
   __pyx_t_4 = 0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":665
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":665
  * 
  *         union_np = np.union1d(f_i, f_j)
  *         union_cy = self.feature_union(f_i, f_j)             # <<<<<<<<<<<<<<
@@ -28919,7 +28914,7 @@ __pyx_t_6 = __pyx_memoryview_fromslice(__pyx_t_10, 1, (PyObject *(*)(char *)) __
  */
   __pyx_t_10 = __Pyx_PyObject_to_MemoryviewSlice_ds_int(__pyx_v_f_i, PyBUF_WRITABLE); if (unlikely(!__pyx_t_10.memview)) __PYX_ERR(0, 665, __pyx_L1_error)
   __pyx_t_8 = __Pyx_PyObject_to_MemoryviewSlice_ds_int(__pyx_v_f_j, PyBUF_WRITABLE); if (unlikely(!__pyx_t_8.memview)) __PYX_ERR(0, 665, __pyx_L1_error)
-  __pyx_t_9 = ((struct __pyx_vtabstruct_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *)__pyx_v_self->__pyx_vtab)->feature_union(__pyx_v_self, __pyx_t_10, __pyx_t_8); if (unlikely(!__pyx_t_9.memview)) __PYX_ERR(0, 665, __pyx_L1_error)
+  __pyx_t_9 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *)__pyx_v_self->__pyx_vtab)->feature_union(__pyx_v_self, __pyx_t_10, __pyx_t_8); if (unlikely(!__pyx_t_9.memview)) __PYX_ERR(0, 665, __pyx_L1_error)
   __PYX_XCLEAR_MEMVIEW(&__pyx_t_10, 1);
   __pyx_t_10.memview = NULL; __pyx_t_10.data = NULL;
   __PYX_XCLEAR_MEMVIEW(&__pyx_t_8, 1);
@@ -28931,7 +28926,7 @@ __pyx_t_6 = __pyx_memoryview_fromslice(__pyx_t_10, 1, (PyObject *(*)(char *)) __
   __Pyx_DECREF_SET(__pyx_v_union_cy, __pyx_t_4);
   __pyx_t_4 = 0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":666
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":666
  *         union_np = np.union1d(f_i, f_j)
  *         union_cy = self.feature_union(f_i, f_j)
  *         union_cy = np.array(union_cy)             # <<<<<<<<<<<<<<
@@ -28968,7 +28963,7 @@ __pyx_t_6 = __pyx_memoryview_fromslice(__pyx_t_10, 1, (PyObject *(*)(char *)) __
   __Pyx_DECREF_SET(__pyx_v_union_cy, __pyx_t_4);
   __pyx_t_4 = 0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":668
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":668
  *         union_cy = np.array(union_cy)
  * 
  *         assert np.array_equal(union_np, union_cy), "Union is different. F_i: {}, F_j: {}. Union Numpy: {}, Union Cython: {}".format(             # <<<<<<<<<<<<<<
@@ -29010,7 +29005,7 @@ __pyx_t_6 = __pyx_memoryview_fromslice(__pyx_t_10, 1, (PyObject *(*)(char *)) __
       __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_Union_is_different_F_i_F_j_Union, __pyx_n_s_format); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 668, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
 
-      /* "CFW_DVV_Similarity_Cython_SGD.pyx":669
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":669
  * 
  *         assert np.array_equal(union_np, union_cy), "Union is different. F_i: {}, F_j: {}. Union Numpy: {}, Union Cython: {}".format(
  *             f_i, f_j, union_np, union_cy)             # <<<<<<<<<<<<<<
@@ -29040,7 +29035,7 @@ __pyx_t_6 = __pyx_memoryview_fromslice(__pyx_t_10, 1, (PyObject *(*)(char *)) __
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
       }
 
-      /* "CFW_DVV_Similarity_Cython_SGD.pyx":668
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":668
  *         union_cy = np.array(union_cy)
  * 
  *         assert np.array_equal(union_np, union_cy), "Union is different. F_i: {}, F_j: {}. Union Numpy: {}, Union Cython: {}".format(             # <<<<<<<<<<<<<<
@@ -29059,7 +29054,7 @@ __pyx_t_6 = __pyx_memoryview_fromslice(__pyx_t_10, 1, (PyObject *(*)(char *)) __
   if ((1)); else __PYX_ERR(0, 668, __pyx_L1_error)
   #endif
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":672
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":672
  * 
  * 
  *         count = self.feature_union_unordered(f_i, f_j)             # <<<<<<<<<<<<<<
@@ -29068,14 +29063,14 @@ __pyx_t_6 = __pyx_memoryview_fromslice(__pyx_t_10, 1, (PyObject *(*)(char *)) __
  */
   __pyx_t_9 = __Pyx_PyObject_to_MemoryviewSlice_ds_int(__pyx_v_f_i, PyBUF_WRITABLE); if (unlikely(!__pyx_t_9.memview)) __PYX_ERR(0, 672, __pyx_L1_error)
   __pyx_t_8 = __Pyx_PyObject_to_MemoryviewSlice_ds_int(__pyx_v_f_j, PyBUF_WRITABLE); if (unlikely(!__pyx_t_8.memview)) __PYX_ERR(0, 672, __pyx_L1_error)
-  __pyx_t_11 = ((struct __pyx_vtabstruct_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *)__pyx_v_self->__pyx_vtab)->feature_union_unordered(__pyx_v_self, __pyx_t_9, __pyx_t_8); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 672, __pyx_L1_error)
+  __pyx_t_11 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *)__pyx_v_self->__pyx_vtab)->feature_union_unordered(__pyx_v_self, __pyx_t_9, __pyx_t_8); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 672, __pyx_L1_error)
   __PYX_XCLEAR_MEMVIEW(&__pyx_t_9, 1);
   __pyx_t_9.memview = NULL; __pyx_t_9.data = NULL;
   __PYX_XCLEAR_MEMVIEW(&__pyx_t_8, 1);
   __pyx_t_8.memview = NULL; __pyx_t_8.data = NULL;
   __pyx_v_count = __pyx_t_11;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":673
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":673
  * 
  *         count = self.feature_union_unordered(f_i, f_j)
  *         union_cy = self.union_features_id[0:count]             # <<<<<<<<<<<<<<
@@ -29111,7 +29106,7 @@ __pyx_t_2 = __pyx_memoryview_fromslice(__pyx_t_8, 1, (PyObject *(*)(char *)) __p
   __Pyx_DECREF_SET(__pyx_v_union_cy, __pyx_t_2);
   __pyx_t_2 = 0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":674
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":674
  *         count = self.feature_union_unordered(f_i, f_j)
  *         union_cy = self.union_features_id[0:count]
  *         union_cy = np.sort(np.array(union_cy))             # <<<<<<<<<<<<<<
@@ -29176,7 +29171,7 @@ __pyx_t_2 = __pyx_memoryview_fromslice(__pyx_t_8, 1, (PyObject *(*)(char *)) __p
   __Pyx_DECREF_SET(__pyx_v_union_cy, __pyx_t_2);
   __pyx_t_2 = 0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":676
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":676
  *         union_cy = np.sort(np.array(union_cy))
  * 
  *         assert np.array_equal(union_np, union_cy), "Union unordered is different. F_i: {}, F_j: {}. Union Numpy: {}, Union Cython: {}".format(             # <<<<<<<<<<<<<<
@@ -29218,7 +29213,7 @@ __pyx_t_2 = __pyx_memoryview_fromslice(__pyx_t_8, 1, (PyObject *(*)(char *)) __p
       __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_Union_unordered_is_different_F_i, __pyx_n_s_format); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 676, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
 
-      /* "CFW_DVV_Similarity_Cython_SGD.pyx":677
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":677
  * 
  *         assert np.array_equal(union_np, union_cy), "Union unordered is different. F_i: {}, F_j: {}. Union Numpy: {}, Union Cython: {}".format(
  *             f_i, f_j, union_np, union_cy)             # <<<<<<<<<<<<<<
@@ -29248,7 +29243,7 @@ __pyx_t_2 = __pyx_memoryview_fromslice(__pyx_t_8, 1, (PyObject *(*)(char *)) __p
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       }
 
-      /* "CFW_DVV_Similarity_Cython_SGD.pyx":676
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":676
  *         union_cy = np.sort(np.array(union_cy))
  * 
  *         assert np.array_equal(union_np, union_cy), "Union unordered is different. F_i: {}, F_j: {}. Union Numpy: {}, Union Cython: {}".format(             # <<<<<<<<<<<<<<
@@ -29267,7 +29262,7 @@ __pyx_t_2 = __pyx_memoryview_fromslice(__pyx_t_8, 1, (PyObject *(*)(char *)) __p
   if ((1)); else __PYX_ERR(0, 676, __pyx_L1_error)
   #endif
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":681
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":681
  * 
  * 
  *         for _ in range(100):             # <<<<<<<<<<<<<<
@@ -29277,7 +29272,7 @@ __pyx_t_2 = __pyx_memoryview_fromslice(__pyx_t_8, 1, (PyObject *(*)(char *)) __p
   for (__pyx_t_12 = 0; __pyx_t_12 < 0x64; __pyx_t_12+=1) {
     __pyx_v__ = __pyx_t_12;
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":683
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":683
  *         for _ in range(100):
  * 
  *             size_f_i = np.random.randint(1,10)             # <<<<<<<<<<<<<<
@@ -29298,7 +29293,7 @@ __pyx_t_2 = __pyx_memoryview_fromslice(__pyx_t_8, 1, (PyObject *(*)(char *)) __p
     __Pyx_XDECREF_SET(__pyx_v_size_f_i, __pyx_t_2);
     __pyx_t_2 = 0;
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":684
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":684
  * 
  *             size_f_i = np.random.randint(1,10)
  *             f_i = np.random.randint(0,50, size=size_f_i, dtype=np.int32)             # <<<<<<<<<<<<<<
@@ -29330,7 +29325,7 @@ __pyx_t_2 = __pyx_memoryview_fromslice(__pyx_t_8, 1, (PyObject *(*)(char *)) __p
     __Pyx_DECREF_SET(__pyx_v_f_i, __pyx_t_6);
     __pyx_t_6 = 0;
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":685
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":685
  *             size_f_i = np.random.randint(1,10)
  *             f_i = np.random.randint(0,50, size=size_f_i, dtype=np.int32)
  *             f_i = np.unique(f_i)             # <<<<<<<<<<<<<<
@@ -29367,7 +29362,7 @@ __pyx_t_2 = __pyx_memoryview_fromslice(__pyx_t_8, 1, (PyObject *(*)(char *)) __p
     __Pyx_DECREF_SET(__pyx_v_f_i, __pyx_t_6);
     __pyx_t_6 = 0;
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":687
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":687
  *             f_i = np.unique(f_i)
  * 
  *             size_f_j = np.random.randint(1,10)             # <<<<<<<<<<<<<<
@@ -29388,7 +29383,7 @@ __pyx_t_2 = __pyx_memoryview_fromslice(__pyx_t_8, 1, (PyObject *(*)(char *)) __p
     __Pyx_XDECREF_SET(__pyx_v_size_f_j, __pyx_t_2);
     __pyx_t_2 = 0;
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":688
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":688
  * 
  *             size_f_j = np.random.randint(1,10)
  *             f_j = np.random.randint(0,50, size=size_f_j, dtype=np.int32)             # <<<<<<<<<<<<<<
@@ -29420,7 +29415,7 @@ __pyx_t_2 = __pyx_memoryview_fromslice(__pyx_t_8, 1, (PyObject *(*)(char *)) __p
     __Pyx_DECREF_SET(__pyx_v_f_j, __pyx_t_5);
     __pyx_t_5 = 0;
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":689
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":689
  *             size_f_j = np.random.randint(1,10)
  *             f_j = np.random.randint(0,50, size=size_f_j, dtype=np.int32)
  *             f_j = np.unique(f_j)             # <<<<<<<<<<<<<<
@@ -29457,7 +29452,7 @@ __pyx_t_2 = __pyx_memoryview_fromslice(__pyx_t_8, 1, (PyObject *(*)(char *)) __p
     __Pyx_DECREF_SET(__pyx_v_f_j, __pyx_t_5);
     __pyx_t_5 = 0;
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":691
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":691
  *             f_j = np.unique(f_j)
  * 
  *             union_np = np.union1d(f_i, f_j)             # <<<<<<<<<<<<<<
@@ -29494,7 +29489,7 @@ __pyx_t_2 = __pyx_memoryview_fromslice(__pyx_t_8, 1, (PyObject *(*)(char *)) __p
     __Pyx_DECREF_SET(__pyx_v_union_np, __pyx_t_5);
     __pyx_t_5 = 0;
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":692
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":692
  * 
  *             union_np = np.union1d(f_i, f_j)
  *             union_cy = self.feature_union(f_i, f_j)             # <<<<<<<<<<<<<<
@@ -29503,7 +29498,7 @@ __pyx_t_2 = __pyx_memoryview_fromslice(__pyx_t_8, 1, (PyObject *(*)(char *)) __p
  */
     __pyx_t_8 = __Pyx_PyObject_to_MemoryviewSlice_ds_int(__pyx_v_f_i, PyBUF_WRITABLE); if (unlikely(!__pyx_t_8.memview)) __PYX_ERR(0, 692, __pyx_L1_error)
     __pyx_t_9 = __Pyx_PyObject_to_MemoryviewSlice_ds_int(__pyx_v_f_j, PyBUF_WRITABLE); if (unlikely(!__pyx_t_9.memview)) __PYX_ERR(0, 692, __pyx_L1_error)
-    __pyx_t_10 = ((struct __pyx_vtabstruct_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *)__pyx_v_self->__pyx_vtab)->feature_union(__pyx_v_self, __pyx_t_8, __pyx_t_9); if (unlikely(!__pyx_t_10.memview)) __PYX_ERR(0, 692, __pyx_L1_error)
+    __pyx_t_10 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *)__pyx_v_self->__pyx_vtab)->feature_union(__pyx_v_self, __pyx_t_8, __pyx_t_9); if (unlikely(!__pyx_t_10.memview)) __PYX_ERR(0, 692, __pyx_L1_error)
     __PYX_XCLEAR_MEMVIEW(&__pyx_t_8, 1);
     __pyx_t_8.memview = NULL; __pyx_t_8.data = NULL;
     __PYX_XCLEAR_MEMVIEW(&__pyx_t_9, 1);
@@ -29515,7 +29510,7 @@ __pyx_t_2 = __pyx_memoryview_fromslice(__pyx_t_8, 1, (PyObject *(*)(char *)) __p
     __Pyx_DECREF_SET(__pyx_v_union_cy, __pyx_t_5);
     __pyx_t_5 = 0;
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":693
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":693
  *             union_np = np.union1d(f_i, f_j)
  *             union_cy = self.feature_union(f_i, f_j)
  *             union_cy = np.array(union_cy)             # <<<<<<<<<<<<<<
@@ -29552,7 +29547,7 @@ __pyx_t_2 = __pyx_memoryview_fromslice(__pyx_t_8, 1, (PyObject *(*)(char *)) __p
     __Pyx_DECREF_SET(__pyx_v_union_cy, __pyx_t_5);
     __pyx_t_5 = 0;
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":695
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":695
  *             union_cy = np.array(union_cy)
  * 
  *             assert np.array_equal(union_np, union_cy), "Union is different. F_i: {}, F_j: {}. Union Numpy: {}, Union Cython: {}".format(             # <<<<<<<<<<<<<<
@@ -29594,7 +29589,7 @@ __pyx_t_2 = __pyx_memoryview_fromslice(__pyx_t_8, 1, (PyObject *(*)(char *)) __p
         __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_Union_is_different_F_i_F_j_Union, __pyx_n_s_format); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 695, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_6);
 
-        /* "CFW_DVV_Similarity_Cython_SGD.pyx":696
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":696
  * 
  *             assert np.array_equal(union_np, union_cy), "Union is different. F_i: {}, F_j: {}. Union Numpy: {}, Union Cython: {}".format(
  *                 f_i, f_j, union_np, union_cy)             # <<<<<<<<<<<<<<
@@ -29624,7 +29619,7 @@ __pyx_t_2 = __pyx_memoryview_fromslice(__pyx_t_8, 1, (PyObject *(*)(char *)) __p
           __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
         }
 
-        /* "CFW_DVV_Similarity_Cython_SGD.pyx":695
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":695
  *             union_cy = np.array(union_cy)
  * 
  *             assert np.array_equal(union_np, union_cy), "Union is different. F_i: {}, F_j: {}. Union Numpy: {}, Union Cython: {}".format(             # <<<<<<<<<<<<<<
@@ -29643,7 +29638,7 @@ __pyx_t_2 = __pyx_memoryview_fromslice(__pyx_t_8, 1, (PyObject *(*)(char *)) __p
     if ((1)); else __PYX_ERR(0, 695, __pyx_L1_error)
     #endif
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":699
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":699
  * 
  * 
  *             count = self.feature_union_unordered(f_i, f_j)             # <<<<<<<<<<<<<<
@@ -29652,14 +29647,14 @@ __pyx_t_2 = __pyx_memoryview_fromslice(__pyx_t_8, 1, (PyObject *(*)(char *)) __p
  */
     __pyx_t_10 = __Pyx_PyObject_to_MemoryviewSlice_ds_int(__pyx_v_f_i, PyBUF_WRITABLE); if (unlikely(!__pyx_t_10.memview)) __PYX_ERR(0, 699, __pyx_L1_error)
     __pyx_t_9 = __Pyx_PyObject_to_MemoryviewSlice_ds_int(__pyx_v_f_j, PyBUF_WRITABLE); if (unlikely(!__pyx_t_9.memview)) __PYX_ERR(0, 699, __pyx_L1_error)
-    __pyx_t_11 = ((struct __pyx_vtabstruct_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *)__pyx_v_self->__pyx_vtab)->feature_union_unordered(__pyx_v_self, __pyx_t_10, __pyx_t_9); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 699, __pyx_L1_error)
+    __pyx_t_11 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *)__pyx_v_self->__pyx_vtab)->feature_union_unordered(__pyx_v_self, __pyx_t_10, __pyx_t_9); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 699, __pyx_L1_error)
     __PYX_XCLEAR_MEMVIEW(&__pyx_t_10, 1);
     __pyx_t_10.memview = NULL; __pyx_t_10.data = NULL;
     __PYX_XCLEAR_MEMVIEW(&__pyx_t_9, 1);
     __pyx_t_9.memview = NULL; __pyx_t_9.data = NULL;
     __pyx_v_count = __pyx_t_11;
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":700
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":700
  * 
  *             count = self.feature_union_unordered(f_i, f_j)
  *             union_cy = self.union_features_id[0:count]             # <<<<<<<<<<<<<<
@@ -29695,7 +29690,7 @@ __pyx_t_6 = __pyx_memoryview_fromslice(__pyx_t_9, 1, (PyObject *(*)(char *)) __p
     __Pyx_DECREF_SET(__pyx_v_union_cy, __pyx_t_6);
     __pyx_t_6 = 0;
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":701
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":701
  *             count = self.feature_union_unordered(f_i, f_j)
  *             union_cy = self.union_features_id[0:count]
  *             union_cy = np.sort(np.array(union_cy))             # <<<<<<<<<<<<<<
@@ -29760,7 +29755,7 @@ __pyx_t_6 = __pyx_memoryview_fromslice(__pyx_t_9, 1, (PyObject *(*)(char *)) __p
     __Pyx_DECREF_SET(__pyx_v_union_cy, __pyx_t_6);
     __pyx_t_6 = 0;
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":703
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":703
  *             union_cy = np.sort(np.array(union_cy))
  * 
  *             assert np.array_equal(union_np, union_cy), "Union unordered is different. F_i: {}, F_j: {}. Union Numpy: {}, Union Cython: {}".format(             # <<<<<<<<<<<<<<
@@ -29802,7 +29797,7 @@ __pyx_t_6 = __pyx_memoryview_fromslice(__pyx_t_9, 1, (PyObject *(*)(char *)) __p
         __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_Union_unordered_is_different_F_i, __pyx_n_s_format); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 703, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_5);
 
-        /* "CFW_DVV_Similarity_Cython_SGD.pyx":704
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":704
  * 
  *             assert np.array_equal(union_np, union_cy), "Union unordered is different. F_i: {}, F_j: {}. Union Numpy: {}, Union Cython: {}".format(
  *                 f_i, f_j, union_np, union_cy)             # <<<<<<<<<<<<<<
@@ -29832,7 +29827,7 @@ __pyx_t_6 = __pyx_memoryview_fromslice(__pyx_t_9, 1, (PyObject *(*)(char *)) __p
           __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
         }
 
-        /* "CFW_DVV_Similarity_Cython_SGD.pyx":703
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":703
  *             union_cy = np.sort(np.array(union_cy))
  * 
  *             assert np.array_equal(union_np, union_cy), "Union unordered is different. F_i: {}, F_j: {}. Union Numpy: {}, Union Cython: {}".format(             # <<<<<<<<<<<<<<
@@ -29852,7 +29847,7 @@ __pyx_t_6 = __pyx_memoryview_fromslice(__pyx_t_9, 1, (PyObject *(*)(char *)) __p
     #endif
   }
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":708
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":708
  * 
  * 
  *         if self.verbose:             # <<<<<<<<<<<<<<
@@ -29862,7 +29857,7 @@ __pyx_t_6 = __pyx_memoryview_fromslice(__pyx_t_9, 1, (PyObject *(*)(char *)) __p
   __pyx_t_1 = (__pyx_v_self->verbose != 0);
   if (__pyx_t_1) {
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":709
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":709
  * 
  *         if self.verbose:
  *             print("CFW_DVV_Similarity_Cython_SGD: All tests passed")             # <<<<<<<<<<<<<<
@@ -29873,7 +29868,7 @@ __pyx_t_6 = __pyx_memoryview_fromslice(__pyx_t_9, 1, (PyObject *(*)(char *)) __p
     __Pyx_GOTREF(__pyx_t_5);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":708
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":708
  * 
  * 
  *         if self.verbose:             # <<<<<<<<<<<<<<
@@ -29882,7 +29877,7 @@ __pyx_t_6 = __pyx_memoryview_fromslice(__pyx_t_9, 1, (PyObject *(*)(char *)) __p
  */
   }
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":615
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":615
  * 
  * 
  *     def feature_union_test(self):             # <<<<<<<<<<<<<<
@@ -29902,7 +29897,7 @@ __pyx_t_6 = __pyx_memoryview_fromslice(__pyx_t_9, 1, (PyObject *(*)(char *)) __p
   __PYX_XCLEAR_MEMVIEW(&__pyx_t_8, 1);
   __PYX_XCLEAR_MEMVIEW(&__pyx_t_9, 1);
   __PYX_XCLEAR_MEMVIEW(&__pyx_t_10, 1);
-  __Pyx_AddTraceback("CFW_DVV_Similarity_Cython_SGD.CFW_DVV_Similarity_Cython_SGD.feature_union_test", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.CFW_DVV_Similarity_Cython_SGD.CFW_DVV_Similarity_Cython_SGD.feature_union_test", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_f_i);
@@ -29916,7 +29911,7 @@ __pyx_t_6 = __pyx_memoryview_fromslice(__pyx_t_9, 1, (PyObject *(*)(char *)) __p
   return __pyx_r;
 }
 
-/* "CFW_DVV_Similarity_Cython_SGD.pyx":713
+/* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":713
  * 
  * 
  *     def feature_common_test(self):             # <<<<<<<<<<<<<<
@@ -29925,15 +29920,15 @@ __pyx_t_6 = __pyx_memoryview_fromslice(__pyx_t_9, 1, (PyObject *(*)(char *)) __p
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_13feature_common_test(PyObject *__pyx_v_self, 
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_13feature_common_test(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static PyMethodDef __pyx_mdef_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_13feature_common_test = {"feature_common_test", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_13feature_common_test, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_13feature_common_test(PyObject *__pyx_v_self, 
+static PyMethodDef __pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_13feature_common_test = {"feature_common_test", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_13feature_common_test, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_13feature_common_test(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -29958,14 +29953,14 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   if (unlikely(__pyx_nargs > 0)) {
     __Pyx_RaiseArgtupleInvalid("feature_common_test", 1, 0, 0, __pyx_nargs); return NULL;}
   if (unlikely(__pyx_kwds) && __Pyx_NumKwargs_FASTCALL(__pyx_kwds) && unlikely(!__Pyx_CheckKeywordStrings(__pyx_kwds, "feature_common_test", 0))) return NULL;
-  __pyx_r = __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_12feature_common_test(((struct __pyx_obj_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *)__pyx_v_self));
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_12feature_common_test(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_12feature_common_test(struct __pyx_obj_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *__pyx_v_self) {
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_12feature_common_test(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *__pyx_v_self) {
   PyObject *__pyx_v_f_i = NULL;
   PyObject *__pyx_v_f_j = NULL;
   PyObject *__pyx_v_common_np = NULL;
@@ -29992,7 +29987,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("feature_common_test", 1);
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":715
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":715
  *     def feature_common_test(self):
  * 
  *         if self.verbose:             # <<<<<<<<<<<<<<
@@ -30002,7 +29997,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
   __pyx_t_1 = (__pyx_v_self->verbose != 0);
   if (__pyx_t_1) {
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":716
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":716
  * 
  *         if self.verbose:
  *             print("CFW_DVV_Similarity_Cython_SGD: feature_common_test")             # <<<<<<<<<<<<<<
@@ -30013,7 +30008,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":715
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":715
  *     def feature_common_test(self):
  * 
  *         if self.verbose:             # <<<<<<<<<<<<<<
@@ -30022,7 +30017,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
  */
   }
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":719
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":719
  * 
  *         # No duplicates
  *         f_i = np.array([0, 5, 8, 10, 19], dtype=np.int32)             # <<<<<<<<<<<<<<
@@ -30073,7 +30068,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
   __pyx_v_f_i = __pyx_t_6;
   __pyx_t_6 = 0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":720
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":720
  *         # No duplicates
  *         f_i = np.array([0, 5, 8, 10, 19], dtype=np.int32)
  *         f_j = np.array([1, 7, 9, 11, 15, 18], dtype=np.int32)             # <<<<<<<<<<<<<<
@@ -30127,7 +30122,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
   __pyx_v_f_j = __pyx_t_5;
   __pyx_t_5 = 0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":722
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":722
  *         f_j = np.array([1, 7, 9, 11, 15, 18], dtype=np.int32)
  * 
  *         common_np = np.intersect1d(f_i, f_j)             # <<<<<<<<<<<<<<
@@ -30164,7 +30159,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
   __pyx_v_common_np = __pyx_t_5;
   __pyx_t_5 = 0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":723
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":723
  * 
  *         common_np = np.intersect1d(f_i, f_j)
  *         count = self.feature_common_unordered(f_i, f_j)             # <<<<<<<<<<<<<<
@@ -30173,14 +30168,14 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
  */
   __pyx_t_8 = __Pyx_PyObject_to_MemoryviewSlice_ds_int(__pyx_v_f_i, PyBUF_WRITABLE); if (unlikely(!__pyx_t_8.memview)) __PYX_ERR(0, 723, __pyx_L1_error)
   __pyx_t_9 = __Pyx_PyObject_to_MemoryviewSlice_ds_int(__pyx_v_f_j, PyBUF_WRITABLE); if (unlikely(!__pyx_t_9.memview)) __PYX_ERR(0, 723, __pyx_L1_error)
-  __pyx_t_10 = ((struct __pyx_vtabstruct_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *)__pyx_v_self->__pyx_vtab)->feature_common_unordered(__pyx_v_self, __pyx_t_8, __pyx_t_9); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 723, __pyx_L1_error)
+  __pyx_t_10 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *)__pyx_v_self->__pyx_vtab)->feature_common_unordered(__pyx_v_self, __pyx_t_8, __pyx_t_9); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 723, __pyx_L1_error)
   __PYX_XCLEAR_MEMVIEW(&__pyx_t_8, 1);
   __pyx_t_8.memview = NULL; __pyx_t_8.data = NULL;
   __PYX_XCLEAR_MEMVIEW(&__pyx_t_9, 1);
   __pyx_t_9.memview = NULL; __pyx_t_9.data = NULL;
   __pyx_v_count = __pyx_t_10;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":724
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":724
  *         common_np = np.intersect1d(f_i, f_j)
  *         count = self.feature_common_unordered(f_i, f_j)
  *         common_cy = self.common_features_id[0:count]             # <<<<<<<<<<<<<<
@@ -30216,7 +30211,7 @@ __pyx_t_5 = __pyx_memoryview_fromslice(__pyx_t_9, 1, (PyObject *(*)(char *)) __p
   __pyx_v_common_cy = __pyx_t_5;
   __pyx_t_5 = 0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":725
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":725
  *         count = self.feature_common_unordered(f_i, f_j)
  *         common_cy = self.common_features_id[0:count]
  *         common_cy = np.sort(np.array(common_cy))             # <<<<<<<<<<<<<<
@@ -30281,7 +30276,7 @@ __pyx_t_5 = __pyx_memoryview_fromslice(__pyx_t_9, 1, (PyObject *(*)(char *)) __p
   __Pyx_DECREF_SET(__pyx_v_common_cy, __pyx_t_5);
   __pyx_t_5 = 0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":727
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":727
  *         common_cy = np.sort(np.array(common_cy))
  * 
  *         assert np.array_equal(common_np, common_cy), "Common unordered is different. F_i: {}, F_j: {}. Union Numpy: {}, Common Cython: {}".format(             # <<<<<<<<<<<<<<
@@ -30323,7 +30318,7 @@ __pyx_t_5 = __pyx_memoryview_fromslice(__pyx_t_9, 1, (PyObject *(*)(char *)) __p
       __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_Common_unordered_is_different_F, __pyx_n_s_format); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 727, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
 
-      /* "CFW_DVV_Similarity_Cython_SGD.pyx":728
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":728
  * 
  *         assert np.array_equal(common_np, common_cy), "Common unordered is different. F_i: {}, F_j: {}. Union Numpy: {}, Common Cython: {}".format(
  *             f_i, f_j, common_np, common_cy)             # <<<<<<<<<<<<<<
@@ -30353,7 +30348,7 @@ __pyx_t_5 = __pyx_memoryview_fromslice(__pyx_t_9, 1, (PyObject *(*)(char *)) __p
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       }
 
-      /* "CFW_DVV_Similarity_Cython_SGD.pyx":727
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":727
  *         common_cy = np.sort(np.array(common_cy))
  * 
  *         assert np.array_equal(common_np, common_cy), "Common unordered is different. F_i: {}, F_j: {}. Union Numpy: {}, Common Cython: {}".format(             # <<<<<<<<<<<<<<
@@ -30372,7 +30367,7 @@ __pyx_t_5 = __pyx_memoryview_fromslice(__pyx_t_9, 1, (PyObject *(*)(char *)) __p
   if ((1)); else __PYX_ERR(0, 727, __pyx_L1_error)
   #endif
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":732
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":732
  * 
  *         # Duplicates
  *         f_i = np.array([0, 5, 8, 10, 19], dtype=np.int32)             # <<<<<<<<<<<<<<
@@ -30423,7 +30418,7 @@ __pyx_t_5 = __pyx_memoryview_fromslice(__pyx_t_9, 1, (PyObject *(*)(char *)) __p
   __Pyx_DECREF_SET(__pyx_v_f_i, __pyx_t_2);
   __pyx_t_2 = 0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":733
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":733
  *         # Duplicates
  *         f_i = np.array([0, 5, 8, 10, 19], dtype=np.int32)
  *         f_j = np.array([1, 10, 11], dtype=np.int32)             # <<<<<<<<<<<<<<
@@ -30468,7 +30463,7 @@ __pyx_t_5 = __pyx_memoryview_fromslice(__pyx_t_9, 1, (PyObject *(*)(char *)) __p
   __Pyx_DECREF_SET(__pyx_v_f_j, __pyx_t_3);
   __pyx_t_3 = 0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":735
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":735
  *         f_j = np.array([1, 10, 11], dtype=np.int32)
  * 
  *         common_np = np.intersect1d(f_i, f_j)             # <<<<<<<<<<<<<<
@@ -30505,7 +30500,7 @@ __pyx_t_5 = __pyx_memoryview_fromslice(__pyx_t_9, 1, (PyObject *(*)(char *)) __p
   __Pyx_DECREF_SET(__pyx_v_common_np, __pyx_t_3);
   __pyx_t_3 = 0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":736
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":736
  * 
  *         common_np = np.intersect1d(f_i, f_j)
  *         count = self.feature_common_unordered(f_i, f_j)             # <<<<<<<<<<<<<<
@@ -30514,14 +30509,14 @@ __pyx_t_5 = __pyx_memoryview_fromslice(__pyx_t_9, 1, (PyObject *(*)(char *)) __p
  */
   __pyx_t_9 = __Pyx_PyObject_to_MemoryviewSlice_ds_int(__pyx_v_f_i, PyBUF_WRITABLE); if (unlikely(!__pyx_t_9.memview)) __PYX_ERR(0, 736, __pyx_L1_error)
   __pyx_t_8 = __Pyx_PyObject_to_MemoryviewSlice_ds_int(__pyx_v_f_j, PyBUF_WRITABLE); if (unlikely(!__pyx_t_8.memview)) __PYX_ERR(0, 736, __pyx_L1_error)
-  __pyx_t_10 = ((struct __pyx_vtabstruct_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *)__pyx_v_self->__pyx_vtab)->feature_common_unordered(__pyx_v_self, __pyx_t_9, __pyx_t_8); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 736, __pyx_L1_error)
+  __pyx_t_10 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *)__pyx_v_self->__pyx_vtab)->feature_common_unordered(__pyx_v_self, __pyx_t_9, __pyx_t_8); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 736, __pyx_L1_error)
   __PYX_XCLEAR_MEMVIEW(&__pyx_t_9, 1);
   __pyx_t_9.memview = NULL; __pyx_t_9.data = NULL;
   __PYX_XCLEAR_MEMVIEW(&__pyx_t_8, 1);
   __pyx_t_8.memview = NULL; __pyx_t_8.data = NULL;
   __pyx_v_count = __pyx_t_10;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":737
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":737
  *         common_np = np.intersect1d(f_i, f_j)
  *         count = self.feature_common_unordered(f_i, f_j)
  *         common_cy = self.common_features_id[0:count]             # <<<<<<<<<<<<<<
@@ -30557,7 +30552,7 @@ __pyx_t_3 = __pyx_memoryview_fromslice(__pyx_t_8, 1, (PyObject *(*)(char *)) __p
   __Pyx_DECREF_SET(__pyx_v_common_cy, __pyx_t_3);
   __pyx_t_3 = 0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":738
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":738
  *         count = self.feature_common_unordered(f_i, f_j)
  *         common_cy = self.common_features_id[0:count]
  *         common_cy = np.sort(np.array(common_cy))             # <<<<<<<<<<<<<<
@@ -30622,7 +30617,7 @@ __pyx_t_3 = __pyx_memoryview_fromslice(__pyx_t_8, 1, (PyObject *(*)(char *)) __p
   __Pyx_DECREF_SET(__pyx_v_common_cy, __pyx_t_3);
   __pyx_t_3 = 0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":740
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":740
  *         common_cy = np.sort(np.array(common_cy))
  * 
  *         assert np.array_equal(common_np, common_cy), "Common unordered is different. F_i: {}, F_j: {}. Union Numpy: {}, Common Cython: {}".format(             # <<<<<<<<<<<<<<
@@ -30664,7 +30659,7 @@ __pyx_t_3 = __pyx_memoryview_fromslice(__pyx_t_8, 1, (PyObject *(*)(char *)) __p
       __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_Common_unordered_is_different_F, __pyx_n_s_format); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 740, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_6);
 
-      /* "CFW_DVV_Similarity_Cython_SGD.pyx":741
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":741
  * 
  *         assert np.array_equal(common_np, common_cy), "Common unordered is different. F_i: {}, F_j: {}. Union Numpy: {}, Common Cython: {}".format(
  *             f_i, f_j, common_np, common_cy)             # <<<<<<<<<<<<<<
@@ -30694,7 +30689,7 @@ __pyx_t_3 = __pyx_memoryview_fromslice(__pyx_t_8, 1, (PyObject *(*)(char *)) __p
         __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
       }
 
-      /* "CFW_DVV_Similarity_Cython_SGD.pyx":740
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":740
  *         common_cy = np.sort(np.array(common_cy))
  * 
  *         assert np.array_equal(common_np, common_cy), "Common unordered is different. F_i: {}, F_j: {}. Union Numpy: {}, Common Cython: {}".format(             # <<<<<<<<<<<<<<
@@ -30713,7 +30708,7 @@ __pyx_t_3 = __pyx_memoryview_fromslice(__pyx_t_8, 1, (PyObject *(*)(char *)) __p
   if ((1)); else __PYX_ERR(0, 740, __pyx_L1_error)
   #endif
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":745
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":745
  * 
  * 
  *         f_i = np.array([0, 5, 8, 10, 19], dtype=np.int32)             # <<<<<<<<<<<<<<
@@ -30764,7 +30759,7 @@ __pyx_t_3 = __pyx_memoryview_fromslice(__pyx_t_8, 1, (PyObject *(*)(char *)) __p
   __Pyx_DECREF_SET(__pyx_v_f_i, __pyx_t_4);
   __pyx_t_4 = 0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":746
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":746
  * 
  *         f_i = np.array([0, 5, 8, 10, 19], dtype=np.int32)
  *         f_j = np.array([1, 2, 5, 10, 15], dtype=np.int32)             # <<<<<<<<<<<<<<
@@ -30815,7 +30810,7 @@ __pyx_t_3 = __pyx_memoryview_fromslice(__pyx_t_8, 1, (PyObject *(*)(char *)) __p
   __Pyx_DECREF_SET(__pyx_v_f_j, __pyx_t_5);
   __pyx_t_5 = 0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":748
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":748
  *         f_j = np.array([1, 2, 5, 10, 15], dtype=np.int32)
  * 
  *         common_np = np.intersect1d(f_i, f_j)             # <<<<<<<<<<<<<<
@@ -30852,7 +30847,7 @@ __pyx_t_3 = __pyx_memoryview_fromslice(__pyx_t_8, 1, (PyObject *(*)(char *)) __p
   __Pyx_DECREF_SET(__pyx_v_common_np, __pyx_t_5);
   __pyx_t_5 = 0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":749
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":749
  * 
  *         common_np = np.intersect1d(f_i, f_j)
  *         count = self.feature_common_unordered(f_i, f_j)             # <<<<<<<<<<<<<<
@@ -30861,14 +30856,14 @@ __pyx_t_3 = __pyx_memoryview_fromslice(__pyx_t_8, 1, (PyObject *(*)(char *)) __p
  */
   __pyx_t_8 = __Pyx_PyObject_to_MemoryviewSlice_ds_int(__pyx_v_f_i, PyBUF_WRITABLE); if (unlikely(!__pyx_t_8.memview)) __PYX_ERR(0, 749, __pyx_L1_error)
   __pyx_t_9 = __Pyx_PyObject_to_MemoryviewSlice_ds_int(__pyx_v_f_j, PyBUF_WRITABLE); if (unlikely(!__pyx_t_9.memview)) __PYX_ERR(0, 749, __pyx_L1_error)
-  __pyx_t_10 = ((struct __pyx_vtabstruct_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *)__pyx_v_self->__pyx_vtab)->feature_common_unordered(__pyx_v_self, __pyx_t_8, __pyx_t_9); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 749, __pyx_L1_error)
+  __pyx_t_10 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *)__pyx_v_self->__pyx_vtab)->feature_common_unordered(__pyx_v_self, __pyx_t_8, __pyx_t_9); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 749, __pyx_L1_error)
   __PYX_XCLEAR_MEMVIEW(&__pyx_t_8, 1);
   __pyx_t_8.memview = NULL; __pyx_t_8.data = NULL;
   __PYX_XCLEAR_MEMVIEW(&__pyx_t_9, 1);
   __pyx_t_9.memview = NULL; __pyx_t_9.data = NULL;
   __pyx_v_count = __pyx_t_10;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":750
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":750
  *         common_np = np.intersect1d(f_i, f_j)
  *         count = self.feature_common_unordered(f_i, f_j)
  *         common_cy = self.common_features_id[0:count]             # <<<<<<<<<<<<<<
@@ -30904,7 +30899,7 @@ __pyx_t_5 = __pyx_memoryview_fromslice(__pyx_t_9, 1, (PyObject *(*)(char *)) __p
   __Pyx_DECREF_SET(__pyx_v_common_cy, __pyx_t_5);
   __pyx_t_5 = 0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":751
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":751
  *         count = self.feature_common_unordered(f_i, f_j)
  *         common_cy = self.common_features_id[0:count]
  *         common_cy = np.sort(np.array(common_cy))             # <<<<<<<<<<<<<<
@@ -30969,7 +30964,7 @@ __pyx_t_5 = __pyx_memoryview_fromslice(__pyx_t_9, 1, (PyObject *(*)(char *)) __p
   __Pyx_DECREF_SET(__pyx_v_common_cy, __pyx_t_5);
   __pyx_t_5 = 0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":753
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":753
  *         common_cy = np.sort(np.array(common_cy))
  * 
  *         assert np.array_equal(common_np, common_cy), "Common unordered is different. F_i: {}, F_j: {}. Union Numpy: {}, Common Cython: {}".format(             # <<<<<<<<<<<<<<
@@ -31011,7 +31006,7 @@ __pyx_t_5 = __pyx_memoryview_fromslice(__pyx_t_9, 1, (PyObject *(*)(char *)) __p
       __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_Common_unordered_is_different_F, __pyx_n_s_format); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 753, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
 
-      /* "CFW_DVV_Similarity_Cython_SGD.pyx":754
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":754
  * 
  *         assert np.array_equal(common_np, common_cy), "Common unordered is different. F_i: {}, F_j: {}. Union Numpy: {}, Common Cython: {}".format(
  *             f_i, f_j, common_np, common_cy)             # <<<<<<<<<<<<<<
@@ -31041,7 +31036,7 @@ __pyx_t_5 = __pyx_memoryview_fromslice(__pyx_t_9, 1, (PyObject *(*)(char *)) __p
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
       }
 
-      /* "CFW_DVV_Similarity_Cython_SGD.pyx":753
+      /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":753
  *         common_cy = np.sort(np.array(common_cy))
  * 
  *         assert np.array_equal(common_np, common_cy), "Common unordered is different. F_i: {}, F_j: {}. Union Numpy: {}, Common Cython: {}".format(             # <<<<<<<<<<<<<<
@@ -31060,7 +31055,7 @@ __pyx_t_5 = __pyx_memoryview_fromslice(__pyx_t_9, 1, (PyObject *(*)(char *)) __p
   if ((1)); else __PYX_ERR(0, 753, __pyx_L1_error)
   #endif
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":758
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":758
  * 
  * 
  *         for _ in range(100):             # <<<<<<<<<<<<<<
@@ -31070,7 +31065,7 @@ __pyx_t_5 = __pyx_memoryview_fromslice(__pyx_t_9, 1, (PyObject *(*)(char *)) __p
   for (__pyx_t_11 = 0; __pyx_t_11 < 0x64; __pyx_t_11+=1) {
     __pyx_v__ = __pyx_t_11;
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":760
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":760
  *         for _ in range(100):
  * 
  *             size_f_i = np.random.randint(1,10)             # <<<<<<<<<<<<<<
@@ -31091,7 +31086,7 @@ __pyx_t_5 = __pyx_memoryview_fromslice(__pyx_t_9, 1, (PyObject *(*)(char *)) __p
     __Pyx_XDECREF_SET(__pyx_v_size_f_i, __pyx_t_5);
     __pyx_t_5 = 0;
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":761
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":761
  * 
  *             size_f_i = np.random.randint(1,10)
  *             f_i = np.random.randint(0,50, size=size_f_i, dtype=np.int32)             # <<<<<<<<<<<<<<
@@ -31123,7 +31118,7 @@ __pyx_t_5 = __pyx_memoryview_fromslice(__pyx_t_9, 1, (PyObject *(*)(char *)) __p
     __Pyx_DECREF_SET(__pyx_v_f_i, __pyx_t_3);
     __pyx_t_3 = 0;
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":762
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":762
  *             size_f_i = np.random.randint(1,10)
  *             f_i = np.random.randint(0,50, size=size_f_i, dtype=np.int32)
  *             f_i = np.unique(f_i)             # <<<<<<<<<<<<<<
@@ -31160,7 +31155,7 @@ __pyx_t_5 = __pyx_memoryview_fromslice(__pyx_t_9, 1, (PyObject *(*)(char *)) __p
     __Pyx_DECREF_SET(__pyx_v_f_i, __pyx_t_3);
     __pyx_t_3 = 0;
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":764
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":764
  *             f_i = np.unique(f_i)
  * 
  *             size_f_j = np.random.randint(1,10)             # <<<<<<<<<<<<<<
@@ -31181,7 +31176,7 @@ __pyx_t_5 = __pyx_memoryview_fromslice(__pyx_t_9, 1, (PyObject *(*)(char *)) __p
     __Pyx_XDECREF_SET(__pyx_v_size_f_j, __pyx_t_5);
     __pyx_t_5 = 0;
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":765
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":765
  * 
  *             size_f_j = np.random.randint(1,10)
  *             f_j = np.random.randint(0,50, size=size_f_j, dtype=np.int32)             # <<<<<<<<<<<<<<
@@ -31213,7 +31208,7 @@ __pyx_t_5 = __pyx_memoryview_fromslice(__pyx_t_9, 1, (PyObject *(*)(char *)) __p
     __Pyx_DECREF_SET(__pyx_v_f_j, __pyx_t_4);
     __pyx_t_4 = 0;
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":766
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":766
  *             size_f_j = np.random.randint(1,10)
  *             f_j = np.random.randint(0,50, size=size_f_j, dtype=np.int32)
  *             f_j = np.unique(f_j)             # <<<<<<<<<<<<<<
@@ -31250,7 +31245,7 @@ __pyx_t_5 = __pyx_memoryview_fromslice(__pyx_t_9, 1, (PyObject *(*)(char *)) __p
     __Pyx_DECREF_SET(__pyx_v_f_j, __pyx_t_4);
     __pyx_t_4 = 0;
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":768
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":768
  *             f_j = np.unique(f_j)
  * 
  *             common_np = np.intersect1d(f_i, f_j)             # <<<<<<<<<<<<<<
@@ -31287,7 +31282,7 @@ __pyx_t_5 = __pyx_memoryview_fromslice(__pyx_t_9, 1, (PyObject *(*)(char *)) __p
     __Pyx_DECREF_SET(__pyx_v_common_np, __pyx_t_4);
     __pyx_t_4 = 0;
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":769
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":769
  * 
  *             common_np = np.intersect1d(f_i, f_j)
  *             count = self.feature_common_unordered(f_i, f_j)             # <<<<<<<<<<<<<<
@@ -31296,14 +31291,14 @@ __pyx_t_5 = __pyx_memoryview_fromslice(__pyx_t_9, 1, (PyObject *(*)(char *)) __p
  */
     __pyx_t_9 = __Pyx_PyObject_to_MemoryviewSlice_ds_int(__pyx_v_f_i, PyBUF_WRITABLE); if (unlikely(!__pyx_t_9.memview)) __PYX_ERR(0, 769, __pyx_L1_error)
     __pyx_t_8 = __Pyx_PyObject_to_MemoryviewSlice_ds_int(__pyx_v_f_j, PyBUF_WRITABLE); if (unlikely(!__pyx_t_8.memview)) __PYX_ERR(0, 769, __pyx_L1_error)
-    __pyx_t_10 = ((struct __pyx_vtabstruct_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *)__pyx_v_self->__pyx_vtab)->feature_common_unordered(__pyx_v_self, __pyx_t_9, __pyx_t_8); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 769, __pyx_L1_error)
+    __pyx_t_10 = ((struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *)__pyx_v_self->__pyx_vtab)->feature_common_unordered(__pyx_v_self, __pyx_t_9, __pyx_t_8); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 769, __pyx_L1_error)
     __PYX_XCLEAR_MEMVIEW(&__pyx_t_9, 1);
     __pyx_t_9.memview = NULL; __pyx_t_9.data = NULL;
     __PYX_XCLEAR_MEMVIEW(&__pyx_t_8, 1);
     __pyx_t_8.memview = NULL; __pyx_t_8.data = NULL;
     __pyx_v_count = __pyx_t_10;
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":770
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":770
  *             common_np = np.intersect1d(f_i, f_j)
  *             count = self.feature_common_unordered(f_i, f_j)
  *             common_cy = self.common_features_id[0:count]             # <<<<<<<<<<<<<<
@@ -31339,7 +31334,7 @@ __pyx_t_4 = __pyx_memoryview_fromslice(__pyx_t_8, 1, (PyObject *(*)(char *)) __p
     __Pyx_DECREF_SET(__pyx_v_common_cy, __pyx_t_4);
     __pyx_t_4 = 0;
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":771
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":771
  *             count = self.feature_common_unordered(f_i, f_j)
  *             common_cy = self.common_features_id[0:count]
  *             common_cy = np.sort(np.array(common_cy))             # <<<<<<<<<<<<<<
@@ -31404,7 +31399,7 @@ __pyx_t_4 = __pyx_memoryview_fromslice(__pyx_t_8, 1, (PyObject *(*)(char *)) __p
     __Pyx_DECREF_SET(__pyx_v_common_cy, __pyx_t_4);
     __pyx_t_4 = 0;
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":773
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":773
  *             common_cy = np.sort(np.array(common_cy))
  * 
  *             assert np.array_equal(common_np, common_cy), "Common unordered is different. F_i: {}, F_j: {}. Common Numpy: {}, Common Cython: {}".format(             # <<<<<<<<<<<<<<
@@ -31446,7 +31441,7 @@ __pyx_t_4 = __pyx_memoryview_fromslice(__pyx_t_8, 1, (PyObject *(*)(char *)) __p
         __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_Common_unordered_is_different_F_2, __pyx_n_s_format); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 773, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_3);
 
-        /* "CFW_DVV_Similarity_Cython_SGD.pyx":774
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":774
  * 
  *             assert np.array_equal(common_np, common_cy), "Common unordered is different. F_i: {}, F_j: {}. Common Numpy: {}, Common Cython: {}".format(
  *                 f_i, f_j, common_np, common_cy)             # <<<<<<<<<<<<<<
@@ -31476,7 +31471,7 @@ __pyx_t_4 = __pyx_memoryview_fromslice(__pyx_t_8, 1, (PyObject *(*)(char *)) __p
           __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
         }
 
-        /* "CFW_DVV_Similarity_Cython_SGD.pyx":773
+        /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":773
  *             common_cy = np.sort(np.array(common_cy))
  * 
  *             assert np.array_equal(common_np, common_cy), "Common unordered is different. F_i: {}, F_j: {}. Common Numpy: {}, Common Cython: {}".format(             # <<<<<<<<<<<<<<
@@ -31496,7 +31491,7 @@ __pyx_t_4 = __pyx_memoryview_fromslice(__pyx_t_8, 1, (PyObject *(*)(char *)) __p
     #endif
   }
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":778
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":778
  * 
  * 
  *         if self.verbose:             # <<<<<<<<<<<<<<
@@ -31506,7 +31501,7 @@ __pyx_t_4 = __pyx_memoryview_fromslice(__pyx_t_8, 1, (PyObject *(*)(char *)) __p
   __pyx_t_1 = (__pyx_v_self->verbose != 0);
   if (__pyx_t_1) {
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":779
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":779
  * 
  *         if self.verbose:
  *             print("CFW_DVV_Similarity_Cython_SGD: All tests passed")             # <<<<<<<<<<<<<<
@@ -31517,7 +31512,7 @@ __pyx_t_4 = __pyx_memoryview_fromslice(__pyx_t_8, 1, (PyObject *(*)(char *)) __p
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-    /* "CFW_DVV_Similarity_Cython_SGD.pyx":778
+    /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":778
  * 
  * 
  *         if self.verbose:             # <<<<<<<<<<<<<<
@@ -31526,7 +31521,7 @@ __pyx_t_4 = __pyx_memoryview_fromslice(__pyx_t_8, 1, (PyObject *(*)(char *)) __p
  */
   }
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":713
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":713
  * 
  * 
  *     def feature_common_test(self):             # <<<<<<<<<<<<<<
@@ -31545,7 +31540,7 @@ __pyx_t_4 = __pyx_memoryview_fromslice(__pyx_t_8, 1, (PyObject *(*)(char *)) __p
   __Pyx_XDECREF(__pyx_t_6);
   __PYX_XCLEAR_MEMVIEW(&__pyx_t_8, 1);
   __PYX_XCLEAR_MEMVIEW(&__pyx_t_9, 1);
-  __Pyx_AddTraceback("CFW_DVV_Similarity_Cython_SGD.CFW_DVV_Similarity_Cython_SGD.feature_common_test", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.CFW_DVV_Similarity_Cython_SGD.CFW_DVV_Similarity_Cython_SGD.feature_common_test", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_f_i);
@@ -31559,7 +31554,7 @@ __pyx_t_4 = __pyx_memoryview_fromslice(__pyx_t_8, 1, (PyObject *(*)(char *)) __p
   return __pyx_r;
 }
 
-/* "CFW_DVV_Similarity_Cython_SGD.pyx":782
+/* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":782
  * 
  * 
  *     def precompute_common_features_function_test(self):             # <<<<<<<<<<<<<<
@@ -31568,15 +31563,15 @@ __pyx_t_4 = __pyx_memoryview_fromslice(__pyx_t_8, 1, (PyObject *(*)(char *)) __p
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_15precompute_common_features_function_test(PyObject *__pyx_v_self, 
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_15precompute_common_features_function_test(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static PyMethodDef __pyx_mdef_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_15precompute_common_features_function_test = {"precompute_common_features_function_test", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_15precompute_common_features_function_test, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_15precompute_common_features_function_test(PyObject *__pyx_v_self, 
+static PyMethodDef __pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_15precompute_common_features_function_test = {"precompute_common_features_function_test", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_15precompute_common_features_function_test, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_15precompute_common_features_function_test(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -31601,14 +31596,14 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   if (unlikely(__pyx_nargs > 0)) {
     __Pyx_RaiseArgtupleInvalid("precompute_common_features_function_test", 1, 0, 0, __pyx_nargs); return NULL;}
   if (unlikely(__pyx_kwds) && __Pyx_NumKwargs_FASTCALL(__pyx_kwds) && unlikely(!__Pyx_CheckKeywordStrings(__pyx_kwds, "precompute_common_features_function_test", 0))) return NULL;
-  __pyx_r = __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_14precompute_common_features_function_test(((struct __pyx_obj_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *)__pyx_v_self));
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_14precompute_common_features_function_test(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_14precompute_common_features_function_test(struct __pyx_obj_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *__pyx_v_self) {
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_14precompute_common_features_function_test(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *__pyx_v_self) {
   PyObject *__pyx_v_commonFeatures = NULL;
   PyObject *__pyx_v_commonFeatures_indices_test = NULL;
   PyObject *__pyx_v_commonFeatures_indptr_test = NULL;
@@ -31627,7 +31622,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("precompute_common_features_function_test", 1);
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":784
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":784
  *     def precompute_common_features_function_test(self):
  * 
  *         commonFeatures = self.ICM[np.array(self.row_list)].multiply(self.ICM[np.array(self.col_list)])             # <<<<<<<<<<<<<<
@@ -31731,7 +31726,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
   __pyx_v_commonFeatures = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":787
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":787
  * 
  *         # Init Common features
  *         commonFeatures_indices_test = commonFeatures.indices             # <<<<<<<<<<<<<<
@@ -31743,7 +31738,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
   __pyx_v_commonFeatures_indices_test = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":788
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":788
  *         # Init Common features
  *         commonFeatures_indices_test = commonFeatures.indices
  *         commonFeatures_indptr_test = commonFeatures.indptr             # <<<<<<<<<<<<<<
@@ -31755,7 +31750,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
   __pyx_v_commonFeatures_indptr_test = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":791
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":791
  * 
  * 
  *         self.precompute_common_features_function()             # <<<<<<<<<<<<<<
@@ -31788,7 +31783,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
   }
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":794
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":794
  * 
  * 
  *         assert np.array_equal(commonFeatures_indices_test, self.commonFeatures_indices), "commonFeatures_indices differ"             # <<<<<<<<<<<<<<
@@ -31838,7 +31833,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
   if ((1)); else __PYX_ERR(0, 794, __pyx_L1_error)
   #endif
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":795
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":795
  * 
  *         assert np.array_equal(commonFeatures_indices_test, self.commonFeatures_indices), "commonFeatures_indices differ"
  *         assert np.array_equal(commonFeatures_indptr_test, self.commonFeatures_indptr), "commonFeatures_indptr differ"             # <<<<<<<<<<<<<<
@@ -31887,7 +31882,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
   if ((1)); else __PYX_ERR(0, 795, __pyx_L1_error)
   #endif
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":782
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":782
  * 
  * 
  *     def precompute_common_features_function_test(self):             # <<<<<<<<<<<<<<
@@ -31905,7 +31900,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
   __Pyx_XDECREF(__pyx_t_4);
   __Pyx_XDECREF(__pyx_t_5);
   __Pyx_XDECREF(__pyx_t_7);
-  __Pyx_AddTraceback("CFW_DVV_Similarity_Cython_SGD.CFW_DVV_Similarity_Cython_SGD.precompute_common_features_function_test", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.CFW_DVV_Similarity_Cython_SGD.CFW_DVV_Similarity_Cython_SGD.precompute_common_features_function_test", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_commonFeatures);
@@ -31923,15 +31918,15 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_17__reduce_cython__(PyObject *__pyx_v_self, 
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_17__reduce_cython__(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static PyMethodDef __pyx_mdef_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_17__reduce_cython__ = {"__reduce_cython__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_17__reduce_cython__, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_17__reduce_cython__(PyObject *__pyx_v_self, 
+static PyMethodDef __pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_17__reduce_cython__ = {"__reduce_cython__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_17__reduce_cython__, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_17__reduce_cython__(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -31956,14 +31951,14 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   if (unlikely(__pyx_nargs > 0)) {
     __Pyx_RaiseArgtupleInvalid("__reduce_cython__", 1, 0, 0, __pyx_nargs); return NULL;}
   if (unlikely(__pyx_kwds) && __Pyx_NumKwargs_FASTCALL(__pyx_kwds) && unlikely(!__Pyx_CheckKeywordStrings(__pyx_kwds, "__reduce_cython__", 0))) return NULL;
-  __pyx_r = __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_16__reduce_cython__(((struct __pyx_obj_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *)__pyx_v_self));
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_16__reduce_cython__(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_16__reduce_cython__(struct __pyx_obj_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *__pyx_v_self) {
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_16__reduce_cython__(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *__pyx_v_self) {
   PyObject *__pyx_v_state = 0;
   PyObject *__pyx_v__dict = 0;
   int __pyx_v_use_setstate;
@@ -32467,7 +32462,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
   __Pyx_XDECREF(__pyx_t_40);
   __Pyx_XDECREF(__pyx_t_41);
   __Pyx_XDECREF(__pyx_t_42);
-  __Pyx_AddTraceback("CFW_DVV_Similarity_Cython_SGD.CFW_DVV_Similarity_Cython_SGD.__reduce_cython__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.CFW_DVV_Similarity_Cython_SGD.CFW_DVV_Similarity_Cython_SGD.__reduce_cython__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_state);
@@ -32485,15 +32480,15 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_19__setstate_cython__(PyObject *__pyx_v_self, 
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_19__setstate_cython__(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static PyMethodDef __pyx_mdef_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_19__setstate_cython__ = {"__setstate_cython__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_19__setstate_cython__, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_19__setstate_cython__(PyObject *__pyx_v_self, 
+static PyMethodDef __pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_19__setstate_cython__ = {"__setstate_cython__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_19__setstate_cython__, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_19__setstate_cython__(PyObject *__pyx_v_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -32563,11 +32558,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("CFW_DVV_Similarity_Cython_SGD.CFW_DVV_Similarity_Cython_SGD.__setstate_cython__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.CFW_DVV_Similarity_Cython_SGD.CFW_DVV_Similarity_Cython_SGD.__setstate_cython__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_18__setstate_cython__(((struct __pyx_obj_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *)__pyx_v_self), __pyx_v___pyx_state);
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_18__setstate_cython__(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *)__pyx_v_self), __pyx_v___pyx_state);
 
   /* function exit code */
   {
@@ -32580,7 +32575,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_18__setstate_cython__(struct __pyx_obj_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *__pyx_v_self, PyObject *__pyx_v___pyx_state) {
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_18__setstate_cython__(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *__pyx_v_self, PyObject *__pyx_v___pyx_state) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -32595,7 +32590,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
  *     __pyx_unpickle_CFW_DVV_Similarity_Cython_SGD__set_state(self, __pyx_state)             # <<<<<<<<<<<<<<
  */
   if (!(likely(PyTuple_CheckExact(__pyx_v___pyx_state))||((__pyx_v___pyx_state) == Py_None) || __Pyx_RaiseUnexpectedTypeError("tuple", __pyx_v___pyx_state))) __PYX_ERR(1, 17, __pyx_L1_error)
-  __pyx_t_1 = __pyx_f_29CFW_DVV_Similarity_Cython_SGD___pyx_unpickle_CFW_DVV_Similarity_Cython_SGD__set_state(__pyx_v_self, ((PyObject*)__pyx_v___pyx_state)); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 17, __pyx_L1_error)
+  __pyx_t_1 = __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD___pyx_unpickle_CFW_DVV_Similarity_Cython_SGD__set_state(__pyx_v_self, ((PyObject*)__pyx_v___pyx_state)); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 17, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
@@ -32611,7 +32606,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
   goto __pyx_L0;
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_AddTraceback("CFW_DVV_Similarity_Cython_SGD.CFW_DVV_Similarity_Cython_SGD.__setstate_cython__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.CFW_DVV_Similarity_Cython_SGD.CFW_DVV_Similarity_Cython_SGD.__setstate_cython__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -32626,15 +32621,15 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_C
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_29CFW_DVV_Similarity_Cython_SGD_1__pyx_unpickle_CFW_DVV_Similarity_Cython_SGD(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_1__pyx_unpickle_CFW_DVV_Similarity_Cython_SGD(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static PyMethodDef __pyx_mdef_29CFW_DVV_Similarity_Cython_SGD_1__pyx_unpickle_CFW_DVV_Similarity_Cython_SGD = {"__pyx_unpickle_CFW_DVV_Similarity_Cython_SGD", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_29CFW_DVV_Similarity_Cython_SGD_1__pyx_unpickle_CFW_DVV_Similarity_Cython_SGD, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_29CFW_DVV_Similarity_Cython_SGD_1__pyx_unpickle_CFW_DVV_Similarity_Cython_SGD(PyObject *__pyx_self, 
+static PyMethodDef __pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_1__pyx_unpickle_CFW_DVV_Similarity_Cython_SGD = {"__pyx_unpickle_CFW_DVV_Similarity_Cython_SGD", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_1__pyx_unpickle_CFW_DVV_Similarity_Cython_SGD, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_1__pyx_unpickle_CFW_DVV_Similarity_Cython_SGD(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -32734,11 +32729,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       __Pyx_Arg_XDECREF_FASTCALL(values[__pyx_temp]);
     }
   }
-  __Pyx_AddTraceback("CFW_DVV_Similarity_Cython_SGD.__pyx_unpickle_CFW_DVV_Similarity_Cython_SGD", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.CFW_DVV_Similarity_Cython_SGD.__pyx_unpickle_CFW_DVV_Similarity_Cython_SGD", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_29CFW_DVV_Similarity_Cython_SGD___pyx_unpickle_CFW_DVV_Similarity_Cython_SGD(__pyx_self, __pyx_v___pyx_type, __pyx_v___pyx_checksum, __pyx_v___pyx_state);
+  __pyx_r = __pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD___pyx_unpickle_CFW_DVV_Similarity_Cython_SGD(__pyx_self, __pyx_v___pyx_type, __pyx_v___pyx_checksum, __pyx_v___pyx_state);
 
   /* function exit code */
   {
@@ -32751,7 +32746,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD___pyx_unpickle_CFW_DVV_Similarity_Cython_SGD(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v___pyx_type, long __pyx_v___pyx_checksum, PyObject *__pyx_v___pyx_state) {
+static PyObject *__pyx_pf_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD___pyx_unpickle_CFW_DVV_Similarity_Cython_SGD(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v___pyx_type, long __pyx_v___pyx_checksum, PyObject *__pyx_v___pyx_state) {
   PyObject *__pyx_v___pyx_PickleError = 0;
   PyObject *__pyx_v___pyx_result = 0;
   PyObject *__pyx_r = NULL;
@@ -32833,7 +32828,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD___pyx_unpickle_CFW_DVV
  *     if __pyx_state is not None:
  *         __pyx_unpickle_CFW_DVV_Similarity_Cython_SGD__set_state(<CFW_DVV_Similarity_Cython_SGD> __pyx_result, __pyx_state)
  */
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_ptype_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD), __pyx_n_s_new); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 7, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD), __pyx_n_s_new); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 7, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __pyx_t_4 = NULL;
   __pyx_t_5 = 0;
@@ -32878,7 +32873,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD___pyx_unpickle_CFW_DVV
  * cdef __pyx_unpickle_CFW_DVV_Similarity_Cython_SGD__set_state(CFW_DVV_Similarity_Cython_SGD __pyx_result, tuple __pyx_state):
  */
     if (!(likely(PyTuple_CheckExact(__pyx_v___pyx_state))||((__pyx_v___pyx_state) == Py_None) || __Pyx_RaiseUnexpectedTypeError("tuple", __pyx_v___pyx_state))) __PYX_ERR(1, 9, __pyx_L1_error)
-    __pyx_t_1 = __pyx_f_29CFW_DVV_Similarity_Cython_SGD___pyx_unpickle_CFW_DVV_Similarity_Cython_SGD__set_state(((struct __pyx_obj_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *)__pyx_v___pyx_result), ((PyObject*)__pyx_v___pyx_state)); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 9, __pyx_L1_error)
+    __pyx_t_1 = __pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD___pyx_unpickle_CFW_DVV_Similarity_Cython_SGD__set_state(((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *)__pyx_v___pyx_result), ((PyObject*)__pyx_v___pyx_state)); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 9, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
@@ -32914,7 +32909,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD___pyx_unpickle_CFW_DVV
   __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
-  __Pyx_AddTraceback("CFW_DVV_Similarity_Cython_SGD.__pyx_unpickle_CFW_DVV_Similarity_Cython_SGD", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.CFW_DVV_Similarity_Cython_SGD.__pyx_unpickle_CFW_DVV_Similarity_Cython_SGD", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v___pyx_PickleError);
@@ -32932,7 +32927,7 @@ static PyObject *__pyx_pf_29CFW_DVV_Similarity_Cython_SGD___pyx_unpickle_CFW_DVV
  *     if len(__pyx_state) > 42 and hasattr(__pyx_result, '__dict__'):
  */
 
-static PyObject *__pyx_f_29CFW_DVV_Similarity_Cython_SGD___pyx_unpickle_CFW_DVV_Similarity_Cython_SGD__set_state(struct __pyx_obj_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *__pyx_v___pyx_result, PyObject *__pyx_v___pyx_state) {
+static PyObject *__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD___pyx_unpickle_CFW_DVV_Similarity_Cython_SGD__set_state(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *__pyx_v___pyx_result, PyObject *__pyx_v___pyx_state) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -33488,17 +33483,17 @@ static PyObject *__pyx_f_29CFW_DVV_Similarity_Cython_SGD___pyx_unpickle_CFW_DVV_
   __Pyx_XDECREF(__pyx_t_10);
   __Pyx_XDECREF(__pyx_t_11);
   __Pyx_XDECREF(__pyx_t_12);
-  __Pyx_AddTraceback("CFW_DVV_Similarity_Cython_SGD.__pyx_unpickle_CFW_DVV_Similarity_Cython_SGD__set_state", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.CFW_DVV_Similarity_Cython_SGD.__pyx_unpickle_CFW_DVV_Similarity_Cython_SGD__set_state", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = 0;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
-static struct __pyx_vtabstruct_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD __pyx_vtable_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD;
+static struct __pyx_vtabstruct_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD __pyx_vtable_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD;
 
-static PyObject *__pyx_tp_new_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD(PyTypeObject *t, CYTHON_UNUSED PyObject *a, CYTHON_UNUSED PyObject *k) {
-  struct __pyx_obj_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *p;
+static PyObject *__pyx_tp_new_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD(PyTypeObject *t, CYTHON_UNUSED PyObject *a, CYTHON_UNUSED PyObject *k) {
+  struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *p;
   PyObject *o;
   #if CYTHON_COMPILING_IN_LIMITED_API
   allocfunc alloc_func = (allocfunc)PyType_GetSlot(t, Py_tp_alloc);
@@ -33511,8 +33506,8 @@ static PyObject *__pyx_tp_new_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity
   }
   if (unlikely(!o)) return 0;
   #endif
-  p = ((struct __pyx_obj_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *)o);
-  p->__pyx_vtab = __pyx_vtabptr_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD;
+  p = ((struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *)o);
+  p->__pyx_vtab = __pyx_vtabptr_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD;
   p->ICM = Py_None; Py_INCREF(Py_None);
   p->data_list.data = NULL;
   p->data_list.memview = NULL;
@@ -33555,11 +33550,11 @@ static PyObject *__pyx_tp_new_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity
   return o;
 }
 
-static void __pyx_tp_dealloc_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD(PyObject *o) {
-  struct __pyx_obj_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *p = (struct __pyx_obj_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *)o;
+static void __pyx_tp_dealloc_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD(PyObject *o) {
+  struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *p = (struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *)o;
   #if CYTHON_USE_TP_FINALIZE
   if (unlikely((PY_VERSION_HEX >= 0x03080000 || __Pyx_PyType_HasFeature(Py_TYPE(o), Py_TPFLAGS_HAVE_FINALIZE)) && __Pyx_PyObject_GetSlot(o, tp_finalize, destructor)) && !__Pyx_PyObject_GC_IsFinalized(o)) {
-    if (__Pyx_PyObject_GetSlot(o, tp_dealloc, destructor) == __pyx_tp_dealloc_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD) {
+    if (__Pyx_PyObject_GetSlot(o, tp_dealloc, destructor) == __pyx_tp_dealloc_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD) {
       if (PyObject_CallFinalizerFromDealloc(o)) return;
     }
   }
@@ -33614,61 +33609,61 @@ static void __pyx_tp_dealloc_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_
   #endif
 }
 
-static int __pyx_tp_traverse_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD(PyObject *o, visitproc v, void *a) {
+static int __pyx_tp_traverse_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD(PyObject *o, visitproc v, void *a) {
   int e;
-  struct __pyx_obj_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *p = (struct __pyx_obj_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *)o;
+  struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *p = (struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *)o;
   if (p->ICM) {
     e = (*v)(p->ICM, a); if (e) return e;
   }
   return 0;
 }
 
-static int __pyx_tp_clear_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD(PyObject *o) {
+static int __pyx_tp_clear_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD(PyObject *o) {
   PyObject* tmp;
-  struct __pyx_obj_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *p = (struct __pyx_obj_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *)o;
+  struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *p = (struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *)o;
   tmp = ((PyObject*)p->ICM);
   p->ICM = Py_None; Py_INCREF(Py_None);
   Py_XDECREF(tmp);
   return 0;
 }
 
-static PyMethodDef __pyx_methods_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD[] = {
-  {"precompute_common_features_function", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_3precompute_common_features_function, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
-  {"fit", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_5fit, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
-  {"get_D", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_7get_D, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
-  {"get_V", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_9get_V, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
-  {"feature_union_test", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_11feature_union_test, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
-  {"feature_common_test", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_13feature_common_test, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
-  {"precompute_common_features_function_test", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_15precompute_common_features_function_test, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
-  {"__reduce_cython__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_17__reduce_cython__, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
-  {"__setstate_cython__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_19__setstate_cython__, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
+static PyMethodDef __pyx_methods_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD[] = {
+  {"precompute_common_features_function", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_3precompute_common_features_function, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
+  {"fit", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_5fit, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
+  {"get_D", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_7get_D, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
+  {"get_V", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_9get_V, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
+  {"feature_union_test", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_11feature_union_test, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
+  {"feature_common_test", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_13feature_common_test, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
+  {"precompute_common_features_function_test", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_15precompute_common_features_function_test, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
+  {"__reduce_cython__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_17__reduce_cython__, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
+  {"__setstate_cython__", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_19__setstate_cython__, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0},
   {0, 0, 0, 0}
 };
 #if CYTHON_USE_TYPE_SPECS
-static PyType_Slot __pyx_type_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD_slots[] = {
-  {Py_tp_dealloc, (void *)__pyx_tp_dealloc_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD},
-  {Py_tp_traverse, (void *)__pyx_tp_traverse_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD},
-  {Py_tp_clear, (void *)__pyx_tp_clear_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD},
-  {Py_tp_methods, (void *)__pyx_methods_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD},
-  {Py_tp_init, (void *)__pyx_pw_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_1__init__},
-  {Py_tp_new, (void *)__pyx_tp_new_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD},
+static PyType_Slot __pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD_slots[] = {
+  {Py_tp_dealloc, (void *)__pyx_tp_dealloc_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD},
+  {Py_tp_traverse, (void *)__pyx_tp_traverse_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD},
+  {Py_tp_clear, (void *)__pyx_tp_clear_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD},
+  {Py_tp_methods, (void *)__pyx_methods_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD},
+  {Py_tp_init, (void *)__pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_1__init__},
+  {Py_tp_new, (void *)__pyx_tp_new_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD},
   {0, 0},
 };
-static PyType_Spec __pyx_type_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD_spec = {
-  "CFW_DVV_Similarity_Cython_SGD.CFW_DVV_Similarity_Cython_SGD",
-  sizeof(struct __pyx_obj_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD),
+static PyType_Spec __pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD_spec = {
+  "RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.CFW_DVV_Similarity_Cython_SGD.CFW_DVV_Similarity_Cython_SGD",
+  sizeof(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD),
   0,
   Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_VERSION_TAG|Py_TPFLAGS_CHECKTYPES|Py_TPFLAGS_HAVE_NEWBUFFER|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_HAVE_GC,
-  __pyx_type_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD_slots,
+  __pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD_slots,
 };
 #else
 
-static PyTypeObject __pyx_type_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD = {
+static PyTypeObject __pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD = {
   PyVarObject_HEAD_INIT(0, 0)
-  "CFW_DVV_Similarity_Cython_SGD.""CFW_DVV_Similarity_Cython_SGD", /*tp_name*/
-  sizeof(struct __pyx_obj_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD), /*tp_basicsize*/
+  "RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.CFW_DVV_Similarity_Cython_SGD.""CFW_DVV_Similarity_Cython_SGD", /*tp_name*/
+  sizeof(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD), /*tp_basicsize*/
   0, /*tp_itemsize*/
-  __pyx_tp_dealloc_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD, /*tp_dealloc*/
+  __pyx_tp_dealloc_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD, /*tp_dealloc*/
   #if PY_VERSION_HEX < 0x030800b4
   0, /*tp_print*/
   #endif
@@ -33695,13 +33690,13 @@ static PyTypeObject __pyx_type_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarit
   0, /*tp_as_buffer*/
   Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_VERSION_TAG|Py_TPFLAGS_CHECKTYPES|Py_TPFLAGS_HAVE_NEWBUFFER|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_HAVE_GC, /*tp_flags*/
   0, /*tp_doc*/
-  __pyx_tp_traverse_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD, /*tp_traverse*/
-  __pyx_tp_clear_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD, /*tp_clear*/
+  __pyx_tp_traverse_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD, /*tp_traverse*/
+  __pyx_tp_clear_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD, /*tp_clear*/
   0, /*tp_richcompare*/
   0, /*tp_weaklistoffset*/
   0, /*tp_iter*/
   0, /*tp_iternext*/
-  __pyx_methods_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD, /*tp_methods*/
+  __pyx_methods_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD, /*tp_methods*/
   0, /*tp_members*/
   0, /*tp_getset*/
   0, /*tp_base*/
@@ -33711,9 +33706,9 @@ static PyTypeObject __pyx_type_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarit
   #if !CYTHON_USE_TYPE_SPECS
   0, /*tp_dictoffset*/
   #endif
-  __pyx_pw_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_1__init__, /*tp_init*/
+  __pyx_pw_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_1__init__, /*tp_init*/
   0, /*tp_alloc*/
-  __pyx_tp_new_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD, /*tp_new*/
+  __pyx_tp_new_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD, /*tp_new*/
   0, /*tp_free*/
   0, /*tp_is_gc*/
   0, /*tp_bases*/
@@ -33885,7 +33880,7 @@ static PyType_Slot __pyx_type___pyx_array_slots[] = {
   {0, 0},
 };
 static PyType_Spec __pyx_type___pyx_array_spec = {
-  "CFW_DVV_Similarity_Cython_SGD.array",
+  "RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.CFW_DVV_Similarity_Cython_SGD.array",
   sizeof(struct __pyx_array_obj),
   0,
   Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_VERSION_TAG|Py_TPFLAGS_CHECKTYPES|Py_TPFLAGS_HAVE_NEWBUFFER|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_SEQUENCE,
@@ -33931,7 +33926,7 @@ static PyBufferProcs __pyx_tp_as_buffer_array = {
 
 static PyTypeObject __pyx_type___pyx_array = {
   PyVarObject_HEAD_INIT(0, 0)
-  "CFW_DVV_Similarity_Cython_SGD.""array", /*tp_name*/
+  "RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.CFW_DVV_Similarity_Cython_SGD.""array", /*tp_name*/
   sizeof(struct __pyx_array_obj), /*tp_basicsize*/
   0, /*tp_itemsize*/
   __pyx_tp_dealloc_array, /*tp_dealloc*/
@@ -34094,7 +34089,7 @@ static PyType_Slot __pyx_type___pyx_MemviewEnum_slots[] = {
   {0, 0},
 };
 static PyType_Spec __pyx_type___pyx_MemviewEnum_spec = {
-  "CFW_DVV_Similarity_Cython_SGD.Enum",
+  "RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.CFW_DVV_Similarity_Cython_SGD.Enum",
   sizeof(struct __pyx_MemviewEnum_obj),
   0,
   Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_VERSION_TAG|Py_TPFLAGS_CHECKTYPES|Py_TPFLAGS_HAVE_NEWBUFFER|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_HAVE_GC,
@@ -34104,7 +34099,7 @@ static PyType_Spec __pyx_type___pyx_MemviewEnum_spec = {
 
 static PyTypeObject __pyx_type___pyx_MemviewEnum = {
   PyVarObject_HEAD_INIT(0, 0)
-  "CFW_DVV_Similarity_Cython_SGD.""Enum", /*tp_name*/
+  "RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.CFW_DVV_Similarity_Cython_SGD.""Enum", /*tp_name*/
   sizeof(struct __pyx_MemviewEnum_obj), /*tp_basicsize*/
   0, /*tp_itemsize*/
   __pyx_tp_dealloc_Enum, /*tp_dealloc*/
@@ -34404,7 +34399,7 @@ static PyType_Slot __pyx_type___pyx_memoryview_slots[] = {
   {0, 0},
 };
 static PyType_Spec __pyx_type___pyx_memoryview_spec = {
-  "CFW_DVV_Similarity_Cython_SGD.memoryview",
+  "RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.CFW_DVV_Similarity_Cython_SGD.memoryview",
   sizeof(struct __pyx_memoryview_obj),
   0,
   Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_VERSION_TAG|Py_TPFLAGS_CHECKTYPES|Py_TPFLAGS_HAVE_NEWBUFFER|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_HAVE_GC,
@@ -34450,7 +34445,7 @@ static PyBufferProcs __pyx_tp_as_buffer_memoryview = {
 
 static PyTypeObject __pyx_type___pyx_memoryview = {
   PyVarObject_HEAD_INIT(0, 0)
-  "CFW_DVV_Similarity_Cython_SGD.""memoryview", /*tp_name*/
+  "RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.CFW_DVV_Similarity_Cython_SGD.""memoryview", /*tp_name*/
   sizeof(struct __pyx_memoryview_obj), /*tp_basicsize*/
   0, /*tp_itemsize*/
   __pyx_tp_dealloc_memoryview, /*tp_dealloc*/
@@ -34605,7 +34600,7 @@ static PyType_Slot __pyx_type___pyx_memoryviewslice_slots[] = {
   {0, 0},
 };
 static PyType_Spec __pyx_type___pyx_memoryviewslice_spec = {
-  "CFW_DVV_Similarity_Cython_SGD._memoryviewslice",
+  "RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.CFW_DVV_Similarity_Cython_SGD._memoryviewslice",
   sizeof(struct __pyx_memoryviewslice_obj),
   0,
   Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_VERSION_TAG|Py_TPFLAGS_CHECKTYPES|Py_TPFLAGS_HAVE_NEWBUFFER|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_HAVE_GC|Py_TPFLAGS_SEQUENCE,
@@ -34615,7 +34610,7 @@ static PyType_Spec __pyx_type___pyx_memoryviewslice_spec = {
 
 static PyTypeObject __pyx_type___pyx_memoryviewslice = {
   PyVarObject_HEAD_INIT(0, 0)
-  "CFW_DVV_Similarity_Cython_SGD.""_memoryviewslice", /*tp_name*/
+  "RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.CFW_DVV_Similarity_Cython_SGD.""_memoryviewslice", /*tp_name*/
   sizeof(struct __pyx_memoryviewslice_obj), /*tp_basicsize*/
   0, /*tp_itemsize*/
   __pyx_tp_dealloc__memoryviewslice, /*tp_dealloc*/
@@ -34771,6 +34766,7 @@ static int __Pyx_CreateStringTabAndInitStrings(void) {
     {&__pyx_n_b_O, __pyx_k_O, sizeof(__pyx_k_O), 0, 0, 0, 1},
     {&__pyx_kp_u_Out_of_bounds_on_buffer_access_a, __pyx_k_Out_of_bounds_on_buffer_access_a, sizeof(__pyx_k_Out_of_bounds_on_buffer_access_a), 0, 1, 0, 0},
     {&__pyx_n_s_PickleError, __pyx_k_PickleError, sizeof(__pyx_k_PickleError), 0, 0, 1, 1},
+    {&__pyx_n_s_RecSysCompetition2024Polimi_libs, __pyx_k_RecSysCompetition2024Polimi_libs, sizeof(__pyx_k_RecSysCompetition2024Polimi_libs), 0, 0, 1, 1},
     {&__pyx_n_s_Recommenders_Recommender_utils, __pyx_k_Recommenders_Recommender_utils, sizeof(__pyx_k_Recommenders_Recommender_utils), 0, 0, 1, 1},
     {&__pyx_kp_s_SGD_mode_not_valid_Acceptable_va, __pyx_k_SGD_mode_not_valid_Acceptable_va, sizeof(__pyx_k_SGD_mode_not_valid_Acceptable_va), 0, 0, 1, 0},
     {&__pyx_n_s_Sequence, __pyx_k_Sequence, sizeof(__pyx_k_Sequence), 0, 0, 1, 1},
@@ -34990,7 +34986,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedBuiltins(void) {
   __pyx_builtin_Ellipsis = __Pyx_GetBuiltinName(__pyx_n_s_Ellipsis); if (!__pyx_builtin_Ellipsis) __PYX_ERR(1, 408, __pyx_L1_error)
   __pyx_builtin_id = __Pyx_GetBuiltinName(__pyx_n_s_id); if (!__pyx_builtin_id) __PYX_ERR(1, 618, __pyx_L1_error)
   __pyx_builtin_IndexError = __Pyx_GetBuiltinName(__pyx_n_s_IndexError); if (!__pyx_builtin_IndexError) __PYX_ERR(1, 914, __pyx_L1_error)
-  __pyx_builtin_ImportError = __Pyx_GetBuiltinName(__pyx_n_s_ImportError); if (!__pyx_builtin_ImportError) __PYX_ERR(2, 987, __pyx_L1_error)
+  __pyx_builtin_ImportError = __Pyx_GetBuiltinName(__pyx_n_s_ImportError); if (!__pyx_builtin_ImportError) __PYX_ERR(2, 984, __pyx_L1_error)
   return 0;
   __pyx_L1_error:;
   return -1;
@@ -35037,29 +35033,29 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__8);
   __Pyx_GIVEREF(__pyx_tuple__8);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":987
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":984
  *         __pyx_import_array()
  *     except Exception:
  *         raise ImportError("numpy.core.multiarray failed to import")             # <<<<<<<<<<<<<<
  * 
  * cdef inline int import_umath() except -1:
  */
-  __pyx_tuple__9 = PyTuple_Pack(1, __pyx_kp_s_numpy_core_multiarray_failed_to); if (unlikely(!__pyx_tuple__9)) __PYX_ERR(2, 987, __pyx_L1_error)
+  __pyx_tuple__9 = PyTuple_Pack(1, __pyx_kp_s_numpy_core_multiarray_failed_to); if (unlikely(!__pyx_tuple__9)) __PYX_ERR(2, 984, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__9);
   __Pyx_GIVEREF(__pyx_tuple__9);
 
-  /* "../../../../../../../opt/miniconda3/envs/RecSysFramework/lib/python3.8/site-packages/numpy/__init__.cython-30.pxd":993
+  /* "../../../../../../../../opt/miniconda3/envs/RecSys/lib/python3.12/site-packages/numpy/__init__.cython-30.pxd":990
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")             # <<<<<<<<<<<<<<
  * 
  * cdef inline int import_ufunc() except -1:
  */
-  __pyx_tuple__10 = PyTuple_Pack(1, __pyx_kp_s_numpy_core_umath_failed_to_impor); if (unlikely(!__pyx_tuple__10)) __PYX_ERR(2, 993, __pyx_L1_error)
+  __pyx_tuple__10 = PyTuple_Pack(1, __pyx_kp_s_numpy_core_umath_failed_to_impor); if (unlikely(!__pyx_tuple__10)) __PYX_ERR(2, 990, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__10);
   __Pyx_GIVEREF(__pyx_tuple__10);
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":474
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":474
  *         cdef int terminate = False, add_i_values, add_j_values
  * 
  *         cdef array[int] template = array('i')             # <<<<<<<<<<<<<<
@@ -35070,7 +35066,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__11);
   __Pyx_GIVEREF(__pyx_tuple__11);
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":500
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":500
  * 
  *                     if index_result != 0 and current_max_value > feature_i[index_i]:
  *                         raise ValueError("Array is not sorted! The function return array is undefined")             # <<<<<<<<<<<<<<
@@ -35081,7 +35077,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__12);
   __Pyx_GIVEREF(__pyx_tuple__12);
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":618
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":618
  * 
  *         if self.verbose:
  *             print("CFW_DVV_Similarity_Cython_SGD: feature_union_test")             # <<<<<<<<<<<<<<
@@ -35092,7 +35088,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__13);
   __Pyx_GIVEREF(__pyx_tuple__13);
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":683
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":683
  *         for _ in range(100):
  * 
  *             size_f_i = np.random.randint(1,10)             # <<<<<<<<<<<<<<
@@ -35103,7 +35099,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__14);
   __Pyx_GIVEREF(__pyx_tuple__14);
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":684
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":684
  * 
  *             size_f_i = np.random.randint(1,10)
  *             f_i = np.random.randint(0,50, size=size_f_i, dtype=np.int32)             # <<<<<<<<<<<<<<
@@ -35114,7 +35110,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__15);
   __Pyx_GIVEREF(__pyx_tuple__15);
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":709
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":709
  * 
  *         if self.verbose:
  *             print("CFW_DVV_Similarity_Cython_SGD: All tests passed")             # <<<<<<<<<<<<<<
@@ -35125,7 +35121,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__16);
   __Pyx_GIVEREF(__pyx_tuple__16);
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":716
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":716
  * 
  *         if self.verbose:
  *             print("CFW_DVV_Similarity_Cython_SGD: feature_common_test")             # <<<<<<<<<<<<<<
@@ -35248,7 +35244,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__28);
   __pyx_codeobj__29 = (PyObject*)__Pyx_PyCode_New(3, 0, 0, 5, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__28, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_stringsource, __pyx_n_s_pyx_unpickle_Enum, 1, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__29)) __PYX_ERR(1, 1, __pyx_L1_error)
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":23
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":23
  * 
  * import time
  * import scipy.sparse as sps             # <<<<<<<<<<<<<<
@@ -35259,7 +35255,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__30);
   __Pyx_GIVEREF(__pyx_tuple__30);
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":180
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":180
  * 
  * 
  *     def precompute_common_features_function(self):             # <<<<<<<<<<<<<<
@@ -35271,7 +35267,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__31);
   __pyx_codeobj__32 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__31, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_CFW_DVV_Similarity_Cython_SGD_py, __pyx_n_s_precompute_common_features_funct, 180, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__32)) __PYX_ERR(0, 180, __pyx_L1_error)
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":194
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":194
  * 
  * 
  *     def fit(self):             # <<<<<<<<<<<<<<
@@ -35283,7 +35279,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__33);
   __pyx_codeobj__34 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 25, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__33, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_CFW_DVV_Similarity_Cython_SGD_py, __pyx_n_s_fit, 194, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__34)) __PYX_ERR(0, 194, __pyx_L1_error)
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":321
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":321
  * 
  * 
  *     def get_D(self):             # <<<<<<<<<<<<<<
@@ -35295,7 +35291,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__35);
   __pyx_codeobj__36 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 1, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__35, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_CFW_DVV_Similarity_Cython_SGD_py, __pyx_n_s_get_D, 321, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__36)) __PYX_ERR(0, 321, __pyx_L1_error)
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":325
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":325
  *         return np.array(self.D).copy()
  * 
  *     def get_V(self):             # <<<<<<<<<<<<<<
@@ -35304,7 +35300,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  */
   __pyx_codeobj__37 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 1, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__35, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_CFW_DVV_Similarity_Cython_SGD_py, __pyx_n_s_get_V, 325, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__37)) __PYX_ERR(0, 325, __pyx_L1_error)
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":615
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":615
  * 
  * 
  *     def feature_union_test(self):             # <<<<<<<<<<<<<<
@@ -35316,7 +35312,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__39);
   __pyx_codeobj__40 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 9, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__39, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_CFW_DVV_Similarity_Cython_SGD_py, __pyx_n_s_feature_union_test, 615, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__40)) __PYX_ERR(0, 615, __pyx_L1_error)
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":713
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":713
  * 
  * 
  *     def feature_common_test(self):             # <<<<<<<<<<<<<<
@@ -35328,7 +35324,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__41);
   __pyx_codeobj__42 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 9, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__41, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_CFW_DVV_Similarity_Cython_SGD_py, __pyx_n_s_feature_common_test, 713, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__42)) __PYX_ERR(0, 713, __pyx_L1_error)
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":782
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":782
  * 
  * 
  *     def precompute_common_features_function_test(self):             # <<<<<<<<<<<<<<
@@ -35486,41 +35482,41 @@ static int __Pyx_modinit_type_init_code(void) {
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__Pyx_modinit_type_init_code", 0);
   /*--- Type init code ---*/
-  __pyx_vtabptr_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD = &__pyx_vtable_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD;
-  __pyx_vtable_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD.deriv_V = (double (*)(struct __pyx_obj_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *, int, int, __Pyx_memviewslice, __Pyx_memviewslice))__pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_deriv_V;
-  __pyx_vtable_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD.compute_adaptive_gradient_D = (double (*)(struct __pyx_obj_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *, int, double))__pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_compute_adaptive_gradient_D;
-  __pyx_vtable_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD.compute_adaptive_gradient_V = (double (*)(struct __pyx_obj_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *, int, int, double))__pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_compute_adaptive_gradient_V;
-  __pyx_vtable_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD.feature_common_precomputed = (int (*)(struct __pyx_obj_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *, long))__pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_feature_common_precomputed;
-  __pyx_vtable_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD.get_features_vector = (__Pyx_memviewslice (*)(struct __pyx_obj_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *, long))__pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_get_features_vector;
-  __pyx_vtable_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD.feature_union = (__Pyx_memviewslice (*)(struct __pyx_obj_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *, __Pyx_memviewslice, __Pyx_memviewslice))__pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_feature_union;
-  __pyx_vtable_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD.feature_union_unordered = (int (*)(struct __pyx_obj_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *, __Pyx_memviewslice, __Pyx_memviewslice))__pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_feature_union_unordered;
-  __pyx_vtable_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD.feature_common_unordered = (int (*)(struct __pyx_obj_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *, __Pyx_memviewslice, __Pyx_memviewslice))__pyx_f_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_feature_common_unordered;
+  __pyx_vtabptr_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD = &__pyx_vtable_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD;
+  __pyx_vtable_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD.deriv_V = (double (*)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *, int, int, __Pyx_memviewslice, __Pyx_memviewslice))__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_deriv_V;
+  __pyx_vtable_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD.compute_adaptive_gradient_D = (double (*)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *, int, double))__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_compute_adaptive_gradient_D;
+  __pyx_vtable_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD.compute_adaptive_gradient_V = (double (*)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *, int, int, double))__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_compute_adaptive_gradient_V;
+  __pyx_vtable_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD.feature_common_precomputed = (int (*)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *, long))__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_feature_common_precomputed;
+  __pyx_vtable_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD.get_features_vector = (__Pyx_memviewslice (*)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *, long))__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_get_features_vector;
+  __pyx_vtable_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD.feature_union = (__Pyx_memviewslice (*)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *, __Pyx_memviewslice, __Pyx_memviewslice))__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_feature_union;
+  __pyx_vtable_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD.feature_union_unordered = (int (*)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *, __Pyx_memviewslice, __Pyx_memviewslice))__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_feature_union_unordered;
+  __pyx_vtable_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD.feature_common_unordered = (int (*)(struct __pyx_obj_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD *, __Pyx_memviewslice, __Pyx_memviewslice))__pyx_f_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_feature_common_unordered;
   #if CYTHON_USE_TYPE_SPECS
-  __pyx_ptype_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD = (PyTypeObject *) __Pyx_PyType_FromModuleAndSpec(__pyx_m, &__pyx_type_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD_spec, NULL); if (unlikely(!__pyx_ptype_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD)) __PYX_ERR(0, 30, __pyx_L1_error)
-  if (__Pyx_fix_up_extension_type_from_spec(&__pyx_type_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD_spec, __pyx_ptype_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD) < 0) __PYX_ERR(0, 30, __pyx_L1_error)
+  __pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD = (PyTypeObject *) __Pyx_PyType_FromModuleAndSpec(__pyx_m, &__pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD_spec, NULL); if (unlikely(!__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD)) __PYX_ERR(0, 30, __pyx_L1_error)
+  if (__Pyx_fix_up_extension_type_from_spec(&__pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD_spec, __pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD) < 0) __PYX_ERR(0, 30, __pyx_L1_error)
   #else
-  __pyx_ptype_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD = &__pyx_type_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD;
+  __pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD = &__pyx_type_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD;
   #endif
   #if !CYTHON_COMPILING_IN_LIMITED_API
   #endif
   #if !CYTHON_USE_TYPE_SPECS
-  if (__Pyx_PyType_Ready(__pyx_ptype_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD) < 0) __PYX_ERR(0, 30, __pyx_L1_error)
+  if (__Pyx_PyType_Ready(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD) < 0) __PYX_ERR(0, 30, __pyx_L1_error)
   #endif
   #if PY_MAJOR_VERSION < 3
-  __pyx_ptype_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD->tp_print = 0;
+  __pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD->tp_print = 0;
   #endif
   #if !CYTHON_COMPILING_IN_LIMITED_API
-  if ((CYTHON_USE_TYPE_SLOTS && CYTHON_USE_PYTYPE_LOOKUP) && likely(!__pyx_ptype_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD->tp_dictoffset && __pyx_ptype_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD->tp_getattro == PyObject_GenericGetAttr)) {
-    __pyx_ptype_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD->tp_getattro = __Pyx_PyObject_GenericGetAttr;
+  if ((CYTHON_USE_TYPE_SLOTS && CYTHON_USE_PYTYPE_LOOKUP) && likely(!__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD->tp_dictoffset && __pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD->tp_getattro == PyObject_GenericGetAttr)) {
+    __pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD->tp_getattro = __Pyx_PyObject_GenericGetAttr;
   }
   #endif
-  if (__Pyx_SetVtable(__pyx_ptype_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD, __pyx_vtabptr_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD) < 0) __PYX_ERR(0, 30, __pyx_L1_error)
+  if (__Pyx_SetVtable(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD, __pyx_vtabptr_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD) < 0) __PYX_ERR(0, 30, __pyx_L1_error)
   #if !CYTHON_COMPILING_IN_LIMITED_API
-  if (__Pyx_MergeVtables(__pyx_ptype_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD) < 0) __PYX_ERR(0, 30, __pyx_L1_error)
+  if (__Pyx_MergeVtables(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD) < 0) __PYX_ERR(0, 30, __pyx_L1_error)
   #endif
-  if (PyObject_SetAttr(__pyx_m, __pyx_n_s_CFW_DVV_Similarity_Cython_SGD, (PyObject *) __pyx_ptype_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD) < 0) __PYX_ERR(0, 30, __pyx_L1_error)
+  if (PyObject_SetAttr(__pyx_m, __pyx_n_s_CFW_DVV_Similarity_Cython_SGD, (PyObject *) __pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD) < 0) __PYX_ERR(0, 30, __pyx_L1_error)
   #if !CYTHON_COMPILING_IN_LIMITED_API
-  if (__Pyx_setup_reduce((PyObject *) __pyx_ptype_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD) < 0) __PYX_ERR(0, 30, __pyx_L1_error)
+  if (__Pyx_setup_reduce((PyObject *) __pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD) < 0) __PYX_ERR(0, 30, __pyx_L1_error)
   #endif
   __pyx_vtabptr_array = &__pyx_vtable_array;
   __pyx_vtable_array.get_memview = (PyObject *(*)(struct __pyx_array_obj *))__pyx_array_get_memview;
@@ -35690,23 +35686,23 @@ static int __Pyx_modinit_type_import_code(void) {
   #endif
   __Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_7cpython_4type_type) __PYX_ERR(4, 9, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_1 = PyImport_ImportModule("numpy"); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 203, __pyx_L1_error)
+  __pyx_t_1 = PyImport_ImportModule("numpy"); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 202, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_ptype_5numpy_dtype = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "dtype", sizeof(PyArray_Descr), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyArray_Descr),__Pyx_ImportType_CheckSize_Ignore_3_0_11); if (!__pyx_ptype_5numpy_dtype) __PYX_ERR(2, 203, __pyx_L1_error)
-  __pyx_ptype_5numpy_flatiter = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "flatiter", sizeof(PyArrayIterObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyArrayIterObject),__Pyx_ImportType_CheckSize_Ignore_3_0_11); if (!__pyx_ptype_5numpy_flatiter) __PYX_ERR(2, 226, __pyx_L1_error)
-  __pyx_ptype_5numpy_broadcast = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "broadcast", sizeof(PyArrayMultiIterObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyArrayMultiIterObject),__Pyx_ImportType_CheckSize_Ignore_3_0_11); if (!__pyx_ptype_5numpy_broadcast) __PYX_ERR(2, 230, __pyx_L1_error)
-  __pyx_ptype_5numpy_ndarray = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "ndarray", sizeof(PyArrayObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyArrayObject),__Pyx_ImportType_CheckSize_Ignore_3_0_11); if (!__pyx_ptype_5numpy_ndarray) __PYX_ERR(2, 239, __pyx_L1_error)
-  __pyx_ptype_5numpy_generic = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "generic", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_generic) __PYX_ERR(2, 813, __pyx_L1_error)
-  __pyx_ptype_5numpy_number = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "number", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_number) __PYX_ERR(2, 815, __pyx_L1_error)
-  __pyx_ptype_5numpy_integer = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "integer", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_integer) __PYX_ERR(2, 817, __pyx_L1_error)
-  __pyx_ptype_5numpy_signedinteger = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "signedinteger", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_signedinteger) __PYX_ERR(2, 819, __pyx_L1_error)
-  __pyx_ptype_5numpy_unsignedinteger = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "unsignedinteger", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_unsignedinteger) __PYX_ERR(2, 821, __pyx_L1_error)
-  __pyx_ptype_5numpy_inexact = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "inexact", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_inexact) __PYX_ERR(2, 823, __pyx_L1_error)
-  __pyx_ptype_5numpy_floating = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "floating", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_floating) __PYX_ERR(2, 825, __pyx_L1_error)
-  __pyx_ptype_5numpy_complexfloating = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "complexfloating", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_complexfloating) __PYX_ERR(2, 827, __pyx_L1_error)
-  __pyx_ptype_5numpy_flexible = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "flexible", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_flexible) __PYX_ERR(2, 829, __pyx_L1_error)
-  __pyx_ptype_5numpy_character = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "character", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_character) __PYX_ERR(2, 831, __pyx_L1_error)
-  __pyx_ptype_5numpy_ufunc = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "ufunc", sizeof(PyUFuncObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyUFuncObject),__Pyx_ImportType_CheckSize_Ignore_3_0_11); if (!__pyx_ptype_5numpy_ufunc) __PYX_ERR(2, 869, __pyx_L1_error)
+  __pyx_ptype_5numpy_dtype = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "dtype", sizeof(PyArray_Descr), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyArray_Descr),__Pyx_ImportType_CheckSize_Ignore_3_0_11); if (!__pyx_ptype_5numpy_dtype) __PYX_ERR(2, 202, __pyx_L1_error)
+  __pyx_ptype_5numpy_flatiter = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "flatiter", sizeof(PyArrayIterObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyArrayIterObject),__Pyx_ImportType_CheckSize_Ignore_3_0_11); if (!__pyx_ptype_5numpy_flatiter) __PYX_ERR(2, 225, __pyx_L1_error)
+  __pyx_ptype_5numpy_broadcast = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "broadcast", sizeof(PyArrayMultiIterObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyArrayMultiIterObject),__Pyx_ImportType_CheckSize_Ignore_3_0_11); if (!__pyx_ptype_5numpy_broadcast) __PYX_ERR(2, 229, __pyx_L1_error)
+  __pyx_ptype_5numpy_ndarray = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "ndarray", sizeof(PyArrayObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyArrayObject),__Pyx_ImportType_CheckSize_Ignore_3_0_11); if (!__pyx_ptype_5numpy_ndarray) __PYX_ERR(2, 238, __pyx_L1_error)
+  __pyx_ptype_5numpy_generic = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "generic", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_generic) __PYX_ERR(2, 809, __pyx_L1_error)
+  __pyx_ptype_5numpy_number = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "number", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_number) __PYX_ERR(2, 811, __pyx_L1_error)
+  __pyx_ptype_5numpy_integer = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "integer", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_integer) __PYX_ERR(2, 813, __pyx_L1_error)
+  __pyx_ptype_5numpy_signedinteger = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "signedinteger", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_signedinteger) __PYX_ERR(2, 815, __pyx_L1_error)
+  __pyx_ptype_5numpy_unsignedinteger = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "unsignedinteger", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_unsignedinteger) __PYX_ERR(2, 817, __pyx_L1_error)
+  __pyx_ptype_5numpy_inexact = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "inexact", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_inexact) __PYX_ERR(2, 819, __pyx_L1_error)
+  __pyx_ptype_5numpy_floating = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "floating", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_floating) __PYX_ERR(2, 821, __pyx_L1_error)
+  __pyx_ptype_5numpy_complexfloating = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "complexfloating", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_complexfloating) __PYX_ERR(2, 823, __pyx_L1_error)
+  __pyx_ptype_5numpy_flexible = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "flexible", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_flexible) __PYX_ERR(2, 825, __pyx_L1_error)
+  __pyx_ptype_5numpy_character = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "character", sizeof(PyObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyObject),__Pyx_ImportType_CheckSize_Warn_3_0_11); if (!__pyx_ptype_5numpy_character) __PYX_ERR(2, 827, __pyx_L1_error)
+  __pyx_ptype_5numpy_ufunc = __Pyx_ImportType_3_0_11(__pyx_t_1, "numpy", "ufunc", sizeof(PyUFuncObject), __PYX_GET_STRUCT_ALIGNMENT_3_0_11(PyUFuncObject),__Pyx_ImportType_CheckSize_Ignore_3_0_11); if (!__pyx_ptype_5numpy_ufunc) __PYX_ERR(2, 866, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_t_1 = PyImport_ImportModule("array"); if (unlikely(!__pyx_t_1)) __PYX_ERR(3, 69, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
@@ -35992,14 +35988,14 @@ if (!__Pyx_RefNanny) {
   #if PY_MAJOR_VERSION < 3 && (__PYX_DEFAULT_STRING_ENCODING_IS_ASCII || __PYX_DEFAULT_STRING_ENCODING_IS_DEFAULT)
   if (__Pyx_init_sys_getdefaultencoding_params() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   #endif
-  if (__pyx_module_is_main_CFW_DVV_Similarity_Cython_SGD) {
+  if (__pyx_module_is_main_RecSysCompetition2024Polimi__libs__Recommenders__FeatureWeighting__Cython__CFW_DVV_Similarity_Cython_SGD) {
     if (PyObject_SetAttr(__pyx_m, __pyx_n_s_name_2, __pyx_n_s_main) < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   }
   #if PY_MAJOR_VERSION >= 3
   {
     PyObject *modules = PyImport_GetModuleDict(); if (unlikely(!modules)) __PYX_ERR(0, 1, __pyx_L1_error)
-    if (!PyDict_GetItemString(modules, "CFW_DVV_Similarity_Cython_SGD")) {
-      if (unlikely((PyDict_SetItemString(modules, "CFW_DVV_Similarity_Cython_SGD", __pyx_m) < 0))) __PYX_ERR(0, 1, __pyx_L1_error)
+    if (!PyDict_GetItemString(modules, "RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.CFW_DVV_Similarity_Cython_SGD")) {
+      if (unlikely((PyDict_SetItemString(modules, "RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.CFW_DVV_Similarity_Cython_SGD", __pyx_m) < 0))) __PYX_ERR(0, 1, __pyx_L1_error)
     }
   }
   #endif
@@ -36533,7 +36529,7 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_pyx_unpickle_Enum, __pyx_t_7) < 0) __PYX_ERR(1, 1, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":18
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":18
  * #defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION
  * 
  * import numpy as np             # <<<<<<<<<<<<<<
@@ -36545,7 +36541,7 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_np, __pyx_t_7) < 0) __PYX_ERR(0, 18, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":22
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":22
  * 
  * 
  * import time             # <<<<<<<<<<<<<<
@@ -36557,7 +36553,7 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_time, __pyx_t_7) < 0) __PYX_ERR(0, 22, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":23
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":23
  * 
  * import time
  * import scipy.sparse as sps             # <<<<<<<<<<<<<<
@@ -36569,7 +36565,7 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_sps, __pyx_t_7) < 0) __PYX_ERR(0, 23, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":24
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":24
  * import time
  * import scipy.sparse as sps
  * from Recommenders.Recommender_utils import check_matrix             # <<<<<<<<<<<<<<
@@ -36590,107 +36586,107 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":180
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":180
  * 
  * 
  *     def precompute_common_features_function(self):             # <<<<<<<<<<<<<<
  * 
  *         # Compute common features, to keep memory requirements low process one at a time
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_3precompute_common_features_function, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_CFW_DVV_Similarity_Cython_SGD_pr, NULL, __pyx_n_s_CFW_DVV_Similarity_Cython_SGD, __pyx_d, ((PyObject *)__pyx_codeobj__32)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 180, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_3precompute_common_features_function, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_CFW_DVV_Similarity_Cython_SGD_pr, NULL, __pyx_n_s_RecSysCompetition2024Polimi_libs, __pyx_d, ((PyObject *)__pyx_codeobj__32)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 180, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD, __pyx_n_s_precompute_common_features_funct, __pyx_t_4) < 0) __PYX_ERR(0, 180, __pyx_L1_error)
+  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD, __pyx_n_s_precompute_common_features_funct, __pyx_t_4) < 0) __PYX_ERR(0, 180, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  PyType_Modified(__pyx_ptype_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD);
+  PyType_Modified(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD);
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":194
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":194
  * 
  * 
  *     def fit(self):             # <<<<<<<<<<<<<<
  * 
  *         cdef int index, feature_id, feature_index, factor_index, num_common_features, num_union_features
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_5fit, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_CFW_DVV_Similarity_Cython_SGD_fi, NULL, __pyx_n_s_CFW_DVV_Similarity_Cython_SGD, __pyx_d, ((PyObject *)__pyx_codeobj__34)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 194, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_5fit, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_CFW_DVV_Similarity_Cython_SGD_fi, NULL, __pyx_n_s_RecSysCompetition2024Polimi_libs, __pyx_d, ((PyObject *)__pyx_codeobj__34)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 194, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD, __pyx_n_s_fit, __pyx_t_4) < 0) __PYX_ERR(0, 194, __pyx_L1_error)
+  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD, __pyx_n_s_fit, __pyx_t_4) < 0) __PYX_ERR(0, 194, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  PyType_Modified(__pyx_ptype_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD);
+  PyType_Modified(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD);
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":321
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":321
  * 
  * 
  *     def get_D(self):             # <<<<<<<<<<<<<<
  * 
  *         return np.array(self.D).copy()
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_7get_D, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_CFW_DVV_Similarity_Cython_SGD_ge, NULL, __pyx_n_s_CFW_DVV_Similarity_Cython_SGD, __pyx_d, ((PyObject *)__pyx_codeobj__36)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 321, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_7get_D, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_CFW_DVV_Similarity_Cython_SGD_ge, NULL, __pyx_n_s_RecSysCompetition2024Polimi_libs, __pyx_d, ((PyObject *)__pyx_codeobj__36)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 321, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD, __pyx_n_s_get_D, __pyx_t_4) < 0) __PYX_ERR(0, 321, __pyx_L1_error)
+  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD, __pyx_n_s_get_D, __pyx_t_4) < 0) __PYX_ERR(0, 321, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  PyType_Modified(__pyx_ptype_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD);
+  PyType_Modified(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD);
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":325
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":325
  *         return np.array(self.D).copy()
  * 
  *     def get_V(self):             # <<<<<<<<<<<<<<
  * 
  *         return np.array(self.V).copy()
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_9get_V, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_CFW_DVV_Similarity_Cython_SGD_ge_2, NULL, __pyx_n_s_CFW_DVV_Similarity_Cython_SGD, __pyx_d, ((PyObject *)__pyx_codeobj__37)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 325, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_9get_V, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_CFW_DVV_Similarity_Cython_SGD_ge_2, NULL, __pyx_n_s_RecSysCompetition2024Polimi_libs, __pyx_d, ((PyObject *)__pyx_codeobj__37)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 325, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD, __pyx_n_s_get_V, __pyx_t_4) < 0) __PYX_ERR(0, 325, __pyx_L1_error)
+  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD, __pyx_n_s_get_V, __pyx_t_4) < 0) __PYX_ERR(0, 325, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  PyType_Modified(__pyx_ptype_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD);
+  PyType_Modified(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD);
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":615
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":615
  * 
  * 
  *     def feature_union_test(self):             # <<<<<<<<<<<<<<
  * 
  *         if self.verbose:
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_11feature_union_test, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_CFW_DVV_Similarity_Cython_SGD_fe_3, NULL, __pyx_n_s_CFW_DVV_Similarity_Cython_SGD, __pyx_d, ((PyObject *)__pyx_codeobj__40)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 615, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_11feature_union_test, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_CFW_DVV_Similarity_Cython_SGD_fe_3, NULL, __pyx_n_s_RecSysCompetition2024Polimi_libs, __pyx_d, ((PyObject *)__pyx_codeobj__40)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 615, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD, __pyx_n_s_feature_union_test, __pyx_t_4) < 0) __PYX_ERR(0, 615, __pyx_L1_error)
+  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD, __pyx_n_s_feature_union_test, __pyx_t_4) < 0) __PYX_ERR(0, 615, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  PyType_Modified(__pyx_ptype_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD);
+  PyType_Modified(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD);
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":713
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":713
  * 
  * 
  *     def feature_common_test(self):             # <<<<<<<<<<<<<<
  * 
  *         if self.verbose:
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_13feature_common_test, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_CFW_DVV_Similarity_Cython_SGD_fe_4, NULL, __pyx_n_s_CFW_DVV_Similarity_Cython_SGD, __pyx_d, ((PyObject *)__pyx_codeobj__42)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 713, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_13feature_common_test, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_CFW_DVV_Similarity_Cython_SGD_fe_4, NULL, __pyx_n_s_RecSysCompetition2024Polimi_libs, __pyx_d, ((PyObject *)__pyx_codeobj__42)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 713, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD, __pyx_n_s_feature_common_test, __pyx_t_4) < 0) __PYX_ERR(0, 713, __pyx_L1_error)
+  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD, __pyx_n_s_feature_common_test, __pyx_t_4) < 0) __PYX_ERR(0, 713, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  PyType_Modified(__pyx_ptype_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD);
+  PyType_Modified(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD);
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":782
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":782
  * 
  * 
  *     def precompute_common_features_function_test(self):             # <<<<<<<<<<<<<<
  * 
  *         commonFeatures = self.ICM[np.array(self.row_list)].multiply(self.ICM[np.array(self.col_list)])
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_15precompute_common_features_function_test, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_CFW_DVV_Similarity_Cython_SGD_pr_2, NULL, __pyx_n_s_CFW_DVV_Similarity_Cython_SGD, __pyx_d, ((PyObject *)__pyx_codeobj__44)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 782, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_15precompute_common_features_function_test, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_CFW_DVV_Similarity_Cython_SGD_pr_2, NULL, __pyx_n_s_RecSysCompetition2024Polimi_libs, __pyx_d, ((PyObject *)__pyx_codeobj__44)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 782, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD, __pyx_n_s_precompute_common_features_funct_2, __pyx_t_4) < 0) __PYX_ERR(0, 782, __pyx_L1_error)
+  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD, __pyx_n_s_precompute_common_features_funct_2, __pyx_t_4) < 0) __PYX_ERR(0, 782, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  PyType_Modified(__pyx_ptype_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD);
+  PyType_Modified(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD);
 
   /* "(tree fragment)":1
  * def __reduce_cython__(self):             # <<<<<<<<<<<<<<
  *     cdef tuple state
  *     cdef object _dict
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_17__reduce_cython__, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_CFW_DVV_Similarity_Cython_SGD_2, NULL, __pyx_n_s_CFW_DVV_Similarity_Cython_SGD, __pyx_d, ((PyObject *)__pyx_codeobj__46)); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 1, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_17__reduce_cython__, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_CFW_DVV_Similarity_Cython_SGD_2, NULL, __pyx_n_s_RecSysCompetition2024Polimi_libs, __pyx_d, ((PyObject *)__pyx_codeobj__46)); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 1, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD, __pyx_n_s_reduce_cython, __pyx_t_4) < 0) __PYX_ERR(1, 1, __pyx_L1_error)
+  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD, __pyx_n_s_reduce_cython, __pyx_t_4) < 0) __PYX_ERR(1, 1, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  PyType_Modified(__pyx_ptype_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD);
+  PyType_Modified(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD);
 
   /* "(tree fragment)":16
  *     else:
@@ -36698,23 +36694,23 @@ if (!__Pyx_RefNanny) {
  * def __setstate_cython__(self, __pyx_state):             # <<<<<<<<<<<<<<
  *     __pyx_unpickle_CFW_DVV_Similarity_Cython_SGD__set_state(self, __pyx_state)
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_19__setstate_cython__, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_CFW_DVV_Similarity_Cython_SGD_3, NULL, __pyx_n_s_CFW_DVV_Similarity_Cython_SGD, __pyx_d, ((PyObject *)__pyx_codeobj__48)); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 16, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_29CFW_DVV_Similarity_Cython_SGD_19__setstate_cython__, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_CFW_DVV_Similarity_Cython_SGD_3, NULL, __pyx_n_s_RecSysCompetition2024Polimi_libs, __pyx_d, ((PyObject *)__pyx_codeobj__48)); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 16, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD, __pyx_n_s_setstate_cython, __pyx_t_4) < 0) __PYX_ERR(1, 16, __pyx_L1_error)
+  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD, __pyx_n_s_setstate_cython, __pyx_t_4) < 0) __PYX_ERR(1, 16, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  PyType_Modified(__pyx_ptype_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD);
+  PyType_Modified(__pyx_ptype_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_CFW_DVV_Similarity_Cython_SGD);
 
   /* "(tree fragment)":1
  * def __pyx_unpickle_CFW_DVV_Similarity_Cython_SGD(__pyx_type, long __pyx_checksum, __pyx_state):             # <<<<<<<<<<<<<<
  *     cdef object __pyx_PickleError
  *     cdef object __pyx_result
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_29CFW_DVV_Similarity_Cython_SGD_1__pyx_unpickle_CFW_DVV_Similarity_Cython_SGD, 0, __pyx_n_s_pyx_unpickle_CFW_DVV_Similarit, NULL, __pyx_n_s_CFW_DVV_Similarity_Cython_SGD, __pyx_d, ((PyObject *)__pyx_codeobj__49)); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 1, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_27RecSysCompetition2024Polimi_4libs_12Recommenders_16FeatureWeighting_6Cython_29CFW_DVV_Similarity_Cython_SGD_1__pyx_unpickle_CFW_DVV_Similarity_Cython_SGD, 0, __pyx_n_s_pyx_unpickle_CFW_DVV_Similarit, NULL, __pyx_n_s_RecSysCompetition2024Polimi_libs, __pyx_d, ((PyObject *)__pyx_codeobj__49)); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 1, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_pyx_unpickle_CFW_DVV_Similarit, __pyx_t_4) < 0) __PYX_ERR(1, 1, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "CFW_DVV_Similarity_Cython_SGD.pyx":1
+  /* "RecSysCompetition2024Polimi/libs/Recommenders/FeatureWeighting/Cython/CFW_DVV_Similarity_Cython_SGD.pyx":1
  * """             # <<<<<<<<<<<<<<
  * Created on 10/17
  * 
@@ -36733,7 +36729,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_XDECREF(__pyx_t_7);
   if (__pyx_m) {
     if (__pyx_d && stringtab_initialized) {
-      __Pyx_AddTraceback("init CFW_DVV_Similarity_Cython_SGD", __pyx_clineno, __pyx_lineno, __pyx_filename);
+      __Pyx_AddTraceback("init RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.CFW_DVV_Similarity_Cython_SGD", __pyx_clineno, __pyx_lineno, __pyx_filename);
     }
     #if !CYTHON_USE_MODULE_STATE
     Py_CLEAR(__pyx_m);
@@ -36747,7 +36743,7 @@ if (!__Pyx_RefNanny) {
     }
     #endif
   } else if (!PyErr_Occurred()) {
-    PyErr_SetString(PyExc_ImportError, "init CFW_DVV_Similarity_Cython_SGD");
+    PyErr_SetString(PyExc_ImportError, "init RecSysCompetition2024Polimi.libs.Recommenders.FeatureWeighting.Cython.CFW_DVV_Similarity_Cython_SGD");
   }
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();
