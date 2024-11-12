@@ -99,7 +99,7 @@ class Compute_Similarity:
             if use_implementation == "cython":
 
                 try:
-                    from Recommenders.Similarity.Cython.Compute_Similarity_Cython import Compute_Similarity_Cython
+                    from libs.Recommenders.Similarity.Cython.Compute_Similarity_Cython import Compute_Similarity_Cython
                     self.compute_similarity_object = Compute_Similarity_Cython(dataMatrix, **args)
 
                 except ImportError:

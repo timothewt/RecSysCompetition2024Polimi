@@ -7,3 +7,5 @@ submissions/
 /__pycache__/*
 __pycache__/
 *.zip
+/.cadence/
+*-linux-gnu.so
