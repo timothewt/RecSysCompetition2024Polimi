@@ -17,7 +17,7 @@ class HybridCBFCF(RecommenderModel):
 		self.ibcf_coeff = ibcf_coeff
 		self.cbf_coeff = cbf_coeff
 
-	def fit(self, urm: sp.csr_matrix, icm: sp.csr_matrix) -> None:
+	def fit(self, urm: sp.csr_matrix, icm: sp.csr_matrix, val_urm: sp.csr_matrix, **kwargs) -> None:
 		self.urm = urm
 		self.icm = tf_idf(icm)
 

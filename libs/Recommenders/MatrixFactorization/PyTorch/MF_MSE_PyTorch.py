@@ -7,15 +7,15 @@ Created on 06/07/2018
 """
 
 
-from Recommenders.Incremental_Training_Early_Stopping import Incremental_Training_Early_Stopping
-from Recommenders.BaseMatrixFactorizationRecommender import BaseMatrixFactorizationRecommender
+from libs.Recommenders.Incremental_Training_Early_Stopping import Incremental_Training_Early_Stopping
+from libs.Recommenders.BaseMatrixFactorizationRecommender import BaseMatrixFactorizationRecommender
 import time
 
 
 import torch
 from torch.autograd import Variable
 from torch.utils.data import DataLoader
-from Recommenders.MatrixFactorization.PyTorch.MF_MSE_PyTorch_model import MF_MSE_PyTorch_model, DatasetIterator_URM
+from libs.Recommenders.MatrixFactorization.PyTorch.MF_MSE_PyTorch_model import MF_MSE_PyTorch_model, DatasetIterator_URM
 
 
 

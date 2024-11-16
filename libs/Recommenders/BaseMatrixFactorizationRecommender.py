@@ -6,8 +6,8 @@ Created on 16/09/2017
 @author: Maurizio Ferrari Dacrema
 """
 
-from Recommenders.BaseRecommender import BaseRecommender
-from Recommenders.DataIO import DataIO
+from libs.Recommenders.BaseRecommender import BaseRecommender
+from libs.Recommenders.DataIO import DataIO
 import scipy.sparse as sps
 import numpy as np
 
@@ -112,7 +112,7 @@ class BaseMatrixFactorizationRecommender(BaseRecommender):
 
 
 
-class BaseSVDRecommender(BaseMatrixFactorizationRecommender):
+class   BaseSVDRecommender(BaseMatrixFactorizationRecommender):
     """
     This class refers to a BaseRecommender KNN which uses matrix factorization,
     it provides functions to compute item's score as well as a function to save the W_matrix

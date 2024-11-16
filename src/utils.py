@@ -3,6 +3,7 @@ import os
 import numpy as np
 import pandas as pd
 import scipy.sparse as sp
+from matplotlib import pyplot as plt
 
 from src.recommender_model import RecommenderModel
 
@@ -85,7 +86,7 @@ def evaluate_model(trained_model: RecommenderModel, urm_test: sp.csr_matrix, at:
 	return cum_ap / eval_count
 
 
-def train_model(model: RecommenderModel, at: int = 10, test_size: float = .2, print_eval: bool = True) -> RecommenderModel:
+def train_model(model: RecommenderModel, at: int = 10, test_size: float = .2, print_eval: bool = True, **kwargs) -> RecommenderModel:
 	"""Given a recommender model, trains it and evaluates it on test data, then returns the trained model.
 
 	:param model: The model to train, an instance of a recommender model
@@ -103,7 +104,7 @@ def train_model(model: RecommenderModel, at: int = 10, test_size: float = .2, pr
 	urm, icm = open_dataset()
 	urm_train, urm_test = train_test_split(urm, test_size=test_size)
 
-	model.fit(urm_train, icm)
+	model.fit(urm_train, icm, urm_test, **kwargs)
 
 	if print_eval and test_size > 0:
 		print(f"MAP@{at} evaluation of the {model.__class__.__name__} model: {evaluate_model(model, urm_test, at=at):.5f}")
@@ -111,18 +112,20 @@ def train_model(model: RecommenderModel, at: int = 10, test_size: float = .2, pr
 	return model
 
 
-def write_submission(trained_model: RecommenderModel, filename: str = "submission.csv") -> None:
+def write_submission(trained_model: RecommenderModel, filename: str = "submission.csv", at: int = 10) -> None:
 	"""Builds the submission file from a trained recommender model. The file is saved in a CSV format.
 
 	:param trained_model: A fitted recommender model
 	:type trained_model: RecommenderModel
 	:param filename: The filename of the submission for this particular recommender model
 	:type filename: str
+	:param at: Number of items to recommend
+	:type at: int
 	"""
 	target_users_test = pd.read_csv("../data/data_target_users_test.csv",).to_numpy().ravel()
 
 	recommendations = np.array([
-		trained_model.recommend(user_id) for user_id in target_users_test
+		trained_model.recommend(user_id, at) for user_id in target_users_test
 	])
 
 	if not os.path.exists("../submissions"):
@@ -147,3 +150,25 @@ def tf_idf(mat: sp.csr_matrix) -> sp.csr_matrix:
 	mat.data = mat.data * idf[mat.tocoo().col]
 	mat.eliminate_zeros()
 	return mat
+
+
+def plot_losses(epochs: int, loss_history: np.ndarray | list, loss_history_val: np.ndarray | list, num_batch_per_epochs: int) -> None:
+	"""Plots the losses history of a training.
+
+	:param epochs: The number of epochs
+	:type epochs: int
+	:param loss_history: The loss history
+	:type loss_history: np.ndarray | list
+	:param loss_history_val: The validation loss history
+	:type loss_history_val: np.ndarray | list
+	:param num_batch_per_epochs: The number of batches per epoch
+	:type num_batch_per_epochs: int
+	"""
+	plt.plot(loss_history, label="Train loss")
+	plt.plot([x * num_batch_per_epochs for x in range(epochs + 1)], loss_history_val, label="Validation loss")
+	plt.xlabel("Train iteration")
+	plt.ylabel("Loss")
+	plt.title("Loss history")
+	plt.legend(loc="best")
+	plt.grid(True)
+	plt.show()

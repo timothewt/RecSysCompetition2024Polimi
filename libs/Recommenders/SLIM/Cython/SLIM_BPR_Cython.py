@@ -6,10 +6,10 @@ Created on 07/09/17
 @author: Maurizio Ferrari Dacrema
 """
 
-from Recommenders.Recommender_utils import check_matrix
-from Recommenders.BaseSimilarityMatrixRecommender import BaseItemSimilarityMatrixRecommender
-from Recommenders.Recommender_utils import similarityMatrixTopK
-from Recommenders.Incremental_Training_Early_Stopping import Incremental_Training_Early_Stopping
+from libs.Recommenders.Recommender_utils import check_matrix
+from libs.Recommenders.BaseSimilarityMatrixRecommender import BaseItemSimilarityMatrixRecommender
+from libs.Recommenders.Recommender_utils import similarityMatrixTopK
+from libs.Recommenders.Incremental_Training_Early_Stopping import Incremental_Training_Early_Stopping
 import os, sys
 
 
@@ -73,7 +73,7 @@ class SLIM_BPR_Cython(BaseItemSimilarityMatrixRecommender, Incremental_Training_
 
 
         # Import compiled module
-        from Recommenders.SLIM.Cython.SLIM_BPR_Cython_Epoch import SLIM_BPR_Cython_Epoch
+        from .SLIM_BPR_Cython_Epoch import SLIM_BPR_Cython_Epoch
 
 
 

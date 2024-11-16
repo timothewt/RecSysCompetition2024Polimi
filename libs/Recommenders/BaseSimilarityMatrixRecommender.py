@@ -6,8 +6,8 @@ Created on 16/09/2017
 @author: Maurizio Ferrari Dacrema
 """
 
-from Recommenders.BaseRecommender import BaseRecommender
-from Recommenders.DataIO import DataIO
+from libs.Recommenders.BaseRecommender import BaseRecommender
+from libs.Recommenders.DataIO import DataIO
 import numpy as np
 
 

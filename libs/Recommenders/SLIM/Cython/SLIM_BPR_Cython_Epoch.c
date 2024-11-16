@@ -3877,7 +3877,6 @@ static const char __pyx_k_TopK_extracted_content_Passed[] = "TopK extracted cont
 static const char __pyx_k_test_topK_from_list_selection[] = "test_topK_from_list_selection";
 static const char __pyx_k_unable_to_allocate_array_data[] = "unable to allocate array data.";
 static const char __pyx_k_Bidirectional_list_link_Passed[] = "Bidirectional list link - Passed";
-static const char __pyx_k_Recommenders_Recommender_utils[] = "Recommenders.Recommender_utils";
 static const char __pyx_k_SLIM_BPR_Cython_Epoch__dealloc[] = "SLIM_BPR_Cython_Epoch._dealloc";
 static const char __pyx_k_Sparse_Matrix_Tree_CSR_dealloc[] = "Sparse_Matrix_Tree_CSR.dealloc";
 static const char __pyx_k_pyx_unpickle_SLIM_BPR_Cython_E[] = "__pyx_unpickle_SLIM_BPR_Cython_Epoch";
@@ -3923,6 +3922,7 @@ static const char __pyx_k_Triangular_Matrix___reduce_cytho[] = "Triangular_Matri
 static const char __pyx_k_Triangular_Matrix___setstate_cyt[] = "Triangular_Matrix.__setstate_cython__";
 static const char __pyx_k_Unable_to_convert_item_to_object[] = "Unable to convert item to object";
 static const char __pyx_k_got_differing_extents_in_dimensi[] = "got differing extents in dimension ";
+static const char __pyx_k_libs_Recommenders_Recommender_ut[] = "libs.Recommenders.Recommender_utils";
 static const char __pyx_k_libs_Utils_seconds_to_biggest_un[] = "libs.Utils.seconds_to_biggest_unit";
 static const char __pyx_k_no_default___reduce___due_to_non[] = "no default __reduce__ due to non-trivial __cinit__";
 static const char __pyx_k_numpy__core_multiarray_failed_to[] = "numpy._core.multiarray failed to import";
@@ -4143,7 +4143,6 @@ typedef struct {
   PyObject *__pyx_n_s_PickleError;
   PyObject *__pyx_kp_s_Processed_4_1f_in_2f_BPR_loss_is;
   PyObject *__pyx_n_s_RecSysCompetition2024Polimi_libs;
-  PyObject *__pyx_n_s_Recommenders_Recommender_utils;
   PyObject *__pyx_n_s_SLIM_BPR_Cython_Epoch;
   PyObject *__pyx_n_s_SLIM_BPR_Cython_Epoch___reduce_c;
   PyObject *__pyx_n_s_SLIM_BPR_Cython_Epoch___setstate;
@@ -4255,6 +4254,7 @@ typedef struct {
   PyObject *__pyx_n_s_k;
   PyObject *__pyx_n_s_learning_rate;
   PyObject *__pyx_n_s_li_reg;
+  PyObject *__pyx_n_s_libs_Recommenders_Recommender_ut;
   PyObject *__pyx_n_s_libs_Utils_seconds_to_biggest_un;
   PyObject *__pyx_n_s_lj_reg;
   PyObject *__pyx_n_s_local_gradient_i;
@@ -4536,7 +4536,6 @@ static int __pyx_m_clear(PyObject *m) {
   Py_CLEAR(clear_module_state->__pyx_n_s_PickleError);
   Py_CLEAR(clear_module_state->__pyx_kp_s_Processed_4_1f_in_2f_BPR_loss_is);
   Py_CLEAR(clear_module_state->__pyx_n_s_RecSysCompetition2024Polimi_libs);
-  Py_CLEAR(clear_module_state->__pyx_n_s_Recommenders_Recommender_utils);
   Py_CLEAR(clear_module_state->__pyx_n_s_SLIM_BPR_Cython_Epoch);
   Py_CLEAR(clear_module_state->__pyx_n_s_SLIM_BPR_Cython_Epoch___reduce_c);
   Py_CLEAR(clear_module_state->__pyx_n_s_SLIM_BPR_Cython_Epoch___setstate);
@@ -4648,6 +4647,7 @@ static int __pyx_m_clear(PyObject *m) {
   Py_CLEAR(clear_module_state->__pyx_n_s_k);
   Py_CLEAR(clear_module_state->__pyx_n_s_learning_rate);
   Py_CLEAR(clear_module_state->__pyx_n_s_li_reg);
+  Py_CLEAR(clear_module_state->__pyx_n_s_libs_Recommenders_Recommender_ut);
   Py_CLEAR(clear_module_state->__pyx_n_s_libs_Utils_seconds_to_biggest_un);
   Py_CLEAR(clear_module_state->__pyx_n_s_lj_reg);
   Py_CLEAR(clear_module_state->__pyx_n_s_local_gradient_i);
@@ -4907,7 +4907,6 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
   Py_VISIT(traverse_module_state->__pyx_n_s_PickleError);
   Py_VISIT(traverse_module_state->__pyx_kp_s_Processed_4_1f_in_2f_BPR_loss_is);
   Py_VISIT(traverse_module_state->__pyx_n_s_RecSysCompetition2024Polimi_libs);
-  Py_VISIT(traverse_module_state->__pyx_n_s_Recommenders_Recommender_utils);
   Py_VISIT(traverse_module_state->__pyx_n_s_SLIM_BPR_Cython_Epoch);
   Py_VISIT(traverse_module_state->__pyx_n_s_SLIM_BPR_Cython_Epoch___reduce_c);
   Py_VISIT(traverse_module_state->__pyx_n_s_SLIM_BPR_Cython_Epoch___setstate);
@@ -5019,6 +5018,7 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
   Py_VISIT(traverse_module_state->__pyx_n_s_k);
   Py_VISIT(traverse_module_state->__pyx_n_s_learning_rate);
   Py_VISIT(traverse_module_state->__pyx_n_s_li_reg);
+  Py_VISIT(traverse_module_state->__pyx_n_s_libs_Recommenders_Recommender_ut);
   Py_VISIT(traverse_module_state->__pyx_n_s_libs_Utils_seconds_to_biggest_un);
   Py_VISIT(traverse_module_state->__pyx_n_s_lj_reg);
   Py_VISIT(traverse_module_state->__pyx_n_s_local_gradient_i);
@@ -5324,7 +5324,6 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #define __pyx_n_s_PickleError __pyx_mstate_global->__pyx_n_s_PickleError
 #define __pyx_kp_s_Processed_4_1f_in_2f_BPR_loss_is __pyx_mstate_global->__pyx_kp_s_Processed_4_1f_in_2f_BPR_loss_is
 #define __pyx_n_s_RecSysCompetition2024Polimi_libs __pyx_mstate_global->__pyx_n_s_RecSysCompetition2024Polimi_libs
-#define __pyx_n_s_Recommenders_Recommender_utils __pyx_mstate_global->__pyx_n_s_Recommenders_Recommender_utils
 #define __pyx_n_s_SLIM_BPR_Cython_Epoch __pyx_mstate_global->__pyx_n_s_SLIM_BPR_Cython_Epoch
 #define __pyx_n_s_SLIM_BPR_Cython_Epoch___reduce_c __pyx_mstate_global->__pyx_n_s_SLIM_BPR_Cython_Epoch___reduce_c
 #define __pyx_n_s_SLIM_BPR_Cython_Epoch___setstate __pyx_mstate_global->__pyx_n_s_SLIM_BPR_Cython_Epoch___setstate
@@ -5436,6 +5435,7 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #define __pyx_n_s_k __pyx_mstate_global->__pyx_n_s_k
 #define __pyx_n_s_learning_rate __pyx_mstate_global->__pyx_n_s_learning_rate
 #define __pyx_n_s_li_reg __pyx_mstate_global->__pyx_n_s_li_reg
+#define __pyx_n_s_libs_Recommenders_Recommender_ut __pyx_mstate_global->__pyx_n_s_libs_Recommenders_Recommender_ut
 #define __pyx_n_s_libs_Utils_seconds_to_biggest_un __pyx_mstate_global->__pyx_n_s_libs_Utils_seconds_to_biggest_un
 #define __pyx_n_s_lj_reg __pyx_mstate_global->__pyx_n_s_lj_reg
 #define __pyx_n_s_local_gradient_i __pyx_mstate_global->__pyx_n_s_local_gradient_i
@@ -35931,7 +35931,6 @@ static int __Pyx_CreateStringTabAndInitStrings(void) {
     {&__pyx_n_s_PickleError, __pyx_k_PickleError, sizeof(__pyx_k_PickleError), 0, 0, 1, 1},
     {&__pyx_kp_s_Processed_4_1f_in_2f_BPR_loss_is, __pyx_k_Processed_4_1f_in_2f_BPR_loss_is, sizeof(__pyx_k_Processed_4_1f_in_2f_BPR_loss_is), 0, 0, 1, 0},
     {&__pyx_n_s_RecSysCompetition2024Polimi_libs, __pyx_k_RecSysCompetition2024Polimi_libs, sizeof(__pyx_k_RecSysCompetition2024Polimi_libs), 0, 0, 1, 1},
-    {&__pyx_n_s_Recommenders_Recommender_utils, __pyx_k_Recommenders_Recommender_utils, sizeof(__pyx_k_Recommenders_Recommender_utils), 0, 0, 1, 1},
     {&__pyx_n_s_SLIM_BPR_Cython_Epoch, __pyx_k_SLIM_BPR_Cython_Epoch, sizeof(__pyx_k_SLIM_BPR_Cython_Epoch), 0, 0, 1, 1},
     {&__pyx_n_s_SLIM_BPR_Cython_Epoch___reduce_c, __pyx_k_SLIM_BPR_Cython_Epoch___reduce_c, sizeof(__pyx_k_SLIM_BPR_Cython_Epoch___reduce_c), 0, 0, 1, 1},
     {&__pyx_n_s_SLIM_BPR_Cython_Epoch___setstate, __pyx_k_SLIM_BPR_Cython_Epoch___setstate, sizeof(__pyx_k_SLIM_BPR_Cython_Epoch___setstate), 0, 0, 1, 1},
@@ -36043,6 +36042,7 @@ static int __Pyx_CreateStringTabAndInitStrings(void) {
     {&__pyx_n_s_k, __pyx_k_k, sizeof(__pyx_k_k), 0, 0, 1, 1},
     {&__pyx_n_s_learning_rate, __pyx_k_learning_rate, sizeof(__pyx_k_learning_rate), 0, 0, 1, 1},
     {&__pyx_n_s_li_reg, __pyx_k_li_reg, sizeof(__pyx_k_li_reg), 0, 0, 1, 1},
+    {&__pyx_n_s_libs_Recommenders_Recommender_ut, __pyx_k_libs_Recommenders_Recommender_ut, sizeof(__pyx_k_libs_Recommenders_Recommender_ut), 0, 0, 1, 1},
     {&__pyx_n_s_libs_Utils_seconds_to_biggest_un, __pyx_k_libs_Utils_seconds_to_biggest_un, sizeof(__pyx_k_libs_Utils_seconds_to_biggest_un), 0, 0, 1, 1},
     {&__pyx_n_s_lj_reg, __pyx_k_lj_reg, sizeof(__pyx_k_lj_reg), 0, 0, 1, 1},
     {&__pyx_n_s_local_gradient_i, __pyx_k_local_gradient_i, sizeof(__pyx_k_local_gradient_i), 0, 0, 1, 1},
@@ -37813,7 +37813,7 @@ if (!__Pyx_RefNanny) {
   /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":34
  * 
  * 
- * from Recommenders.Recommender_utils import similarityMatrixTopK, check_matrix             # <<<<<<<<<<<<<<
+ * from libs.Recommenders.Recommender_utils import similarityMatrixTopK, check_matrix             # <<<<<<<<<<<<<<
  * from libs.Utils.seconds_to_biggest_unit import seconds_to_biggest_unit
  * import numpy as np
  */
@@ -37825,7 +37825,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_INCREF(__pyx_n_s_check_matrix);
   __Pyx_GIVEREF(__pyx_n_s_check_matrix);
   if (__Pyx_PyList_SET_ITEM(__pyx_t_7, 1, __pyx_n_s_check_matrix)) __PYX_ERR(0, 34, __pyx_L1_error);
-  __pyx_t_4 = __Pyx_Import(__pyx_n_s_Recommenders_Recommender_utils, __pyx_t_7, 0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 34, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_Import(__pyx_n_s_libs_Recommenders_Recommender_ut, __pyx_t_7, 0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 34, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
   __pyx_t_7 = __Pyx_ImportFrom(__pyx_t_4, __pyx_n_s_similarityMatrixTopK); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 34, __pyx_L1_error)
@@ -37840,7 +37840,7 @@ if (!__Pyx_RefNanny) {
 
   /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":35
  * 
- * from Recommenders.Recommender_utils import similarityMatrixTopK, check_matrix
+ * from libs.Recommenders.Recommender_utils import similarityMatrixTopK, check_matrix
  * from libs.Utils.seconds_to_biggest_unit import seconds_to_biggest_unit             # <<<<<<<<<<<<<<
  * import numpy as np
  * import cython
@@ -37860,7 +37860,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
   /* "RecSysCompetition2024Polimi/libs/Recommenders/SLIM/Cython/SLIM_BPR_Cython_Epoch.pyx":36
- * from Recommenders.Recommender_utils import similarityMatrixTopK, check_matrix
+ * from libs.Recommenders.Recommender_utils import similarityMatrixTopK, check_matrix
  * from libs.Utils.seconds_to_biggest_unit import seconds_to_biggest_unit
  * import numpy as np             # <<<<<<<<<<<<<<
  * import cython
