@@ -9,3 +9,4 @@ __pycache__/
 *.zip
 /.cadence/
 *-linux-gnu.so
+/notebooks/model_checkpoints/
