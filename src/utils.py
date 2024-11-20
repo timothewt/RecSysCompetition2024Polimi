@@ -157,7 +157,7 @@ def tf_idf(mat: sp.csr_matrix) -> sp.csr_matrix:
 	return mat
 
 
-def plot_losses(epochs: int, loss_history: np.ndarray | list, loss_history_val: np.ndarray | list, num_batch_per_epochs: int, other_data: tuple = None) -> None:
+def plot_losses(epochs: int, loss_history: np.ndarray | list, loss_history_val: np.ndarray | list = None, num_batch_per_epochs: int = 1, other_data: tuple = None) -> None:
 	"""Plots the losses history of a training.
 
 	:param epochs: The number of epochs
@@ -172,7 +172,8 @@ def plot_losses(epochs: int, loss_history: np.ndarray | list, loss_history_val: 
 	:type other_data: tuple
 	"""
 	plt.plot(loss_history, label="Train loss")
-	plt.plot([x * num_batch_per_epochs for x in range(epochs + 1)], loss_history_val, label="Validation loss")
+	if loss_history_val is not None:
+		plt.plot([x * num_batch_per_epochs for x in range(epochs + 1)], loss_history_val, label="Validation loss")
 	plt.xlabel("Train iteration")
 	plt.ylabel("Loss")
 	plt.title("Loss history")
