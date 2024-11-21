@@ -12,7 +12,7 @@ class CBF(RecommenderModel):
 		self.top_k: int = top_k
 		self.shrink: int = shrink
 
-	def fit(self, urm: sp.csr_matrix, icm: sp.csr_matrix, urm_val: sp.csr_matrix, **kwargs) -> None:
+	def fit(self, urm: sp.csr_matrix, icm: sp.csr_matrix, **kwargs) -> None:
 		self.urm = urm
 		self.icm = tf_idf(icm)
 

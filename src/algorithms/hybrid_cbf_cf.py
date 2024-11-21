@@ -17,13 +17,13 @@ class HybridCBFCF(RecommenderModel):
 		self.ibcf_coeff = ibcf_coeff
 		self.cbf_coeff = cbf_coeff
 
-	def fit(self, urm: sp.csr_matrix, icm: sp.csr_matrix, val_urm: sp.csr_matrix, **kwargs) -> None:
+	def fit(self, urm: sp.csr_matrix, icm: sp.csr_matrix, urm_val: sp.csr_matrix, **kwargs) -> None:
 		self.urm = urm
 		self.icm = tf_idf(icm)
 
-		self.ubcf.fit(urm, icm)
-		self.ibcf.fit(urm, icm)
-		self.cbf.fit(urm, icm)
+		self.ubcf.fit(urm, icm, urm_val)
+		self.ibcf.fit(urm, icm, urm_val)
+		self.cbf.fit(urm, icm, urm_val)
 
 	def _get_recommendations_predictions(self, user_id: int) -> np.ndarray:
 		return (

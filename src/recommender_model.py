@@ -8,9 +8,18 @@ class RecommenderModel:
 		self.icm: sp.csr_matrix | None = None
 		self.urm_pred: sp.csr_matrix | None = None
 
-	def fit(self, urm: sp.csr_matrix, icm: sp.csr_matrix, urm_val: sp.csr_matrix, **kwargs) -> None:
+	def fit(self, urm: sp.csr_matrix, icm: sp.csr_matrix, urm_val: sp.csr_matrix, progress_bar: bool = True, **kwargs) -> None:
 		"""Fits (trains) the model on the given URM and (or) ICM, depending on the algorithm. To be overridden in
 		subclasses.
+
+		:param urm: User Ratings Matrix for training
+		:type urm: sp.csr_matrix
+		:param icm: Item Content Matrix
+		:type icm: sp.csr_matrix
+		:param urm_val: User Ratings Matrix for validation
+		:type urm_val: sp.csr_matrix
+		:param progress_bar: If true, progress bar will be shown (if implemented if subclass)
+		:type progress_bar: bool
 		"""
 		raise NotImplementedError
 

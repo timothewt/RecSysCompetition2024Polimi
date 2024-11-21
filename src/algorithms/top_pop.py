@@ -10,7 +10,7 @@ class TopPop(RecommenderModel):
 		self.urm_train: sp.csr_matrix | None = None
 		self.items_popularity: np.ndarray | None = None
 
-	def fit(self, urm: sp.csr_matrix, icm: sp.csr_matrix, val_urm: sp.csr_matrix, **kwargs) -> None:
+	def fit(self, urm: sp.csr_matrix, **kwargs) -> None:
 		self.urm = urm
 		self.items_popularity = np.ediff1d(urm.tocsc().indptr)
 

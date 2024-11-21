@@ -88,10 +88,10 @@ def evaluate_model(trained_model: RecommenderModel, urm_test: sp.csr_matrix, at:
 			recommendations = trained_model.recommend(user_id, at=at)
 			cum_ap += average_precision(recommendations, y, k=at)
 
-	return cum_ap / eval_count
+	return (cum_ap / eval_count).item()
 
 
-def train_model(model: RecommenderModel, at: int = 10, test_size: float = .2, print_eval: bool = True, **kwargs) -> RecommenderModel:
+def train_model(model: RecommenderModel, at: int = 10, test_size: float = .2, print_eval: bool = True, **kwargs) -> tuple[RecommenderModel, float]:
 	"""Given a recommender model, trains it and evaluates it on test data, then returns the trained model.
 
 	:param model: The model to train, an instance of a recommender model
@@ -103,18 +103,20 @@ def train_model(model: RecommenderModel, at: int = 10, test_size: float = .2, pr
 	:type test_size: float
 	:param print_eval: Indicates if the function should print the model evaluation after training
 	:type print_eval: bool
-	:return: The fitted (trained) recommender model
-	:rtype: RecommenderModel
+	:return: The fitted (trained) recommender model and the MAP@10 score
+	:rtype: tuple[RecommenderModel, float]
 	"""
 	urm, icm = open_dataset()
 	urm_train, urm_test = train_test_split(urm, test_size=test_size)
 
 	model.fit(urm_train, icm, urm_test, **kwargs)
 
+	map_10 = 0
 	if print_eval and test_size > 0:
-		print(f"MAP@{at} evaluation of the {model.__class__.__name__} model: {evaluate_model(model, urm_test, at=at, users_to_test=.2):.5f}")
+		map_10 = evaluate_model(model, urm_test, at=at, users_to_test=.2)
+		print(f"MAP@{at} evaluation of the {model.__class__.__name__} model: {map_10:.5f}")
 
-	return model
+	return model, map_10
 
 
 def write_submission(trained_model: RecommenderModel, filename: str = "submission.csv", at: int = 10) -> None:
