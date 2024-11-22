@@ -8,7 +8,7 @@ from src.utils import open_dataset, train_test_split
 from src.utils import evaluate_model
 
 
-class HyperparameterOptimizer:
+class HyperparametersOptimizer:
 	def __init__(self, parameter_space: dict[str: list[float | int | str]], model_class: Type[RecommenderModel]):
 		self.parameter_space: dict = parameter_space
 		self.model_class = model_class

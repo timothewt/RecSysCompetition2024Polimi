@@ -109,7 +109,7 @@ def train_model(model: RecommenderModel, at: int = 10, test_size: float = .2, pr
 	urm, icm = open_dataset()
 	urm_train, urm_test = train_test_split(urm, test_size=test_size)
 
-	model.fit(urm_train, icm, urm_test, **kwargs)
+	model.fit(urm=urm_train, icm=icm, urm_val=urm_test, **kwargs)
 
 	map_10 = 0
 	if print_eval and test_size > 0:
