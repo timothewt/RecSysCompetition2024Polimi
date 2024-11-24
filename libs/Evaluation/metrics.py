@@ -56,7 +56,7 @@ class MAP(_Metrics_Object):
         assert other_metric_object is MAP, "MAP: attempting to merge with a metric object of different type"
 
         self.cumulative_AP += other_metric_object.cumulative_AP
-        self.n_users += other_metric_object.n_users
+        self.n_users += other_metric_object.num_users
 
 
 
@@ -97,7 +97,7 @@ class MAP_MIN_DEN(_Metrics_Object):
         assert other_metric_object is MAP_MIN_DEN, "MAP_MIN_DEN: attempting to merge with a metric object of different type"
 
         self.cumulative_AP += other_metric_object.cumulative_AP
-        self.n_users += other_metric_object.n_users
+        self.n_users += other_metric_object.num_users
 
 
 
@@ -137,7 +137,7 @@ class MRR(_Metrics_Object):
         assert other_metric_object is MRR, "MRR: attempting to merge with a metric object of different type"
 
         self.cumulative_RR += other_metric_object.cumulative_RR
-        self.n_users += other_metric_object.n_users
+        self.n_users += other_metric_object.num_users
 
 
 
@@ -190,7 +190,7 @@ class HIT_RATE(_Metrics_Object):
         assert other_metric_object is HIT_RATE, "HR: attempting to merge with a metric object of different type"
 
         self.cumulative_HR += other_metric_object.cumulative_HR
-        self.n_users += other_metric_object.n_users
+        self.n_users += other_metric_object.num_users
 
 
 

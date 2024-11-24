@@ -7,11 +7,11 @@
 
 import numpy as np
 import scipy.sparse as sps
-from Recommenders.Recommender_utils import check_matrix
+from libs.Recommenders.Recommender_utils import check_matrix
 from sklearn.linear_model import ElasticNet
-from Recommenders.BaseSimilarityMatrixRecommender import BaseItemSimilarityMatrixRecommender
+from libs.Recommenders.BaseSimilarityMatrixRecommender import BaseItemSimilarityMatrixRecommender
 from libs.Recommenders.Similarity.Compute_Similarity_Python import Incremental_Similarity_Builder
-from Utils.seconds_to_biggest_unit import seconds_to_biggest_unit
+from libs.Utils.seconds_to_biggest_unit import seconds_to_biggest_unit
 import time, sys
 from tqdm import tqdm
 from sklearn.utils._testing import ignore_warnings
