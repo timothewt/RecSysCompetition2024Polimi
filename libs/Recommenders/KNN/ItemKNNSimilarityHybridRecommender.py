@@ -6,8 +6,8 @@ Created on 15/04/18
 @author: Maurizio Ferrari Dacrema
 """
 
-from Recommenders.Recommender_utils import check_matrix, similarityMatrixTopK
-from Recommenders.BaseSimilarityMatrixRecommender import BaseItemSimilarityMatrixRecommender
+from libs.Recommenders.Recommender_utils import check_matrix, similarityMatrixTopK
+from libs.Recommenders.BaseSimilarityMatrixRecommender import BaseItemSimilarityMatrixRecommender
 
 
 
@@ -23,6 +23,9 @@ class ItemKNNSimilarityHybridRecommender(BaseItemSimilarityMatrixRecommender):
     def __init__(self, URM_train, Similarity_1, Similarity_2, verbose = True):
         super(ItemKNNSimilarityHybridRecommender, self).__init__(URM_train, verbose = verbose)
 
+        self.topK = None
+        self.alpha = None
+        self.W_sparse = None
         if Similarity_1.shape != Similarity_2.shape:
             raise ValueError("ItemKNNSimilarityHybridRecommender: similarities have different size, S1 is {}, S2 is {}".format(
                 Similarity_1.shape, Similarity_2.shape

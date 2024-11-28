@@ -6,8 +6,8 @@ Created on 16/09/2017
 @author: Maurizio Ferrari Dacrema
 """
 
-from Recommenders.BaseRecommender import BaseRecommender as _BaseRecommender
-from Recommenders.Recommender_utils import check_matrix
+from libs.Recommenders.BaseRecommender import BaseRecommender as _BaseRecommender
+from libs.Recommenders.Recommender_utils import check_matrix
 import numpy as np
 
 

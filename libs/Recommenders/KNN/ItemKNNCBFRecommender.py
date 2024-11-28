@@ -6,13 +6,13 @@ Created on 23/10/17
 @author: Maurizio Ferrari Dacrema
 """
 
-from Recommenders.Recommender_utils import check_matrix
-from Recommenders.BaseCBFRecommender import BaseItemCBFRecommender
-from Recommenders.BaseSimilarityMatrixRecommender import BaseItemSimilarityMatrixRecommender
-from Recommenders.IR_feature_weighting import okapi_BM_25, TF_IDF
+from libs.Recommenders.Recommender_utils import check_matrix
+from libs.Recommenders.BaseCBFRecommender import BaseItemCBFRecommender
+from libs.Recommenders.BaseSimilarityMatrixRecommender import BaseItemSimilarityMatrixRecommender
+from libs.Recommenders.IR_feature_weighting import okapi_BM_25, TF_IDF
 import numpy as np
 
-from Recommenders.Similarity.Compute_Similarity import Compute_Similarity
+from libs.Recommenders.Similarity.Compute_Similarity import Compute_Similarity
 
 
 class ItemKNNCBFRecommender(BaseItemCBFRecommender, BaseItemSimilarityMatrixRecommender):

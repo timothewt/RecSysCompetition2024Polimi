@@ -22,22 +22,27 @@ class ItemKNNCBFCFSimilarityHybridRecommender(ItemKNNSimilarityHybridRecommender
             self,
             URM_train,
             ICM_train,
+            alpha=0.5,
+            topK_hybrid=100,
             topK_knncf = 50,
             shrink_knncf = 100,
             topK_knncbf = 50,
             shrink_knncbf = 100,
-            similarity_knncbf='cosine',
+            feature_weighting_knncf = 'none',
+            feature_weighting_knncbf = 'none',
             similarity_knncf='cosine',
+            similarity_knncbf='cosine',
             verbose=True
     ):
 
         item_knncf_recommender = ItemKNNCFRecommender(URM_train=URM_train, verbose=verbose)
 
-        item_knncf_recommender.fit(topK=topK_knncf,shrink=shrink_knncf,similarity=similarity_knncf)
+        item_knncf_recommender.fit(topK=topK_knncf,shrink=shrink_knncf,similarity=similarity_knncf, feature_weighting=feature_weighting_knncf)
 
         item_knncbf_recommender = ItemKNNCBFRecommender(URM_train=URM_train, ICM_train=ICM_train, verbose=verbose)
 
-        item_knncbf_recommender.fit(topK=topK_knncbf,shrink=shrink_knncbf,similarity=similarity_knncbf)
+        item_knncbf_recommender.fit(topK=topK_knncbf,shrink=shrink_knncbf,similarity=similarity_knncbf, feature_weighting=feature_weighting_knncbf)
+
 
         super(ItemKNNCBFCFSimilarityHybridRecommender, self).__init__(
             URM_train,
@@ -45,3 +50,5 @@ class ItemKNNCBFCFSimilarityHybridRecommender(ItemKNNSimilarityHybridRecommender
             Similarity_2=item_knncbf_recommender.W_sparse,
             verbose=verbose
         )
+
+        self.fit(topK=topK_hybrid, alpha=alpha)

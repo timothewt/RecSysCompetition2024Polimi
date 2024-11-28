@@ -6,8 +6,8 @@ Created on 23/10/17
 @author: Maurizio Ferrari Dacrema
 """
 
-from Recommenders.BaseSimilarityMatrixRecommender import BaseSimilarityMatrixRecommender
-from Recommenders.KNN.UserKNNCBFRecommender import UserKNNCBFRecommender
+from libs.Recommenders.BaseSimilarityMatrixRecommender import BaseSimilarityMatrixRecommender
+from libs.Recommenders.KNN.UserKNNCBFRecommender import UserKNNCBFRecommender
 
 import scipy.sparse as sps
 import numpy as np
