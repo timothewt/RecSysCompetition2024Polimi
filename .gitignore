@@ -11,3 +11,4 @@ __pycache__/
 *-linux-gnu.so
 /notebooks/model_checkpoints/
 tw-9*.ipynb
+*.c

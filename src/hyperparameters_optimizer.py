@@ -9,9 +9,10 @@ from src.utils import evaluate_model
 
 
 class HyperparametersOptimizer:
-	def __init__(self, parameter_space: dict[str: list[float | int | str]], model_class: Type[RecommenderModel]):
+	def __init__(self, parameter_space: dict[str: list[float | int | str]], model_class: Type[RecommenderModel], users_to_test: float = .2):
 		self.parameter_space: dict = parameter_space
 		self.model_class = model_class
+		self.users_to_test = users_to_test
 
 		self.best_score: float = 0.0
 		self.best_parameters: dict = {}
@@ -33,7 +34,7 @@ class HyperparametersOptimizer:
 		model = self.model_class()
 		for parameters in (t := tqdm(parameter_combinations, postfix=self._get_summary_string())):
 			model.fit(urm=urm_train, icm=icm, urm_val=urm_test, progress_bar=False, **parameters)
-			map_10 = evaluate_model(model, urm_test)
+			map_10 = evaluate_model(model, urm_test, users_to_test=self.users_to_test)
 			if map_10 > self.best_score:
 				self.best_score = map_10
 				self.best_parameters = parameters

@@ -91,7 +91,7 @@ def evaluate_model(trained_model: RecommenderModel, urm_test: sp.csr_matrix, at:
 	return (cum_ap / eval_count).item()
 
 
-def train_model(model: RecommenderModel, at: int = 10, test_size: float = .2, users_to_test: float = 1, print_eval: bool = True, **kwargs) -> tuple[RecommenderModel, float]:
+def train_model(model: RecommenderModel, at: int = 10, test_size: float = .2, users_to_test: float = .2, print_eval: bool = True, **kwargs) -> tuple[RecommenderModel, float]:
 	"""Given a recommender model, trains it and evaluates it on test data, then returns the trained model.
 
 	:param model: The model to train, an instance of a recommender model
