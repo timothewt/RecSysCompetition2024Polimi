@@ -6,7 +6,7 @@ Created on 23/10/17
 @author: Maurizio Ferrari Dacrema
 """
 
-from libs.Recommenders.Recommender_utils import check_matrix
+from libs.Recommenders.check_matrix import check_matrix
 from libs.Recommenders.BaseCBFRecommender import BaseItemCBFRecommender
 from libs.Recommenders.BaseSimilarityMatrixRecommender import BaseItemSimilarityMatrixRecommender
 from libs.Recommenders.IR_feature_weighting import okapi_BM_25, TF_IDF

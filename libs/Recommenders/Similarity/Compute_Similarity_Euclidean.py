@@ -12,6 +12,7 @@ import scipy.sparse as sps
 from libs.Utils.seconds_to_biggest_unit import seconds_to_biggest_unit
 from libs.Recommenders.Similarity.Compute_Similarity_Python import Incremental_Similarity_Builder
 
+
 class Compute_Similarity_Euclidean:
 
     def __init__(self, dataMatrix, topK=100, shrink = 0, normalize=False, normalize_avg_row=False,

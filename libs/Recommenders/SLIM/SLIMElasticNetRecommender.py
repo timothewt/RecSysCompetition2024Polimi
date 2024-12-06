@@ -197,8 +197,6 @@ def _partial_fit(items, topK, alpha, l1_ratio, urm_shape, positive_only=True, sh
     return values, rows, cols
 
 
-
-
 class MultiThreadSLIM_SLIMElasticNetRecommender(SLIMElasticNetRecommender):
 
     def fit(self, alpha=1.0, l1_ratio=0.1, positive_only=True, topK=100,

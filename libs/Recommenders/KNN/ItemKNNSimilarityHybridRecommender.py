@@ -6,7 +6,8 @@ Created on 15/04/18
 @author: Maurizio Ferrari Dacrema
 """
 
-from libs.Recommenders.Recommender_utils import check_matrix, similarityMatrixTopK
+from libs.Recommenders.check_matrix import check_matrix
+from libs.Recommenders.Recommender_utils import similarityMatrixTopK
 from libs.Recommenders.BaseSimilarityMatrixRecommender import BaseItemSimilarityMatrixRecommender
 
 

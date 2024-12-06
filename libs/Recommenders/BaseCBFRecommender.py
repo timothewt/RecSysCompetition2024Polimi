@@ -7,7 +7,7 @@ Created on 16/09/2017
 """
 
 from libs.Recommenders.BaseRecommender import BaseRecommender as _BaseRecommender
-from libs.Recommenders.Recommender_utils import check_matrix
+from libs.Recommenders.check_matrix import check_matrix
 import numpy as np
 
 

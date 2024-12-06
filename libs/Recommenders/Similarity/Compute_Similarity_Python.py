@@ -9,7 +9,7 @@ Created on 23/10/17
 import numpy as np
 import time, sys
 import scipy.sparse as sps
-import libs.Recommenders.Recommender_utils as recommender_utils
+from libs.Recommenders.check_matrix import check_matrix
 from libs.Utils.seconds_to_biggest_unit import seconds_to_biggest_unit
 
 
@@ -180,7 +180,7 @@ class Compute_Similarity_Python:
         :return:
         """
 
-        self.dataMatrix = recommender_utils.check_matrix(self.dataMatrix, 'csr')
+        self.dataMatrix = check_matrix(self.dataMatrix, 'csr')
 
         interactionsPerRow = np.diff(self.dataMatrix.indptr)
 
@@ -211,7 +211,7 @@ class Compute_Similarity_Python:
         :return:
         """
 
-        self.dataMatrix = recommender_utils.check_matrix(self.dataMatrix, 'csc')
+        self.dataMatrix = check_matrix(self.dataMatrix, 'csc')
 
         interactionsPerCol = np.diff(self.dataMatrix.indptr)
 
@@ -279,7 +279,7 @@ class Compute_Similarity_Python:
             self.useOnlyBooleanInteractions()
 
         # We explore the matrix column-wise
-        self.dataMatrix = recommender_utils.check_matrix(self.dataMatrix, 'csc')
+        self.dataMatrix = check_matrix(self.dataMatrix, 'csc')
 
         # Compute sum of squared values to be used in normalization
         sum_of_squared = np.array(self.dataMatrix.power(2).sum(axis=0)).ravel()
@@ -292,7 +292,7 @@ class Compute_Similarity_Python:
             sum_of_squared_to_alpha = np.power(sum_of_squared + 1e-6, 2 * self.asymmetric_alpha)
             sum_of_squared_to_1_minus_alpha = np.power(sum_of_squared + 1e-6, 2 * (1 - self.asymmetric_alpha))
 
-        self.dataMatrix = recommender_utils.check_matrix(self.dataMatrix, 'csc')
+        self.dataMatrix = check_matrix(self.dataMatrix, 'csc')
 
         start_col_local = 0
         end_col_local = self.n_columns

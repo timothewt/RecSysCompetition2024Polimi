@@ -7,7 +7,7 @@
 
 import numpy as np
 from libs.Recommenders.DataIO import DataIO
-from libs.Recommenders.Recommender_utils import check_matrix
+from libs.Recommenders.check_matrix import check_matrix
 
 
 class BaseRecommender(object):
