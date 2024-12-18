@@ -6,17 +6,17 @@ Created on 24/06/2023
 @author: Maurizio Ferrari Dacrema
 """
 
-from Recommenders.DataIO import DataIO
+from libs.Recommenders.DataIO import DataIO
 import scipy.sparse as sps
 import numpy as np
 from tqdm import tqdm
-from Recommenders.BaseRecommender import BaseRecommender
-from Recommenders.Incremental_Training_Early_Stopping import Incremental_Training_Early_Stopping
+from libs.Recommenders.BaseRecommender import BaseRecommender
+from libs.Recommenders.Incremental_Training_Early_Stopping import Incremental_Training_Early_Stopping
 import torch, copy, math
 from torch.autograd import Variable
 import torch.nn.functional as f
-from Recommenders.Neural.architecture_utils import generate_autoencoder_architecture
-from Utils.PyTorch.utils import get_optimizer, clone_pytorch_model_to_numpy_dict
+from libs.Recommenders.Neural.architecture_utils import generate_autoencoder_architecture
+from libs.Utils.PyTorch.utils import get_optimizer, clone_pytorch_model_to_numpy_dict
 
 def from_sparse_to_tensor(A_tilde):
     A_tilde = sps.coo_matrix(A_tilde)
@@ -377,12 +377,10 @@ class MultVAERecommender_PyTorch(BaseRecommender, Incremental_Training_Early_Sto
         self._print("Loading complete")
 
 
-
-
-
-
-
 class MultVAERecommender_PyTorch_OptimizerMask(MultVAERecommender_PyTorch):
+
+    def __init__(self, URM_train, use_gpu=False, verbose=False):
+        super().__init__(URM_train, use_gpu, verbose)
 
     def fit(self, epochs=10,
             batch_size=500,
@@ -396,14 +394,17 @@ class MultVAERecommender_PyTorch_OptimizerMask(MultVAERecommender_PyTorch):
             next_layer_size_multiplier = 2,
             max_parameters = np.inf,
             max_n_hidden_layers = 3,
+            p_dims = None,
             **earlystopping_kwargs):
 
         assert next_layer_size_multiplier > 1.0, "next_layer_size_multiplier must be > 1.0"
         assert encoding_size <= self.n_items, "encoding_size must be <= the number of items"
 
-        p_dims = generate_autoencoder_architecture(encoding_size, self.n_items, next_layer_size_multiplier, max_parameters, max_n_hidden_layers)
+        if p_dims is None:
+            p_dims = generate_autoencoder_architecture(encoding_size, self.n_items, next_layer_size_multiplier, max_parameters, max_n_hidden_layers)
 
         self._print("Architecture: {}".format(p_dims))
+
 
         super(MultVAERecommender_PyTorch_OptimizerMask, self).fit(epochs=epochs, batch_size=batch_size, dropout=dropout, learning_rate=learning_rate,
                 total_anneal_steps=total_anneal_steps, anneal_cap=anneal_cap, p_dims=p_dims, l2_reg=l2_reg, sgd_mode=sgd_mode,

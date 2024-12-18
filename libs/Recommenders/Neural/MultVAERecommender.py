@@ -14,13 +14,13 @@ import os,  shutil, zipfile
 
 import numpy as np
 from scipy import sparse
-from Recommenders.Neural.architecture_utils import generate_autoencoder_architecture
+from libs.Recommenders.Neural.architecture_utils import generate_autoencoder_architecture
 
 
-from Recommenders.BaseRecommender import BaseRecommender
-from Recommenders.BaseTempFolder import BaseTempFolder
-from Recommenders.Incremental_Training_Early_Stopping import Incremental_Training_Early_Stopping
-from Recommenders.DataIO import DataIO
+from libs.Recommenders.BaseRecommender import BaseRecommender
+from libs.Recommenders.BaseTempFolder import BaseTempFolder
+from libs.Recommenders.Incremental_Training_Early_Stopping import Incremental_Training_Early_Stopping
+from libs.Recommenders.DataIO import DataIO
 
 
 

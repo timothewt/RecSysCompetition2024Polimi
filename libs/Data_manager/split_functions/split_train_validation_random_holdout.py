@@ -8,7 +8,7 @@ Created on 23/04/2019
 
 import numpy as np
 import scipy.sparse as sps
-from Data_manager.IncrementalSparseMatrix import IncrementalSparseMatrix
+from libs.Data_manager.IncrementalSparseMatrix import IncrementalSparseMatrix
 
 
 def split_train_in_two_percentage_user_wise(URM_train, train_percentage = 0.1, verbose = False):
