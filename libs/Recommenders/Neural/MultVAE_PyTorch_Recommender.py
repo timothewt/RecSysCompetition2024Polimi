@@ -389,7 +389,7 @@ class MultVAERecommender_PyTorch_OptimizerMask(MultVAERecommender_PyTorch):
             l2_reg=0.01,
             dropout=0.5,
             anneal_cap=0.2,
-            sgd_mode = "adam",
+            sgd_mode = "adam",pip install xgboost
             encoding_size = 50,
             next_layer_size_multiplier = 2,
             max_parameters = np.inf,
