@@ -6,7 +6,7 @@ submissions/
 .DS_Store
 /__pycache__/*
 __pycache__/
-*.zip
+.zip
 /.cadence/
 *-linux-gnu.so
 /notebooks/model_checkpoints/
