@@ -9,8 +9,8 @@ import subprocess, os, shutil
 import numpy as np
 from tqdm import tqdm
 
-from Recommenders.BaseRecommender import BaseRecommender
-from Recommenders.Recommender_utils import check_matrix
+from libs.Recommenders.BaseRecommender import BaseRecommender
+from libs.Recommenders.Recommender_utils import check_matrix
 
 
 class SVDFeature(BaseRecommender):
@@ -26,6 +26,7 @@ class SVDFeature(BaseRecommender):
 
         super(SVDFeature, self).__init__(URM_train)
 
+        self.temp_file_folder = None
         self.URM_train = check_matrix(URM_train, "csr")
         self.ICM = ICM
         self.UCM = UCM
@@ -119,6 +120,7 @@ class SVDFeature(BaseRecommender):
 
         nnz_rows, nnz_cols = self.URM_train.nonzero()
 
+        print(self.temp_file_folder + self.FILE_MODEL_NAME)
         with open(self.temp_file_folder + self.FILE_MODEL_NAME, "w") as fileout:
 
             for i in tqdm(range(len(nnz_rows))):
@@ -151,7 +153,7 @@ class SVDFeature(BaseRecommender):
 
         print("SVDFeature: Fit starting")
 
-        args = ["svd_feature_train",
+        args = ["./result_experiments/__Temp_SVDFeature/svd_feature_train",
                 #"active_type=3",
                 "input_type=1",
                 "data_in={}".format(self.temp_file_folder + self.FILE_MODEL_NAME),

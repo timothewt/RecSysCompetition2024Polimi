@@ -100,7 +100,7 @@ def compute_W_sparse_from_item_latent_factors(ITEM_factors, topK = 100):
     return similarity_builder.get_SparseMatrix()
 
 
-from Recommenders.BaseSimilarityMatrixRecommender import BaseItemSimilarityMatrixRecommender
+from libs.Recommenders.BaseSimilarityMatrixRecommender import BaseItemSimilarityMatrixRecommender
 
 class PureSVDItemRecommender(BaseItemSimilarityMatrixRecommender):
     """ PureSVDItemRecommender
