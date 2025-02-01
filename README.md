@@ -2,7 +2,7 @@
 
 
 <p align="center" style="background-color: white; padding: 10px;">
-  <img src="images/polimi.png" alt="Polimi Image" />
+  <img src="images/polimi2.png" alt="Polimi Image" />
 </p>
 
 [Link to competition](https://www.kaggle.com/competitions/recommender-system-2024-challenge-polimi/overview)
@@ -82,8 +82,10 @@ Our best private solution was xgboost, which used as features:
 * [Recommender System Challenge 2023/2024 Polimi](https://github.com/FrancescoZanella/RecSystems)
 * [Recommender Systems 2020 Challenge](https://github.com/Alexdruso/recsys-challenge-2020-polimi)
 
-## Advanced Theory Exam
-In addition we provide file, with summary of all...
+## Advanced Theory Exam  
+In addition, we provide a file with a summary of all advanced topics.  
+[Download the summary (PDF)](AdvancedExam/RS-exam.pdf)
+
 
 ## Team
 * Iusupov Safuan [Telegram](https://t.me/IusupovSafuan) | [GitHub](https://github.com/SAFUANlip) | safuan.iusupov@mail.polimi.it
